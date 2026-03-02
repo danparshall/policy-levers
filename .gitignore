@@ -40,3 +40,6 @@ data/processed/**
 
 # VS Code workspace (user-specific)
 *.code-workspace
+
+# Project instructions (local only)
+_PROJECT_INSTRUCTIONS.md

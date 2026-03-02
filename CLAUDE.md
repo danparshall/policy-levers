@@ -4,6 +4,8 @@
 
 Identify and prioritize outreach to U.S. policy makers (Congress, federal agencies, regulatory bodies) on AI economic impact and safety issues. The goal is to build comprehensive profiles and determine whom to inform, in what order, and with what messaging.
 
+Often this repo is documentation and notes, for which you don't need to create a separate worktree.  But if you're doing large-scale tasks programatically, then you should follow standard Nori workflow.  A good rule of thumb is that if you're writing actual code, you should be using TDD on a worktree.
+
 ## Scope
 
 - **Congress**: All 535 members (100 senators, 435 representatives). Key data: committee assignments, voting records on tech/AI, public statements, staff contacts, receptiveness.
