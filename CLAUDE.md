@@ -48,3 +48,17 @@ policy_levers/
 - Use `uv` for dependency management (not pip directly)
 - Keep data files out of git (use .gitignore patterns); small reference/lookup tables go in `data/reference/`
 - Notebooks are for exploration only; production logic belongs in `src/`
+
+## Research Documentation
+
+Source literature for this project's AI-economic-impact reasoning lives alongside the code:
+- `papers/` — source PDFs
+- `papers/text/` — extracted text (for search/discussion without re-parsing)
+- `PAPER_INDEX.md` — one-line entry per paper
+- `PAPER_SUMMARIES.md` — detailed summaries with key findings
+
+For active research lines (as opposed to the core outreach code):
+- `docs/active/<branch>/` — research lines in progress, with `convos/`, `plans/`, `results/`, `RESEARCH_LOG.md`
+- `docs/historical/<topic>/` — archived lines; do NOT read unless explicitly asked. `STATUS.md` lists what's there.
+
+Epistemic norms: research findings are provisional. Don't treat prior docs as settled truth. Read `RESEARCH_LOG.md` to understand the trajectory of thinking on a research line.

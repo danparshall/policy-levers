@@ -1,0 +1,2207 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Working Paper 
+(Artificial) Intelligence 
+saturation and the future of 
+work 
+______________________________________________________ 
+Konrad Kording and Ioana Marinescu 
+ 
+ 
+This working paper is available online at: https://www.brookings.edu/center/center-on-regulation-and-markets/ 
+ 
+The Center on Regulation and Markets at Brookings creates 
+and promotes rigorous economic scholarship to inform 
+regulatory policymaking, the regulatory process, and the 
+efficient and equitable functioning of economic markets. The 
+Center provides independent , non -partisan research on 
+regulatory policy, applied broadly across microeconomic fields. 
+November 2025 
+ 
+
+
+ 
+Disclosure 
+The Brookings Institution is committed to quality, independence, and impact. We are supported by a 
+diverse array of funders. In line with our values and policies, each Brookings publication represents the sole 
+views of its author(s). 
+
+(Artificial) Intelligence Saturation and the Future of
+Work
+Konrad Kording and Ioana Marinescu
+November 10, 2025
+Abstract
+Macroeconomic models typically treat AI as just another form of capital, and
+predict a slowly evolving world, while computer science scaling laws applied to the
+whole economy predict explosive growth and the potential for a singularity-like event.
+Both views gloss over the asymmetric reality that intelligence capital or AI scales at
+computer-science speeds, whereas physical capital and labor do not. What’s missing is
+a unified, parameter-driven framework that can nest assumptions from both economics
+and computer science to generate meaningful predictions of AI’s wage and output im-
+pacts. Here we use a constant elasticity of substitution (CES) production function
+framework that separates physical and intelligence sectors. Whereas physical capabil-
+ities let us affect the world, intelligence capabilities let us do this well: the two are
+complementary. Given complementarity between the two sectors, the marginal returns
+to intelligence saturate, no matter how fast AI scales. Because the price of AI capital is
+falling much faster than that of physical capital, intelligence tasks are automated first,
+pushing human labor toward the physical sector. The impact of automation on wages
+is theoretically ambiguous and can be non-monotonic in the degree of automation. A
+necessary condition for automation to decrease wages is that the share of employment
+in the intelligence sector decreases; this condition is not sufficient because automation
+can raise output enough to offset negative reallocation effects. In our baseline simu-
+lation, wages increase and then decrease with automation. Our interactive tool shows
+how parameter changes shift that trajectory. Wage decreases are steeper at high levels
+of automation when the outputs of the physical and intelligence sectors are more sub-
+stitutable. After full automation, more AI and more physical capital increase wages, a
+classic prediction from standard production functions in capital and labor. Yet, when
+intelligence and physical are complementary, the marginal wage impact of AI capital
+saturates as AI grows large. More broadly, the model offers a structured way to map
+contrasting intuitions from economics and computer science into a shared parameter
+space, enabling clearer policy discussions, and guiding empirical work to identify which
+growth and wage trajectories are plausible.
+1 Introduction
+The power of new AI technologies became apparent to the public when OpenAI released
+ChatGPT in November of 2022, and the advent of capable large language models ushered
+1
+
+a new era of uncertainty (and therefore debate) about the future of work. This debate is
+dominated by two groups with rather different ways of thinking, AI experts and economists.
+This paper is co-written by one author from each field and aims at providing a high-level
+consensus by moving the debate from disagreement about outcomes to disagreements about
+parameters.
+On the one hand, many tech experts boldly predict that most human labor can be
+replaced by AI, ushering an astounding new era of economic growth – sometimes dubbed
+“singularity” (Kurzweil, 2005). This stance is probably culturally driven by the fact that
+many indicators in AI are exponential with very short doubling times (Denning et al., 2016),
+often of the order of months (Appenzeller, 2024). If computers can become twice as fast
+every two years and tokens for large language models can become half the price within a few
+months, why shouldn’t the economy undergo similar trajectories?
+On the other hand, many economists cautiously foresee a more vanilla future: AI is a
+general purpose technology embodied in a new form of capital, with positive but ultimately
+limited effects on growth, and with some negative but ultimately transitory effects on workers
+whose work is substitutable with AI capital. Economists arrived at this stance observing a
+slow but steady growth since the dawn of the Industrial Revolution, partially driven by an
+accumulation of general purpose technologies such as electricity (Gordon, 2016), and more
+generally an innovation economy (Aghion et al., 2015).
+Which view is closer to the truth is highly consequential for workers’ welfare and for
+policy. If the full labor replacement view is closer to the truth, sweeping new policies may be
+needed to ensure that displaced workers can continue to receive an income. If the new but
+limited general purpose technology view is correct, there is less concern about the future of
+work, while policies to smooth the adaptation to the new technology may still be in order.
+We tackle the overarching question: When does automating intelligence tasks help workers,
+and when does it harm them? And what are the relevant timescales?
+Here we aim to use economic theory to bridge the two views and illustrate plausible
+scenarios. Following the takes of the AI folks, we allow AI to replace humans in many tasks:
+specifically, we assume AI may fully replace humans in intelligence tasks, i.e. those that can
+be done in a disembodied way, or virtually. These disembodied intelligence tasks plausibly
+represent a large share of all tasks, since 60% of workers could telework at the height of the
+COVID-19 pandemic (Barrero et al., 2021). We also acknowledge that there are domains
+where the production of artificial intelligence capital may grow at rates typical in computer
+science but unheard of in economics.
+Following the takes of the economics folks, we argue that the marginal returns to in-
+telligence saturate because intelligence is complementary with physical inputs. This idea
+parallels standard economic reasoning about capital–labor complementarity, and it helps ex-
+plain why rapid improvements in AI may have bounded growth and wage effects. Evidence
+to date regarding the returns to intelligence is consistent with this view. For instance, some
+research shows that higher IQ individuals are not proportionately more successful (Terman
+and Oden, 1947), and, in fact, cognitive ability slightly declines with earnings among the
+very highest earners (Keuschnigg et al., 2023). Scientific research shows decreasing returns:
+more researchers and publications yield smaller contributions to science (Jones, 2009; Park
+et al., 2023) and to economic growth (Bloom et al., 2020). This evidence pertains to the
+effect of human capital, but the effects of adding more intelligence-producing capital also
+2
+
+Physical
+Production
+P = f(LP , KP )
+Intelligence
+Production
+I = f(LI , KI)
+Total
+Labor (L)
+Overall
+Production
+Y = f(P, I)
+LP LI
+Figure 1: Production framework with endogenous labor allocation. Total labor (L) is allo-
+cated between physical production and intelligence production sectors, with shares LP and
+LI respectively. Both sectors combine labor with capital to produce intermediate inputs
+physical P and intelligence I, which then combine to generate overall production Y .
+suggest decreasing returns. The Information and Communication Technologies (ICT) revo-
+lution brought dramatic cost declines yet only moderate contributions to economic growth
+(Venturini, 2009; Spiezia, 2012; Eden and Gaggl, 2018). Finally, recent advances in AI
+(Large Language Models) have so far yielded small productivity increases across the econ-
+omy (Humlum and Vestergaard, 2025; Bick et al., 2025). We develop these ideas and review
+the evidence more thoroughly in Section 2, where we formally distinguish physical from
+intelligence production and introduce the concept of intelligence saturation.
+The key focus of our paper is on intelligence saturation due to physical-intelligence com-
+plementarity. The idea is that you build things through physical means, and intelligence can
+at best make you maximally efficient at that. Both physical and intelligence components are
+needed in production. To illustrate, take education: it has both a physical and an intelligence
+component. Quality education has a physical component (co-located interaction, classroom
+management, hands-on activities) that many learners benefit from, even when materials
+are excellent. Consequently, COVID-19 lockdowns negatively impacted student academic
+performance (Cort´ es-Albornoz et al., 2023), and districts with virtual learning fared signifi-
+cantly worse (Jack et al., 2023). Therefore, we need teachers and classrooms – the physical
+component. Of course, education also has an intelligence component: the teaching materials.
+AI could improve teaching materials, but it is likely that such improvements would saturate
+as the teacher ultimately needs to deliver the materials effectively, and the classroom setup
+needs to be conducive to learning. Similarly, the production of cars needs machines and
+controllers, the production of health requires physical components and intelligence compo-
+nents, and the production of food requires a cook and a recipe. Smarter controllers can
+raise throughput and reduce scrap, but mechanical limits, safety, and line balance bound the
+gains. Clinical productivity can improve with better triage, documentation, and decision
+support, but is ultimately bounded by physical throughput and safety. And as far as we
+know there are no recipes that dramatically improve the enjoyment we get out of food. We
+see intelligence saturation as unfolding across the many tasks in the economy.
+To capture these insights, our theoretical approach uses an aggregate production function
+(how the output of the economy depends on inputs like labor) that takes a Constant Elasticity
+of Substitution (CES) form over the outputs of the physical and intelligence sectors. The
+3
+
+two sectors are assumed to be complementary in our baseline scenario. Each sector uses its
+own type of capital, i.e. Physical and Intelligence capital, augmented by human labor that
+is assumed to flow freely between the two sectors. The resulting model (see Figure 1), a
+nested CES type model, allows us to then quantify how changing AI inputs, both in terms
+of which tasks can be automated and how much AI capital accumulates over time, affects
+production and wages.
+We make the standard assumption about capital-labor substitution. In intelligence tasks,
+AI and labor are good substitutes, like in the task model of Acemoglu and Restrepo (2018);
+Acemoglu et al. (2024) also used by Jones and Liu (2024); Korinek and Suh (2024). The
+difference is that we only assume good substitution for intelligence tasks, not for all tasks.
+We assume that substitution is considerably harder in the physical domain. The scaling of
+capabilities of robots with their limited bodies is simply much slower (Korus, 2019) than
+the scaling of pure intelligence (Samborska, 2025; Lu, 2025). This asymmetric treatment of
+capital-labor substitution in intelligence vs physical tasks mirrors the long-run differences in
+learning curves in the two areas.
+We find that increasing automation of intelligence tasks increases the share of workers
+in the physical sector when physical and intelligence outputs are less substitutable than are
+intelligence tasks among themselves (a sufficient condition formalized in Lemma A.1; roughly
+ρ ≲ ρI/θI). Stronger decreasing returns in the intelligence sector (smaller θI) make this sec-
+toral shift even more likely. The effect of automation on wages is theoretically ambiguous and
+depends on two forces: (i) how much automation raises intelligence output and, ultimately,
+overall output (the scale effect), and (ii) how much the employment share in the physical
+sector rises (the reallocation effect). When the first force dominates, wages increase; when
+the second dominates, they decrease (see equations (18) and (21)). Based on examining the
+intelligence sector alone, a sufficient condition for wages to fall is that the (weighted) de-
+crease in the share of employment in the intelligence sector exceeds the automation-induced
+growth of the intelligence sector output (Eq. (26)). In our model and given our assumptions,
+if automation does not increase the physical employment share (or decrease the share of
+employment in the intelligence sector), wages cannot fall. This offers a useful empirical test
+as a minimal condition for additional automation to potentially decrease wages.
+We parameterize our model using calibration for parameters that can be readily estimated
+in the economics literature; other parameter values are intended to be illustrative. For the
+substitutability between physical and intelligence, we use the same elasticity of substitution
+as between labor and capital in the manufacturing sector (Oberfield and Raval, 2021), which
+means that intelligence and physical outputs are complements and the impact of additional
+intelligence on output and wages saturates when all other factors of production are held
+fixed. Under our baseline parameters, we find that automation in the intelligence sector first
+increases and then decreases wages: at first, productivity gains in intelligence more than
+offset the wage pressure from workers crowding into fewer tasks, but eventually the negative
+effects dominate as most workers get iced out of intelligence tasks. This result presents a
+cautionary tale: initial wage increases could turn into wage declines as automation progresses.
+We then analyze the dependency of the model on parameter changes focusing on effects of
+automation on wage and production, and on parameters that can be empirically estimated.
+To help readers intuit the interacting components of our model we make available an inter-
+active tool, with the code available on github, that makes it easy to analyze the effect of the
+4
+
+various parameters. Stronger decreasing returns in intelligence dampen positive wage effects
+of automation. Lower substitutability between intelligence tasks within the intelligence sec-
+tor leads to a more pronounced hump-shaped pattern in wages as automation progresses.
+The interactions between the physical and intelligence sectors are critical for the impact of
+automation on wages and output because workers crowd in the physical sector as automation
+progresses. Higher substitutability between the physical and intelligence sectors makes the
+wage effects of high automation more negative (at high levels of automation) but the output
+effects more positive. Intuitively, it is bad for wages if physical goods and in person services
+can easily be substituted with fully disembodied or virtual intelligence products. But from
+the output perspective, the conclusions are opposite: for the economy to maximally benefit
+from automation and AI, we need more substitution between the outputs of the physical and
+intelligence sectors. While intelligence tasks are still being automated, this situation would
+allow the economy to be dominated by the intelligence sector where AI can contribute the
+most to productivity.
+Finally, we simulate scenarios in which the stock of AI capital keeps expanding while
+automation unfolds, and expands further beyond full automation of all intelligence tasks.
+If AI capital doubles every six months — a pace reminiscent of recent GPU-cost curves —
+wages no longer trace the hump-shaped path of our baseline: they rise monotonically during
+the automation phase and ultimately saturate sometime after AI has replaced all workers
+in the intelligence sector. When AI growth is slower, doubling every 24 months, and when
+physical and intelligence products are substitutes rather than complements, wages increase
+and then decrease with automation, just as in our baseline scenario with fixed AI capital.
+In this substitutable intelligence-physical case, wages can grow without bound after full
+automation, as further AI accumulation increases output, despite fixed physical production.
+The simulations thus spotlight a core property of the CES structure: with complementary
+physical and intelligence sectors, the marginal product of AI and its wage impact quickly
+saturate, whereas with substitutable sectors, ongoing AI growth can sustain wage gains long
+after full automation of intelligence tasks.
+Our analysis helps frame disagreements between economists and AI experts about the
+impact of AI on the economy in general, and on the labor market in particular. To have a
+“doom” view about the impact of automation on wages as we approach full automation, you
+need to think that the outputs from the physical and intelligence sectors are substitutable.
+The picture is somewhat different in the very long run, past full automation of intelligence
+production: if you are bullish about the impact of AI on output and wages in the long run,
+you need to think that intelligence and physical sectors are highly substitutable or that tech-
+nological progress progressively turns physical tasks into virtual intelligence ones, effectively
+raising substitutability over time. If, instead, intelligence saturates because the two sectors
+remain complements, automation still raises wages at first but the gains eventually saturate
+as additional AI capital yields diminishing returns. Broadly speaking, economists can ratio-
+nalize their view of a mild AI impact by assuming that intelligence and physical sectors are
+complementary, while AI experts can justify their transformative, singularity-like expecta-
+tions by treating the two as substitutes, that is, by assuming physical tasks can readily be
+replaced by intelligence tasks.
+From a policy perspective, our model suggests that reducing potential negative effects of
+automation on wages could be accomplished by slowing down automation while stimulating
+5
+
+investing in physical capital. Slowing down automation obviously reduces potential wage
+losses but is costly in terms of foregone growth (but less costly the more intelligence satura-
+tion there is), and it could be seen as gaining time to make necessary investments in physical
+capital. Physical capital investments are helpful because they increase the marginal produc-
+tivity of labor in the physical sector, and therefore prop up wages as workers transition into
+the physical sector. An additional policy lever would be the taxing of virtual substitutes
+to in-person services or physical goods, at least while automation is ongoing. Such a policy
+would prevent increasing substitutability between physical and intelligence sectors, which
+would increase the extent to which workers in the physical sector benefit from increasing
+automation.
+We make three contributions to the literature. First, we offer a conceptual classification
+of tasks that distinguishes embodiment from cognition. This classification is related to
+but different from that of classifying tasks into routine vs non-routine and cognitive vs
+manual tasks (Autor et al., 2003). Specifically, we divide production into physical and
+intelligence sectors. All manual jobs from Autor et al. (2003) are physical in our classification,
+but some cognitive jobs are also physical if they require in-person execution or yield a
+uniquely differentiated in-person output. For instance, surgery, live courtroom advocacy, or
+in-classroom teaching are cognitively intensive yet physical in our sense. This reclassification
+isolates automation constraints due to embodiment from those due purely to cognition,
+enabling us to model asymmetric substitution elasticities between physical and intelligence
+sectors and making it possible to capture “intelligence saturation” when the two sectors are
+complements.
+Second, we introduce the concept of “intelligence saturation” and embed it into standard
+economics modeling. We add to the macro growth and production function literature (Ray
+et al., 2022) by considering the role of intelligence as a specific capital input into production
+rather than an overall technology factor. Our nested CES structure captures the diminish-
+ing marginal productivity of intelligence that arises from its complementarity with physical
+inputs. We use the structure of prior automation models (Acemoglu and Restrepo, 2018;
+Acemoglu et al., 2024; Jones and Liu, 2024; Korinek and Suh, 2024) for the production of
+the intelligence sector. However, those models apply a uniform substitution structure to the
+whole economy: labor and capital are perfect substitutes within each task, while all tasks
+are gross complements, with substitution across tasks governed by a single parameter. By
+introducing the physical sector in a nested CES specification, we relax this uniformity con-
+straint, allowing substitution patterns to differ within the physical and intelligence sectors
+and between them. This flexibility is essential for capturing “intelligence saturation” and
+for showing how complementarity between the intelligence and physical sectors can bound
+the growth and wage effects of rapid AI progress. This economic substitution mechanism
+explains why rapid gains in AI capability – well documented in computer science – need not
+translate into unbounded economic growth. In doing so, the model clarifies a central source
+of disagreement between AI experts who focus on AI’s fast learning curves and economists
+who are attentive to diminishing returns from complementary constraints.
+Third, our model presents a unifying, parameterized framework for automation’s wage
+effects, with a corresponding interactive tool. By embedding asymmetric automation into a
+macro framework, we can show parameter ranges under which wages rise or fall, in terms
+of e.g. substitution elasticities and factor shares. This allows varying perspectives from
+6
+
+economists and AI experts to be expressed as different points in the same parameter space,
+turning disagreements about outcomes into disagreements about measurable parameters.
+In section 2, we discuss the background behind the assumption of intelligence saturation.
+In section 3, we discuss the modeling setup, and the theoretical impacts of automation and
+AI on wages (in section 3.4). We provide model simulations in section 4. Our discussion is
+in section 5. Finally, section 6 concludes.
+2 Why intelligence saturation
+2.1 Physical vs. intelligence sectors and scaling
+The division of the economy into labor and capital inputs has served the economics discipline
+well for decades, why do we need to also divide it into physical and intelligence sectors? First,
+we introduce the distinction between physical effectors and intelligence based on insights
+from neuroscience and robotics. Then, we make the argument that physical and intelligence
+production at this point of time in history scale in fundamentally different ways, and that,
+therefore, this distinction is necessary to drive meaningful predictions about AI.
+We see fundamental differences between physical and intelligence sectors based on models
+of control in robotics (Roy et al., 2021), psychology, and neuroscience (Segado et al., 2025).
+Within these areas, we talk about effectors. An effector can be thought of as something
+physical that has an effect on the world. An arm is an effector. As is the shovel of an
+excavator. Effectors have the capability to change the physical world. More and bigger
+effectors have the capability of changing the world more rapidly. And for every effector and
+task, we use intelligence to make these changes be as positive for us as possible (Wolpert
+et al., 2003), and that is what AI is about. More intelligence allows the effectors to be
+less wasteful. Consistent with this distinction, recent papers using actual Large Language
+Models (LLM) data from Anthropic’s Claude (Handa et al., 2025) and Microsoft’s Copilot
+(Tomlinson et al., 2025) show that these tools tend to be both less used and less applicable in
+physical occupations like transportation and material moving, food preparation and serving,
+or healthcare support.
+Taking this distinction between physical and intelligence to a production function frame-
+work in economics, both effectors and intelligence can be supplied by either capital or labor.
+It is important to consider how these different sectors scale because it will determine which
+ones can be used most efficiently to accomplish a certain task or produce a final good.
+Computer science has long scaled in a way that is entirely different from the scaling of the
+rest of the economy. Moore’s law states that the number of transistors on a microprocessor
+doubles every 2 years. And while the traditional Moore’s law has ended, the tendency of
+computers to become roughly twice as fast every other year is continuing (Leiserson et al.,
+2020). This scaling has been going on for more than 70 years. Microprocessors are now
+rapidly getting better through other channels, e.g. multicores (Smith, 2023). Computation
+thus becomes cheaper, roughly by a factor of two every two years (see Figure 3 in Nordhaus,
+2007). This rapid scaling prompted computer science experts to focus on how scaling affects
+algorithms and systems.
+Recent cost/performance scaling in AI has often been steeper than in general-purpose
+7
+
+computing. At the moment, for a given task that AI can solve, e.g. text generation, the
+price decreases rapidly. The price currently halves roughly every 6 months (DeepLearning.AI,
+2024). These decreases come from multiple sources. First, compute becomes cheaper by a
+factor of two roughly every two years (see Figure 3 in Nordhaus, 2007). Second, compute
+becomes cheaper in terms of energy, with energy efficiency improving roughly two orders
+of magnitude per decade (Koomey et al., 2011). Third, improving AI algorithms makes
+running AI cheaper (Hernandez and Brown, 2020). There are no indications that this trend
+is changing (Guo et al., 2025). Clearly the price of AI is decreasing exponentially at a rate
+much faster than most inputs in the economy. The fact that AI is getting cheaper so fast
+makes it more and more economically advantageous to use AI for all tasks where it can be
+used.
+We can also talk about the scaling of labor and capital. Labor in the US is increased
+through population growth (currently less than 1% per year, see Congressional Budget Office,
+2025) and the supply of higher quality labor (but increases in years of schooling have been
+slowing (Autor et al., 2020)). Capital input increased 3.4% per year between 1987 and 2024,
+and 2.9% in 2024 (Bureau of Labor Statistics Total Factor Productivity data). Relatively to
+the breakneck speed of AI developments, the other economic inputs are essentially stationary.
+A special case of the scaling of capital is the scaling of robotics; progress at this endeavor
+could make human physical labor far more substitutable. However, the price of robots,
+like that of most goods, tends to rather decrease as a power law than exponential. For
+example, the average price of industrial robots decreased from more than $100k to about
+$20k from 1995 to 2025 (in 2015 dollars) and the decrease is slowing down considerably
+(ARK Investment Management LLC, 2021). Generally, when it comes to physical goods like
+household appliances, prices tend to transition from an early phase of rapid price decline
+towards a slower longer run price decline (Greenwood et al., 2005).
+Thus, AI scales much faster than labor, capital or even robots. This has two main
+implications for modeling. First, the incentives for replacing humans by different types of
+inputs are starkly different: because AI becomes cheaper much faster, it becomes much more
+advantageous to replace labor by AI when possible. This leads us to focus our modeling on
+AI-labor substitution. Second, in comparison to AI, other inputs are stationary, so it makes
+sense to focus on what happens when AI is abundant and/or scales up quickly.
+2.2 From complementarity to intelligence saturation
+The distinction between effectors and intelligence naturally leads to the idea that intelligence
+saturates, in the sense that adding infinitely more intelligence does not lead to infinitely bet-
+ter results for given effectors - the losses from inefficiencies go away with enough intelligence.
+With perfect intelligence, effectors are used at their physical and institutional limits; be-
+yond that, additional intelligence yields no more returns. In other terms, effectors act as a
+bottleneck. In this AI focused framework, intelligence saturation is natural.
+Traditionally, economists discuss the production function in terms of capital and labor
+inputs. In a simplified way, you could think of capital as effectors and labor as intelligence.
+This view acknowledges that the production of goods usually has a component that requires
+capital, say trucks, or desks, and a component that requires labor, say driving those trucks
+or solving computer science problems on those desks. Capital is usually abbreviated as
+8
+
+K while labor is abbreviated as L. Popular conceptualizations of their interactions then
+give rise to production functions for goods or tasks: the amount of goods produced in a
+task i is a function of the amounts of capital Ki and labor Li allocated to it. The micro
+or local production function for tasks is then Yi = f(Ki, Li). Economists usually assume
+that capital and labor are not perfectly substitutable, e.g. through a CES function (likeh
+α Kρ
+i + (1 − α) Lρ
+i
+i1/ρ
+) 1. The intuition behind this function is that adding more capital
+or more labor both increase output, but the two are not perfectly substitutable, so that
+the marginal productivity of either decreases when the other is held fixed; the elasticity of
+substitution is regulated by ρ.
+It is commonly assumed that capital and labor are complements, which is supported by
+firm-level empirical evidence (Oberfield and Raval, 2021). Saying that capital and labor are
+complements in a CES production function means that ρ < 0, and this leads to saturation
+of production (convergence to a finite limit) when capital goes to infinity as the labor input
+remains fixed. Thus, the idea of saturation is already baked in to commonly used production
+functions in economics, and is a direct consequence of capital-labor complementarity.
+The key insight here is that intelligence saturation naturally follows from commonly used
+production functions. If we model production as a CES function of physical and intelligence
+sector outputs, and assume the two are complements, intelligence saturation occurs.
+2.3 Intelligence saturation: empirical evidence
+Decreasing returns to individual intelligence. While cognitive ability predicts achieve-
+ment and earnings, the correlation is far from perfect. In fact, cognitive ability slightly de-
+clines with earnings for the top 3 percentiles of the wage distribution (Figures 3B and 3C
+in Keuschnigg et al., 2023). Children with IQ above 140 selected for The Genetic Studies
+of Genius, later known as the Terman Study of the Gifted, achieved a reasonable amount
+of success but were not all widely successful, leading Terman to remark that “intellect and
+achievement are far from perfectly correlated” (Terman and Oden, 1947, 352). In fact, the
+study tested but rejected two future Nobel prize winners because their IQs were too low
+(Warne et al., 2020).
+Decreasing returns to scientific research. The literature suggests that the returns to
+scientific research are decreasing. Bloom et al. (2020) show that the number of researchers
+is rising but research productivity is falling, i.e. we observe decreasing returns of research
+for economic growth. They examine specific fields like computers, chips, agriculture and
+medicine and find decreasing returns in each. Overall, across all fields, research productivity
+declines 8-10% per year. The low-hanging fruit has likely been harvested, so research and
+patents are getting less disruptive over time (Park et al., 2023), with progress especially
+difficult in fields where knowledge is already deep (Jones, 2009). It is notable though that
+patents in computers and electronics show increasing innovativeness since the 1980s (Kelly
+et al., 2021), which contributes to the expansion of AI capabilities. In other words, we
+see decreasing returns to intelligence when it comes to converting intelligence into physical
+1We use ρ-notation for CES everywhere with σ = 1/(1 − ρ) A negative ρ means gross complements, a
+positive ρ ∈ (0, 1) means gross substitutes.
+9
+
+innovation, while intelligence capital used for intelligence innovation may show more positive
+signs.
+Positive but time-limited impact of ICT on economic growth Information and
+Communication Technology (ICT) was the major technological transformation prior to the
+rise of AI and deep learning. This wave of technological innovation has arguably increased
+intelligence production in the economy by increasing the availability of information and the
+ability to process such information through both hardware (e.g. computers) and software.
+While this technological wave did increase economic growth, its contribution was no more
+than 1 percentage point of annual economic growth at the height of its impact in the 1990s
+and the 2000s, and this finding holds both for the US (Eden and Gaggl, 2018) and OECD
+countries more broadly (Colecchia and Schreyer, 2002; Spiezia, 2012). Interestingly, Spiezia
+(2012) shows that the growth contribution of ICT was driven by computing equipment, i.e.
+physical capital. The limited growth impact of adding ICT demonstrates that prior increases
+in intelligence production had growth effects that were nothing to sneeze at, but also nowhere
+near the scaling implied by e.g. Moore’s law. This finding is compatible with intelligence
+saturation: adding ICT contributes to intelligence production and ultimately to growth, but
+it does not have effects that are commensurate with the kinds of scaling we see in computer
+science.
+Further, Bloom et al. (2020) show that medical research productivity has been declining
+at least since the 1980s. Since the ICT contribution to growth peaked in the 1990-2000, this
+shows that adding more ICT was not able to stem the decrease in research productivity. Since
+the 1990s more ICT (machine intelligence) was used for research as well as more researchers
+(human intelligence), and yet the impacts of more researchers on economic growth declined.
+This means the decreasing returns to intelligence are even steeper once we account for the
+fact that we threw not just more humans but also more machine intelligence at our problems.
+This again is consistent with intelligence saturation.
+Limited productivity effects of recent AI advances Finally, we have some early ev-
+idence about the impact of generative AI, and so far the impact has been fairly modest,
+especially in studies that cover all economic sectors rather than focusing on particular in-
+dustries or occupations. While generative AI led to large productivity increases of 15-56% in
+some cases(Noy and Zhang, 2023; Peng et al., 2023; Dell’Acqua et al., 2023; Cui et al., 2025;
+Brynjolfsson et al., 2025) 2, studies that examine impacts across all industries tend to find
+more limited effects. Humlum and Vestergaard (2025) use administrative data from Den-
+mark and show that the adoption of generative AI chatbots at the firm level had zero effect
+on employment. Workers who used AI chatbots saw some some small time savings of about
+3%. Using a nationally representative US data of working age adults interviewed in August
+and November 2024, Bick et al. (2025) document self-reported time savings from generative
+AI use of 5.4% for people who use genAI, translating to 1.4% for the whole population. This
+shows that merely adding more intelligence in the form of chatbots has small effects on labor
+productivity, consistent with intelligence saturation.
+2Productivity is measured as time saved in Peng et al. (2023); Noy and Zhang (2023); Dell’Acqua et al.
+(2023), as tasks completed in Cui et al. (2025), and as hourly productivity in Brynjolfsson et al. (2025).
+10
+
+In a report based on public disclosures of AI initiatives at the firm level and interviews
+with businesses (Challapally et al., 2025), only 5% of firms successfully implemented custom
+enterprise AI tools, while 40% implemented general purpose LLM tools. Given the results
+from Humlum and Vestergaard (2025); Bick et al. (2025), we know that general LLMs provide
+limited productivity gains: custom enterprise AI tools could be more powerful, but they
+appear difficult to implement successfully, which may again indicate intelligence saturation.
+2.4 Modeling implications
+The empirical evidence is consistent with intelligence saturation: there are decreasing returns
+to intelligence, and adding more intelligence has positive but limited growth effects. Further,
+physical occupations are less impacted by the newest wave of generative AI. This suggests
+that it is meaningful to distinguish physical and intelligence sectors, and that economic
+models should build in mechanisms that allow for intelligence saturation in order to better
+predict the impact of AI on the economy in general, and on labor in particular.
+3 Model
+Assume a good Y (or bundle thereof) for final consumption is produced using two inputs:
+P for the physical input produced by the physical sector and I for the intelligence input
+produced by the intelligence sector. Each sector uses capital and labor to produce.
+We use ∂ for direct ( holding allocation fixed ) effects, e.g. ∂
+∂αI
+
+β
+(sometimes the β is
+implicit), and d for total derivatives along the equilibrium path β∗(αI).
+3.1 Marginal productivity of intelligence, AI, and labor in the
+general case
+The marginal productivity of artificial intelligence KI is (envelope theorem):
+dY
+dKI
+= ∂Y
+∂I
+∂I
+∂KI
+(1)
+This equation implies that there are two ways to model a decreasing marginal productivity of
+AI: either reduce the output gains of adding more intelligence (∂Y
+∂I ) or reduce the effectiveness
+of AI in producing more intelligence ( ∂I
+∂KI
+). We will explore both of these avenues.
+As long as we haven’t automated all intelligence tasks, labor is used in both the physical
+and intelligence sectors, so the marginal productivity of labor is:
+dY
+dL = ∂Y
+∂P
+dP
+dL + ∂Y
+∂I
+dI
+dL (2)
+Labor in the physical sector is LP and in the intelligence sector LI, with L = LP + LI. When
+labor is allocated optimally between the sectors, we have the following equality between the
+marginal productivity of labor in each of the sectors, which also determines the competitive
+wage:
+w = ∂Y
+∂P
+∂P
+∂LP
+= ∂Y
+∂I
+∂I
+∂LI
+(3)
+11
+
+Therefore, to understand the impact of automation on the wage, we need to determine
+how automation affects the marginal productivity of labor in the two sectors.
+Once full automation of intelligence tasks is achieved, labor is used only in the physical
+sector, so the marginal productivity of labor now is:
+dY
+dL = ∂Y
+∂P
+dP
+dL (4)
+After full automation is achieved, increasing the amount of AI in the economy unambigu-
+ously benefits workers, because more AI increases the physical sector productivity (where
+labor is employed), that is:
+∂
+∂KI
+ dY
+dL
+
+= ∂2Y
+∂P ∂I
+dI
+dKI
+dP
+dL > 0 (5)
+The cross-partial ∂2Y
+∂P ∂I is positive for a CES with exponent ρ < 1, which is our maintained
+assumption. Here it is worth noting that the marginal productivity of labor increases with AI
+only as long as the cross-partial ∂2Y
+∂P ∂I is positive, and intelligence increases with AI ( dI
+dKI
+> 0).
+If we have intelligence saturation so that either of these terms approaches zero, then wages
+stop increasing with AI.
+3.2 Production function for the intelligence and physical sectors
+(CES)
+We assume a separate production function for the physical and intelligence sectors, each
+produced with labor and capital. We model each sectors as CES-like, with a parameter
+regulating the substitution properties, and joined by an overall CES aggregator at the macro
+level. This lets us vary substitution elasticities and scale parameters independently for
+physical and intelligence sectors as well as overall aggregation.
+Table 1 summarizes the parameters used in this model, together with their domain as-
+sumptions, and Figure 1 above describes the model graphically. Assumptions on parameter
+domains are generally standard.
+12
+
+Parameter Notation Description Domain /
+Assumption
+Physical Sector P
+Physical capital KP Physical capital input to physical P K P ≥ 0
+Physical labor LP Labor input to P L P ≥ 0
+Labor share in
+physical tasks
+β Share of total labor assigned to P :
+LP = βL
+0 ≤ β ≤ 1
+Physical capital
+CES share
+αP CES weight on KP vs. LP in P 0 ≤ αP ≤ 1
+Physical CES
+exponent
+ρP CES exponent in P ρ P < 1, ρ P ̸= 0
+Intelligence Sector I
+AI capital KI AI-capital input to I K I ≥ 0
+Intelligence
+Labor
+LI Labor input to I: LI = (1 − β)L L I ≥ 0
+Automation
+fraction / AI
+CES share
+αI Fraction of I-tasks performed by AI/
+weight on KI vs LI in I
+0 ≤ αI ≤ 1
+Intelligence CES
+exponent
+ρI CES exponent in I ρ I < 1, ρ I ̸= 0
+Intelligence
+returns to scale
+θI Allows I to scale sub-linearly with
+inputs
+0 < θ I ≤ 1
+Overall production Y
+Aggregate labor L Total labor used in production L ≥ 0
+Macro CES share τ CES weight on P vs. I in Y 0 < τ < 1
+Macro CES
+exponent
+ρ CES exponent in Y ρ < 1, ρ ̸= 0
+Table 1: Production parameters.
+Physical Sector (P) To incorporate the potential for substitution between physical capi-
+tal KP and physical labor LP in the physical sector we use a standard CES function. Only a
+fraction β ∈ [0, 1] of the total labor in the economy is allocated to P ). We denote LP ≡ β L
+(and correspondingly LI ≡ (1 − β)L for the intelligence sector).
+P =
+
+αP K ρP
+P + (1 − αP ) LρP
+P
+1/ρP
+. (6)
+Intelligence Sector ( I) For the intelligence sector, we use a CES-like equation of the
+following form:
+I =
+h
+αI
+1−ρIKI
+ρI + (1 − αI)1−ρI LI
+ρI
+iθI /ρI
+(7)
+where KI is AI capital, LI = (1 − β)L is the labor allocated to the intelligence sector,
+and ρI > 0 indicates high substitutability between intelligence tasks. We allow for θI ≤ 1,
+capturing potential decreasing returns to scale in the production of the intelligence sector.
+13
+
+This allows for the second intelligence saturation channel in equation (1), i.e. reducing the
+effectiveness of AI in producing more intelligence.
+We can think of AI capital KI as effective compute : hardware FLOPS multiplied by
+utilization and an algorithmic-efficiency factor. This reduced-form stock bundles hardware,
+software, data, and training gains. This is consistent with benchmarks from the AI literature,
+where log model performance correlates strongly with log compute (FLOPS) both for infer-
+ence and training and log data scale (Kaplan et al., 2020). In this sense, intelligence capital
+KI reflects a set of factors (hardware FLOPS × utilization × algorithmic-efficiency factor).
+It thus also includes software innovations that improve efficiency, for example, algorithmic
+improvements that reduce the FLOPS required to achieve a certain performance level (Her-
+nandez and Brown, 2020). Under this definition, AI scaling trends translate directly into
+rapid growth in KI, distinguishing it from the much slower growth rates of physical capital
+or labor.
+Equation (7) is micro-founded in Korinek and Suh (2024) based on a CES in intelligence
+tasks (e.g. write text, make tables, etc.), and is also consistent with the assumptions in
+Jones and Liu (2024), with the difference that we use this production function only for
+the intelligence sector, and not for the whole economy. Specifically, assume the following
+production function for the intelligence tasks:
+I =
+Z
+i
+y(i)ρI dΦ(i)
+θI /ρI
+, ρ I = σI − 1
+σI
+, (8)
+where Φ( i) reflects the cumulative mass (or fraction) of tasks with a complexity level less
+than or equal to i, and σI is the elasticity of substitution between tasks. θI is a returns to
+scale parameter. In Korinek and Suh (2024), there are constant returns to scale ( θI = 1),
+but we allow for decreasing returns to scale if θI < 1.
+Decreasing returns to scale in the production of intelligence from AI capital are captured
+by θI, and it allows us to model the empirical regularities observed in AI scaling; it allows
+us to capture any power law in the components. Crucially, it separates aggregation from
+scaling, which are coupled in the standard CES. Many recent studies (e.g. Kaplan et al.,
+2020; Hoffmann et al., 2022) document power-law relationships between model performance
+and compute, e.g. doubling compute leads to sublinear performance improvements. Our
+modeling of the intelligence sector reflects this behavior through θI < 1, which yields power-
+law diminishing returns to KI in the aggregate. This parameter thus serves as a bridge
+between economic modeling and AI empirical scaling trends.
+Let Φ(i) = αI ∈ [0, 1] represent the fraction of intelligence tasks that is automated. Let
+i∗ denote the task-complexity cutoff with Φ( i∗) = αI. As shown in Korinek and Suh (2024),
+the above assumptions lead to a CES function in the capital and labor inputs that takes the
+form in equation (7) above.
+Equation (7) is only a correct derivation from the micro foundations if AI is sufficiently
+abundant so that the wage – aka the marginal productivity of labor – is greater than the
+marginal productivity of AI ∂Y /∂KI . As long as this holds, labor is only used in the not-
+yet-automated tasks. The condition is after normalizing the unit prices/productivities so
+that AI and labor efficiencies are one within tasks:
+KI
+LI
+> αI
+1 − αI
+(9)
+14
+
+We assume that this condition holds: AI is abundant.
+Aggregate CES production function with physical and intelligence sectors The
+final output is obtained by aggregating the two intermediate composite inputs – physical
+and intelligence – via a CES aggregator:
+Y = F (P, I) =
+h
+τ P ρ + (1 − τ) I ρ
+i1/ρ
+, 0 < τ < 1, (10)
+where τ is a distribution parameter that measures the importance of the physical sector and
+determines the share of income that goes to the physical sector.
+Given the assumptions on the production of the physical and the intelligence sectors, the
+final output is given by a weighted CES:
+Y =
+h
+τ
+ 
+αP K ρP
+P + (1 − αP )LρP
+P
+ρ/ρP
++ (1 − τ)
+ 
+α1−ρI
+I K ρI
+I + (1 − αI)1−ρI LρI
+I
+θI ρ/ρI
+i1/ρ
+. (11)
+where LP = βL and LI = (1 − β)L. In this production function, we normalized all produc-
+tivity shifters3 to 1.
+This construction introduces modeling flexibility relative to the basic task setup of Ace-
+moglu and Restrepo (2018) (also used in Jones and Liu (2024); Korinek and Suh (2024)),
+where the elasticity of substitution between tasks is closely linked to the substitution between
+labor and capital. Here, we have a macro elasticity of substitution between the outputs of the
+physical and intelligence sectors that can differ from the substitution patterns for labor and
+capital inputs within the physical sector and within the intelligence sector. This allows us to
+meaningfully talk about how physical and intelligence production sectors behave differently
+and ultimately affect workers differently.
+3.3 Scaling behavior
+Since the amount of AI capitalKI is increasing exponentially and very rapidly, it is important
+to understand how this scales up the intelligence sector output I, and ultimately overall
+output Y .
+First, while the aggregate production function has constant returns to scale in P and I,
+we allow for diminishing returns to scale θI ≤ 1 in the intelligence sector I. This means that
+the scaling up of AI has more strongly diminishing returns at the aggregate level than in a
+case where the production function has constant returns to scale at all levels.
+Second, the CES production function in P and I has the well-known property that
+output Y saturates when intelligence and physical outputs are complements ( ρ < 0), and
+only one of the two outputs is increased. When I goes to infinity while P is held fixed, the
+3The more general form of the production function using shiftersAY , AP and AI is Y = AY
+
+τ (AP P )1−ρ+
+(1 − τ) (AI I)1−ρ 1
+1−ρ . Throughout, we normalize AY = AP = AI = 1 (i.e., measure P and I in efficiency
+units) so the arguments of the CES are dimensionless; all simulations will hold these shifters fixed. Equiva-
+lently, define ˜P ≡ AP P and ˜I ≡ AI I, or scale by a base year so that ˜P = P/P 0 and ˜I = I/I 0; then set AY
+to pin the units of Y .
+15
+
+marginal productivity of I tends to zero, and output Y plateaus. This means that no matter
+how quickly AI capital KI increases, the complementarity between physical and intelligence
+sectors means that output is bounded, and P becomes the bottleneck.
+The complementarity between physical and intelligence sectors is a way to use a stan-
+dard macro setting to represent insights from neuroscience and psychology that using more
+intelligence with fixed effectors cannot yield unbounded output growth.
+3.4 Labor allocation and wages as automation progresses
+We seek to answer two questions. As αI, the share of automated tasks, increases:
+1. How does labor shift from intelligence to physical production?
+2. What is the evolution of the wage, operationalized as the marginal productivity of
+labor?
+Later we distinguish automation (replacing labor with AI) from simply adding more AI
+capital (capital deepening). We will see that they expand output through different channels,
+and with different wage consequences.
+3.4.1 Wages and labor allocation
+We can derive explicitly the marginal productivity of labor in each sector, which is equal
+to the wage in a competitive equilibrium. At the optimal, output maximizing, allocation of
+labor between the two sectors, the marginal value productivity of labor must be equalized 4:
+τ Y 1−ρP ρ−1 ∂P
+∂LP
+= (1 − τ)Y 1−ρI ρ−1 ∂I
+∂LI
+(12)
+where LP = βL and LI = (1 − β)L.
+Sectoral marginal wages and β-monotonicity. It is useful to name the two marginal
+wage schedules that Eq. (12) equates. Define
+wP (β) ≡ τ Y 1−ρ P ρ−1 ∂P
+∂LP
+= τ Y 1−ρ (1 − αP ) P ρ−ρP (βL) ρP −1, (13)
+wI(β, αI) ≡ (1 − τ) Y 1−ρ I ρ−1 ∂I
+∂LI
+. (14)
+Writing out the derivative of I with respect to LI,
+∂I
+∂LI
+= θI (1 − αI) 1−ρI I 1−ρI /θI
+ 
+(1 − β)L
+ ρI −1
+.
+Under ρP < 1 and ρI < 1, wP (β) is strictly decreasing in β, while wI(β, αI) is strictly
+increasing in β (proof deferred to Appendix A).
+4If wages are below the marginal productivity of labor (markdown), which is a realistic assumption (Azar
+and Marinescu, 2024), then the important question is whether the markdown differs between physical and
+intelligence tasks. If the wage markdown is markedly different, it would affect firms’ decisions to allocate
+workers to physical vs. intelligence sectors. Such markdowns would also obviously lower the actual wage
+received by workers.
+16
+
+Proposition 3.1 (Existence and uniqueness of β∗). Suppose ρP , ρI < 1 and an interior
+allocation is feasible ( β ∈ (0, 1)). Then wP (β) is strictly decreasing in β and wI(β, αI) is
+strictly increasing in β; hence there exists a unique β∗(αI) ∈ (0, 1) such that wP (β∗) =
+wI(β∗, αI).
+Lemma 3.2 (Implicit-function comparative statics forβ∗). Let F (β, αI) ≡ wP (β)−wI(β, αI).
+Under ρP < 1 and ρI < 1 we have ∂βF = ∂βwP − ∂βwI < 0, so the unique interior solution
+β∗(αI) satisfies
+dβ∗
+dαI
+= − ∂αF (β, αI)
+∂βF (β, αI) = ∂αI wI(β, αI)
+∂βwP (β) − ∂βwI(β, αI) .
+In particular,
+sign
+ dβ∗
+dαI
+
+= − sign
+ 
+∂αI wI(β, αI)
+
+, (15)
+where the partial derivative ∂αI wI is taken holding β (hence LI) fixed.
+To define the equilibrium wage, we have to find β∗, which is the share of labor in the
+physical sector that equates the marginal productivity of labor in physical and intelligence
+sectors. The ratio of the two FOCs for physical and intelligence is:
+(β∗) ρP −1
+(1 − β∗) ρI −1 = (1 − τ) θI (1 − αI)1−ρI
+τ (1 − αP ) L ρI −ρP I ρ−ρI /θI
+P ρ−ρP
+. (16)
+Here, note that I and P themselves depend on β∗, and there is no closed-form solution for β∗.
+Existence and uniqueness of β∗ follow from Proposition 3.1. By Lemma 3.2, β∗(αI) varies
+smoothly with αI wherever the interior solution holds, so we compute β∗(αI) numerically.
+Also, note that, once full automation is achieved (β∗ = 1), the intelligence sector produc-
+tion function can be written as I = K θI
+I , so the ρI parameter drops out. This means that
+the substitutability between intelligence tasks does not influence the level of output Y after
+full automation, nor the marginal productivity of labor after full automation.
+The wage can be recovered for the optimal allocation by plugging β∗ into the marginal
+product of labor in the physical task 5:
+w = τ Y 1−ρ (1 − αP ) P ρ−ρP (β∗ L) ρP −1. (17)
+Automation generally moves labor toward the physical sector, i.e. β∗ increases with αI
+when ρ < ρ I/θI (sufficient condition), i.e. when intelligence and physical sector outputs are
+less substitutable that intelligence tasks among themselves, a reasonable assumption that we
+will maintain moving forward. Intuitively, higher αI directly lowers the marginal product of
+LI in the intelligence sector through (1 − αI)1−ρI; to re-equalize wages across sectors, labor
+shifts from I to P , so β∗ rises (see Appendix A for a more formal argument). As automation
+moves labor into the physical sector, the marginal productivity of labor in the physical sector
+decreases, which has a negative impact on wages. But this negative effect on wages can be
+overshadowed by a strong enough increase in the output of the intelligence sector. We now
+discuss the impact of automation on wages.
+5At the optimal allocation, one can also plug it in to the intelligence task, obtaining the same wage as
+long as 0 < β ∗ < 1.
+17
+
+3.4.2 Wage Dynamics as Automation Progresses
+We study how the competitive wage responds to an incremental rise in the automated share
+αI, holding KP and KI fixed. To simplify notation and consistent with what we will assume
+in the simulations, we normalize total labor to L = 1, so that LP = β∗ and LI = 1 − β∗.
+To derive the wage effect of automation, we take the log of the equilibrium wage expression
+(17) and differentiate with respect to αI :
+d ln w
+dαI
+= (1 − ρ) ∂ ln Y
+∂αI
+
+β| {z }
+(A)>0, Scale from I
++ ( ρ − ρP ) ∂ ln P
+∂αI
+
+β| {z }
+(B) P effect (direct)
++
+h
+−(1 − ρP ) d ln β∗
+dαI
+i
+| {z }
+(C)<0, Reallocation to P
+. (18)
+Equation (18) is useful to (i) estimate the sign of the wage effect of automation and (ii)
+obtain an intuition for the wage effect of automation in terms of observable quantities.
+The first term ( A) in (18) is the positive scale effect: automation increases the output
+of the intelligence sector I (under the abundant AI condition) and thus the output Y .
+Specifically:
+∂ ln Y
+∂αI
+
+β
+= (1 − τ)I ρ
+τ Pρ + (1 − τ)I ρ
+| {z }
+ωI ∈(0,1)
+· ∂ ln I
+∂αI
+
+β
+(19)
+To note, stronger decreasing returns to scale, i.e. a smaller θI, blunt this positive effect ( A)
+holding β∗ fixed, as:
+∂ ln I
+∂αI
+= θI(1 − ρI)
+ρI
+α−ρI
+I K ρI
+I − (1 − αI)−ρI(1 − β∗)ρI
+α 1−ρI
+I K ρI
+I + (1 − αI) 1−ρI(1 − β∗)ρI
+. (20)
+The second term (B) in (18) is the effect of automation on sector P output. Automation
+increases β∗, which increases P by moving labor toward it∂ ln P/∂α I > 0 (see Lemma A.1 for
+conditions), so (B) > 0 when ρ > ρ P , and (B) < 0 when ρ < ρ P . This means that the output
+increase in the physical sector can be good or bad for wages depending on whether physical
+and intelligence are more substitutable than labor and physical capital in the physical block.
+The third term (C) in (18) is the effect of the reallocation of labor fromI toward P . More
+labor available in P should intuitively lower wages. Indeed, ( C) is negative because ρP < 1
+by assumption, and ∂β ∗/∂αI > 0, i.e. the share of labor in P increases with automation
+(see Lemma A.1 for conditions).
+Overall, the sign of the wage effect of automation is clearly ambiguous, and depends on
+whether the positive effects of more efficient physical labor outweigh the negative effects
+of labor migrating out of I in equation (18). The role of parameters like θI on the wage
+trajectory as intelligence automation progresses cannot be evaluated analytically because β∗
+is defined implicitly, and both ∂Y /∂αI and ∂ ln P/∂α I depend on β∗.
+Equation (18) is a handy decomposition because the substitution parametersρ and ρP can
+be estimated. The derivatives can also be estimated, and they have intuitive interpretations:
+(A) is proportional to the effect of automation on overall output Y , (B) is proportional to
+the effect of automation on physical output ( P ), and ( C) is proportional to the effect of
+automation on the share of labor employed in the physical sector β∗. This conceptualization
+suggests future ways of calibrating this class of models against empirical data.
+18
+
+Simpler decomposition of wage effects of automation when ρ = ρP There are
+cases where the (B) term in equation (18) vanishes. If we assume that the substitutability
+between physical and intelligence ρ is the same as the substitutability between capital and
+labor in physical production ρP . This assumption is a reasonable simplification if labor is
+more similar to the intelligence input, and capital is more similar to the physical input. In
+this case, the wage effect of automation can be written as:
+d ln w
+dαI
+= (1 − ρ)
+ 
+∂ ln Y
+∂αI
+
+β
+− d ln β∗
+dαI
+!
+(21)
+We thus learn that if ρ = ρP , the wage effect of automation is positive as long as the percent
+increase in output induced by automation ∂ ln Y /∂αI exceeds the percent increase in the
+share of workers in the physical sector ∂ ln β∗/∂αI. Further, for a given observed effect of
+automation on Y and β∗, the effect on wages is amplified (larger in magnitude, positive
+or negative) when ρ is smaller 6, i.e. when the physical and intelligence sectors are more
+complementary.
+We can also derive a sufficient condition for automation to increase wages that is based
+on the intelligence sector alone. Let sI ≡ (1 − τ)I ρ
+τ Pρ + (1 − τ)I ρ be the (observable) revenue share
+of the intelligence sector (the equivalent share sP can be defined for the physical sector).
+Since automation reallocates labor toward P , we have ∂ ln P
+∂αI
+≥ 0, hence
+∂ ln Y
+∂αI
+= sP
+∂ ln P
+∂αI
++ sI
+∂ ln I
+∂αI
+≥ sI
+∂ ln I
+∂αI
+. (22)
+Therefore, we obtain a testable sufficient condition for wages to rise with automation:
+sI
+∂ ln I
+∂αI
+> β∗ − 1
+β∗
+∂ ln(1 − β∗)
+∂αI
+(23)
+which uses only the I sector output response to automation and the semi-elasticity of the
+I sector employment share. This condition means that, up to some weights, the semi-
+elasticity of intelligence output must exceed the semi-elasticity of the employment share in
+the intelligence sector. More loosely stated, a sufficient condition for automation to increase
+wages is that the greater intelligence output can compensate for the employment losses in
+the intelligence sector. This condition is conservative because it neglects that automation
+also increases output in P , which increases wages.
+Symmetrically, we can derive a sufficient condition on the I sector that ensures the wage
+effects of automation are negative. Using the share decomposition equation (22) above, we
+can find an upper bound for ∂ ln P
+∂αI
+, which then gives an upper bound for ∂ ln Y
+∂αI
+. Automation
+affects P only through the reallocation of labor. Using the chain rule,
+∂ ln P
+∂αI
+= ∂ ln P
+∂ ln LP
+∂ ln LP
+∂αI
+= ∂ ln P
+∂ ln LP
+∂ ln β∗
+∂αI
+≤ ∂ ln β∗
+∂αI
+6Remember that ρ affects ∂ ln Y /∂αI and ∂ ln Y /∂β∗ so this statement is indeed not about the full effect
+of ρ.
+19
+
+∂ ln P
+∂ ln LP
+is the labor share in P , so it is below 1, explaining the above inequality. Using this
+together with equation (22), we obtain an upper bound for ∂ ln Y
+∂αI
+:
+∂ ln Y
+∂αI
+= sP
+∂ ln P
+∂αI
++ sI
+∂ ln I
+∂αI
+≤ sP
+∂ ln β∗
+∂αI
++ sI
+∂ ln I
+∂αI
+,
+Since wages fall whenever ∂ ln Y /∂αI < ∂ ln β∗/∂αI (see equation (21)), using the upper
+bound for ∂ ln Y
+∂αI
+we just derived, a sufficient condition for wages to fall is:
+sP
+d ln β∗
+dαI
++ sI
+∂ ln I
+∂αI
+
+β
+< d ln β∗
+dαI
+(24)
+⇐ ⇒ ∂ ln I
+∂αI
+
+β
+< d ln β∗
+dαI
+(divide by sI > 0). (25)
+where sP , sI ∈ [0, 1] are the revenue shares and sP + sI = 1. This expression says that wages
+fall if the semi-elasticity of the intelligence output with respect to automation is smaller than
+the semi-elasticity of the physical employment share with respect to automation.
+As before, we can equivalently express the sufficient condition (25) using the employment
+share in the intelligence sector 1 − β∗:
+∂ ln I
+∂αI
+
+β
+< 1 − β∗
+β∗
+
+d ln(1 − β∗)
+dαI
+ . (26)
+That is, wages decrease when the percentage increase in the intelligence output induced
+by automation is smaller than the odds-weighted percentage reduction in the employment
+share in the intelligence sector. Loosely stated, if job loss in the intelligence sector is signif-
+icant relative to intelligence output growth, wages are more likely to decrease with further
+automation.
+Empirically then, if we have data on the current share of employment in the physical
+sector, the current share of the intelligence sector in income, and estimates of the recent effect
+of automation on the output of the intelligence sector and the recent effect of automation
+on the share of employment in the intelligence sector, we can make predictions about what
+will likely happen to wages with further automation. Wages will increase if condition (23)
+is satisfied, and decrease if condition (26) is satisfied.
+3.5 Wage effect of increasing AI after full automation of intelli-
+gence tasks
+We are interested in the wage effects of adding more AI in the economy after all intelligence
+tasks have been automated. It is important to realize that automation (increasing αI) is
+fundamentally different from adding more AI (increasing KI) in the economy. Automation
+by definition replaces workers in some tasks that are newly allocated to AI ( αI increases).
+Adding more AI does not have a direct effect on worker allocation (KI increases but αI stays
+fixed)7. Both automation and increasing AI tend to increase production when AI is abun-
+dant, albeit through different channels. Automation is a technological transformation that
+7Prior to full automation, increasing AI can reallocate workers across sectors by changing the marginal
+productivity of I.
+20
+
+increases production by improving input allocation in the intelligence sector, as it deploys
+the abundant AI across more tasks. Increasing AI increases production simply by increasing
+capital intensity in the AI sector: it is well understood that, in CES production functions,
+capital deepening increases output.
+After full automation, we have αI = 1, and β = 1, so LP = L, i.e. all labor is in the
+physical sector. This makes equations simpler because there is no need to re-optimize β, the
+allocation of labor between physical and intelligence. Specifically, the output is then given
+by:
+Y =
+h
+τ P ρ + (1 − τ) K θI ρ
+I
+i1/ρ
+, P =
+ 
+αP K ρP
+P + (1 − αP )LρP
+P
+1/ρP
+. (27)
+And the competitive wage is then:
+w = τ(1 − αP ) Y 1−ρ P ρ−ρP L ρP −1
+P . (28)
+We can show the effect of adding more AI capital KI on wages is:
+∂w
+∂KI
+= τ(1 − αP )(1 − τ)(1 − ρ) θI P ρ−ρP LρP −1
+P Y 1−2ρ K θI ρ−1
+I (29)
+This effect is positive: adding more AI increases wages.
+Now what happens when we keep adding more AI capital ( KI → ∞)? If ρ < 0 (physical
+and intelligence are complements), as we assumed, then Y → (τ Pρ)1/ρ (finite), meaning that
+the marginal returns to AI in terms of increasing overall output Y go to zero, so additional
+investments in AI eventually yield zero returns. As for the impact on AI on wages as AI
+goes to infinity, we have:
+∂w
+∂KI
+∼ C · K θI ρ−1
+I → 0+, C = τ(1 − αP )(1 − τ)(1 − ρ) θI P ρ−ρP LρP −1
+P
+
+(τ Pρ)1/ρ1−2ρ
+(30)
+Hence, with full automation, the marginal effect of additional AI capital on wages vanishes
+when ρ < 0, i.e. when physical and intelligence are complements. In other terms, wages
+saturate as we add more AI. We can also see that more strongly decreasing returns to scale
+(smaller θI) blunt the impact of AI capital accumulation on wages after full automation, an
+additional channel for intelligence saturation.
+We now turn to simulations.
+4 Simulations
+We run two types of wage simulation: (i) an automation scenario where we hold capital
+stocks in the physical sector KP and AI capital KI constant, and (ii) an AI explosion scenario
+where AI doubles at fast rates and continues to do so after all intelligence tasks have been
+automated. The first type of automation simulation is most relevant to understand what
+happens in the short run in the event of rapid automation, so that capital does not adjust
+much. In the longer run, we can expect more adjustments, and in particular increases in
+physical capital (which we will also simulate below). The second type of simulation is highly
+relevant to the scaling debate and understanding under what conditions the rapid scaling of
+AI translates to the broader economy and to wages, as often believed by AI experts.
+21
+
+4.1 Parameter values
+Using estimates from the existing literature, we calibrate a subset of parameters (see Table
+2).
+The calibration of the distribution parameters αP and τ in CES production functions is
+well-known to be challenging (Klump et al., 2012; Cantore and Levine, 2012; Temple, 2012).
+Thus, we pick some illustrative parameter values and sensitivity will be tested through sweeps
+changing parameters (readers can also change parameters and visualize outcomes using our
+interactive tool).
+First, we set parameters for the physical sector. We set the level of physical capital KP
+so that KP /LP is equal to the capital-labor ratio in the whole economy 8, which we set to
+4.6 (as in Korinek and Suh (2024), but this ratio is itself calibrated within their model).
+The share of physical workers is defined as the share of workers who need to use their feet
+or legs (29.6%) in the 2023 Occupational Requirements Survey. Defining physical work in
+other ways would result in similar estimates: 34.0% of workers do not use keyboarding in
+the 2023 Occupational Requirements Survey, and 30% is the share of earnings in manual
+occupations in 2023 in the Occupational Employment and Wage Statistics (see Appendix
+B). The share of employment in manual occupations is higher at 44%. The capital-labor
+substitution parameter ρP is calibrated so that the elasticity of substitution σP = 1/(1 − ρP )
+is 0.6, corresponding to the middle of the range for US manufacturing (Oberfield and Raval,
+2021).
+Second, we set parameters for the intelligence sector. The parameter ρI determining the
+elasticity of substitution between AI capital and labor in the intelligence sector is set at
+baseline to reflect a high degree of substitutability, consistent with the idea that intelligence
+tasks are somewhat fungible with each other. Thus, for the baseline, we picked an estimate
+of the elasticity of substitution for similar goods: specifically, we used the smaller estimates
+for the elasticity of substitution among different physical goods in (Broda and Weinstein,
+2006, Table IV, SITC-3, 1990-2001, median), which gives a baseline elasticity of substitution
+of 2.2. For the baseline returns to scale in intelligence θI, we use the 0.94 returns to scale in
+professional services from Figure 3 in (McAdam et al., 2024), as professional services is an
+industry dominated by intelligence tasks.
+Third, we set parameters for the overall production function Y that combines P and
+I. There is no direct measurement of ρ, the substitution parameter between physical and
+intelligence sectors, so we set it to match the historical substitution between capital and labor
+in manufacturing, with the idea that capital is more like a physical input and labor more
+like an intelligence input. Practically, we set ρ = ρP so that the elasticity of substitution is
+at the middle of the range of the elasticity of substitution between capital and labor in US
+manufacturing, i.e. 0.6 (Oberfield and Raval, 2021).
+Having set parameters at these baseline values, we vary the share of automated tasks αI
+from zero to one, simulating the process of progressively automating the intelligence tasks of
+the economy. For every setting, we find the share of labor allocated to the physical sector β∗
+that equalizes the marginal productivity of labor in the physical and the intelligence sectors9.
+8This assumes that the capital/labor ratio in the physical sector is the same as the capital/labor ratio in
+the economy.
+9We calculate this for each αI up to αI = 0.9; the abundant AI condition (9) is no longer satisfied when
+22
+
+Before moving on to the results of the simulations, it is worth noting that some intelligence
+tasks have already been automated as of 2025, so we should not necessarily think of αI as
+starting at zero in 2025. As an approximation for the starting point, one may think about the
+percentage point decline in the share of routine cognitive tasks as a share of all cognitive tasks.
+Cognitive jobs do not perfectly overlap with intelligence jobs, because some “cognitive” jobs
+need to be done in person and are therefore “physical” in our classification. Nonetheless,
+this is a useful starting point. In 1976-1989, the share of routine jobs among all cognitive
+jobs was 49% (Cortes et al., 2020, Table 1), while this share was about 35% in 2018 (Cortes
+et al., 2020, Fig. 1), which represents a decline of 14 percentage points. Assuming for the
+sake of argument that the whole decline in routine jobs is due to ICT, this means that 14%
+of all jobs have been automated by ICT, implying that αI might be around 14% in 2018,
+and somewhat higher today (2025).
+4.2 The evolution of wages as automation progresses
+In the simulations, we vary parameters as outlined in Table 3. For the lower bound of the
+substitution parameter for intelligence tasks ρI, we used the elasticity of substitution across
+occupations in Goos et al. (2014), which represents substitution between a broader range of
+tasks including both physical and intelligence tasks.
+Overall, the simulations illustrate that wages increase and then decrease with automation
+under many parameter values. When automation αI increases, the share of labor allocated
+to the physical sector β increases, and output Y increases, as expected given assumptions
+and the abundant AI condition in eq. (9). Both total output and optimal allocation of
+workers to physical tasks increase with increasing automation (Fig. 2).
+These dynamics raise the question of how wages are affected by increasing automation.
+Figure 3 plots the trajectory of wages as the automation of intelligence tasks progresses, as
+a function of parameters. The orange line in each panel represents the trajectory of wages
+for the baseline set of parameters (note that the scale of the plot varies across panels). In
+the baseline case, wages increase and then decrease with automation, a trajectory that is
+frequently anticipated by many AI scientists. For example, this CIO report predicts short-
+term wage growth, while other works, such as comments by OpenAI CEO Sam Altman,
+suggest that the era of human work may be coming to an end. Across parameter settings,
+we can find situations where wages largely decline or increase. The exact trajectories of wages
+during the transition to intelligence automation will be heavily affected by the underlying
+substitution parameters, which can be measured in the data.
+The substitutability between different intelligence tasks, ρI should be one key ingredient.
+Without easy substitution, human intelligence activity in the non-automatable tasks keeps
+them employed and wages high. Variations in this parameter have a dramatic impact (Fig. 3
+A). As ρI decreases, so that intelligence tasks become less substitutable, we see a stark hump-
+shaped pattern emerge: wages increase with low levels of automation, and then decrease,
+and the inflection point happens later than in the baseline. 10 The wage at full automation
+αI approaches 1, but it is still satisfied when αI = 0.9 for KI >= 9. Then, at full automation for αI = 1,
+we set β = 1 and calculate the output and wage based on these parameters.
+10The lowest ρI we examine in our sweep is negative, but the wage trajectory looks very similar for
+ρI = 0.1.
+23
+
+Table 2: Calibration mapping: equations, targets, and baseline values
+ParameterDescription Identification /
+equation(s)
+Data / targets used Baseline
+L Aggregate
+labor supply
+Normalization – 1 .0
+LP Labor in
+physical sec-
+tor at base-
+line
+Share of workers in
+physical occupations
+sP = 0.30 0 .30
+KP Physical capi-
+tal stock
+Match target KP /LP
+ratio
+KP /LP = 4 .6; LP =
+0.30 ⇒ KP = 1.38
+1.38
+ρP Substitution
+in P (KP , LP )
+Choose σP = 0.6; ρP =
+1 − 1/σP
+σP = 0 .6 (US manu-
+facturing mid-range,
+Oberfield and Raval,
+2021)
+−0.67
+αP Capital
+weight in P (·)
+Exogenous Set to illustrate a
+hump-shaped wage tra-
+jectory
+0.70
+ρI Substitution
+in I(KI, LI)
+Choose σI; ρI = 1 −
+1/σI
+σI = 2 .2 (Broda and
+Weinstein, 2006)
+0.55
+θI Returns to
+scale in intel-
+ligence
+External estimate 0.94 in professional ser-
+vices (McAdam et al.,
+2024)
+0.94
+KI AI input level Exogenous Set to ensure “abun-
+dant AI” condition (9)
+9.0
+ρ Substitution
+between P
+and I in Y (·)
+Choose σ = 0 .6; ρ =
+1 − 1/σ
+σ = 0 .6 (US manufac-
+turing, Oberfield and
+Raval, 2021)
+−0.67
+τ Weight on P
+in Y (·)
+Exogenous Set to illustrate a
+hump-shaped wage tra-
+jectory
+0.20
+Notes: See text for more details.
+24
+
+Table 3: Sweep values for varying parameters and justification of bounds
+Parameter Sweep values
+(baseline in middle)
+Justification of bounds
+ρI (intelligence
+substitution)
+{-0.1, 0.55, 0.7 } Lower bound: elasticity σI = 0.9
+across occupations (Goos et al., 2014)
+⇒ ρI = 1 − 1
+0.9 ≈ −0.1. Upper bound:
+high substitutability with σI = 3.3
+⇒ ρI = 1 − 1
+3.3 ≈ 0.70.
+ρ (top-nest
+substitution)
+{-1.0, -0.67, -0.1 } Lower bound: elasticity σ = 0.5
+⇒ ρ = 1 − 1
+0.5 = −1.0 (strong
+complementarity). Upper bound:
+elasticity σ = 0.9
+⇒ ρ = 1 − 1
+0.9 ≈ −0.1 (higher
+substitutability).
+αP (weight of K in
+P )
+{0.50, 0.70, 0.80 } Bounds reflect alternative values for
+the distribution parameter of capital
+within the physical sector.
+τ (weight of P in
+output)
+{0.10, 0.20, 0.35 } Bounds reflect alternative values for
+the distribution parameter of the
+physical sector within overall output
+Y .
+θI (returns to scale in
+intelligence)
+{0.6, 0.94, 1.0 } Lower bound allows strong decreasing
+returns; upper bound is
+constant-returns benchmark.
+25
+
+Figure 2: Output and the share of labor allocated to physical tasks increase with automation.
+26
+
+is not sensitive to ρI, because, as noted above, ρI drops out from the production function
+once automation is complete.
+We have plausibly already automated some of the intelligence tasks, and average wages
+increased. Therefore, there is a risk of a strong decline in the future if intelligence tasks are
+relatively complementary. Essentially, more complementarity in intelligence tasks (lower ρI)
+makes the rise steeper but the downfall in wages worse as full automation approaches.
+We may also expect ρ, the top-level substitution parameter between physical and intel-
+ligence, to be a main driver of wage effects. Similarly to the ρI substitution parameter, this
+parameter markedly changes the trajectory of wages as automation increases (Fig. 3B). As
+physical and intelligence sectors become less substitutable (smaller ρ), wages are less likely
+to decline with the automation process. There are dramatic differences in the wage level
+at full automation: wages are higher than without automation for ρ = −1, but they are
+a lot lower with ρ = −0.1. Therefore, a high level of substitution between physical and
+intelligence sectors drives a large loss for wages at full automation.
+The non-monotonic effects of ρ on the wage as automation progresses are a helpful re-
+minder that parameters play a complex role in determining wages. Equation (21) shows
+that, neglecting the impact of ρ on the Y and β channels, a larger ρ scales down the overall
+wage response via the factor (1 − ρ): it dampens both positive and negative effects. In the
+full simulation, however, ρ also changes how Y and β∗ move with αI. With our baseline
+parameters, greater substitutability between intelligence and physical ( higher ρ) amplifies
+rather than dampens the effect of automation on wages: it tends to amplify early wage gains
+when automation is limited, and to deepen late-stage losses when automation is extensive.
+How does this square with the general condition (18) that determines how automation
+affects wages when ρ ̸= ρP ? In the baseline case for the simulation, we set ρ = ρP , so (21)
+applies. In the general case (equation (18)), ρ < ρ P leads to more negative wage effects
+through the P channel. Figure 3B varies ρ while keeping ρP constant: therefore, the lower
+value of ρ is such that ρ < ρ P . And indeed, at low levels of automation, a lower ρ leads
+to more negative effects of automation on wages (compare the orange and the blue line);
+however, once automation advances further, wages show a more positive wage trajectory
+with a lower ρ. The upshot is that treating the Y , P , and β∗ responses as negligible can be
+misleading about how ρ and ρP shape wage impacts.
+Next, we examine the impact of the distribution parameter or weight on physical capital
+within the physical sector (Fig. 3C), as well as the distribution parameter or weight on
+physical in the upper level CES for overall output (Fig. 3D). A higher weight on physical
+capital αP leads to a more negative wage trajectory. As automation progresses, more workers
+move to the physical sector (β∗ increases), and the decreasing marginal productivity of labor
+in the physical sector is steeper as αP increases (see the (1 − αP ) term in the wage equation
+(17)).
+We then examine the impact of τ, the distribution parameter or weight on the physical
+sector in the upper level CES between physical and intelligence sectors. This parameter
+strongly influences the impact of automation on wages (Fig. 3D). A larger weight on the
+physical sector τ delays any decline in wages. For τ = 0.35, wages monotonically increase
+with automation, while for τ = 0 .1 or τ = 0 .20, we see a large decrease in wages as we
+approach full automation. The wage outcome is highly sensitive to the weight of the physical
+sector.
+27
+
+Figure 3: Wage effect of automation: impact of parameters
+28
+
+Finally, we may also believe that decreasing returns to scale in the intelligence production
+function may have an effect. Equation (20) shows that the scale termθI increases the positive
+effects of automation on wages, holding β∗ constant. The simulation allows us to examine
+the full effect. We find that returns to scale do play a role that is qualitatively consistent
+with the fixed β∗ prediction: θI shifts wages up and down by an almost fixed constant,
+especially at high levels of automation (Fig. 4, left panel). As decreasing returns to scale
+become more pronounced (lower θI), wages are more likely to decline already in the early
+stages of automation.
+Figure 4: Wage and output effects of automation with varying returns to scale in intelligence
+We learned about the effects of these parameters on wages as automation progresses.
+Wages increase and then decrease with automation in the baseline case. Decreasing returns
+to intelligence blunt wage increases from automation because the intelligence sector gets a
+smaller boost from automation. Substitutability between intelligence tasks has a substantial
+impact on the wage trajectory but does not impact the wage level at full automation. The
+decrease in wages at high levels of automation is greater and wage levels at full automation
+are lower when there is high substitutability between the physical and the intelligence sectors
+(high ρ), a high weight on physical capital in the physical sector (high αP ), and a low weight
+for the physical sector in overall output (low τ).
+While the weights αP and τ do not have a straightforward empirical counterpart, returns
+to scale in intelligence θI, and substitution parameters ρ and ρI can be empirically mea-
+sured and we can learn about the likely path of wages based on new and updated empirical
+estimates of these parameters.
+We invite readers to experiment with setting high ρ and αP , and low τ to see effects for
+themselves in our interactive tool.
+Total output will matter on top of the wages. As such, we analyze in our model how
+automation affects total output (Fig. 5, and Fig. 4, right panel). As we should expect
+given the abundant AI assumption, automation always increases output, and considerably
+so. Higher substitutability ρ between intelligence and physical sectors magnifies the positive
+effect of automation on output (Panel B) but has a negative effect on wages at high levels of
+29
+
+Figure 5: Output effect of automation: impact of parameters
+30
+
+automation (compare panels B in Figure 5 vs. Figure 3). In other terms, there is a trade-off
+between wages and output as we increase the substitutability ρ between the physical and
+intelligence sectors in the upper level CES. For wages at high levels of automation, it’s best to
+protect the physical sector where workers end up working more and more often as automation
+progresses: this means more complementarity between the physical and intelligence sectors.
+This suggests a potential social conflict over the role of the physical sector in the economy
+when wage and output increases benefit different actors.
+Figure 6: Wage effect of automation with high physical capital: impact of parameters
+Given the crucial role of the physical sector, increasing capital in the physical sector
+can benefit wages because it reduces the negative productivity effects of labor crowding into
+the physical sector as automation progresses. This is illustrated in Figure 6, which uses
+the parameters from Table 2, except that physical capital K is doubled to 2.76 instead of
+1.38. With a higher level of physical capital, wages increase more with automation: the
+maximum wage is higher and the initial increase is steeper than in Figure 3. If physical
+capital were endogenously determined, investments would likely increase because returns to
+31
+
+capital increase when there are more workers in the physical sector. Overall, increasing the
+amount of physical capital can act as a booster for wages.
+Readers can explore the evolution of wages using different parameters in our interactive
+tool, and results are exportable to csv files.
+4.3 The evolution of wages as AI increases during and after full
+automation of intelligence tasks
+We now turn to the longer-run effect of AI capital on wages, after all intelligence tasks have
+been automated. Readers can run this type of simulation in the “Analysis & Charts” section
+of our interactive tool.
+For this simulation, we assume a fixed 5 years for the full automation of intelligence tasks,
+during which αI goes from 0 to 1. We further assume that AI capital KI grows exponentially.
+All other parameters are as in the baseline, unless otherwise specified. We assume that full
+automation of intelligence tasks occurs within 5 years. In a first scenario of fast AI growth,
+AI doubles every 6 months. In this case, wages rise quickly and then saturate (Figure 7).
+The saturation is driven by the complementarity between physical and intelligence tasks,
+as our baseline has ρ < 0: you cannot add infinitely more AI and get unbounded output
+growth when the physical input is held fixed by fixed labor and fixed physical capital. In
+a second scenario with slower AI growth, AI doubles every 24 months. In this case, wages
+increase more slowly, but do not decline, a difference from the baseline analysis with fixed
+AI: the absence of a wage decline is explained by the fact that AI increases over time, which
+has positive effects on wages that offset the negative wage effects observed under fixed AI.
+Finally, in a third scenario, we continue assuming slower AI growth, but also make physical
+and intelligence sectors much more substitutable, with ρ = 0 .25 (corresponding to a 1.33
+elasticity of substitution). In this case, we observe a wage decrease before full automation of
+intelligence tasks, after which wages slowly grow again. Importantly, in this scenario with
+ρ > 0, there is no intelligence saturation, so in the long run adding more AI always keeps
+increasing wages.
+To sum up, as AI increases exponentially, wages saturate when physical and intelligence
+sectors are gross complements, but can grow without bounds when they are substitutes.
+However, greater substitutability of intelligence and physical sectors makes it more likely that
+wages decline as we approach full automation of intelligence tasks. Thus, there is a short-
+run vs. long-run trade-off in terms of the wage effects of substitutability between physical
+and intelligence: in the short run, greater substitutability can hurt wages as automation
+progresses, but in the long run it allows for unbounded wage growth, assuming AI also
+continues to expand.
+5 Discussion
+Our model articulates how intelligence saturation may fundamentally limit the extent to
+which AI can transform the economy. The key insight is that intelligence and physical sectors
+are likely complements at the macro level. AI may be helpful at producing intelligence at an
+32
+
+Figure 7: Wage effect of automation with exponentially increasing AI capital
+accelerating speed but its effect on the actual economy is limited by the complementarity of
+physical and intellectual inputs in overall production.
+5.1 Intelligence Saturation and the Non-Singularity
+The concept of intelligence saturation fundamentally challenges the singularity narrative
+popularized by some AI researchers. The singularity view implicitly assumes unbounded
+returns to intelligence - that increasing intelligence inputs will lead to exponentially growing
+productivity with an exponent typical of the artificial intelligence sector. Our model shows
+why this assumption fails: the physical world imposes constraints that cannot be overcome
+by intelligence alone.
+For any given set of physical inputs, there exists a saturation point beyond which addi-
+tional intelligence yields negligible returns. You cannot build a car with pure intelligence;
+you need steel, rubber, energy, and someone to fix the mess when something goes wrong.
+Simulations show that strongly decreasing returns to intelligence lead to limited effects of
+automation on wages and output, even as labor optimally reallocates to the physical sector
+in response to automation. When physical and intelligence inputs are complementary, no
+amount of intelligence can remove the need for physical inputs or make them infinitely pro-
+ductive. The extremely rapid exponential growth of intelligence technology thus does not
+fundamentally alter the overall dynamics of growth.
+33
+
+5.2 Labor Market Implications Through Transition and Beyond
+A key insight from our analysis is that labor allocation responds endogenously to automa-
+tion. As αI increases (more intelligence tasks become automated), labor shifts toward phys-
+ical production according to optimal allocation. This reallocation itself depresses wages by
+increasing the labor supply in physical production relative to demand, but at the same time
+abundant AI in the intelligence sector makes physical workers more effective and thus boosts
+wages, so total wage effects depend on the balance of these two factors.
+Our model predicts a hump-shaped pattern for wages for most parametrizations, in-
+cluding our baseline parameters. Under some parameters, wages can decrease more with
+automation, in particular if there is high substitutability between the physical and the in-
+telligence sector.
+This wage trajectory differs from the extreme techno-optimist view where wages go to
+zero while productivity potentially goes to infinity. It also differs from the extreme pes-
+simist view (which predicts permanently depressed wages). Instead, our model suggests
+a non-monotonic trajectory, with potentially sharp decreases in wages in later stages of
+automation, in particular when intelligence tasks are assumed to be more complementary.
+Therefore, it is important to remain cautious: even as automation first increase wages, it can
+eventually lead to strong wage declines (see also Korinek and Suh, 2024). The substitution
+between intelligence tasks is critical and therefore should be studied more empirically, es-
+pecially as this parameter may change with automation. Indeed, as automation progresses,
+it seems likely that the substitutability between still non-automated tasks and automated
+tasks decreases, in particular if there is a tail of intelligence tasks where labor has particularly
+strong advantages.
+Given that automation can have a non-monotonic impact on wages, it is important to
+know where we are in the path to automation and what wage effects are already visible.
+Labor demand indeed seems to decrease for jobs exposed to AI (Hampole et al., 2025), but
+overall labor demand increases, leading to muted overall effects. These offsetting effects are
+consistent with the mechanisms in our model. Their estimates imply that the employment
+share of overall less exposed occupations like the physical “Food preparation and serving”
+declines because firms that do not use AI grow less. Through the lens of our model, this
+pattern means that β, the share of workers in the physical sector, changes little or even
+declines. From equation (21), wages can fall only if β rises with automation (necessary
+condition); thus, when β is stable or decreasing, automation should increase wages.
+The role of the physical sector is critical because as automation progresses, an increasing
+share of labor optimally reallocates to the physical sector. There is a trade-off between wages
+and output as a higher share of the economy in the physical sector and a low substitutability
+between the physical and the intelligence sectors leads to more favorable automation effects
+for wages but less favorable automation effects for output. The most interesting parameter
+is perhaps ρ the substitution parameter between the physical and the intelligence sectors: if
+the goal is to sustain high wages while automation progresses, this parameter should stay
+low, but if the goal is to increase output the parameter should be increased. Concretely,
+this means that maximizing output may mean promoting virtual substitutes to physical
+goods and in person activities, which would then contribute to lowering wages during the
+automation phase.
+34
+
+The substitution parameter ρ also fundamentally shapes intelligence saturation when
+other factors are held fixed: when ρ < 0, there is intelligence saturation, and the lower ρ, the
+lower the long-run maximum wage and the quicker this maximum wage is achieved. When
+ρ > 0, i.e. when physical and intelligence sectors are gross substitutes, there is no intelligence
+saturation and wages can continue to grow forever as AI increases, but the wage trajectory
+during automation is typically less favorable.
+5.3 AI, innovation and wages
+AI leads to innovation that can itself spur job and wage growth in line with past introductions
+of general purpose technologies. This process of innovation is captured implicitly in two ways
+in our macro model.
+First, our model can capture the creation of new labor-intensive intelligence tasks, a
+reinstatement effect (Acemoglu and Restrepo, 2019). Specifically, the creation of new tasks
+could manifest through a lower automation parameter αI in the intelligence sector, because
+the share of labor in intelligence tasks 1 − αI increases when new labor-intensive tasks are
+added (Acemoglu and Restrepo, 2019). Thus, negative wage effects of increasing automation
+αI could be countered by the creation of new labor-intensive intelligence tasks.
+Second, the progress of AI can be represented through innovation embodied in capital, by
+adding more artificial intelligence capital KI. This increases the wages of intelligence workers
+for the same reason that adding more capital in a CES production function increases wages,
+i.e. because labor benefits from having more capital to work with. Adding more AI also
+increases the wages of physical workers because it increases intelligence production, which is
+beneficial for the physical sector to which physical workers contribute.
+It is the process of automation by itself, i.e. the replacement of workers with AI, that
+can lead to negative wage effects if other positive effects are not strong enough to counteract
+it. While we do not explicitly model innovation, innovation effects are implicitly captured in
+the evolution of αI and KI, and can be interpreted as the aggregate outcome of innovation.
+5.4 Factors Moderating the Impact of AI
+Several additional factors may moderate AI’s economic impact beyond what our model
+captures. First, there may be intelligence tasks that remain persistently difficult to automate
+- tasks that require forms of intelligence where AI’s capabilities plateau. Our modeling can
+accommodate this by capping αI below 1, reflecting a frontier of non-automatable intelligence
+work.
+Second, the rate of AI adoption depends on more than just technical capability - it
+requires investments, training, complementary innovations, and overcoming institutional
+inertia. These friction factors explain why technological transitions typically occur more
+gradually than pure technical capabilities would suggest.
+Finally, a lack of competition among AI providers may limit AI development and deploy-
+ment, or lead to strategic choices that diverge from socially optimal development paths.
+35
+
+5.5 Model Limitations and Future Research
+First, our models do not explicitly account for the role of human preferences and values in
+shaping the economic impact of AI. Even with intelligence saturation, societal choices about
+AI governance, distributive justice, and work organization will significantly influence realized
+outcomes.
+Second, our models do not explicitly incorporate reallocation costs for labor, while in
+practice these costs tend to be substantial. As a result, even if automation ultimately
+increases average wages, there can be significant wage declines in the short to medium run
+as laid off workers must find new jobs (Jacobson et al., 1993; Couch and Placzek, 2010) and
+adapt their skills to these new jobs.
+Third, because our model assumes labor is homogeneous, it cannot discuss disparate
+impacts of AI for different groups of workers. Just like prior waves of technological change
+(Autor and Dorn, 2013; Kogan et al., 2023), the newest AI technology may lead to wage
+increases for some workers and wage decreases for others depending on their sectors of
+activity and whether technology complements or substitutes for their work. It is worth
+noting that disparate impacts of automation across workers can be magnified in the presence
+of reallocation costs, which, as mentioned before, we do not explicitly model.
+Fourth, our model assumes that in the physical sector, labor cannot be profitably replaced
+by capital. This reflects the much slower decline in robot costs relative to AI costs. One
+could imagine, however, a scenario where robots can replace humans at scale in physical
+production. The key question for the future of work is whether there will remain tasks
+where replacing labor with capital is not economically advantageous, whether due to high
+costs or regulation. Call these tasks the “human domain,” with the remainder forming
+the “machine domain.” In such a case, we could simply relabel the physical sector as the
+human domain and the intelligence sector as the machine domain, preserving our model’s
+structure and applicability. If all labor could be replaced by capital, wages would fall to
+zero, but this extreme scenario appears unlikely given the high cost of complex robotics and
+the potential for regulation to raise costs. While the specific boundary between physical and
+intelligence inputs may shift, a framework that divides the economy into automatable and
+non-automatable tasks is likely to remain relevant for the foreseeable future.
+Future research could address these limitations by incorporating heterogeneous task
+structures with varying substitution elasticities, exploring dynamic adjustment processes
+in greater detail, and incorporating endogenous technological change in physical production
+capabilities. Additionally, enriching the models with evidence from recent AI deployments
+could improve their empirical grounding.
+5.6 Policy Implications
+Our analysis suggests several policy implications. First, policies that slow automation could
+help smooth the transition by reducing negative wage effects. The literature has explored the
+rationale for such policies when worker adjustment is costly (Guerreiro et al., 2022; Lehr and
+Restrepo, 2022; Costinot and Werning, 2023; Beraja and Zorzi, 2025). Our model suggests
+an additional rationale: allowing for more time to increase capital investment in physical
+sectors, which could help smooth the transition by reducing negative wage effects. This does
+36
+
+not mean halting AI development, but rather pacing its deployment to allow for investments
+in physical capital. A tax on the deployment of AI that replaces workers in intelligence
+tasks might be helpful to maintain high wages, but it is not clear how one could effectively
+target this technology. As our model outlines, replacing workers tends to reduce wages, but
+increasing the amount of AI used tends to increase wages; this makes the targeting of any AI
+tax extra tricky, even if AI could be clearly distinguished from other technologies. A subsidy
+for investment in capital used in the physical sector is likely easier to target: this could
+include for example physical investments in construction, and in the hospitality industry.
+Second, redistributive policies may be useful during the transition period when wages
+are depressed by automation. The specifics of these policies depend on political and design
+considerations beyond our model’s scope, but the model clearly indicates a period of adjust-
+ment where many workers face significant economic pressure. One possible model is wage
+insurance (Hyman et al., 2024), which would provide income support to workers displaced
+by AI that find jobs at lower wages.
+6 Conclusion
+We have presented a framework for analyzing the economic impact of AI that reconciles in-
+sights from both economics and computer science. Our model demonstrates how intelligence
+saturation - the idea that marginal returns to intelligence tend to zero when physical inputs
+are held constant - fundamentally constrains AI’s long-term economic impact.
+The key insight of our analysis is the distinction between intelligence and physical sectors,
+coupled with the observation that labor is more substitutable with AI in intelligence tasks
+than with capital in physical tasks. These two features drive the dynamics of our model
+and lead to our main conclusions: (1) wages may have a non-monotonic path as automation
+progresses (2) after full automation of intelligence tasks, wages can grow again but are limited
+by intelligence saturation as long as intelligence and physical sectors are complements, and (3)
+the ultimate constraint on economic growth shifts from intelligence to physical production.
+We use a CES macro model built on a CES physical sector (capital–labor), and a CES-like
+intelligence sector that aggregates many tasks. Our theoretical analysis shows that increasing
+automation moves workers from the intelligence sector to the physical sector under mild
+conditions (see Lemma A.1). The sign of the effect of automation on wages is theoretically
+ambiguous and mainly depends on whether the positive scale effect of automation (increased
+intelligence output leading to increased overall output) outweighs the negative effect from
+workers getting iced out of the intelligence sector and having to find work in the physical
+sector (see Eq. (18)). If we focus on the intelligence sector alone, then a sufficient condition
+for automation to lower wages is that the (weighted) share of employment in the intelligence
+sector decreases more than the intelligence output grows (see Eq. (26)) and (21)). Based on
+our model, a necessary condition for wages to decrease is that the share of employment in
+the intelligence sector decreases. This is a useful indicator to watch to understand whether
+further automation might decrease wages.
+We then simulate the model to understand the effect of automation and of AI increases on
+wages. Holding AI fixed, and under our baseline parameters, rising automation of intelligence
+tasks increases and then decreases wages, as the labor reallocation drags eventually outweigh
+37
+
+the positive impacts on the production of intelligence. This represents a cautionary tale that
+early days wage gains should not be taken for granted. Varying parameters away from
+the baseline, we learn three main lessons. First, starker decreasing returns to intelligence
+dampen the early positive wage effects of automation. Second, less substitutability between
+intelligence tasks can lead to wages strongly increasing and then steeply decreasing with au-
+tomation. Third, because automation pushes labor toward the physical sector, the elasticity
+of substitution between sectors is pivotal: greater substitutability depresses wages yet boosts
+output as automation progresses further at high levels of automation. The effects of automa-
+tion depend on key parameters in a subtle way, making predictions parameter-dependent.
+We then allow AI to grow. This elasticity of substitution between sectors governs whether
+wages and output saturate as AI capital increases past full automation of intelligence tasks:
+when physical and intelligence sectors are gross complements ( ρ < 0), there is intelligence
+saturation.
+Overall, these findings contradict the singularity narrative that posits unbounded returns
+to intelligence. Even powerful AI faces physical and institutional bottlenecks that bound
+returns when P is fixed. A car cannot be built by intelligence alone; a building cannot be
+constructed with pure computation; a meal cannot be cooked with algorithms alone.
+Our analysis suggests that AI represents a powerful general-purpose technology that will
+significantly reshape the economy, but not one that fundamentally alters the laws of eco-
+nomics or physics. The economy after AI will still be constrained by scarcity, still require
+physical production, and still operate according to principles of marginal returns and sub-
+stitution that economists have long understood.
+This perspective provides a middle ground between the extremes that have dominated
+much public discourse about AI. Neither the techno-utopian vision of post-scarcity abun-
+dance nor the dystopian fear of permanent labor displacement accurately captures what
+our model predicts. Instead, we foresee a significant but ultimately bounded transformation,
+with a potentially challenging transition period followed by a new equilibrium where physical
+production becomes the limiting factor.
+Our modeling framework also allows for a clearer understanding of what it would take
+for the singularity narrative to become reality, and what parameter assumptions can fun-
+damentally differentiate the insights of economists vs. AI experts. Economists’ common
+predictions of a mild effect of AI can be rationalized by complementarity between physical
+and intelligence sectors, leading to intelligence saturation even as AI continues to scale up.
+By contrast, AI experts’ predictions of an economic upheaval can be rationalized by sub-
+stitutability between physical and intelligence sectors: if technological progress allows us to
+substitute more easily intelligence production for physical production, then there is no limit
+to how much AI can increase output and wages (as long as the physical sector is not fully
+automated).
+Policy can focus on managing the automation of intelligence, while ensuring that the
+benefits of AI are broadly shared. By recognizing the fundamental constraints on AI’s
+economic impact, we can develop more realistic expectations and more effective strategies
+for harnessing AI’s potential while mitigating its disruptive effects. Policy therefore faces the
+dual challenge of (i) pacing automation and (ii) accelerating labor-augmenting investment
+in the physical sector so that wages are less likely to decline with automation.
+The future path of the economy depends not only on technological possibilities but also
+38
+
+on societal choices. We retain substantial agency in shaping how these technologies are
+developed and deployed, and AI itself can help us develop scenarios and possible policy
+responses.
+In summary, our paper contributes to the understanding of AI’s economic impact by pro-
+viding a framework that combines insights from economics and computer science, emphasizes
+the fundamental distinction between physical and intelligence sectors, and demonstrates how
+intelligence saturation constrains AI’s transformative potential. This framework helps re-
+solve apparent contradictions between optimistic and pessimistic AI narratives and provides
+guidance for policy responses that can smooth the transition to an AI-abundant economy.
+References
+Acemoglu, D., F. Kong, and P. Restrepo (2024, August). Tasks At Work: Comparative
+Advantage, Technology and Labor Demand.
+Acemoglu, D. and P. Restrepo (2018, June). Low-Skill and High-Skill Automation. Journal
+of Human Capital 12 (2), 204–232.
+Acemoglu, D. and P. Restrepo (2019, May). Automation and New Tasks: How Technology
+Displaces and Reinstates Labor. Journal of Economic Perspectives 33 (2), 3–30.
+Aghion, P., U. Akcigit, and P. Howitt (2015, August). The Schumpeterian Growth Paradigm.
+Annual Review of Economics 7 (Volume 7, 2015), 557–575. Publisher: Annual Reviews.
+Appenzeller, G. (2024, November). Welcome to LLMflation - LLM inference cost is going
+down fast.
+ARK Investment Management LLC (2021). Industrial robot costs could fall 65% by 2025,
+boosting automation. Accessed: 2025-05-07.
+Autor, D., C. Goldin, and L. F. Katz (2020, May). Extending the Race between Education
+and Technology. AEA Papers and Proceedings 110 , 347–351.
+Autor, D. H. and D. Dorn (2013, August). The Growth of Low-Skill Service Jobs and the
+Polarization of the US Labor Market. American Economic Review 103 (5), 1553–1597.
+Autor, D. H., F. Levy, and R. J. Murnane (2003). The skill content of recent technological
+change: An empirical exploration. The Quarterly Journal of Economics 118 (4), 1279–
+1333. Accessed July 8, 2025.
+Azar, J. and I. Marinescu (2024, November). Chapter 10 - Monopsony power in the labor
+market. In C. Dustmann and T. Lemieux (Eds.), Handbook of Labor Economics, Volume 5,
+pp. 761–827. Elsevier.
+Barrero, J. M., N. Bloom, and S. J. Davis (2021, April). Why Working from Home Will
+Stick.
+39
+
+Beraja, M. and N. Zorzi (2025, January). Inefficient Automation. The Review of Economic
+Studies 92 (1), 69–96.
+Bick, A., A. Blandin, and D. J. Deming (2025). The Rapid Adoption of Generative AI.
+Bloom, N., C. I. Jones, J. Van Reenen, and M. Webb (2020, April). Are Ideas Getting
+Harder to Find? American Economic Review 110 (4), 1104–1144.
+Broda, C. and D. E. Weinstein (2006, May). Globalization and the Gains From Variety*.
+The Quarterly Journal of Economics 121 (2), 541–585.
+Brynjolfsson, E., D. Li, and L. Raymond (2025, May). Generative AI at Work.The Quarterly
+Journal of Economics 140 (2), 889–942.
+Cantore, C. and P. Levine (2012, December). Getting normalization right: Dealing with
+‘dimensional constants’ in macroeconomics. Journal of Economic Dynamics and Con-
+trol 36 (12), 1931–1949.
+Challapally, A., C. Pease, R. Raskar, and P. Chari (2025). STATE OF AI IN BUSINESS
+2025.
+Colecchia, A. and P. Schreyer (2002, April). ICT Investment and Economic Growth in
+the 1990s: Is the United States a Unique Case?: A Comparative Study of Nine OECD
+Countries. Review of Economic Dynamics 5 (2), 408–442.
+Congressional Budget Office (2025). The demographic outlook: 2025 to 2055. Technical
+report, U.S. Congressional Budget Office.
+Cortes, G. M., N. Jaimovich, C. J. Nekarda, and H. E. Siu (2020, August). The dynamics
+of disappearing routine jobs: A flows approach. Labour Economics 65, 101823.
+Cort´ es-Albornoz, M. C., S. Ram´ ırez-Guerrero, D. P. Garc´ ıa-Gu´ aqueta, A. V´ elez-Van-
+Meerbeke, and C. Talero-Guti´ errez (2023, September). Effects of remote learning during
+COVID-19 lockdown on children’s learning abilities and school performance: A systematic
+review. International Journal of Educational Development 101 , 102835.
+Costinot, A. and I. Werning (2023, October). Robots, Trade, and Luddism: A Sufficient
+Statistic Approach to Optimal Technology Regulation. The Review of Economic Stud-
+ies 90 (5), 2261–2291.
+Couch, K. A. and D. W. Placzek (2010, March). Earnings Losses of Displaced Workers
+Revisited. American Economic Review 100 (1), 572–589.
+Cui, K. Z., M. Demirer, S. Jaffe, L. Musolff, S. Peng, and T. Salz (2025, 02). The Effects
+of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with
+Software Developers.
+DeepLearning.AI (2024). Falling llm token prices and what they mean for ai companies.
+Accessed: 2025-05-07.
+40
+
+Dell’Acqua, F., E. McFowland, E. R. Mollick, H. Lifshitz-Assaf, K. Kellogg, S. Rajendran,
+L. Krayer, F. Candelon, and K. R. Lakhani (2023). Navigating the Jagged Technolog-
+ical Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker
+Productivity and Quality. SSRN Electronic Journal .
+Denning, P. J., View Profile, T. G. Lewis, and View Profile (2016, December). Exponen-
+tial laws of computing growth. Communications of the ACM 60 (1), 54–65. Publisher:
+Association for Computing Machinery.
+Eden, M. and P. Gaggl (2018, July). On the welfare implications of automation. Review of
+Economic Dynamics 29 , 15–43.
+Goos, M., A. Manning, and A. Salomons (2014, August). Explaining Job Polarization:
+Routine-Biased Technological Change and Offshoring.American Economic Review 104(8),
+2509–2526.
+Gordon, R. J. (2016, January). The Rise and Fall of American Growth: The U.S. Standard
+of Living since the Civil War . Princeton University Press. Google-Books-ID: 0DJJC-
+gAAQBAJ.
+Greenwood, J., A. Seshadri, and M. Yorukoglu (2005). Engines of Liberation. The Review
+of Economic Studies 72 (1), 109–133. Publisher: [Oxford University Press, The Review of
+Economic Studies, Ltd.].
+Guerreiro, J., S. Rebelo, and P. Teles (2022, January). Should Robots Be Taxed? Review
+of Economic Studies 89 (1), 279–311.
+Guo, D., D. Yang, H. Zhang, J. Song, R. Zhang, R. Xu, Q. Zhu, S. Ma, P. Wang, X. Bi,
+et al. (2025). Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement
+learning. arXiv preprint arXiv:2501.12948 .
+Hampole, M., D. Papanikolaou, L. D. Schmidt, and B. Seegmiller (2025, February). Artificial
+Intelligence and the Labor Market.
+Handa, K., A. Tamkin, M. McCain, S. Huang, E. Durmus, S. Heck, J. Mueller, J. Hong,
+S. Ritchie, T. Belonax, K. K. Troy, D. Amodei, J. Kaplan, J. Clark, and D. Ganguli
+(2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude
+Conversations.
+Hernandez, D. and T. B. Brown (2020). Measuring the algorithmic efficiency of neural
+networks. arXiv preprint arXiv:2005.04305 .
+Hoffmann, J., S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. d. L.
+Casas, L. A. Hendricks, J. Welbl, A. Clark, et al. (2022). Training compute-optimal large
+language models. arXiv preprint arXiv:2203.15556 .
+Humlum, A. and E. Vestergaard (2025, May). Large Language Models, Small Labor Market
+Effects.
+41
+
+Hyman, B. G., B. K. Kovak, and A. Leive (2024, May). Wage Insurance for Displaced
+Workers.
+Jack, R., C. Halloran, J. Okun, and E. Oster (2023, June). Pandemic Schooling Mode and
+Student Test Scores: Evidence from US School Districts. American Economic Review:
+Insights 5 (2), 173–190.
+Jacobson, L. S., R. J. LaLonde, and D. G. Sullivan (1993). Earnings Losses of Displaced
+Workers. The American Economic Review 83(4), 685–709. Publisher: American Economic
+Association.
+Jones, B. F. (2009, January). The Burden of Knowledge and the “Death of the Renaissance
+Man”: Is Innovation Getting Harder? The Review of Economic Studies 76 (1), 283–317.
+Jones, B. F. and X. Liu (2024, May). A Framework for Economic Growth with Capital-
+Embodied Technical Change. American Economic Review 114 (5), 1448–1487.
+Kaplan, J., S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child, S. Gray, A. Rad-
+ford, J. Wu, and D. Amodei (2020). Scaling laws for neural language models. arXiv
+preprint arXiv:2001.08361 .
+Kelly, B., D. Papanikolaou, A. Seru, and M. Taddy (2021, September). Measuring Tech-
+nological Innovation over the Long Run. American Economic Review: Insights 3 (3),
+303–320.
+Keuschnigg, M., A. van de Rijt, and T. Bol (2023, October). The plateauing of cognitive
+ability among top earners. European Sociological Review 39 (5), 820–833.
+Klump, R., P. McAdam, and A. Willman (2012). The Normalized Ces Production Func-
+tion: Theory and Empirics. Journal of Economic Surveys 26 (5), 769–799. eprint:
+https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-6419.2012.00730.x.
+Kogan, L., D. Papanikolaou, L. Schmidt, and B. Seegmiller (2023, November). Technology
+and Labor Displacement: Evidence from Linking Patents with Worker-Level Data.
+Koomey, J. G., S. Berard, M. Sanchez, and H. Wong (2011). Implications of historical trends
+in the electrical efficiency of computing. IEEE Annals of the History of Computing 33 (3),
+46–54.
+Korinek, A. and D. Suh (2024, March). Scenarios for the Transition to AGI.
+Korus, S. (2019, January). Industrial robot cost declines should trigger tip-
+ping points in demand. https://www.ark-invest.com/articles/analyst-research/
+industrial-robot-cost-declines . Originally published August 7, 2017.
+Kurzweil, R. (2005). The Singularity Is Near: When Humans Transcend Biology . New York:
+Viking.
+Lehr, N. H. and P. Restrepo (2022, December). Optimal Gradualism.
+42
+
+Leiserson, C. E., N. C. Thompson, J. S. Emer, B. C. Kuszmaul, B. W. Lampson, D. Sanchez,
+and T. B. Schardl (2020, June). There’s plenty of room at the Top: What will drive
+computer performance after Moore’s law? Science 368 (6495), eaam9744. Publisher:
+American Association for the Advancement of Science.
+Lu, C. (2025). The Race to Efficiency: A New Perspective on AI Scaling Laws. arXiv
+preprint arXiv:2501.02156v3 . Argues exponential AI scaling remains viable with ongoing
+efficiency gains.
+McAdam, P., P. Meinen, C. Papageorgiou, and P. Schulte (2024). Returns to Scale: New
+Evidence from Administrative Firm-Level Data.
+Nordhaus, W. D. (2007). Two centuries of productivity growth in computing. The Journal
+of Economic History 67 (1), 128–159.
+Noy, S. and W. Zhang (2023, July). Experimental evidence on the productivity effects
+of generative artificial intelligence. Science 381 (6654), 187–192. Publisher: American
+Association for the Advancement of Science.
+Oberfield, E. and D. Raval (2021, March). Micro Data and Macro Technology. Economet-
+rica 89 (2), 703–732. Publisher: Wiley-Blackwell Publishing Ltd.
+Park, M., E. Leahey, and R. J. Funk (2023, January). Papers and patents are becoming less
+disruptive over time. Nature 613 (7942), 138–144. Publisher: Nature Publishing Group.
+Peng, S., E. Kalliamvakou, P. Cihon, and M. Demirer (2023, February). The Impact of AI
+on Developer Productivity: Evidence from GitHub Copilot. arXiv:2302.06590 [cs].
+Ray, S. C., R. G. Chambers, and S. C. Kumbhakar (Eds.) (2022). Handbook of Production
+Economics. Singapore: Springer Nature Singapore.
+Roy, N., I. Posner, T. Barfoot, Y. Bengio, et al. (2021). From machine learning to robotics:
+Challenges and opportunities for embodied intelligence. arXiv preprint arXiv:2110.15245 .
+Discusses the limitations of standard AI when embodied in robotics, emphasizing the
+interplay between computational intelligence and physical effectors in real environments.
+Samborska, V. (2025). Scaling up: how increasing inputs has made artificial intelligence
+more capable. Our World in Data . Highlights AI’s exponential growth in compute, data,
+and model scale.
+Segado, M., F. Parodi, J. K. Matelsky, M. L. Platt, E. B. Dyer, and K. P. Kording (2025).
+Grounding intelligence in movement. arXiv preprint arXiv:2507.02771v1 . Argues that
+bodily movement and morphology fundamentally ground neural intelligence.
+Smith, E. (2023, January). Updated AMD EPYC and Intel Xeon Core Counts Over Time.
+Spiezia, V. (2012). ICT investments and productivity: Measuring the contribution of ICTS
+to growth. OECD Journal: Economic Studies 2012 (1), 199–211. Publisher: OECD
+Publishing.
+43
+
+Temple, J. (2012, June). The calibration of CES production functions. Journal of Macroe-
+conomics 34 (2), 294–303.
+Terman, L. M. and M. H. Oden (1947). Genetic Studies of Genius ...: The gifted child grows
+up; twenty-five years’ follow-up of a superior group, by L. M. Terman and M. H. Oden .
+Stanford University Press. Google-Books-ID: TLJ9AAAAMAAJ.
+Tomlinson, K., S. Jaffe, W. Wang, S. Counts, and S. Suri (2025, July). Working with AI:
+Measuring the Occupational Implications of Generative AI. arXiv:2507.07935 [cs].
+U.S. Bureau of Labor Statistics (2023). May 2023 National Occupational Employment and
+Wage Estimates. Accessed June 30, 2025.
+Venturini, F. (2009, December). The long-run impact of ICT. Empirical Economics 37 (3),
+497–515.
+Warne, R. T., R. A. A. Larsen, and J. Clark (2020, September). Low base rates and a high IQ
+selection threshold prevented Terman from identifying future Nobelists. Intelligence 82 ,
+101488.
+Wolpert, D. M., K. Doya, and M. Kawato (2003). A unifying computational framework for
+motor control and social interaction. Philosophical Transactions of the Royal Society of
+London B 358 , 593–602. Positions the brain’s fundamental role as using internal models
+to predict and optimize motor commands — intelligence as movement-optimization.
+A Conditions for automation to increase the share of
+labor in the physical sector
+Lemma A.1 (Automation raises β∗ under mild conditions) . Fix (K, KI) and an interior
+allocation β∗ ∈ (0, 1) that solves wP (β) = wI(β, αI). Assume each block is CES with ρP < 1
+and ρI < 1 (concave) and θI > 0. Then
+dβ∗
+dαI
+> 0 whenever ∂ ln wI
+∂αI
+
+β
+< 0.
+Moreover, at fixed β,
+∂ ln wI
+∂αI
+= − 1 − ρI
+1 − αI| {z }
+direct (at fixed I)
++
+
+ρ − ρI
+θI
+ ∂ ln I
+∂αI| {z }
+indirect via I
+. (31)
+Hence a sufficient condition is
+ρ ≤ ρI
+θI
+or, more generally, ∂ ln I
+∂αI
+< 1 − ρI
+(1 − αI)
+ 
+ρ − ρI/θI
+ (ρ > ρ I/θI).
+44
+
+Proof. Let G(β, αI) = ln wP (β) − ln wI(β, αI); at an interior solution G = 0. Explicit forms.
+Using LP = βL and LI = (1 − β)L,
+wP (β) = τ Y 1−ρ P ρ−1 ∂P
+∂LP
+= τ Y 1−ρ (1 − αP ) P ρ−ρP (βL) ρP −1,
+wI(β, αI) = (1 − τ) Y 1−ρ I ρ−1 ∂I
+∂LI
+, ∂I
+∂LI
+= θI (1 − αI) 1−ρI I 1−ρI /θI
+ 
+(1 − β)L
+ ρI −1
+.
+β-monotonicity. With ρP < 1 and ρI < 1, the marginal product of labor in each block
+is decreasing in its own labor input. As β rises, LP = βL increases and LI = (1 − β)L
+decreases; hence ∂βwP < 0 and ∂βwI > 0. Therefore Gβ = ∂β ln wP − ∂β ln wI < 0. IFT sign.
+By the Implicit Function Theorem,
+dβ∗
+dαI
+= − GαI
+Gβ
+= ∂αI ln wI
+Gβ
+, ⇒ sign
+ dβ∗
+dαI
+
+= − sign
+ 
+∂αI ln wI
+
+,
+since Gβ < 0. This is the denominator sign used in Proposition 3.1.
+For (31), note wI = Y 1−ρI ρ−1 (∂I/∂L I) and ∂I/∂L I = θI(1 − αI)1−ρI I1−ρI /θI LρI −1
+I , so
+ln wI = (1 − ρ) lnY +
+
+(ρ − 1) + (1 − ρI/θI)
+
+| {z }
+= ρ−ρI /θI
+ln I + (1− ρI) ln(1− αI) + (ρI − 1) lnLI + const.
+Differentiating w.r.t. αI at fixed β (hence fixed LI) yields (31). The first term is the di-
+rect effect emphasized in the intuition: higher αI lowers (1 − αI)1−ρI, reducing the I-block
+marginal product of labor. The second is the indirect effect via the induced change in I;
+it is dominated when ρ ≤ ρI/θI, or under the stated bound when ρ > ρ I/θI. Under either
+condition, ∂αI ln wI < 0, hence dβ∗/dαI > 0.
+B Share of earnings in manual occupations in 2023
+This appendix estimates the share of total U.S. wage earnings attributable to manual occu-
+pations in 2023.
+Manual occupations are defined as major occupational categories involving physical labor
+or skilled trades. The classification follows Cortes et al. (2020), which borrows from Autor
+et al. (2003).
+The categorization is applied using the Occupational Employment and Wage Statistics
+dataset (U.S. Bureau of Labor Statistics, 2023). Table 5 shows the raw data on employment
+and average earnings by occupation, and the calculated employment shares and earnings
+shares of each occupation.
+45
+
+Table 4: Occupation categories and classifications
+Occupation Title 2010 Census
+Code(s)
+2010 SOC
+Code(s) Classification
+Management, professional,
+and related occupations
+0010–3540 11-0000–29-0000 Non-Routine Cog-
+nitive
+Service occupations 3600–4650 31-0000–39-0000 Non-Routine
+Manual
+Sales and office occupations 4700–5940 41-0000–43-0000 Routine Cognitive
+Farming, fishing, and
+forestry occupations
+6000–6130 45-0000 Routine Manuala
+Construction and extrac-
+tion occupations
+6200–6940 47-0000 Routine Manual
+Installation, maintenance,
+and repair occupations
+7000–7630 49-0000 Routine Manual
+Production, transportation,
+and material moving occupa-
+tions
+7700–9750 51-0000–53-0000 Routine Manual
+a Data from these workers was excluded from the analysis in Cortes et al. (2020).
+46
+
+Table 5: Employment and earnings by occupation in the 2023 Occupational Employment
+and Wage Statistics
+2010 SOC Code(s) Employment Averagee
+earnings
+Share of total
+employment
+Share of total
+earnings
+11–0000 10495770 137750 .0691176 .1454173
+13–0000 10087830 90580 .0664312 .0919052
+15–0000 5177400 113140 .0340946 .0589166
+17–0000 2539660 99090 .0167244 .0253114
+19–0000 1389430 87870 .0091498 .0122797
+21–0000 2418130 58980 .0159241 .0143448
+23–0000 1240630 133820 .0081699 .0166983
+25–0000 8744560 66400 .0575854 .0584004
+27–0000 2106490 75520 .0138718 .0160004
+29–0000 9284210 102060 .0611391 .0953039
+31–0000 7063530 38220 .0465153 .0271533
+33–0000 3504330 57710 .023077 .0203407
+35–0000 13247870 34490 .0872409 .0459567
+37–0000 4429070 38320 .0291667 .0170706
+39–0000 3040630 38430 .0200234 .0117529
+41–0000 13380660 53280 .0881154 .0717054
+43–0000 18533450 47940 .1220479 .0893644
+45–0000 432200 39970 .0028462 .0017375
+47–0000 6225630 61500 .0409975 .0385096
+49–0000 5989460 58500 .0394423 .0352414
+51–0000 8770170 47620 .057754 .0420056
+53–0000 13752760 46690 .0905657 .0645838
+Data from the Occupational Employment and Wage Statistics dataset (U.S. Bureau of Labor Statis-
+tics, 2023). To obtain the share of total earnings, we first multiply the employment number by
+the average wage in the occupation, obtaining the wage bill in the occupation. The sum of the
+occupational wage bill over all occupations is total earnings. And the share of each occupation in
+total earnings is the wage bill divided by total earnings.
+47
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+The Center on Regulation and Markets at 
+Brookings provides independent, nonpartisan 
+research on regulatory policy, applied broadly 
+across microeconomic fields. It creates and 
+promotes independent economic scholarship 
+to inform regulatory policymaking, the 
+regulatory process, and the efficient and 
+equitable functioning of economic markets.   
+  
+Questions about the research? Email communications@brookings.edu.  Be sure to include the title of 
+this paper in your inquiry. 
+The Brookings Institution   |  1775 Massachusetts Ave. NW, Washington, DC 20036  |  202.797.6000 

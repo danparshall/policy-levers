@@ -1,0 +1,72 @@
+Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks
+
+Matthias Mertens, Adam Kuzee, Brittany S. Harris, Harry Lyu, Wensu Li, Jonathan Rosenfeld, Meiri Anto, Martin Fleming, Neil Thompson
+
+MIT FutureTech
+March 2026
+arXiv:2604.01363
+
+Abstract
+
+We propose that AI automation is a continuum between: (i) crashing waves where AI capabilities surge abruptly over small sets of tasks, and (ii) rising tides where the increase in AI capabilities is more continuous and broad-based. We test for these effects in preliminary evidence from an ongoing evaluation of AI capabilities across over 3,000 broad-based tasks derived from the U.S. Department of Labor O*NET categorization that are text-based and thus LLM-addressable. Based on more than 17,000 evaluations by workers from these jobs, we find little evidence of crashing waves (in contrast to recent work by METR), but substantial evidence that rising tides are the primary form of AI automation. AI performance is high and improving rapidly across a wide range of tasks. We estimate that, in 2024-Q2, AI models successfully complete tasks that take humans approximately 3-4 hours with about a 50% success rate, increasing to about 65% by 2025-Q3. If recent trends in AI capability growth persist, this pace of AI improvement implies that LLMs will be able to complete most text-related tasks with success rates of, on average, 80%-95% by 2029 at a minimally sufficient quality level. Achieving near-perfect success rates at this quality level or comparable success rates at superior quality would require several additional years.
+
+1 Introduction
+
+The paper contrasts two models of AI automation progress:
+- "Crashing waves": AI capabilities surge abruptly for tasks near a tipping point, described by a steep logistic curve relating success to task duration. Workers face sudden shifts from AI nearly always failing to nearly always succeeding.
+- "Rising tides": A flatter success-duration relationship, with AI performance more similar across tasks of different lengths. Progress is more gradual but still potentially rapid and disruptive.
+
+The main insight: across a large set of realistic, representative labor-market tasks addressable by LLMs, the downward slope between task success and task duration is surprisingly flat -- more consistent with a rising tide than a crashing wave.
+
+The analysis draws on an ongoing research effort collecting novel evaluations of LLM outputs by domain experts across more than 40 models and over 20,000 unique task examples based on more than 10,000 O*NET tasks that are at least partially text-based.
+
+2 Results
+
+2.1 Approach and Baseline Results
+
+Survey Data: 17,205 evaluations of LLM performance on labor market tasks drawn from O*NET. Tasks filtered to those where LLM assistance estimated to generate at least 10% time savings (62.6% of all O*NET tasks). Task instances completed by 40+ LLMs (5 models per instance), evaluated by human evaluators with relevant on-the-job experience on a 1-9 scale. Primary outcome: binary indicator for score >= 7 ("minimally sufficient without edits").
+
+Key findings:
+
+1. The success-duration curve is relatively flat (rising tide pattern). A tenfold increase in task duration associated with only 0.31 decline in log-odds of success (about 7.6 percentage points at 60% baseline). Pattern holds across model sizes and vintages.
+
+2. AI performance is high. Models achieve minimally-sufficient quality without human edits on roughly 50-75% of tasks. By 2024-Q3, frontier models achieved 50% success on tasks taking humans about a day.
+
+3. AI performance improving rapidly across wide range of task durations. Between 2024-Q2 and 2025-Q3: 50% success rate went from 3-4 hour tasks to 1-week tasks; 70% success rate went from 1-minute to 1-hour tasks. Doubling time (calendar time for newer models to achieve same success on tasks twice as long) = 3.8 months. Failure rate halving time = 2.4-3.2 years across task durations. Annual success rate increases of 8-11 percentage points.
+
+4. Model size vs. vintage effects differ. Larger models (>100B) outperform on short tasks but have only modest improvements on longer tasks (outward rotation, beta = -0.36 vs -0.26). Newer models produce approximately parallel shifts (beta = -0.31 vs -0.32) -- improved performance by same amount across task-duration distribution.
+
+2.2 Job Family Results
+
+Success rates vary by O*NET job family (47% Legal to 73% Installation/Maintenance/Repair for text-based tasks). Success-duration slopes differ sharply across families. In ~25% of families, slope is significantly negative (-0.25 to -0.93). In remaining families, slope is statistically indistinguishable from zero (flat -- pure rising tide).
+
+2.3 Future Impacts
+
+Extrapolation assuming continued trend growth: most text-based tasks projected to reach 80-95% AI success rates by 2029 at minimally sufficient quality. Near-perfect performance (close to 100%) would take considerably longer due to logistic function properties. Authors note this is an upper-bound scenario -- compute scaling limits, algorithmic progress slowdowns, and hardware constraints could slow progress.
+
+3 Discussion
+
+Comparison to METR (Kwa et al. 2025): METR finds steeper logistic slopes consistent with "crashing waves" on deterministic research/software-engineering tasks. This paper finds flat slopes on non-deterministic, realistic labor-market tasks. Difference likely due to task environment: deterministic vs. non-deterministic tasks, not task coverage.
+
+Labor Market Impacts caveats:
+- Survey data collection is incomplete and likely over-represents easier-to-survey occupations
+- Survey setup provides all information needed; real-world integration may be costly
+- Does not account for economic attractiveness of deployment or "last-mile" costs
+- Task automation != worker displacement (per Autor & Thompson 2025, task loss can increase or decrease wages/employment depending on task-occupation relationship)
+
+4 Methods
+
+4.1 Survey Collection
+- O*NET 29.2 database, 18,786 tasks
+- GPT-4 classifier: 11,768 tasks (62.6%) with >= 10% time-savings potential
+- GPT-5 generated 6 task instances per task, filtered for validity
+- 11,536 tasks with 69,216 instances included in survey
+- 41 LLMs evaluated (June 2023 - August 2025), identical prompts, 700-word response cap
+- Evaluators via Prolific: US residents, >= 75% approval, >= 6 months work experience in relevant occupation
+- 34.6% of data excluded through quality assurance
+- Preliminary data: slightly over-represents white-collar, lower-wage occupations vs. target
+
+4.2 Theoretical Foundations
+Micro-foundation: task success modeled as completing N(T) coupled critical actions without fatal error, where N scales as a power of task duration. If the log-horizon of model robustness is logistic, this yields the logistic regression specification. The slope coefficient beta = -gamma/sigma reflects how sequentially coupled tasks are within a domain. Steeper slopes (more negative) = more sequentially coupled tasks.
+
+Model vintage shifts captured by release-date term in logit, producing parallel shifts in success-duration curve (newer models extend sustainable serial chain length without changing how required depth scales with duration).
