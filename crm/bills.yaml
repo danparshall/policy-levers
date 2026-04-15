@@ -1,0 +1,92 @@
+# Bills tracked
+
+bills:
+
+  s2938:
+    number: S.2938
+    congress: 119
+    title: Artificial Intelligence Risk Evaluation Act of 2025
+    short_name: AIRE Act
+    introduced: 2025-09-29
+    sponsor: hawley
+    cosponsors_at_intro:
+      - blumenthal
+    referred_to: senate-commerce
+    status: stalled_in_committee
+    text_url: https://www.congress.gov/bill/119th-congress/senate-bill/2938/text
+
+    summary: |
+      Establishes Advanced AI Evaluation Program at Department of Energy.
+      Requires pre-deployment disclosure (code, weights, training data,
+      architecture) from developers of advanced AI systems. Targets
+      loss-of-control scenarios, weaponization by adversaries, critical
+      infrastructure threats, scheming behavior, civil liberties erosion,
+      labor-market impacts. Requires 360-day report to Congress with
+      recommendation for permanent federal oversight framework.
+
+    key_features:
+      - Pre-deployment disclosure (not approval)
+      - DOE-housed (not IC, not new agency)
+      - Statutory definitions: "loss-of-control scenarios", "scheming behavior",
+        "artificial superintelligence"
+      - $1M/day fine for non-compliance
+      - 360-day deadline for permanent framework recommendation
+
+    framing_assets:
+      - CAIS extinction statement (signed by Altman, Hassabis, Amodei,
+        Hinton, Bengio) — bill operationalizes what CEOs already said
+      - Statutory language ("loss-of-control") gives cover for
+        catastrophic-risk framing without "extinction" word in skeptic offices
+      - Brookings Kording-Marinescu paper (Nov 2025) on hump-shaped
+        wage trajectory supports labor framing
+      - METR / MIT FutureTech / Eloundou capability data supports
+        urgency framing
+
+    common_pushbacks:
+      - pushback: "Slows innovation"
+        response: "Pre-deployment disclosure, not approval. FDA notification model."
+      - pushback: "Why DOE?"
+        response: "Owns compute (national labs/ASCR), has clearance infra, avoids IC-capture optics."
+      - pushback: "Biden-era safetyism"
+        response: "Targets weaponization + adversary use. Opposite of EU ex-ante regulation."
+      - pushback: "Sci-fi"
+        response: "5 years ago AI passing the bar was sci-fi. Track record of that dismissal is bad."
+      - pushback: "Extinction is hyperbole"
+        response: "Hinton, Bengio, Altman, Hassabis, Amodei all signed CAIS statement. Consensus, not fringe."
+      - pushback: "Industry talking points"
+        response: "Asking you to take them at their word. If they're wrong, the bill costs a disclosure form."
+      - pushback: "Jobs claims speculative"
+        response: "Exactly why we need DOE measuring it. No federal entity tracks AI labor displacement systematically."
+      - pushback: "Why now?"
+        response: "360-day clock. Need fact base before next incident forces a panicked bill."
+
+    related_bills:
+      - number: S.AIWCA  # placeholder; verify number
+        title: AI Workforce Commission Act
+        sponsors: [warner, rounds]
+        introduced: 2026-03
+        relationship: |
+          Downstream complement to S.2938. Workforce Commission needs
+          federal data on AI labor displacement; AIRE generates it.
+          Frame the two as a coherent legislative package.
+
+  caissstatement:
+    type: external_reference
+    title: Statement on AI Risk
+    publisher: Center for AI Safety (CAIS)
+    date: 2023-05-30
+    url: https://safe.ai/statement-on-ai-risk
+    text: |
+      "Mitigating the risk of extinction from AI should be a global
+      priority alongside other societal-scale risks such as pandemics
+      and nuclear war."
+    notable_signatories:
+      - Sam Altman (CEO, OpenAI)
+      - Demis Hassabis (CEO, Google DeepMind)
+      - Dario Amodei (CEO, Anthropic)
+      - Geoffrey Hinton (Turing Award)
+      - Yoshua Bengio (Turing Award)
+    use_in_pitch: |
+      Anchor move: "I'm asking Congress to take the developers at their
+      word." Converts extinction framing from vulnerability into
+      strongest available card.
