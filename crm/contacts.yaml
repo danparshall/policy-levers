@@ -128,6 +128,47 @@ contacts:
     followup_by: 2026-04-22
 
   # ===== MOODY (R-FL) — freshman =====
+  # Three contacts: Herrera + Glenn from prior dropoff (date TBD),
+  # Gjerset added 2026-04-15. See visits/prior-moody-dropoff/ for context.
+  - id: glenn-d-moody
+    name: Dawson McClain Glenn
+    title: "Likely LA on a portfolio (or senior LC); not publicly verified"
+    senator: moody
+    office: SR-387
+    email: null  # need to backfill from prior correspondence
+    phone: null
+    cell: null
+    first_met: pre-2026-04-15  # exact date TBD per user backfill
+    source: Responded to prior dropoff at Moody office
+    priority: top  # if he's an LA, he's the substantive contact
+    context: |
+      Joined Moody's office May 2025. Prior role: staff assistant at NRSC
+      (Jan 2025 →). Likely his first policy-staff role. Title not visible
+      in open sources (LegiStorm paywall). Treat as primary substantive
+      contact for AI/tech portfolio at Moody until proven otherwise.
+      If a meeting happens via Gjerset's scheduler, Glenn is who you
+      probably want in the room.
+    followup_by: 2026-04-22
+
+  - id: herrera-g-moody
+    name: Gianmarco Herrera
+    title: Legislative Correspondent
+    senator: moody
+    office: SR-387
+    email: null  # need to backfill from prior correspondence
+    phone: null
+    cell: null
+    first_met: pre-2026-04-15  # exact date TBD per user backfill
+    source: Responded to prior dropoff at Moody office
+    priority: tier1  # LC = mail-shop tier; cc on Glenn correspondence
+    context: |
+      Joined Moody's office Feb 2025 (right after she was sworn in).
+      St. John's University grad, prior Capitol Hill experience.
+      LC tier — handles mail and drafts response letters. CC on emails
+      to Glenn so he stays in the loop, but Glenn is the decision-relevant
+      reader.
+    followup_by: 2026-04-22
+
   - id: gjerset-e-moody
     name: Emma Gjerset
     title: Scheduler
@@ -141,7 +182,8 @@ contacts:
     priority: tier1
     context: |
       Reception staff at Moody were AI-engaged and explicitly offered to
-      schedule a staff meeting. Use this contact to book it.
+      schedule a staff meeting. Use this contact to book it. Once meeting
+      is confirmed, request Glenn (and probably Herrera) as attendees.
     followup_by: 2026-04-19
 
   # ===== CRUZ (R-TX) — Commerce chair / gatekeeper =====
