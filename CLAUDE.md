@@ -62,3 +62,10 @@ For active research lines (as opposed to the core outreach code):
 - `docs/historical/<topic>/` — archived lines; do NOT read unless explicitly asked. `STATUS.md` lists what's there.
 
 Epistemic norms: research findings are provisional. Don't treat prior docs as settled truth. Read `RESEARCH_LOG.md` to understand the trajectory of thinking on a research line.
+
+## Startup
+At the beginning of every conversation, read these docs:
+- README.md
+- STATUS.md
+- PAPER_INDEX.md
+Then confirm that you have read them, and tell me today's date.
