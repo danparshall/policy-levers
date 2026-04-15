@@ -1,0 +1,230 @@
+# Follow-up actions from 2026-04-15 Hill Day
+# Sorted by date; check off as done
+
+# ============================================================
+# THURSDAY 2026-04-16 — same-day-next priorities
+# ============================================================
+
+- id: fu-001
+  date_due: 2026-04-16
+  contact: burke-j-rounds
+  action: email
+  status: pending
+  subject: "Following up on today's visit — AIRE Act / Workforce Commission Act linkage"
+  notes: |
+    Lead with the linkage I didn't make in the room — Warner-Rounds
+    Workforce Commission Act needs federal data on AI labor displacement;
+    AIRE Act sets up the disclosure regime that generates it.
+    Acknowledge his AI Caucus role; offer to be useful.
+  why_priority: |
+    Recover from underweighting Rounds in pre-visit prep. He's the
+    most active AI legislator I underbriefed on.
+
+- id: fu-002
+  date_due: 2026-04-16
+  contact: bhatt-a-alsobrooks
+  action: email
+  status: pending
+  subject: "MD constituent following up — AI policy and S.2938"
+  notes: |
+    LEAD WITH "as a Maryland resident". Position to be the office's
+    go-to AI contact. Freshman senator, building portfolio, AI-engaged
+    aide — best leverage in the entire stack.
+  why_priority: |
+    Constituent + freshman + technical credentials = highest-leverage
+    relationship. Don't let it cool.
+
+# ============================================================
+# FRIDAY 2026-04-17 — must-do this week
+# ============================================================
+
+- id: fu-003
+  date_due: 2026-04-17
+  contact: samantha-foster
+  action: email_via_office
+  status: pending
+  subject: "Physics-to-physics intro, referred by Heinrich's office"
+  notes: |
+    No direct email yet — go via Foster's office main contact.
+    Mention Daniela at Heinrich (SH-709) as referrer. Lead with
+    physics background. Foster is only PhD physicist in Congress;
+    Samantha is the natural peer technical contact.
+  why_priority: |
+    HIGHEST out-of-tree leverage. Opens House-side network.
+    Heinrich-as-referrer is fresh — don't let it go past Friday.
+
+- id: fu-004
+  date_due: 2026-04-17
+  contact: katz-m-heinrich
+  action: email
+  status: pending
+  subject: "Following up on Daniela's suggestion — meeting request re: AIRE Act"
+  notes: |
+    Daniela said Max would almost certainly take a meeting.
+    Pitch: LANL/Sandia as natural execution venues for DOE evaluation
+    infra in S.2938. Energy Cmte (where he works) has direct equity.
+
+# ============================================================
+# WEEK OF 2026-04-20 — Tier 1 substantive follow-ups
+# ============================================================
+
+- id: fu-005
+  date_due: 2026-04-22
+  contact: park-d-hawley
+  action: email
+  status: pending
+  subject: "Offering to be useful during Judiciary coordination transition"
+  notes: |
+    Don't oversell. Acknowledge bill author office, offer to support
+    technical witnesses, researcher letters, anything they need from
+    civil society side.
+
+- id: fu-006
+  date_due: 2026-04-22
+  contact: ledesma-m-warner
+  action: email
+  status: pending
+  subject: "AIRE Act + Workforce Commission Act package"
+  notes: |
+    Frame the two bills as coherent package. Intel Cmte angle —
+    PRC running frontier training without disclosure regime.
+
+- id: fu-007
+  date_due: 2026-04-22
+  contact: anderson-c-blumenthal
+  cc: aregawi-r-blumenthal
+  action: email
+  status: pending
+  subject: "Following up on today's drop-off — who's the right ongoing POC?"
+  notes: Joint email to both LAs; ask explicitly who should be primary contact.
+
+- id: fu-008
+  date_due: 2026-04-22
+  contact: flynn-b-vanhollen
+  action: email
+  status: pending
+  subject: "MD constituent following up on AIRE Act materials"
+  notes: Open with constituent angle. Foreign Relations + Banking lens.
+
+- id: fu-009
+  date_due: 2026-04-22
+  contact: rains-b-young
+  action: email
+  status: pending
+  subject: "AIRE Act in Commerce — civil society perspective"
+  notes: |
+    Young is on Commerce where bill sits. Endorsement gives Cruz
+    cover for a hearing. Ask about path forward.
+
+- id: fu-010
+  date_due: 2026-04-22
+  contact: arbuckle-g-grassley
+  action: email
+  status: pending
+  subject: "AIRE Act as upstream complement to tech-co reporting inquiry"
+  notes: |
+    Tie to Grassley's recent inquiry into 8 tech cos for under-reporting.
+    Don't push cosponsor (bill in Commerce not Judiciary); push awareness.
+
+# ============================================================
+# WEEK OF 2026-04-20 — Working-staff briefs
+# ============================================================
+
+- id: fu-011
+  date_due: 2026-04-22
+  contact: williams-c-cruz
+  action: email
+  status: pending
+  subject: "Materials following today's drop at Sen. Cruz's office"
+  notes: |
+    Soft touch. Win condition is "open mind on a hearing". China frame.
+    Don't lead with extinction — use bill's statutory language.
+
+- id: fu-012
+  date_due: 2026-04-22
+  contact: anderson-v-cotton
+  action: email
+  status: pending
+  subject: "AIRE Act — China / adversary AI angle"
+  notes: Pure China frame. "Uncontrollable AI in adversary hands."
+
+- id: fu-013
+  date_due: 2026-04-19
+  contact: gjerset-e-moody
+  action: email
+  status: pending
+  subject: "Scheduling staff meeting per today's office visit"
+  notes: |
+    She offered to schedule. Pin down a date.
+    Frame as briefing on AI policy landscape + AIRE Act.
+
+# ============================================================
+# WEEK OF 2026-04-20 — Tier 2 / cold-warm
+# ============================================================
+
+- id: fu-014
+  date_due: 2026-04-24
+  contact: patel-j-kaine
+  action: email
+  status: pending
+  subject: "Following up on today's visit"
+  notes: VA tech sector angle.
+
+- id: fu-015
+  date_due: 2026-04-24
+  contact: borgaonkar-n-fetterman
+  action: email
+  status: pending
+  subject: "AI and PA workers — following up on today's office visit"
+  notes: Labor angle ONLY. Don't dilute.
+
+- id: fu-016
+  date_due: 2026-04-24
+  contact: hutton-c-hagerty
+  action: email
+  status: pending
+  subject: "AIRE Act and US-allied AI safety infrastructure"
+  notes: |
+    Japan AISI / UK AISI parallel. Hagerty was Ambassador to Japan.
+    Bonus: mention Caleb at reception (UTK alum, build rapport).
+
+- id: fu-017
+  date_due: 2026-04-24
+  contact: brooks-m-marshall
+  action: email
+  status: pending
+  subject: "Following up on today's office visit re: AIRE Act"
+  notes: KS data center / AI infrastructure angle.
+
+- id: fu-018
+  date_due: 2026-04-24
+  contact: bryant-n-tillis
+  action: email
+  status: pending
+  subject: "Following up on today's drop-off"
+  notes: NC tech corridor.
+
+- id: fu-019
+  date_due: 2026-04-24
+  contact: fernandez-c-rickscott
+  cc: gellman-j-rickscott
+  action: email
+  status: pending
+  subject: "Following up on second visit re: AI policy"
+  notes: |
+    Joint email to both. Acknowledge prior dropoff during Anthropic/DOW
+    cycle. FL tech industry / China angle.
+
+# ============================================================
+# Lower-priority / ongoing
+# ============================================================
+
+- id: fu-020
+  date_due: 2026-04-30
+  contact: null  # Schumer office
+  action: email
+  status: pending
+  subject: "Materials from Hill day — AIRE Act"
+  notes: |
+    Skipped today; send digital version to Schumer's general AI staff
+    address since office knows the space from Insight Forums.
