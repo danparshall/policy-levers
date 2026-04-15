@@ -1,0 +1,404 @@
+# Senate / House contacts CRM
+# Each entry keyed by stable id: {lastname}-{firstinitial}-{senator-or-office}
+# Add new contacts under their senator's section; never delete, just mark inactive
+
+contacts:
+
+  # ===== HAWLEY (R-MO) — bill author =====
+  - id: park-d-hawley
+    name: Daniel Park
+    title: Legal team / Judiciary coordination (transitional)
+    senator: hawley
+    office: SR-381
+    email: Daniel_Park@hawley.senate.gov
+    phone: null
+    cell: null
+    first_met: 2026-04-15
+    source: Crystal at reception, Hawley SR-381
+    priority: top
+    context: |
+      Bill author's office. Currently covering Judiciary coord during
+      staff transition — opening to be a known quantity to whoever fills
+      the dedicated AI/tech LC role.
+    followup_by: 2026-04-22
+
+  # ===== BLUMENTHAL (D-CT) — bill co-author =====
+  - id: anderson-c-blumenthal
+    name: Collin Anderson
+    title: LA (per handwritten note from office)
+    senator: blumenthal
+    office: SH-503
+    email: collin_anderson@blumenthal.senate.gov
+    phone: null
+    cell: null
+    first_met: 2026-04-15
+    source: Blumenthal office reception (paper note from staff)
+    priority: tier1
+    context: Bill co-author office; Blumenthal too busy for in-person meeting today.
+    followup_by: 2026-04-22
+
+  - id: aregawi-r-blumenthal
+    name: Ruth Aregawi
+    title: LA (per handwritten note from office)
+    senator: blumenthal
+    office: SH-503
+    email: Ruth_Aregawi@blumenthal.senate.gov
+    phone: null
+    cell: null
+    first_met: 2026-04-15
+    source: Blumenthal office reception (paper note from staff)
+    priority: tier1
+    context: |
+      Second contact at Blumenthal's office. Email jointly with Anderson
+      to ask who the right ongoing POC is.
+    followup_by: 2026-04-22
+
+  # ===== WARNER (D-VA) — Intel Cmte =====
+  - id: ledesma-m-warner
+    name: Manny Ledesma
+    title: LA (per handwritten note from office)
+    senator: warner
+    office: SH-703
+    email: manny_ledesma@warner.senate.gov
+    phone: null
+    cell: null
+    first_met: 2026-04-15
+    source: Warner office reception (paper note)
+    priority: top
+    context: |
+      Pair AIRE Act with the Warner-Rounds AI Workforce Commission Act
+      (introduced March 2026). AIRE = upstream fact-gathering that feeds
+      the commission's work.
+    followup_by: 2026-04-22
+
+  # ===== HEINRICH (D-NM) — AI Caucus co-chair =====
+  - id: katz-m-heinrich
+    name: Max Katz
+    title: Policy Advisor, Senate Energy & Natural Resources Cmte (Heinrich = ranking)
+    senator: heinrich
+    committee: senate-energy
+    office: SD-304
+    email: max_katz@energy.senate.gov
+    phone: null
+    cell: "(202) 407-1342"
+    first_met: 2026-04-15
+    source: Daniela at Heinrich SH-709 reception
+    priority: top
+    context: |
+      Committee staff role > personal-office LA in weight. Daniela said
+      Max would almost certainly take a meeting. Pitch: LANL/Sandia as
+      natural execution venues for DOE evaluation infrastructure in S.2938.
+    followup_by: 2026-04-17
+
+  # ===== ROUNDS (R-SD) — AI Caucus co-chair =====
+  - id: burke-j-rounds
+    name: Joel Burke
+    title: Artificial Intelligence Policy Advisor
+    senator: rounds
+    office: SH-716
+    email: joel_burke@rounds.senate.gov
+    phone: "(202) 224-5842"
+    cell: "(202) 222-5589"
+    first_met: 2026-04-15
+    source: Card from Rounds office
+    priority: top
+    context: |
+      Literally titled "AI Policy Advisor" — direct counterpart.
+      Rounds chairs Armed Services Cyber subcmte AND Banking Securities
+      subcmte AND co-chairs Senate AI Caucus. Just intro'd AI Workforce
+      Commission Act with Warner (March 2026). Lead with that linkage.
+      I underweighted Rounds in pre-visit prep — recover via this email.
+    followup_by: 2026-04-16
+
+  # ===== YOUNG (R-IN) — Gang of Four veteran =====
+  - id: rains-b-young
+    name: Brannon Rains
+    title: Policy Advisor
+    senator: young
+    office: SD-185
+    email: Brannon_Rains@young.senate.gov
+    phone: "(202) 794-2112"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Young office
+    priority: tier1
+    context: |
+      Young is on Commerce — same cmte as Cruz where S.2938 sits.
+      Young endorsement gives Cruz cover to allow a hearing.
+    followup_by: 2026-04-22
+
+  # ===== MOODY (R-FL) — freshman =====
+  - id: gjerset-e-moody
+    name: Emma Gjerset
+    title: Scheduler
+    senator: moody
+    office: SR-387
+    email: scheduling@moody.senate.gov
+    phone: "(202) 224-3041"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Moody office; secretary said staff meeting likely
+    priority: tier1
+    context: |
+      Reception staff at Moody were AI-engaged and explicitly offered to
+      schedule a staff meeting. Use this contact to book it.
+    followup_by: 2026-04-19
+
+  # ===== CRUZ (R-TX) — Commerce chair / gatekeeper =====
+  - id: williams-c-cruz
+    name: Caroline Williams
+    title: Legislative Correspondent
+    senator: cruz
+    office: SR-167
+    email: Caroline_Williams@cruz.senate.gov
+    phone: "(202) 224-5922"
+    cell: "(202) 704-0556"
+    first_met: 2026-04-15
+    source: Card from Cruz office (Gabe at reception)
+    priority: tier1
+    context: |
+      Cruz chairs Commerce — S.2938 sits there. Win condition with this
+      office is "open mind on a hearing", NOT endorsement. China frame,
+      no extinction language without grounding it in the CEO signatories.
+    followup_by: 2026-04-22
+
+  # ===== COTTON (R-AR) — China hawk =====
+  - id: anderson-v-cotton
+    name: Victoria Anderson
+    title: Policy Advisor
+    senator: cotton
+    office: SR-326
+    email: Victoria_Anderson@cotton.senate.gov
+    phone: "(202) 224-2353"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Cotton office
+    priority: top
+    context: |
+      Pure China frame — "uncontrollable AI in adversary hands."
+      Don't muddy with civil liberties or jobs. Extinction framing OK
+      when routed through PRC threat.
+    followup_by: 2026-04-22
+
+  # ===== GRASSLEY (R-IA) — Judiciary chair / Pres Pro Tem =====
+  - id: arbuckle-g-grassley
+    name: Garrett J. Arbuckle
+    title: Legislative Assistant
+    senator: grassley
+    office: SH-135
+    email: Garrett_Arbuckle@grassley.senate.gov
+    phone: "(202) 224-3744"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Grassley office
+    priority: tier1
+    context: |
+      Grassley just opened congressional inquiry into 8 major tech
+      companies for under-reporting. AIRE = upstream complement (federal
+      pre-deployment disclosure vs. relying on self-reporting after).
+      Bill is in Commerce not Judiciary, so cosponsor is heavier lift —
+      lead with awareness/oversight angle.
+    followup_by: 2026-04-22
+
+  # ===== ALSOBROOKS (D-MD) — MD CONSTITUENT angle =====
+  - id: bhatt-a-alsobrooks
+    name: Ateshi Bhatt
+    title: Legislative Aide
+    senator: alsobrooks
+    office: SR-374
+    email: Ateshi_Bhatt@alsobrooks.senate.gov
+    phone: "(202) 224-4524"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Alsobrooks office
+    priority: top  # promoted from opportunistic — MD constituent angle
+    context: |
+      MD CONSTITUENT — Dan is a MD resident. Alsobrooks is a freshman
+      building her portfolio and looking for issue identities. Constituent
+      with technical AI credentials = real opening to be her office's
+      go-to AI person. Potentially highest-leverage relationship in
+      the entire stack.
+    followup_by: 2026-04-16
+
+  # ===== KAINE (D-VA) =====
+  - id: patel-j-kaine
+    name: Jahnavi Patel
+    title: Legislative Correspondent
+    senator: kaine
+    office: SR-231
+    email: jahnavi_patel@kaine.senate.gov
+    phone: "(202) 494-7014"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Kaine office (Tai at reception)
+    priority: tier2
+    context: VA tech sector wants federal clarity vs. state patchwork.
+    followup_by: 2026-04-24
+
+  # ===== FETTERMAN (D-PA) =====
+  - id: borgaonkar-n-fetterman
+    name: Nick Borgaonkar
+    title: Legislative Assistant
+    senator: fetterman
+    office: SR-142
+    email: Nick_Borgaonkar@fetterman.senate.gov
+    phone: "(202) 224-4254"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Fetterman office (Camile at reception)
+    priority: tier2
+    context: |
+      Labor angle ONLY — don't dilute with extinction framing.
+      "Healthy labor markets" language in the bill is the hook.
+    followup_by: 2026-04-24
+
+  # ===== HAGERTY (R-TN) — opportunistic add =====
+  - id: hutton-c-hagerty
+    name: Cecilia Ann Hutton
+    title: Staff Assistant
+    senator: hagerty
+    office: SR-251
+    email: Cecilia_Hutton@hagerty.senate.gov
+    phone: "(202) 224-4944"
+    cell: "(423) 863-3837"
+    first_met: 2026-04-15
+    source: Card from Hagerty office; Caleb at desk is UTK alum
+    priority: tier2
+    context: |
+      Foreign Relations / former Ambassador to Japan. Frame: Japan AISI
+      and UK AISI exist; US has no equivalent. Allies are ahead of us.
+    followup_by: 2026-04-24
+
+  # ===== MARSHALL (R-KS) — opportunistic add =====
+  - id: brooks-m-marshall
+    name: Mattison Brooks
+    title: Legislative Assistant
+    senator: marshall
+    office: SR-479A
+    email: Mattison_Brooks@marshall.senate.gov
+    phone: null
+    cell: "(904) 910-9185"
+    first_met: 2026-04-15
+    source: Card from Marshall office (Mr. Graff at reception)
+    priority: tier2
+    context: |
+      Male. KS data center buildout makes AI infrastructure angle
+      plausible. Marshall is a physician — health AI angle as alt frame.
+    followup_by: 2026-04-24
+
+  # ===== VAN HOLLEN (D-MD) — MD CONSTITUENT =====
+  - id: flynn-b-vanhollen
+    name: Brendan Flynn
+    title: Legislative Assistant
+    senator: vanhollen
+    office: SH-730
+    email: Brendan_Flynn@vanhollen.senate.gov
+    phone: "(202) 224-4654"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Van Hollen office
+    priority: tier2
+    context: |
+      MD CONSTITUENT. Foreign Relations + Appropriations + Banking.
+      China/national-security frame fits Foreign Relations seat.
+    followup_by: 2026-04-22
+
+  # ===== TILLIS (R-NC) — opportunistic add =====
+  - id: bryant-n-tillis
+    name: Noah Bryant
+    title: (title cut off in card photo)
+    senator: tillis
+    office: SD-113
+    email: Noah_Bryant@tillis.senate.gov
+    phone: "(202) 224-6342"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Tillis office
+    priority: tier2
+    context: NC tech corridor; opportunistic add during Dirksen sweep.
+    followup_by: 2026-04-24
+
+  # ===== RICK SCOTT (R-FL) — repeat dropoff =====
+  - id: fernandez-c-rickscott
+    name: Chris Fernandez
+    title: Senior Policy Advisor
+    senator: rickscott
+    office: SH-110
+    email: Chris_Fernandez@rickscott.senate.gov
+    phone: "(202) 224-5274"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Rick Scott office; second visit (prior dropoff during Anthropic/DOW news cycle)
+    priority: tier2
+    context: |
+      Second visit to this office (first was a one-time dropoff during
+      the Anthropic/DOW news cycle — not a real relationship yet).
+      Reception staff are warm. FL tech industry angle.
+    followup_by: 2026-04-24
+
+  - id: gellman-j-rickscott
+    name: Joshua Gellman
+    title: Legislative Correspondent
+    senator: rickscott
+    office: SH-110
+    email: Joshua_Gellman@rickscott.senate.gov
+    phone: "(202) 224-5274"
+    cell: null
+    first_met: 2026-04-15
+    source: Card from Rick Scott office; second visit
+    priority: tier2
+    context: Second contact at Rick Scott office. Pair with Fernandez follow-up.
+    followup_by: 2026-04-24
+
+  # ===== HOUSE REFERRAL — highest out-of-tree leverage =====
+  - id: samantha-foster
+    name: "Samantha (last name TBD)"
+    title: AI staffer
+    senator: foster-house  # House rep, not senator
+    chamber: house
+    district: IL-11
+    office: (House office TBD)
+    email: null
+    phone: null
+    cell: null
+    first_met: null
+    source: Referral from Daniela at Heinrich SH-709
+    priority: top
+    context: |
+      PHYSICS PhD. Bill Foster (D-IL-11) is the only PhD physicist
+      in Congress (ex-Fermilab). Samantha is the natural peer contact
+      for Dan. Reach out within 48 hrs while Heinrich is fresh as
+      the referrer.
+    followup_by: 2026-04-17
+
+
+# ===== Front-desk warm contacts (no cards but logged) =====
+# These open doors on return visits; worth a personal note when back
+front_desk:
+  - office: SR-142  # Fetterman
+    name: Camile
+  - office: SR-167  # Cruz
+    name: Gabe
+  - office: SR-381  # Hawley
+    name: Crystal
+  - office: SR-231  # Kaine
+    name: Tai
+  - office: SR-251  # Hagerty
+    name: Caleb
+    note: UTK alum
+  - office: SH-709  # Heinrich
+    name: Daniela
+    note: Gave Claratin, showed cat pics; owes a gossip visit on next trip
+  - office: SR-211  # Graham
+    name: Josh
+    note: Provided Judiciary contact (no card)
+  - office: SR-479A  # Marshall
+    name: Mr. Graff
+  - office: SD-113  # Tillis
+    name: "Tilson (verify spelling)"
+  - office: SH-110  # Rick Scott
+    name: "Two staffers at reception (names not captured)"
+    note: Made them laugh; warm rapport
+  - office: SH-133  # King
+    name: "Josh or Jeff"
+    note: AI staffer; semi-receptive to extinction framing
