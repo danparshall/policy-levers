@@ -14,7 +14,7 @@ Single-page (front + chart on back) leave-behind for use during walk-up Capitol 
 
 These were deliberate, not accidental. Push back on any of them with reasoning if a senator-specific consideration changes the calculus.
 
-1. **Two asks, in priority order — not one.** A "preferred" ask (oppose federal preemption of state AI safety laws) and a "minimum" ask (support binding pre-deployment evaluation, Hawley-Blumenthal style). Gives skeptical staffers an off-ramp without diluting the headline.
+1. **Three asks, in priority order — not one.** A "preferred" ask (oppose federal preemption of state AI safety laws), a "minimum" ask (support binding pre-deployment evaluation, Hawley-Blumenthal style), and a "fallback" ask (sign a Dear Colleague letter to Chairman Cruz requesting a Commerce hearing on S.2938). Gives skeptical staffers an off-ramp without diluting the headline. Tier 1 offices get the preferred ask emphasized verbally; Tier 3 offices get the fallback ask emphasized.
 
 2. **Extinction risk is included, but framed through CEO statements + peer-reviewed welfare economics, not as Canary's assertion.** This is the "UK approach with armor" — the staffer who wants to dismiss the claim has to dismiss Hinton, Amodei, and a Top-5 econ journal, not a one-person institute. UK group ControlAI has had success leading with extinction directly; this brief borrows the directness while sourcing the claim outside Canary.
 
@@ -24,7 +24,7 @@ These were deliberate, not accidental. Push back on any of them with reasoning i
 
 5. **No mention of the 2023 FLI "Pause" letter.** It was not signed by the frontier lab CEOs and citing it as if it were is a credibility-ender for any staffer who knows the space.
 
-6. **Hawley-Blumenthal framing.** Currently stalled in Senate Commerce by Chair Cruz. Brief positions it as the "minimum" ask so that even staffers in offices not naturally aligned with the preferred ask have something concrete to do.
+6. **Hawley-Blumenthal framing.** Currently stalled in Senate Commerce by Chair Cruz. Brief positions it as the "minimum" ask so that even staffers in offices not naturally aligned with the preferred ask have something concrete to do. The "fallback" hearing-letter ask addresses the actual bottleneck (no markup scheduled) without requiring the senator to commit to bill cosponsorship.
 
 ## What needs senator-specific personalization
 
@@ -36,13 +36,13 @@ The collaborator agent should add, per senator, a short insertion paragraph that
 - **Bill history:** Any bill they have sponsored or co-sponsored on AI, tech, or labor.
 - **Tier signal:** Whether this office is Tier 1 (warm), Tier 2 (engaged-persuadable), or Tier 3 (cold drop). See `targets.md`.
 
-Tier 1 offices get the "preferred" ask emphasized. Tier 3 offices get the "minimum" ask emphasized. The body of the brief stays the same.
+Tier 1 offices get the "preferred" ask emphasized. Tier 2 offices get the "minimum" ask emphasized. Tier 3 offices get the "fallback" ask emphasized. The body of the brief stays the same.
 
 ---
 
 ## DRAFT COPY (single page, front)
 
-> *Note to designer/collaborator:* Insert Canary logo (`assets/canary_logo_light.svg`) at top left. Title in bold sans-serif. Section headers in bold; body in serif. Inline source attributions in italic parentheses. Total target: ~450 words on the front page, with the wavefront chart filling the back.
+> *Note to designer/collaborator:* Insert Canary logo (`assets/canary_logo_light.svg`) at top left. Title in bold sans-serif. Section headers in bold; body in serif. Inline source attributions in italic parentheses. Total target: ~500 words on the front page, with the wavefront chart filling the back.
 
 ---
 
@@ -92,7 +92,7 @@ In May 2023, the CEOs of Anthropic (Dario Amodei), OpenAI (Sam Altman), and Goog
 
 Anthropic CEO Dario Amodei has publicly estimated the probability of catastrophic outcomes from AI at **10–25%**. Geoffrey Hinton has estimated **10–20%**.
 
-A 2024 paper in the *American Economic Review: Insights* (Jones, "The AI Dilemma") shows that under standard economic assumptions about risk aversion, society should accept at most a **2–4% extinction probability** in exchange for AI-driven growth. **The risk estimates from the people building this technology exceed the economically defensible threshold by a factor of three to ten.**
+A 2024 paper in the *American Economic Review: Insights* (Jones, "The AI Dilemma: Growth versus Existential Risk," Vol. 6 No. 4) shows that under standard economic assumptions about risk aversion, society should accept at most a **2–4% extinction probability** in exchange for AI-driven growth. **The risk estimates from the people building this technology exceed the economically defensible threshold by a factor of three to ten.**
 
 By the standards of mainstream economics, current AI development is not a defensible gamble — and the people building it say so themselves.
 
@@ -102,9 +102,9 @@ By the standards of mainstream economics, current AI development is not a defens
 
 **Preferred:** **Oppose federal preemption of state AI safety laws.** The December 11, 2025 Executive Order directs federal agencies to challenge state laws including California's Transparency in Frontier AI Act and New York's RAISE Act. Even Anthropic's CEO has called the proposed 10-year preemption moratorium "too blunt." States have become the primary binding layer of frontier AI safety governance in the United States.
 
-**Minimum:** **Support binding pre-deployment safety evaluation of frontier AI models**, as proposed in the bipartisan Hawley-Blumenthal Artificial Intelligence Risk Evaluation Act. The bill establishes a Department of Energy program to evaluate the most capable AI systems before commercial deployment. It is currently stalled in the Senate Commerce Committee.
+**Minimum:** **Support binding pre-deployment safety evaluation of frontier AI models**, as proposed in the bipartisan Hawley-Blumenthal Artificial Intelligence Risk Evaluation Act (**S. 2938**, introduced September 29, 2025). The bill establishes a Department of Energy program to evaluate the most capable AI systems before commercial deployment. It is the first federal bill with explicit statutory language on AI loss-of-control scenarios and "scheming behavior," and is currently stalled in the Senate Commerce Committee.
 
-> ⚠ **PLACEHOLDER — needs bill number.** Confirm S. number for AI Risk Evaluation Act (Hawley-Blumenthal, introduced September 2025).
+**Fallback:** **Sign a Dear Colleague letter to Chairman Cruz requesting a Commerce Committee hearing on S. 2938.** S. 2938 has had no markup, no hearing, and no additional cosponsors in the seven months since introduction. A multi-senator letter to Chairman Cruz is the lowest-cost action that addresses the actual bottleneck, and it does not require the senator to commit to a position on the bill itself.
 
 > ⚠ **SENATOR-SPECIFIC INSERTION POINT** — Collaborator agent should add a 2–3 sentence paragraph here referencing the senator's committee position, prior statements, or state context, framed as a specific call to action they personally are positioned to take.
 
@@ -128,9 +128,10 @@ Wavefront chart from Parshall & Lopez-Luzuriaga (2026) showing the C×D matrix o
 ## OPEN ITEMS (for Dan)
 
 1. **AIPI polling stat** — pick the specific number for the lead bullet.
-2. **S. number** for Hawley-Blumenthal AI Risk Evaluation Act.
+2. ~~**S. number** for Hawley-Blumenthal AI Risk Evaluation Act.~~ ✅ Resolved: S. 2938, introduced September 29, 2025.
 3. **Visual treatment confirmation** — single page front + wavefront chart back is current plan. Confirm or override.
 4. **Per-senator targeting list** — see `targets.md` (to be created from the prioritization conversation: Hawley, Blumenthal, Warner, Heinrich, Rounds, Young, Obernolte, Lieu, Foster, Beyer, Khanna, Mace, plus leadership drops).
+5. **Jones AER:I 2-4% threshold** — paper verified (AER:I Dec 2024, Vol 6 No 4, pp 575-590, DOI 10.1257/aeri.20230570). Specific 2-4% threshold not independently re-verified against the paper text; depends on which parameterization (γ, time horizon, growth rate) is being represented. If a staffer challenges with the "1-in-3 extinction acceptable under log utility" finding from the same paper, be ready to explain which CRRA parameter yields 2-4%.
 
 ## REVISIONS APPLIED FROM PRIOR DRAFT (audit log)
 
@@ -142,3 +143,12 @@ For collaborator's awareness — these are corrections from an earlier draft, no
 - ❌ "Shrinking pool of physical jobs" (re: K-M) — **CHANGED to** "crowd into the physical sector — where, with fixed physical capital, more workers means lower wages per worker." K-M's mechanism is crowding into a fixed-capital sector, not job loss in physical sector.
 - ❌ "These same CEOs have publicly estimated 10–25%" — **CHANGED to** specific attribution: Amodei (10–25%), Hinton (10–20%). Altman and Hassabis have not given comparable numbers publicly; lumping them in was overreach.
 - ❌ "Only working layer of AI safety governance" — **CHANGED to** "primary binding layer." NIST RMF and AISI exist but are non-binding on frontier labs.
+
+## REVISIONS APPLIED 2026-04-14 (Hill visit eve)
+
+- **S. number filled in:** S. 2938, introduced September 29, 2025. Confirmed against Congress.gov.
+- **Hawley-Blumenthal description expanded** to flag the explicit statutory language on loss-of-control scenarios and "scheming behavior." This is genuinely unusual — first federal bill with that language — and it does work to make "minimum" feel substantive rather than incremental for staffers who think disclosure regimes are toothless.
+- **Third "Fallback" ask added:** Dear Colleague letter to Chairman Cruz requesting Commerce hearing on S. 2938. Rationale: the actual bottleneck is Cruz's reluctance to schedule a markup or hearing, not lack of cosponsors. A hearing-request letter is something even Tier 3 offices can plausibly sign, requires no policy commitment from the senator, and addresses the real procedural blocker. Editorial decision #1 updated from "Two asks" to "Three asks."
+- **Jones citation expanded** to include full paper title ("Growth versus Existential Risk") and journal volume/issue. Paper itself verified against Congress.gov & AEA records; specific 2–4% threshold not independently re-verified against paper body — flagged as Open Item #5 above for Dan to confirm before printing.
+- **AIPI polling stat still PLACEHOLDER.** Dan needs to pick before printing.
+- **Wavefront chart asset still not committed.** Designer / Dan needs to handle before printing.
