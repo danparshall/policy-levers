@@ -1,0 +1,395 @@
+# Senator metadata — committees, posture, relationship status
+# Updated as understanding of each office evolves
+
+senators:
+
+  hawley:
+    name: Josh Hawley
+    party: R
+    state: MO
+    office: SR-381
+    phone: "(202) 224-6154"
+    committees:
+      - judiciary  # subcommittee chair: Privacy, Tech & Law
+      - armed-services
+      - small-business
+    ai_role: "Co-author S.2938 (AIRE Act)"
+    posture: ally
+    framing: direct  # extinction language fine
+    notes: |
+      Bill author. Has been pushing AI oversight + content/IP issues
+      with Blumenthal across multiple bills. Highest-ROI ally relationship.
+
+  blumenthal:
+    name: Richard Blumenthal
+    party: D
+    state: CT
+    office: SH-503
+    phone: "(202) 224-2823"
+    committees:
+      - judiciary  # subcommittee ranking: Privacy, Tech & Law
+      - commerce
+      - armed-services
+    ai_role: "Co-author S.2938 (AIRE Act)"
+    posture: ally
+    framing: direct
+    notes: |
+      Co-author. Partnered with Hawley on Privacy/Tech subcommittee
+      and AI bills. Civil liberties prong of S.2938 is part of his lane.
+
+  warner:
+    name: Mark Warner
+    party: D
+    state: VA
+    office: SH-703
+    phone: "(202) 224-2023"
+    committees:
+      - intelligence  # vice chair
+      - banking
+      - finance
+      - rules
+    ai_role: |
+      Co-introduced AI Workforce Commission Act with Rounds (March 2026).
+      Senate Dem Conference Vice Chair.
+    posture: probable_ally
+    framing: direct
+    notes: |
+      Intel + Banking. Pair S.2938 with the Workforce Commission Act
+      framing — AIRE is upstream fact-base for the commission.
+
+  heinrich:
+    name: Martin Heinrich
+    party: D
+    state: NM
+    office: SH-709
+    phone: "(202) 224-5521"
+    committees:
+      - energy-natural-resources  # ranking member
+      - intelligence
+      - armed-services
+      - joint-economic
+    ai_role: "Senate AI Caucus co-chair (founded 2019)"
+    posture: probable_ally
+    framing: direct
+    notes: |
+      LANL/Sandia in NM = natural execution venues for DOE evaluation
+      infra under S.2938. Strong cosponsor candidate, not just endorser.
+
+  rounds:
+    name: Mike Rounds
+    party: R
+    state: SD
+    office: SH-716
+    phone: "(202) 224-5842"
+    committees:
+      - armed-services  # cybersecurity subcmte chair
+      - banking  # securities/insurance/investments subcmte chair
+      - foreign-relations
+      - veterans
+    ai_role: |
+      Senate AI Caucus co-chair. Co-introduced AI Workforce Commission
+      Act with Warner (March 2026). Introduced Unleashing AI Innovation
+      in Financial Services Act.
+    posture: engaged_unclear  # active but more industry-friendly than Hawley/Blumenthal
+    framing: catastrophic_statutory  # use bill's "loss-of-control" not "extinction"
+    notes: |
+      I underweighted his AI role in pre-visit prep — actually one of
+      the most active AI legislators in the Senate right now. Workforce
+      Commission Act is the natural pairing with AIRE.
+
+  young:
+    name: Todd Young
+    party: R
+    state: IN
+    office: SD-185
+    phone: "(202) 224-5623"
+    committees:
+      - commerce  # !!! same cmte as S.2938 referral
+      - finance
+      - foreign-relations
+      - small-business
+    ai_role: "Schumer Insight Forum 'Gang of Four' veteran"
+    posture: probable_ally
+    framing: direct
+    notes: |
+      On Commerce — where S.2938 sits. Endorsement gives Cruz cover
+      to allow a hearing.
+
+  moody:
+    name: Ashley Moody
+    party: R
+    state: FL
+    office: SR-387
+    phone: "(202) 224-3041"
+    committees:
+      - judiciary
+      - banking
+      - armed-services
+    ai_role: null
+    posture: warming  # freshman, staff is engaged
+    framing: catastrophic_statutory
+    notes: |
+      Freshman appointed to fill Rubio seat. Building portfolio.
+      Reception staff explicitly offered to schedule a meeting.
+
+  cruz:
+    name: Ted Cruz
+    party: R
+    state: TX
+    office: SR-167
+    phone: "(202) 224-5922"
+    committees:
+      - commerce  # CHAIR — gatekeeper for S.2938
+      - judiciary
+      - foreign-relations
+    ai_role: "Commerce chair — controls hearing schedule for S.2938"
+    posture: gatekeeper  # neither ally nor opponent; need him not to bottle
+    framing: china_hawk  # NOT extinction
+    notes: |
+      Win condition: "open mind on a hearing", NOT cosponsor.
+      Lead with PRC frame, lead with bill's own statutory language
+      ("loss-of-control"), lead with CEO signatories — never the
+      raw "extinction" word in the room.
+
+  cotton:
+    name: Tom Cotton
+    party: R
+    state: AR
+    office: SR-326
+    phone: "(202) 224-2353"
+    committees:
+      - intelligence  # chair
+      - armed-services
+      - judiciary
+      - finance
+    ai_role: null
+    posture: china_lane_only
+    framing: china_hawk
+    notes: |
+      Pure China hawk. Don't muddy with civil liberties or jobs.
+      Extinction framing OK only when routed through PRC threat
+      ("uncontrollable AI in adversary hands").
+
+  graham:
+    name: Lindsey Graham
+    party: R
+    state: SC
+    office: SR-211
+    phone: null
+    committees:
+      - judiciary  # chair
+      - armed-services
+      - appropriations
+      - budget
+    ai_role: null
+    posture: warming
+    framing: direct  # historically receptive to x-risk language
+    notes: |
+      Judiciary chair. Receptive to catastrophic-risk framing
+      publicly. Novel "scheming behavior" statutory language is
+      a hook given his deepfake work.
+
+  kaine:
+    name: Tim Kaine
+    party: D
+    state: VA
+    office: SR-231
+    phone: null
+    committees:
+      - armed-services
+      - foreign-relations
+      - budget
+      - HELP
+    ai_role: null
+    posture: receptive
+    framing: catastrophic_statutory
+    notes: VA tech sector wants federal clarity vs. state patchwork.
+
+  fetterman:
+    name: John Fetterman
+    party: D
+    state: PA
+    office: SR-142
+    phone: null
+    committees:
+      - banking
+      - agriculture
+      - HELP
+      - homeland-security
+    ai_role: null
+    posture: receptive_via_labor
+    framing: jobs_only  # don't dilute with extinction
+    notes: Labor angle is the whole pitch; PA workers + bill's "healthy labor markets" language.
+
+  hagerty:
+    name: Bill Hagerty
+    party: R
+    state: TN
+    office: SR-251
+    phone: "(202) 224-4944"
+    committees:
+      - foreign-relations
+      - banking
+      - appropriations
+    ai_role: null
+    posture: cold_but_relevant
+    framing: china_hawk_via_japan  # former Ambassador to Japan
+    notes: |
+      Japan AISI / UK AISI parallel — "our allies have this, we don't."
+      Caleb at reception is UTK alum (relationship hook).
+
+  marshall:
+    name: Roger Marshall
+    party: R
+    state: KS
+    office: SR-479A
+    phone: null
+    committees:
+      - HELP
+      - agriculture
+      - banking
+      - homeland-security
+    ai_role: null
+    posture: cold_opportunistic
+    framing: china_hawk
+    notes: KS data center buildout angle; physician (health AI alt frame).
+
+  vanhollen:
+    name: Chris Van Hollen
+    party: D
+    state: MD
+    office: SH-730
+    phone: null
+    committees:
+      - foreign-relations
+      - banking
+      - appropriations
+      - budget
+    ai_role: null
+    posture: cold_but_md_constituent  # Dan is MD resident
+    framing: catastrophic_statutory
+    notes: MD CONSTITUENT. Foreign Relations seat fits China frame.
+
+  alsobrooks:
+    name: Angela Alsobrooks
+    party: D
+    state: MD
+    office: SR-374
+    phone: "(202) 224-4524"
+    committees:
+      - banking
+      - HELP
+      - environment
+      - small-business
+    ai_role: null
+    posture: warming_md_constituent  # high leverage
+    framing: catastrophic_statutory
+    notes: |
+      MD CONSTITUENT + freshman senator + AI-engaged staff =
+      potentially highest-leverage relationship in entire stack.
+      Email lead with "as a Maryland resident".
+
+  tillis:
+    name: Thom Tillis
+    party: R
+    state: NC
+    office: SD-113
+    phone: "(202) 224-6342"
+    committees:
+      - judiciary
+      - finance
+      - banking
+      - veterans
+    ai_role: null
+    posture: cold_opportunistic
+    framing: catastrophic_statutory
+    notes: NC tech corridor. Opportunistic add during Dirksen sweep.
+
+  rickscott:
+    name: Rick Scott
+    party: R
+    state: FL
+    office: SH-110
+    phone: "(202) 224-5274"
+    committees:
+      - armed-services
+      - homeland-security
+      - HSGAC
+      - aging  # chair
+      - budget
+    ai_role: null
+    posture: warming_repeat_visit  # second dropoff; not yet a real relationship
+    framing: china_hawk
+    notes: |
+      Second dropoff (first was during Anthropic/DOW news cycle).
+      Reception staff are warm. Not yet a substantive relationship.
+
+  king:
+    name: Angus King
+    party: I  # caucuses with D
+    state: ME
+    office: SH-133
+    phone: null
+    committees:
+      - intelligence
+      - armed-services
+      - energy-natural-resources
+      - rules
+    ai_role: "Senate AI Caucus member"
+    posture: warming
+    framing: direct
+    notes: |
+      Should have been on original Tier 2 list. AI Caucus + Intel +
+      Armed Services. Drop-off only today; Josh/Jeff (AI staffer)
+      semi-receptive to extinction framing.
+
+  grassley:
+    name: Chuck Grassley
+    party: R
+    state: IA
+    office: SH-135
+    phone: "(202) 224-3744"
+    committees:
+      - judiciary  # CHAIR
+      - finance
+      - agriculture
+      - budget
+    ai_role: |
+      President Pro Tempore. Just opened (April 2026) congressional
+      inquiry into 8 major tech companies for under-reporting.
+    posture: cold_but_oversight_active
+    framing: catastrophic_statutory
+    notes: |
+      Bill is in Commerce not Judiciary — cosponsor is heavy lift.
+      Lead with oversight angle (his current inquiry is upstream
+      complement to AIRE's pre-deployment disclosure).
+
+  schumer:
+    name: Chuck Schumer
+    party: D
+    state: NY
+    office: SH-322  # personal office; leadership office in Capitol
+    phone: null
+    committees: []  # leadership-track, lighter committee load
+    ai_role: "Ran AI Insight Forums"
+    posture: aware_low_priority
+    framing: direct
+    notes: SKIPPED today. Lowest-priority drop. Staff knows the space.
+
+
+# ===== House — referred contacts =====
+representatives:
+
+  foster-house:
+    name: Bill Foster
+    party: D
+    state: IL
+    district: 11
+    office: TBD
+    ai_role: |
+      Only PhD physicist in Congress (ex-Fermilab).
+      Natural peer for technical AI policy discussions.
+    posture: priority_referral
+    notes: |
+      Samantha (AI staffer) referred by Heinrich's office.
+      HIGHEST out-of-tree priority for follow-up.
