@@ -46,3 +46,10 @@ This means the project is currently in **relationship-building and education** m
 ## CRM
 
 Lightweight YAML/markdown CRM for tracking congressional contacts, visits, and follow-ups lives under `crm/`. See `crm/README.md` for conventions.
+
+## Leave-behinds
+
+`leave_behinds/` holds one-pagers and other printed materials handed to Hill offices, agencies, etc.
+
+- **Always datestamp filenames** with a `YYYY-MM-DD_` prefix for easy indexing (e.g., `2026-04-15_congress_one_pager.pdf`).
+- `leave_behinds/asks_vs_info.md` tracks, per date, the ratio of "asks made" to "total info provided." This exists so we can verify we stay under the 20% cap on lobbying time.
