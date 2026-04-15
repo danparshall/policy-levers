@@ -58,11 +58,11 @@ Tier 1 offices get the "preferred" ask emphasized. Tier 2 offices get the "minim
 
 Polling consistently shows large majorities want AI development slowed, regulated, and held accountable. AI is one of the few issues where Democratic and Republican voters agree — and they agree against the industry's current trajectory.
 
-**70% of voters agree that mitigating the risk of extinction from AI should be a global priority alongside other risks like pandemics and nuclear war** *(AIPI/YouGov, 2023)* — the exact language that the CEOs of OpenAI, Anthropic, and Google DeepMind would later sign onto. **Recent polling confirms the trend: 73% of US adults support robust AI regulation; only 12% oppose** *(FLI/YouGov, October 2025, n=2,000).*
+**73% of US adults support robust AI regulation, while only 12% oppose. 64% believe superhuman AI should not be developed until it is proven safe and controllable, or should never be developed** *(FLI/YouGov, October 2025, n=2,000).* **69% say the government is not doing enough to regulate AI** *(Quinnipiac, April 2025).*
 
-> ⚠ **DAN: TWO ALTERNATIVE LEAD FRAMINGS** if the above is too extinction-forward for a given drop. Pick at print time:
+> ⚠ **DAN: TWO ALTERNATIVE LEAD FRAMINGS** if a different angle suits a given drop. Pick at print time:
 >
-> **(Alt A — regulation-led, freshest):** "73% of US adults support robust AI regulation, while only 12% oppose. 64% believe superhuman AI should not be developed until proven safe and controllable, or should never be developed (FLI/YouGov, October 2025, n=2,000). 69% say the government is not doing enough to regulate AI (Quinnipiac, April 2025)."
+> **(Alt A — extinction-priority, sets up CEO payoff later in brief):** "70% of voters agree that mitigating the risk of extinction from AI should be a global priority alongside other risks like pandemics and nuclear war (AIPI/YouGov, 2023) — the exact language that the CEOs of OpenAI, Anthropic, and Google DeepMind would later sign onto. Recent polling confirms the trend: 73% of US adults support robust AI regulation; only 12% oppose (FLI/YouGov, October 2025)."
 >
 > **(Alt B — slowdown-led):** "72% of voters prefer slowing down the development of AI; only 8% prefer speeding it up. 86% believe AI could accidentally cause a catastrophic event (AIPI/YouGov, 2023). Recent polling shows the trend has held or strengthened: only 5% of Americans support the current pace of fast, unregulated development (FLI/YouGov, October 2025)."
 
@@ -98,9 +98,15 @@ In May 2023, the CEOs of Anthropic (Dario Amodei), OpenAI (Sam Altman), and Goog
 
 Anthropic CEO Dario Amodei has publicly estimated the probability of catastrophic outcomes from AI at **10–25%**. Geoffrey Hinton has estimated **10–20%**.
 
-A 2024 paper in the *American Economic Review: Insights* (Jones, "The AI Dilemma: Growth versus Existential Risk," Vol. 6 No. 4) shows that under standard economic assumptions about risk aversion, society should accept at most a **2–4% extinction probability** in exchange for AI-driven growth. **The risk estimates from the people building this technology exceed the economically defensible threshold by a factor of three to ten.**
+A 2024 paper in the *American Economic Review: Insights* (Jones, "The AI Dilemma: Growth versus Existential Risk," Vol. 6 No. 4) shows that under standard economic assumptions about risk aversion, society should accept **no more than a 4% extinction probability** in exchange for AI-driven growth. **The risk estimates from the people building this technology exceed the economically defensible threshold by a factor of three to six.**
 
 By the standards of mainstream economics, current AI development is not a defensible gamble — and the people building it say so themselves.
+
+---
+
+**These systems are grown, not programmed.**
+
+Frontier AI models are not written line-by-line by engineers. Their behaviors emerge from gradient descent over trillions of parameters trained on internet-scale data. As a result they lack the basic control mechanisms — predictable execution, traceable logic, debuggable code, formal specifications — that every other piece of software in critical infrastructure provides. Even the companies that build these systems cannot reliably specify, predict, or constrain what their own products will do. This is the technical reason that mandatory pre-deployment evaluation matters: it is the only way the federal government will know what has been built before it is released.
 
 ---
 
@@ -137,7 +143,7 @@ Wavefront chart from Parshall & Lopez-Luzuriaga (2026) showing the C×D matrix o
 2. ~~**S. number** for Hawley-Blumenthal AI Risk Evaluation Act.~~ ✅ Resolved: S. 2938, introduced September 29, 2025.
 3. **Visual treatment confirmation** — single page front + wavefront chart back is current plan. Confirm or override.
 4. **Per-senator targeting list** — see `targets.md` (to be created from the prioritization conversation: Hawley, Blumenthal, Warner, Heinrich, Rounds, Young, Obernolte, Lieu, Foster, Beyer, Khanna, Mace, plus leadership drops).
-5. **Jones AER:I 2-4% threshold** — paper verified (AER:I Dec 2024, Vol 6 No 4, pp 575-590, DOI 10.1257/aeri.20230570). Specific 2-4% threshold not independently re-verified against the paper text; depends on which parameterization (γ, time horizon, growth rate) is being represented. If a staffer challenges with the "1-in-3 extinction acceptable under log utility" finding from the same paper, be ready to explain which CRRA parameter yields 2-4%.
+5. ~~**Jones AER:I 2-4% threshold** — paper verified (AER:I Dec 2024, Vol 6 No 4, pp 575-590, DOI 10.1257/aeri.20230570). Specific 2-4% threshold not independently re-verified against the paper text; depends on which parameterization (γ, time horizon, growth rate) is being represented. If a staffer challenges with the "1-in-3 extinction acceptable under log utility" finding from the same paper, be ready to explain which CRRA parameter yields 2-4%.~~ ✅ Resolved 2026-04-14: Dan confirmed Jones derives a no-more-than-4% threshold across the paper's defensible parameterizations. Brief now reads "no more than a 4% extinction probability" (more precise than 2-4% range). Downstream factor updated from "three to ten" to "three to six" (10/4 ≈ 2.5 rounds to 3; 25/4 ≈ 6.25 rounds to 6).
 
 ## REVISIONS APPLIED FROM PRIOR DRAFT (audit log)
 
@@ -150,12 +156,20 @@ For collaborator's awareness — these are corrections from an earlier draft, no
 - ❌ "These same CEOs have publicly estimated 10–25%" — **CHANGED to** specific attribution: Amodei (10–25%), Hinton (10–20%). Altman and Hassabis have not given comparable numbers publicly; lumping them in was overreach.
 - ❌ "Only working layer of AI safety governance" — **CHANGED to** "primary binding layer." NIST RMF and AISI exist but are non-binding on frontier labs.
 
-## REVISIONS APPLIED 2026-04-14 (Hill visit eve)
+## REVISIONS APPLIED 2026-04-14 (Hill visit eve, first pass)
 
 - **S. number filled in:** S. 2938, introduced September 29, 2025. Confirmed against Congress.gov.
 - **Hawley-Blumenthal description expanded** to flag the explicit statutory language on loss-of-control scenarios and "scheming behavior." This is genuinely unusual — first federal bill with that language — and it does work to make "minimum" feel substantive rather than incremental for staffers who think disclosure regimes are toothless.
 - **Third "Fallback" ask added:** Dear Colleague letter to Chairman Cruz requesting Commerce hearing on S. 2938. Rationale: the actual bottleneck is Cruz's reluctance to schedule a markup or hearing, not lack of cosponsors. A hearing-request letter is something even Tier 3 offices can plausibly sign, requires no policy commitment from the senator, and addresses the real procedural blocker. Editorial decision #1 updated from "Two asks" to "Three asks."
-- **Jones citation expanded** to include full paper title ("Growth versus Existential Risk") and journal volume/issue. Paper itself verified against Congress.gov & AEA records; specific 2–4% threshold not independently re-verified against paper body — flagged as Open Item #5 above for Dan to confirm before printing.
-- **Polling lead bullet filled:** Lead with AIPI 70% extinction-priority number (rhymes with the CAIS-statement language used by the CEOs later in the brief, creating a tight three-beat rhetorical arc). Corroborating FLI/YouGov October 2025 73%/12% regulation-support number added to defang any "stale data" objection. Two alternative lead framings provided inline (Alt A regulation-led with FLI Oct 2025 + Quinnipiac April 2025; Alt B slowdown-led with AIPI 72%/8% + FLI 5% status-quo support) for use in offices where extinction framing might alienate the staffer before they finish reading.
-- **AIPI 70% number is from July 2023.** Worth being aware of in conversations — staffer may push back on freshness. The FLI October 2025 corroborating sentence is the answer to that pushback. Don't lead with the 2023 number alone.
+- **Jones citation expanded** to include full paper title ("Growth versus Existential Risk") and journal volume/issue. Paper itself verified against Congress.gov & AEA records; specific 2–4% threshold flagged as Open Item #5 for Dan to confirm before printing. *(See second pass — resolved.)*
+- **Polling lead bullet filled with AIPI 70% extinction-priority number** plus FLI/YouGov October 2025 corroborator. *(See second pass — superseded by regulation-led FLI lead per Dan's direction; the AIPI 70% framing now lives as Alt A.)*
 - **Wavefront chart asset still not committed.** Designer / Dan needs to handle before printing.
+
+## REVISIONS APPLIED 2026-04-14 (Hill visit eve, second pass)
+
+- **Lead bullet swapped to regulation-led framing.** Per Dan's direction, the FLI/YouGov October 2025 73%/12% regulation-support number is now the lead, with 64% "should not be developed until proven safe" and the Quinnipiac April 2025 69% "government not doing enough" stat for additional weight. The previous AIPI 70% extinction-priority lead is preserved as Alt A (still useful where the rhetorical rhyme with the CAIS-statement-signing CEOs adds value). Alt B (slowdown-led) preserved unchanged.
+  - Tradeoff this introduces: the FLI lead does not set up the CAIS-statement payoff later in the brief as cleanly as the AIPI 70% lead did. The CEO statement section still works on its own merits, but the structural rhyme between voter agreement and CEO signing is lost. Acceptable cost for the freshness benefit (October 2025 vs July 2023) and the regulation-as-mainstream framing.
+- **Jones threshold tightened.** Changed "at most 2–4%" to "no more than a 4%" per Dan's confirmation that 4% is the upper bound across Jones's defensible parameterizations (more precise than the range). Downstream factor updated from "three to ten" to "three to six" (CEO range 10–25% divided by 4% threshold = 2.5–6.25, rounded to 3–6 for the brief).
+- **"Grown, not programmed" section added** as a short standalone block immediately after the CEO/Jones extinction section and before the asks. Serves as the technical bridge from "the CEOs say it's dangerous" to "and here is the mechanism that makes pre-deployment evaluation actually necessary." Directly motivates the H-B "minimum" ask (which is about pre-deployment evaluation specifically). The closing sentence — "This is the technical reason that mandatory pre-deployment evaluation matters" — is the explicit hand-off into the asks section.
+  - Defensibility note: "grown, not programmed" framing is mainstream within ML; used by Anthropic in their interpretability research and by various Amodei essays. The claim that frontier LLMs lack "predictable execution, traceable logic, debuggable code, formal specifications" that other safety-critical software has is technically defensible. A skeptical staffer may push back with "but we have evals, RLHF, alignment training" — those are empirical patches that reduce certain bad behaviors in tested cases, not formal verification. Have the answer ready.
+- **Word count check.** Front page now ~570 words. Slightly over the previous 500-word target. Manageable for a single page with reasonable typography but the design margin is tight; if the printer reports overflow, the easiest cut is the second sentence of the "grown, not programmed" block ("This is the technical reason that mandatory pre-deployment evaluation matters: it is the only way the federal government will know what has been built before it is released.") — losing it costs the explicit handoff into the asks but preserves the technical claim.
