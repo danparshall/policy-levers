@@ -1,0 +1,144 @@
+# Leave-Behind: Capitol Hill Visit, April 2026
+
+**Author:** Dan Parshall, Canary Institute · dan@canaryinstitute.ai
+**Status:** Draft, ready for senator-specific personalization
+**Distribution:** Tier 1–2 Senate and House offices (see `targets.md` — to be added)
+
+---
+
+## Purpose
+
+Single-page (front + chart on back) leave-behind for use during walk-up Capitol Hill visits. Designed for a Legislative Assistant or Legislative Director to read in under three minutes and walk away with a defensible reason to engage their boss on AI policy.
+
+## Editorial decisions (context for collaborator agent)
+
+These were deliberate, not accidental. Push back on any of them with reasoning if a senator-specific consideration changes the calculus.
+
+1. **Two asks, in priority order — not one.** A "preferred" ask (oppose federal preemption of state AI safety laws) and a "minimum" ask (support binding pre-deployment evaluation, Hawley-Blumenthal style). Gives skeptical staffers an off-ramp without diluting the headline.
+
+2. **Extinction risk is included, but framed through CEO statements + peer-reviewed welfare economics, not as Canary's assertion.** This is the "UK approach with armor" — the staffer who wants to dismiss the claim has to dismiss Hinton, Amodei, and a Top-5 econ journal, not a one-person institute. UK group ControlAI has had success leading with extinction directly; this brief borrows the directness while sourcing the claim outside Canary.
+
+3. **The word "pause" does not appear.** It is radioactive in current DC discourse, and "binding pre-deployment evaluation" + "coordinated slowing" do the same work without triggering the dismissal.
+
+4. **One number per claim, sourced inline.** Staffers do not read footnotes on leave-behinds. Every quantitative claim has its source named in the same sentence.
+
+5. **No mention of the 2023 FLI "Pause" letter.** It was not signed by the frontier lab CEOs and citing it as if it were is a credibility-ender for any staffer who knows the space.
+
+6. **Hawley-Blumenthal framing.** Currently stalled in Senate Commerce by Chair Cruz. Brief positions it as the "minimum" ask so that even staffers in offices not naturally aligned with the preferred ask have something concrete to do.
+
+## What needs senator-specific personalization
+
+The collaborator agent should add, per senator, a short insertion paragraph that includes (any subset of):
+
+- **Committee leverage:** Their seat on Commerce, Judiciary, Intelligence, Armed Services, HELP, or other AI-relevant committee — and what specifically that committee can do on this issue.
+- **Prior public statement:** Any on-record statement from the senator on AI risk, AI jobs, China-AI competition, or related. Quote it directly if available.
+- **District/state hook:** State-specific AI deployment angle (e.g., NM has Los Alamos; CA has frontier labs; OH/PA have manufacturing exposure; SC has nuclear; etc.).
+- **Bill history:** Any bill they have sponsored or co-sponsored on AI, tech, or labor.
+- **Tier signal:** Whether this office is Tier 1 (warm), Tier 2 (engaged-persuadable), or Tier 3 (cold drop). See `targets.md`.
+
+Tier 1 offices get the "preferred" ask emphasized. Tier 3 offices get the "minimum" ask emphasized. The body of the brief stays the same.
+
+---
+
+## DRAFT COPY (single page, front)
+
+> *Note to designer/collaborator:* Insert Canary logo (`assets/canary_logo_light.svg`) at top left. Title in bold sans-serif. Section headers in bold; body in serif. Inline source attributions in italic parentheses. Total target: ~450 words on the front page, with the wavefront chart filling the back.
+
+---
+
+**[CANARY LOGO]**
+
+# THE WINDOW FOR AI POLICY IS MEASURED IN MONTHS
+
+*A briefing from the Canary Institute · Dan Parshall · dan@canaryinstitute.ai*
+
+---
+
+**The American public is not asking for faster AI.**
+
+Polling consistently shows large majorities want AI development slowed, regulated, and held accountable. AI is one of the few issues where Democratic and Republican voters agree — and they agree against the industry's current trajectory.
+
+> ⚠ **PLACEHOLDER — needs specific AIPI stat from Dan.** Suggested format: *"X% of voters across both parties support requiring federal safety testing of advanced AI before deployment (AIPI, 2025)."* Pick the strongest single AIPI number you trust.
+
+---
+
+**AI capability is doubling every 4 to 7 months. Independent researchers measuring different things keep finding the same trend.**
+
+- **METR (2025):** The length of software tasks AI can complete with 50% reliability is doubling every ~7 months.
+- **MIT FutureTech (Mertens et al., 2026):** Across 3,000+ general employment tasks evaluated by domain experts, the doubling time is **3.8 months**. Frontier AI models in late 2024 already reached a 50% success rate on tasks that take humans a full workday.
+
+This is not a forecast. It is a measurement.
+
+---
+
+**A large share of the U.S. economy is already within AI's reach.**
+
+Canary Institute analysis of all 923 occupations in the federal labor database (Parshall & Lopez-Luzuriaga, 2026) finds:
+
+- **40% of U.S. labor time** is in tasks within current AI cognitive capability, executable on standard digital infrastructure, and not subject to meaningful regulatory protection.
+- An additional **20%** is technically within AI's reach but is currently protected by professional licensure, federal statute, or requirements for human accountability.
+
+---
+
+**Brookings: wages will rise, then fall.**
+
+A November 2025 working paper from the Brookings Center on Regulation and Markets (Kording & Marinescu) models the wage trajectory as AI automation progresses. Under standard economic assumptions, wages follow a **hump-shaped path**: rising at first as productivity gains dominate, then falling as workers are pushed out of cognitive work and crowd into the physical sector — where, with fixed physical capital, more workers means lower wages per worker. The paper's policy recommendation is to **pace AI deployment** to allow physical-sector capital investment to catch up.
+
+---
+
+**The leaders of every major AI company have signed statements that their products could cause human extinction.**
+
+In May 2023, the CEOs of Anthropic (Dario Amodei), OpenAI (Sam Altman), and Google DeepMind (Demis Hassabis), along with Turing Award winners Geoffrey Hinton and Yoshua Bengio, signed a one-sentence statement: *"Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."*
+
+Anthropic CEO Dario Amodei has publicly estimated the probability of catastrophic outcomes from AI at **10–25%**. Geoffrey Hinton has estimated **10–20%**.
+
+A 2024 paper in the *American Economic Review: Insights* (Jones, "The AI Dilemma") shows that under standard economic assumptions about risk aversion, society should accept at most a **2–4% extinction probability** in exchange for AI-driven growth. **The risk estimates from the people building this technology exceed the economically defensible threshold by a factor of three to ten.**
+
+By the standards of mainstream economics, current AI development is not a defensible gamble — and the people building it say so themselves.
+
+---
+
+**What Congress can do now.**
+
+**Preferred:** **Oppose federal preemption of state AI safety laws.** The December 11, 2025 Executive Order directs federal agencies to challenge state laws including California's Transparency in Frontier AI Act and New York's RAISE Act. Even Anthropic's CEO has called the proposed 10-year preemption moratorium "too blunt." States have become the primary binding layer of frontier AI safety governance in the United States.
+
+**Minimum:** **Support binding pre-deployment safety evaluation of frontier AI models**, as proposed in the bipartisan Hawley-Blumenthal Artificial Intelligence Risk Evaluation Act. The bill establishes a Department of Energy program to evaluate the most capable AI systems before commercial deployment. It is currently stalled in the Senate Commerce Committee.
+
+> ⚠ **PLACEHOLDER — needs bill number.** Confirm S. number for AI Risk Evaluation Act (Hawley-Blumenthal, introduced September 2025).
+
+> ⚠ **SENATOR-SPECIFIC INSERTION POINT** — Collaborator agent should add a 2–3 sentence paragraph here referencing the senator's committee position, prior statements, or state context, framed as a specific call to action they personally are positioned to take.
+
+---
+
+*Dan Parshall · Canary Institute · dan@canaryinstitute.ai*
+*Former physicist and data scientist. Coauthor, "Measuring AI's Economic Reach" (Canary Institute / GWU Center for Economic Research, 2026).*
+
+---
+
+## DRAFT BACK PAGE — Visual
+
+Wavefront chart from Parshall & Lopez-Luzuriaga (2026) showing the C×D matrix of economy-weighted labor time, with three nested envelopes: Eloundou 2023 baseline, current 2026 capability, and projected 2030 capability per METR-style extrapolation.
+
+> ⚠ **DESIGNER NOTE:** Use `CDR_wavefront_v2.png` (in Dan's working files; not yet committed). Caption underneath the chart should read approximately:
+>
+> *"The expanding wavefront of AI capability. The shaded boxes show what fraction of U.S. economy-weighted labor time is within AI's reach at each capability/deployment level. The brown dashed line is what was reachable in early 2023 (16%). The solid blue line is what is reachable today (50%). The dashed purple line is the projection for ~2030 if current capability trends continue (68%). Source: Parshall & Lopez-Luzuriaga 2026, METR 2025."*
+
+---
+
+## OPEN ITEMS (for Dan)
+
+1. **AIPI polling stat** — pick the specific number for the lead bullet.
+2. **S. number** for Hawley-Blumenthal AI Risk Evaluation Act.
+3. **Visual treatment confirmation** — single page front + wavefront chart back is current plan. Confirm or override.
+4. **Per-senator targeting list** — see `targets.md` (to be created from the prioritization conversation: Hawley, Blumenthal, Warner, Heinrich, Rounds, Young, Obernolte, Lieu, Foster, Beyer, Khanna, Mace, plus leadership drops).
+
+## REVISIONS APPLIED FROM PRIOR DRAFT (audit log)
+
+For collaborator's awareness — these are corrections from an earlier draft, not open issues:
+
+- ❌ "Federal preemption of state AI laws would erode this protection" (the 20% professional-licensure protection) — **REMOVED.** The December EO targets AI-specific state laws (TFAIA, RAISE), not occupational licensing or HIPAA. Conflating the two was overreach.
+- ❌ "AI can already perform" (re: Canary 40%) — **CHANGED to** "within current AI cognitive capability." Canary measures exposure/reach, not demonstrated task completion.
+- ❌ "Reliably" (re: METR) — **CHANGED to** "with 50% reliability." METR's metric is the 50% threshold; "reliably" implies higher.
+- ❌ "Shrinking pool of physical jobs" (re: K-M) — **CHANGED to** "crowd into the physical sector — where, with fixed physical capital, more workers means lower wages per worker." K-M's mechanism is crowding into a fixed-capital sector, not job loss in physical sector.
+- ❌ "These same CEOs have publicly estimated 10–25%" — **CHANGED to** specific attribution: Amodei (10–25%), Hinton (10–20%). Altman and Hassabis have not given comparable numbers publicly; lumping them in was overreach.
+- ❌ "Only working layer of AI safety governance" — **CHANGED to** "primary binding layer." NIST RMF and AISI exist but are non-binding on frontier labs.
