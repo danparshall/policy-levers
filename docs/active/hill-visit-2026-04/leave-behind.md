@@ -58,7 +58,13 @@ Tier 1 offices get the "preferred" ask emphasized. Tier 2 offices get the "minim
 
 Polling consistently shows large majorities want AI development slowed, regulated, and held accountable. AI is one of the few issues where Democratic and Republican voters agree — and they agree against the industry's current trajectory.
 
-> ⚠ **PLACEHOLDER — needs specific AIPI stat from Dan.** Suggested format: *"X% of voters across both parties support requiring federal safety testing of advanced AI before deployment (AIPI, 2025)."* Pick the strongest single AIPI number you trust.
+**70% of voters agree that mitigating the risk of extinction from AI should be a global priority alongside other risks like pandemics and nuclear war** *(AIPI/YouGov, 2023)* — the exact language that the CEOs of OpenAI, Anthropic, and Google DeepMind would later sign onto. **Recent polling confirms the trend: 73% of US adults support robust AI regulation; only 12% oppose** *(FLI/YouGov, October 2025, n=2,000).*
+
+> ⚠ **DAN: TWO ALTERNATIVE LEAD FRAMINGS** if the above is too extinction-forward for a given drop. Pick at print time:
+>
+> **(Alt A — regulation-led, freshest):** "73% of US adults support robust AI regulation, while only 12% oppose. 64% believe superhuman AI should not be developed until proven safe and controllable, or should never be developed (FLI/YouGov, October 2025, n=2,000). 69% say the government is not doing enough to regulate AI (Quinnipiac, April 2025)."
+>
+> **(Alt B — slowdown-led):** "72% of voters prefer slowing down the development of AI; only 8% prefer speeding it up. 86% believe AI could accidentally cause a catastrophic event (AIPI/YouGov, 2023). Recent polling shows the trend has held or strengthened: only 5% of Americans support the current pace of fast, unregulated development (FLI/YouGov, October 2025)."
 
 ---
 
@@ -127,7 +133,7 @@ Wavefront chart from Parshall & Lopez-Luzuriaga (2026) showing the C×D matrix o
 
 ## OPEN ITEMS (for Dan)
 
-1. **AIPI polling stat** — pick the specific number for the lead bullet.
+1. ~~**AIPI polling stat** — pick the specific number for the lead bullet.~~ ✅ Resolved: lead with the AIPI 70% extinction-priority number (which sets up the CAIS-statement payoff later in the brief), corroborated by the FLI/YouGov October 2025 73%/12% regulation-support number for freshness. Two alternative lead framings (Alt A regulation-led, Alt B slowdown-led) included inline for Dan to swap in at print time if a given drop calls for less extinction-forward framing.
 2. ~~**S. number** for Hawley-Blumenthal AI Risk Evaluation Act.~~ ✅ Resolved: S. 2938, introduced September 29, 2025.
 3. **Visual treatment confirmation** — single page front + wavefront chart back is current plan. Confirm or override.
 4. **Per-senator targeting list** — see `targets.md` (to be created from the prioritization conversation: Hawley, Blumenthal, Warner, Heinrich, Rounds, Young, Obernolte, Lieu, Foster, Beyer, Khanna, Mace, plus leadership drops).
@@ -150,5 +156,6 @@ For collaborator's awareness — these are corrections from an earlier draft, no
 - **Hawley-Blumenthal description expanded** to flag the explicit statutory language on loss-of-control scenarios and "scheming behavior." This is genuinely unusual — first federal bill with that language — and it does work to make "minimum" feel substantive rather than incremental for staffers who think disclosure regimes are toothless.
 - **Third "Fallback" ask added:** Dear Colleague letter to Chairman Cruz requesting Commerce hearing on S. 2938. Rationale: the actual bottleneck is Cruz's reluctance to schedule a markup or hearing, not lack of cosponsors. A hearing-request letter is something even Tier 3 offices can plausibly sign, requires no policy commitment from the senator, and addresses the real procedural blocker. Editorial decision #1 updated from "Two asks" to "Three asks."
 - **Jones citation expanded** to include full paper title ("Growth versus Existential Risk") and journal volume/issue. Paper itself verified against Congress.gov & AEA records; specific 2–4% threshold not independently re-verified against paper body — flagged as Open Item #5 above for Dan to confirm before printing.
-- **AIPI polling stat still PLACEHOLDER.** Dan needs to pick before printing.
+- **Polling lead bullet filled:** Lead with AIPI 70% extinction-priority number (rhymes with the CAIS-statement language used by the CEOs later in the brief, creating a tight three-beat rhetorical arc). Corroborating FLI/YouGov October 2025 73%/12% regulation-support number added to defang any "stale data" objection. Two alternative lead framings provided inline (Alt A regulation-led with FLI Oct 2025 + Quinnipiac April 2025; Alt B slowdown-led with AIPI 72%/8% + FLI 5% status-quo support) for use in offices where extinction framing might alienate the staffer before they finish reading.
+- **AIPI 70% number is from July 2023.** Worth being aware of in conversations — staffer may push back on freshness. The FLI October 2025 corroborating sentence is the answer to that pushback. Don't lead with the 2023 number alone.
 - **Wavefront chart asset still not committed.** Designer / Dan needs to handle before printing.
