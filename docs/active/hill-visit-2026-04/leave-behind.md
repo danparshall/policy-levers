@@ -42,7 +42,7 @@ Tier 1 offices get the "preferred" ask emphasized. Tier 2 offices get the "minim
 
 ## DRAFT COPY (single page, front)
 
-> *Note to designer/collaborator:* Insert Canary logo (`assets/canary_logo_light.svg`) at top left. Title in bold sans-serif. Section headers in bold; body in serif. Inline source attributions in italic parentheses. Total target: ~500 words on the front page, with the wavefront chart filling the back.
+> *Note to designer/collaborator:* Insert Canary logo (`assets/canary-logo-light.svg`) at top left. Title in bold sans-serif. Section headers in bold; body in serif. Inline source attributions in italic parentheses. Total target: ~500 words on the front page, with the wavefront chart filling the back.
 
 ---
 
@@ -135,7 +135,7 @@ When the 737 MAX kept nosing down due to an engine placement problem, Boeing sai
 
 Wavefront chart from Parshall & Lopez-Luzuriaga (2026) showing the C×D matrix of economy-weighted labor time, with three nested envelopes: Eloundou 2023 baseline, current 2026 capability, and projected 2030 capability per METR-style extrapolation.
 
-> ⚠ **DESIGNER NOTE:** Use `assets/CDR_wavefront_v3.png` (PDF also at `assets/CDR_wavefront_v3.pdf`). Caption underneath the chart should read approximately:
+> ⚠ **DESIGNER NOTE:** Use `assets/CDR-wavefront-v3.png` (PDF also at `assets/CDR-wavefront-v3.pdf`). Caption underneath the chart should read approximately:
 >
 > *"The expanding wavefront of AI capability. The shaded boxes show what fraction of U.S. economy-weighted labor time is within AI's reach at each capability/deployment level. The brown dashed line is what was reachable in early 2023 (16%). The solid blue line is what is reachable today (50%). The dashed purple line is the projection for ~2030 if current capability trends continue (68%). Source: Parshall & Lopez-Luzuriaga 2026, METR 2025."*
 
@@ -167,7 +167,7 @@ For collaborator's awareness — these are corrections from an earlier draft, no
 - **Third "Fallback" ask added:** Dear Colleague letter to Chairman Cruz requesting Commerce hearing on S. 2938. Rationale: the actual bottleneck is Cruz's reluctance to schedule a markup or hearing, not lack of cosponsors. A hearing-request letter is something even Tier 3 offices can plausibly sign, requires no policy commitment from the senator, and addresses the real procedural blocker. Editorial decision #1 updated from "Two asks" to "Three asks."
 - **Jones citation expanded** to include full paper title ("Growth versus Existential Risk") and journal volume/issue. Paper itself verified against Congress.gov & AEA records; specific 2–4% threshold flagged as Open Item #5 for Dan to confirm before printing. *(See second pass — resolved.)*
 - **Polling lead bullet filled with AIPI 70% extinction-priority number** plus FLI/YouGov October 2025 corroborator. *(See second pass — superseded by regulation-led FLI lead per Dan's direction; the AIPI 70% framing now lives as Alt A.)*
-- **Wavefront chart asset committed** (`assets/CDR_wavefront_v3.png` + `.pdf`) on 2026-04-15.
+- **Wavefront chart asset committed** (`assets/CDR-wavefront-v3.png` + `.pdf`) on 2026-04-15.
 
 ## REVISIONS APPLIED 2026-04-14 (Hill visit eve, second pass)
 
