@@ -49,6 +49,13 @@ policy_levers/
 - Keep data files out of git (use .gitignore patterns); small reference/lookup tables go in `data/reference/`
 - Notebooks are for exploration only; production logic belongs in `src/`
 
+### File and directory naming
+
+- **Default: kebab-case (hyphens)** for all non-code files and directories. Example: `leave-behinds/2026-04-15-canary-leave-behind.pdf`. Rationale: ISO 8601 dates already use hyphens, modern web/Unix tooling has converged on hyphens, and consistency reduces cognitive overhead.
+- **Exception: Python source files** (`src/`, `tests/`) use snake_case as required by PEP 8 / Python's import system. Example: `src/data/clean_congress_directory.py`.
+- **Exception: SCREAMING_SNAKE for canonical root-level docs.** `README.md`, `CLAUDE.md`, `STATUS.md`, `PAPER_INDEX.md`, `PAPER_SUMMARIES.md` follow the "shouting filename" convention for top-level project docs. Don't add new files in this style; reserve for the existing canonical set.
+- **Exception: academic papers in `papers/`** keep their existing `Author_Year_Title.pdf` form. Academic citation convention is recognizable as-is and compound surnames (e.g., `Lopez-Luzuriaga`) already mix separators.
+
 ## Research Documentation
 
 Source literature for this project's AI-economic-impact reasoning lives alongside the code:
