@@ -1,0 +1,687 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+Building effective altruism
+AI governance
+Criticism of effective altruist causes
+Public communication on AI safety
+Research agendas, questions, and project lists
+Frontpage
+Show all topics
+In previous posts in this sequence, I laid out a case for why most AI governance research is
+too academic and too abstract to have much influence over the future. Politics is noisy and
+contested, so we can’t expect that good AI governance ideas will spread on their own – we
+need a large team of people who are actively promoting those ideas. Unfortunately, we
+currently have at least 3 researchers for every advocate, so many policy ideas have been
+“orphaned,” i.e., nobody is taking those ideas and showing them to decision-makers who
+have the power to implement them.
+The best way of addressing this imbalance would be to shift funding and jobs from
+research to advocacy. However, as a practical matter, I don’t expect many funders to heed
+my arguments, nor do I expect many researchers to spontaneously quit and look for new
+jobs in other fields. So, in this post, I offer tips on how researchers can make their work
+more relevant to advocacy by drafting actual policy documents and by making concrete
+proposals in their white papers. 
+I also catalog eleven orphaned policies that I’m aware of and make suggestions about how
+you can “adopt” them. This isn't meant to be a perfect list -- there are good orphaned
+policies that I haven't included, and I might have included one or two policies that you find
+unimpressive. My hope is that collectively, these policies illustrate the size and scope of the
+backlog. 
+The important thing isn't that we agree on exactly which policy is best; the important
+thing is that we start clearing the backlog and do something -- because right now, we're on
+track to accomplish essentially zero policy change, and, as I've argued earlier in this
+sequence, the status quo is likely to end in catastrophe.
+Orphaned Policies (Post 5 of 7 on AI
+Governance)
+by Jason Green-Lowe
+May 29 2025
+46
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+Reject
+Accept all
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+1/17
+
+DRAFT ACTUAL POLICY DOCUMENTS
+The most important thing individual researchers can do to make their work more relevant
+is to shift some of their efforts from general academic exploration to drafting actual policy
+documents. We have so many good policy proposals that have never gotten beyond the idea
+stage, and that need to be fleshed out. 
+What I mean by “fleshing out” a policy proposal is to actually draft an example of that
+proposal, ideally with specific, well-justified numbers, proper nouns, and mechanisms.
+Don’t just say that we ought to have compute monitoring; write a bill that implements it.
+Don’t just propose a windfall profits clause; write the corporate governance documents
+that would implement it. This is what CAIP did with our model legislation. 
+This is not as hard as you might think – there are $50 textbooks that will teach you the
+appropriate writing style for legislation or for corporate charters, there are free how-to
+guides available online, you can poach other companies’ documents to use as templates,
+and you can ask LLMs to review your work and offer advice about where you might need to
+make edits. Policymakers will also be forgiving if you make small formatting errors,
+especially since they often have professional help for such editing. For example, when
+Congressional staffers draft bills, those bills usually get sent to Congress’s Office of
+Legislative Counsel, which puts the finishing touches on them.
+One of the advantages of drafting actual policy documents is that they’re much shorter
+than a typical academic paper – you can have a very helpful bill that’s only three pages
+long. This makes it easier to get feedback, and you should ideally be getting feedback from
+a wide variety of sources (and make appropriate improvements based on that feedback)
+before you show your policies to neutral policymakers. 
+Another advantage to drafting actual policies is that it forces you to make choices about
+who should do what and how they should do it. This helps you make sure that your ideas
+are politically feasible and logistically sound. 
+For example, one of the most frequent questions CAIP got when discussing our model
+legislation was “which Cabinet department should run your proposed new office?” This
+forced us to study the org chart at the Departments of Commerce, Energy, and Homeland
+Security so that we could see where our office might fit in. We learned early on that NIST
+was a non-regulatory agency and that they weren’t interested in hosting any kind of AI
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+2/17
+
+safety enforcement efforts. This is not something you’d pick up from doing a literature
+review, because NIST’s preferences aren’t cited much in the academic literature. Instead, we
+caught this issue because drafting actual legislation prompted us to think about where the
+office should go, and because we talked to NIST employees to get their perspective. We
+eventually concluded that the Commerce Department would need to create a new
+regulatory office, which is exactly the solution that Senator Romney proposed in
+December 2024.
+MAKE YOUR WHITE PAPERS SPECIFIC
+If you’re not going to draft an actual policy, you can still be of some help by writing a white
+paper that goes into enough concrete detail about what a policy should look like. The
+format of the document is less crucial than the fact that it (1) contains concrete details, and
+(2) takes a stand in favor of a specific outcome or makes a specific prediction.
+Instead of discussing the pros and cons and desiderata of various categories of proposals,
+you need to be identifying one proposal you think is best and explaining why that
+proposal is best. Instead of saying “the government could require owners of advanced AI
+chips to register their location,” a concrete policy proposal would say “the Department of
+Energy should hire three full-time agents to collect and analyze annual reports on the
+location of all H100 and A100 chips.” 
+The latter proposal requires more work, especially if you’re worried about getting the
+details right – and that’s exactly the point. As discussed in the second post in this
+sequence, policy proposals need to be easy for politicians to implement, or else they’ll
+usually move on to something that’s easier. Politicians are insanely busy and
+overscheduled. Every minute you ask them to spend sifting through policy alternatives
+and figuring out the details of how a hypothetical bill should work is a minute that they
+can’t spend pushing their colleagues to co-sponsor and vote for a bill that you’ve already
+written. 
+As a result, you can get much more traction with Congressional staffers by saying “here’s
+the policy we think you should champion” than by saying “gosh, these issues seem like
+they might be important and it’d be great if you figured out a way to do something about
+that.”
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+3/17
+
+Admittedly, most research work is funded by 501(c)(3) donations that cannot pay for more
+than a small amount of direct political advocacy. However, there are ways to word the
+conclusion of a research paper that provide clear guidance without crossing the line into
+inappropriate political work. True, you might not endorse a bill that’s currently being
+debated by Congress, and you certainly shouldn’t be endorsing political candidates, but you
+can still truthfully say that one type of policy has better consequences than another. The
+law clearly states that “nonpartisan analysis, study, or research may advocate a particular
+position or viewpoint so long as there is a sufficiently full and fair exposition of the
+pertinent facts to enable the public or an individual to form an independent opinion or
+conclusion.”
+It’s therefore not “political” to point out that banning A100 chip exports while permitting
+A800 chip exports is ineffective; that’s a technical conclusion that a neutral researcher can
+reasonably draw. It's not “advocacy” to express an opinion that the next generation of
+LLMs will most likely uplift the capabilities of bioweapon designers to a degree that poses
+risks that would be considered unacceptable in any other industry. You can have a firm
+opinion on an issue without being a politician; nothing about having a 501(c)(3) tax-status
+requires you to drown every opinion you offer in a sea of “maybe” and “could” and
+“warrants further research.” The point of tax-exempt research is to come up with
+scientifically informed opinions that politicians can draw on to inform their work; if your
+organization is too timid to firmly express those opinions, then it’s not upholding its part
+of the social contract.
+A good example of an adequately specific white paper is FAS’s An Early Warning System for
+AI. They’ve got a budget, an estimate of the number of staff needed, an administrative
+home for the new office, and a step-by-step explanation of who would do what and how it
+would work. True, the paper doesn’t literally include the text of model legislation – but
+that’s fine, because the paper provides enough detail that a legislator who was convinced
+by the paper’s arguments could easily turn the paper over to the Office of Legislative
+Counsel and have them translate it into a bill.
+CATALOG OF ORPHANED POLICIES
+The rest of this post is just a list of examples of the backlog of good policy ideas that, to the
+best of my knowledge, have never been adequately fleshed out. For each idea, I try to say
+what work is missing and how a researcher might fill in those gaps. If you’ve done
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+4/17
+
+additional work on one of these policies and I’ve overlooked it, please let me know, and I
+will update the list accordingly!
+Windfall Profits Clause
+GovAI proposed in 2020 that AI firms should commit ahead of time to redistribute most of
+the profits of transformative AI from its inventor to the rest of humanity. Their paper
+includes a possible series of ‘tax brackets,’ which is a useful detail, but they do not include
+sample language showing how to add a windfall profits clause to a corporate charter or
+corporate bylaws. 
+A windfall profits clause is an excellent idea, but to date, no one has drafted a sample
+windfall profits clause, let alone tried to persuade any particular corporation to adopt one.
+You can help by figuring out which corporate document(s) need to be amended, drafting an
+amendment that would have the appropriate effect, and then writing a letter to corporate
+social responsibility officers asking them whether they will pass that amendment, and, if
+not, why not.
+Antitrust Waiver
+LawAI proposed in 2021 that the government should issue a waiver to AI developers
+promising not to prosecute them under the antitrust laws for meeting to discuss minimum
+safety standards. Competitors are normally not allowed to meet with each other to agree
+on changes to their business practices, but such a meeting would be allowed if there were
+an explicit government waiver, or if the meeting was hosted by a bona fide trade
+association that has non-commercial purposes.
+The consensus seems to be that companies are not actually that afraid of being prosecuted
+for antitrust violations based on negotiating industry-wide minimum safety standards,
+but because some companies (e.g. Google) are being actively investigated or prosecuted for
+other antitrust violations, the fear that such talks could endanger the parent corporation is
+a convenient excuse that can be used by executives to tell an engineer not to pursue safety
+agreements. Getting a waiver granted could eliminate that excuse, making such safety
+agreements more likely to take place.
+Unfortunately, to date, nobody has drafted a sample waiver letter that could be signed by
+the Assistant Attorney General for Antitrust, let alone sent that letter to the Assistant
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+5/17
+
+Attorney General and asked them to sign it.
+It looks like the Frontier Model Forum is at least a plausible candidate for a non-
+commercial trade association that could serve as a protected forum for hashing out safety
+agreements, but it's not clear whether this forum has the desire or ability to help
+companies enter into binding negotiations, rather than just identify voluntary best
+practices.
+You can help by writing the waiver letter or by investigating the Frontier Model Forum and
+seeing what if anything else they need in order to be more active in setting safety
+standards for existential risk from AI.
+Strict Liability
+Applying a less forgiving set of tort law to harms caused by AI has been discussed for
+several years; the Brookings Institute proposed using products liability law in 2019, and
+CAIP board member Gabriel Weil published a detailed analysis of several possible liability
+reforms in January 2024. California SB 1047 would have made some minor changes or
+clarifications to existing tort law, and a few other state legislatures have also considered
+modifications. 
+However, this should ideally be a 50-state project. Specific language in every state should
+be available for legislatures to adopt, and we should also be filing impact litigation that
+would give judges a chance to incorporate strict liability for AI into the common law.
+You can help by writing a strict liability law for your state and by submitting comments or
+articles to a local law review journal arguing in favor of strict liability. Such laws are often
+more likely to pass (or be adopted by judges) when they have some academic support, but
+the support needs to be registered inside the legal community for it to be noticed.
+Visa Reform
+Changes to immigration policy that made it easier for AI researchers to move to the US
+could reduce the urgency of an ‘arms race.’ Especially if you think that other countries will
+be unable to effectively ‘retaliate’ by ratcheting up their own efforts to recruit personnel,
+then this type of visa reform would place America further in the lead toward superhuman
+AI compared to China. This could encourage more investment in safety, because minor
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+6/17
+
+slowdowns would no longer seem to carry as sharp of a risk of losing an arms race. To date,
+no one has drafted a bill or regulation to allow for more visas for this purpose, let alone
+lobbied Congress or USCIS to adopt it.
+You can help by figuring out which specific kinds of people need to be welcomed into the
+country, what kinds of visas they would need to be eligible for, who could grant those visas,
+what program or authority they could be granted under, and who should be in charge of
+making this happen. Ideally, those conclusions would then be written up as a proposal for
+an appropriate officer at the State Department and/or the Department of Homeland
+Security. You might also write to an appropriate official at the White House who works on
+immigration policy. 
+Because the current administration is relatively skeptical of immigrants, it will be
+important to narrowly tailor the visa reform to cover only the people who we need to have
+here in America in order to widen our AI tech lead against rivals like China. It would also be
+helpful to include policies that will reduce the risk that people admitted under the new
+program will conduct espionage or otherwise transfer tech to rival countries.
+Insurance Requirements
+A team of researchers led by the AI Objectives Institute recently put out a paper praising
+the benefits of AI safety insurance, arguing persuasively that “insurance has the potential
+to create a more favorable incentive structure by making practices such as safety-washing
+or underestimating AI-related risks less appealing.” CAIP’s co-founder, Thomas Larsen,
+was a strong proponent of requiring frontier AI developers to carry a minimum amount of
+insurance.
+However, we never satisfactorily answered the question of what this minimum amount
+should be. What are a reasonable set of policy limits? How large can the deductible be? How
+large can co-insurance payments be? What is the scope of harms that would be covered by
+such policies, and what if any exclusions would be permitted? What kinds of re-insurance
+requirements would insurers have to meet to make sure that policies will be paid out even
+if the primary insurer is bankrupted by an unusually large claim?
+You can help by researching best practices in the insurance industry and using what you
+learn to answer some or all of these questions, and then drafting a sample insurance policy,
+or a bill that would require AI developers to place insurance, or both. You could also try
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+7/17
+
+sending the sample insurance policy to a real insurance company or to an actuary and
+seeing if they’d be willing to come up with a price estimate for it.
+Public Grant Funding
+The US federal government currently distributes half a billion dollars a year in AI research
+funding; some of this funding could be explicitly earmarked for AI safety. There was a $20
+million allocation for safety research in 2023, but since then, no one has drafted a proposal
+for more such earmarks, let alone lobbied Congress or the National Science Foundation to
+adopt it.
+You can help by figuring out how much money could usefully be absorbed by technical AI
+safety researchers over a variety of different timelines (e.g. 1 year, 2 years, 5 years, etc.),
+what kinds of programs they might work on, how these programs could be made legible to
+policymakers who have only a general interest in the topic (i.e., talk mostly about
+interpretability and reliability, not microdooms and superintelligence explosions), and how
+we might measure the success of such grants to avoid wasting money.
+Global Crisis Hotline
+Lawfare and Brookings published a thoughtful piece in 2024 calling for an “AI incidents
+hotline,” similar to the legendary Red Phone that symbolized efforts to connect the US and
+the USSR to avert nuclear accidents during the Cold War.
+There are a number of interesting questions that always need to be answered about such a
+hotline: who should staff it? What authority should they have? What kinds of incidents
+should the hotline be used for? What actions will the operators take when a major crisis is
+reported, and to whom will they delegate less critical emergencies in order to keep the line
+clear? What, if anything, can the US constructively do if China refuses to pick up the phone
+during a particular crisis?
+The US currently seems to lack even a basic bilateral military hotline with China, so adding
+an AI-specific hotline will take a significant amount of work. If we do, we will also have to
+address a few AI-specific concern, such as: how will operators identify deepfakes or rogue
+AIs that are mis-using the system? How will the hotline be hardened against jamming or
+automated cyber-attacks?
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+8/17
+
+To the best of my knowledge, nobody has laid out a detailed plan for how to create an
+appropriate international incident hotline, let alone proposed a treaty or other document
+that would cause one to come into being. You can help by researching how past hotlines
+have worked and what we can learn from their successes and failures, and then using what
+you learn to propose a specific plan to launch a new hotline.
+Compute Monitoring
+There has been much discussion of how the government could attempt to track large
+clusters of computing power with the goal of knowing who is doing large-scale training
+runs so that the government could intervene in an emergency. Yonadav Shavit’s 2023
+paper “What Does It Take to Catch a Chinchilla?” provides a useful amount of detail about
+how often inspections would need to take place, but there is still much work to be done in
+terms of figuring out who would do these inspections, what the penalties would be for
+noncompliance, and how the hardware innovations required would be paid for. 
+To date, there has been only limited legislative action on this topic. Senator Cotton has
+recently introduced the Chip Security Act, which would require export-controlled chips to
+have a location verification mechanism within 6 months of the bill’s passage, and CAIP has
+sincerely endorsed it, but it’s not totally clear how the location verification would work or
+what else might need to be done to monitor compute. 
+There are many details that remain to be worked out in terms of what specific hardware
+features could and should be placed on chips to make them easier for the government to
+monitor. Should advanced AI chips have GPS locators? Should they include proof-of-work
+features that allow others to identify what types of computations they were used on and
+roughly how many of those computations were performed? Should chips have a ‘kill
+switch’ that allows them to be remotely deactivated, or, more aggressively, a dead man’s
+switch that automatically deactivates them if they do not receive the correct password at
+periodic intervals?
+How much would it cost to develop each of these features, and how quickly could they be
+developed and manufactured? There are several academic papers that discuss these
+features in the abstract, but I am not aware of any that provide concrete estimates of time
+and cost. You can help by doing research that narrows down the range of plausible
+estimates.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+9/17
+
+LAWS Boycott
+Groups of AI researchers have occasionally banded together to oppose the development of
+lethal autonomous weapons systems (“LAWS”), but there is no national or global policy
+that specifically bans such weapons, and weapons that are at least semi-autonomous
+continue to be manufactured and deployed (e.g., in Ukraine). 
+Section 1638 of the FY2025 National Defense Authorization Act (NDAA) included a
+statement that “it is the policy of the United States” to avoid letting AI compromise “the
+principle of requiring positive human actions” before firing nuclear weapons, but this falls
+slightly short of a binding legal requirement to always keep a human in the loop even for
+nuclear weapons, and conventional LAWS remain unregulated. 
+Although at least 30 countries have called for a ban on LAWS, it seems that none of them
+have actually written the text of a proposed treaty or a proposed new protocol to the
+Convention on Conventional Weapons that would create a legally-enforceable ban (for
+countries that sign it) on the use of LAWS. You can help by doing that work for them.
+Similarly, to date, no one has written a specific policy that would make it illegal for the US
+military to use some or all types of LAWS – you can help by figuring out which types of
+LAWS would be most practical to do without and writing a policy that would require that
+we avoid their use. Stuart Russell has suggested that lethal autonomous weapons below
+400 grams could be banned, as part of an effort to avoid the worst kinds of anti-personnel
+swarms while still allowing for LAWS that can destroy, e.g., enemy tanks and fighter
+planes. However, it’s not obvious that the 400-gram figure is technically accurate; it seems
+to have been imported from the St. Petersburg Declaration of 1868, which dealt with
+exploding musket balls. It might be perfectly possible to design anti-personnel LAWS that
+weigh only 300 grams. You can help by updating this standard and coming up with a more
+technically justified red line for lethal autonomous weapon systems. 
+It could also be helpful to try to organize a consumer boycott against companies that are
+designing or manufacturing LAWS, or against companies that are doing so without
+adequate safeguards, or against companies that are designing specific LAWS such as anti-
+personnel swarms. You could help with this type of effort by making a list of which
+companies are leading these efforts and what commonly available consumer products they
+make and which convenient substitute products are made by companies that aren't
+involved in designing LAWS.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+10/17
+
+Industry Standards
+NIST has already published an AI Risk Management Framework that contains voluntary
+best practices for coping with the risks of AI. It is not obvious that all major AI developers
+are actually complying with these voluntary best practices, or even that they have
+promised to do so. There is much work to be done lobbying companies to publicly promise
+to abide by the NIST AI RMF and then preparing checklists, scorecards and other tools to
+evaluate how well they are living up to this promise. 
+SaferAI’s work in creating a rating system for AI companies is a good first step, but the
+ratings need to be broadened and aligned with the NIST criteria, and someone needs to
+convince the companies to commit to using these criteria and to publishing enough data
+often enough that third parties can meaningfully assess the extent to which they are
+successfully complying with those criteria.
+You can help by developing checklists or scorecards that assess compliance, by developing
+tools, wizards, charts, and templates that make it easier for companies to comply, and by
+drafting sample agreements that companies could sign to show that they agree to follow
+these guidelines.
+Structured Access to Research
+Researchers need access to AI models in order to assess their safety, but corporations may
+be reluctant to share their source code for fear of losing a competitive advantage, and
+publicly sharing source code may be undesirable in any case because it may accelerate
+general AI capabilities research. To solve this problem, some companies are offering
+“structured access” to their models through an API. 
+However, it is not clear that anyone is lobbying for this trend to continue or for other
+companies to adopt structured access plans. You can help by defining the minimum class
+of researchers who should have structured access, the minimum amount of access that
+they should have, and the maximum amount of usage restrictions or other requirements
+that companies can impose on such researchers. For example, a non-disparagement
+agreement would largely defeat the purpose of such access; if OpenAI can require that a
+researcher not say anything disapproving about its products as a condition of getting early
+access to its models, then the early review no longer serves as a reliable signal of whether
+the models are safe.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+11/17
+
+Once we know more about what a reasonable structured access plan would look like, you
+can help by drafting an open letter that companies can sign to pledge that they will always
+provide this access, and then sending that letter to appropriate departments at AI
+developers and encouraging them to sign it.
+CONCLUSION
+All of the topics above need more people who are working on drafting concrete policy
+proposals and lobbying governments and corporations to implement those proposals. I am
+not aware of any AI safety issues that are “saturated” with drafters or lobbyists, in the
+sense that they already have about as many drafters as they need and adding more staff
+would face diminishing marginal returns. 
+By contrast, the movement as a whole is already saturated with general policy ideas, in the
+sense that we have far more good policy ideas than we can currently hope to act on. In
+addition to the eleven ideas discussed in this post, there are many more good ideas
+summarized at the bullet-point level in response to OSTP’s call for comments on its AI
+Action Plan. You can sift through the 10,068 official comments here, or you can read CAIP’s
+highlights in issues #67 and #73 of our weekly newsletter. 
+What this means is that if you’re spending your time generating even more policy ideas,
+that’s not likely to be helpful – unless your new idea is much better than existing ideas,
+and that improvement is obvious and visible to the handful of advocates who are trying to
+get those ideas implemented, then it’s profoundly unclear how your new idea is going to
+translate into real-world change.
+If you’re spending your time musing about general considerations that might possibly
+improve the quality of other general policy ideas that other people might come up with
+someday, that’s even less likely to be helpful.
+I have to imagine that even the researchers themselves don’t want to see their research go
+to waste. If you dedicate your professional career to seeking out new knowledge, don’t you
+want someone to benefit from that knowledge? Don’t you want someone to,
+metaphorically speaking, read your thesis or your dissertation?
+If you do, then I urge you to adopt one or two of the projects discussed in this post and help
+move that project forward toward being a concrete policy idea that’s ready for
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+12/17
+
+policymakers to adopt. I truly believe this will be useful on the margins.
+If we want to change things at scale, and not just on the margins, then the only way I can
+think of to make sure that most of the research we produce actually gets read by the people
+in charge is to shift some of our funding from research to advocacy. In my sixth and
+seventh posts, I’ll explain what institutional changes I think would need to happen within
+the AI safety funding environment to make that possible.
+Mentioned in
+122
+Next:
+Political Funding Expertise (Post 6
+of 7 on AI Governance)
+1 comments
+37 karma
+Previous:
+Shift Resources to Advocacy Now
+(Post 4 of 7 on AI Governance)
+5 comments
+63 karma
+Log in to save where you left off
+Comments 3
+Sorted by New & upvoted
+Chris Leong
+2
+0
+9
+Great post. Listing concrete examples of orphaned policies makes it much easier for folks to evaluate
+how much of a priority drafting orphaned policies should be.
+That said, my belief is that actually it's not just fine for the AI governance community to propose far
+more policies than policies actually drafted, but this is exactly the way that it should be.
+Generally, when you have a pipeline, you want filtering to occur at each stage. I have a strong
+intuition that the impact of policies is quite heavy-tailed, particularly because some policies that
+initially seem promising might actually turn out to be net-negative, impractical or hard to have any
+confidence in.
+The Center for AI Policy Has Shut Down
+11mo
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+13/17
+
+Here's my hot-takes (disclaimer: by hot-takes, I really do mean hot-takes and I'm not a policy
+professional!)
+• Windfalls clause: robustly good, but not on the critical path
+• Antitrust waiver: seems robustly good
+• Visa reform: hard to determine the sign of due to espionage concerns
+• Insurance requirements: hard to determine the sign of due to moral hazard
+• Public grant funding: quite hard to make sure this goes to anything useful, that said, UK AISI is
+distributing grants and I'm quite optimistic about their judgement
+• Global crisis hotline: seems robustly good
+• Compute monitoring: seems robustly good
+• LAW Boycott: hard to determine sign due to unstable equilibrium
+• Industry standards: I'm a lot more pessimistic about this than most folks. Very easy for this to create
+a false sense of security. Unfortunately, at the end of the day, if a company doesn't care, they don't
+care
+• Structured access to research: I suspect that the companies will either give it voluntarily or it'll not
+be worth the political capital to try to mandate
+So 3/11 seem robustly good, with another robustly good but not on the critical path.
+Question: Are there any organisations focused on taking general policy proposals and developing
+them into specific proposals for legislation? I could see value in having an organising specialising in
+this stage if the majority of governance organisations are just throwing rather general proposals over
+the wall and hoping someone else will fill in the details.
+Jason Green-Lowe
+2
+0
+10
+I'm not aware of any such organizations! This is an example of one of the 'holes' that I'm trying to
+highlight in our ecosystem. 
+We have so many people proposing and discussing general ideas, but there's no process in place to
+rigorously compare those ideas to each other, choose a few of those ideas to move forward, write
+up legislation for the ideas that are selected, and advertise that legislation to policymakers.
+I don't object to the community proposing 5-10x more ideas than it formally writes up as policies; as
+you say, some filtering is appropriate. I do object to the community spending 5-10x more time
+proposing ideas than it spends on drafting them. The reason why it makes sense to have lots of
+ideas is that proposing an idea is (or should be) quick and easy compared to the hard work of
+drafting it into an actual policy document. If we spend 70% of our resources on general academic
+discussion of ideas without anyone ever making a deliberate effort to select and promote one or two
+of those ideas for legislative advocacy, then something's gone badly wrong.
+SummaryBot
+0
+0
+2
+11mo
+11mo
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+14/17
+
+Executive summary: This post argues that the AI governance field suffers from a surplus of abstract
+research and a shortage of advocacy, leading to a backlog of promising but unused policy ideas
+(“orphaned policies”); to remedy this, the author recommends that researchers make their work more
+actionable by drafting concrete policy documents and adopting one of eleven specific,
+underdeveloped proposals detailed in the post.
+Key points:
+1. Advocacy bottleneck: The field has a researcher-to-advocate imbalance (~3:1), meaning many
+good AI policy ideas lack champions who can bring them to policymakers—creating a large
+backlog of “orphaned” proposals.
+2. Drafting real policies is tractable and impactful: Researchers should draft actual legislative or
+governance documents, which are often shorter and more influential than academic papers,
+and easier for policymakers to act on.
+3. Make white papers concrete and directive: Even without drafting full legislation, researchers
+can increase their work’s utility by including specific recommendations, estimates, and
+implementation details.
+4. Legal and funding constraints are navigable: Despite 501(c)(3) limits on lobbying, researchers
+can still advocate specific policies if framed as nonpartisan analysis with a clear evidentiary
+basis.
+5. Catalog of eleven underdeveloped ideas: The post outlines eleven “orphaned” policies—
+ranging from compute monitoring and AI insurance to visa reform and LAWS regulation—each
+with specific missing components that a researcher could fill in.
+6. Call to action and teaser for next post: The author urges researchers to “adopt” a policy and
+help develop it for real-world use, and suggests broader institutional reforms (to be discussed
+in the final post) are needed to shift funding from research to advocacy.
+This comment was auto-generated by the EA Forum Team. Feel free to point out issues with this
+summary by replying to the comment, and contact us if you have feedback.
+More from Jason Green-Lowe
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+15/17
+
+View more
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+148
+· 8d ago · 9m read
+16
+Sophie Kim
+19
+· 3d ago · 26m read
+7
+Uladzislau Linnik, Enisa Ismaili
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+The Anthropic IPO Is Coming. We Aren't Ready for It.
+AI safety is maturing. Is its generalist talent pipeline keeping up?
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+16/17
+
+View more
+10
+· 15d ago · 1m read
+0
+Kamil Alaa
+AIxBio Hackathon - April 24-26, $4,000 in prizes (online + SF + Berlin)
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Orphaned Policies (Post 5 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/MgJchZpSmGozmDzs8
+17/17

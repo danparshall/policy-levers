@@ -1,0 +1,1533 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+Opportunities to take action
+Policy
+AI governance
+Announcements and updates
+Funding request (open)
+Opinion
+Organization updates
+US policy
+Frontpage
+Show all topics
+I am Jason Green-Lowe, the executive director of the Center for AI Policy (CAIP). Our
+mission is to directly convince Congress to pass strong AI safety legislation. As I explain in
+some detail in this post, I think our organization has been doing extremely important
+work, and that we’ve been doing well at it. Unfortunately, we have been unable to get
+funding from traditional donors to continue our operations. If we don’t get more funding
+in the next 30 days, we will have to shut down, which will damage our relationships with
+Congress and make it harder for future advocates to get traction on AI governance. In this
+post, I explain what we’ve been doing, why I think it’s valuable, and how your donations
+could help. 
+This is the first post in what I expect will be a 6-part series. The first post focuses on
+CAIP’s particular need for funding. The next few posts will lay out a more general case for
+why effective altruists and others who worry about AI safety should spend more money on
+advocacy and less money on research – even if you don’t think my organization in
+particular deserves any more funding, you might be convinced that it’s a priority to make
+sure other advocates get more funding. The final post will take a look at some institutional
+problems that might be part of why our movement has been systematically underfunding
+advocacy and offer suggestions about how to correct those problems.
+OUR MISSION AND STRATEGY
+The Center for AI Policy’s mission is to directly and openly urge the US Congress to pass
+strong AI safety legislation. By “strong AI safety legislation,” we mean laws that will
+significantly change AI developers’ incentives and make them less likely to develop or
+Please Donate to CAIP (Post 1 of 7 on AI
+Governance)
+by Jason Green-Lowe
+May 7 2025
+141
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+Reject
+Accept all
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+1/35
+
+deploy extremely dangerous AI models. The particular dangers we are most worried about
+are (a) bioweapons, (b) intelligence explosions, and (c) gradual disempowerment. Most AI
+models do not significantly increase these risks, and so we advocate for narrowly-targeted
+laws that would focus their attention on only the most advanced general-purpose AI
+systems and chips.
+We focus on Congress because Congress is the only institution that's both powerful
+enough to reliably override the desires of multi-billion dollar corporations, and whose
+decisions are durable enough that a victory today will still be relevant during the critical
+time period. A President's executive order can easily be canceled as soon as the next
+President takes office; this is what happened to President Biden's 10/30/23 Executive Order
+on AI. Likewise, a court case or a state legislature can be overruled, but Congress very
+rarely repeals its own laws. For a more detailed defense of our choice to focus on Congress,
+please see Questions 3, 4, and 5 in "Responses to Common Policy Objections."
+Our Model Legislation
+The primary legislative tool that we recommend for coping with the catastrophic risks
+posed by advanced AI is mandatory private audits backed up by a small new government
+office that has special powers to proactively recruit the tech talent needed to assess
+whether these audits are accurate and complete, and to block the deployment of a new AI
+system whenever they are not satisfied by an audit. Other policy tools that we recommend
+in our model legislation include civil liability reform, hardware monitoring, a suite of
+carefully limited emergency powers, and an ‘analysis’ office that investigates and tracks
+trends in AI hardware and software and uses what they learn to advise the rest of the
+government on AI-related decisions. 
+We think that if our model legislation was passed, then many of the flaws in AI models
+that would otherwise be most likely to cause accidental catastrophic harm in the next few
+years would instead be detected and corrected. These policy tools can't guarantee safety or
+permanently prevent developers from deploying superintelligence, but they're likely to
+pick up a lot of the low-hanging fruit around reducing the harms from near-term,
+accidental, and/or half-baked deployments. For a detailed defense of why these policies are
+worth pursuing, please see the sections on "Our Proposed Policies" and "Responses to
+Common Policy Objections," below.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+2/35
+
+Direct Meetings with Congressional Staffers
+In order to carry out our mission, we pursue a variety of complementary strategies for
+securing the attention of relevant Congressional staffers and persuading them to take
+action. The most obvious and direct of these strategies is simply meeting, in-person, with
+staffers who work in key offices or who serve on key committees. We have 30-minute
+meetings about once a quarter with most of the people who are responsible for AI policy in
+the House and the Senate; this gives us a chance to make sure they understand our
+concerns about the catastrophic risks from AI, that they know who else is working on this
+problem, and that we can introduce them to other people worth knowing, such as technical
+experts on AI safety, companies that support AI safety, and constituents from their home
+districts who support AI safety. It has been humbling and startling to see how many
+staffers had simply never heard that AI could pose catastrophic risks to public safety, or
+who had never heard the arguments in favor of this position explained calmly and simply
+enough for them to want to consider them. 
+Expert Panel Briefings
+In addition to direct meetings, we also host expert panels on topics that are at the
+intersection of AI and of topics that are already of interest to Congressional staffers, e.g., AI
+and music, or AI and education, or AI and national security. We bring in speakers with
+prestigious credentials and a range of views on the topic at hand, which often leads to
+lively debate, and which inevitably showcases the growing importance of AI and the gaps
+in existing AI governance that require a policy solution. The primary purpose of these
+briefings is to put us in touch with new staffers who would otherwise not know about our
+organization, but we also find that these panels are a useful tool for educating staffers
+about the risks posed by AI. Even when these risks are not the primary subject of the
+discussion, paying close attention to any aspect of AI typically reveals some of its more
+threatening risks. 
+AI Policy Happy Hours
+Another way we connect with new staffers who we would not otherwise meet is by hosting
+happy hours for AI staffers, AI researchers, and other AI policymakers, where all of these
+people can mingle in a relaxed environment. Again, in addition to helping us connect with
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+3/35
+
+new stakeholders, we find that this also gives us an opportunity to educate staffers about
+why unregulated AI is so concerning. 
+Op-Eds & Policy Papers
+For similar reasons, we often publish op-eds, letters to the editor, research papers, and
+policy papers about AI governance – we find that these papers attract positive attention
+from our target audience of Congressional staffers and encourage them to take our
+concerns more seriously. Some staffers will directly change their minds as a result of
+reading articles or quotes that we publish, but more importantly, if staffers have read about
+us in the news, then they are more likely to see our policy proposals as credible and
+important and therefore to accept a meeting request with us and come to that meeting
+with an open mind.
+Grassroots & Grasstops Organizing
+Finally, we have some grassroots and 'grasstops' organizing projects. At the grassroots
+level, we are gathering volunteers from student AI safety groups across the country or
+from particular industries or trade associations to come to DC and share their concerns
+directly with their elected representatives. Our experience is that hearing from their own
+constituents motivates Congressional offices to pay attention to our message while also
+building up a base of nationwide political support that can be tapped for future initiatives.
+A single university AI safety group can come off as idealistic and perhaps naive; a coalition
+of 20 AI safety groups all working together have a more credible claim to represent
+"America's future" and are harder to dismiss.
+We also get a wide variety of benefits from our grasstops organizing, which mostly
+involves building relationships with important stakeholders in industry, the open source
+movement, academia, AI ethics advocates, IP rightsholders like the RIAA, and so on.
+Sometimes we find common ground with some of these groups and sign each others' open
+letters, speak at each other's events, and so on. Even when we don't agree, the fact that
+we're part of an ongoing conversation with other advocates both improves our policies (by
+giving them a chance to point out Pareto-superior trade-offs) and sends a costly signal
+that we've carefully considered our ideas and that we know what other political actors
+think about our ideas. Most Congressional offices only want to support a bill if they think
+it has a good chance of passing, which in turn can depend on who supports or opposes it,
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+4/35
+
+so one of the most common questions we get in our meetings is "What does group X think
+about your policy?" Being able to give concrete and accurate answers to these questions
+demonstrates that we're a reasonably savvy partner who is worth doing business with.
+What's Unique About CAIP?
+To the best of our knowledge, CAIP is the only organization that combines:
+A 501(c)(4) tax status, which lets us directly advocate for particular laws and
+candidates;
+A focus on Congress as the institution whose minds need to be changed;
+A public push for mandatory safety policies that would apply to all American AI
+developers; and
+A grassroots network that gives us a credible claim to be representing the public.
+We see these features as synergistic -- if you can't tell Congress exactly what you'd like
+them to do, there's a good chance they won't know what you want of them. If you're not
+talking to Congress, then, as discussed in Question 3 in "Responses to Common Policy
+Objections," there's a good chance that your advocacy will be overridden. And if you can't
+tell Congress who you're supposed to be representing, then there's a good chance that
+they'll ignore you. Congress isn't set up to make decisions purely based on an analysis of
+which policies would be optimal; they want to pass laws that will be both good public
+policy and politically popular. I'll discuss this point in more detail in the second blog post
+in this series.
+OUR ACCOMPLISHMENTS
+Quantifiable Outputs
+For a relatively new organization, CAIP has already had some impressive
+accomplishments. In terms of outputs, we’ve had 406 Congressional meetings, hosted 20
+events, and been featured in 46 pieces of earned media (i.e., in mainstream publications
+like Politico, Time Magazine, and FOX News where they quote us because they see us as
+relevant to their story). We’ve also published 122 blog posts, 70 weekly newsletters sent to
+over 2,000 followers, 16 podcast episodes, 14 research papers, and 13 administrative filings.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+5/35
+
+For context, we are under two years old. We have never had more than ten full-time
+employees, and we had five or fewer full-time employees for most of our first year.
+Changing the Media Narrative
+Our impact on the media has been more important than the numbers alone would suggest,
+because we’ve been able to shift the public narrative about AI safety from suspicion and
+doubt to earnest support. Instead of being depicted as a naive or corrupt pet
+project sponsored by billionaires with vested interests, we are now being cast as the heroes
+who are looking out for the public interest. The content of media pieces about AI safety
+advocacy has shifted from an unhealthy interest in our movement's funding sources to a
+more direct and productive discussion of our policy proposals. 
+This is the result of an intentional effort on our part -- we've been steadily building
+relationships with key journalists so that they know, respect, and trust us, and so that they
+see us as people who are trying to help, rather than just shadowy figures lurking in the
+background. We also provide facts, introductions, and context for journalists even when
+we're not being directly quoted in an article. Good media coverage isn't (just) a matter of
+luck; it can be earned over time.
+Proof of Concept
+The most important document we’ve written is our model legislation, the Responsible AI
+Act (RAIA). By showing what a more comprehensive AI safety bill could look like, our
+model legislation serves as a valuable proof of concept, and gives policymakers a concrete
+reference point for discussing improvements and trade-offs. 
+Our accomplishment has still has not been matched by any other organization or even by
+Congress itself. We published the first edition of our model legislation in April 2024, and
+we updated that legislation in April 2025 to present a more Republican-friendly scheme
+that relies more heavily on private auditors and less heavily on bureaucracy and
+administrative law. By contrast, Senators Hawley and Blumenthal put out a one-page
+framework in September 2023, but they never published any legislation to flesh out that
+framework. Senators Romney, Reed, Moran, and King published a two-page framework in
+April 2024, which they ultimately developed into legislation in December 2024, but this
+legislation narrowly focuses on preventing misuse risks related to weapons of mass
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+6/35
+
+destruction – Senator Romney’s legislation does not make any provision for dealing with
+the risk that AI could be misaligned with human values or the risk that AI could destabilize
+the global balance of power. 
+Outcomes -- Congressional Engagement
+In terms of ‘outcomes’ (as opposed to ‘outputs’), we’ve had some excellent engagement
+with Congressional offices about their AI governance proposals. In three cases, we were
+able to suggest edits to an office’s proposed legislation that were accepted by the office and
+that would significantly improve the safety impact of that legislation. For example, our
+changes would increase the powers of a safety office, or make sure that safety officials
+remain financially independent, or ensure that new legislative powers are delegated to an
+appropriate government office that will be able to use those powers effectively. We cannot
+publicly reveal the exact offices that accepted these changes, because it would be a serious
+breach of DC norms, but all of the offices were relatively senior Congresspeople who
+exercise significant influence over Congress’s AI policy. The particular bills that we edited
+did not pass Congress, but this is because almost nothing passed out of the 118th Congress;
+it was a historically slow and unproductive session. 
+We also publicly endorsed about a dozen bills that would have a positive impact on AI
+safety; three of the offices sponsoring these bills included us in their official press releases,
+citing us by name and including our full quote in support of the bills. The House
+Committee on Science, Space, and Technology also linked to our
+endorsement for several of the bills that they recommended. We were literally the only
+organization listed as an endorser of the Nucleic Acid Screening Act, which is probably the
+second most important piece of AI bio-risk legislation to be introduced in 2024. I'll talk
+more about this in my second blog post, but I think it's pretty insane that nobody else
+stepped up to endorse the Nucleic Acid Screening Act. The bill is relatively uncontroversial;
+it would have provided $5 million in funding to develop know-your-customer protocols for
+biolabs who are selling synthetic DNA to the public. The problem this bill was trying to
+address is that terrorists could soon use AI to generate a protein sequence that could be
+used as a bioweapon, and then pay to have that sequence mailed to them at a throwaway
+address. When bills like this don't collect endorsements from public advocates, it sends a
+message to Congress that experts don't see this as an important risk and that they can
+save their political capital for other projects.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+7/35
+
+We also endorsed two Congressional candidates who pledged to promote AI safety if
+elected. One of those candidates, Rep. Tom Kean, Jr. (R-NJ) later went on to pose sharp
+questions in a letter to AI CEOs, asking them to follow up on their voluntary security
+commitments; this letter echoed some of the language that we used in our candidate
+survey. Finally, we have been actively involved with the FY2026 appropriations process and
+the FY2026 NDAA, which are essentially the only two bills that Congress must pass every
+year. Several Congressional offices specifically and proactively invited us to submit
+proposals for adding AI safety measures to defense funding or to general funding. We have
+submitted fifteen such proposals and are actively following up with those offices in an
+effort to get them included in the final legislation. 
+Taken together, we feel that these achievements show that Congress is taking our
+concerns seriously and is engaging with us as a useful legislative partner. While it is true
+that even the most unwelcome advocacy groups will often be able to get a meeting or two
+with a low-level legislative correspondent (because it is easier for Congress to humor such
+groups than to openly offend them by refusing to meet), our Congressional engagement
+goes far beyond being humored or tolerated. We routinely have multiple meetings with
+higher-level staff like legislative directors and committee counsels, and they routinely
+reach out to us to ask us for our opinions or advice. We think this is good evidence that
+these same people would also ask us for advice if they were considering strong AI safety
+legislation after a warning shot, and we are pleased to have developed these relatively firm
+political connections in a relatively short period of time.
+Finally, our grassroots organizing is beginning to bear fruit. Our first in-person grassroots
+event was our February ‘demo day’, which brought 14 university AI safety teams from
+around the country to Capitol Hill to present interactive demonstrations of AI risks to
+Congressional staffers, as well as to Congressman Bill Foster, who visited for half an hour
+and toured the exhibits. We have since expanded this college network to include a total of
+25 colleges, and we are working on recruiting similar volunteers from trade associations,
+such as the national associations of social workers, teachers, psychologists, and
+firefighters. The plan is to leverage these connections to bring hundreds of volunteers to
+DC for a national day of action in fall of 2025.
+Context
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+8/35
+
+An important piece of context to use when evaluating CAIP’s accomplishments is that we
+have only recently been able to assemble our complete team. When we launched in June
+2023, our 4-person team was composed entirely of volunteers, none of whom had any prior
+political experience at all. Shortly after we made our first few professional hires in winter
+2023, much of the original team of volunteers quit and moved on to other projects, leaving
+us short-staffed again. In order to hire additional team members, we first had to raise
+additional funding. I wound up wearing at least three different hats – I was originally
+hired as CAIP’s legislative director, and I remained responsible for writing and editing
+CAIP’s model legislation and reviewing outside legislative proposals to consider them for
+edits and endorsements. In addition to these duties, I also had to manage our team and
+recruit and hire new staff. Until October 2024, we had no director of development, so I was
+also writing all of our fundraising applications. We did not reach our full complement of
+ten team members until January 2025; on average, we’ve gotten our work done with about
+six full-time equivalent positions. For six people working over less than two years with
+significant interruptions and turnover, I think we’ve gotten a lot done.
+OUR PROPOSED POLICIES
+Mandatory Audits for Frontier AI
+The primary legislative tool that we recommend for coping with catastrophic risks from AI
+is a regime of mandatory private audits backed up by a small new government office that
+has special powers to proactively recruit the tech talent needed to assess whether these
+audits are accurate and complete, and to block the deployment of a new model whenever
+they are not satisfied by an audit. 
+Today, some (but not all) AI developers voluntarily hire third-party evaluators to comment
+on the catastrophic risks posed by their frontier AI systems. However, these evaluators
+have relatively little bargaining power, because the company has no legal obligation to
+conduct an audit at all. 
+As a result, many companies can and do limit evaluators’ degree of access to the final
+model – most evaluations are conducted on “preview” or prototype models that do not
+have the full set of capabilities of the model that will be commercially deployed, and even
+these limited evaluations are often rushed or incomplete. By making such evaluations a
+legal requirement, and by giving the government the power to block deployment of a
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+9/35
+
+model if an audit appears to be inadequate, we can improve the bargaining power of
+auditors and give them the power to honestly share all of their concerns about each new
+frontier AI model, with some degree of confidence that these concerns will force the
+developer to add additional safeguards or, if necessary to protect public safety, delay or
+cancel the deployment of their model.
+Liability Reform
+Our model legislation also includes a liability package, which would explicitly provide for
+joint and several liability when model developers, plug-in developers, and/or end users all
+contribute to causing a catastrophic harm. This would make sure that developers can't
+escape accountability for the foreseeable consequences of their actions by 'delegating'
+responsibility for their misconduct to under-capitalized business partners. 
+Our liability rules would also create a public right of action (allowing the federal
+government to sue on behalf of the public when AI models create major security risks) and
+a limited private right of action (allowing groups of people to sue for compensation if they
+have suffered at least $1 billion in tangible damages from an AI disaster.)
+We think liability is a good complement to regulation, because the government will never
+know everything worth knowing about the risks posed by a private company's AI or which
+strategies would most efficiently mitigate those risks. Giving the company a financial
+incentive to avoid causing catastrophes -- even if they have a permit to deploy their AI --
+will help motivate the company to put its private information to good use.
+Hardware Monitoring
+Our model legislation also includes minimum cybersecurity requirements and know-
+your-customer requirements for the largest data centers, as well as a very modest
+reporting requirement for wholesalers who sell at least 100 specialized AI chips in the
+same quarter.
+Much of the point of these requirements is to help the government build an internal model
+of who's accumulating AI chips, what they plan to do with them, and what (if any) sudden
+changes are showing up in the market. To that end, the reporting requirements are backed
+by special talent recruitment provisions that would make it easier for the government to
+quickly hire qualified technical personnel and pay them a salary that isn't woefully below
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+10/35
+
+market for their skill set -- we assume that building a useful picture of how America uses
+its AI chips will require both good data and competent analysts. 
+Understanding what's happening in the world of AI will help the government make better
+policy decisions across the board, and it also creates a greater ability for the government to
+press the 'off switch' or a 'pause button' if and when it decides that it is no longer tolerable
+for private companies to be developing superintelligence. We're not advocating for a pause
+on AI development, but we do think the government should have the capacity to
+implement a pause if and when it decides to do so. Right now, the government has no list
+of the country's data centers, and no way of quickly finding out who might be building new
+data centers. By the time the government realized it wanted to pause AI development and
+built a brand-new capacity to do so, it might be too late, so we have to start building that
+capacity now. For further consideration of this point, please see Question 1 in our section
+on "Responses to Common Policy Objections."
+Emergency Powers
+Finally, our model legislation includes authorization for the government to take immediate
+action if they notice that an AI system is in the process of causing catastrophic harm or
+escaping from human control. Of course, these powers will not be relevant for every type of
+disempowerment scenario -- some kinds of disempowerment are so gradual that there
+would be time to pass normal legislation to cope with them, and some superintelligence
+explosions are so rapid that no realistic government response could hope to affect their
+trajectory once they have begun. 
+However, for the intermediate scenarios where a rogue AI or a reckless AI developer needs
+a few days or a few weeks to complete their attempt to seize power, it is important to make
+sure that the government can respond within that time frame, and that the response will
+be proportional, appropriate, pre-planned, and lawful. Under the current state of affairs,
+where the government has no legal authority to intervene in an AI emergency, we risk both
+a response that is too weak (because people delay while trying to figure out what they're
+allowed to do or what they're supposed to do) and a response that is too strong (because
+the government overreacts and, e.g., nationalizes all advanced AI in response to a marginal
+threat). Saying in advance how the government is supposed to respond to an emerging AI
+crisis gives us a better chance of getting a well-calibrated response.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+11/35
+
+Further Details
+For further details on our model legislation, including the full text of our proposed bill,
+please see aipolicy.us/work/model.
+RESPONSES TO COMMON POLICY
+OBJECTIONS
+1. Why not push for a ban or pause on
+superintelligence research?
+We think the policies we’re promoting are already as intense as we can make them while
+still getting Congress to listen to the content of our arguments. Our experience has been
+that talking to Congressional staffers about a ban or pause on superintelligence research
+tends to result in blank stares and a rapid end to the meeting. By contrast, talking about
+mandatory security audits has yielded respectful interest, invitations to come back and
+meet with increasingly senior staff, invitations to edit and publicly endorse the office’s AI
+bills, and so on. A global moratorium on superintelligence research would probably be
+more effective than mandatory security audits at protecting against existential risk if it
+that moratorium could be enacted and enforced – but we don’t see anything that we can do
+to help make that happen. Rather than make essentially zero progress toward the best
+possible policy, we’d rather make some progress toward a marginally helpful policy.
+We’re confident that mandatory security audits would be marginally helpful if passed,
+because right now there is no federal law of any kind that requires AI developers to guard
+against existential risks. It is 100% legal to make an AI that might attempt to become
+superintelligent, take over the world’s economy, and use the world’s resources for
+inscrutable artificial goals that are bad for humanity. There is no requirement of any kind
+to run any kind of safety testing or evaluation or even to assert that an AI is safe before
+deploying it or publishing its source code. 
+Moreover, Congress is not very seriously discussing any such requirements. Congress
+spent much of the last two years writing two non-binding reports about AI. Although a few
+Members and many staff worked very hard to promote a full and sober assessment of AI's
+catastrophic risks, the final reports did not reflect their views. Instead, both reports are full
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+12/35
+
+of generic discussion about the advantages and disadvantages of AI; they do not contain or
+outline or even propose any draft legislation that would meaningfully address existential
+risks, other than to state, in the broadest possible terms, that terrorists and rogue states
+ought to be prevented from misusing AI to develop dangerous weapons. The words
+"existential" and "alignment" show up only in two footnotes that were cited to dismiss
+existential risks as being unsupported by rigorous evidence. 
+The Congressional task forces that created these reports are no longer meeting (at least not
+in public), and there are no immediate plans to revive them. When Congress does debate AI
+legislation, most of that legislation deals with either voluntary standards that companies
+would be free to ignore (as developed by, e.g., NIST and AISI), with export controls that do
+not apply to American AI developers, or with subsidies that make it easier for American AI
+developers to buy chips and build data centers. There are a few minor exceptions, which
+CAIP has actively supported and lobbied for, but in general, the idea that American AGI
+developers should be subject to any legally binding requirements of any kind is already at
+the very edge of the Overton window. 
+We are trying to move the Overton window toward safety by pushing legislation that is as
+effective as we can make it without completely losing the attention of our target audience.
+Because mandatory security audits are far more effective than anything that Congress is
+currently considering, we think it is useful to push Congress in the direction of taking
+mandatory security audits seriously. 
+We also think that our legislation, if passed, would help create the infrastructure and push
+the government to hire the talent that would be needed to implement a pause in the future,
+if and when the government decides to do so. While we do not currently advocate for a
+moratorium, we think the government ought to have the ability to halt certain kinds of AI
+development if and when (and as soon as) this turns out to be necessary.
+If the government decided tomorrow to begin enforcing a moratorium on advanced AI
+research, it would not know who owns advanced AI chips, who is leasing data centers, or
+how to determine which models count as advanced. Worse, it would not have nearly
+enough of the right people in-house to rapidly collect and accurately analyze data on these
+topics -- so before it could enforce a moratorium, it would first have to hire a brand new
+team of technical experts, then have those experts agree on standards, then start
+comparing those standards to real-world conditions, and only then -- at least several
+months later -- begin telling specific companies to cease certain kinds of operations. One
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+13/35
+
+of the advantages of our model legislation, from the point of view of those who favor a
+moratorium, is that our legislation would cut out most of that potentially fatal delay by
+immediately beginning the process of collecting data and hiring analysts.
+2. Why not support bills that have a better chance of
+passing this year, like funding for NIST or NAIRR?
+We do spend some of our time supporting more moderate legislation, such as bills that
+would increase funding for the National Institute of Standards and Technology (NIST) to
+develop voluntary standards on responsible AI, or bills that would have the government
+pay for a national compute bank (the National AI Research Resource, or NAIRR) that
+academics could use to conduct independent evaluations of various characteristics of AI
+models. We’ve publicly endorsed about a dozen such bills, and organized an open letter in
+support of them.
+These bills already have broad support from many relevant stakeholders, and are
+reasonably likely to pass as soon as Congress turns its attention to passing substantive
+legislation. For the last 2.5 years or so, Congress has been distracted by wars, internal
+leadership struggles, the national budget, and the Presidential election. This has meant
+that Congress has passed far fewer bills than is historically typical. We think that these
+distractions are the primary reason why Congress hasn’t done more to support NIST and
+NAIRR, and that there is little we can do to influence the timing of when these bills pass.
+We don’t have the power to radically refocus the topic of Congress’s attention, and once
+Congress returns its attention to the topic of AI policy, we think they will naturally want to
+pass these bills.
+Finally, other organizations that work on AI policy, like Americans for Responsible
+Innovation (ARI) and the Institute for AI Policy and Strategy (IAPS), have staked out these
+topics as more central to their brand, and as a result, they are better positioned to make
+progress on these moderate bills than we are. By contrast, CAIP is one of very few
+organizations that are able and willing to openly advocate for mandatory AI safety
+standards. As a 501(c)(4) organization that openly discloses its emphasis on preventing
+catastrophic risks, we can get right to the point and push for more radical proposals, like
+the ones in our model legislation. We want to make sure that we don't neglect this rare
+opportunity by diverting too many of our resources to supporting moderate bills.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+14/35
+
+3. If Congress is so slow to act, why should anyone be
+working with Congress at all? Why not focus on
+promoting state laws or voluntary standards?
+The reason why we focus on mandatory federal legal requirements is that we cannot
+identify any alternative counterweight that would significantly constrain the existing
+culture and financial incentives in Silicon Valley. Right now, companies face enormous
+internal and external pressure to release exciting new products as quickly as possible, both
+to bolster their financial projections, and to gain market share and public attention at the
+expense of their competitors. There is a powerful ‘race to the bottom’ effect that makes it
+very difficult for any one or two companies to significantly depart from this norm –
+nobody wants to be left behind. 
+It is extremely unlikely that a firm set of voluntary standards (as developed by, e.g., NIST or
+as embodied in Responsible Scaling Policies) will be agreed to by all major AI developers,
+and it only takes one holdout to develop and release recklessly unsafe AI. Even if all
+companies publicly say that they agree to a voluntary policy, it is likely that at least one of
+them will break their promise, perhaps by rationalizing that the situation has changed, or
+simply because they find the temptation to acquire extremely powerful or lucrative AI
+more important than the PR benefits of adhering to their public commitments. For
+example, OpenAI has already reneged on its promise to devote 20% of its compute to safety
+research, and so far they have not faced any financial consequences for this misbehavior –
+although many of their safety researchers quit, it does not seem to have affected their
+ability to recruit capabilities researchers or to raise additional funding. 
+State laws are likely to be somewhat more effective than voluntary commitments at
+constraining corporate behavior, but because AI companies enjoy significant federal
+support as, e.g., a key to promoting American national security and American economic
+advantage, there is a serious risk that the federal government would overrule state AI
+safety laws, either directly (via preemption) or indirectly (by putting political pressure on
+key actors, as California’s Congressional delegation did to Governor Newsom after the
+California legislature passed SB 1047). As a matter of realpolitik, state governments are also
+relatively underfunded compared to AI companies, so if the stakes are high enough, then
+state governments may be vulnerable to some combination of bribery, blackmail, and
+intimidation. For example, Meta alone spent $24 million on lobbying in 2024, compared to
+only $20 million for the entire Civil Division of California’s Department of Justice.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+15/35
+
+4. Why would you push the US to unilaterally disarm?
+Don’t we instead need a global treaty regulating AI (or
+subsidies for US developers) to avoid handing control
+of the future to China?
+We do support binding international agreements to limit the development of advanced
+and/or unsafe AI, but we believe negotiating these agreements will be easier if the US
+demonstrates that it is taking AI safety seriously. Our model legislation is intended as a
+complement to international diplomacy, not as an alternative to it.
+We also think that the net impact of our model legislation would be to widen the US
+technical lead over China, because it would impose minimum cybersecurity standards and
+know-your-customer requirements that would slow down the rate of tech transfer to
+China. Because so much Chinese progress on AI comes from reverse engineering and
+generally following America’s lead, we think that cracking down on the flow of technology
+to China can more than make up for whatever marginal slow down in US progress results
+from insisting on more careful audits of billion-dollar AI models.
+We don’t see the international ‘arms race’ in AI as a prisoner’s dilemma where either side
+can make private gains if it unilaterally defects. Instead, if either the US or China or both
+build misaligned superintelligence, then the entire world loses; the resulting AI will
+probably not pursue American or Chinese goals, but will instead pursue artificial goals that
+are terrible for all humans. As a result, there are no long-term private gains to be had from
+defecting on AI safety. There is some chance that China is enough of a rational actor to see
+this and to unilaterally avoid building misaligned superintelligence. If China is behaving
+responsibly, then it is in America’s selfish best interest to also behave responsibly. Call this
+proposition A. We think the moderate chance that A is true outweighs the very small
+chance that both B and C are true at the same time, where B is “recklessly pursuing
+superintelligence without adequate safeguards will nevertheless yield an aligned AI that
+adopts the values of its creators,” and C is “China is so close behind America in the AI race
+that waiting three extra weeks to fully test an AI model will be the margin of victory that
+allows China to pass the US.”
+5. Why haven’t you accomplished your mission yet? If
+your organization is effective, shouldn’t you have
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+16/35
+
+passed some of your legislation by now, or at least
+found some powerful Congressional sponsors for it?   
+The timeline for our mission is uncertain and is probably longer than most of the projects
+that are funded or supported by the effective altruist network. If you fund a research paper,
+you can reasonably expect the research to be completed within a few months; if you fund
+bednets, you can reasonably expect the first bednets to be distributed less than a year after
+you donate, and to get some kind of measurement of public health outcomes not too long
+after that. By contrast, Congress operates on its own schedule, which is slow, erratic, and
+not subject to our control. Congress might take no action on a topic for months or even
+years, no matter how skillfully advocates present their case for new legislation. For that
+reason, we do not think of our mission in terms of forcing or convincing Congress to pass
+our model legislation this year or next year or at any particular time. Rather, our goal is to
+get Congress to feel that our policy proposals are comfortable, serious, and well-
+understood, so that if and when Congress is motivated to take real action on the existential
+risks from frontier AI, they will believe that there is a solid plan available for doing so, and
+they will work with us to improve the quality of their legislation and the odds that the
+legislation will pass. Given the enormous benefits of even a small chance of preventing
+misaligned superintelligence, we think this is a worthwhile investment.
+Congress’s motivation for acting on AI safety might come from having our movement
+slowly build grassroots support for the cause. We would expect to see gradual progress in
+organizing and mobilizing mass support from both our own operations and from many
+other groups such as the AI Safety Awareness Foundation, Pause AI, Encode Justice, and so
+on. Building a grassroots movement takes a great deal of time, for three reasons. First, you
+need many thousands of volunteers to be truly effective at a national scale. Second, the
+movement spreads organically, as individual colleagues and neighbors convince each other
+to join the team. Any given volunteer for a political cause is not likely to be passionate
+enough to successfully recruit new volunteers until after they’ve had several months to
+learn more about the issue and adopt the issue as part of their identity. Third, getting new
+people involved often requires some type of large protest or expensive advertising
+campaign or other dramatic event, which requires significant advance planning.
+Bootstrapping up from a small group of volunteers (like the university AI safety networks)
+to a large group of volunteers that can influence national policy takes several iterations.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+17/35
+
+Alternatively, Congress’s motivation to act on AI safety might come from a ‘warning shot’
+or other national disaster that radically changes Congress’s sense of what type of AI policy
+is necessary and desirable. Either way, we believe it is very important to have a well-
+thought-out set of policy proposals already developed and a set of political connections
+and relationships in place before the critical window for legislative action. Arguably, in
+spring 2023, one such window of opportunity arose as Congress panicked over warnings
+from figures like Yoshua Bengio and Sam Altman, but the AI safety movement had neither
+a concrete policy to offer nor a political advocacy network to support such a policy, so the
+opportunity was wasted. Our mission is to make sure that the next such opportunity (if
+any) is not wasted.
+OUR TEAM
+Building a team to push for AI safety policies in Washington, DC is tricky because the
+people who are most likely to have a demonstrated track record of support for AI safety
+(philosophers and computer scientists) are among the least likely to have the skills needed
+to operate successfully on Capitol Hill (government relations, community organizing, law,
+and so on.) To solve this problem, we’ve recruited a mix of both types of people, with the
+idea of teaching the traditional AI safety people how to advocate effectively, and teaching
+the experienced DC advocates why AI safety is important and how to explain it. This has
+taken time – neither advocacy skills nor a deep understanding of existential risks can be
+acquired overnight – but overall we’ve made excellent progress at this kind of cross-
+training and we now have a relatively effective team that both understands why AI needs
+regulations and has the skills to advocate for those regulations.
+Executive Director
+I am the executive director of CAIP, and my professional background includes time spent
+as a product safety litigator, a regulatory compliance counselor, and a data scientist. After
+graduating from Harvard Law in 2010, I worked for small, plaintiff-side law firms where I
+advocated for people who had been unfairly injured, fired, evicted, or otherwise mistreated.
+This put me in touch with a wide variety of ordinary people and honed my ability to tell
+compelling stories on behalf of a cause. It also gave me a sense of how many loopholes
+there are on the way from “law” to “justice” – just because something is against the law
+doesn’t mean it will actually stop happening. I’ve tried to use the insights I gained through
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+18/35
+
+litigation to craft model legislation that eliminates as many of these loopholes as possible,
+making it easier for future litigators to enforce AI safety laws. As a compliance counselor, I
+helped homeless shelters cope with the often bewildering array of federal regulations that
+govern every aspect of their funding and operations. This gave me a visceral sense of why
+red tape is harmful and how to minimize it. I’ve tried to use these lessons to refine our
+model legislation so that it’s easy to comply with and will pose minimal burdens for
+inventors and entrepreneurs. 
+I have some data science experience designing models that predict housing prices, fines,
+and electoral results. I’m not going to win any awards for technical innovation, but I
+understand neural networks well enough to explain them to policymakers, because I’ve
+coded them myself. Although I don’t have formal leadership experience before taking over
+at CAIP, I informally led and trained teams of professionals at several of my previous jobs,
+where I was often the most senior lawyer or senior counselor on my team. I’ve read several
+books on management techniques and consulted frequently with an executive coach to
+improve my leadership skills; although it’s always difficult to tell whether employees are
+trying to flatter you, so far the feedback on my leadership from my team has been
+overwhelmingly positive. 
+In terms of my personal background, I've been a rationalist and an effective altruist for the
+last 15 years.
+Government Relations Team
+Our government relations team includes Brian Waldrip, Kate Forscey, and Mark Reddish,
+each of which has at least a decade of experience working on Capitol Hill. Brian is a former
+legislative director for Congressman John Mica (R-FL) and former professional staff to the
+US House Committee on Transportation & Infrastructure, where he helped regulate
+autonomous vehicles and investigate federal disaster responses. He later worked as Head
+of Congressional Affairs for a drone delivery company. Kate Forscey was a senior tech
+policy advisor for Congresswoman Anna Eshoo (D-CA) of Silicon Valley, and she also
+served as the Director of Legislative Affairs for the Wireless Infrastructure Association and
+as Policy Counsel for Public Knowledge, where she advocated for net neutrality and online
+privacy laws. Mark Reddish worked as Senior Counsel and Manager of Governmental
+Affairs for APCO International, a trade association for first responders and 911 systems. He
+also clerked for the Department of Homeland Security and interned for the FCC.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+19/35
+
+Policy Team
+Our policy team includes Claudia Wilson, Joe Kwon, and Tristan Williams. Claudia Wilson
+has an MPP from Yale and an economics degree from the University of Melbourne. She has
+worked for Boston Consulting Group and the OECD. Her financial experience is helping us
+accurately estimate the direct and indirect compliance costs of our proposed policies,
+showing that America can significantly improve its AI safety without giving up on
+innovation. Joe Kwon has a computer science degree from Yale and has four years of post-
+bachelors’ research experience with MIT and UC Berkeley, where he studied
+interpretability and social cognition. His technical expertise helps us determine
+appropriate thresholds for the scope of our model legislation. Tristan Williams worked for
+Conjecture and the Center for AI Safety before joining CAIP as a research fellow.
+Communications Team
+Our communications team includes Marc Ross, Jakub Kraus, and Ivan Torres. Marc Ross
+has over 30 years of communications experience, including roles advising the McCain
+campaign during his 2008 presidential run, the US-China Business Council, and
+Microsoft’s efforts to defend itself against antitrust charges in 2000. He served as a
+professor of American Politics at George Washington University. He left CAIP earlier this
+month to write a book on globalization, but the culture he built of fearless, friendly
+engagement with the press will continue. Jakub Kraus helped develop content for Blue Dot
+Impact’s course on AI Safety Fundamentals, did research for the Center for AI Safety, and
+has a degree in data science from the University of Michigan. In his capacity as our
+technical content lead, he founded and maintains our weekly newsletter, podcast, and
+many of our events. Ivan Torres has over a decade of experience as a community organizer,
+bringing volunteers together to advocate for a variety of causes and successfully building
+coalitions among dozens of previously unaffiliated organizations. He has a degree in
+political philosophy and history from Santa Clara University and is passionate about using
+the impact of AI to unify activists.
+Operations Team
+Our operations team includes Marta Sikorski Martin and Kristina Banks of CANOE
+Collective. Marta Sikorski Martin has an M.Phil from Oxford and over a decade of
+experience as a grants manager and a policy analyst. At the Center for European Policy
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+20/35
+
+Analysis, she grappled with the ongoing threat of nuclear war, which informs her work
+advocating for funding to protect against the existential risks from AI. Kristina Banks has
+a BA in business administration and a decade of experience handling increasingly
+responsible roles in finance and operations management; she handles our accounting, HR,
+and administrative needs.
+Personnel Changes
+As I write this, some of the people on our team are actively looking for other job
+opportunities, with my encouragement, because we have a very short runway. As I will
+discuss in detail in the third post in this series, we were caught by surprise by traditional
+AI safety funders’ refusal to offer us any funding at all in 2025. As a result, even if the
+community is generous enough to help us continue our operations, we will probably have
+to replace some of our staff. However, these bios are a fair sample of the flavor and level of
+expertise that we expect to maintain. 
+OUR PLAN IF FUNDED
+Assuming we can raise enough funding to continue our operations, some of our immediate
+next steps include following through on our NDAA and appropriations proposals, making
+sure that the 2025 version of our model legislation is received and understood by staffers
+on the relevant committees, pushing for re-introduction and approval of some of the
+useful bipartisan AI governance measures that were approved by the Senate Commerce
+Committee in 2024, and upgrading our website so that it more clearly showcases our core
+policy proposals. We also expect a whistleblower protection bill to be introduced in the
+next few weeks. The bill will cover employees at AI developers and will be well-positioned
+to gain bipartisan support; we plan to lobby other Congressional offices to keep the bill
+moving forward.
+Over the next 6 to 12 months, we plan to build on our initial grassroots organizing efforts
+to create an influential national network. We are helping local grassroots chapters build
+useful skills by organizing AI safety demos in their hometowns, and we will train them to
+advocate effectively on behalf of our model legislation when they come to DC this fall. We
+also believe we can attract significant additional media attention by mobilizing trade
+associations and industry groups from all different walks of life. Part of why the campaign
+for SB 1047 was at least partially successful is that it brought in Hollywood actors who were
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+21/35
+
+worried about being replaced by AI. We hope to mobilize members of many such
+professions as people increasingly feel that their livelihoods are under threat. It would take
+a lot of job loss to add up to total human disempowerment, but, in the meantime, the fact
+that AI seems to be at least somewhat reducing the demand for labor in many job
+categories serves as a demonstration that AI has the capabilities to do many of those jobs,
+which calls attention to the ways that AI can be powerful enough to be extremely
+dangerous. 
+In the long-term, our plan for driving AI safety legislation forward depends on either
+building an effective mass political movement, or on taking advantage of a highly
+dramatic news cycle, such as an AI-driven disaster or ‘warning shot’. Some kinds of
+disasters would be so terrible that they could themselves lead to a collapse of civilization,
+but other disasters might be small enough to allow normal government to continue, yet
+large enough to drive radical political change. Examples of such events in recent history
+include the 9/11 attacks on the World Trade Center (which led to the previously unthinkable
+PATRIOT Act), the 2008 financial crisis (which led to the previously implausible Dodd-
+Frank Act), and the 2020 COVID pandemic (which prompted record-setting levels of public
+welfare payments). We will do what we can to build our own political capacity and to ally
+with other advocates to increase our ability to proactively steer Congress’s agenda, but we
+acknowledge that this level of power is still many years away, if we can achieve it at all. It is
+relatively more likely that we maintain or slightly improve our current level of influence,
+and then use that influence to improve the quality and odds of passage of AI safety
+legislation after an appropriate crisis.
+OUR FUNDING SITUATION
+Our Expenses & Runway
+Unfortunately, our funding situation can only be described as “dire,” which threatens to
+undo nearly all of the benefits described earlier in this post. Our bare minimum budget for
+continuing operations with our current team is about $1.6 million per year, or $133k per
+month. The vast majority of this funding goes to salaries and health insurance for our 10-
+person team, with about 3% going to hosting events, 2% to office space, and 2% on other
+admin costs. 
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+22/35
+
+We currently have only about $150k in cash reserves, meaning that if we receive no
+additional funding, we can only operate through the end of May 2025 (this month) before
+laying off our entire team. The remaining money would go toward paying out accumulated
+PTO hours, handling unforeseen expenses, and paying our operations manager to arrange
+for an orderly shut down of our corporation.
+No Good Way to Cut Costs
+We have considered various plans for reducing our staff size, but none of them make sense
+in the context of our mission and our strategy. Right now we have two lobbyists covering
+all 535 members of Congress plus about 250 committees and subcommittees; cutting one
+of those two lobbyists would mean that there would be important Congressional offices
+who we don’t get to meet with on a regular basis. In order to do their jobs effectively, our
+lobbyists need support from a public policy expert, a technical policy expert, a grassroots
+organizer, a grasstops organizer, and a communications director, all of whom need to be
+coordinated by some type of executive and who need some type of operational support. We
+have tried doing without some of these roles in the past, and it has hurt us politically;
+Congressional offices have asked us pointed questions about what part of the public we
+represent, or who we have talked to about our legislation, and if we cannot answer these
+questions persuasively because we have no one assigned to complete those tasks, then we
+lose credibility. We could, if necessary, cut our part-time junior research fellow’s position,
+but this would not significantly affect our total budget. We could cut the director of
+development position, but this seems short-sighted; having a professional fundraiser on
+staff usually pays for itself and then some in the long run.
+Similarly, we don't see a sustainable plan for cutting salary expenses while still
+accomplishing our mission. Our current burn rate of $133k/month assumes no raises, no
+performance bonuses, no adjustments for inflation, and no additional hires beyond a
+replacement for our communications director, who recently resigned to write a book. Our
+salaries are already well below market rate for our highly experienced team in a relatively
+high-cost-of-living area (Washington DC) and reflect everyone’s willingness to take a pay
+cut in order to work on a mission that they believe in. We experimented in 2024 with
+offering even lower salaries, but the candidates we attracted at those lower rates tended to
+have serious and obvious problems.
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+23/35
+
+Because our non-salary expenses are less than 10% of our total costs, we don't think we
+can fix our budget by skimping on, e.g., office supplies or our occasional work travel.
+Our Revenue
+We have no guaranteed sources of incoming funding. There are five places where we might
+get significant funding before the end of the calendar year: FLI, SFF, the Siegel Foundation,
+a private donor who has pledged support for a 501(c)(3) partner organization that we are in
+the process of spinning up, and a Manifund application we just launched. There are
+difficulties with all five of these funding sources. FLI’s grant is extremely competitive, SFF
+has recently announced that they will be limiting their grants to 501(c)(4) organizations
+like ours, the Siegel Foundation is still in the early stages of preliminary talks with us and
+has not yet even agreed to accept an application from us, the private donor’s contribution
+is held up by indefinite delays at the IRS, and our Manifund application, which is seeking
+donations for a specific project on reducing chem-bio AI risk, is competing with dozens of
+projects and we're not sure if we'll be able to reach our goal in time. 
+Even if all five of these funding opportunities come through toward the high end of what
+we might reasonably hope for, they would still just barely cover our expenses for the year,
+and they would leave us with no runway going into 2026. In practice, we have to expect
+that one or more of these grants will either not come through or will offer us less than we
+are hoping for. There are also cash flow issues – the FLI grant will not be announced until
+June, the SFF grant will probably not be paid out until September or October, and any
+support from the Siegel Foundation would arrive, if at all, toward the end of 2025.
+Surprise Budget Deficit
+The main reason we have such a large budget deficit is that our reputation in the AI safety
+funding community seems to have quietly plummeted. In 2024, we had a positive
+reputation among AI safety donors and evaluators. This led to several donors writing six-
+figure checks after only a half-hour Zoom call. Our bottleneck appeared to be hiring, rather
+than funding – I was hiring people as quickly as I could identify people who would be a
+good fit for the role; it took about 80 hours of work to identify and recruit a new staff
+member, and only about 1 hour of work to raise the funds to pay that staff member for the
+year. 
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+24/35
+
+By contrast, in 2025, CAIP has a lukewarm or neutral reputation, which has led to us being
+ghosted or zeroed out by many of the parties who we reasonably expected would support
+us. We have unsuccessfully sought funding from Open Philanthropy, Longview
+Philanthropy, Macroscopic Ventures, Long-Term Future Fund, Manifund, MIRI, Scott
+Alexander, and JueYan Zhang. None of these parties had any specific critiques of our work
+that they were able to share with us – instead, they simply said that there were other
+funding opportunities that seemed more promising to them, or that politics no longer
+seems to them like an effective way of promoting AI safety, or that they had heard from
+third parties that CAIP was not a valuable funding opportunity. 
+In the second and third blog posts in this series, I will discuss why I believe this lukewarm
+assessment is mistaken and where the mistake is coming from. For now, I simply want to
+point out that our urgent request for your money is not based on a budgeting or planning
+failure. Rather, we chose a size for our team in 2024 that seemed modest and conservative
+based on the apparent amount of available funding at that time, and then in 2025, our
+funding suddenly dropped by over 50%, meaning that even our conservative level of
+spending is unsustainable.
+The Bottom Line
+What all of this boils down to is that we cannot continue our operations without support
+from people like you. None of us are independently wealthy, and we cannot afford to carry
+on our work for free, no matter how important it is. If we cannot get support from
+institutions, then we will need support from individual donors, or we will have to shut
+down. We urge you to donate – we can accept contributions of up to $10,000
+at https://www.centeraipolicy.org/donate, and if you are considering a larger donation,
+then you can reach me at jason@aipolicy.us and I will be very happy to discuss it with you.
+If you prefer to support a specific CAIP project, you can donate to our Manifund project on
+reducing chem-bio AI risk and help us reach our fundraising goal there.
+Next:
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+25/35
+
+Mentioned in
+122
+61
+53
+45
+The Need for Political Advertising
+(Post 2 of 7 on AI Governance)
+No comments
+61 karma
+Log in to save where you left off
+Comments 25
+Sorted by New & upvoted
+LeahC
+4
+2
+1
+46
+Unfortunately, there was an effective effort to tie AI safety advocacy organizations to their funders in a way
+that increased risk to any high-profile donors who supported federal policy work. I don't know if this
+impacted any of your funders' decisions, but the related media coverage could have been cause for concern
+(ie Politico). Small dollar donations might help balance this. 
+It seems very likely that the federal government will attempt to override any state AI regulation that gets
+passed in the next year. Jason put together a strong, experienced team that can navigate the quickly shifting
+terrain in Washington. Dissolving immediately due to lack of funding would be an unfortunate outcome at a
+critical time.
+Context: I work in government relations on related issues and met Jason at an EAG in 2024. I have not
+worked with CAIP or pushed for their model legislation, but I respect the team.
+MichaelDickens
+4
+4
+17
+There is a related concern where most of the big funders either have investments in AI companies, or have
+close ties to people with investments in AI companies. This biases them toward funding activities that
+won't slow down AI development. So the more effective an org is at putting the brakes on AGI, the harder a
+time it will have getting funded.*
+Props to Jaan Tallinn, who is an early investor in Anthropic yet has funded orgs that want to slow down AI
+(including CAIP).
+*I'm not confident that this is a factor in why CAIP has struggled to get funding, but I wouldn't be surprised
+if it was.
+The Center for AI Policy Has Shut Down
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance)
+‘GiveWell for AI Safety’: Lessons learned in a week
+1y
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+26/35
+
+Esben Kran
+2
+0
+13
+To me, it's an interesting decision to pull funding because of this type of coverage. There's a tendency in
+AIS lobbying to never say what we actually mean to "get in the right rooms" but then when we want to say
+the thing that matters at a pivotal time, nobody will listen because we got there by being quiet.
+Buckling under the pressure of the biggest lobby to ever exist (tech) putting out one or two hit pieces is
+really unfortunate. Same arguments can be made for why UK AISI and the AI Safety Summits didn't
+become even bigger; simply that there was no will to continue the lobbying move and everyone was too
+afraid of reputation.
+Happy to hear alternative perspectives, of course.
+Neel Nanda
+9
+1
+37
+I'm sorry to hear that CAIP is in the situation, and this is not at all my area of expertise/I don't know much
+about CAIP specifically, so I do not feel qualified to judge this myself.
+That said, I will note on the meta level that there is major adverse selection when funding an org in a bad
+situation that all other major funders have passed on funding, and I would be personally quite hesitant to
+fund CAIP here without thinking hard about it or getting more info.
+Funders typically have more context and private info than me, and with prominent orgs like this there's
+typically a reason, but funders are strongly disincentived from making the criticism public. In this case, one
+of the stated reasons CAIP quotes is "had heard from third parties that CAIP was not a valuable funding
+opportunity" can be a very good reason if the third party is trustworthy and well informed, and often critics
+would prefer to be anonymous. I would love to hear more about the exact context here, and why CAIP
+believes they are making a mistake that readers should ignore, to assuage fears of adverse selection
+I generally only recommend donating this when you are:
+Confident the opportunity is low downside (which seems false in the context of political advocacy)
+If you have a decent idea of why those funders declined that you disagree with
+Or you think sufficiently little of all mentioned funders (Open Philanthropy, Longview Philanthropy,
+Macroscopic Ventures, Long-Term Future Fund, Manifund, MIRI, Scott Alexander, and JueYan Zhang)
+that you don't update much
+You feel you have enough context to make an informed judgement yourself, and grant makers are not
+meaningfully more well informed than you
+I'm skeptical that the reason is really just that it's politically difficult for most funders to fund political
+advocacy. It's harder, but there's a fair amount of risk tolerant private donors, at least. If it were, I expect
+they would be back channelling to other less constrained funders that CAIP is a good opportunity, or
+possibly making public that they did not have an important reason to decline/think the org does good work
+(as Eli Rose did for Lightcone). I would love for any to reply to my comment saying this is all paranoia! There
+are other advocacy orgs that are not in as dire a situation.
+11mo
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+27/35
+
+PabloAMC 🔸
+0
+0
+10
+I think this makes sense, but it seems kind of disconnected from the presentation, which seemed to
+indicate CAIP proposes reasonable policy and has a strong team. Perhaps Jason can clarify why he thinks
+major donors have passed on this opportunity.
+Jason Green-Lowe
+1
+1
+2
+25
+I wish I could! Unfortunately, despite having several conversations and emails with the various AI safety
+donors, I'm still confused about why they are declining to fund CAIP. The message I've been getting is
+that other funding opportunities seem more valuable to them, but I don't know exactly what criteria or
+measurement system they're using.
+At least one major donor said that they were trying to measure counterfactual impact -- something like,
+try to figure out how much good the laws you're championing would accomplish if they passed, and then
+ask how close they got to passing. However, I don't understand why this analysis disfavors CAIP.
+Compared to most other organizations in the space, the laws we're working on are less likely to pass, but
+would do much more good if they did pass.
+Another possible factor is that my co-founder, Thomas Larsen, left CAIP in the spring of 2024, less than a
+year after starting the organization. As I understand it, Thomas left because he learned that political
+change is harder than he had initially thought, and because he felt frustrated that CAIP was not powerful
+enough to accomplish its mission within the short time that he expects we have left before
+superintelligence is deployed, and because he did not see a good fit between the skills he wanted to use
+(research, longform writing, forecasting) and CAIP's day-to-day needs.
+Thomas's early departure is obviously an important piece of information that weighs against donating to
+CAIP, but given the context, I don't think it's reasonable for institutional donors to treat it as decisive. I
+actually agree with Thomas's point that CAIP's mission is very ambitious relative to our resources and
+that we most likely will not succeed. However, I think it's worth trying anyway, because the stakes are so
+high that even a small chance of success is very valuable.
+James Herbert
+3
+1
+21
+If I were to bet on what's happened here, I'd bet it's something to do with Thomas leaving. 
+Looking at his LinkedIn and his Forum history, he seems very well connected in the field of AI safety.
+I suspect it was easy to get funding because people knew and trusted him.  
+Otto
+3
+1
+9
+If you're right, I think that would point to xrisk space funders trusting individuals way too much and
+institutions way too little. Thomas is a great guy but one guy losing belief in his work (which happens
+all the time mostly for private reasons, and mostly independent of the actual meaning of the work)
+1y
+1y
+1y
+10mo
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+28/35
+
+should never be a reason to defund an otherwise functioning org, doing seemingly crucial work.
+If the alternative theory is correct and the hit pieces are to blame, that still seems like an incorrect
+decision. When you're lobbying for something important you can expect some pushback, that
+shouldn't be a reason to pull out immediately.
+James Herbert
+0
+0
+3
+I agree! 
+Jason Green-Lowe
+1
+0
+2
+Very well said! I think your first paragraph sums up the most important parts of the story of why CAIP
+was defunded -- Thomas lost interest, mostly for private reasons, and the x-risk funders relied far too
+heavily on this data point. In part this is because the x-risk funders appear to lack any kind of formal
+grantmaking criteria, as I write about in post 7° of this sequence.
+Neel Nanda
+2
+1
+8
+I do not feel qualified to judge the effectiveness of an advocacy org from the outside - there's a lot of
+critical information like whether they're offending people, if they're having an impact, whether they're
+sucking up oxygen from other orgs in the space, if their policy proposals are realistic, if they're making
+good strategic decisions, etc, that I don't really have the information to evaluate. So it's hard to engage
+deeply with an org's case for itself, and I default to this kind of high level prior. Like, the funders can also
+see this strong case and still aren't funding it, so I think my argument stands
+Jason Green-Lowe
+1
+1
+3
+19
+I think these are great criteria, Neel. If one or more of the funders had come to me and said, "Hey, here
+are some people who you've offended, or here are some people who say you're sucking up their
+oxygen, or here's why your policy proposals are unrealistic," then I probably would have just accepted
+their judgment and trusted that the money is better spent elsewhere. Part of why I'm on the forum
+discussing these issues is that so far, nobody has offered me any details like that; essentially all I have is
+their bottom-line assessment that CAIP is less valuable than other funding opportunities.
+PabloAMC 🔸
+3
+2
+4
+I think we agree. Thinking out loud: Perhaps the community should consider a way to have a more
+transparent way of making these decisions. If we collectively decide to follow large funders, but are
+unable to understand their motives, it is impossible to have fund diversification.
+10mo
+10mo
+1y
+1y
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+29/35
+
+gergo
+6
+1
+2
+28
+Disclaimer: I have a friend working at CAIP.
+It's incredibly sad to hear CAIP might needs to shut down. They are one of the very few adults in the room in
+Washington. If their team doesn't meet the bar of funders, I don't know who else should. 
+(Of course, it's more complicated than that, see LeahC's comment°).
+Marcus Abramovitch 🔸
+3
+1
+13
+I really wish donors would write up their reasons for/against funding things like Manifund does. It really
+doesn't take long, so I don't buy the usual "time constraints" argument, but I think the people at CAIP would
+waste a lot LESS time if they were told "we don't think your work is good/meets the funding bar. These other
+orgs are better at it for the cost and would rather scale them up than fund your organization." It'd waste a lot
+LESS grantee time. They can just add a disclaimer that this isn't any way an abdication of their character or
+something.
+That said, I looked at CAIP, and while you say here what you've accomplished, it seems hard to verify that. I
+searched the EA forum and the internet, and only 2 people you list in your staff have posted on the forum
+here, and one more has an account. I didn't do the same for LW or AF, but I expect similar there, maybe a bit
+more. It's going to be very hard to get 7 figures per year for your non-profit if you aren't very public about
+what you are doing. I know that takes time, but if you aren't advertising the work you do, people won't know
+about it.
+Here, in this post, you sort of just make a new account and say, "If we don't get $1.6M soon, we are shutting
+down". That's... a lot of money. It's hard to overstate how hard it is to make and then donate that amount of
+money per year. But more importantly, it'd be very weird if this worked. There needs to be a lot more
+constant communication and updates from organizations if they want to continue to receive funding. It begs
+the question, what does the "Communications Team" do? I know they are probably primarily responsible for
+communicating with congresspeople, but at least some of that needs to be communicating with the EA/AIS
+community.
+Jason Green-Lowe
+1
+0
+1
+9
+Marcus, I agree with your first paragraph -- part of my frustration is that it's not obvious to me that any AI
+governance donors have more than a vibes-based metric for what it means for "other orgs to be better at it
+for the cost." Donors did eventually tell us that they thought other orgs were more cost-effective, but they
+couldn't or wouldn't say which effects they thought were cheaper elsewhere or how they were measuring
+that.
+In hindsight, you may be right that we should have posted earlier on Less Wrong and EA Forums. I will say
+that we did not see raising significant amounts of money directly from the public (rather than from large
+donors and institutional donors) as a promising strategy, and that we turned to it only as a last resort when
+institutional funding unexpectedly ran dry.
+1y *
+11mo
+11mo
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+30/35
+
+However, I object to your implication that until recently we haven't been communicating or sending
+updates about our work. You may recall that in October 2023, you and I met in person at EA Global
+Boston, where I pitched you about our work. At your request, I sent you a 15-page document in March
+2024 in which I quantitatively estimated the microdooms averted by CAIP's work. You seemed to agree
+that our work was promising, but at EA Global Boston October 2024, you told me that you were donating
+only to animal welfare charities. You did not share any criticisms of our work at that time other than that it
+was not in your preferred cause area.
+Our communications team sends out a weekly newsletter to 1,400 subscribers, which is also publicly
+posted on LinkedIn and X. We also sent out various documents to past and prospective donors, including a
+detailed annual report that included a dozen examples of us being cited favorably in mainstream media,
+along with links. We have hosted regular in-person events that are open to the public, where anyone can
+come and see for themselves which Congressional staffers are coming and speaking with us. If any of the
+donors had at any time expressed any concerns about our accomplishments being "hard to verify," we
+would have gladly taken them along to one of our meetings or events or sent them whatever additional
+information they might have wanted. However, I have never before heard any such complaints.
+Marcus Abramovitch 🔸
+1
+0
+7
+Yes, I do recall meeting at EAG two years ago and yes, I wasn't giving any money to AI safety back then. I
+don't have any criticism because I don't know better about what policies to support and didn't want to
+add noise.
+I don't want to be too critical of CAIP here and my original comment might have come off as too harsh.
+I'm not a big fan of the current funding ecosystem being so private with info and reasoning being so
+secretive. It's caused us harm before and I expect will cause us harm again and I expect even greater it is
+causing passive harm where organizations don't improve.
+Throwaway81
+1
+1
+9
+This contains several inaccuracies and misleading statements that I won't fully enumerate, but at least 2: 
+1. The Nucleic Acid Synthesis Act does not at all "require biolabs that receive federal funding to confirm
+the real identity of customers who are buying their synthetic DNA." It empowers NIST to create
+standards and best practices for screening.
+2. It's not the case that "The particular bills that we edited did not pass Congress, but this is because
+almost nothing passed out of the 118th Congress." Lots of bills passed in the CR and other packages.
+But it was a historically dysfunctional and slow year
+Personal gripe: the model legislation is overly prescriptive in a way that does not future proof the statute
+enough to protect against the fast moving nature of AI and how governance may need to shift and adapt. 
+Jason Green-Lowe
+3
+0
+20
+11mo
+1y
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+31/35
+
+Your point about the Nucleic Acid Synthesis Act is well-taken; while writing this post, I confused the
+Nucleic Acid Synthesis Act with Section 4.4(b)(iii) of Biden's 2023 Executive Order, which did have that
+requirement. I'll correct the error.
+We care a lot about future-proofing our legislation. Section 6 of our model legislation takes the unusual
+step of allowing the AI safety office to modify all of the technical definitions in the statute via regulation,
+because we know that the paradigms that are current today might be outdated in 2 years and irrelevant in
+5. Our bill would also create a Deputy Administrator for Standards whose section's main task would be to
+keep abreast of "the fast moving nature of AI" and to update the regulatory regime accordingly. If you have
+specific suggestions for how to make the bill even more future-proof without losing its current efficacy,
+we'd love to hear them.
+Throwaway81
+0
+0
+1
+Sure, I'm not going to be able to respond any more to this thread but the methods of governance
+prescribed themselves are not future proof, as AI governance may need may change as the tech or
+landscape changes, and the definitions are not future proof. 
+Holly Elmore ⏸️ 🔸
+3
+0
+8
+Then there should be future legislation? Why is it on CAIP and this legislation to foresee the entire
+future? That’s a prohibitively high bar for regulation.
+Throwaway81
+1
+3
+4
+Most legislation is written broadly enough so that it won't have to be repealed because it's rare that
+legislation is repealed. For example, take their current definition of frontier AI model, which is extremely
+prescriptive and uses 10^26 in some cases. Usually to be future proof these definitions will be written
+broadly enough such that the executive can update the technical specifics as the technology
+advances. Those types of regulations are the sorts of things that would include such details, but not
+the legislation. I can imagine a future where models are all over 10^26 and meet the other requirements
+of the model act's definition of frontier AI model. The reason to even govern the frontier in the first
+place is because you don't know what's coming -- it's not like we know that dangerous capabilities
+emerge at 10^26 so there's no reason to use this threshold as putting models under regulatory scrutiny
+forever. Also (eventually) we might achieve some algorithmic efficiency breakthroughs in which the
+most capable (and therefore dangerous) models don't need as much compute anymore and so might
+not even qualify as frontier AI models under the Act anymore. So I see the risk of this bill first capturing
+a bunch of models that it doesn't mean to cover and then possibly not covering any models -- all
+because it's not written in a future proof way. The bill is written more like a regulation for for the
+executive level rather than the legislative level.
+Holly Elmore ⏸️ 🔸
+3
+0
+1
+12
+Feels like your true objection here is that frontier AI development just isn't that dangerous? Otherwise
+I don't know how you could be more concerned about the few piddling "inaccuracies and misleading
+1y
+1y
+1y
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+32/35
+
+statements that I won't fully enumerate" than nobody doing CAIP's work to get the beginnings of
+safeguards in place. 
+Jason Green-Lowe
+1
+0
+9
+Our model legislation does allow the executive to update the technical specifics as the technology
+advances. 
+The very first text in the section on rulemaking authority is "The Administrator shall have full power to
+promulgate rules to carry out this Act in accordance with section 553 of title 5, United States Code.
+This includes the power to update or modify any of the technical thresholds in Section 3(s) of this Act
+(including but not limited to the definitions of “high-compute AI developer,” “high-performance AI
+chip,” and “major AI hardware cluster”) to ensure that these definitions will continue to adequately
+protect against major security risks despite changes in the technical landscape such as
+improvements in algorithmic efficiency." This is on page 12 of our bill.
+I'm not sure how we could make this clearer, and I think it's unreasonable to attack the model
+legislation for not having this feature, because it very much does have this feature.
+SummaryBot
+0
+0
+7
+Executive summary: In this first of a three-part series, Jason Green-Lowe, Executive Director of the Center
+for AI Policy (CAIP), makes an urgent and detailed appeal for donations to prevent the organization from
+shutting down within 30 days, arguing that CAIP plays a uniquely valuable role in advocating for strong,
+targeted federal AI safety legislation through direct Congressional engagement, but has been unexpectedly
+defunded by major AI safety donors.
+Key points:
+1. CAIP focuses on passing enforceable AI safety legislation through Congress, aiming to reduce
+catastrophic risks like bioweapons, intelligence explosions, and loss of human control via targeted
+tools such as mandatory audits, liability reform, and hardware monitoring.
+2. The organization has achieved notable traction despite limited resources, including over 400
+Congressional meetings, media recognition, and influence on draft legislation and appropriations
+processes, establishing credibility and connections with senior policymakers.
+3. CAIP’s approach is differentiated by its 501(c)(4) status, direct legislative advocacy, grassroots
+network, and emphasis on enforceable safety requirements, which it argues are necessary
+complements to more moderate efforts and international diplomacy.
+4. The organization is in a funding crisis, with only $150k in reserves and no secured funding for the
+remainder of 2025, largely due to a sudden drop in support from traditional AI safety funders—despite
+no clear criticism or performance concerns being communicated.
+1y
+1y
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+33/35
+
+5. Green-Lowe argues that CAIP’s strategic, incremental approach is politically viable and pragmatically
+impactful, especially compared to proposals for AI moratoria or purely voluntary standards, which lack
+traction in Congress.
+6. He invites individual donors to step in, offering both general and project-specific funding options,
+while previewing upcoming posts that will explore broader issues in AI advocacy funding and
+movement strategy.
+This comment was auto-generated by the EA Forum Team. Feel free to point out issues with this summary by
+replying to the comment, and contact us if you have feedback.
+More from Jason Green-Lowe
+View more
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+53
+· 10mo ago · 45m read
+2
+Jason Green-Lowe
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to Evidence
+Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in Uganda and
+Malawi the programme was reaching approximately 70% fewer people with detectable chlorine than its…
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance)
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+34/35
+
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+View more
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------------
+------------ Subtitle: Try to keep an open mind as the world gets increasingl…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+2
+· 8h ago · 1m read
+0
+postreal
+80
+· 11d ago · 8m read
+4
+Garrison
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+Introducing the Labor Automation Forecasting Hub
+Help me launch Obsolete: a book aimed at building a new movement for …
+Pivotal Research Fellowship applications are open (deadline May 3)
+We and our partners use cookies, including to review how our site is used and
+to improve our site's performance. By clicking "Accept all" you agree to their
+use. Customise your cookie settings for more control, or review our cookie
+policy here.
+4/20/26, 10:12 PM
+Please Donate to CAIP (Post 1 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/9uZHnEkhXZjWzia7F
+35/35

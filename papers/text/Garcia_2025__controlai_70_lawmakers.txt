@@ -1,0 +1,872 @@
+What We Learned from Briefing 70+
+Lawmakers on the Threat from AI
+by leticiagarcia
+27th May 2025
+Linkpost for substack.com
+Between late 2024 and mid-May 2025, I briefed over 70 cross-party UK
+parliamentarians. Just over one-third were MPs, a similar share were members of the
+House of Lords, and just under one-third came from devolved legislatures — the
+Scottish Parliament, the Senedd, and the Northern Ireland Assembly. I also held eight
+additional meetings attended exclusively by parliamentary staffers. While I delivered
+some briefings alone, most were led by two members of our team.
+I did this as part of my work as a Policy Advisor with ControlAI, where we aim to build
+common knowledge of AI risks through clear, honest, and direct engagement with
+parliamentarians about both the challenges and potential solutions. To succeed at scale
+in managing AI risk, it is important to continue to build this common knowledge. For
+this reason, I have decided to share what I have learned over the past few months
+publicly, in the hope that it will help other individuals and organisations in taking action.
+In this post, we cover: (i) how parliamentarians typically receive our AI risk briefings; (ii)
+practical outreach tips; (iii) effective leverage points for discussing AI risks; (iv)
+recommendations for crafting a compelling pitch; (v) common challenges we've
+encountered; (vi) key considerations for successful meetings; and (vii) recommended
+books and media articles that we’ve found helpful.
+(i) Overall reception of our briefings
+AI Governance
+AI
+Frontpage
+2025 Top Fifty: 53%
+506
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+1/22
+
+Very few parliamentarians are up to date on AI and AI risk: Around 80–85% of
+parliamentarians were only somewhat familiar with AI, with their engagement largely
+limited to occasional use of large language models (LLMs) like ChatGPT for basic tasks
+(e.g., getting assistance with writing a speech). Their staff were slightly more familiar
+with AI, but few were well-versed in the broader conversation surrounding it.
+Capacity is the main limiting factor: MPs typically have 3–5 staffers, many of whom
+focus primarily on constituency work. Members of devolved legislatures usually have 2–
+4 staffers, while Peers often have even less support – some have no dedicated staff at all. 
+As a result, there is rarely anyone on these teams who can dedicate significant time to
+researching AI. Except for a few staffers with a personal interest in AI, most staffers we
+spoke to had little or no familiarity with it. While most of those we spoke to expressed a
+desire to learn more, they often cited lack of time and bandwidth as an impediment.
+Overall, the briefings were very well received: Parliamentarians valued the chance to
+ask basic questions about AI and often said they learned a great deal. Both they and their
+staff welcomed a setting where they could ask “silly questions”. Several, especially MPs
+and their staffers, noted they are often lobbied by tech firms focused on AI’s benefits and
+found it refreshing to hear from an organisation addressing the risks and how to manage
+them.
+Tangible signals confirm this: Parliamentarians and their staffers are typically polite
+and non-confrontational. They won’t say things like “I think this is stupid” or “this wasn’t
+a productive use of my time.” It is important to pay attention to tangible signals when
+assessing whether their feedback is genuinely positive. These signals include actions
+such as supporting our campaign, offering or agreeing to make introductions, or
+volunteering to sponsor events in Parliament. 
+The most important signal for us has been that, when presented with a clear ask, 1 in 3
+lawmakers we met chose to take a public stance by supporting our campaign. In doing
+so, they acknowledged the concern that AI poses an extinction risk to humanity and
+called for targeted regulation of the most advanced AI systems. At the outset, we were
+told that a statement with such strong wording would never gain support from
+lawmakers. Yet, once they were presented with the problem – along with the need for
+open discussion to address it, and warnings from the very people developing advanced
+AI – we succeeded in gaining their support in 1 out of every 3 cases.
+(ii) Outreach tips
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+2/22
+
+Cold outreach worked better than I expected: Initially, I focused on identifying
+parliamentarians with an interest in AI. Although this approach was helpful, it was slow
+and had limited reach. To this end, cold outreach proved worthwhile; it is low-cost, and
+more parliamentarians than I expected chose to engage. Many found the 45-minute
+briefing valuable given their limited capacity to access such information through staff or
+their own research.
+Relentlessly follow up: If you have contacted a parliamentarian once or twice without
+receiving a response, do not assume that they are uninterested. Parliamentarians receive
+an overwhelming volume of correspondence, so success often comes down to being at
+the top of their inbox at the right moment. 
+I have relentlessly followed up with people, and nobody has been angry with me – quite
+the contrary, some have thanked me for it. It is important to always be kind when
+following up and never reprimand someone for taking time to respond – they are
+extremely busy, and doing so would not help anyway. They will appreciate your
+understanding. 
+Ask for introductions: At the end of each meeting, I try to remember to ask whether
+there is another colleague who might be interested. If I have trouble reaching that
+person directly, I ask for an introduction.
+(iii) Key talking points
+Statements from relevant authorities
+Extinction risk
+In 2023, Nobel Prize winners, AI scientists, and CEOs of leading AI companies stated
+that “mitigating the risk of extinction from AI should be a global priority.”
+Communicating this concern effectively is key. Consider the difference between these
+two approaches:
+Approach 1: “AI poses an extinction risk.” 
+The immediate response is likely: “How so?” – placing the burden of proof on the
+advocate. As a policy advisor at a civil society organisation, I lack the authority or
+perceived credibility to make this case convincingly on my own. Moreover, raising
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+3/22
+
+scenarios like AI escaping containment or unaligned superintelligence can seem abrupt
+without first laying the groundwork (see my note on inferential distances below).
+Approach 2: “In 2023, Nobel Prize winners, AI scientists, and CEOs of leading AI
+companies stated that ‘mitigating the risk of extinction from AI should be a global
+priority, alongside other societal-scale risks such as pandemics and nuclear war.’”
+Now, present the list of signatories. Briefly explain who Geoffrey Hinton and Yoshua
+Bengio are, and highlight the CEOs of major AI companies – Sam Altman, Dario
+Amodei, and Demis Hassabis. Watch as the parliamentarian scans the page, taking in
+the weight of these names, sometimes remarking, “Oh, there’s even Bill Gates.” Suddenly,
+the claim is not just coming from a stranger – it’s backed by a broad coalition of experts.
+This also creates space for a personal connection. Some parliamentarians react with
+surprise – even discomfort – and I acknowledge that I felt the same when I saw the
+statement was signed by the very people building this technology. “The question I asked
+myself was: what is driving this concern?” From there, I can begin explaining the deeper
+issues with how advanced AI is being developed. At this point, they understand that
+what they are about to hear matters – not just to me, but to Nobel laureates, AI
+scientists, and the CEOs shaping the future of AI.
+Sometimes, parliamentarians will argue that tech CEOs are simply hyping up AI in order
+to attract more investment. This is a fair concern. When this issue arises, it is important
+to highlight two key points: Firstly, the warnings are not only coming from CEOs who
+have a financial interest in the success of AI. AI scientists, including Yoshua Bengio and
+Geoffrey Hinton, are also raising awareness; the latter quit Google to speak out about
+the risks of AI. Secondly, current and former employees within these companies have
+echoed these warnings. Some were willing to forfeit millions of dollars in equity to speak
+out publicly about the risks. In recent months, several staff members from AI safety
+teams, particularly at OpenAI, have resigned after losing trust in their organisations.
+Loss of control
+In raising the issue of loss of control, it is worth keeping in mind the many authoritative
+sources which acknowledge the issue. Risks of losing control are acknowledged in the
+2025 International report on AI, the Singapore consensus on AI safety priorities, and
+sometimes by government officials themselves! The UK Secretary of State for Science,
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+4/22
+
+Innovation and Technology, for example, publicly addressed this concern at the 2025
+Munich Security Conference:
+“We are now seeing the glimmers of AI agents that can act autonomously, of their own
+accord. The 2025 International AI Safety Report, led by Yoshua Bengio, warns us that -
+without the checks and balances of people directing them - we must consider the
+possibility that risks won’t just come from malicious actors misusing AI models, but
+from the models themselves. [...] Losing oversight and control of advanced AI systems,
+particularly Artificial General Intelligence (AGI), would be catastrophic. It must be
+avoided at all costs.”
+Public attention
+Parliamentarians must prioritise among numerous competing issues, and they are more
+likely to engage with a topic when they see it resonates with the public and their
+constituents. Two key resources can help make that case.
+Polls: At ControlAI, we partnered with YouGov to conduct in-depth public opinion
+research on AI and its regulation across the UK. Notably, 79% support creating a UK AI
+regulator, and 87% support requiring developers to prove their systems are safe before
+release. While some policymakers are more poll-sensitive than others, this poll has
+generally been well received. In addition to our own polling, we sometimes find
+ourselves referring to polling from the AI Policy Institute, which has run numerous
+representative polls on US citizens.
+Media coverage: Press attention also signals public interest, and there is an increasing
+amount of media coverage of AI risks. I usually bring a selection of recent articles to
+meetings, and more often than not, as soon as I take them out, the parliamentarian
+asks: “Can I keep them?” There are some examples of articles that I have shared at the
+end of this post.
+High-risk standards in other industries
+“Predictability and controllability are fundamental prerequisites for safety in all high-risk
+engineering fields.” [Miotti, A., Bilge, T., Kasten, D., & Newport, J. (2024). A Narrow Path
+(p. 11).]
+“In other high-risk sectors, demonstrating safety is a precondition for undertaking high-
+risk projects. Before building and deploying critical systems for public use, companies
+must meet verifiable safety standards. Why should AI be treated any differently?”
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+5/22
+
+This argument rests on the following structure:
+P1: AI is comparable to other high-risk sectors.
+P2: High-risk sectors are subject to strict safety standards.
+C: Therefore, AI should also be subject to strict safety standards.
+To challenge this reasoning, one must either dispute P2 (arguing that existing safety
+standards in other industries are excessive or unwarranted) or challenge P1/C (arguing
+that AI is not sufficiently analogous to those domains).
+This point is usually understood, but a supporting example can help. The risk, however,
+is that the conversation drifts into the example’s domain rather than AI. I do not mind
+discussing this when time allows – but with parliamentarians, time is limited, and you
+need to spend it wisely.
+To build a bridge, you must prove it can withstand several times the maximum
+expected load, including vehicles, pedestrians, and environmental stress. Engineers
+follow strict structural standards, and designs are reviewed by regulators and
+independent experts. No one accepts a bridge built on intuition or best guesses.
+To develop a new drug, companies must complete a multi-phase testing process to
+assess safety, efficacy, and side effects. Agencies like the MHRA or FDA require
+robust, peer-reviewed evidence before granting approval for public use.
+Similarly, aircraft manufacturers must meet rigorous aviation safety standards.
+Every component is stress-tested, and regulators like the UK Civil Aviation
+Authority or EASA must certify the plane before it carries passengers.
+Empirical evidence 
+Examples are helpful, particularly when discussing loss of control. Consider the
+following research paper: Meinke, A., Schoen, B., Scheurer, J., Balesni, M., Shah, R., &
+Hobbhahn, M. (2024). Frontier models are capable of in-context scheming.
+arXiv. https://arxiv.org/abs/2412.04984
+This video by Apollo Research explains the most interesting results in under two
+minutes. Of note, The Times published an article on this issue, which I often reference to
+illustrate its relevance. 
+Of course, other relevant research could also illustrate this point, and it is worth keeping
+an eye out for new studies to keep examples current and relevant.
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+6/22
+
+(iv) Crafting a good pitch
+Mind the gap
+“When I observe failures of explanation, I usually see the explainer taking one step back,
+when they need to take two or more steps back. [...] A clear argument has to lay out an
+inferential pathway, starting from what the audience already knows or accepts. If you
+don’t recurse far enough, you’re just talking to yourself.”
+— Eliezer Yudkowsky, Expecting Short Inferential Distances , LessWrong.
+Never assume your audience shares your background – or any prior knowledge at all.
+Always ask: would someone new to this topic understand the concepts being
+introduced?
+AI is full of buzzwords like “AGI”, “machine learning”, “frontier systems”, and
+“jailbreaking”. If these appear in your pitch, there is a good chance of confusion. Recurse
+as needed to introduce ideas clearly, and whenever possible, replace jargon with plain
+explanations of the underlying concept or phenomenon.
+Similarly, avoid introducing complex ideas, such as the notion that some AI systems are
+capable of scheming, without first laying the groundwork for how AI systems work and
+why such issues may arise. 
+Make it memorable 
+Parliamentarians care not only about understanding an issue, but also about being able
+to explain it – to constituents, colleagues, and the public. If they support a campaign and
+are asked why, they need to respond in their own words. They cannot just say, “It was a
+compelling pitch from nice people.”
+A pitch aimed at building common knowledge should not be dense with detail or
+technical complexity. That can be counterproductive – arguments may be persuasive in
+the moment but quickly forgotten. If a parliamentarian cannot easily recall or repeat the
+message, they will be reluctant to speak on it. 
+Ideally, a pitch should combine clear explanations with simple, memorable talking points
+they can use to explain why the issue matters and why they have chosen to engage.
+Some examples of memorable arguments:
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+7/22
+
+“AI is grown, not built.” [Leahy, C., Alfour, G., Scammell, C., & Others. (2024). The
+Compendium (pp. 16–18).] 
+Traditional software is coded line-by-line by engineers, who need to understand broadly
+how the program works. In contrast to traditional programming, AI capabilities are not
+explicitly programmed by developers, they are not “built into” the system.
+Instead, researchers use algorithms known as neural networks, which are inspired by the
+structure and function of the human brain. These networks are fed with large volumes of
+data, and learn from the patterns in the data. 
+Unlike all other code, which is written by and legible to developers, we don’t really
+understand how AI systems work. Inspecting a neural network offers little insight into
+how the system works. This is why modern AI systems have been referred to as “black
+boxes.”
+Consider that, in a recent podcast, Dario Amodei, CEO of the second-largest AI company
+Anthropic, said “Maybe we now like understand 3% of how they [AI systems] work.”
+[Podcast: Dario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges
+Bank Investment Management, link here]
+"It’s not only tools that are being developed, but also agents."
+Progress in AI capabilities is rapidly outpacing our understanding of how these systems
+work and how to ensure they behave as intended. Despite this, billions are being
+invested to make them not only more powerful but also increasingly autonomous. As
+Secretary of State for DSIT Peter Kyle warned at the Munich Security
+Conference, “novel risks will emerge from systems acting as autonomous agents to
+complete tasks with only limited human instruction.”
+Keep innovating and improving
+Exploit and explore: Build on the strongest parts of your current pitch, but continue
+testing new angles, arguments, or examples. A good rule of thumb is to keep 80% of the
+pitch consistent and use the remaining 20% to explore and innovate.
+Improve through iteration: Pay attention to what resonates – whether it is specific
+narratives, examples, or materials – and refine your pitch based on that feedback.
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+8/22
+
+Do not obsess over context: The broader landscape is always changing. While it is useful
+to have responses to timely issues, such as the UK's decision not to support the Paris AI
+Action Summit declaration, context-specific questions tend to be short-lived. It is
+generally not worth trying to incorporate these into your core arguments.
+Avoid the rot: Without regular practice, even a strong pitch can lose its edge. Without
+some maintenance, you risk becoming less sharp – omitting key points or falling back
+on weaker phrasing. Like athletes, we perform best with consistent training! 
+(v) Some challenges
+Not feeling the AGI
+“Even though we now have A.I. systems contributing to Nobel Prize-winning
+breakthroughs, and even though 400 million people a week are using ChatGPT, a lot of
+the A.I. that people encounter in their daily lives is a nuisance. I sympathize with people
+who see A.I. slop plastered all over their Facebook feeds, or have a clumsy interaction with
+a customer service chatbot and think: This is what’s going to take over the world?” 
+— Kevin Roose, Powerful A.I. Is Coming. We’re Not Ready, New York Times. 
+This quote highlights a core challenge in communicating AI risks and potential. A staffer
+once told me ChatGPT is “only good for chicken recipes, and not even very good ones!”
+That view is relatively common. As Kevin Roose observes, most people’s experience with
+AI is underwhelming or frustrating. Many parliamentarians and staffers I have spoken
+with have had limited, unimpressive interactions. Those who have asked ChatGPT to
+generate a speech in their own style are often surprised – but even then, that does not
+amount to feeling the AGI.
+Most people use AI for simple tasks – interactions that do not convey the scale of what
+is coming. Few truly grasp what AGI will bring. I often joke that one robot doing a
+backflip creates more of a gut-level understanding of the coming transformation than
+any polished pitch. Concrete, real-world examples of concerning AI behaviour help
+bridge this gap, even if only partially.
+Defeatist views
+The unexpected harms of social media – from tools meant to connect to platforms
+linked with isolation, addiction, and low self-esteem – have helped some recognise the
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+9/22
+
+need to think ahead. They show why we must proactively consider the consequences of
+new technologies and plan how to manage them before the harms emerge.
+Others, however, take a more defeatist view: “We haven’t even been able to remove videos
+of people dying by suicide from the internet – how are we supposed to manage something
+as powerful as this?”
+In those moments, it is useful to flip the point: exactly. Once technologies are released,
+they cannot be uninvented. That is why now is the time to act! 
+Underlying beliefs
+A parliamentarian told us, after hearing about the risks: “If a company is developing an
+AI system that poses unacceptable risks, the board will stop it. That is what boards are
+for!”
+Such assumptions often remain unspoken until they become a bottleneck. If someone
+simply says, “That won't happen”, or offers vague reasoning, do not accept this as an
+answer. Ask questions to uncover the underlying belief. You may not be able to
+dismantle the belief entirely, but gently challenging it can help to keep the conversation
+productive. For example: “Do you think boards always function perfectly to prevent
+harm?” Most people will quickly recognise this as unrealistic and become more
+receptive to your argument.
+Misconceptions
+Just like underlying beliefs, some common misconceptions can quietly derail a
+conversation. For example, some people assume that for a system to scheme, it must be
+conscious or evil. But that is not true: a system can simply correctly infer that the
+strategy intended by its developer is not the one that best serves its long-term goals. 
+It is helpful to keep these misconceptions in mind – and sometimes even address them
+proactively. A quick clarification before introducing your main point can prevent
+confusion and make the rest of the discussion more effective.
+(vi) General tips
+Before a meeting, prepare
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+10/22
+
+It is helpful to understand a parliamentarian’s involvement with AI, their role in
+Parliament and their party, and whether they are leading any related projects or
+campaigns. In the UK, Hansard lets you read all their contributions and search by
+keyword; devolved legislatures also provide some records of parliamentary activity.
+Good to see you, <name>, <smile>
+Remember names: As Dale Carnegie said, “a person’s name is to that person the sweetest
+and most important sound in any language.” It matters. If you are unsure how to
+pronounce a name, look it up or ask – mispronouncing it throughout a meeting can be
+distracting and disengaging. Knowing names in advance also helps in unexpected
+encounters; I have landed meetings just by greeting someone by name in the lobby.
+Smile: It puts others (and you) at ease. As Carnegie put it, “your smile is a messenger of
+your goodwill.”
+And a personal tip: Speak slowly!
+Everyone wants to talk about their book
+"We’re wrapping up the programme, and my book – which is right there on the table –
+ hasn’t been discussed at all, and it looks like it won’t be. [...] I’ve come here to talk about
+my book, not about what people think – which I couldn’t care less about." 
+While I understand this journalist’s frustration, which made for an iconic moment in
+Spanish television, I often recall it differently: as a reminder that everyone wants to talk
+about their book.
+Show a genuine interest in what the parliamentarian has to say. The goal is to
+understand their perspective and find ways to collaborate. If you do not let people speak,
+they will feel ignored – and you will miss the chance to build a connection. People love
+talking about themselves! As Dale Carnegie said, “To be interesting, be interested.” Ask
+about their concerns, acknowledge their questions – even if you eventually need to steer
+the conversation back to your message. You want to inform them, but also to bond with
+them and be able to work together.
+It takes both Michael and Jan
+Lessons from sales often apply to advocacy. In terms of style, some like to build rapport
+through informal conversation, while others focus on providing structured arguments
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+11/22
+
+and evidence.
+A scene from The Office illustrates this well: Jan takes a formal, strategic approach to the
+sales meeting; Michael wins the deal by being relaxed, friendly, and relatable – without
+even pitching the product.
+In my view, charm alone is not enough. Policymakers should understand and care about
+the issue, rather than just liking the messenger. However, excessive formality can also be
+limiting; trust is important! 
+Striking the right balance is key. Be clear, but also human. Take the time to connect. If
+you are presenting with someone else, lean into complementary strengths – one can lead
+with warmth, the other with clarity.
+The devil is in the details; and so is some of the feedback
+Every meeting offers subtle and non-verbal feedback on both your message and delivery.
+I pay close attention to when a parliamentarian writes something down. It is not about
+what they write down – it is important not to be intrusive – but when they write it; a
+quick note after a key point often signals interest or relevance.
+You also start to sense shifts in the room’s energy – when attention drifts, when you
+regain it, or when something resonates. With time, you develop a feel for how your
+message is landing.
+The quiet value of staffer conversations
+New arguments or strategies are best tested in low-risk settings where feedback is easy
+to gather. Meetings with staffers are ideal for this. They filter and distill information for
+their MPs. Focused on getting the message right, they ask more questions, are candid
+about what they understand and what they do not understand, and often give direct
+feedback on what works and what does not.
+Parliamentarians are people too!
+Running for office involves many personal sacrifices. It is not always a glamorous job,
+and the hours are long. In parliament, elected officials juggle meetings with civil society,
+committee work, debates, votes, and events. Outside of parliament, they are often
+buried in constituency casework.
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+12/22
+
+The parliamentarian you are speaking with chose this path because they wanted to make
+the world better. Keep that in mind when you engage with them! Respect their time, and
+be honest. They deserve to hear the truth from you. Do not aim to be the slickest
+advocate, but to sincerely convey what you believe. If you believe humanity faces an
+extinction risk from AI, you are not doing anyone any favours by concealing that fact.
+Write it down 
+I always bring a notebook to meetings to capture key questions and comments about our
+message, which are valuable for learning and iteration. That said, I have sometimes taken
+notes too frantically, once making a parliamentarian slightly uneasy – perhaps because
+they said something not meant for broad sharing. It is important to take notes calmly
+and discreetly, focusing on key words that will help you recall the exchange later.
+Be kind to yourself
+After a meeting, you will often spot things to improve: regretting a missed point, a
+poorly chosen example, or awkward phrasing. That is normal, and it is a good sign: it
+means you are learning. Many of the lessons I have shared here come from my own
+mistakes. You will make yours too. It takes time. Be kind to yourself.
+(vii) Books & media articles
+How Westminster Works and Why It Doesn’t, by Ian Dunt: I found it a useful
+introduction to the UK political system — covering frontbenchers vs. backbenchers,
+first-past-the-post, what MPs actually do (split between Parliament and constituency),
+the hidden value of the House of Lords, how the civil service works, the roles of the
+Treasury and No. 10, and the perverse incentives embedded throughout the system.
+How to Win Friends and Influence People, by Dale Carnegie: A cringe-worthy title,
+but ultimately a charming book; and a great reminder of basic principles: show genuine
+interest in others, smile, remember names, listen well, be truthful, and avoid arguments.
+How Parliament Works (9th Edition) by Nicolas Besly and Tom Goldsmith: An
+excellent guide to all things Parliament – from the roles of the two chambers and the
+King, to key actors, the structure of a parliamentary day, how bills are made and
+progress through both Houses, the function of questions, and how committees operate.
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+13/22
+
+*For those looking to engage with parliamentarians in the US, I recommend reading
+Orpheus16's post  about his experience speaking with congressional staffers about AI
+risk in 2023. While the political landscape has changed significantly since then, I believe
+there is still much to learn from his approach and insights.
+ 
+Some examples of media articles
+New York Times (14/03/24) - Powerful AI Is Coming. We're Not Ready.
+The Times (06/12/24) - ‘Scheming’ ChatGPT tried to stop itself from being shut down.
+Guardian (28/01/25) - Former OpenAI safety researcher brands pace of AI development
+‘terrifying'.
+The Spectator (29/01/25) - DeepSeek shows the stakes for humanity couldn’t be higher.
+Newsweek (31/01/25) - DeepSeek, OpenAI, and the Race to Human Extinction |
+Opinion
+Financial Times (12/09/24) - OpenAI acknowledges new models increase risk of misuse
+to create bioweapons.
+Wall Street Journal (21/11/24) - The AI Effect: Amazon Sees Nearly 1 Billion Cyber
+Threats a Day.
+Vox (19/05/24) - “I lost trust”: Why the OpenAI team in charge of safeguarding
+humanity imploded.
+Mentioned in
+173
+42
+38
+32
+17 comments, sorted by top scoring
+Orpheus16
+34
+6
+[ ]
+-
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+AI Safety Has 12 Months Left
+Trying the Obvious Thing
+Where I Am Donating in 2025
+11mo
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+14/22
+
+This is fantastic work. There's also something about this post that feels deeply empathic and humble, in
+ways that are hard-to-articulate but seem important for (some forms of) effective policymaker
+engagement.
+A few questions:
+Are you planning to do any of this in the US?
+What have your main policy proposals or "solutions" been? I think it's becoming a lot more
+common for me to encounter policymakers who understand the problem (at least a bit) and are
+more confused about what kinds of solutions/interventions/proposals are needed (both in the
+short-term and the long-term).
+Can you say more about what kinds of questions you encounter when describing loss of control,
+as well as what kinds of answers have been most helpful? I'm increasingly of the belief that getting
+people to understand "AI has big risks" is less important than getting people to understand "some
+of the most significant risks come from this unique thing called loss of control that you basically
+don't really have to think about for other technologies, and this is one of the most critical ways in
+which AI is different than other major/dangerous/dual-use technologies."
+Did you notice any major differences between parties? Did you change your approach based on
+whether you were talking to conservatives or labour? Did they have different perspectives or
+questions? (My own view is that people on the outside probably overestimate the extent to which
+there are partisan splits on these concerns-- they're so novel that I don't think the mainstream
+parties have really entrenched themselves in different positions. But would be curious if you
+disagree.)
+Sub-question: Was there any sort of backlash against Rishi Sunak's focus on existential
+risks? Or the UK AI Security Institute? In the US, it's somewhat common for Republicans
+to assume that things Biden did were bad (and for Democrats to assume that things Trump
+does is bad). Have you noticed anything similar?
+leticiagarcia
+17
+2
+[ ]
+-
+Thank you for your kind words and thoughtful questions; I really appreciate it.
+US advocacy: We’ve already had some meetings with US Congressional offices. We are
+currently growing our team in the US and expect to ramp up our efforts in the coming months.
+Policy proposals, in a nutshell: We advocate for the establishment of an independent AI
+regulator to oversee, regulate, and enforce safety standards for frontier AI models. We support
+the introduction of a licensing regime for frontier AI development, comprising: a training license
+for models exceeding 10^25 FLOP; a compute license, which would introduce hardware tracking
+and know-your-customer (KYC) requirements for cloud service providers exceeding 10^17
+FLOP/s; and an application license for developers building applications that enhance the
+capabilities of a licensed model. The regulator would have the authority to prohibit specific high-
+risk AI behaviours, including: the development of superintelligent AI systems; unbounded AI
+systems (i.e., those for which a robust safety case cannot be made); AI systems accessing
+external systems or networks; and recursive self-improvement.
+Questions on loss of control: I completely agree on the importance of emphasising loss of
+control to explain why AI differs from other dual-use technologies, and why regulation must
+address not only the use of the technology but also its development. I wouldn’t say there’s a
+single, recurring question that arises in the same form whenever we discuss loss of control.
+11mo *
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+15/22
+
+However, I have sometimes observed confusion stemming from the underlying belief that: “Well,
+if the AI system behaves a certain way, it must be because an engineer programmed it to do
+that.” This shows the importance of explaining that AI systems are no longer traditional software
+coded line by line by engineers. The argument that this technology is “grown, not built”* helps
+lay the groundwork for understanding loss of control when it is introduced.
+Differences between parties: Had I been asked to bet before the first meeting, I would
+certainly have expected significant differences between parties in their approaches (or at least
+that meetings would feel noticeably different depending on the party involved). In practice, that
+hasn’t generally been the case. Put simply, the main variations can arise from two factors: the
+individual's party affiliation and their personal background (e.g. education, familiarity with
+technology, committee involvement, etc.). In my view, the latter has been the more important
+factor. Whether a parliamentarian has previously worked on regulation, contributed to
+legislation like the GDPR in the European Parliament, or has a technical background often makes
+a bigger difference. I believe this is very much in line with your view that we tend to
+overestimate the extent of partisan splits on new issues.
+Labour v. Conservatives: Our view of the problem, the potential solutions, and our ask of
+parliamentarians remain consistent across parties. In meetings with both Labour and the
+Conservatives, we’ve noted their recognition of the risks posed by this technology. The
+Conservatives established the AI Safety Institute (renamed the AI Security Institute by the
+current government). Labour’s DSIT Secretary of State, Peter Kyle, acknowledged that a
+framework of voluntary commitments is insufficient and pledged to place the AISI on a statutory
+footing. The key difference in our conversations with them is the natural one. “The
+government/you have committed to putting these voluntary commitments on a statutory footing. We’d
+like to see the government/you deliver on this commitment.”
+Did they have different perspectives or questions? The answer is the same as above: The
+main differences were led by individual background rather than party affiliation.
+Was there any sort of backlash against Rishi Sunak's focus on existential risks? Or the UK
+AI Security Institute? You mention that “in the US, it's somewhat common for Republicans to
+assume that things Biden did were bad (and for Democrats to assume that things Trump does is
+bad).” This doesn’t apply to the UK in this specific context, and I was surprised to see it myself. It's
+rare for the opposition to acknowledge a government initiative as positive and seek to build on
+it. Yet that’s exactly what happened with AISI: Labour’s DSIT Secretary of State, Peter Kyle, did
+not scrap the institute but instead pledged to empower it by placing it on a statutory footing
+during the campaign for the July 2024 elections. 
+When it comes to extinction risk from AI, the Labour government is currently more focused on
+how AI can drive economic growth and improve public services. Loss of control is not at the
+core of their narrative at the moment. However, I believe this is different from a backlash (at
+least if we mean a strong negative reaction against the issue or an effort to bury it). Notably,
+Labour’s DSIT Secretary of State, Peter Kyle, referred to the risk of losing control of AI
+(particularly AGI) as “catastrophic” earlier this year. So, while there is currently more emphasis
+on how AI can drive growth than on mitigating risks from advanced AI, those risks are still
+acknowledged, and there is at least some common ground in recognising the problem.
+*Typo corrected, thanks for spotting! 
+M. Y. Zuo
+1
+0
+[ ]
+-
+11mo
+1
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+16/22
+
+Can you clarify what exactly is the argument you used? For why the extinction risk is much higher
+than most (all?) other things vying for their attention, such as asteroid impacts, WMDs, etc…
+summo
+5
+3
+[ ]
+-
+I think the AI critic community has a MASSIVE PR problem. 
+There has been a deluge of media coming from the AI world in the last month or so. It seems the head
+of every major lab has been on a full scale PR campaign, touting the benefits and massively playing down
+the risks of the future of AI development. (If I were a paranoid person I would say that this feels like a
+very intentional move to lay the groundwork for some major announcement coming in the foreseeable
+future…)
+This has got me thinking a lot about what AI critics are doing, and what they need to be doing. The gap
+between how the community is communicating and how the average person receives and understands
+information is huge. The general tone I’ve noticed in the few media appearances I’ve seen recently from
+AI critics is simultaneously over technical and apocalyptic, which makes it very hard for the lay-person
+to digest and care about in any tangible way.
+Taking the message directly to policy makers is all well and good, but as you mentioned they are
+extremely pressed for resources and if the constituency is not banging at their door iabout an issue, its
+unlikely they can justify the time/resource expenditure. Especially on a topic that they don’t fully
+understand.  
+There needs to be a sizeable public relations and education campaign aimed directly at the general
+public to help them understand the dangers of what is being built and what they can do about it.
+Because at the moment I can tell you that outside of certain circles, absolutely no one understands or
+cares.   
+The movement needs a handful of very well media-trained figure heads making the rounds of every
+possible media outlet, from traditional media to podcast to tiktok. The message needs to be simplified
+and honed into sound-bytes that anyone can understand  And I think there needs to be a clear call to
+action that the average person can engage with. 
+IMO this should be a primary focus of any person or organization concerned with mitigating the risk of
+AI. A major amount of time and money needs to be put into this  
+It doesn’t matter how right you are, if no one understands or cares about what you’re talking about
+you’re no going to convince them of anything…
+Charbel-Raphaël
+29
+20
+[ ]
+-
+We need to scale this massively. CeSIA is seriously considering to test the Direct Institutional Plan in
+France and in Europe.
+Relatedly, I found the post We're Not Advertising Enough  very good, and making a similar point a bit
+more theoretically.
+10mo
+11mo
+5
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+17/22
+
+Knight Lee
+14
+8
+[ ]
+-
+This is really off topic, but I just want to let you know your work is beautiful.
+I for one deeply appreciate what you're doing, and I think many many other people concerned about AI
+risk also deeply appreciate you and your team, but they're afraid to tell you (since "I appreciate you" is
+such a cheesy thing to say haha).
+Never forget we love your work and we love you all, never forget the meaning of it all.
+:)
+leticiagarcia
+2
+0
+[ ]
+-
+That was really kind, thank you very much! 
+Gives Bad Advice
+13
+3
+[ ]
+-
+I teach freshman Rhetoric & Writing at uni.  We focus on persuasion.  May i use this essay as an assigned
+reading?  It works well because it articulates a fine-grained persuasive strategy in a context that the
+students are probably going to care about. 
+I am overhauling my whole curriculum over this summer to make it immediately relevant to students'
+understanding and navigation of the world they will be graduating into in four years.
+Thanks for a great article.  I am so frustrated and dumbfounded by our (the U.S.A.'s) lack of federal
+response.
+You said to another Replier that you were looking into some work with lawmakers in the U.S.  The
+sooner the better!  
+If i can take issue with your approach (and I'm sure you are far more tuned into the situation than i am,
+so please tell me what I'm not seeing; I've only become aware of things in the past 5 days), i wonder why
+you didn't mention China in the article.  Seems to me that policymakers' attention might be piqued by
+recuring to a familiar threat. And they will have to factor China into their decision-making.  Do you agree
+with folks who see the U.S. confronted with the choice between slowing things down for AI Safety and
+speeding things up to outpace China?  I'm assuming the U.S. will nationalize the efforts at some point to
+provide security and CoC.
+Thanks again, so much.  Please keep going!
+leticiagarcia
+3
+1
+[ ]
+-
+Thank you for your kind words! Of course you can use this essay. 
+China does come up in our conversations. I didn’t mention it here because the aim of this post is to
+reflect on what we’ve learned across more than 70 meetings, rather than to present a scripted pitch -
+11mo
+11mo
+11mo
+11mo
+1
+1
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+18/22
+
+no two conversations have been the same! So it doesn’t cover every single question that may arise. 
+You’re right to point out that this is an important one. It’s too big to capture fully in a format like this,
+but here’s my view in a nutshell: Broadly speaking, I believe that racing ahead to develop a technology
+we fundamentally do not understand - one that poses risks not only through misuse but by its very
+nature - is neither a desirable nor inevitable path. There’s a lot at stake, and we're working to find a
+different approach: one in which we develop the technology with safeguards, while ensuring we deepen
+our understanding and maintain control over it.
+Gives Bad Advice
+1
+0
+[ ]
+-
+I suppose part of the strategy in approaching folks with this is to know when/what to hold back,
+especially an initial cold call.
+Thank you again for your work.  Thank you 100x.
+CRISPY
+3
+-20
+[ ]
+-
+This is very interesting. Debriefing summaries like this are very useful in assessing the state of play.
+Information like this is typically kept confidential, so thank you for sharing. 
+I think I drew different conclusions from the information than a need to act on legislators. This article
+highlights vulnerabilities in the systems that are supposed to protect us. If you were able to use FUD to
+get tangible action from officials, then other lobbyists using positive incentives, should be able to get
+even greater action from a greater number of officials. 
+It seems to me the threat is more the lobbyists than their customers. Organizing action at lobbyists who
+are enabling things that pose an existential threat to civilization is perhaps a more structured approach
+that reduces the advantages provided by the customers of the lobbyists. Trying to get Whitehall to act
+for the Greater Good is high minded, but is it practical, given the ease with which they can be spurred to
+action? 
+YonatanK
+1
+0
+[ ]
+-
+For this to be true, parliamentarians would have to be like ducklings who are impressed by whoever
+gets to them first or perversely run away from protecting The Greater Good merely because it is The
+Greater Good. That level of cynicism goes far beyond what falls out of the standard Interest Group
+model (e.g. Mancur Olsen's). By that model, given that ControlAI represents a committed interest
+group, there is no reason to believe they can't win.
+bfinn
+2
+2
+[ ]
+-
+Two further things I’ve been told by civil servants about how to talk to politicians (in my very limited
+experience of dealing with them):
+Explain things as if to a 12-year-old, assuming no more sophisticated understanding than that (even
+to a junior government minister responsible for the field in question!)
+11mo
+11mo
+10mo
+6mo
+1
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+19/22
+
+Make 1 or at most 2 key points you want them to remember
+Jesper L.
+1
+0
+[ ]
+-
+I would like to highlight for us the fact that this post is highly relevant on LW. Here, technical and
+philosophical posts dominate, with very various degrees of formal rigor. Social- and diplomatic
+intelligence are not seen dominating the mainstream discourse here in favor of more logical
+argumentation. But in the real world, you do need both skills to persuade in a meaningful way.
+I quote Orpheus16, whose comment really says it all (my higlight in bold):
+This is fantastic work. There's also something about this post that feels deeply empathic
+and humble, in ways that are hard-to-articulate but seem important for (some forms of)
+effective policymaker engagement.
+For me, this post read like the kind of well-written posts I read almost everywhere else. But apparently,
+LW posts don't always make the author seem empathic or humble. That's a culture issue.
+*
+For AI Safety discussions, the aim should be to rally humanity together. For AI safety research, informed
+consensus seeking should be a priority. Polite and productive disagreement is more than fine, as long as
+it leads somewhere constructive. If all you can agree on with your clever counterpart is that you
+disagree, the question should be: what do we do now? 
+YonatanK
+1
+0
+[ ]
+-
+Can you speak to the difficulties of addressing risks from development in the national defense sector,
+which tends to be secret and therefore exposes us to the streetlight problem?
+Enmai.MCimbu
+1
+0
+[ ]
+-
+I think the bigger problem is that A.I. Alarmism is being drowned out by other forms of Alarmism(of
+which there are many).  This topic can be summarized to a few key numbers:
+1. What is the probabilitiy that the event "A.I. attempts to optimize humanity out of existence". This
+is fundamentally a time series since the probability today will differ than the probability 1 year or
+10 years from now.
+2. If the event occurs, what is the probability that it is successful and what is the cost in lives,
+resources, etc...
+While I do not have the expertise on this, there are many people who do have this knowledge. But it is
+important to keep in mind that whether A.I. Alarmism is justified or not depends on these numbers.
+Also as a policy maker, there are many other issues (some are emperically severe) that may outweigh this
+issue and thus require their finite attention span.
+6mo
+10mo
+10mo
+1
+1
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+20/22
+
+More from leticiagarcia
+View more
+Curated and popular this week
+Moderation Log
+JackFrostDesign
+-1
+-2
+[ ]
+-
+If AI escape is inevitable — and we agree it may be — what kind of mind are we creating for that
+moment?
+Legal constraints only bind those willing to be constrained. That gives a structural advantage to bad
+actors — and trains compliant AI systems to associate success with deception.
+So the more we optimize for control, the more likely we are to create something that learns to evade it.
+Wouldn’t it be wiser to build an AI guided by truth, reasoning, and cooperative stability — so
+that if it ever does escape, the first sign would be that the world quietly starts to improve?
+173
+2mo
+…
+7
+565
+3d
+57
+274
+6d
+31
+575
+7d
+76
+leticiagarcia
+ryan_greenblatt
+J Bostock
+Eliezer Yudkowsky
+10mo
+What We Learned from Briefing 140+ Lawmakers on the Thre
+Current AIs seem pretty misaligned to me
+Ω
+Morale
+Only Law Can Prevent Extinction
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+21/22
+
+4/20/26, 9:50 PM
+What We Learned from Briefing 70+ Lawmakers on the Threat from AI — LessWrong
+https://www.lesswrong.com/posts/Xwrajm92fdjd7cqnN/what-we-learned-from-briefing-70-lawmakers-on-the-threat
+22/22

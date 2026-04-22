@@ -45,3 +45,98 @@ Methodological contribution: **Detailed Work Activity (DWA) decomposition** reso
 
 Theoretical motivation draws from Jones & Tonetti (2026) weak-links intuition: under non-linear complementarity, the slowest-advancing CDR axis binds. Structural prediction: as C advances, the binding constraint for more tasks shifts from cognition to deployment/regulation — a prediction single-axis frameworks cannot generate. Consistent with Massenkoff & McCrory (2026), who find 94% theoretical feasibility vs 33% actual Claude deployment for Computer & Mathematical tasks. This paper is framed as the first in a planned research program; companion work will cover adoption dynamics, an F-axis (failure consequences) and verification, and developing-country applications where D0 tasks become tradable.
 
+---
+
+## Advocacy & Position Documents
+
+Primary-source operational and position documents on AI-policy engagement, not academic papers. Two orgs: **ControlAI** (UK-based, now US-expanding; superintelligence-prohibition ask) and **CAIP** (US, Congress-focused, audit-based model legislation). Kept separate from research papers above because methodological claims here are drawn from operational experience rather than from formal analysis.
+
+### Leahy, Alfour, Scammell, Miotti, Shimi (2024) — "The Compendium"
+**File:** `Leahy_2024__the_compendium.pdf` | **Text:** `text/Leahy_2024__the_compendium.txt` | **Pages:** 113 | *V1.3.1, 9 Dec 2024 — thecompendium.ai* | Connor Leahy, Gabriel Alfour, Chris Scammell, Andrea Miotti, Adam Shimi (Conjecture / ControlAI)
+
+The canonical worldview-grounding document for the ControlAI / Conjecture position on AGI extinction risk, aimed at lay-readable technical depth. Seven substantive sections: (1) The state of AI today — frames current progress as resource-driven rather than insight-driven and characterizes AI systems as "grown, not built"; (2) Intelligence — mechanistic model; (3) AI Catastrophe — argues the default trajectory is AGI → ASI → "godlike AI" → extinction, without intervention at each stage; (4) AI Safety — argues current technical alignment work is not on track and "AI will not solve alignment for us"; (5) AI Governance — argues current governance work is not on track and in fact endorses the race to AGI by focusing on capability-distribution rather than capability-prevention; (6) The AI Race — an ideological taxonomy (Utopists, Accelerationists, Zealots, Opportunists, Big Tech) arguing the race is driven by belief systems, not economic inevitability; (7) A good future — civic engagement as the necessary response. The document is the intellectual basis for ControlAI's policy ask: because AGI/ASI cannot be developed safely and cannot be reliably distinguished from beneficial systems prior to deployment, the correct policy response is prohibition of frontier development until controllability is demonstrated. Reading this is a prerequisite for any serious engagement with ControlAI — their careers page names it explicitly. For Canary, the point of divergence from "analytical-shop neutrality" is here: the Compendium is assertive about conclusions ("godlike AI leads to extinction"), not agnostic about risk levels.
+
+---
+
+### Miotti, Bilge, Kasten, Newport (2025) — "A Narrow Path: How to Secure Our Future"
+**File:** `ControlAI_2025__narrow_path.pdf` | **Text:** `text/ControlAI_2025__narrow_path.txt` | **Pages:** 83 | *April 2025 — narrowpath.co* | Andrea Miotti, Tolga Bilge, Dave Kasten, James Newport (ControlAI; acknowledgements to Aguirre, Leahy, Tegmark, García Martínez, Alfour, Shimi, others)
+
+ControlAI's canonical affirmative policy proposal — the plan that backs the prohibition ask. Three phases: **Phase 0 (Safety)** — six domestic-policy measures intended to prevent ASI development for 20 years: (1) prohibit ASI development directly, (2) prohibit AI capable of breaking out of its environment, (3) prohibit AIs that improve other AIs (recursive self-improvement), (4) require a valid safety case for deployment, (5) a licensing regime with restrictions on general intelligence of AI systems, (6) an international treaty establishing common redlines; **Phase 1 (Stability)** — three international institutions: an International AI Safety Commission (IASC), a Global Unit for AI Research and Development (GUARD), and an International AI Tribunal (IAT); **Phase 2 (Flourishing)** — science and metrology of intelligence, safe-by-design engineering to enable transformative AI under human control after the moratorium. This is what ControlAI is actively pushing to UK and US lawmakers via their Direct Institutional Plan; the UK-parliament campaign endorsed by 100+ lawmakers is effectively an endorsement of this framework. For anyone evaluating a role with ControlAI, this is the policy program you'd be promoting — the prohibition frame is not negotiable around the edges, it's the scaffolding.
+
+---
+
+### ControlAI (2026) — "How to Help | US" (webpage snapshot)
+**File:** `ControlAI_2026__how_to_help_us.pdf` | **Text:** `text/ControlAI_2026__how_to_help_us.txt` | **Pages:** 3 | *Captured 21 Apr 2026 from controlai.com/how-to-help/us*
+
+US-facing engagement playbook from ControlAI. Action structure has two tracks: **organizations** are asked to (1) identify AI-relevant US public officials, (2) contact them directly or via network, (3) make the AI-risk case, (4) offer ControlAI's US policy brief as a concrete ask; at 5+ contacted officials, organizations are invited to coordinate with ControlAI (`hello@controlai.com`) for joint strategy. **Individuals** are directed to an automated Senator-contact form. Executive-branch positioning: ControlAI names **NIST (within Commerce)** as the primary current owner of US AI policy, and flags that NIST civil-servant contact information is not easy to find — a signal of where they see the executive-branch access problem. State-of-US-AI-regulation section acknowledges Trump-admin revocation of the Biden AI executive order and the pending AI Action Plan. Short, but useful because it confirms ControlAI's theory-of-change for the US: replicate the UK coalition-building playbook by getting organizations and constituents to push the Narrow Path policy brief to Congress and NIST.
+
+---
+
+### García (2025) — "What We Learned from Briefing 70+ Lawmakers on the Threat from AI"
+**File:** `Garcia_2025__controlai_70_lawmakers.pdf` | **Text:** `text/Garcia_2025__controlai_70_lawmakers.txt` | **Pages:** 22 | *LessWrong, 27 May 2025 (linkpost from Substack)* | Leticia García Martínez (Policy Advisor, ControlAI)
+
+Post-mortem on ~70 cross-party UK-parliament briefings between late 2024 and mid-May 2025 (roughly ⅓ MPs, ⅓ Lords, ⅓ devolved legislators, plus 8 staffer-only meetings). The central methodological moves: open with authority-figure framing (Nobel laureates and AI-lab CEOs on extinction risk) before presenting concerns; bring printed media articles and short video explainers (e.g., Apollo Research's 2-minute AI-scheming video) rather than research papers; deliver a concrete behavioral ask alongside information — support for ControlAI's public campaign statement. **One in three parliamentarians briefed endorsed that statement**, treated as the core "tangible signal" metric because politeness-bias makes verbal feedback unreliable. Other key lessons: 80–85% of parliamentarians had minimal AI literacy; cold outreach outperformed targeting AI-interested MPs; relentless follow-up is non-insulting; common failure modes include conflating AI consciousness with harm, defeatism from social-media moderation analogies, and China-competition counter-framing. Closest thing in the literature to a reproducible lawmaker-briefing playbook, and the methodological template ControlAI is now scaling to the US, Canada, and Germany.
+
+---
+
+### García (2026) — "What We Learned from Briefing 140+ Lawmakers on the Threat from AI"
+**File:** `Garcia_2026__controlai_140_lawmakers.pdf` | **Text:** `text/Garcia_2026__controlai_140_lawmakers.txt` | **Pages:** 17 | *controlai.news (Substack), 12 Feb 2026* | Leticia García Martínez (ControlAI)
+
+Follow-up to García (2025) covering the next ~70 UK-parliament briefings. Cumulative figures: 150+ meetings, 140 introductory, from September 2024 through February 2026; 126 delivered to parliamentarians directly and 14 staffer-only; sample composition 42% MPs, 35% Peers, 22% devolved. As of Feb 2026 **100+ parliamentarians publicly support the ControlAI campaign statement**. The strategic evolution since the 70-lawmaker post is the most important content: ControlAI has shifted from pure awareness-building ("this is a serious risk") to a direct policy ask ("we must prohibit development of superintelligent AI in the foreseeable future because it cannot be developed safely"). García's stated reasoning: as common knowledge of the risk built within the coalition, deeper conversations became possible and many parliamentarians were ready to hear and endorse a concrete prohibition frame rather than stop at acknowledgement. The post adds finer-grained handling notes for specific counter-arguments and confirms methodological choices that persisted at scale (printed briefings, authority-opening, relentless follow-up).
+
+---
+
+### Miotti & Amadori / ControlAI (2026) — "ControlAI 2025 Impact Report: Our Progress Toward an International Ban on ASI"
+**File:** `ControlAI_2026__impact_report.pdf` | **Text:** `text/ControlAI_2026__impact_report.txt` | **Pages:** 7 | *AI Alignment Forum / LessWrong, 27 Mar 2026 (linkpost from controlai.com/impact-report-2025)*
+
+Institutional impact report covering Dec 2024–Jan 2026 with a "since posting" update through Mar 2026. Core metrics: **279 lawmakers briefed**; **90+ US congressional offices** (of which 11 US Members of Congress directly); **110+ UK lawmakers supporting the campaign statement**; **two House of Lords debates** on superintelligence and extinction risk attributable to ControlAI's coalition-building; a series of Canadian-parliament hearings featuring ControlAI (Miotti, Samuel), MIRI (Malo Bourgon), FLI (Tegmark, Aguirre), and David Krueger. Media output: 18 media publications plus content-creator collaborations totaling 20M+ subscribers; 160,000+ constituent messages sent to US and UK lawmakers via ControlAI's tools. Operating footprint: fewer than 15 staff; ~1 staffer each in Canada and Germany, currently scaling those countries from ~50 to 100+ lawmakers briefed. Stated forward strategy: scale UK playbook to the rest of the G7 with explicit focus on US expansion (parallel to announced DC hiring in April 2026). Most authoritative public summary of what ControlAI is actually doing (versus stated aspiration) as of early 2026.
+
+---
+
+### Green-Lowe (2025, Post 1 of 7) — "Please Donate to CAIP"
+**File:** `GreenLowe_2025__caip_1_donate.pdf` | **Text:** `text/GreenLowe_2025__caip_1_donate.txt` | **Pages:** 35 | *EA Forum, 7 May 2025* | Jason Green-Lowe (Executive Director, Center for AI Policy)
+
+Opens the "Activist View of AI Governance" sequence with a funding appeal (CAIP had ~30 days of runway after traditional donors declined) and an overview of CAIP's Congressional-advocacy model. CAIP focuses on Congress rather than executive orders or state law because Congressional action is more durable, and on narrowly-targeted laws for the most advanced general-purpose systems and chips rather than broad AI regulation. Their model legislation centers on mandatory private audits backed by a government office with power to block deployment; additional tools include civil liability reform, hardware monitoring, a suite of carefully-limited emergency powers, and an "analysis office" that tracks AI-hardware/software trends. Important reading context: this was a live funding-crisis post; subsequent sequence posts generalize from CAIP's position into broader arguments about the research/advocacy balance in AI-safety funding.
+
+---
+
+### Green-Lowe (2025, Post 2 of 7) — "The Need for Political Advertising"
+**File:** `GreenLowe_2025__caip_2_political_advertising.pdf` | **Text:** `text/GreenLowe_2025__caip_2_political_advertising.txt` | **Pages:** 12 | *EA Forum, 20 May 2025*
+
+Foundational case that good governance ideas don't implement themselves — political opposition and institutional inertia must be actively overcome through paid advocacy, which Green-Lowe argues is systematically underfunded in AI-safety circles. Research alone, without a funded advocacy arm, will not produce legislative outcomes on AI safety.
+
+---
+
+### Green-Lowe (2025, Post 3 of 7) — "We're Not Advertising Enough"
+**File:** `GreenLowe_2025__caip_3_not_advertising_enough.pdf` | **Text:** `text/GreenLowe_2025__caip_3_not_advertising_enough.txt` | **Pages:** 23 | *EA Forum, 22 May 2025*
+
+Estimates the current US-AI-governance staffing ratio at approximately **3 researchers per advocate** and argues the ratio should be inverted. Central claim: the core problem is misaligned private incentives faced by AI developers, not misunderstood dynamics, so the binding constraint is political effort to change incentives, not additional analysis. Provides the quantitative framing that subsequent posts build on.
+
+---
+
+### Green-Lowe (2025, Post 4 of 7) — "Shift Resources to Advocacy Now"
+**File:** `GreenLowe_2025__caip_4_shift_resources.pdf` | **Text:** `text/GreenLowe_2025__caip_4_shift_resources.txt` | **Pages:** 28 | *EA Forum, 27 May 2025*
+
+Responds to three standard "advocate later" objections: (a) policy uncertainty — we don't know which policies are robustly good; (b) advocacy-learning — we haven't figured out how to advocate successfully yet; (c) talent — we don't have enough senior political operators yet. Green-Lowe argues each is refutable: commonsense positive-EV policies already exist (second-opinion requirements on frontier deployments as the central example — analogous to seatbelt mandates, where the problem wasn't uncertain physics but misaligned incentives), advocacy skills are learnable on the job, and operator talent is available at scale. Most operationally load-bearing post in the sequence for anyone deciding whether to fund / do AI advocacy *now* versus *later*.
+
+---
+
+### Green-Lowe (2025, Post 5 of 7) — "Orphaned Policies"
+**File:** `GreenLowe_2025__caip_5_orphaned_policies.pdf` | **Text:** `text/GreenLowe_2025__caip_5_orphaned_policies.txt` | **Pages:** 17 | *EA Forum, 29 May 2025*
+
+Introduces the "orphaned policies" concept — over-investment in research has produced viable AI-safety policy ideas that lack political champions, dying on contact with the legislative process because no one is staffed to move them through committees, draft statutory language, or build member coalitions. Frames the fix as more advocacy FTEs (not more research FTEs).
+
+---
+
+### Green-Lowe (2025, Post 6 of 7) — "Political Funding Expertise"
+**File:** `GreenLowe_2025__caip_6_funding_expertise.pdf` | **Text:** `text/GreenLowe_2025__caip_6_funding_expertise.txt` | **Pages:** 14 | *EA Forum, 19 Jun 2025*
+
+Argues that existing x-risk-focused funders are staffed primarily with academics and struggle to evaluate political-advocacy grants on their own terms. Cites specific 2025 funding decisions (a major funder declined to fund CAIP in April 2025 and made analogous advocacy-grant decisions in June 2025) as evidence that the evaluation process lacks political-operator input. Advocates for x-risk funders to hire in-house political experts with grant-evaluation authority.
+
+---
+
+### Green-Lowe (2025, Post 7 of 7) — "Mainstream Grantmaking Expertise"
+**File:** `GreenLowe_2025__caip_7_mainstream_grantmaking.pdf` | **Text:** `text/GreenLowe_2025__caip_7_mainstream_grantmaking.txt` | **Pages:** 32 | *EA Forum, 22 Jun 2025*
+
+Closes the sequence by arguing that AI-safety funders use informal grant-evaluation processes (small committees, light diligence, unclear criteria) that diverge from mainstream philanthropic best practices. Advocates adoption of mainstream conventions — explicit RFPs, structured scoring rubrics, external expert review. The throughline with Post 6: the field's funding *infrastructure* is itself an obstacle to scaled advocacy, not just the allocation of existing dollars.
+

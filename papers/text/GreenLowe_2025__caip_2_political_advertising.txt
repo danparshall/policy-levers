@@ -1,0 +1,442 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+Existential risk
+Policy
+AI governance
+Political polarization
+Frontpage
+In my previous post° in this sequence°, I made a fundraising pitch for my organization, the
+Center for AI Policy (CAIP), asking readers to donate to us so we can continue lobbying
+Congress to pass strong AI safety legislation.
+Here, in the second post, I want to zoom out from CAIP’s particular concerns and argue
+that the AI safety movement as a whole should be investing far more resources into
+“political advertising.” We need to seek out individual politicians and personally let them
+know about the risk from misaligned superintelligence and show them what they can do
+to mitigate that risk.
+The core of my argument for this second post is that AI governance ideas are not self-
+enacting: even the best policy ideas need political champions, or they will not become law.
+Therefore, to win at AI governance, we have to actively promote and advertise our ideas to
+political decisionmakers, not just to academic experts. The expected value of the
+movement’s AI governance efforts is something like Q × P, where Q is the quality of our
+ideas, and P is the power of our advocacy. If P is zero or close to zero, then it doesn’t matter
+how good our ideas are, because our ideas will not steer the future.
+If we fail to adequately invest in advertising our ideas, the most likely result is that we’ll
+wind up with a glut of ‘orphaned’ AI governance ideas that have been thoroughly
+researched and vetted but that don’t impact the real world because they have few or no
+champions in the political arena. AI governance researchers will discover great strategies
+for saving the world, but nobody will put them into practice, and misaligned AI will
+destroy civilization.
+The Need for Political Advertising (Post 2 of
+7 on AI Governance)
+by Jason Green-Lowe
+May 20 2025
+61
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+1/12
+
+“AI safety work” can be split into two very broad categories: (1) technical alignment
+research and (2) AI governance. 
+By “technical alignment,” I mean anything that’s directly aimed at making AI systems
+safer, better understood, more reliable, more compatible with human values, or more
+controllable. 
+Technical alignment is not my field, but from what I can see from the outside, AI scientists
+already want to design maximally safe AI. Once AI developers find out how to make AI safe
+and compatible with human values at an affordable price, they’ll automatically want to do
+that, because the vast majority of computer scientists prefer to have an AI that will be more
+reliable (rather than less reliable) at following the spirit of their instructions. Executives
+and managers at these companies likewise want AIs that are better at following
+instructions.
+The problem to be solved in technical alignment is thus primarily a problem about lack of
+knowledge. 
+If you invent a useful new AI safety technique, you might have to do a little bit of work to
+promote the idea at, e.g., machine learning conferences, but for the most part a good
+technical idea will spread on its own if you let it. The inventors of the idea have a vested
+interest in making sure they get credit for their contribution, and other people have a
+vested interest in staying current in their field and using the best-available techniques.
+Thus, the hard part in technical safety research is discovering the new ideas, not spreading
+the new ideas.
+I think it would be perfectly reasonable to hire a few people to promote and spread good AI
+alignment ideas, but it doesn’t seem like that’s strictly necessary – most of those ideas will
+probably spread on their own, even without any formal advocacy.
+Good Technical Alignment Ideas Might
+Spread Automatically
+Good AI Governance Ideas Won’t Spread
+Automatically
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+2/12
+
+This is definitely not the case for AI governance. By “AI governance,” I mean anything
+that’s aimed at controlling what kinds of AI hardware and software gets built, who gets
+access to it, how it will be evaluated, and what should happen if an evaluation raises
+concerns about an AI system’s safety. 
+The premise of AI governance is that AI developers often have bad private incentives that
+don’t line up well with what would be best for the public, and so we need to find ways to
+correct those incentives. For example, Meta or DeepMind or OpenAI might want to release
+their latest AI model immediately, in order to get good PR, boost their quarterly earnings
+reports, capture market share from a rival, maximize their own chances of gaining power
+with transformative AI, etc. – even if there’s some risk that this model will catastrophically
+malfunction. A company that releases a risky model captures most of the model’s upsides
+(profit, glory, power, etc.) for itself, but the downsides (bioweapons, loss of human control,
+etc.) get shared across all of humanity. As a result, those developers will be strongly
+tempted to release a new AI system even when that would yield negative expected utility
+for the world.
+The most effective way to fix this problem isn’t by doing research about the flawed
+incentives – the basic way in which the incentives are flawed is already reasonably well-
+understood by all of the relevant parties. There’s no mystery to be solved here: AI developers
+have bad private incentives, and so sometimes they’ll act on those incentives and take
+actions that are bad for the public. 
+This isn’t the kind of problem that can be solved by acquiring better knowledge. Instead,
+what AI governance activists need most is better incentives.
+Right now, society is encouraging AI developers to train and deploy AI models that are
+unreasonably dangerous, so we need to persuade society to stop doing that. Some amount
+of research might be useful at the margins in order to better understand how we might
+best convince a particular institution (e.g., Congress) to take action to change AI
+developers’ incentives…but the research itself won’t automatically solve the problem. 
+Unlike brilliant technical innovations, brilliant policy ideas won’t be spontaneously
+adopted by the relevant decision-makers, for two reasons. 
+Spreading AI Governance Ideas Requires
+Overcoming Political Opposition
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+3/12
+
+The first reason is that the policy space is hotly contested. Very few policy ideas are truly
+win-win for all parties, and the parties that expect to lose will do everything they can to
+block a policy idea that they see as bad for them. This lines up roughly with “conflict
+theory” from Scott Alexander’s conflict theory vs. mistake theory° dichotomy. I don’t
+know whether the whole world runs on conflict theory, but parts of DC sure do.
+The executives at private AI developers like Meta and OpenAI don’t actually want to be
+regulated (at least not in a way that would effectively promote AI safety), because that
+would mean sharing some of their power with government officials who they don’t know,
+like, or trust. Even if AI safety regulations would be better for society as a whole, they won’t
+be seen as better by Sam Altman or Mark Zuckerberg, and those people have enormous
+political power that they can and will use to oppose any such regulations. 
+In addition to controlling armies of skilled and well-connected lobbyists, famous tech
+CEOs often have higher approval ratings and better name-recognition than Congressional
+leaders. For example, can you name the current chair of the House Science Committee? If
+not, then maybe you understand why he’s reluctant to antagonize Satya Nadella – that’s
+not actually a political battle that’s likely to go well for the Science Committee Chair unless
+he has a powerful coalition backing him up, or hard evidence of very obvious misconduct
+from Microsoft. 
+The kind of evidence he would need to win that contest would have to be much less subtle
+than “some of Microsoft’s products seem dangerous according to experts.” Instead, it
+would have to look something more like “Microsoft is using Windows to secretly steal
+money from its customers’ bank accounts.” Otherwise, the media controlled by Microsoft
+(including Barron’s, MSN, and HarperCollins Publishers) runs stories reporting on what an
+unfair bully the Science Committee Chair is, and those stories probably get repeated by
+other media outlets who either sympathize with Big Tech (e.g., the Washington Post, which
+is owned by Jeff Bezos), or who simply don’t have time to run an independent
+investigation.
+So, getting a good regulation enacted that will fix AI developers’ bad incentives isn’t just a
+matter of discovering a good regulation and gathering enough evidence to prove to a
+neutral observer that the regulation is good for society – it also requires overcoming
+political opposition from the stakeholders who have selfish reasons to oppose that
+regulation.
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+4/12
+
+Being able to win a debate against Big Tech lobbyists is only the first and smallest step in
+overcoming their political opposition. In addition to convincing politicians that AI safety
+policies would be good for society, i.e., winning the merits-based argument, we also need
+to win some purely political arguments. We need to demonstrate that our preferred
+policies enjoy broad and deep support from the general public, or that they are acceptable
+to most of the relevant interest groups other than Big Tech, or that they are supported by
+relevant campaign donors, or by the relevant Congressional committee chairs, or by other
+key allies in or out of Congress. We need to be able to make the case that our bills or other
+policy proposals are more likely than not to succeed, because most politicians mostly want
+to back winning ideas – they don’t want to invest their limited resources in supporting an
+idea (no matter how good it is) that is doomed to stagnate. If you can’t show that your idea
+is likely to attract (or already has) a winning political coalition behind it, then many
+politicians won’t even consider your idea.
+This can be very frustrating for political outsiders, but it’s not all that different from some
+of the principles motivating effective altruism: policymakers want to do the most good per
+unit of their precious time, and in order to do so, they need to filter ideas based on which
+ones seem like they have a chance of succeeding. Backing a politically doomed idea is
+typically useless even if, counterfactually, the idea would have helped society if it had been
+implemented. 
+The second reason why good AI governance ideas don’t spread on their own is that the
+policy space is very noisy. There are a lot of different activists and groups at any given time
+who are all loudly insisting that their issue is the most important and most urgent issue to
+address. Some of them are wrong, some of them are staking out a position based on
+subjective values, and some of them are right, but it’s not obvious in advance to any
+particular politician that any particular activist is worthy of their time and consideration.
+Jack Clark had a great post about this a couple of weeks ago; I largely agree with his
+assessment.
+A typical Congressional staffer is responsible for five or six different categories of policy:
+they might, e.g., make recommendations about which regulations to support in health
+care, energy, transportation, senior citizens’ issues, telecommunications, and banking.
+Spreading AI Governance Ideas Requires
+Overcoming Political Inertia
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+5/12
+
+Within each of these categories, there are dozens of different sub-topics being considered
+at any given time – the “tech and telecom” category might include social media, access to
+fiber optic cables, satellite launches, TV advertising, e-mail spam, funding for national
+public radio, data privacy, and artificial intelligence. Within a “sub-topic” like artificial
+intelligence, there are dozens of different policies being proposed by various stakeholders
+– someone wants subsidies for American chip manufacturing, and someone else wants to
+combat deepfake pornography, and someone else wants the Social Security
+Administration to increase its use of AI while processing disability benefit claims, and then
+over in one corner you have a handful of effective altruists arguing for guardrails against
+AI’s catastrophic risks. 
+Suppose a staffer works overtime and logs 3,000 hours per year. That leaves 500 hours per
+policy category (e.g. “tech and telecom”), which gets split across 20 different policy topics
+(e.g. “AI”), which gets split across another 25 policy proposals (e.g. “mandatory security
+audits for AI”), leaving a grand total of 1 hour per year to consider any given policy
+proposal.
+During that 1 hour, the staffer won’t be able to give the proposal their undivided attention
+– instead, they’re juggling meeting requests, the latest instructions from their Senator, the
+breaking political news on CNN and X, and an angry email from an important constituent
+who needs to be pacified. So, more realistically, the staffer might have 20 or 30 minutes per
+year to think and write about a particular AI safety proposal.
+For a long-time reader of this forum, that might be enough time – if you’re already
+familiar with how AI works, why AI is dangerous, what other AI safety policy proposals
+have been made, etc., then you might be able to evaluate a new proposal in 20 minutes and
+write an email recommending it to your boss with the remaining 10 minutes. Similarly, if
+you’re one of the handful of staffers in Congress who’s an expert on computer science, you
+might do fine.
+On the other hand, if (like the median Congressional staffer) you’re a relatively recent
+political science graduate who’s never tried to code and never watched a video about neural
+networks, 20 minutes probably isn’t nearly enough time to make sense of an average AI
+policy proposal. Much of the jargon will be lost on you, you won’t understand the core
+concerns that are motivating the policy, and if you try asking your coworkers (who are
+much like you) for a second opinion, they’ll probably agree with you that it sounds like
+science fiction, i.e., speculative and unlikely to be an immediate problem.
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+6/12
+
+So, most likely, you stop reading the policy proposal halfway through, and you move on to
+another task in your extremely busy day. This isn’t the result of nefarious lobbying or
+corruption or political opposition – it’s just that politicians have an enormous number of
+things that they’re asked to think about, and they can’t be experts on all of them – so
+promoting your policy idea to their attention requires active effort and a particular skill
+set.
+It’s not enough to just articulate a good idea and provide evidence that it’s good; you also
+have to do quite a bit of political advertising. Before you can even make the case that your
+policy would be good for society, you first have to persuade policymakers that it would be a
+good idea for them personally to dedicate enough time and effort to evaluating your policy.
+This means distilling the arguments behind that policy into something that can be very
+comfortably absorbed by the extroverts who work in politics: possibly a two-page handout
+with color graphs and illustrations, but more likely a vivid anecdote or a single punchy
+analogy that’s delivered as part of an in-person conversation. 
+In order to get a chance to have that in-person conversation, you might need to invite
+politicians to a happy hour, or hold a fundraiser for them, or hire lobbyists who know them
+personally, or present on a ‘fun’ topic that’s adjacent to AI safety and that will attract
+staffers who are bored or tired or depressed or otherwise in need of some relief. You
+probably have to go to Capitol Hill in person, repeatedly, and not expect politicians to come
+to your office or download your papers. To craft an effective political advertising strategy,
+imagine you’re an underpaid, overworked staffer who’s constantly being bombarded by
+pleas for attention. You literally don’t have time to meet with everyone who wants to talk to
+you. Which meeting invitations will you accept? Chances are, your choices will mostly be
+driven by who makes it easy and rewarding for you to talk with them.
+That’s why, in order to make sure an AI governance idea succeeds, it’s not enough to simply
+research and document the best AI governance ideas – there is also quite a lot of advocacy
+work that needs to be done to market those ideas to actual policymakers. 
+The need for this advocacy doesn’t line up neatly with either conflict theory or mistake
+theory – it’s a third type of problem. This “theory of political advertising” is different from
+mistake theory because there’s no amount of patiently researching clever ideas that will
+Earning the Chance to Persuade
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+7/12
+
+cause those ideas to win – in addition to being correct, you also have to be reasonably good
+at self-promotion. But the theory of political advertising is also different from conflict
+theory, because there’s no evil or selfish opponent to be overcome. We’re not necessarily
+enmeshed in a battle; we just need to take the time to build a political coalition that can
+promote a bill to the top of Congress’s extremely crowded agenda.
+If we don’t successfully promote our ideas to actual policymakers, or if those policymakers
+don’t successfully change the incentives of AI developers, then sooner or later (probably
+sooner) the developers will recklessly train and deploy misaligned superintelligence, and
+most of us will die. 
+The private AI developers are a caught in a race with each other where none of them are
+able and willing to hold back a model by even three weeks to run all of the tests that they
+would need to run to make sure that their current models are reasonably safe. Instead, the
+people evaluating new AI models are forced to rush through their work with early-stage
+prototypes and inadequate benchmarks, and then when they warn that they can’t be
+confident that the models are safe, the developers publish their models anyway.
+There is no plan in place that we can trust to cause the developers to suddenly start
+exercising more caution as the stakes get progressively higher. Some developers have
+published “responsible scaling policies,” but many of these policies aren’t strict enough to
+reliably prevent a catastrophe, even if they were fully adhered to. For example, Anthropic
+appears to be conceding that it does not expect to be able to protect its model weights
+against a concerted hacking attempt by state-level actors, and most companies have not
+even set any kind of quantitative target, e.g., less than a 1% chance of causing more than
+100 deaths per year, let alone provided evidence tending to show that they are on track to
+meet that target.
+Of course, there’s no good reason to think that all companies will fully adhere to their
+responsible scaling policies. The same pressures that are currently causing companies to
+skimp on the evaluations and safeguards they think are needed at, e.g., ASL-2 will probably
+also cause companies to skimp on the evaluations and safeguards that they think are
+needed at ASL-4. Although the risks of more powerful models will be somewhat more
+We Either Solve Bad Incentives, or We
+Probably Die
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+8/12
+
+apparent to tech executives, the benefits of an early deployment of those models will also
+be more tempting; instead of just capturing market share, an executive might believe that
+early deployment is needed to seize control of the entire future. 
+On balance, it doesn’t seem likely that all companies will spontaneously decide to start
+being more careful in the future. As I write this, OpenAI is waging a legal campaign to free
+itself from as many of the constraints of its nonprofit management as possible, suggesting
+that it wants to pursue profits in the future even more recklessly than it is today. Even if
+OpenAI sees the light and puts solid guardrails in place, it only takes one company to
+defect and (accidentally or otherwise) release an extremely dangerous AI.
+What this means in practice is that under the status quo, most of us probably die shortly
+after the first AI developer achieves superintelligence. Most types of poorly aligned
+superintelligence will instrumentally converge° on power-seeking behaviors that prompt
+them to seize the planet’s resources; at a minimum, this means a future where humans are
+gradually disempowered and locked out of any important decisions. If the alignment is bad
+enough, then superintelligence could easily lead to total human extinction. 
+There are no laws in place to prevent this outcome, there is no credible effort to pass such
+laws in Congress right now, there is no mass boycott or industry consensus that could
+realistically cause all major AI developers to permanently adopt and rigorously adhere to
+adequate safety practices, and the handful of attempts to pass state-by-state AI safety
+legislation are at risk of being preempted by hostile federal legislation.
+We have to change this status quo. 
+This means we have to be thinking about, measuring, and promoting AI governance
+activities based on their chances of changing this status quo. We don’t have the luxury of
+choosing the activities that most interest us, or of choosing the activities that feel most
+comfortable. We have to identify the activities that are most likely to change the status quo,
+because otherwise there’s an excellent chance that misaligned superintelligence will cause
+billions of deaths sometime in the nextdecade. 
+It’s not obvious that we need any more surprising breakthroughs to get those billions of
+deaths. If we just continue scaling based on present-day trends, the expected outcome of
+that scaling is that sometime in the next several years, AI starts doing useful computer
+science research, accelerates its own growth curve, and becomes more powerful than the
+rest of humanity put together. 
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+9/12
+
+It’s possible that bottlenecks in data or electricity will slow this process somewhat, but
+even a slowed-down process will still probably get us to superintelligence in the mid-
+2030s. Any given constraint can and most likely will be eroded given adequate time and
+financial incentives. If we “run out of electricity” for scaling in 2027, but scaling remains
+profitable, then people will probably build more power plants. Those new power plants
+won’t be ready immediately, but they won’t take decades to build, either.
+If you’re a skeptic of scaling laws and you want to reject them in favor of taking the median
+estimate of thousands of AI researchers, that still gives us a 50% chance of “unaided
+machines outperforming humans in every possible task” by 2047, i.e., in 22 years. At a
+minimum, that gets us widespread unemployment that makes the Great Depression look
+like a hiccup; more plausibly, it leads to billions of deaths. If we don’t find a way to change
+AI developers’ incentives before then, most of us are probably going to die young. 
+The horse population peaked in 1915 because after that, humans and machines were better
+than horses at every possible task; the 24 million horses we had then are down to only 6
+million horses now. If we don’t successfully take action to prevent it, humans will suffer
+the same catastrophic losses. That’s the path we’re on right now; that’s the status quo, and
+that’s our default future.
+This sequence will continue with a third post estimating our current ratio of researchers to
+advocates and arguing that this ratio is very poorly optimized for getting policymakers to
+change the status quo. The fourth post will argue that we cannot afford to further delay the
+shift from research to advocacy, the fifth post will catalog the orphaned AI governance
+ideas that are currently available and waiting for someone to flesh them out and advertise
+them, and the sixth post will ask why our movement has been systematically
+underfunding advocacy and offer suggestions about how to correct that problem.
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+10/12
+
+Mentioned in
+122
+54
+Next:
+We're Not Advertising Enough
+(Post 3 of 7 on AI Governance)
+3 comments
+54 karma
+Previous:
+Please Donate to CAIP (Post 1 of 7
+on AI Governance)
+25 comments
+141 karma
+Log in to save where you left off
+No comments on this post yet.
+Be the first to respond.
+Comments
+More from Jason Green-Lowe
+View more
+Curated and popular this week
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+53
+· 10mo ago · 45m read
+2
+Jason Green-Lowe
+The Center for AI Policy Has Shut Down
+We're Not Advertising Enough (Post 3 of 7 on AI Governance)
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance)
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+11/12
+
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+View more
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+80
+· 11d ago · 8m read
+4
+Garrison
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+12
+· 22d ago · 7m read
+0
+Sophie Kim
+Help me launch Obsolete: a book aimed at building a new movement for …
+Pivotal Research Fellowship applications are open (deadline May 3)
+AI Can Already Evade DNA Synthesis Screening. Congress's New Bil…
+4/20/26, 10:12 PM
+The Need for Political Advertising (Post 2 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/LE7xFNwRRpZ8AJSAF
+12/12

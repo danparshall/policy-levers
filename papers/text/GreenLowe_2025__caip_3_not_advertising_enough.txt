@@ -1,0 +1,945 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+AI governance
+Frontpage
+In my previous post° in this series, I explained why we urgently need to change AI
+developers’ incentives: if we allow the status quo to continue, then an AI developer will
+recklessly deploy misaligned superintelligence, which is likely to permanently
+disempower humanity and cause billions of deaths. AI governance research can potentially
+be helpful in changing this status quo, but only if it’s paired with plenty of political
+advertising – research by itself doesn’t automatically convince any of the people who have
+the power to rein in AI developers.
+Executive Summary
+Here, in the third post, I want to make it clear that we are not doing nearly enough political
+advertising to successfully change the status quo. By my estimate, we have at least 3
+governance researchers for every governance advocate. This means that we are predictably
+generating more good ideas than we can hope to share with decision-makers. This is an
+unforced error on our part that we should correct.
+A major reason why this 3:1 ratio is poorly suited to changing policymakers’ minds is that
+you almost always want to have more staff working on a ‘central’ activity that can directly
+achieve your goals than on a ‘supportive’ activity that only indirectly supports those goals.
+This is mostly a matter of arithmetic: the benefit of an indirect support worker is
+multiplied by the size of your central team, so if your central team is very small, then it’s
+hard for support staff to do much good. You don’t need a full-time accountant to support a
+one-person taco stand – even if they’re very good at accounting, and even if accurate
+accounting is very important, a single taco stand just doesn’t offer enough scope for the
+We're Not Advertising Enough (Post 3 of 7 on
+AI Governance)
+by Jason Green-Lowe
+May 22 2025
+54
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+Reject
+Accept all
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+1/23
+
+accountant’s talents to pay off. If you had three accountants for every taco truck, that
+would be an even worse use of resources.
+The directness or indirectness of work isn’t a binary variable – rather, it’s possible for
+work to be one, two, or several layers removed from its ultimate goal. If your theory of
+change relies on person A supporting person B, who will support person C, who will
+support person D, then at each stage of that operation, the ‘inner’ team has to be large
+enough relative to the ‘outer’ team in order to justify investing in a specialist – meaning
+that the core team should be truly massive before you start investing in specialists who are
+three or more levels removed.
+Unfortunately, most of the research being done in the AI governance community today is
+very abstract, and is several layers removed from the core goal of changing AI developers’
+incentives. The research typically does not even comment on any particular law or
+regulation – instead, most of the research tries to make general predictions about the
+future or to weigh the pros and cons of various types of policies. This kind of academic
+research could be useful to policy wonks who do offer constructive criticism about a
+specific policy, which could in turn be useful to the people trying to draft better versions of
+that policy, which could in turn be useful to the people selling and advertising that policy
+on Capitol Hill – but the effects are very indirect and heavily diluted.
+We could afford to support a few pure academic researchers despite this dilution if we had
+many thousands of people working on oral advocacy – but by my estimate, there are less
+than 60 full-time advocates working on AI governance in the US. As a result, I think we
+should be looking to transition as many academic researchers as possible into advocacy
+roles and help the rest of them re-focus their research on topics that will be of direct
+relevance to advocacy.
+There are 3 Researchers for Every Advocate
+Methodology
+To get my estimate that there are three researchers for every advocate, I looked at the
+public websites of relevant organizations, with a little bit of help from LinkedIn. All of the
+data I used to build my estimate is publicly available. If a person does not say on their
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+2/23
+
+LinkedIn page or their website bio that they work on AI governance, then they’re not
+included in the estimate. 
+I have been working and networking in the US AI Governance field for the last three years
+and I have been proactively trying to find out who else is in this field with me, so I expect
+that my list of organizations is reasonably (although not perfectly) complete. 
+I count anyone whose job title is “researcher,” “fellow,” “policy analyst,” or a similar variant
+as a researcher, and I count anyone whose job title is “government relations associate,”
+“communications director,” “engagement specialist,” etc., as an advocate. For managers,
+directors, and other supervisors, I try to estimate how many of their staff are working as
+either researchers or advocates; if necessary, I split their time and assume they are
+working half-time as a researcher and half-time as an advocate. Similarly, I try to divide up
+support staff, operations staff, and fundraising staff based on the relative proportion of
+research and advocacy that the institution is engaged in. I do not count government
+employees (because they are not supposed to be advocating for any particular policies), or
+professors who are not explicitly affiliated with a research institute, policy institute, or
+advocacy group (because they are presumably focused mostly on teaching and on purely
+academic scholarship). I do count PhD students who describe themselves as employed full-
+time in a particular research job, but I do not count other full-time students (because they
+presumably are focused more on learning the fundamentals of their field than on
+conducting original research or advocacy).
+I do not count people working on technical AI alignment, because I am focused on AI
+governance. Similarly, I do not count people working for institutions that are focused on
+field-building, recruiting, fundraising, or organizing conferences – such work is valuable,
+but it is not the focus of my argument in this blog post.
+To determine whether a person works on “US” issues, I rely on where their institution is
+based, unless their job title explicitly indicates otherwise. For example, the Future of Life
+Institute’s primary address is in the United States, but I have excluded the FLI researchers
+whose job title is “EU Fellow.” Similarly, the Future Society could be thought of as a
+primarily European organization, but I have included a few of their researchers who clearly
+focus on America, e.g., their Director of U.S. AI Governance. I suspect that this
+methodology undercounts the actual ratio of researchers to advocates, because there is a
+very large concentration of AI governance researchers in the UK who do work that would
+seem to be highly applicable to US governance researchers. For example, GovAI employs 32
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+3/23
+
+full-time equivalent (FTE) research positions, Apollo Research employs 20, and the Center
+for Long-Term Risk employs 12. I am not aware of any similarly sized group of UK-based AI
+governance advocates who lobby the US government.
+To determine whether a person works on “AI Governance,” I have reviewed their website or
+LinkedIn biographies and made a snap judgment. In some cases, I counted a person as
+“half-time” because it appeared that they spent part of their time working on AI
+Governance and part of their time working on other topics. Not everyone on the list would
+identify as a ‘doomer’ or even as someone who “works on AI safety” – the list intentionally
+includes people with a broad range of opinions and backgrounds. However, I have tried to
+limit the list to only those people who appear (based on their published work and their
+public bios) to support some type of proactive AI governance. I therefore do not include
+people who appear to believe that decisions about AI should be left entirely to individual
+private companies with no form of coordination (voluntary or otherwise), and I do not
+include AI accelerationists.
+In the interest of making a conservative estimate, I did not include any of Epoch AI’s 22
+staff as either researchers or advocates. Although much of their research might wind up
+cited in other AI governance work, and although their website shows that they received $6
+million in funding from Open Philanthropy, it’s not obvious that their primary function is
+to conduct AI governance research – most of their research aims to predict factual trends
+about AI capabilities, rather than to analyze how those capabilities might best be governed.
+I do not count the 10 people working for my own organization, the Center for AI Policy
+(CAIP), because, as I have explained in the first post in this series, we have been denied
+funding by most of AI safety’s institutional donors, and it is very likely that all of our staff
+will soon need to find jobs in other fields.
+Results
+Using this methodology, I estimate that there are currently 202.5 full-time equivalent US
+AI governance researchers, but only 55.75 full-time equivalent US AI governance advocates.
+This is a ratio of approximately 3.6 researchers for every advocate. 
+The results should be considered approximate; I am sure I have made some errors by
+including and excluding some of the wrong people in each category, and I’m sure I have
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+4/23
+
+entirely overlooked some people. I am confident that the true ratio (using my
+methodology) is between 3 and 4 researchers per advocate. 
+A Note on Privacy
+Out of an abundance of caution, I have not actually included the list of the particular
+advocates, researchers, and organizations in this public post. 
+The reason I am not publishing the list is because many elements of the AI policy
+community strongly value a certain kind of discretion or anonymity, for various reasons.
+Some organizations or programs that appear to me to be focused on catastrophic risks
+from AI take pains to maintain a public presentation as ‘mainstream’ or ‘establishment’
+think tanks who cover a broad range of issues. Other organizations simply want to avoid
+controversy or avoid being attacked by, e.g., Senator Ted Cruz.
+I believe this effort to maintain a low profile is misguided. It seems to me that portraying
+an AI safety organization as mainstream is likely to lead to bad results no matter whether
+your portrayal succeeds or fails. If you successfully convince politicians that you are a
+mainstream national security think tank that only incidentally covers AI policy, then those
+politicians have no particular reason to call you for advice when there is an AI emergency
+or an AI policy opportunity; you are likely to blend into the thousands of other policy
+professionals in DC, most of which have better connections or better credentials. Likewise,
+if you fail to convince politicians that you are a mainstream national security think tank,
+then those politicians are very unlikely to call you for advice, because they have no reason
+to trust you; they can see that you’re misrepresenting your organization, and that you’re
+not even particularly skilled at deception. 
+I don’t understand how blending into the background is supposed to help. In order to
+spread ideas and convince others that those ideas have merit, you have to tell other people
+about those ideas. If you communicate clearly enough for third parties to understand why
+they should agree with you, then you will also communicate clearly enough for them to
+figure out that you’re working on AI safety.
+Moreover, I do not believe that sharing the list I used to create the estimate used here
+would materially inconvenience those who prefer to protect their privacy. All of the
+information in the list is publicly available, and there is no reason anyone else who is
+interested could not easily replicate the list; it took me only a few hours to create.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+5/23
+
+Nevertheless, the primary point I am trying to make is that the community should be
+shifting resources from research to advocacy, and I am concerned that if I publish a list of
+people working on AI governance, then the mere fact that the list was published will be a
+serious distraction from my main point. Rather than fight two different battles, I will keep
+the list semi-private.
+If you have a particular concern about my methodology or results, and you need to see the
+list in order to resolve that concern, please send me an email at jason@aipolicy.us. In that
+email, please use your real name and explain what your question or objection is. If I do not
+already know you, then please schedule a video call at https://calendly.com/jason-
+aipolicy/15-minute-meeting so that we can establish trust. On a case-by-case basis, I will
+consider sharing the list with specific people who have a legitimate reason to see it and
+who I trust not to further distribute or publish the list.
+A Note on Activist Researchers
+Some people whose job title is “researcher” may also spend some time presenting their
+findings to policymakers, and in that sense, they may be doing their own advocacy.
+However, the impact of the advocacy conducted by researchers is diluted in several
+different ways. 
+First, and most obviously, part-time advocacy involves fewer hours per person. If 10
+researchers all spend 10% of their time on advocacy, the benefit is probably no higher than
+the benefit you’d get from 1 advocate working full-time on advocacy. 
+Second, any part-time activity is typically less effective per hour than a full-time activity,
+because if you’re only spending a few hours a week on something, then you don’t get as
+much of a chance to improve your skills at it. If you’re a full-time advocate, you can
+repeatedly practice your ‘elevator pitch’ for the most important pieces of legislation, you
+can get feedback (from politicians’ facial expressions) about which versions of that pitch
+are most effective, and you can refine your pitch based on what you learn. You’ll also just
+get more comfortable with DC jargon and norms and fashion as you spend hundreds of
+hours there, which will make you a more natural and therefore a more effective speaker. By
+contrast, if you’re a part-time advocate, you only get to deliver a couple of sales pitches in
+each political cycle, so you don’t have a chance to learn much about how to optimize your
+pitch on a topic before DC moves on to the next topic.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+6/23
+
+Similarly, if you work full-time, you can invest in resources that require economies of scale,
+like BGov (an expensive service that gives you contact info for hundreds of Congressional
+staffers, organized by committee), or Politico Pro (which gives you detailed insider gossip
+about what’s happening in DC), or a physical office near Capitol Hill that signals to
+lawmakers that you’re a serious player in the game. By contrast, if you’re only doing
+advocacy part-time, you might be flying in from out of state for short periods and taking
+whatever meetings you can get while recovering from jet lag.
+The kind of people who are doing research 90% of the time probably don’t have a set of
+talents and skills that are optimized for advocacy. Although anyone can learn to be a better
+advocate, the best advocates are typically extroverts who enjoy making and maintaining
+connections with lots of strangers and who can quickly and accurately figure out what
+those people are feeling and how to capitalize on those feelings. These are not traits that
+are commonly found among people who have chosen to do advanced intellectual research,
+which typically requires many hours of quietly sitting alone and reading and writing.
+Finally, I suspect at least some researchers are overestimating how much time they’re
+spending on activities that have a meaningful impact on policy. Publishing a paper on your
+organization’s website that includes recommendations for policymakers is typically not an
+effective way of actually reaching those policymakers, especially if you don’t have any
+statistics on how many times the paper is being downloaded or who is downloading it.
+Submitting a response to a federal agency’s Request for Information is a little more
+effective, because then at least you know that one of that agency’s staffers will have to
+skim your paper for long enough to catalog it, but you’re still not guaranteed to reach
+anyone who has any decision-making authority. Showing up at a policy conference that
+includes some Congressional staffers or agency officials can be a good way to network, but
+if you are not personally interacting with those officials at the conference, then the benefit
+is limited.
+If you’re working in research and you think your research is impacting policy makers, it’s
+worth asking: which government officials have I personally talked to this month? Did they
+say that they changed their mind about anything? Did they make any new promises to vote
+for or co-sponsor or edit or introduce any laws or regulations? Did they say that they
+would ask a question at a hearing, or send an official letter to an AI developer asking them
+to defend their actions? If you haven’t talked to any government officials, or if you can’t
+explain how those government officials will behave differently as a result of your
+conversations, there’s a good chance that your advocacy isn’t very effective.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+7/23
+
+I do not want to entirely dismiss the advocacy being done by researchers; I’m sure it has
+some positive impact – but because it’s diluted in all these different ways, I don’t think it
+substantially changes my point that we have more researchers than advocates. Even if we
+make the somewhat generous assumptions that all 200 researchers are spending 10% of
+their time on advocacy, and that their advocacy is half as effective per hour as the work
+done by full-time professional advocates, that would add another 10 advocates to the pool,
+and it would subtract 20 researchers from the pool, meaning the effective ratio would be
+roughly 180 researchers to 65 advocates – still almost 3:1. 
+Put the Largest Team on the Most Central
+Problem
+There is no good reason to have three times as many researchers as we do advocates. On
+the contrary, we should have more advocates than researchers, because advocacy is a more
+central problem than research in AI governance. The reason why advocacy is more central
+is that (as I’ve been arguing throughout this sequence) AI governance isn’t a problem that
+can be solved with better knowledge; we have to actually go and change AI developers’
+incentives, or else we are probably going to die when the developers release misaligned
+superintelligence. 
+To the extent that academic research on AI governance steers the future at all, it does so by
+making AI governance advocates more effective – and in that sense, the benefit of
+academic research is indirect, not central.
+Multiplier Effects and Staffing Ratios
+The main reason why you want a relatively large group of people working on a central
+problem and a relatively small group of people who are indirectly supporting that first
+group is that the benefit of each indirect “support worker” is multiplied by the number of
+direct “core workers” on your team. The larger your core team, the more good each support
+worker does; the smaller your core team, the less good each support worker does.
+To see why, suppose you have one year to build as many single-family homes as possible
+on a 300 acre lot, and suppose you have a construction crew of 1,000 workers. In that
+situation, it makes perfect sense to assign one of those workers to work full-time as a
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+8/23
+
+surveyor, so that you can lay the buildings out neatly and make the most efficient possible
+use of the land.
+Alternatively, suppose your construction crew is only 2 workers: you and a friend. In that
+situation, it’d be crazy to assign your friend to do full-time surveying, because your
+limiting factor is not the land, it’s your time: you’ll be lucky to build even a couple of
+houses in one year with just the two of you working, so you’d better focus on putting up
+drywall and doors and windows and so on, even if that means your houses aren’t neatly
+arranged in a perfect grid.
+In both examples, surveying is a net positive activity – but it’s a thousand times less
+effective in the second example, because there are a thousand times fewer carpenters to
+benefit from it.
+Adding more surveyors to the second example would not be expected to add more than a
+tiny bit of marginal value. If you have one carpenter and five surveyors, the carpenter will
+be able to work on an incredibly precise and accurate grid…but there’s still only one
+carpenter and they just can’t swing their hammer enough times to put up more than a
+couple of homes in one year, no matter how well-organized the grid is. In this situation, if
+at all possible, you would want to reassign one of the surveyors to work as a carpenter,
+even if they were a professional surveyor who was brilliant at their job and who didn’t
+know much about carpentry. 
+If they needed to spend six months learning carpentry before they knew enough to start
+doing work on the doorframes, that would be a perfectly reasonable trade-off: their six
+months working as the second carpenter will get more homes built than their twelve
+months working as the sixth surveyor.
+For similar reasons, if your goal is to distribute good music as widely as possible, you don’t
+want one pianist with four piano tuners. If your goal is to rapidly respond to fires, you
+don’t want one firefighter supported by ten telephone dispatchers. If your goal is to run a
+successful restaurant, you don’t want two cooks supported by a team of thirty customer
+service reps handing out customer satisfaction surveys. 
+This is not to disparage the role of piano tuners or telephone dispatchers; obviously you
+want someone to answer the phone when you call emergency services. In fact, if you had
+zero telephone dispatchers, the firefighter might be useless, because they wouldn’t know
+where to go. However, it would be very, very rare for you to need more dispatchers than
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+9/23
+
+firefighters. It’s not about which job is more important; it’s about what staffing ratio
+makes sense given the marginal gains from adding an additional person in each role. 
+The marginal gains from adding another core worker are almost always moderate; they
+scale approximately linearly until you saturate the field. If you have 500 carpenters, you
+can build houses in a large neighborhood about five times as fast as if you had only 100
+carpenters. 
+By contrast, the marginal gains from adding another person who makes core workers
+more efficient vary quite a lot depending on staffing ratios. The marginal value of adding
+another support worker is very high when the core team is large relative to the support
+team, and very low when the core team is small relative to the support team. If you have
+100 carpenters and 0 surveyors, adding your first surveyor adds lots of marginal value. If
+you have 10 carpenters and 10 surveyors, adding an 11  surveyor adds very little marginal
+value.
+Whichever activity is closest to your core goal almost always needs to have more people
+working in it than the activities that support that goal by making it more efficient, because
+otherwise the arithmetic starts working against you. It mostly doesn’t matter how
+efficient the core activity is if barely anyone is performing that core activity.
+How Many Levels Removed Are You?
+The problem of indirect support teams needing to be small relative to the core teams
+they’re supporting grows even more acute when there are multiple layers of separation
+between the support team and the ultimate goal.
+Marathons and S’mores
+To see what I mean by “multiple layers of separation,” consider someone whose ultimate
+goal is to run a marathon. A level 0 activity for this person might be going on a training
+run – the training run directly contributes to your ability to run the marathon, so it’s zero
+levels removed. Buying sneakers is a level 1 activity for this goal – it’s one level removed
+from your goal of running the marathon. With a better pair of sneakers, you can train
+harder with less risk of injury, but sneaker-shopping is only useful if you actually go and
+use the sneakers to help you train. A level 2 activity is reading online reviews of sneaker
+quality – if you know more about which sneakers are best, you can buy a better pair – but
+th
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+10/23
+
+this is only useful if you use what you learn to buy the best sneakers, and then use those
+sneakers to go on harder training runs. A level 3 activity is installing a new web browser
+that loads reviews faster – with a better browser, you can learn about the best sneakers
+more efficiently, but this is only useful if you actually use the browser to read several
+reviews, which is only useful if you then go out and buy the best sneakers, which is only
+useful if you then go on harder training runs. A level 4 activity is teaching yourself HTML
+– if you learn more about how browsers work, you’ll be able to do a better job of selecting
+the best browser, which will let you load reviews faster, which will let you pick out better
+sneakers, which will let you go on harder training runs, which will help you run the
+marathon.
+Hopefully it seems obvious that learning HTML is a terrible way of preparing to run a
+marathon – if your actual goal is to finish the marathon, then you would be much better
+off skipping the HTML lessons and reallocating that time to jogging practice or stretching
+or even just getting more sleep. Because learning HTML is so many layers removed from
+your actual goal, it’s not an efficient way of accomplishing that goal. 
+Even if you were the coach of a large high school track team, you probably still wouldn’t
+assign even one student to spend every practice learning HTML. The multiplier effect of
+learning HTML is so small (because it’s so far removed from the core activity of running)
+that you would need to be able to reap that effect across hundreds of thousands of runners
+before that kind of specialization started to make sense. If you have fewer people than that,
+you would want to do things that are more closely tied to the core activity. 
+Similarly, if your ultimate goal is to roast some s’mores, the level 0 activity could be
+lighting a fire. To prepare to light the fire, you might perform the level 1 activity of
+gathering firewood. To help you gather firewood more efficiently, you might perform the
+level 2 activity of sharpening the axe that you use to chop wood. To help you sharpen the
+axe more efficiently, you might perform the level 3 activity of talking to friends and
+discussing which blade-sharpening techniques work best. However, if most of your friends
+aren’t interested in this topic, then you might perform the level 4 activity of travelling to a
+blade-sharpening convention so that you can meet more people who like to talk about
+blade-sharpening.
+Again, hopefully it seems obvious that going to a blade-sharpening convention isn’t a good
+way of roasting s’mores – the hours it would take you to travel to and from the convention
+far outweigh the seconds you might hope to gain by sharpening your axe more efficiently,
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+11/23
+
+and in any case you can probably just buy some firewood at your local hardware store for
+less money than it would cost to go to the convention. Meeting blade-sharpening experts
+is so far removed from the core task of roasting marshmallows that it’s not a reasonable
+way of pursuing that goal.
+These are silly examples, but as I’ll show in the rest of this subsection, they follow
+approximately the same structure as what we’re doing right now in AI governance. Writing
+an academic paper about AI governance is about as far removed from the task of changing
+Sam Altman’s incentives as learning HTML is from running a marathon. It’s not that the
+paper can’t be helpful – it’s that the help is so far removed from the core activity of fixing
+AI developers’ incentives that it would have to be spread across thousands of advocates
+before it was more cost-effective than just directly working on advocacy – and because we
+don’t have thousands of advocates, we’d be better off focusing most of our efforts on
+lower-level tasks.
+0 Levels Removed: Government. 
+The “level 0” task for AI governance mostly happens inside the government. For example,
+passing a law that penalizes reckless developers is zero levels removed – it directly
+changes AI developers’ incentives. The people who can do level 0 work include legislators,
+regulators, judges, prosecutors, and police. To the extent that AI developers need insurance
+or private accreditation, this group might also include insurers and auditors. Similarly, if
+there are strong enough norms in place about following industry standards, then the
+people who sit on a committee that writes industrial standards (e.g., at IEEE, or at NIST)
+might also belong in this group.
+Right now, almost no level 0 work is happening, because there are very few laws that
+require any particular behavior from AI developers. The closest recent example I can think
+of is Congress’s passage of the Take It Down Act, although this deals only with one
+particular harm from AI, and not with existential risks.
+1 Level Removed: Politics. 
+Activists and advocates who are trying to convince the government to change the rules
+about how to develop AI are doing “level 1” work; they are one level removed from the task
+of giving AI executives a better set of incentives. The vast majority of activism doesn’t
+directly change AI companies’ incentives; Sam Altman probably doesn’t care very much
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+12/23
+
+how many people are protesting outside his sound-proofed office. However, protestors can
+sometimes convince legislators to write new laws, which would change Sam Altman’s
+incentives.
+Examples of level 1 work include sending your Congressperson questions to ask at a
+hearing, meeting with agency officials, giving press conferences, writing open letters,
+filing litigation, campaigning for Senator Hawley or against Senator Cruz, and organizing
+boycotts. Right now there is not much level 1 work happening, because the AI safety
+movement employs very few professional advocates. One recent example that does qualify
+as level 1 work is the letter to the California Attorney General urging him to block OpenAI’s
+conversion to a for-profit company. The letter prominently features a specific request for a
+specific politician to take a specific action, which, if agreed to, would immediately change
+an AI developer’s incentives.
+This is the kind of work that I would like most of the AI governance community to be
+doing.
+2 Levels Removed: Drafting. 
+Policy wonks who are drafting specific, concrete policies for the activists to promote are
+doing “level 2” work, in the sense that this work is two levels removed from changing the
+incentives of AI laboratories. This could include writing laws, writing regulations, writing
+treaties, writing contracts, writing industry standards, or writing corporate governance
+documents. By itself, writing up the text of model legislation doesn’t do anything to
+change Meta’s incentives, but it’s possible that a political advocate will be able to use that
+model legislation to make a more effective pitch to a Congressperson, who will in turn be
+more motivated to try to pass a law that would change Meta’s incentives. I’ll cover specific
+examples of the documents that need to be written in post 5 of this sequence.
+Other activities that belong in this category include opposition research, polling, and legal
+surveys. To do their jobs effectively, advocates may want juicy gossip about the
+weaknesses of their political opponents, so that those opponents are easier to discredit. For
+example, if you can show that a supposedly independent medical clinic is actually funded
+by the tobacco industry, then politicians will be less likely to believe that clinic when it
+publishes studies purporting to show that, e.g., cigarettes are perfectly healthy. Similarly, if
+you have a poll showing that a large majority of experts or of the American public all
+support a particular policy, then it’s easier to get Congresspeople to support that policy. 
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+13/23
+
+Finally, if, as an advocate, you know what other key players are doing in your field, then it’s
+easier for you to convince lawmakers to trust you and to follow your advice, because you
+seem well-informed about things that politicians care about. A modest amount of
+background research on, e.g., what state legislatures are doing on AI governance, or what
+federal agencies are doing on AI governance, can enhance advocates’ persuasive power,
+and is therefore only two levels removed from the core task of changing AI companies’
+incentives. A good example of this kind of legal survey is Convergence Analysis’s 2024
+State of the AI Regulatory Landscape.
+It makes sense for a portion of the AI governance community to do this kind of work –
+10%, or 20%, or something along those lines. We don’t need as many drafters as we do
+advocates, but the drafters are still valuable.
+3 Levels Removed: Commentary. 
+Any document that’s offering any kind of commentary on someone else’s policy proposal
+is at best “level 3” work. This includes papers that offer constructive criticism about an
+existing idea, that evaluate the likely impact of one or more policy proposals, and that
+muster arguments for or against a particular policy proposal. If you’re arguing about how
+many FLOPs a threshold should be set at, that’s three levels removed from the core work of
+changing AI companies’ incentives. This work can only be effective if there’s already a
+reasonably well-drafted concrete policy proposal in play, which is already being promoted
+by reasonably competent advocates, who are already being listened to by reasonably
+powerful politicians. If any of those steps are missing, then the commentary has no
+measurable impact on the real world.
+Similarly, if the main contribution of a document is to suggest a new policy idea that
+someone else might someday want to flesh out into a concrete policy proposal, then that’s
+three levels removed from the core task of influencing AI companies’ incentives. Until
+someone actually goes and does the work of drafting up that policy proposal into
+something reasonably concrete, it doesn’t have any impact at all on which models
+DeepMind will deploy. 
+For example, inventing the idea of “compute monitoring” or explaining why compute
+monitoring would be good policy is level 3 work. It’s potentially helpful if someone else
+goes and drafts a bill that implements compute monitoring, and then someone else shows
+that bill to politicians, and then those politicians are convinced that it’s worthwhile and
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+14/23
+
+pass it into law. However, if nobody ever writes up a sample compute monitoring bill, or at
+least fleshes the idea out enough to show how precisely how it could work, then compute
+monitoring remains stuck at the idea stage. Politicians are too busy to take an abstract idea
+and turn it into a law all by themselves. If nobody does that work for them, then nobody
+will actually go and monitor Amazon’s chips, and Amazon will remain free to rent or sell
+their compute to anyone who can pay, even if compute monitoring is a brilliant idea with a
+mountain of evidence behind it.
+If there are only 60 AI governance advocates, it’s not obvious that any of them should be
+working full-time on creating this kind of commentary – whatever marginal gains can be
+had from improving the quality of theoretical policies (which might get drafted someday)
+are heavily outweighed by the need to go and actually draft any policies at all (right now)
+and then show those drafts to decision-makers (next month). I expect this point will seem
+more compelling after you read post 5 in this sequence, which catalogs all of the
+‘orphaned’ policy ideas that have been sitting on arXiv for years, patiently waiting for
+someone to bring them to Capitol Hill for the first time.
+Another reason not to stress over making marginal improvements to as-yet-undrafted
+policies is that whether any given policy gets passed has more to do with the news cycle
+and the force of the advocacy behind it than the exact quality of the policy. This is
+sometimes called the “multiple streams framework” or just “waiting for the policy window
+to open.” If you have a strong political coalition supporting a mediocre policy during a
+month when the news won’t stop talking about your issue, the mediocre policy is pretty
+likely to pass; if you have a mediocre political coalition supporting an excellent policy
+during a month when the news is ignoring you, the excellent policy is very likely to fail. If
+this doesn’t seem obviously true, it might be worth reflecting on all of the mediocre
+policies that have already become law. How do you suppose they got passed?
+Because of these dynamics, we’re much more likely to succeed by taking a higher number
+of reasonable shots on goal than by trying to take one perfect shot. Besides, the quality of
+even our roughest policies is still much better than the policies we’ll get under the status
+quo. Unless and until we get something done in government, the default policy is that
+companies keep recklessly developing and scaling unsafe models until one of them kills
+us. Compared to the status quo, almost any AI governance policy would be a major
+improvement.
+4 Levels Removed: Theorizing. 
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+15/23
+
+Many of the documents being created by AI governance researchers are still yet further
+removed from the core task of altering AI developers’ incentives. They don’t offer any
+significant new commentary on any particular policy proposal – instead, they consider
+abstract or academic policy questions, or they seek to categorize or organize existing
+material.
+For example, “Considerations for Governing Open Foundation Models” is not advocating
+on behalf of any particular policy tool for coping with open source models, nor is it directly
+making suggestions about how to improve a policy on open source models. Instead, it
+catalogs some of the risks and benefits of open source models. This could be indirectly
+useful if, e.g., someone were trying to offer constructive criticism about an open source
+policy proposal and they weren’t sure what categories or concepts they should be
+referencing – but if nobody is writing that particular piece of constructive criticism, or if
+the underlying open source policy proposal hasn’t yet been fleshed out, or if no advocate is
+presenting that proposal to politicians, or if the politicians don’t vote the proposal into law,
+then this research does not have the power to steer us into a different future.
+Similarly, “An Overview of Catastrophic AI Risks” is not primarily aimed at supporting any
+particular policy proposal. Instead, the paper says that its “goal is to foster a
+comprehensive understanding of these risks and inspire collective and proactive efforts to
+ensure that AIs are developed and deployed in a safe manner.” Most of the 55-page paper
+discusses how AI development could cause harm, with only about 6 pages going toward
+“suggestions” about how to respond to these risks. Because these suggestions cover
+several different policy ideas for each of four different types of risks, it is difficult for these
+suggestions to cover new ground or go into substantive detail. For instance, the suggestion
+on “legal liability for developers of general-purpose AIs” does not endorse any particular
+liability regime. Likewise, the suggestion about “adversarially robust anomaly detection”
+notes that “AIs could enable anomaly detection techniques that could be used for the
+detection of unusual behavior,” but does not say anything about how to measure the
+effectiveness of such techniques or how to hold AI developers accountable for
+implementing such techniques. 
+As a result, the paper is what it claims to be: an overview. Policy wonks might find the
+overview helpful as they try to think of new kinds of policy proposals, which in turn might
+help legislative drafters write up stronger model legislation, which in turn might help
+political advocates make a stronger case for AI governance to politicians, who in turn
+might be more motivated to pass AI safety laws – but because we have so few advocates,
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+16/23
+
+it’s very likely that this chain of cause and effect will break somewhere in the middle. Even
+if the chain holds, the research probably won’t drive a significant amount of policy change,
+because it’s not obvious how any particular advocate is supposed to use this research. The
+overview is too long to be of interest to most policymakers, yet too vague to contain
+concrete new policies.
+Another type of research paper tries to estimate a particular fact or make a specific
+prediction about the future, even if this prediction does not directly bear on any particular
+policy. For example, Daron Acemoglu’s research predicts that AI technologies will increase
+total factor productivity by about 0.66% over the next 10 years. It’s not immediately
+obvious how (if at all) this finding connects to any particular AI governance effort.
+Professor Acemoglu suggests that economic results will be better if “AI is used for
+generating new tasks for workers,” but it is not clear who could ensure that this happens or
+how they would do so. As a result, his research is at least four levels removed from the core
+task of changing AI developers’ incentives.
+Some academic research tries to make qualitative predictions, rather than quantitative
+predictions. Earlier this month, RAND published the 73-page paper “On the Extinction
+Risk from Artificial Intelligence.” The goal of this paper is not to pin down any particular
+fact or statistic, but rather to “see if we can describe a scenario in which plausible
+extrapolations from current circumstances could lead to an outcome that meets our
+definition of an extinction threat.” The paper considers AI-related threats from nuclear
+war, bioweapons, and geoengineering, and eventually determines that “an extinction
+threat is at least possible” from each of these types of threats, but that AI would have to
+overcome significant barriers to literally trigger human extinction. 
+The paper concludes by recommending several avenues for further research, including
+research into cybersecurity, research aimed at identifying relevant “risk indicators,”
+research into new types of threats, and research aimed at identifying “decision triggers.”
+Although the paper briefly suggests that humanity should improve its general resilience
+by, e.g., reducing nuclear weapons stockpiles and preparing for future pandemics, the
+paper does not say who specifically should pursue these goals or how they should
+accomplish them. It is not clear that the paper is even attempting to recommend that any
+government, company, or trade group should take any particular action. As a result, this
+paper appears to be at least four levels removed from the task of changing AI developers’
+incentives.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+17/23
+
+One way of interpreting the RAND paper is as a call for national security experts to pay
+more attention to existential risks from AI. On this theory, the point of the paper is not to
+immediately advocate for any particular policy change, but rather to shift politically
+valuable experts into ‘our’ camp, so that future policy changes will be easier. 
+There are two problems with this theory. First, the paper seems to be aimed primarily at
+national security researchers, rather than national security policymakers. The ‘action item’
+mentioned most often in the paper is the need for more research to be done on particular
+topics. There are no specific recommendations made in the paper that Marco Rubio or
+Steven Miller or Dan Caine could reasonably act on. Second, if the paper is meant as a
+recruiting tool, then it’s not obvious why it wouldn’t be more efficient to directly lay out
+arguments why national security experts should start working on existential risk from AI. 
+It’s possible that there’s some kind of 5-D chess game being played here where offering an
+academic discussion of AI problems will subtly attract national security policymakers in
+ways that are not apparent to me as someone who’s only spent three years in DC. I don’t
+object to having some experts play some 5-D chess…but I believe that in addition to the 5-
+D chess, we should also be trying the direct strategy of clearly explaining what we want
+and why we want it. That direct strategy seems to be woefully underemployed. If our
+intermediate goal is to recruit more national security policymakers, then I would like to
+see someone publish a paper with a title like “Why National Security Experts Should
+Address Existential Risks from AI.”
+As one final example of “level 4” research, consider the paper “Who Should Develop Which
+AI Evaluations?” The paper discusses four different methods that could be used to develop
+AI evaluations, suggests some of the advantages and disadvantages of each method, and
+then uses this analysis to propose criteria that could be used to determine which method to
+use for particular types of evaluations. The categories developed in the paper are quite
+reasonable, but the paper is almost entirely disconnected from any concrete
+recommendations. It does not say which politicians should act, or when, or what they
+should do. If AI developers choose to use whichever evaluations are best for their
+marketing, rather than use the evaluations that are best for public safety, how would the
+authors respond? It’s not clear. The connection between this paper and the success of any
+particular advocacy campaign is, at best, very thin. This is typical of most of the AI
+governance research that I’ve seen in the last few years.
+What Kind of Research Helps Advocates?
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+18/23
+
+All of the examples I’ve cited here are, in my opinion, excellent academic research. For
+example, Professor Acemoglu’s research won a Nobel Prize. My purpose in citing these
+examples is not to criticize them as academic research, but rather to point out that even the
+best academic research is unlikely to have much marginal impact on AI developers’
+incentives. Just because a paper has “extinction risk” in the title doesn’t mean that
+publishing the paper will reduce extinction risks. There’s not much correlation between
+how academically important a paper is and how useful that paper is to advocates.
+This can be difficult to accept, especially if you or your friends are currently working on AI
+governance research. It's tempting to generate reasons why research is valuable even if it
+doesn’t straightforwardly lead to better laws. Perhaps research can add to the credibility of
+the AI safety movement as a whole, or perhaps research is a good way to make valuable
+connections with other experts, or perhaps research will help us identify the best possible
+policies so that if we (somehow) acquire some political power in the future, we’ll be able to
+use that power as effectively as possible.
+I don’t actually disagree with any of these suggestions – I just think they’re not intense
+enough to outweigh the benefit of having another advocate out there knocking on doors
+and directly telling politicians about existential risk. 
+We really need everyone we can get to spread the word in DC. I have been shocked and
+humbled to see how many Congressional offices were simply unaware of basic facts about
+AI safety. In December 2024, I met with at least five offices – including some on the
+Judiciary Committee – who were very surprised to hear that AI developers aren’t covered
+by existing whistleblower laws. In February 2025, we met with a Representative who didn’t
+know that large language models aren’t naturally human-interpretable. In April 2025, I met
+with a district office director who asked me for informational materials to help explain
+what a data center is. If we don’t send people to DC to personally tell politicians why
+misaligned superintelligence is dangerous, then most of them won’t ever understand. 
+We don’t need to do advanced research to cure this basic ignorance: we just need to talk to
+people, preferably over coffee. There is so much low-hanging fruit on the ground. I’m
+begging you to help me pick it up. I think many of the people who have been working in
+academic research could and should learn how to become effective advocates – even today,
+there are very few people who clearly understand the risks from misaligned
+superintelligence, and that’s an understanding that’s absolutely necessary to successfully
+advocate for better AI governance.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+19/23
+
+For researchers who can’t or won’t work directly as advocates, I strongly urge you to find a
+way to refocus your next paper on something that’s fewer levels removed from the core
+task of changing AI developers’ incentives. If you’ve been writing level 4 theory papers,
+consider writing a level 3 commentary on a specific policy instead. If you’ve been writing
+level 3 commentary, consider actually drafting a level 2 example of a policy and including
+that draft as part of what you publish. 
+After you publish a paper that took you four weeks of work to write, I challenge you to take
+5% of that time – 8 hours by the clock – and spend it trying to get that paper into the hands of
+someone with some decision-making authority. If you don’t know anyone with decision-
+making authority, spend the time calling or emailing your colleagues and seeing if they
+can introduce you. If your colleagues don’t know any decision-makers either, then spend
+the time going to a conference or a meetup and keep meeting more people until you do
+know someone who can change a policy.
+In the next post in this sequence, I’ll talk about why now is the right time to shift resources
+from research to advocacy. A decade ago, we were absolutely right to be focused on
+research, because you need abstract research to found a new field. Now that the field of AI
+governance has been reasonably well-established, though, we need to work in that field,
+which means we need to put down some of our pencils and pick up some telephones. I will
+examine various reasons for further delaying that shift and show why none of them are
+defensible.
+Mentioned in
+122
+Next:
+Shift Resources to Advocacy Now
+(Post 4 of 7 on AI Governance)
+5 comments
+63 karma
+Previous:
+The Need for Political Advertising
+(Post 2 of 7 on AI Governance)
+No comments
+61 karma
+Log in to save where you left off
+The Center for AI Policy Has Shut Down
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+20/23
+
+59
+Comments 3
+Sorted by New & upvoted
+Marcus Abramovitch 🔸
+1
+0
+12
+This is a great post. Way too many people in EA want to be able to do remote work behind a computer
+and not get into the thick of things that actually change things. I agree with your marathons and
+smores analogy; I don't think I agree specifically with what you called the Levels for AI work but I
+digress since I like the main message. 
+Too often, I think people make the mistake that if they are working up the stack, they are getting a lot
+of leverage but we need 10x the amount of people at the lower trophic levels and without those, you
+don't have any leverage at all. There are few exceptions to this of course, like MATS who produce a
+bunch of AI safety researchers but that's directly increasing the number of "level 0" people.
+Jason Green-Lowe
+0
+0
+1
+Yes, that's a great insight! People assume that if they're high up the stack, then they must have a lot
+of leverage -- and this can be true, sometimes. If you are the first person to run a study on which
+curable diseases are neglected, and there are a million doctors and nurses and epidemiologists who
+could benefit from the results of that study, your leverage is enormous.
+However, it's not always true. If you're the 200th person to run a study on the risks of AI, but there
+are only 60 AI advocates who can benefit from the results of that study, then your leverage is weak.
+I don't want to insist on any particular number of levels for any particular kind of work -- the key
+point is that on average, AI governance is way too high up the stack given our current staffing ratios.
+Jonathan Jacqueminet
+0
+0
+2
+I agree with these arguments. Though part of me feels like research (both practical policy research
+and abstract research) is still very important because it seems we don't actually have sufficiently
+good answers just yet. 
+Obviously, the shorter your timelines, the more freestyle muddling through based on uncertainty
+about good solutions seems optimal.
+For me, this post also goes hand in hand with this post by Soares about being honest in your belief
+about AI risks.
+Career Advice for Policy Researchers
+11mo
+11mo
+9mo
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+21/23
+
+More from Jason Green-Lowe
+View more
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+22/23
+
+Recent opportunities in AI safety
+View more
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+150
+· 7d ago · 7m read
+9
+Topaz, Agustín Covarrubias 🔸, Alexandra Bates + 2 more
+148
+· 8d ago · 9m read
+16
+Sophie Kim
+Pivotal Research Fellowship applications are open (deadline May 3)
+AI Safety's Biggest Talent Gap Isn't Researchers. It's Generalists.
+The Anthropic IPO Is Coming. We Aren't Ready for It.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+We're Not Advertising Enough (Post 3 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ZLDcoLzxLGtcBD6ok
+23/23

@@ -1,0 +1,494 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+AI governance
+Frontpage
+In my first three posts in this sequence, I estimated that we have 3 researchers for every
+advocate working on US AI governance, and I argued that this ratio is backwards. Even the
+best research offers only modest and indirect support for advocacy, and research alone has
+negligible political power. Without political power, we can’t change the bad incentives of AI
+developers that are very likely to lead to the collapse of human civilization.
+In the fourth post of this sequence, I acknowledged that some amount of initial research to
+lay out the philosophical foundations of a new field might be needed before advocacy can
+begin, but I also showed that this initial research has been thoroughly completed. We know
+why unregulated AI is bad and we know at least some harmless ways that we can make
+progress toward fixing that problem.
+In the fifth post of this sequence, I illustrated that point by listing eleven examples of
+‘orphaned’ policies. Each of these policies was proposed by academic researchers – often
+several years ago – but the policies have not been drafted in any detail by policy wonks, let
+alone presented to decision-makers by political advocates. We clearly have an over-supply
+of academic ideas and an under-supply of political elbow grease.
+This means that it’s very strange that so much of the AI safety movement’s funding has
+gone toward academic-style research and is continuing to go towards more research.
+Presumably, the funders can see the same trends that I’ve laid out in this sequence: they
+Political Funding Expertise (Post 6 of 7 on AI
+Governance)
+by Jason Green-Lowe
+Jun 19 2025
+INTRODUCTION
+The Story So Far
+37
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+1/14
+
+should know as well as I do that funding more researchers than advocates is deeply
+suboptimal.
+So, why do they keep doing it? My best guess is that they’re biased by their own
+backgrounds: the staff of major AI safety funding organizations are overwhelmingly
+drawn from academic-style research environments. This may be causing them to fund
+other researchers even when that’s not strategically optimal, simply because they’re more
+comfortable with research or they are better able to understand the benefits of research.
+In this sixth post, I will argue that rationalist and effective altruist funders should repair
+this flaw in their staffing so that they can more accurately evaluate the usefulness of future
+grant proposals. To its credit, Open Philanthropy hired an actual governance expert in
+April 2025, shortly after it finalized its decision not to fund CAIP. Similarly, in June 2025,
+Longview Philanthropy advertised an opening for an AI policy expert. However, these
+efforts are too modest and too recent to fully address the problem. It takes more than one
+or two experts to adequately evaluate an entire field’s worth of advocacy proposals, and
+grant-makers should have been aware of this problem and taken action to address it well
+before 2025. It is deeply concerning that with the politics of AI regulation making front-
+page headlines all through 2023, the movement’s grant makers are only just now hiring
+people who are qualified to evaluate grant applications to conduct political advocacy.
+I shared a draft of this post with all five of the major AI safety grantmakers (Open Phil,
+Longview, Macroscopic, LTFF, and SFF) a week before it went live to allow them a chance to
+respond to the criticisms made here. The general nature of this post has also been public
+for some time, since the table of contents for the entire sequence went up on May 22, 2025.
+Several of these grantmakers helpfully and graciously engaged with the draft by pointing
+out factual errors and misunderstandings; I am grateful to them for their thoughtful
+comments, and I believe that this post is stronger because of their feedback.
+Nevertheless, I have not received any information from the grantmakers that satisfactorily
+addresses the core problems I am discussing here. To the extent that the lack of
+experienced advocacy staff among the major AI safety funders was an accidental
+oversight, I would like the AI safety movement’s grantmakers to explain how they will
+avoid similar mistakes in the future. To the extent that this was an intentional decision, I
+Response From AI Safety Grantmakers
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+2/14
+
+would like an explanation of why funders feel that they can evaluate political grantees
+without having political experts on staff. 
+So far, neither explanation has been provided. Until that changes, I would urge private
+donors to consider making their own grant evaluations going forward for political
+projects, rather than deferring to the judgment of large institutional donors like Open
+Philanthropy – if they cannot or will not explain their methods, then it is not obvious that
+their judgments are worthy of deference.
+I will go into more detail about this last point in my seventh and final post, which shifts
+gears from a lack of political advocacy experience among AI safety grantmakers to a lack of
+mainstream philanthropic experience among AI safety grantmakers. In the seventh post, I
+will argue that although EA grantmakers are unusually good at choosing which cause areas
+to fund, they have no special advantage at choosing which grants to fund within a given
+cause area. If anything, EA grantmakers are likely to be somewhat worse than average at
+choosing specific grants within a cause area, because they have not hired people who are
+familiar with the best practices for this particular task, and as a result their grant
+evaluation methods appear to be excessively informal.
+My purpose in reviewing the credentials of the people discussed in this post is to
+demonstrate that the AI safety grantmaking ecosystem as a whole is seriously lacking in
+political advocacy experience. I cannot figure out how to make this point effectively
+without commenting on the experience levels of individual people, but this section is not
+intended as an attack on the usefulness of any particular person, much less as an attack on
+their character. On the contrary, my experience with the handful of people whom I have
+worked with from this list is that all of them are thoughtful, intelligent, hard-working, and
+well-intentioned.
+However, when it comes time to evaluate whether the AI safety grantmaking field as a
+whole is well-equipped to discharge its responsibilities, these positive personal qualities do
+not outweigh a profound lack of relevant experience. Each individual person can be good
+AI SAFETY GRANTMAKERS HAVE VERY
+LITTLE POLITICAL EXPERIENCE
+Context, Purpose, and Methodology
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+3/14
+
+and talented and helpful, but if none of them are professional advocates, then as a group
+they will make predictable and avoidable mistakes when they try to evaluate advocacy
+proposals. No amount of purely academic understanding can fully compensate for the
+missing personal experience of how politics and government operate on a day-to-day
+level.
+In my own role as the executive director of an advocacy organization, I often had to defer
+to the superior experience of the government relations and media relations experts who I
+hired, because they knew more about their fields than I did. I have a degree in Political
+Science from Yale and in Law from Harvard, and I’ve worked for several years in fields that
+have some relevance to CAIP’s work, such as product safety litigation and nonprofit
+regulatory counseling. I have interned for a Senator and for the Justice Department.
+Nevertheless, I knew that I did not know enough to set myself up as the sole judge of which
+advocacy tactics would be effective, and so I hired true professionals who each had at least
+a decade of experience working on Capitol Hill and then regularly sought and followed
+their advice. It is my hope and my expectation that large AI safety funders will
+demonstrate this same humility.
+To emphasize the fact that I am not intending to criticize any particular person’s
+credentials, I have moved all of the individual reviews out of this post and into a separate
+Google Doc. Moreover, even within this separate Google Doc, individuals are not directly
+named – instead, each entry in the census links to that person’s bio on their institution’s
+website. This should make it harder for individual people’s names to appear in connection
+with this review as part of, e.g., a Google search, and easier for people to look past the
+records of individual people to see the broader point that I am making about staffing ratios
+and missing expertise.
+In order to assess the professional expertise of AI safety grantmakers, I am relying
+primarily on their public LinkedIn profiles and their public bios from their institutional
+websites. I may be unaware of or have overlooked some relevant professional experience. If
+you can add additional information about someone’s political or philanthropic expertise
+that I have not mentioned here, please do so in the comments or by emailing me at
+jason@aipolicy.us, and I will be very happy to correct the record.
+For me to classify someone as a political advocacy expert, they must have the equivalent of
+several years of full-time, post-college work experience in politics or government,
+including at least one experience where they were directly engaged in trying to persuade
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+4/14
+
+other people to adopt a political position. If you have read the rest of this sequence, you will
+not be surprised to hear that I am not including time spent working as an AI governance
+researcher toward the definition of “advocacy expertise.” My fundamental point is that
+academic-style research about policy options – even if it is at a think tank that happens to
+be located in DC – does not use the same skills or involve the same problems as direct
+advocacy for policy change.
+If it is unclear whether someone is a political advocacy expert, or if it seems clear that they
+have spent about two to four years working on political advocacy, then I classify them as a
+“close call” and count them as the equivalent of 50% of a full political advocacy expert.
+If someone has worked at a few political internships or on a few political side projects that
+seem to add up to roughly one year of full-time equivalent experience (i.e., roughly 2,000
+hours of total work), then I list them as having “minor or incidental advocacy experience.”
+I count each of these people as 15% of a full political advocacy expert, on the theory that
+they’ve spent less than one-seventh as much time working in that field compared to a
+mid-career professional whose primary career has been in political advocacy.
+In the census, I describe several people as having work experience that primarily involves
+“research” or “academic-style research.” The point of this category is not that these people
+are literally professors affiliated with a university. Rather, my point is that they seem to be
+interacting with the world primarily by reading and writing long documents that are
+usually abstract, conceptual, and/or exploratory. In other words, the questions they ask and
+the tasks they fill their day with are similar to the questions and tasks you'd see in
+academia. I also include a few recent graduates in this category, on the theory that most of
+their experience has also been colored by academia. I believe both researchers and recent
+graduates have a relatively distinct approach to the world, and that this approach tends to
+bias these grantmakers toward funding other researchers.
+The scope of this census is meant to include all of the people who appear to work on AI
+safety grantmaking at Open Philanthropy, Longview Philanthropy, Macroscopic Ventures,
+the Long-Term Future Fund, and the Survival and Flourishing Fund. Together, these
+organizations account for the vast majority of AI safety funding. When enough
+information is available to do so, I focus on the AI governance staff within each
+organization (as opposed to technical AI safety research). If there is not enough public
+information to tell which staff work on which grants, I review the credentials of all of the
+publicly listed employees who appear to have any role in evaluating grants. Some grant
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+5/14
+
+recommenders (e.g. at the Survival and Flourishing Fund) are not publicly listed; I have not
+attempted to find out or report anything about the credentials of anonymous
+recommenders.
+Based on my census, I count 1 person who definitely has political advocacy expertise, 5
+people who might have political advocacy expertise, and 10 people who have some
+incidental political experience. Counting the close calls at 50% and the people with an
+incidental background at 15%, you could say that after Longview completes its current
+hiring round, we will have the equivalent of 1 + 2.5 + 1.5 = 5 political experts in AI safety
+grantmaking organizations.
+Using that same census, I count 15 people whose background is primarily in academic-
+style research. To these 15 people, I add the equivalent of 2.5 more researchers based on the
+5 ‘close calls.’ I think this makes sense because the people named in the ‘close calls’ section
+have also done significant research work, and because the positions that Longview is
+hiring for might turn out to be filled by people whose primary background is in research.
+Similarly, of the 10 people who I classify as having incidental political exposure, 3 of them
+seem to have a significant background in academic-style research: Person K, Person L, and
+Person M. I therefore count each of them as 50% of an academic researcher. Adding the
+two and a half academic equivalents from the “close calls” section to the one and a half
+academic equivalent from the “minor political experience” section to the fifteen people
+from the “academic researchers” section means that we have the equivalent of 15 + 2.5 +
+1.5 = 19 researchers in AI safety grantmaking organizations. 
+19 divided by 5 is 3.8 – so we have almost 4 academic researchers for every advocacy
+expert on the largest AI safety grantmaking teams.
+I am aware that most of these funders at least occasionally consult with people who they
+see as outside political experts as part of their grant evaluation process. However, there are
+two problems with these informal consultations, and because of these problems, I think
+it’s still valid to say that academic researchers are about 4 times as influential as advocacy
+experts on our AI safety grantmaking teams.
+Summary of Results
+A Note on Informal Consultations
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+6/14
+
+First, I believe that at least some of the people being consulted are not true experts in the
+field. Based on private conversations I have had, many (although not all) of the outside
+consultants seem to be, e.g., first-time Congressional fellows who have only recently
+moved to DC. People who are relatively young or in relatively junior roles might not be
+given enough access to candid conversations among powerful actors to accurately assess
+what is about to happen next on Capitol Hill. Moreover, they might not have seen a wide
+enough variety of circumstances in DC to have fully calibrated their predictions about how
+politicians will behave. For instance, an intern who has only ever seen how Congress
+behaves under a divided government might not be able to accurately predict how Congress
+will behave when one party has unified control. 
+Because there are very few EA-affiliated senior political advocates, these more junior
+advocates are the people who are most likely to have close personal connections with staff
+at EA’s institutional donors. I acknowledge that when advisors disagree, grantmakers will
+somewhat discount the advice of these more junior advocates based on their relative
+inexperience. However, in the absence of any formal procedure for deciding how much
+weight to place on each consultant’s advice, I am concerned that grantmaking staff will
+nevertheless often choose (perhaps subconsciously) to put excessive weight on personal
+friendships. As I will discuss in more detail in my seventh and final post, I believe it is too
+easy for grantmakers to value the advice of relatively inexperienced friends who work
+closely with them over the advice of deeply experienced experts who are seen as outsiders.
+This ties into the second problem: there is not enough institutional incentive for
+grantmakers to heed the advice of the people being consulted. Being able to truthfully say
+that such people were consulted provides a reputational benefit to the grantmaking
+organization whether or not their advice is followed, and it is difficult for outsiders to
+observe how much influence any one consultant has on a final funding decision. There
+does not appear to be any formal process that would require grantmakers to make a note of
+instances when they are rejecting expert advice and explain their reasons for doing so. 
+If managers or other influential people inside a grantmaking organization prefer to fund
+academic research, and an informal outside consultant prefers to fund direct advocacy,
+then recommending that the manager’s advice be disregarded in favor of the consultant’s
+advice will often be costly in terms of internal office politics. Overruling the manager’s
+preferences may have negative consequences for the grantmaker’s career, or even for their
+social life, since many of the people who work in these funding organizations and in these
+research organizations are friendly and spend time together in social contexts. By
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+7/14
+
+contrast, ignoring the consultant’s preferences is psychologically painless, since
+grantmakers do not have to work alongside the consultant on a daily basis.
+We cannot rely on feedback from reality to pressure grantmakers into following expert
+advice, because AI safety governance has an essentially binary set of outcomes that do not
+lend themselves to rapid feedback: either civilization will end in an AI apocalypse, or it will
+not. By the time we observe whether AI governance grants have been successful, it will be
+too late to change course. As I will discuss in more detail in my seventh post, we might be
+able to strengthen this feedback loop by aggressively collecting and analyzing more data,
+but the process for doing so has not yet been put into place.
+This is one of many reasons why I recommend that we should bring as many political
+advocacy experts as possible inside the grantmaking organizations as full-time employees.
+If people with political expertise had full social ‘status’ within a grantmaking
+organization, then that would help reduce the artificial discrepancy in influence between
+research experts and political experts, making it easier to heed whichever advice is most
+objectively compelling.
+I can’t read the minds of grantmakers or find out exactly why they made their funding
+decisions; the reasoning behind such decisions is typically not made public and is often
+not even provided in full to grantees. However, this census seems like a very promising
+explanation for why AI safety organizations are funding so much academic research: it’s
+probably because they’re largely staffed with academic researchers.
+There are about four times as many academic researchers as there are advocacy experts,
+and they have collectively decided to fund about three times as many academic research
+grants as they have political advocacy grants. It’s human nature to like and cooperate with
+people who share your professional background. Even if these grantmakers are trying
+their best to be unbiased, they might have a strong tendency to appreciate and understand
+arguments in favor of funding research, while having a strong tendency to misunderstand
+or discount arguments in favor of funding advocacy.
+WHY THE LACK OF POLITICAL EXPERIENCE
+MATTERS
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+8/14
+
+As Open Philanthropy itself conceded in 2016, their approach “can lead to a risk” that many
+of their grant decisions will be made by “an intellectually insulated set of people who
+reinforce each others’ views, without bringing needed alternative perspectives and
+counterarguments.” These grantmakers are often personally friendly with the people they
+are choosing to fund, so Open Philanthropy acknowledged that “it sometimes happens
+that it’s difficult to disentangle the case for a grant from the relationships around it. When
+these situations occur, there’s a greatly elevated risk that we aren’t being objective, and
+aren’t weighing the available evidence and arguments reasonably.”
+Open Philanthropy would argue that their network is larger and more diversified than it
+was in 2016. However, in my opinion, the risk they warned of in 2016 has now come to pass
+in the context of AI safety grantmaking: they aren’t objectively weighing the need to fund
+direct advocacy, because too much of their network is caught up in academic-style
+research.
+Similarly, a fund manager for LTFF describes° what he sees as an “equilibrium” between
+the need to make use of local information and the need to avoid conflicts of interest that
+feature “a) definite recusal for romantic relationships, b) very likely recusal for
+employment or housing relationships, c) probable recusal for close friends, d) disclosure
+but no self-recusal by default for other relationships.” Another way of framing this norm is
+that most of the time, when the main reason that two researchers know each other is
+because they work together on publishing papers that they each find valuable, they are
+comfortable making official recommendations that institutional donors should fund each
+other’s work. Naturally, this would tend to increase the strength of the internal EA research
+bubble and make it harder for them to fairly consider non-research grant proposals.
+I’ve done my best earlier in this sequence to rule out all of the “objective” reasons for
+preferring to fund research. It seems clear to me that funding more research than advocacy
+is an objectively suboptimal strategy for achieving the goal of preventing an AI disaster.
+Thus, I am driven to the conclusion that the movement’s preference for funding academic
+research is primarily a “subjective” preference, i.e., that it is based on the personality and
+identity and relationships of the people making the funding decisions, and not on any
+rational grounds.
+This conclusion seems especially compelling to me because funders have been unable or
+unwilling to explain precisely why they judge research programs to be more valuable than
+specific advocacy projects, such as the Center for AI Policy. As I will discuss in the final
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+9/14
+
+post of this sequence, there does not seem to be any formal metric for evaluating the
+efficacy of AI advocacy projects or comparing their efficacy to that of research projects.
+If the funders are subjectively biased toward funding research, then that would be very
+bad, because it would mean that we’re taking scarce funds that could be used to try to avert
+the collapse of civilization, and instead spending it on projects that make funders feel
+comfortable. To help correct this bias, we should add additional advocacy expertise within
+the funding organizations themselves, so that advocacy projects will no longer suffer from
+an implicit handicap based on the average preferences of the grantmakers.
+One grant manager who reviewed this post noted that, ironically, airing public complaints
+like this one can make it harder for EA grantmakers to recruit politically experienced
+grantmakers. I admit that this is a possibility, and that is part of why I have screened the
+individual reviews of credentials behind two different layers of hyperlinks. I hope and
+expect that any minor harm that might be done to recruiting efforts by this relatively mild
+and anonymized criticism will be strongly outweighed by the positive effect of building up
+a critical mass of political experts within AI safety grantmaking teams. 
+One of the most important obstacles to hiring political experts to join EA-affiliated
+grantmaking teams is that the EA movement has a reputation for being politically
+unsavvy and for staffing its grantmaking teams almost exclusively with academic-style
+researchers. The best ways to make EA grantmaking teams a more attractive place for
+politicians to work are to (a) hire more politicians, and (b) make it clear through job
+descriptions, outreach campaigns, website content, social media, etc. that politicians are
+affirmatively welcomed.
+Thus, I urge AI safety grantmakers to aggressively recruit as many political advocacy
+experts as possible. Concretely, this means that Longview should make sure that its new
+positions are filled by people with an advocacy background, as opposed to people with a
+background in AI governance research. SFF is above average among AI safety funders in
+terms of its general political expertise, but they should try to recruit at least one grant
+recommender who is deeply familiar with DC politics in particular. Open Philanthropy
+should be posting at least two new positions for AI governance advocacy experts in
+addition to the one it has already hired, and LTFF and Macroscopic should each be posting
+at least one new position for AI governance advocacy experts. All of these openings should
+be widely advertised in places where advocates will see them, such as the Public Interest
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+10/14
+
+Tech Job Board, Daybook, the Internet Law & Policy Foundry, Tom Manatos Jobs, Roll Call
+Jobs, and the Public Affairs Council.
+If you even partially agree with the argument that I’ve been laying out in this sequence
+that political advocacy is far more impactful on the margins than academic research, then
+it’s irresponsible to continue to maintain grantmaking teams that are primarily staffed
+with academic researchers. The risk that this imbalance in the staffing ratio will push
+grantmakers toward funding too much academic research is unacceptable and
+unwarranted.
+Mentioned in
+122
+Next:
+Mainstream Grantmaking
+Expertise (Post 7 of 7 on AI
+Governance)
+2 comments
+53 karma
+Previous:
+Orphaned Policies (Post 5 of 7 on
+AI Governance)
+3 comments
+46 karma
+Log in to save where you left off
+Comments 1
+Sorted by New & upvoted
+SummaryBot
+0
+0
+4
+Executive summary: This evidence-based analysis argues that AI safety grantmakers are
+significantly underqualified to evaluate political advocacy projects due to a strong staffing bias
+toward academic researchers, and calls for a strategic overhaul in hiring practices to include more
+professionals with direct political experience to avoid suboptimal funding decisions that could
+jeopardize the effectiveness of AI governance efforts.
+Key points:
+The Center for AI Policy Has Shut Down
+10mo
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+11/14
+
+1. The author’s census shows nearly 4 academic researchers for every 1 political advocacy expert
+in major AI safety grantmaking organizations, leading to a bias in funding decisions.
+2. Despite clear needs and opportunities for advocacy, grantmakers disproportionately fund
+academic research, potentially due to their own research-oriented backgrounds rather than
+objective impact considerations.
+3. While grantmakers occasionally consult external political experts, these consultations are
+informal, inconsistently influential, and often involve junior personnel, failing to substitute for in-
+house advocacy expertise.
+4. The lack of formal procedures and incentives to balance perspectives within teams increases
+the likelihood of decisions based on social comfort and internal relationships rather than
+strategic need.
+5. The author urges funders to aggressively recruit seasoned political advocacy professionals into
+grantmaking teams and to advertise these roles in mainstream political job markets.
+6. The piece critiques broader Effective Altruism practices, warning that without reform, EA’s
+grantmaking processes risk reinforcing epistemic bubbles and undermining high-stakes efforts
+like preventing AI-driven existential risks.
+This comment was auto-generated by the EA Forum Team. Feel free to point out issues with this
+summary by replying to the comment, and contact us if you have feedback.
+More from Jason Green-Lowe
+View more
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+12/14
+
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+View more
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+150
+· 7d ago · 7m read
+9
+Topaz, Agustín Covarrubias 🔸, Alexandra Bates + 2 more
+148
+· 8d ago · 9m read
+16
+Sophie Kim
+Pivotal Research Fellowship applications are open (deadline May 3)
+AI Safety's Biggest Talent Gap Isn't Researchers. It's Generalists.
+The Anthropic IPO Is Coming. We Aren't Ready for It.
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+13/14
+
+4/20/26, 10:13 PM
+Political Funding Expertise (Post 6 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/fveRS7iTK83KKW3my
+14/14

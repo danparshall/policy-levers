@@ -1,0 +1,1144 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+Effective giving
+Existential risk
+AI governance
+Coefficient Giving
+Frontpage
+Show all topics
+Previously in this sequence, I estimated that we have 3 researchers for every advocate
+working on US AI governance, and I argued that this ratio is backwards – we need the
+political power provided by advocates to have a chance of preventing misaligned
+superintelligence. A few researchers might be useful as a ‘multiplier effect’ on the power of
+many advocates, but the converse is not true: there’s no “magic bullet” that AI governance
+researchers can hope to discover that could substitute for an army of political foot soldiers.
+Even the best political ideas still need many political activists to spread them, because the
+political arena is noisy and contested. 
+Unfortunately, we have very few political activists. This means the good ideas that our
+governance researchers have been proposing are mostly “orphaned.” In other words, these
+good ideas have no one to draft them into shovel-ready language that legislators could
+approve, and they have no one to advocate for their passage.
+It’s a bit of a puzzle that the AI safety movement nevertheless continues to fund so much
+academic-style research. Why do we need more good ideas if we already have a dozen good
+ideas that nobody is acting on?
+In the sixth post in this sequence, I suggested that part of the answer to this puzzle is that
+we have 4 academic-style thinkers for every political advocate on our AI safety grant-
+making teams. Because the culture within these grantmaking teams is heavily tilted
+toward research, grantmakers may feel more comfortable funding research grants or may
+be better able to appreciate the merits of research grants. They may also have a warm
+collegial relationship with some of the researchers, which could subtly bias their funding
+decisions.
+Mainstream Grantmaking Expertise (Post 7
+of 7 on AI Governance)
+by Jason Green-Lowe
+Jun 22 2025
+53
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+1/32
+
+Ideally, these kinds of biases would be caught and corrected by formal grantmaking
+procedures, such as the use of written scoring rubrics. Unfortunately, such procedures are
+notably missing from major AI safety funders. A week before publishing this post, I gave
+an advance copy of it to the five largest institutional donors so that they could address any
+factual errors. Although several people offered helpful corrections, none of these
+corrections change my fundamental point: AI safety funders are evaluating grants using
+an informal and subjective method. No formal criteria are being applied to most AI
+governance grant applications.
+In this seventh and final post, I explain why these formal grantmaking procedures are
+helpful, why they are not used by AI safety funders, and how this can be fixed.
+AI SAFETY GRANTMAKERS HAVE VERY
+LITTLE MAINSTREAM GRANTMAKING
+EXPERIENCE
+The Effective Altruist Bubble
+Most of the people who are running AI safety grantmaking teams have significant
+grantmaking experience – but essentially all of that experience is from inside the effective
+altruist (EA) bubble. A typical career might involve doing AI safety research for a couple of
+years, then doing some EA field-building or running a small EA organization, then
+working as an EA grantmaker, and finally managing an EA grantmaking team. It’s
+reasonable to promote most of our leaders from within our own movement, but we’ve gone
+beyond that and cultivated an extremely insular bubble. At no point has any AI safety
+grantmaker ever worked as a grantmaker at any traditional philanthropy to see how those
+organizations make decisions about awarding and managing grants. We’re not just talking
+about a general tendency to prefer internal candidates – we’re talking about a level of
+detachment from the mainstream philanthropic world that is likely to result in profound
+ignorance about mainstream practices and techniques.
+You might wonder what we have to learn from traditional philanthropies. Part of the
+premise of effective altruism is that it’s possible to do much better than traditional
+philanthropies by using utilitarian philosophy and rigorous quantitative reasoning:
+because effective altruists think hard about what it means to do good and how to measure
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+2/32
+
+that, we really do select better cause areas than traditional philanthropies. I firmly approve
+of the way the EA movement prioritizes, e.g., shrimp welfare over adopting puppies, or
+prioritizes curing malaria over supporting victims of breast cancer. I would not want to
+undercut any of the types of reasoning that underlie these broader strategic decisions.
+However, just because the EA movement is better than mainstream philanthropies at
+selecting which broad cause areas to support doesn’t mean that everything that traditional
+philanthropies do is wrong or pointless. In particular, traditional philanthropies have well-
+developed techniques for selecting which individual grants to fund within a cause area, and
+(as I will argue throughout this post) these techniques are often much better than the
+comparable techniques used by EA grantmakers. Thus, rather than trying to reinvent the
+entire field from scratch, we should be able to learn from mainstream philanthropy’s
+experiences and import some of their best practices when these practices are better than
+ours.
+I conducted a quick census of the AI safety grantmaking staff at the five major
+institutional funders (Open Philanthropy, Longview, Macroscopic, LTFF, and SFF) based on
+their LinkedIn profiles and institutional bios. As in my previous post, I have lightly
+anonymized these staff by offloading their individual descriptions into a separate Google
+Doc and referring to them as “Person 1” and “Person 2,” rather than directly using their
+real names. If you want to see who they are, you can just click on the relevant hyperlinks,
+but my purpose here is to point out a deficit in the overall bank of skills held by the
+movement as a whole, not to criticize individual staff.
+Unfortunately, as you can see from my census, there are only a few examples of people
+working on AI safety grantmaking who have any non-EA philanthropic experience at all.
+None of this experience appears to be related to grantmaking.
+We have one person who worked for a decade as a mainstream Chief Development Officer,
+where she most likely would have focused heavily on raising new funds (as opposed to
+figuring out how to spend those funds wisely). We have three people who each have a few
+years of experience working as team leads or front-line staff at mainstream nonprofits –
+this would teach them about what charities need and about how to fill out grant
+applications, but not necessarily about how to design or evaluate grant applications.
+Finally, we have two people who briefly worked in roles at mainstream charities that seem
+unrelated to grantmaking.
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+3/32
+
+That was all the non-EA grantmaking experience on AI safety grantmaking teams that I
+could find. To the best of my knowledge, everyone else at Open Philanthropy, Longview
+Philanthropy, Macroscopic Ventures, the Long-Term Future Fund, and the Survival and
+Flourishing Fund either has grantmaking experience from solely within the EA bubble, or
+has no previous grantmaking experience at all, or works on grantmaking for other cause
+areas besides AI safety.
+If I’ve missed someone with relevant experience, please let me know, and I’ll be happy to
+add them. Otherwise, I am forced to conclude that there is essentially zero mainstream
+grantmaking experience among AI safety grantmakers. 
+Ineffective Bootstrapping
+Most of the techniques that AI safety grantmakers are applying to evaluate the quality of
+grant applications are therefore likely to be techniques that they invented themselves or
+that they learned from each other as they worked their way up the ranks of EA-affiliated
+philanthropies. 
+These techniques are very unlikely to be adequate.
+In most cause areas, we would be able to “bootstrap” up from a very thin knowledge base
+by seeing which grantmakers were funding grants that tended to succeed. For example, if
+you’re trying to fund malaria eradication, you can look and see what happened to malaria
+rates among the populations served by the grants you funded. Over time, you’ll build up a
+reasonably clear picture of which grants were most successful, which will in turn allow you
+to identify which grantmaking techniques were most successful. Thus, even if your team
+starts out without knowing much about proper grantmaking procedure, your team could
+gradually converge on some of the best grantmaking practices through trial and error.
+However, in the field of AI governance, it is impossible to do a significant amount of
+bootstrapping, because we get very limited real-world feedback, and because we have a
+vague and unclear theory of change.
+AI governance provides very limited feedback because much of the “outcome” of AI
+governance work is long-term, speculative, and binary. To put it bluntly, either we will
+wind up in a future where there is an AI apocalypse, or we will not – and we will not
+necessarily observe which future we are in until it is too late to meaningfully change our
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+4/32
+
+grantmaking decisions. Unlike malaria, misaligned superintelligence is not a problem that
+claims one victim at a time. 
+As a result, we should not expect to get much objective data about which AI governance
+grants were most successful. We should especially not expect to get this data with a casual
+or incidental effort – if we want meaningful data about which governance programs are
+succeeding, then we’ll need to carefully identify reasonable proxies for success and then
+make a special effort to measure those proxies. As I will argue later in this post, it does not
+appear that this work has been accomplished. Because we do not know much about which
+governance projects have been most successful, our grantmaking teams will not have been
+able to learn much about which grantmaking techniques were most successful. 
+Suppose you apply a particular flavor of grantmaking to fund my AI governance research
+paper. Your methods lead you to be very confident that my research paper is worth
+funding. Later, you want to find out whether my research paper was successful so you can
+decide whether the methods you used led you to make an accurate prediction about the
+value of my grant.
+What would it even mean to decide that my governance paper was “successful?” It is not
+clear what (if any) theory of change can be applied to the paper. You can perhaps observe
+whether I published a governance paper, whether other researchers agreed that the paper
+seemed insightful, or whether I had many citations, but none of these metrics are very
+well-correlated with how much (if at all) the paper helped save the world. It’s profoundly
+unclear who is supposed to be reading these academic-style papers, why they will behave
+differently as a result of reading them, and why those behavioral changes will reduce the
+risk of an AI catastrophe. Not only are we not measuring any quantitative data about such
+papers – we don’t even have a good explanation for why or how we should expect such
+papers to be helpful.
+As a result, there’s simply no viable feedback loop for AI safety grantmakers. Most AI
+grantmakers are very diligent, thoughtful people, but no matter how diligent you are, you
+can’t improve your skills through deliberate practice unless you’re given access to some
+kind of data about how well you’ve been succeeding, and in the AI governance field, that
+data mostly hasn’t been available.
+Therefore, our movement has a staff of professional grantmakers who were not taught
+how to manage a grantmaking program by mainstream philanthropies, and who are
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+5/32
+
+unlikely to have learned much about that task based on their years of experience within
+the EA bubble.
+HOW GRANTMAKING IS SUPPOSED TO
+WORK
+ The main reason why the AI safety funders’ lack of non-EA grantmaking experience
+matters is that it tends to create excessively informal grant evaluations that are more likely
+to lead to suboptimal decisions. To explain what I mean by this, I want to first lay out how
+professional grantmaking is supposed to work and then lay out what my experience has
+been with grantmaking in the AI safety field.
+The Core Process for Traditional Grantmaking
+The core process for professional grantmaking consists of the following steps, in
+approximately this order:
+1. A funder settles on a budget and timeline for achieving a particular goal.
+2. The funder communicates their goals, budget, and timeline to potential grantees so
+that they can prepare to apply for funding.
+3. The funder decides how grant applications will be evaluated and explains this
+process to potential grantees so that they know what kinds of grants to apply for.
+4. The funder collects and evaluates grant applications based on the process.
+5. The funder notifies all applicants about the decisions that were made on their grants
+and the reasons for those decisions.
+This is the process that I used for five years at HomeBase, which refereed grant application
+processes every year for homelessness services at each of about 30 different counties
+spread across the US Pacific region. Nobody saw the basic steps of this process as overly
+fussy or unnecessary – on the contrary, participants used to badger us to release
+information about each of the five steps as soon as possible. People would drive for an hour
+to come to our briefings, because they wanted to find out how they could earn a grant and
+how they could keep it.
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+6/32
+
+As part of this process, we always had a written rubric that we used to assign numerical
+scores to each grant application. An example of this kind of work can be seen starting on
+page 22 of this handbook. To the maximum extent possible, we tied scoring factors to
+measurable quantitative outcomes – for example, a rapid rehousing program could get up
+to 3 points for enrolling its clients in health insurance, up to 8 points for providing at least
+as many apartments as they pledged to provide, up to 2 points for helping clients increase
+their income, and so on. The larger the percentage of clients who get their health
+insurance, the larger the share of the 3 points for health insurance you could claim. We
+took the mystery out of funding; for the most part, you could look at your own
+performance and figure out whether you would be eligible to have your funding renewed.
+When it wasn’t possible to use quantitative estimates, we described the qualitative
+outcomes we were looking for in great detail, breaking these outcomes down into multiple
+subparts and awarding a specific number of points for satisfying each subpart. We then
+recruited a panel of independent judges to determine which subparts had been satisfied,
+and we averaged their ratings.
+The resulting final scores were used to rank all of the grant applications in order, and then
+those applications’ scores were made public so that everyone could see which applications
+were funded and why.
+This procedure was required by federal law, but the level of transparency and rigor we
+offered was seen as typical in our industry, including by people coming from state and
+local government, churches, hospitals, and private foundations.
+For example, Chris Kabel, a senior program officer at the Northwest Health Foundation,
+which manages $68 million in grants, writes that his organization hosts “a grantee forum
+where we invite anybody who is interested in applying for a particular program to learn
+about what the program is trying to achieve and what we’re hoping to see in competitive
+proposals. We also answer questions they have that are relevant to their particular
+programs or initiatives. I’d say almost all of our grantees probably already know how they
+fit into our program’s goals and strategies by the time they get a grant from us.”
+Here's a similar quote from Anne Warhover, the CEO of the Colorado Health Foundation,
+which manages $1 billion in assets. “Everybody has to be accountable in this world. We
+start  by thinking about who is our customer, who is our stakeholder, to whom do we owe
+our accountability, and that is the people of Colorado. This isn’t our money. This is their
+money. And so how can you possibly be accountable without showing results and having
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+7/32
+
+some objectivity to your results? You can’t just fling your money in all different directions
+and hope that some of it sticks. You have got to have strategies that will help you get to
+those results.”
+Likewise, Ken Thompson, a program officer at the Bill & Melinda Gates Foundation, writes
+that “the single most helpful thing you can do to make the reporting process useful to
+everybody is to be clear up front about what the project intends to accomplish. The other
+thing that is particularly helpful for grantees is to identify a set of reasonable goals to
+measure.”
+For some more examples of how foundations put this kind of grantmaking technique into
+practice, you can check out the scoring rubrics provided by:
+The Rising Foundation
+Ability Central
+The Tallmadge Foundation
+The John & Deborah Gillis Foundation
+The Gates Foundation – RISE Education Fund
+Advantages of Using Formal Rubrics
+These rubrics have two important features: (1) they assign a specific number of points to
+specific criteria, and (2) they explicitly say what is necessary to earn points in each
+category. Together, these features make it much more likely that grants will be awarded
+based on the foundation’s true values. It is still possible for an evaluator to ‘cheat’ and
+assign a project an artificially high score simply because they like it, but doing so will
+require explicitly lying about whether it meets the written criteria. Most people who are
+altruistic enough to work at a nonprofit find this kind of explicit lying very distasteful and
+will usually avoid it.
+Obviously, effective altruists can and should object to some of the specific goals being
+pursued by these grantmakers – grants to rural American schools or to fund career
+development for people with disabilities are honorable causes, but they are probably not
+reasonable choices if you are trying to do the most good per dollar. Effective altruists
+might also object to some of the specific criteria used in these rubrics, or at least to their
+weighting – for example, if I were writing the rubric for Ability Central, I would not award
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+8/32
+
+five times more points for having “people with disabilities in leadership” than for having a
+clear “needs assessment” that shows why the grantee’s project is necessary.
+However, the process used by these mainstream philanthropies is absolutely vital, because
+it forces grantors to make decisions about which criteria are most important to them and
+to communicate those decisions to prospective grantees. I can criticize Ability Central’s
+grantmaking criteria and try to improve them because those criteria are written down. If
+Ability Central had instead used an informal evaluation process that allowed their staff to
+recommend whichever grants seem best to them, then nobody would be able to tell that,
+e.g., Ability Central was missing out on opportunities to do more good because they were
+paying too much attention to the identities of their grantees’ leaders. 
+Thus, even though Open Philanthropy’s substantive goals are better than Ability Central’s
+goals, Ability Central’s grant evaluation procedures are better than Open Philanthropy’s
+procedures.
+If you haven’t written down the criteria that you’re using to evaluate grant applications,
+then nobody (not even you) can be sure that you’re funding the projects that best support
+your mission. You might instead be funding whatever projects subjectively appeal to your
+grantmaking staff for reasons that you would not reflectively endorse. As Luke
+Muehlhauser of Open Philanthropy wrote in 2011, “Cognitive science shows us that
+humans just are a collection of messy little modules like anger and fear and the modules
+that produce confirmation bias. We have a few modules for processing logic and
+probability and rational goal-pursuit, but they are slow and energy-expensive and rarely
+used…our brains avoid using these expensive modules whenever possible.”
+If you allow grantmakers to make subjective personal decisions about which grants to
+fund without a formal process that forces them to connect their decisions to community-
+approved criteria, then at least some of the time, some of their brains will slip into cheaper
+processing modes that default to whatever conclusions feel comfortable – that’s just how
+humans work.
+Clarity vs. Rigidity
+It’s not necessary for these grantmaking criteria to be utterly rigid – if there’s a good reason to
+make an exception to your criteria, then you can and should allow a grantmaker to write
+up a defense of why they are making an exception. 
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+9/32
+
+In other words, my proposal is not that donors should mechanically total up a list of points
+and then feel bound by the outcome. Rather, my proposal is that donors should go through
+the exercise of specifying concrete goals, assigning weights to those goals, and then
+totaling up the resulting points in order to (1) get clear in their own minds about what
+types of achievements are most important, and (2) make sure that they are not accidentally
+allowing themselves to place too much weight on criteria that are less objectively
+important. 
+If, after totaling up the points and taking the time to write up an explanation of why the
+points are misleading for a particular grant, a donor remains convinced that the points
+lead to an incorrect recommendation, then the donor should ignore the points and act on
+what they believe to be the correct recommendation.
+However, if you don’t even insist that people explain how their decisions relate to their
+principles, then much of the time, their decisions won’t relate very closely to their
+principles, and as a result those decisions will predictably do less good.
+HOW GRANTMAKING WORKS IN AI SAFETY
+This seems to be what is happening in the AI Safety grantmaking space – there is no
+process that would require grantmakers to connect their decisions to their principles, and
+as a result, grantmakers are often making deeply suboptimal funding decisions.
+Blundering in the Dark
+I attended a talk at Less Online this year where Lydia Nottingham attempted to create
+“GiveWell for AI safety,” asking participants “how might we estimate the cost-effectiveness
+of marginal donations in AI safety?” The session was fruitful in that we considered various
+alternative metrics and had a thoughtful discussion of their pros and cons. Should we
+measure the number of citations to a research paper funded by a grant? Which citations
+matter? Can they be weighted appropriately? How should an academic citation be weighed
+against a citation in popular media?
+In one sense, this was a very interesting discussion. In another sense, it was absolutely
+outrageous that amateurs could be having such a conversation for an hour on end without
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+10/32
+
+anyone stopping and saying, “Wait a minute; this has all been worked out already by the
+professionals; here are the metrics they use and here’s why they use them!”
+Hundreds of millions of dollars have already been allocated to AI safety projects. What was
+the basis of those allocations? The horrifying answer is that there is no such basis – or, at
+least, no basis that grantees are allowed to see.
+How many pieces of legislation does Open Philanthropy think CAIP should have been able
+to edit for $2 million? How many citations in earned media do they think we should have
+had? How many times do they think we should have met with Congressional officials?
+What kind of language do they think those officials should be using when they talk about
+CAIP or about AI safety? If these aren’t the correct metrics, then what are the correct
+metrics?
+I did not have this information when I set out to build up CAIP and started making new
+hires, and I still don’t have this information today, and that’s ridiculous. If I had known
+exactly what our donors’ expectations were in 2023, there’s a good chance that I would
+have turned down the work and said, “I’m sorry, but I can’t achieve those results on the
+budget you’re offering.” That would have saved the movement quite a bit of money.
+Alternatively, perhaps I would have been able to refocus our work so as to actually achieve
+the goals, thereby generating a lot of value for the movement. Instead, I was left to blunder
+in the dark.
+A Note on Goodhart’s Law
+One grantmaker I spoke with defended this ambiguity by noting the potential that explicit
+performance targets could be abused by self-interested grantees. He is concerned that if,
+e.g., advocacy groups are scored based on the number of Congressional meetings they
+attend, then groups might, e.g., artificially increase their apparent performance by
+scheduling hundreds of low-quality meetings with less relevant Congressional staffers.
+In my opinion, this conflates the bare possibility that Goodhart’s Law might have some
+effect on AI safety advocates (which is true) with the conclusion that Goodhart’s Law
+applies so strongly as to render it infeasible to have any formal performance criteria at all
+(which seems false). 
+To continue the example from above, if you are worried about advocates having too many
+low-quality meetings, then you can add a scoring factor that evaluates the quality of the
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+11/32
+
+meetings. You can carry on adding as many factors as seems necessary until your scoring
+factors collectively arrive at a reasonable approximation of the thing you are trying to
+measure.
+Bureaucracies engage in formal, multi-part evaluations all the time, not all of which are
+completely pointless or corrupted. Nobody suggests that, e.g., food safety inspectors are
+creating an artificial set of incentives for restaurants to sweep their floors, wash their
+dishes, and throw out expired food, even if these tasks are on a checklist that is distributed
+to restaurant owners in advance. The reason why these tasks are on the checklist is that
+they really do increase food safety, and there is no cheap and easy way for most restaurants
+to appear to have completed these tasks without actually completing these tasks. Similarly,
+when I was evaluating the performance of homeless shelters, I both checked to see how
+many people were sleeping in beds, and to make sure that those beds were clean and
+adequately sized and made of appropriate materials. If a shelter somehow found a way to
+increase the number of people who were sleeping indoors on appropriate beds, that would
+genuinely reflect well on the shelter.
+For the most part, there’s no reasonable way to cheat on a well-designed grant evaluation
+process. If you find yourself suffering badly from Goodhart’s Law, that’s usually a sign that
+you’re not investing enough time or enough talent in designing the formal rubric. For
+instance, if you’re handing out a billion-dollar grant, then you shouldn’t expect a one-page
+checklist to adequately constrain the grantees; for that much money, even well-intentioned
+people will often fall prey to corrupt incentives to find extremely clever ways to optimize
+for satisfying the formal criteria. However, if you’ve got a million-dollar grant backed up
+by a five-page rubric, then it’s usually not worth a grantee’s time to try to artificially inflate
+their results. This is especially true when the grantmakers ultimately remain free to use
+their judgment to overrule the formal results of a rubric.
+As a result, I think it is very ill-advised to deliberately obscure the grantmaking process as
+part of an effort to prevent artificial optimization. Grantmakers need to be very clear in
+their own minds about what they’re trying to fund and why so that they can make optimal
+decisions, and grantees also need to know what kinds of grants will be funded, so that they
+can make responsible long-term plans and focus their efforts on activities that the
+community is willing to support. The problems that are currently being caused by a lack of
+clarity in these areas are far more severe than any minor difficulties that might arise based
+on Goodhart’s Law.
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+12/32
+
+Open Philanthropy’s Evaluation
+To illustrate what I mean by a lack of clarity, I am sharing a full copy of the final email that
+I received from Open Philanthropy regarding their evaluation of CAIP. I have other
+communications from them, but none of them are substantially more detailed. There is no
+appendix or similar document that unpacks their reasoning. 
+The point of this example is solely to illustrate the vagueness of AI safety grantmaking
+evaluations. Even if you happen to agree with all of Open Philanthropy’s conclusions here,
+you should still want them to use more rigor than this so that you can be confident that
+their grantmaking decisions will reliably match up with their stated values.
+“Dear Jason,
+ I hope this email finds you well. I wanted to follow up on our conversations regarding CAIP's
+funding application to Open Philanthropy.
+ After careful consideration and thorough evaluation, we have decided not to recommend CAIP
+for funding.
+This was a challenging decision in light of the helpful information you’ve sent over the last few
+months. We continue to hold CAIP’s thinking on policy development in high regard, and we
+appreciate CAIP’s traction in policy engagement and communications. We concluded, however,
+that the counterfactual impact does not clear our especially high bar for recommending 501(c)(4)
+advocacy organizations, for which heightened sensitivities and less favorable tax treatment
+make donor dollars scarce.
+This is a reflection in part of the improved overall state of the AI safety advocacy field, where
+there are now several organizations doing great work and not enough donors to fund them all.
+But, in the interest of transparency, it also reflects our continued sense that CAIP’s strengths and
+weaknesses are an imperfect match for its activities. For example, we think CAIP has shown a
+capacity for developing and refining detailed policy ideas, and to some extent educating
+policymakers and (in the early stages) building grassroots support – all activities that could be
+done at a standard nonprofit. But we still have doubts about CAIP’s political aptitudes, and the
+lobbying track record, while better than we initially thought, still does not seem strong enough to
+create a sufficiently compelling case.
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+13/32
+
+Given our limited funding capacity for advocacy work, we need to direct resources where we
+believe they'll have the greatest marginal impact. We know that this decision is likely to create
+challenges for CAIP, and we sympathize. We genuinely wish you and the CAIP team success in
+your future endeavors, and we appreciate your hard work to improve the outcomes from
+transformative AI.
+ Best regards,
+[Person N]”
+Notice that this email does not include any scores, any benchmarks, or any quantitative
+information at all. Although the email alludes to an “especially high bar” for
+recommending 501(c)(4) organizations, it does not provide any information about where
+that bar sits or how it is calculated. The email mentions some of the criteria that Open
+Philanthropy considered, such as CAIP’s “counterfactual impact” or its “political
+aptitudes,” but does not say how these factors were evaluated or weighted against each
+other. It is not clear from the email what it would mean to have high political aptitude or
+how Open Philanthropy determined that CAIP’s political aptitude is low or medium. 
+This is particularly troubling because without this kind of information, it is unclear how
+Open Philanthropy could compare or evaluate the relative good done by a research
+organization versus an advocacy organization. There are three times more researchers
+than advocates in the space, so on the margins, we can say that Open Philanthropy chose
+to fund some additional researchers instead of funding CAIP. Did those researchers have
+strong research aptitude? If so, does that mean that those researchers would do more to
+reduce the risk of an AI catastrophe than CAIP? Why? How do we know, or what is the basis
+of that opinion? It is not clear that Open Philanthropy is even attempting to answer these
+questions.
+To its credit, Open Philanthropy does have published criteria for its AI governance grants.
+However, Open Philanthropy warns that such grants are evaluated “holistically,” and it is
+not clear that most of these criteria were consulted when evaluating CAIP’s application.
+According to Open Philanthropy’s published criteria, “key considerations … include:”
+1. whether the proposed activities are justified by the applicant’s “theory of change,”
+2. the applicant’s “track record” of success at similar projects,
+3. the applicant’s “strategic judgment” in making “well-thought-out decisions under
+uncertainty,”
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+14/32
+
+4. an indication that the applicant is “aware of potential risks and can prioritize how to
+respond to them,”
+5. the “cost-effectiveness” of the proposed budget in light of “the project’s goals and
+planned activities,” and
+6. whether the grant application has a financial “scale” that is suitable for this
+particular fund. 
+Open Philanthropy’s “sense that CAIP’s strengths and weaknesses are an imperfect match
+for its activities” could be a reference to criteria #1 and/or #5, although it is difficult to tell,
+because the email does not explicitly reference any of the criteria. Similarly, Open
+Philanthropy refers to CAIP’s “lobbying track record” as “not…strong enough to create a
+sufficiently compelling case,” which could be a reference to criterion #2. 
+None of these three criteria are discussed in a clear enough way to allow Open
+Philanthropy to easily compare CAIP’s performance to the performance of other
+organizations. For example, what precisely does it mean for CAIP’s strengths and
+weaknesses to be an “imperfect match for its activities?” Is this like getting 2 out of 5
+points? 3 out of 5 points? 4 out of 5 points? How well do other grantees’ strengths and
+weaknesses match their activities, and how is this evaluated? Open Philanthropy doesn’t
+say. Even if Open Philanthropy’s grantmakers have an intuitive idea in their minds about
+what these phrases mean, such intuitions are highly vulnerable to subjective bias and to
+being misremembered or subconsciously edited from one grant to the next. The point of
+writing down a numerical score for each grant on each criterion is to mitigate such biases. 
+Open Philanthropy’s other three criteria are not mentioned at all in their evaluation of
+CAIP. I cannot find any discussion of CAIP’s strategic judgment, risk management, or scale.
+Even if, for some reason, only half of Open Philanthropy’s criteria were relevant to its
+evaluation of CAIP, it would still be helpful for all parties if they explicitly noted this. As I
+argue above in the section on “Advantages of Using Formal Rubrics,” the process of
+thinking through how each criterion applies to each grantee and writing down your
+thoughts helps make sure that you honor your core values and that you are not
+accidentally substituting other considerations.
+I do not believe the informality of Open Philanthropy’s evaluation techniques is limited to
+CAIP. For example, Apart Research recently wrote° that their need to engage in last-minute
+fundraising was partly caused by “somewhat limited engagement from OpenPhil's GCR
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+15/32
+
+team on our grants throughout our lifetime,” and that “with OpenPhil, I think we've been
+somewhat unlucky with the depth of grant reviews and feedback from their side and
+missing the opportunity to respond to their uncertainties.” This is a very polite way of
+saying that they don’t know why Open Philanthropy isn’t giving them more funding and
+that they haven’t been able to find out.
+I also spoke with Soren Messner-Zidell, a senior director at the Brookings Institution who
+was hoping to launch an AI safety communications project. He has over 15 years of
+experience as a public advocate. After he negotiated with Open Philanthropy for several
+weeks, his application was also denied without any type of detailed explanation. Like me,
+he does not know what criteria they are using to evaluate AI safety grants.
+Longview’s Evaluation
+CAIP received a similarly unstructured final report from Longview Philanthropy. Again,
+there was no appendix or more detailed letter that provided significantly more
+information about Longview’s process. If they conducted any more formal evaluation, they
+did not share it with us. Below is the full text of the most relevant email:
+Hi Marta and Jason,
+Thank you so much for engaging with us throughout this investigation. Sadly, Longview will be
+unable to find donors for CAIP's work in the near future. 
+This conclusion is based on our completion of several other grant investigations and discussions
+with our most reliable donors. The unfortunate reality as we see it is that there are more
+promising opportunities in AI policy than our donors are able to fund, and despite CAIP's
+strengths, we will not be able to provide funding for it. 
+We think CAIP is doing good work. We hope you find the support needed to continue as an
+organization, and if you do, we'd be happy to consider recommending CAIP to our donors in the
+future. But at least for the next few months, and likely until the end of the year, we will not be
+able to find additional funding for CAIP. 
+Thank you for all the effort you've put into this important cause. If there's anything beyond
+funding that we can do to help going forwards, please let us know. 
+Sincerely,
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+16/32
+
+[Person V]
+This email is even vaguer than the email from Open Philanthropy because it does not even
+gesture at the factors that might have been considered – this email provides only the raw
+decision that CAIP is less valuable than other projects. 
+Longview’s website provides a list of some of the questions that they consider when
+evaluating grants, but it is not clear how the answers to these questions are measured or
+which questions are considered most important. Longview does not say anything about
+which of CAIP’s answers (if any) were deemed unsatisfactory.
+Longview’s website also says that when they recommend a grant for funding, they
+“include quantitative predictions, so that philanthropists can clearly see what we expect in
+terms of key outcomes, and how likely we think they are.” 
+This is praiseworthy, but it is unclear whether Longview follows similar procedures for
+rejected grants, or if they only do this for grants that they have already decided to
+recommend. If the former, it is unclear why they are unwilling to share even an outline of
+their predictions with grant applicants. If the latter, it is unclear how they know which
+grants to reject – if, as Longview writes, CAIP “is doing good work,” then how was
+Longview able to decide not to recommend CAIP even before Longview made any
+quantitative predictions? If the rejection isn’t based on a quantitative prediction, then what
+is it based on?
+I find the lack of detail disturbing, and I think you should too. If there is some particular
+scoring factor (e.g. one donor’s private preferences) that must be kept secret in order to
+maximize total funding, then that particular scoring factor could be censored. However, to
+share no details at all about the grant evaluation process with potential grantees sets them
+up for failure and wastes everyone’s time. If we don’t know how we’re being measured or
+what standard we’re being held to, then we can’t make realistic plans to achieve those
+goals.
+LTFF’s Evaluation
+The Long-Term Future Fund rejected a CAIP grant application in March 2024, and sent
+only a standard form rejection. They wrote, “We have reviewed your application carefully
+and regret to inform you that we have decided not to fund your project… Please note that
+we are unable to provide further feedback at this time due to the high volume of
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+17/32
+
+applications we are currently receiving. We know that this is something many applicants
+in your position want and I hope that when we have more capacity we will be able to give
+more feedback.”
+A year later, in March 2025, I wrote to [Person AA], the manager of the Long-Term Future
+Fund, to see if they had developed additional capacity; I mentioned that I was travelling to
+California and would be happy to meet with him in-person to learn more about which
+projects they were interested in funding. My email wound up in his spam folder by
+mistake. We noticed this problem while LTFF was reviewing an advance copy of this post,
+and Person AA mentioned that Person K and Person L both have more DC experience than
+he does, implying that they would be better positioned to discuss how CAIP’s grant
+application was evaluated.
+I repeatedly attempted to get feedback from Person K about why he felt that CAIP was not a
+funding priority, both while he was working at CAIP and after he left in February 2024.
+However, he did not have any specific criticisms or criteria to share other than his general
+feeling that political advocacy as a whole was unpromising and that CAIP did not seem to
+be generating the kind of results he was looking for. He repeatedly offered to write up his
+objections in more detail, but he never did so.
+I also reached out to Person L, and he wrote, “I'm not sure that I'd be able to provide a ton of
+useful info. I'm not actually personally that aware of what CAIP has been up to, and if
+anyone were to ask me what my thoughts are on CAIP, I'm pretty sure their main takeaway
+from my response would be that I don't have enough context to have a strong view either
+way.”
+I was able to chat in April 2025 with Person MM, another LTFF fund manager. Person MM
+did share some of his concerns about funding projects like CAIP. His main objection
+seemed to be that – so far as he could tell – CAIP was publicly conflating the issue of “AI
+being unreliable, or being used in critical systems” with “AI becoming agentic and
+deceptive and eradicating all of humanity.” He expressed his worry that CAIP had sold out
+or would sell out by trading away the clarity and honesty of its message in exchange for
+political influence. I promised that CAIP was firmly opposed to any such trade, and I cited
+three of our recent public articles in which CAIP openly and clearly states its intense
+concern about existential risk. However, Person MM did not directly respond to this
+information. 
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+18/32
+
+I defend CAIP’s choice to include at least some mention of less-catastrophic risks in our
+conversations with Congressional staffers in the first post° in this sequence. Even if LTFF
+does not find this defense convincing, I would still hope that they make their funding
+decisions based on some type of formal criteria, rather than informally rejecting
+applications from groups like CAIP based on a general opinion that most groups who work
+in Washington, DC will inevitably lose their focus on existential risk. For example, LTFF
+might have a rubric that they use to evaluate the quality of an advocacy group’s public-
+facing communications, including both the level of focus on x-risk and presumably several
+other factors, and then assign a certain number of points to the grantee based on how well
+the grantee’s actual communications actually satisfy each of those factors.
+When I asked Person MM about whether LTFF used these kinds of formal written criteria
+for evaluating grants, he said, “I don’t think there exists a single functional fund in the
+world with ‘formalized grantmaking criteria,’ so of course not.” Person MM pointed out
+that his thoughts on grantmaking principles are spread across many comments on
+LessWrong and the EA Forum, and that these would be “kind of a pain to stitch together.”
+Person MM added that LTFF intentionally “has people with different principles and
+perspectives” on grantmaking, so LTFF does not have any “universal grantmaking
+criteria.”
+As I showed in the previous section, many funds do in fact use formal written criteria, for
+the very good reasons that (1) this helps them ensure that the grants they fund are actually
+optimizing for their core values, and (2) this helps prospective grantees submit grants to
+organizations that are more likely to fund them, thereby making better use of everyone’s
+time. If Person MM himself would find it unreasonably inconvenient to stitch together his
+own comments on grantmaking principles, then surely it would also be unreasonably
+inconvenient for prospective grantees to do so, especially since they do not know which
+LTFF reviewer will be assigned to their application – in order to intelligently plan a grant
+that is likely to receive LTFF funding, they would have to hunt through old comment
+sections to find comments from several different possible reviewers and then decide which
+comments (if any) are most relevant. 
+Similarly, if a grantmaker’s principles are spread out across many decentralized comments,
+then it is harder for that grantmaker to use those principles as a tool to focus their own
+thinking – instead of reliably following their most important principles, they may
+sometimes be distracted by secondary considerations. Most grantmakers should be using
+written grant evaluation criteria for the same reason that most people should be keeping a
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+19/32
+
+written calendar – it’s important to get it right, and writing things down in a central place
+helps you remember and act on your priorities.
+To their credit, LTFF staff have put together a sample of different portfolios of hypothetical
+grants° that they would fund depending on the current size of the LTFF budget, and these
+portfolios could help guide prospective applicants. Most of the twenty grants in the
+portfolios relate to academic-style research in some way, either by directly funding such
+research, or by funding people who want to continue their academic education. A few
+grants discuss AI governance research, but none seem to be about direct political advocacy.
+The closest approach is a hypothetical grant to hire a communications firm to teach best
+practices to professionals in longtermist organizations, which presumably might then lead
+to some of those professionals engaging in advocacy or improving the quality of their
+advocacy. The range of grants that LTFF is even willing to consider thus seems to be
+heavily biased toward research and away from advocacy.
+As part of their explanation of how they created these portfolios, LTFF notes that “At the
+LTFF, we assign each grant application to a Principal Investigator (PI) who assesses its
+potential benefits, drawbacks, and financial cost. The PI scores the application from -5 to
++5. Subsequently, other fund managers may also score it. The grant gets approved if its
+average score surpasses the funding threshold, which historically varied from 2.0 to 2.5,
+but is currently at 2.9.” 
+While this quantitative scoring is at least a step in the right direction toward rigor, it does
+not seem to include any explicit scoring factors or rubrics. Any given investigator is
+essentially still making a subjective judgment; it’s just that they’re then reducing that
+subjective judgment to a number. There is no way for grantees to predict what that number
+might be or to design grants that are more likely to earn a higher number. To the extent
+that LTFF is suffering from a systematic bias toward research and away from advocacy,
+nothing about the process of writing down a single number for each grant would tend to
+correct that bias.
+Other Evaluations
+I had similar trouble getting any kind of concrete explanation of the funding process from
+other AI safety funders. SFF provides anonymous feedback from its recommenders, and
+allows for one round of follow-up questioning between the grantees and its
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+20/32
+
+recommenders, but the recommenders did not appear to have any type of rigorous process
+for scoring their applications.
+For example, one SFF recommender wrote “I'm not a DC insider, I was mainly deferring to
+what DC people told me.” Another SFF recommender wrote, “The main reason I was unable
+to fund you was applications by more excellent US policy organizations than we had room
+to fund.” Some of the recommenders mentioned that they thought other organizations had
+done more to promote “counterfactual policy changes,” but did not say which changes they
+had in mind or why the changes at other organizations were more valuable. None of the
+recommenders cited any numbers in support of their funding recommendations.
+Macroscopic Ventures had even less information. An email we received from Macroscopic’s
+President, Ruairi Donnely, said only that “we discussed this with some of our grantmaking
+advisors and unfortunately we have decided not to make a grant. Sorry for not having
+better news. I hope you manage to secure funding and wish you all the best with your
+work.”
+WHY ISN’T THERE MORE RIGOR IN AI
+SAFETY GRANTMAKING?
+A lack of detail in post-evaluation debriefings is excusable if there are clear, publicly
+available criteria for evaluating grants. Most grantmakers don’t have time to explain their
+conclusions to all of the hundreds of people who apply for their funding, especially since
+many of those applications will be low-quality or otherwise not a plausible fit for the
+grantmaker’s particular fund. If AI safety grantmakers had published quantitative criteria
+for scoring grants and then shared the resulting scores with applicants, I would not be
+expecting any further information.
+What I find outrageous is that AI grantmakers are neither publishing formal criteria before
+applications are evaluated nor writing detailed feedback after grants are awarded. This
+means that nobody has any way of telling why some grants are funded and others are
+denied.
+Reasonable Overhead
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+21/32
+
+This lack of rigor in AI safety grantmaking would make more sense if AI safety funders
+were only distributing $1 million per year. If grantmaking budgets are small enough, then
+the extra time it would take you to develop a formal process and explain it to grantees is
+not cost-effective, because too much of your budget would be going to overhead.
+However, this is not a reasonable explanation in the context of AI safety grantmaking.
+Open Philanthropy alone gives out more than $100 million per year just on AI governance.
+An average level of administrative overhead for a foundation is 11% to 15%. If you spend
+5% of the overhead budget (so, about half a percent of the total grant volume) on designing
+and communicating formal rubrics, you’d have a budget of at least $600,000 per year, i.e.,
+enough to pay a couple of full-time employees just to work on AI governance grantmaking
+rubrics. Obviously, this has not been happening.
+It should be happening, because it’s very easy to reap large savings or other large benefits
+from clearly explaining your grant procedures. If CAIP was an unnecessary expense, then
+the movement could have saved $2 million by clearly communicating that in advance –
+more than enough to cover whatever staff time was required to develop and communicate
+the relevant criteria. 
+Linchuan Zhang of LTFF once wrote° that most LTFF grantmakers are “very part-time,”
+because they work long hours for their day jobs and only attend to LTFF grant applications
+with the limited time that they have remaining. He speculates that “full-time grantmakers
+at places like Open Phil and Future Fund” might “have similarly packed schedules as well,
+due to the sheer volume of grants.”
+If there is a shortage of staff time, then AI safety funders need to hire more staff. If they
+don’t have time to hire more staff, then they need to hire headhunters to do so for them. If
+a grantee is running up against a budget crisis before the new grantmaking staff can be
+on-boarded, then funders can maintain the grantee’s program at present funding levels
+while they wait for their new staff to become available.
+Instead, AI safety funders appear to be just trusting their instincts and giving out money
+based on their intuitive preferences – even though there’s every reason to believe that this
+results in deeply suboptimal awards.
+Micro-Dooms Per Dollar
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+22/32
+
+One of the grant managers at LTFF, [Person K], once told me that he thought it might be
+helpful for AI safety funders to evaluate projects in terms of a standard number of “micro-
+dooms” per dollar that each project is expected to avert. For example, if grantors believe
+that a project will reduce the risk of catastrophe by 0.01%, then they would give it credit for
+preventing 100 micro-dooms. This would provide a fair and reasonable way of comparing
+the value of AI safety projects that operate in relatively different specialties, such as
+advocacy targeted at politicians, abstract governance research, and communications aimed
+at the general public.
+However, none of the funders that CAIP spoke with said anything to us about how many
+micro-dooms they expected CAIP to avert, or about their targets for how many micro-
+dooms per dollar they expected to avoid when funding a successful project, or how they
+would calculate the number of micro-dooms averted by a project. 
+I followed up with Person K while writing this post, and he wrote that, “In the past year or
+so, I've updated towards the position that it’s very difficult to do correct cost effectiveness
+evaluations, and so we mostly just have to make best guess qualitative judgements. I
+believe this is basically the standard grant maker take.”
+I agree that it is difficult to make accurate cost-effectiveness evaluations, but I would be
+very surprised if the effort of trying were not worthwhile. When you attempt to quantify
+the value of an outcome, even if you make an error, your attempt will probably be more
+rigorous and more accurate than an attempt made without using any numbers at all. As
+long as you’re honest about your error bars, you should be able to at least compare the
+benefits offered by two different grants in terms of their likely orders of magnitude.
+If AI safety grant evaluations are so challenging that grantmakers can’t even arrive at an
+approximate order of magnitude for the micro-dooms that each grant is likely to avert,
+then that strongly suggests that grantmakers don’t know enough about specific AI safety
+projects to be usefully picking and choosing individual grants. In that case, grantmakers
+may as well just assign a high funding priority to every plausible grant in the most
+effective category – and the most effective category, as I have been arguing for the last
+40,000 words, is advocacy, not research, because only advocacy has the power to change
+the incentives of the private AI developers who are likely to carry us with them into ruin.
+CONCLUSION
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+23/32
+
+Each year, most of the hundreds of millions of dollars that are donated to AI governance
+are spent on academic-style research. There does not appear to be any clear idea of what
+this research is supposed to accomplish, how those accomplishments will improve the
+world, or how much value this research will generate per dollar. The process that results in
+awarding grants to researchers appears to be based primarily on intuition and subjective
+judgments, rather than on any formal criteria. 
+If our AI safety funders were staffed by grantmaking experts who had worked for
+prestigious mainstream philanthropies, then I would be more inclined to give them the
+benefit of the doubt and assume that they do have rigorous rubrics hidden away
+somewhere, and that they’ve just chosen not to share them for some unspecified reason.
+However, instead, our AI safety donors are staffed by people who have very little
+grantmaking experience outside the EA bubble. It seems entirely plausible that most of them
+are simply unfamiliar with proper grantmaking procedures, or unfamiliar with the reasons why
+such procedures are useful.
+Similarly, if our AI safety funders were staffed by experts in political advocacy who had
+worked for many years in DC, then I would be more inclined to give them the benefit of the
+doubt and assume that they do have some good reason for directing most of their funding
+toward academic-style research, even though – as I have argued throughout this sequence
+– further academic research doesn’t seem at all likely to prevent an AI disaster. 
+Unfortunately, we do not have grantmakers who know from deep personal experience
+what things are really like in Capitol Hill or Sacramento or the Supreme Court or the White
+House. Instead, we mostly have grantmakers who have perhaps completed a political
+internship at some point, and who are making decisions primarily based on their
+experience as academic-style researchers who have published papers and talked to other
+researchers. As such, it seems entirely plausible that most of them are simply biased toward
+funding other researchers because they find research to be a familiar and comfortable topic.
+We are therefore getting suboptimal results: instead of funding the best available projects
+that are most likely to positively impact the future, AI governance donors are primarily
+funding the projects that subjectively appeal to their staff.
+My point here is not to criticize AI governance grantmaking staff – I believe they are all
+doing the best they can with the tools they have available. My point is that our
+grantmaking teams have not been given the right tools: we need to hire additional
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+24/32
+
+grantmakers who have the political and mainstream philanthropic experience we need to
+invest wisely in the most effective AI governance grants.
+Similarly, I do not want to offer any harsh criticism to AI governance donors simply
+because they have not hired the optimal teams for their grantmaking staff: at least the AI
+governance donors are donating to a good cause. Thousands of donors pick far less
+important causes to support, and hundreds of millions of well-off people in developed
+countries do not bother to make any significant donations at all. By comparison with their
+peers, people like Cari Tuna and Jaan Tallinn are doing an enormous amount of good. In
+general, I appreciate their efforts, and I truly am grateful for their support, even though I
+have spent most of this sequence complaining. If I met the donors, I would offer to shake
+their hands and buy them a drink.
+Nevertheless, I cannot hide my sadness that so much of the money that has been donated
+to the urgent and important cause of AI safety is on track to be spent in ways that will have
+only a tiny marginal impact on the future. It is a tragic, avoidable, and enormous waste. If
+there is any chance that I can ameliorate some of this waste by speaking out about it, then I
+feel a duty to do so.
+RECOMMENDATIONS
+1. Hire staff to fill the gaps in political and
+philanthropic expertise
+If you work at a large AI safety donor such as Open Philanthropy or Longview, I urge you to
+aggressively hire (1) experienced political advocates, and (2) experienced grantmakers
+from mainstream philanthropies. Jobs for these positions should be constantly open and
+widely advertised until at least ten new people with the relevant expertise have been hired
+in each of these two categories.
+In addition, grantmakers should use the handful of experts they already have to help find
+more people with the experience they need. Open Philanthropy did very well to hire
+Melanie Harris, who is a genuine political expert; they should be asking her for referrals
+both for Open Philanthropy and for other grantmakers.  Similarly, Carl Robichaud at
+Longview Philanthropy spent a decade running grantmaking in nuclear security at the
+Carnegie Corporation; if they are not already doing so, then Longview’s AI team should be
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+25/32
+
+trying to tap his expertise to improve their AI safety grantmaking processes, and they
+should be trying to tap his network to hire additional staff with mainstream philanthropic
+expertise.
+If you don’t have time to manage that hiring process, then I urge you to hire a headhunter
+to do so for you – the McCormick Group and NRG Consulting both have relevant networks
+in DC. If you don’t have the funding to hire the additional grantmakers, then I urge you to
+try to redirect some of your organization’s external grant funding to free up the resources
+to hire more internal staff. The lack of expertise in these categories is wrecking the
+average effectiveness of AI safety grants, so a small cut in the total size of those grants
+could easily be ‘paid for’ by investing in a better process that would make the remaining
+grants more efficient.
+As I write this, in June 2025, it is remarkably easy to hire high-quality political and
+philanthropic staff. Washington, DC is full of Democrats who are looking for work because
+their party is out of power, full of moderate Republicans who don’t fit in well with the
+MAGA agenda, and full of civil servants who have been fired or otherwise pressured to
+leave their jobs. Similarly, the widespread budget cuts and budget uncertainties around,
+e.g., USAID, Harvard research programs, and government contracting mean that
+traditional philanthropies are less able to attract and retain their top talent. We should take
+advantage of the ready supply of talent by hiring new kinds of experts.
+To do so, we should be editing our job descriptions to stress our appreciation for political
+and philanthropic talent, and we should be posting those job descriptions on several
+mainstream job boards.
+For example, one of Longview’s current openings for a new grantmaker specifies that the
+grantmaker should be a “US AI policy specialist,” but that opening allows for the
+possibility that the position could be filled by someone whose primary policy experience is
+as an academic-style policy researcher. Editing these types of job descriptions to more
+firmly emphasize the organization’s interest in and appreciation for political skills and
+experience would go a long way toward making political advocates feel that they will be
+welcome inside the EA movement. 
+Similarly, if it has not already been added there, then both that job description and other
+new positions should be posted to a wide variety of job boards that specialize in political or
+policy work, such as Tom Manatos Jobs, the Internet Law & Policy Foundry, the Public
+Interest Tech Job Board, Daybook, Roll Call Jobs, and the Public Affairs Council.
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+26/32
+
+Aggressively advertising a few explicitly-political positions to job seekers with relevant
+political experience would help create a critical mass of political advocates within the
+movement, which could then make it much easier to attract and retain other political
+advocates as needed.
+2. Write and publish formal grantmaking criteria
+If you work at a large AI safety donor, then I urge you to agree upon, write up, and publish
+formal grantmaking criteria. (If it’s important to your organization to allow for a diversity
+of grantmaking priorities, then have each individual grantmaker write up and publish
+their own priorities and explain how they will evaluate which grants meet those
+priorities.)
+What this means is not just listing some of the things that you believe are good to have in
+grants, but also developing an organized process that will prompt you to apply your criteria to
+each grant and decide for yourself how well each grant application meets each criterion,
+ideally by assigning a numerical score to each factor and weighting the results. 
+At least some of these scores should be based on objective or quantitative factors where
+different people will readily agree on what the approximate value of the score should be. In
+other words, don’t just check whether a grant is “cost-effective” – check whether it
+delivers a certain number of meetings or papers or videos or laws per dollar. If you’re
+measuring “expertise,” don’t just ask yourself whether you think an applicant’s staff has
+good experience – write up a description of what kinds of experiences you would like their
+staff to have, and then award points based on how many of those experiences are present
+on the team. 
+Even if you ultimately decide not to follow the ‘advice’ of a particular set of scores, it’s still
+an incredibly useful constraint to be forced to check to see what that advice is and to
+explain why you will or will not follow it in any particular case.
+People are drawn to the field of AI safety based on their sincere concern for the public
+good, but even high-integrity people suffer from cognitive biases and can benefit from
+using tools (like written rubrics) to help manage those biases. Even if your grantmaking
+team is so sharp that it can perfectly uphold its values without referring to any written
+materials, your prospective grantees need formal grantmaking criteria so that they can see
+what they’re supposed to do and intelligently direct their efforts. Not having formal
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+27/32
+
+published criteria sets your grantees up to fail and forces you to read a glut of poorly
+tailored grant applications that are not a good fit for your organization’s funding priorities.
+It’s helpful to regularly write about what kinds of grants you want to fund, but it’s even
+more helpful to publish quantitative criteria; the more information grantees have about
+your values, the more improvements you’ll see in the average quality of the grant
+applications you receive.
+3. Put social pressure on AI grantmakers
+If your friends or colleagues or co-authors work for AI governance donors, then I urge you
+to pressure them to repair the gaps in their staffing and to publish more of their
+grantmaking criteria. Ask them what they’re doing to respond to the concerns raised in
+this sequence. Follow up at parties and at co-working sessions. Making these changes will
+take several weeks, but there’s no good reason for them to take more than a year – ask
+your friends what they plan to do, and when they plan to do it. The resulting conversations
+could be awkward, but failure to make these changes will increase the odds of an
+existential catastrophe.
+4. Consider conducting your own grant investigations
+If you are a medium-size AI safety donor, and you see that the larger donors are not
+responding to this advice, then I urge you to consider making some of your own grant
+evaluations. Evaluating the efficacy of political advocacy is challenging, and it is probably
+not something that you can do well in an afternoon, but depending on the size of your
+contributions, it might be worth your while to hire an experienced analyst on a short-term
+contract. A professional analyst might be able to write a set of criteria and manage one
+grant round, in, e.g., three months, suggesting a ballpark cost of $50,000. You might be
+able to share this cost with one or two friends, or you might be able to defray that cost by
+investing a significant portion of your own time in making your own independent
+evaluations. 
+Please consider the odds that you would actually agree with the judgments being made by
+institutional donors if you conducted your own investigation, and please consider how
+much more good you might be able to do by funding the organization that you judge to
+have made the best-available application in the field, rather than funding more academic
+research that lacks a clear theory of change. If you can do twice as much good with a well-
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+28/32
+
+chosen advocacy grant compared to a well-chosen research grant, then hiring your own
+analyst could start to make sense on a total grantmaking budget that’s as small as
+$100,000.
+GOODBYE FOR NOW
+Thank you for reading this extremely long sequence and for the financial and moral
+support that many of you have offered along the way. Despite your support, I cannot afford
+to pay any of the staff at the Center for AI Policy, and so we have ceased operations for now.
+The non-profit corporation and the website will remain active for the foreseeable future,
+and I myself remain willing and able to rejoin the movement on a full-time basis if and
+when sufficient funding becomes available. In the meantime, if any of you have questions
+about how to make your AI governance work more relevant, I am always happy to help at
+jason@aipolicy.us.
+Previous:
+Political Funding Expertise (Post 6
+of 7 on AI Governance)
+1 comments
+37 karma
+Comments 2
+Sorted by New & upvoted
+Kestrel🔸
+5
+0
+15
+Thanks for this series. It helps illuminate a murky area.
+Seems to me that it supports the same basic fact I've seen for a while now: the highest-impact stuff is
+increasingly in the political sphere, a community mismatch where engaged EAs and EA funders are
+drawn more towards soft political neutrality.
+10mo
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+29/32
+
+I have no good answers to this problem.
+SummaryBot
+0
+0
+1
+Executive summary: The post argues that AI safety grantmaking is dominated by research-focused
+insiders who lack mainstream political and philanthropic experience, resulting in informal and often
+opaque funding decisions that neglect high-impact advocacy work; it calls for more rigorous,
+transparent procedures and greater investment in politically experienced staff to ensure funding
+decisions align with effective altruist goals.
+Key points:
+1. Mismatch Between Research and Advocacy Needs: The field disproportionately funds
+academic-style research over political advocacy, even though the latter is more likely to
+achieve real-world impact in reducing AI risk.
+2. Insularity and Lack of External Expertise: Most AI safety grantmakers have no experience in
+mainstream philanthropy or professional advocacy, leading to poor adoption of established best
+practices.
+3. Absence of Formal Evaluation Criteria: Funders often make grant decisions based on subjective
+judgments without using transparent rubrics, benchmarks, or quantifiable goals, leaving
+grantees without guidance.
+4. Challenges of Feedback and Accountability: The lack of measurable feedback loops in AI
+governance is compounded by an unwillingness to establish even proxy metrics or structured
+evaluations.
+5. Recommendations for Reform: The post urges funders to hire experts in politics and
+philanthropy, adopt formal grantmaking criteria, and support medium donors in conducting
+independent grant evaluations.
+6. Call to Action and Closure: With CAIP suspended due to lack of funding, the author remains
+available for consultation and calls for systemic reform to prevent waste and better serve the
+mission of AI safety.
+This comment was auto-generated by the EA Forum Team. Feel free to point out issues with this
+summary by replying to the comment, and contact us if you have feedback.
+10mo
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+30/32
+
+More from Jason Green-Lowe
+View more
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+63
+· 11mo ago · 38m read
+5
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+31/32
+
+View more
+148
+· 8d ago · 9m read
+16
+Sophie Kim
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+2
+· 5d ago · 2m read
+0
+Mateusz Bagiński, Grace Roberts
+The Anthropic IPO Is Coming. We Aren't Ready for It.
+Pivotal Research Fellowship applications are open (deadline May 3)
+Applications open for the Online wing of the AFFINE Superintelligence A…
+4/20/26, 10:13 PM
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/85yGkxJYfKnfCd9ME
+32/32

@@ -1,0 +1,477 @@
+What We Learned from Briefing 140+
+Lawmakers on the Threat from AI
+So ControlAI kept talking to lawmakers...
+LETICIA GARCÍA MARTÍNEZ
+FEB 12, 2026
+3
+10
+Sh
+Back in May 2025, I published a post titled “What We Learned from Briefing 70+
+Lawmakers on the Threat from AI”. I was taken aback by the positive reception that
+this post had, and have appreciated the kind feedback through online forums and in
+person conversations.
+I’ve doubled the number of meetings since writing that post and I’ve been wanting t
+expand on it for a while. I wouldn’t say I’ve learned twice as much! But I have learne
+63
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+1/17
+
+some other things, so here’s an update I hope you’ll find helpful.
+If you haven’t read my previous post from May 2025, I would recommend starting
+there: it contains what I consider the core insights, whereas this one builds on those
+ideas and addresses some questions I’ve received since.
+If you have not come across ControlAI before or wish to read an update on our UK
+parliamentary campaign, you can find more information further down.
+Sample size, characteristics, and time frame
+Between September 2024 and February 2026, I delivered over 150 parliamenta
+meetings with cross-party UK parliamentarians and their teams to discuss and
+collaborate on tackling the threat posed by superintelligent AI systems.
+Of these, 140 were introductory briefings to familiarise parliamentarians with th
+topic and establish working relationships, while the remainder were follow-up
+sessions to reconvene on the issue and advise on specific initiatives.
+Of those 140 initial briefings, 126 were delivered directly to parliamentarians, w
+only 14 were delivered exclusively to staffers.
+The composition of the sample was as follows: 42% were Members of the Hou
+of Commons (MPs), 35% were Members of the House of Lords (Peers), and 22
+were devolved parliamentarians from the Scottish, Welsh, and Northern Irish
+legislatures.
+Most meetings were attended by two members of ControlAI’s team, with a few
+exceptions where I attended alone.
+Type your email...
+Subscribe
+Part I: Attention is All You Need
+Betting on common knowledge
+Already have an account? Sign in
+Discover more from ControlAI
+Working to keep humanity in control
+Over 145,000 subscribers
+Enter your email...
+Subscribe
+By subscribing, you agree Substack's Terms of Use, and
+acknowledge its Information Collection Notice and Privacy Policy.
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+2/17
+
+In September 2024, we began briefing parliamentarians and asking them to suppor
+campaign statement. The objective was to build common knowledge about the
+problem of the extinction risk posed by superintelligence, and encourage them to ta
+a public stance. A public stance is a tangible, verifiable signal that they understand 
+issue, care about it, and want others to know. Our UK campaign statement reads as
+follows:
+“Nobel Prize winners, AI scientists, and CEOs of leading AI companies have state
+that mitigating the risk of extinction from AI should be a global priority.
+Specialised AIs - such as those advancing science and medicine - boost growth
+innovation, and public services. Superintelligent AI systems would compromise
+national and global security.
+The UK can secure the benefits and mitigate the risks of AI by delivering on its
+promise to introduce binding regulation on the most powerful AI systems.”
+As of February 2026, over 100 parliamentarians have supported this campaign. Its
+purpose was to raise awareness of the problem and build a coalition of lawmakers t
+want to tackle it. As parliamentarians came to understand the issue more fully, we
+were able to deepen our conversations and focus more directly on policy solutions:
+specifically, the case for a prohibition in the foreseeable future, given that
+superintelligence cannot be developed safely or controllably.
+As a result of this sustained engagement, an increasing number of parliamentarians
+are now speaking openly about the threat from superintelligence and the need for
+such a prohibition. I will mention some examples in the next section.
+At ControlAI, we placed a deliberate bet: before the problem can be addressed, it fi
+needs to become common knowledge. We embarked on sustained engagement wi
+lawmakers, the media, and civil society, across jurisdictions. Early on, this work is sl
+Making change happen
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+3/17
+
+and difficult. But we believed there would be a point where enough people would kn
+about the issue for it to spread more easily. At that stage, awareness can be built at
+scale, because the effects begin to compound rather than reset with each new
+conversation. Support spreads through existing networks, people learn from one
+another, and progress becomes non-linear rather than incremental.
+In the UK Parliament, this is what that process has looked like so far:
+From November 2024, we began systematically briefing parliamentarians. As I
+mentioned in a previous post, we had no insider contacts in Parliament. We had
+push the door open ourselves: making ourselves known, reaching out as widely
+possible, and building from scratch.
+0 to 1 was the most difficult part: Securing the first supporters was difficult. W
+had to refine our explanation repeatedly, and social proof was initially absent. F
+early supporters, the perceived risk of taking a stance was higher, which made
+progress slow.
+10 to 40-50 came through linear growth: After reaching a small initial group 
+around 10 supporters, we grew steadily by consistently delivering briefings.
+We then transitioned to non-linear growth: Once we reached a critical mass
+(around 40-50 supporters), the dynamics shifted. The marginal effort required
+secure additional support decreased. Existing supporters began making
+introductions, meetings became easier to secure, and the campaign started
+spreading organically within Parliament. More and more constituents used
+ControlAI’s email tool to contact their MPs with concerns. This made the proble
+more salient, and as MPs saw trusted colleagues getting involved, they found it
+easier to engage themselves. Interest spread from parliamentarian to
+parliamentarian.
+The message is now spreading faster and faster: In December, MPs called f
+a prohibition on superintelligence for the foreseeable future during debates, in 
+eds, and posed questions about extinction risk from superintelligence in
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+4/17
+
+committee meetings. Our milestone of surpassing 100 cross-party supporters
+was covered in The Guardian, with several supporters providing strong public
+statements. In January, the threat from superintelligent AI was raised in two Ho
+of Lords debates, one of which focused specifically on an international
+moratorium. Ministers in the Lords were repeatedly questioned about the
+government’s plans for superintelligence, including whether a prohibition would
+be considered. And these public statements have led to more people becoming
+involved that we had not been in touch with.
+Watching this unfold has been deeply rewarding. Recently, I made a point of having
+several of us at ControlAI attend one of the House of Lords debates we had been
+invited to. It is hard to overstate how encouraging it is to see lawmakers engage, tak
+stance, and carry the issue forward themselves, on a topic many were unfamiliar wi
+just a year ago. And to see superintelligence and securing a great future for human
+being discussed in the parliament of one of the most powerful countries in the worl
+is both encouraging and clarifying. It shows that change is possible through direct,
+consistent, and honest engagement.
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+5/17
+
+It goes without saying that, despite our success, there is still much to be done! An
+international agreement prohibiting superintelligence will require raising awareness 
+scale in the UK and other jurisdictions, as well as establishing credible pathways to 
+robust and effective agreement.
+I would also note that there are other external factors contributing to this change,
+whose influence I expect will increase over time. I would highlight two:
+First, AI-related harms are becoming harder to ignore. As capabilities increase,
+does the potential for harm. Deepfakes are a clear example: what was marginal
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+6/17
+
+2023 has become tangible and politically salient, particularly after tools enable
+the large-scale creation and dissemination of sexualised images. This has led
+some parliamentarians to question whether existing legislation is fit for purpose
+and to seek deeper understanding.
+Second, the pace of AI development is making the issue feel immediate. Chang
+are no longer abstract or confined to niche domains; they are increasingly visib
+in everyday life. That proximity matters. Even I was taken aback the first time I s
+a self-driving car on my street!
+As in many other policy areas, AI governance is a field in which some people devote
+more of their time to research, while others focus more on advocating for specific
+policy proposals and bringing them to policymakers. Advocacy has enormous
+potential to make change happen in the real world, particularly in an area like AI safe
+As Mass_Driver brilliantly puts it in this post from May 2025, ‘we’re not advertising
+enough’. Back then, the author estimated that there are 3 researchers for every
+advocate working on US AI governance, and argued that this ratio is backwards:
+advocacy, not research, should be the central activity of AI governance, “because t
+core problem to be solved is fixing the bad private incentives faced by AI developer
+While I would not place particular emphasis on optimising the ratio as the primary
+means of addressing the issue, I agree that strengthening and resourcing advocacy
+an urgent priority.
+In the UK, policymakers are very stretched. As discussed in my previous post, they 
+expected to be knowledgeable across a wide range of topics (both when it comes t
+their constituency and to the legislation that goes through Parliament) and they hav
+very limited resources to address them. Their teams of staffers are often small (2–5
+people). They certainly don’t have much time to search the web for meaty papers
+filled with technical terms and then try to figure out what they mean!
+Advocating for advocacy
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+7/17
+
+Research is a necessary first step to understand whether there is a problem, what i
+looks like, and how it can be tackled. There is a lot of research I benefit from when
+building common knowledge among policymakers! But research, on its own, seldom
+gets the message out. Echoing Mass_Driver’s post, “Just because a paper has
+‘extinction risk’ in the title doesn’t mean that publishing the paper will reduce
+extinction risks.” There comes a point where spending months figuring out a nitty-
+gritty detail has much lower impact than just getting out there and talking to the
+people who have the power to do something about it.
+“We really need everyone we can get to spread the word in DC. I have been
+shocked and humbled to see how many Congressional offices were simply unaw
+of basic facts about AI safety. In December 2024, I met with at least five offices—
+including some on the Judiciary Committee—who were very surprised to hear th
+AI developers aren’t covered by existing whistleblower laws. In February 2025, w
+met with a Representative who didn’t know that large language models aren’t
+naturally human-interpretable. In April 2025, I met with a district office director
+who asked me for informational materials to help explain what a data center is. If
+we don’t send people to DC to personally tell politicians why misaligned
+superintelligence is dangerous, then most of them won’t ever understand.”
+We’re Not Advertising Enough (Post 3 of 7 on AI Governance) — Mass_Driver
+I felt the same when we started in the UK! Parliamentarians were very surprised to
+learn that when AI systems deceive their users or developers or resist shutdown, no
+engineer actually programmed this behaviour. It is a consequence of the fact that e
+foremost experts do not know how to prevent such outcomes, and the picture looks
+quite worrying when extrapolated to more powerful AI capabilities.
+Moreover, lobbyists representing tech companies are already using every resource 
+hand to influence lawmakers, which makes engaging directly all the more important
+To begin with, Silicon Valley corporations and investors are mobilising up to $200
+million across two new super PACs ahead of the 2026 midterm elections, aimed at
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+8/17
+
+unseating politicians they view as insufficiently supportive of expanded AI
+development. As reported by The New York Times, this strategy was previously use
+by the crypto industry, where, as they note, “the upside is potentially high.”
+Tech companies are also ramping up their lobbying efforts. Here’s an example from
+the US:
+“Meta alone employed 65 federal lobbyists in 2024, not including their support
+staff, policy researchers, and so on, and not including any work they do on state
+legislatures, on impact litigation, on general public relations, and so on. OpenAI
+employed 18 federal lobbyists. Alphabet employed 90 federal lobbyists. Amazon
+employed 126 federal lobbyists. That’s 299 lobbyists just from those 4 companie
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) – Mass_Driver
+When discussing advocacy with technical researchers, I’ve sometimes heard the
+following argument: “I have technical training, so I’m ill-suited to speak to lawmaker
+I suspected this wasn’t true, and I’ve seen it disproven firsthand: some of my
+colleagues at ControlAI with STEM backgrounds and technical research experience
+are doing excellent work informing lawmakers and the public!
+Moreover, I have occasionally sensed a concern that advocacy merely draws on
+existing research without contributing new learning, and that advocates therefore
+engage less deeply with the substance. I don’t think this reflects how advocacy wo
+in practice. Over the 140+ briefings I’ve delivered with ControlAI, we have repeated
+encountered difficult policy questions that required sustained reflection over month
+Advocacy routinely places you in situations that demand serious intellectual work: y
+sit across from someone whose authority can be daunting, and you try to explain an
+issue they may never have encountered, and may initially find outlandish.
+You have to answer questions on the spot, respond to unexpected objections that
+expose hard problems, and defend your reasoning under pressure. At the same tim
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+9/17
+
+you must rely on judgment and intuition to choose which explanations and example
+among many you know, will resonate with this particular person. You also need to st
+on top of relevant developments across the field. You may not master every technic
+detail of, say, the US export-control framework, but you engage with the subject
+deeply, and learn to communicate it effectively to the audience that most needs to
+understand it.
+So, yes indeed, we’re not advertising enough!
+I have received questions about whether I have noticed major differences between
+parties, whether I change my approach depending on whether I’m talking to
+Conservatives or Labour, and whether they have different questions.
+Had I been asked this before my first meeting, I would have expected substantial
+differences between parties. At least, I would have expected the meetings to feel qu
+different. But I don’t generally attribute the character of a meeting to the party of th
+lawmaker, but rather to other factors: whether their background includes computer
+science, whether they have been interested in other challenges involving coordinat
+problems (e.g. environmental issues), and other aspects of their personal backgrou
+(e.g. they have worked on a related piece of legislation, or have a child who works in
+tech). Even seniority is sometimes felt more strongly than party affiliation. I am glad
+see lawmakers from across the political spectrum support our campaign and engag
+with this topic, as it shows they rightly understand that this problem does not
+discriminate between political parties.
+Most importantly, and at the risk of sounding obvious: don’t lie! If you have to chang
+your message to please one party or avoid upsetting a person, that’s someone you
+won’t be able to work with (you have forfeited your opportunity to convince them of
+Part II: Reflections on Advocacy in Practice
+On partisan politics: How do you talk to different parties?
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+10/17
+
+the problem!) and someone whose trust you have forfeited, as it will become obviou
+that your message is not consistent across audiences. In other words: Don’t make
+arguments others can’t repeat. You can only lose. Honesty is not just an asset, but 
+obligation to yourself and others.
+Halfway through an explanation, a parliamentarian once stopped me and said: “Alrig
+but what can I do about it? I can go home very aware and still not know what to do.”
+Compared to very specific constituency problems (e.g. bus services in this part of
+town are insufficient and constituents cannot travel to work via public transport), th
+threat posed by superintelligence can feel overwhelming and somewhat distant. A
+lawmaker on their own does not have the controls to steer the situation in a differen
+direction.
+So they rightly ask what the next thing they can do with their toolkit is. Raising
+awareness, as this parliamentarian pointed out, is not enough to fix the issue. Ever
+since, I have tried to be much clearer about what actionable next steps are available
+and to bring them up (or at least signpost them) earlier in the conversation so it doe
+not feel discouraging or irrelevant.
+When designing a policy and when communicating it, you need to be clear about w
+you care about most. Policy design becomes complex very quickly: proposals can
+range from narrow, targeted measures to entirely new regulatory regimes for a sect
+That is why it is essential to pick your battles wisely and to be explicit about what yo
+are willing to concede, both in shaping the policy and in signalling which elements a
+essential for actually implementing the policy.
+On actionable next steps: Don’t leave them with just a huge problem!
+Type your email...
+Subscribe
+On trade-offs: Don’t lose the permit over a windowsill!
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+11/17
+
+Take carbon pricing. You may have strong views on whether it should be implement
+through a tax or a cap-and-trade system. If you believe one of these mechanisms is
+fundamentally flawed, it may be non-negotiable. But if you think both could work
+(even if you strongly prefer one) you gain room to compromise in order to build
+broader support. More trade-offs will arise down the line (e.g., around sectoral
+exemptions, revenue recycling, and timelines). Each additional design choice opens
+new axis of disagreement. Some are worth fighting over; some are not.
+A useful way to think about this is as construction rather than decoration. Some
+elements keep the building standing; others make it look nicer. Protect the load-
+bearing structures, and don’t lose the permit because you insisted on a particular
+windowsill that the decision-maker refused to approve!
+I was recently speaking with an acquaintance who is about to launch his own
+campaign on a different issue. As we talked through the difficulties I faced early on,
+admitted how daunting he finds this initial phase. “Studying political science didn’t
+prepare me for this at all,” he said. I could only agree. You can read endlessly about
+politics, but that only takes you so far. Real understanding comes from doing; and
+from reflecting, again and again, on what happens when you do.
+I’ve often found myself thinking of these meetings in terms of tennis. I’ve recently
+taken an interest in the sport: I read Andre Agassi’s Open, started watching matche
+and even queued for Wimbledon in the rain. All of that has, in theory, improved my
+understanding of tennis. But it hasn’t improved my footwork or my hand-eye
+coordination. When I pick up a racket, I still miss half my serves!
+Tennis, like briefing lawmakers, is a craft honed through repetition. The more you do
+the better you get. What works in one match may fail in another; styles differ, and y
+have to adapt. You begin to sense when you’re losing someone’s attention and whe
+On iteration and intuition: Why conversation resembles tennis more tha
+political science
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+12/17
+
+you’ve drawn them in, which examples land and which fall flat. Much of it is decided
+the moment, guided less by explicit rules than by intuition built over time.
+Consider the first sentence of ControlAI’s UK campaign statement: “Nobel Prize
+winners, AI scientists, and CEOs of leading AI companies have stated that mitigatin
+the risk of extinction from AI should be a global priority.”
+There are happier, more palatable messages, I can see that!
+When we first showed our statement to a number of staffers and MPs, they all sang
+the same song: “Nobody will add their name to a statement with the word extinction
+it.” Ouch! This is exactly how foremost AI experts view the scale of the risk, and I
+certainly don’t know more than they do, nor do I wish to change their message.
+It was discouraging and, in all honesty, I came to believe at times it wouldn’t work. Y
+over 100 parliamentarians from across the political spectrum have now supported t
+statement! I’ve learned a lot from that.
+Feedback from reality matters, but it’s easy to overindex on it (especially when we
+don’t like what we hear!) When I receive feedback, I try to ask: how large is the
+sample? Two people? Five? Twenty?
+My threshold for acting on feedback depends on how much I care about the
+underlying idea. If the issue is peripheral and the downside of sticking with it is high
+I’m happy to change course on limited evidence. But when it comes to core princip
+or messages I deeply care about, the bar is much higher: it takes a much larger bod
+of evidence before I’m willing to reconsider.
+This matters most at the beginning, when feedback is scarce and often noisy. Be
+patient. Persist. Adapt, but don’t overcorrect. Otherwise, what you’re building can g
+diluted by early signals until its essence disappears entirely.
+On iteration through feedback: How much evidence is enough?
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+13/17
+
+I remember a busy day at Portcullis House (where MPs have their offices and take
+meetings), when the queue for coffee was even worse than usual and our meeting 
+short one) was already starting late. We were just sitting down with an MP and a
+staffer when the MP offered to grab us coffee. ‘I’m alright, but thanks for offering!’ 
+said nervously, eyeing the queue. ‘I’ll have a black americano’, said my colleague. M
+eyebrows raised as I watched the MP join that long queue. Over the five minutes th
+followed, speaking with the staffer, I could only think: ‘Damn! We shouldn’t have
+ordered that coffee!’
+I learned a lot from what my colleague said when we came out of Parliament. It was
+something along these lines:
+“Look, I know you were stressed about time! But think about it: if you want to work
+with this person, and hence build a relationship with them, you need to act
+accordingly. If we come rushing in and show that we can’t take time for anything ot
+than our talking points (not even time to get to know each other) that makes it hard
+build a relationship. Actually, I’d have the feeling that this person wants to sell me o
+their thing and then run away once they have what they want. So, yes, I ordered tha
+coffee. And you should too!”
+I’ve had many coffees (and orange juices, please mind your caffeine and hot choco
+intake!) since. At the end of the day, that is what I would do with any other person! I
+has to be quick, have a quick coffee! But that is still better than a rushed conversati
+where you haven’t offered a chance to build a relationship.
+Confidence, understood as sounding sure, is not always a virtue. Many people spea
+confidently while being wrong or imprecise, and that only worsens the problem. If I
+On building relationships: Grab that coffee!
+Type your email...
+Subscribe
+On trust: Competence over confidence
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+14/17
+
+were an MP being asked to engage or take a stance, I wouldn’t want to work with a
+good performer or salesperson. I would want someone competent, and competenc
+looks very different from confidence. It shows up in three ways:
+Being willing to say “this isn’t my area of expertise, so take it with a pinch of sa
+when discussing issues outside one’s scope.
+Being transparent about how certain one is about a claim or proposal.
+Demonstrating real command of the details where expertise is expected, in a w
+that is visible in how one speaks.
+In environments like Parliament, where people are constantly trying to influence
+lawmakers, confidence is cheap and often suspect. What is disarming is the absenc
+of performance: clear, careful speech grounded in knowledge, and an evident
+commitment to honesty to oneself and others.
+I was surprised when someone told me: “I really liked your post on how to engage w
+lawmakers. But, you know what? You should have recommended wearing a suit!”
+Alright!
+Please, do wear a suit! It is nicer to engage with people who are well presented and
+have good hygiene. Since we’re here: keep a toothbrush handy, you don’t want to b
+remembered as the person with coriander in their teeth.
+And if you carry a bag to Parliament, think about what’s inside. Believe it or not, I on
+spotted someone who got stopped at security and whose meeting got delayed
+because he was carrying something strange. I couldn’t believe it when I saw the
+security guard pull out a can of chickpeas. I’m sure, for the puzzled staffer watching
+the situation unfold, he became “the chickpea guy”.
+Miscellanea: Leave the chickpeas at home, bring the suit instead
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+15/17
+
+Many thanks to my colleagues at ControlAI for helpful feedback!
+If there’s anything I haven’t addressed that you think would be valuable, please leav
+comment and I will consider addressing it in future posts.
+About me
+I lead ControlAI’s engagement with UK parliamentarians, having briefed over 100
+parliamentarians and the UK Prime Minister’s office on emerging risks from advanc
+AI and the threat posed by superintelligent AI. I have experience in policy consultan
+communications, and research. I’m an economist and international affairs specialist
+training, and I hold a Master’s in Philosophy and Public Policy from the London Scho
+of Economics.
+Leticia García Martínez
+63 Likes ∙10 Restacks
+Discussion about this post
+Write a comment...
+Henry Ward
+Mar 14 Edited
+"When the herd moves, it moves." - Boris Johnson, shortly before being forced to resign as P
+LIKE
+REPLY
+Comments
+Restacks
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+16/17
+
+1 more comment...
+Chloe Ross
+Feb 14 Edited
+AI will doom mankind. I hope I will not be here to see it, but it scares me. Wait and see...or ign
+at your own risk and your children's.
+Watch a cartoon and you will see an example of what I am saying....
+LIKE
+REPLY
+© 2026 ControlAI · Privacy ∙ Terms ∙ Collection notice
+Substack is the home for great culture
+4/20/26, 10:11 PM
+What We Learned from Briefing 140+ Lawmakers on the Threat from AI
+https://controlai.news/p/what-we-learned-from-briefing-140
+17/17

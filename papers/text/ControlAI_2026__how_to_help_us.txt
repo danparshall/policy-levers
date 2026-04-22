@@ -1,0 +1,103 @@
+How to Help
+Our plan to address the extinction risks posed by the development of superintelligence is:
+Design policies that target ASI development and precursor technologies
+Then, convince policymakers in key jurisdictions around the world to implement these policies.
+1.
+2.
+For Step 1, we have written a policy memo on the policies needed to achieve this, and discussed the measures in more detail in A Narrow
+Path.
+What remains is scaling up the civic engagement necessary for the success of step 2: to promote and implement these policies in as many
+countries as possible. As demonstrated by our proof-of-concept campaign in the UK, directly contacting elected representatives works, and
+it is possible to push forward the risks from superintelligence and proposed policies.
+Our Recommendations
+We have tailored policy recommendations for key jurisdictions, as well as policy recommendations for the rest of the world. Recommend
+these policies when reaching out to policy makers in your jurisdiction. You can download country-specific policy briefings below: click on the
+button of your country.
+If you find more than 5 officials interested in our policies and draft bills in your jurisdiction, let us know and we might add your jurisdiction
+here.
+UK
+USA
+China
+World
+State Of AI Regulation
+The US has not passed any legislation enforcing regulation of the most powerful AI systems. 
+The Trump Administration has revoked the Biden Administration’s primary Executive Order on AI, and has announced the “commitment of
+the United States to sustain and enhance America’s dominance in AI to promote human flourishing, economic competitiveness, and national
+security.” The Trump Administration, as of this writing, is in the process of developing an AI Action Plan, due 180 days from 23 January 2025;
+as of now, its content is uncertain. 
+The United States, however, continues to run its US AI Safety Institute, focused on assessing the risks of the most powerful frontier AI
+models.
+Here is our US policy brief:
+Policy Brief
+4/21/26, 11:20 AM
+How to Help | ControlAI
+https://controlai.com/how-to-help/us
+1/3
+
+Download Policy Brief
+Concrete Actions
+Organizations
+If you are an organization, you can participate in this civic engagement by doing what we did in your jurisdiction:
+Identify the public officials most relevant to AI policy and regulation in the US
+Contact the relevant public officials, and for those that are not publicly reachable, leverage your network to reach out and meet them
+Make the case about AI risk and the need for targeted regulation
+Offer the US policy brief above as a set of concrete policies they can promote and implement
+1.
+On the legislative side, the contact details of elected officials in the US, Congressmen and Senators, are often available here. You can
+contact them directly.
+On the executive side, the department that currently mainly owns AI policy and regulation is the National Institute of Standards and
+Technology (NIST), as part of the Department of Commerce. Public-facing contact information for some civil servants and other non-
+elected officials in this department may not be easy to find.
+a.
+b.
+2.
+3.
+4.
+Once you have contacted more than 5 public officials, you can let us know by reaching out to hello@controlai.com. We will be happy to
+schedule a call and provide advice and ideas.
+Also, if the public officials you are engaging with are interested in making the policy proposals happen, you can put us in touch with them at 
+hello@controlai.com to discuss next steps and concrete legislation proposals.
+Individuals
+If you’re an individual citizen, the main action you can take is using our automated form to contact your Senators.
+You can also look at our resources for supporters for more actions you can take.
+If you find yourself overextended or out of your depth with regard to this plan, the arguments for AI risks, or the policy proposals, feel free to
+contact us at hello@controlai.com.
+Overview Of The US Policy Process
+The legislative branch in the US is composed of two houses
+The House of Representatives
+The Senate
+•
+•
+The executive branch is headed by the President (often referenced by his residence, “the White House”), and the executive departments and
+agencies generally report to the President. 
+The heads of all executive departments and most agencies are nominated by the President and confirmed by the Senate. (Some lesser
+offices and most staff roles are nominated by the President, but do not require Senate confirmation.)
+The executive branch holds, broadly speaking, national security, regulatory, administrative, trade/commerce, and other domestic federal
+powers  
+•
+Note that some regulatory agencies are quasi-independent, though their constitutional status is complex.
+•
+•
+Any bill must pass through both houses, and either a) receive the President’s signature or b) if the President vetoes the bill by refusing to
+sign it, a 2/3rds vote of both houses to override the veto, to become law
+4/21/26, 11:20 AM
+How to Help | ControlAI
+https://controlai.com/how-to-help/us
+2/3
+
+Contact
+Careers
+Socials
+Blog
+About
+Privacy Policy
+Note that in the American system, some powers are reserved to the constituent member states of the United States.
+Get Updates
+Sign up to our newsletter if you'd like to stay updated on our work,
+how you can get involved, and to receive a weekly roundup of the latest AI news.
+Enter your email
+Join the Campaign
+4/21/26, 11:20 AM
+How to Help | ControlAI
+https://controlai.com/how-to-help/us
+3/3

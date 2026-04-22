@@ -1,0 +1,235 @@
+ControlAI 2025 Impact
+Report: our progress toward
+an international ban on ASI
+by Andrea_Miotti, Alex Amadori
+27th Mar 2026
+AI Alignment Forum
+Linkpost for controlai.com
+This post highlights a few key excerpts from our full impact report. You can read the full
+report at https://controlai.com/impact-report-2025.
+ControlAI is a non-profit organization working to avert the extinction risks posed by
+superintelligence. We help hundreds of thousands of people understand these risks and
+meet hundreds of lawmakers to inform them, without mincing words, about what is at
+stake.
+In little more than a year, we briefed over 200 parliamentarians, built a coalition of 110+
+UK lawmakers recognizing superintelligence as a national security threat, led to
+two debates in the UK House of Lords, and our work led to a series of hearings on AI
+risk and superintelligence at the Canadian Parliament. These hearings included
+testimonies from me (Andrea) and Samuel at ControlAI, Connor Leahy, Malo Bourgon
+(MIRI), Max Tegmark and Anthony Aguirre (FLI), David Krueger, and more.
+The report covers results between December 2024 and January 2026. As of posting this
+in March 2026, we've now briefed 279 lawmakers and 90+ US congressional offices.
+In only the last 2 months, we've scaled in Canada and Germany from ~50 to 100+
+lawmakers briefed, despite us only having one staffer in each country.
+[1]
+AI Governance
+Politics
+AI
+World Optimization
+Frontpage
+81
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+1/7
+
+Moving forward, we plan to significantly expand our work in the US, accelerate our
+progress from awareness to policy action and establish a presence in all other G7
+countries.
+ControlAI's mission
+ControlAI’s mission is to avert the extinction risks posed by superintelligence.
+Nobel Prize winners, top AI experts and even the CEOs of major AI companies have
+warned that superintelligence poses an extinction risk for humanity. Yet, most decision-
+makers and most of the public are still in the dark about these risks.
+To avert these risks, we need to prevent the development of superintelligence. We tackle
+this problem in a direct and straightforward way: meet all relevant actors in the
+democratic process, inform them of the risks and the solutions, and ask them to take
+action on this issue, systematically and repeatedly.
+We help hundreds of thousands of people understand the extinction risk posed by
+superintelligence, and to take civic action. We meet hundreds of lawmakers to inform
+them, without mincing words, about the risks of superintelligence. We help lawmakers
+speak out publicly and push for concrete measures to prevent superintelligence,
+nationally and internationally.
+We often meet lawmakers who had never heard of the risks of superintelligence
+before our meeting, and walk out with them supporting our campaign.
+In the UK, we started out with cold outreach to all lawmakers, and one year later we
+have a coalition of over 110 lawmakers recognizing superintelligence as a national
+security threat, which has already led to two debates in the UK parliament on
+superintelligence and extinction risk.
+We are now expanding our model to other countries, including the US, Canada and
+Germany. The early results, which we present in this document, show that our playbook
+can be replicated across borders.
+We produced these results with a team of fewer than 15 people, operating on a
+small budget compared to the scale of the problem. Our methods have significant
+room to scale with more resources.
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+2/7
+
+Our Results Last Year
+Lawmaker outreach
+~1 in 2 UK lawmakers we brief go on to support our campaign
+110+ UK lawmakers supported our campaign
+2 Parliamentary debates on superintelligence and AI extinction risk
+Media & content creator outreach
+18 Media publications on risk from superintelligent AI resulting from our work
+14 Videos published in collaboration with content creators totaling 20+ million
+subscribers
+Public awareness campaign and lawmaker engagement tools
+160,000+ Messages sent to US and UK lawmakers from constituents about
+superintelligence extinction risk
+30,000+ People who contacted their lawmakers through our tools in the US and UK
+Theory of Change
+The awareness gap
+In order to establish strong international coordination to prevent superintelligence,
+countries will need resources like funding, political will, diplomatic leverage, and
+sustained attention from capable people.
+Only deep awareness of superintelligence and its risks will justify such investments in
+the eyes of these actors. Without genuine understanding and conviction, individuals and
+countries will not bear the real costs needed to solve the problem, nor remain vigilant as
+AI development evolves and political or economic circumstances change.
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+3/7
+
+Right now, that awareness barely exists. Decision makers and the public across countries
+are largely unaware of the extinction risk it poses. When we started, virtually no one was
+bringing the extinction risk from superintelligence directly to lawmakers.
+Building this awareness at scale, among both decision makers and the public, is the
+necessary first step for any meaningful action on superintelligence.
+In order to kickstart the kind of international coordination needed to prevent
+superintelligence from being built, we need to rally a critical mass of countries that take
+the risks of superintelligence at least as seriously as they take the threat of nuclear war
+today, and that treat its development as they would any other severe threat to national
+security.
+Building the coalition
+With sufficient buy-in, the next steps become possible. Informed governments backed
+by public demand for action can pursue concrete policy measures: national legislation
+prohibiting the development of superintelligence, and international agreements modeled
+on existing nonproliferation and WMD-prevention frameworks.
+These measures can be achieved by a powerful coalition of countries that
+understands superintelligence as a vital threat to their national security, and treat
+its development as they would any other severe security threat.
+Such a coalition has a wide range of enforcement tools available, from formal
+agreements and inspection regimes to sanctions and multi-lateral monitoring
+mechanisms, the same tools that have been used to constrain nuclear proliferation and
+other global security threats.
+Both superpowers and middle powers are well-positioned to join this effort, as they all
+face the universal extinction threat from superintelligence being developed.
+ControlAI exists to make sure that a strong coalition of countries rises up to the
+challenge of preventing the development of superintelligence.
+Our Theory of Change in more detail
+This chart describes our theory of change in more detail, and clarifies how our work fits
+in it.
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+4/7
+
+Moving forward
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+5/7
+
+In little more than a year, we have proven that directly engaging democratic
+institutions on the extinction risk from superintelligence works.
+The UK is our proof of concept; we are now replicating this model in the US, Canada,
+and Germany. In the UK, where we already helped move the issue of superintelligence
+into the halls of politics, 2026 will be the year to translate this momentum into concrete
+policy change.
+As we scale, we are confident that more resources will translate directly into more
+countries where lawmakers understand and act on this threat. We will expand our work
+in the US, accelerate our progress from awareness to policy action, and establish a
+presence in all other G7 countries.
+If you are a donor or partner who wants to help build the coalition that keeps humanity
+in control, please get in touch at partners@controlai.com.
+1. As of March 2026, a member of our coalition has submitted an amendment to a UK cybersecurity bill
+recognizing superintelligent AI as "systems that can autonomously compromise national security,
+escape human oversight, and upend international stability". This amendment will be discussed in
+the UK Parliament. ↩︎
+4 comments, sorted by top scoring
+Haiku
+13
+11
+[ ]
+-
+This is huge progress! Congratulations to the whole ControlAI team, as well as to humanity as a whole
+for starting to put up some fight!
+Charlotte Brock
+9
+4
+[ ]
+-
+Great summary of important work being done by ControlAI. Hope you spread the word to many people
+and that they in turn spread it to even more. Not enough people are aware of the risks of AGI/ASI. It
+should be the most talked-about topic at the dinner table, coffeeshops, and online forums. Not to
+mention in policy spaces.
+Andrea_Miotti
+2
+0
+[ ]
+-
+Thanks Charlotte! Yes, a big part of our approach is based on building common knowledge of the risk
+of extinction from superintelligence, so people know that other people know about this risk.
+21d
+19d
+12d
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+6/7
+
+More from Andrea_Miotti
+View more
+Curated and popular this week
+Moderation Log
+The more people we reach, the faster things can compound.
+Barbara Stafford
+7
+6
+[ ]
+-
+Thank you , ControlAI, for your clear planning and your actions. What is more important work than
+making sure the human race (and biological life in general) has a chance to survive?
+129
+5mo
+…
+12
+46
+6mo
+…
+0
+196
+1y
+…
+52
+566
+3d
+58
+274
+6d
+31
+575
+7d
+76
+Alex Amadori, Gabriel Alfour, An…
+Alex Amadori, Gabriel Alfour, An…
+adamShimi, Gabriel Alfour, Conn…
+ryan_greenblatt
+J Bostock
+Eliezer Yudkowsky
+20d
+How middle powers may prevent the devel
+Modeling the geopolitics of AI developme
+The Compendium, A full argument about 
+Current AIs seem pretty misaligned to me
+Ω
+Morale
+Only Law Can Prevent Extinction
+4/20/26, 10:11 PM
+ControlAI 2025 Impact Report: our progress toward an international ban on ASI — LessWrong
+https://www.lesswrong.com/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report
+7/7

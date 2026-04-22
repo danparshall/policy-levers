@@ -1,0 +1,1141 @@
+AN ACTIVIST VIEW OF AI GOVERNANCE
+AI safety
+Existential risk
+Policy
+AI governance
+Political polarization
+Frontpage
+In my previous post in this series, I estimated that we have 3 researchers for every
+advocate working on US AI governance, and I argued that this ratio is backwards. When
+allocating staff, you almost always want to have more people working on the more central
+activity. I argued that in the case of AI policy, the central activity is advocacy, not research,
+because the core problem to be solved is fixing the bad private incentives faced by AI
+developers. 
+As I explained, the problem with these incentives is less that they’re poorly understood,
+and more that they require significant political effort to overturn. As a result, we’ll need to
+shift significant resources from research (which helps us understand problems better) to
+advocacy (which helps us change bad incentives).
+In this post, I want to explain why it’s appropriate for us to shift these resources now,
+rather than waiting until some future date to scale up our advocacy.
+The arguments for why we should wait until later to start advocating can be divided into
+three broad categories: (a) we aren’t yet sure that any of our policies will be robustly
+helpful, (b) we haven’t yet learned how to advocate successfully, and (c) we don’t yet have
+enough senior politicians in the movement to staff a large advocacy effort. What these
+objections have in common is that they seem to justify an emphasis on research for the
+next few years – if we’re missing knowledge or experience that we would need in order to
+win at advocacy, then maybe we should bide our time while we gather more resources. 
+In my opinion, none of these objections are well-founded. We should be very confident that
+our best policies offer net-positive value, we should be very confident that advocating for
+those policies will increase their chance of passage, and we should be confident that we
+Shift Resources to Advocacy Now (Post 4 of
+7 on AI Governance)
+by Jason Green-Lowe
+May 27 2025
+63
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+Reject
+Accept all
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+1/28
+
+can solve the challenge of recruiting effective advocates with willpower, flexibility, and
+funding.
+Moreover, even if we were not self-confident, our chance of success will not be
+significantly improved by waiting or by doing more academic research. On the contrary, we
+face enormous time pressure to get better incentives in place before AI developers push us
+past the point of no return, so we need to start moving AI regulations forward now, using
+whatever policy tools and policy advocates are currently available.
+OUR BEST POLICIES OFFER POSITIVE
+EXPECTED VALUE
+There are several commonsense AI safety policies that would clearly offer positive
+expected value if they were enacted. I discuss them in detail in the first post in this
+sequence, but what they boil down to is that AI developers should have to check in with at
+least one other stakeholder before deploying billion-dollar models. This could be an
+insurer, an auditor, an internal safety researcher who enjoys whistleblower protection, a
+government regulator, and/or an in-house defense attorney who advises them on the
+(non-trivial) risk that deploying the model will lead to an expensive lawsuit. 
+The reasoning is that instead of letting CEOs immediately deploy a model whenever
+they’re tempted to do so, it’s clearly better if the CEO has incentives to get a second opinion
+and double-check their work. Erroneous decisions to train or deploy a model that turns out
+to be dangerous are high-stakes, predictable, and avoidable, so we should put some
+incentives in place that help CEOs avoid those errors.
+As discussed earlier in this sequence, CEOs face enormous temptation to defect against
+society by releasing products that haven’t yet been adequately tested. Executives capture a
+larger share of the upsides of early releases (profits, market share, glory, etc.) than they are
+forced to bear from the downsides of early releases (deaths, illness, war, loss of human
+control). A very similar set of incentives also gave us cars without seat belts and children’s
+pajamas that catch on fire – there’s no good economic reason why society as a whole
+shouldn’t have seat belts and flame-retardant pajamas; it’s just that private companies
+lacked the right incentives to voluntarily provide them.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+2/28
+
+Another way of framing this issue is that by default, the court system is less reliable than
+the marketplace. There is very little piracy of, e.g., ChatGPT, so if you as a customer want
+access to the benefits of the product, then you will have to pay for it, but if you as an
+innocent bystander are harmed by the product, then it’s not obvious that OpenAI will have
+to pay for that. Most lawsuits are never filed at all, and of the ones that are filed, most of
+them are dismissed or settled for a small fraction of their value. In order to change that
+result, we need either upgraded liability laws, or some kind of regulation, or both.
+We’ve Already Laid a Philosophical Foundation for AI
+Governance
+One response to this call for AI safety policies is to say that they sound promising, but that
+we’re radically uncertain about how AI works, so it’s too soon for any type of regulation or
+even to adjust private incentives through, e.g., liability and auditing. 
+For example, back in 2021, Luke Muehlhauser of Open Philanthropy suggested that there is
+no consensus° about how to best respond to AI – at that time, he believed there was
+uncertainty about whether it is good or bad to hasten the development of AI. In 2023, Luke
+partially adjusted his stance on these issues, noting that “much has changed” since he
+articulated his uncertainty in 2021, and that there are now some policies that he
+“tentatively thinks would increase the odds of good outcomes from transformative AI.” It’s
+not clear to me to what extent Luke or Open Philanthropy have become less tentative
+between 2023 and 2025, but I would argue that today, a “tentative” stance on most AI
+governance policies is not really appropriate – we should instead be firmly supporting
+them. 
+Radical uncertainty is only appropriate at the very beginning of a field, when the field’s
+core concepts are still in the process of being defined. It might have been premature for
+Gregor Mendel to argue in favor of specific laws to conserve biodiversity, because the
+entire concept of what it meant for species to be different from each other was still a topic
+of hot debate. Likewise, it would not have been very convincing if Sigmund Freud argued
+for universal mental health care, because even leading figures were still sharply and
+reasonably divided about what it meant to do psychoanalysis and who could be helped by
+this technique.
+However, in 2025 it would be silly to argue that, e.g., public wetlands don’t help conserve
+biodiversity, or that most people can’t benefit from therapy. There is a mountain of
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+3/28
+
+evidence showing that these techniques are helpful, and we have a good theoretical
+understanding of why the techniques would be expected to help, and the way that the
+techniques help lines up nicely with the relevant theories.
+Likewise, we already know enough about AI governance to move forward with some basic
+policy prescriptions. Experts in the field are not confused about what reinforcement
+learning is, or what gradient descent is, or why these techniques will not automatically
+lead to anything like empathy or wisdom. We understand why deep reinforcement learning
+usually creates an uninterpretable set of artificial goals which are likely to diverge rapidly
+and unpredictably from human values when applied in contexts that are different from
+their original training environment. We know that an AI that appears to yield helpful,
+polite, accurate responses in training may yield unhelpful, hostile, or inaccurate responses
+after being deployed, and we know why this happens.
+Similarly, we are not confused about instrumental convergence or situational awareness.
+We know that a wide variety of AI designs with a wide variety of initial goals are likely to
+adopt power-seeking behaviors. Indeed, we have been able to demonstrate this
+mathematically since 2021. We also know that as AIs continue to scale, they will
+spontaneously become better able to identify and pursue opportunities to gain power, even
+if no one has specifically attempted to train the AI to have power-seeking capabilities.
+Whenever we have bothered to test these theories, we have found ample experimental
+evidence that AIs will at least occasionally lie, scheme, self-replicate, blackmail humans,
+ignore orders to shut down, break the law, and accumulate resources. We have found that
+AI will at least occasionally act against the interests of humanity when this seems to be
+useful for maximizing the AI’s reward function. That is exactly what we should expect AIs
+to do – the idea that AIs will always be inherently kind or restrained or cooperative is naïve
+anthropomorphism that does not have any theoretical support from the structure of AIs or
+from our recorded experiences with them so far.
+We don’t have to wonder about whether more intelligent AIs will have more opportunities
+to maximize their reward functions at humanity’s expense, because we’ve seen that even
+relatively modest increases in scale of the current architecture have repeatedly unlocked
+more and more capabilities, such as speaking multiple languages, generating real-time
+video, and acing extremely difficult tests of general knowledge. Many experts confidently
+and recently predicted that these capabilities would not be developed, but they were
+badlymistaken. These failures of prediction come on the heels of past failures to anticipate
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+4/28
+
+AI beating the human world champion at chess, Go, Jeopardy!, poker, Diplomacy, and
+Starcraft, all of which came as a surprise.
+At the very least, this means it is no longer possible to be justifiably confident that further
+capabilities will not be unlocked soon – whatever flaw in the experts’ analysis prevented
+them from accurately forecasting the arrival of AIs that could generate useful software
+code or solve protein-folding problems could also be preventing them from accurately
+forecasting the arrival of superintelligence.
+Similarly, we have no way to be justifiably confident that we will be rescued in time by, e.g.,
+alignment research conducted by AI agents. Some forms of AI might accelerate technical
+alignment research, and that research might be decisive, but we won’t know in advance
+that such a research program is going to succeed or even that it will be very likely to
+succeed. Part of the problem with delegating the problem of alignment to agents that are
+smarter than we are is that we won’t know for sure whether they’re telling us the truth.
+The combination of (1) AIs that are expected to prioritize their own power over humanity’s
+welfare and (2) AIs that could plausibly outcompete humans is all that is needed to
+generate a serious risk of serious catastrophe in the near future. It’s not necessary for us to
+determine exactly how often these problems occur, because even if only 1 in 100 AI models
+display these behaviors, that’s still an unacceptable risk – there are thousands of models
+circulating in the ecosystem, some of which will be deliberately fine-tuned to adopt such
+behaviors or which will face incentives structures that reward them for adopting such
+behaviors. There is much that remains uncertain about the future of AI – we don’t know
+for sure whether superintelligence will arrive in 2027 or 2037 or 2047 – but we don’t need
+to answer these questions before we can confidently determine that the correct level of
+regulation today is not zero.
+The fact that superintelligence is reasonably likely to be extremely dangerous is all we
+need to justify a wide swath of AI regulations – any of which would be better than the
+status quo. We can and should disagree about the exact type of regulations that would be
+best, but we must not let this blind us to the urgent necessity for passing *some* of them.
+There’s no room left for reasonable people to take refuge in radical uncertainty about
+whether we need any AI regulation at all: we clearly do. Whatever research we needed to
+establish that point has already been completed and published. If you want to argue, in
+2025, that we still aren’t sure about whether AI safety regulations are good, then you need
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+5/28
+
+to at least suggest a specific cost or downside to those regulations that might outweigh
+their benefits.
+Regulations Won’t Backfire by Pushing Companies
+Overseas
+In the first post in this sequence, I discussed why moderate AI regulation won’t cause the
+US to lose an arms race with China. If anything, sensible regulation will help the US widen
+its lead by avoiding unnecessary technology transfers. A related concern is that overly
+strict regulations could drive AI developers overseas, to countries that have weaker laws.
+However, as Anthropic CEO Dario Amodei points out, AI developers’ threats to leave the US
+are not even slightly credible. In his words, “That’s just theater, that’s just negotiating
+leverage.” Most leading tech companies still have their headquarters in Silicon Valley or
+Seattle or Manhattan even though these are crowded and expensive and high-tax places to
+live and work. If they’re not going to shift their research buildings 100 miles away to save a
+few billion a year in rent, then why would they want to shift their research buildings
+halfway around the world just to escape from regulations whose purposes they at least
+broadly agree with? And even if tech companies wanted to move, what makes us think that
+their scarce, valuable AI experts would agree to pick up their families and follow them to
+China?
+Regulations should be designed with some care to reduce the burden on AI developers:
+paperwork should be minimized, the costs of compliance should be borne by the
+government whenever possible, and rules should be no stricter than necessary to
+accomplish their objectives. 
+If specific tech companies nevertheless object to specific regulations and credibly threaten
+to move their laboratories if the regulations are passed, then we can weaken or adjust the
+regulations as necessary until those threats fade away. However, we should not
+preemptively abandon the entire project of AI safety regulation just because someday
+some company might respond by trying (and most likely failing) to move some of its staff
+to a rival country. If your actual goal is to win a competition for AI talent, you can do that
+much more effectively by lobbying for visa reform than by lobbying against AI safety
+regulations.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+6/28
+
+Regulation Is Helpful Even If It’s Not Fully Future-
+Proof
+Another complaint that CAIP sometimes received about its model legislation was that the
+legislation isn’t fully future-proof. Our proposed bill would rely in part on thresholds based
+on FLOPs, but AI evolves rapidly enough that the specific number of FLOPs specified in the
+bill might quickly become inappropriate. If there is a paradigm shift in how AIs are trained,
+then the entire concept of FLOP-based thresholds might become obsolete; perhaps in 2028,
+it will be just as nonsensical to talk about identifying frontier models based on FLOPs as it
+would be today to talk about identifying the most advanced models based on what fraction
+of the human experts who provided their decision-making criteria had PhDs.
+Part of the answer to these complaints is to point out that the bill itself contains numerous
+provisions for keeping it up to date. For example, CAIP’s model legislation calls for
+establishing an entire Office of Standards whose only job would be to stay informed about
+how AI is changing and to rewrite the technical thresholds in the bill as needed to keep
+pace with those changes. There are also sections in the bill that deal with catching and
+correcting both Type I and Type II errors (so that models can be subject to the correct
+degree of regulation even when the level of risk they pose does not match up well with the
+number of FLOPs used to train them), and that allow ordinary citizens to file requests for
+the agency to take action with respect to new types of threats, which the agency would be
+legally obligated to respond to.
+However, the more powerful answer is that we should not let the perfect become the
+enemy of the good. Yes, it’s possible that with enough technological change, some parts of
+AI safety legislation could become ineffective, and it’s quite plausible that a future
+Congress would be too slow to adapt that legislation, leaving the public unprotected. This
+is not a reason to never pass any safety legislation at all! Even in this ‘worst-case’ scenario
+where the bill eventually becomes obsolete, we still get the benefits of its protection in the
+meantime. AI catastrophe is not solely an all-or-nothing affair; we might be quite grateful
+if safety legislation helps us escape, e.g., an AI-assisted engineered pandemic that would
+otherwise have caused 50 million deaths in 2028, even if that legislation becomes obsolete
+before AI eats the world in 2032.
+The only way it would make sense to delay passing AI safety legislation due to the
+difficulty of future-proofing that legislation is if either (1) some future advocacy effort will
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+7/28
+
+not have this problem, or (2) the legislation will become so profoundly obsolete so quickly
+that it will do more harm than good.
+It doesn’t make sense to suppose that future advocacy efforts will have less of a challenge
+with future-proofing their proposals, because the rate of technological change is only
+expected to accelerate for the foreseeable future. In the past, it was a good heuristic that if
+you felt overwhelmed by a new technology, you should wait a few years before trying to
+regulate it, until the technology had become better understood and more predictable. Now,
+though, the next wave of technology is likely to arrive before the previous wave has been
+fully assimilated. We live in uncertain and rapidly fluctuating times, which is
+uncomfortable, but we can’t escape that discomfort by waiting for things to stabilize,
+because the immediate future will only be even more unstable than the present.
+It likewise doesn’t make sense to assume that even a well-drafted and reasonably flexible
+bill will quickly become not just obsolete but actively harmful – at least, not if the harms
+you’re thinking about include any type of existential risk. It’s possible that some
+companies will face some degree of unnecessary or futile regulatory burden after an AI
+safety bill becomes obsolete, but the costs of complying with the policies CAIP has
+championed are relatively small – on the order of $60 million per year in government
+spending and $1 billion per year for the entire industry’s compliance costs. This is less
+than 1% of the industry’s 2025 revenue. These estimates are for a strict regime that
+imposes heavy requirements on all frontier AI companies – if you think that’s too
+expensive, you could still get a useful amount of safety by having weaker requirements.
+There is simply no comparison in terms of the economic value of even slightly reducing
+the odds or even slightly delaying the onset of the collapse of civilization. If you
+conservatively estimate the value of a human life at $1,000,000, then an 0.1% chance of
+avoiding 1 billion casualties is worth $1 trillion – far more than companies could ever lose
+by complying with requirements to, e.g., conduct a detailed audit of their largest models, or
+to file a report about their wholesale purchases of advanced chips.
+Part of why it so obviously makes economic sense to do something to regulate advanced AI
+is that right now we have essentially zero regulation on American AI developers, so the
+marginal gains of the best available interventions are huge, and the marginal costs of the
+cheapest available interventions are tiny. For essentially the same reasons that the world’s
+first ice cream maker can reap enormous profits (because they can sell to the highest-
+paying customers while buying ingredients from the lowest-cost suppliers), America’s first
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+8/28
+
+AI safety regulations can provide enormous public benefits at a very low cost. Even if these
+benefits decay quickly over time while the costs slowly increase, the net present value is
+still very likely to be hugely positive.
+Regulations Don’t Have to Lead to Oligopoly
+Another way AI safety policies might backfire is that they could somehow promote a
+monopoly or an oligopoly on frontier AI, which would further centralize power and lead to
+corruption or oppression.
+Most of this argument rests on an unrealistic view of how expensive it would be to comply
+with commonsense safety regulations. AI is one of the least regulated industries in
+America; there are considerably more regulations on ice cream, beans, airplanes, and
+haircuts, even though none of these products pose any existential risks. Nobody suggests
+that the ice cream market is being cornered by one or two companies because of all the
+onerous regulations. 
+If it is very expensive to comply with a regulation, then it might be the case that only the
+largest or most-profitable companies can afford to do so, but the expense of, e.g.,
+completing an audit is tiny compared to the expense of training a large AI model in the
+first place. If you can afford to spend a billion dollars on compute, you can also afford to
+spend a million dollars on running an audit; the odds are tiny that even one company will
+be driven out of the market because their profit margins are so thin that they literally
+would rather exit the market than pay for the audit. The odds that most such companies
+will be driven out by mild, commonsense regulations are nonexistent.
+People are nevertheless concerned about allowing any type of regulation because they fear
+that it could lead to regulatory capture. According to this view, safety advocates might
+mean well and have the best intentions, but so did many other types of social reformers,
+and all of their reforms quickly wound up being subverted and serving as an excuse to give
+more power to large corporations who could bribe or pressure the regulators into doing
+their nefarious bidding. Instead of blocking companies that don’t do things safely,
+regulators supposedly spend their time blocking companies that aren’t part of a small
+established clique of insiders, and use safety as an excuse to deny competitors a license to
+operate.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+9/28
+
+It's reasonable to be concerned about regulatory capture, which is part of why CAIP’s
+model legislation includes anti-capture provisions such as a requirement for the agency to
+publish any exceptions it grants in the Federal Register, a right for citizens to formally
+protest agency actions or non-actions and receive a timely response from the agency, and a
+Deputy Administrator for the Public Interest who is empowered to investigate and report
+on internal misconduct.
+However, it’s unreasonable to assume that regulatory capture always kicks in promptly and
+always undoes all of the benefits of new regulations. For example, Jim Epstein at
+Reason claims that the government’s shutdown of the Chinatown bus industry in 2012 was
+due to regulatory capture, saying that it was “largely based on fabricated charges” and was
+spurred on by “politically-connected corporate carriers” like Greyhound who wanted to
+shut down the Chinatown buses so that they would have less competition. That’s one side
+of the story, but the NHTSA found that the Chinatown buses had seven times the normal
+rate of fatal accidents, based in part on practices like not requiring drivers to have valid
+drivers’ licenses, not administering drug tests, allowing drivers to work double shifts
+without a rest, and not performing regular inspections and maintenance of their vehicles. 
+For the most part, regulatory capture is part of the ordinary business of politics – it’s
+certainly a threat to be concerned about, but the exact extent of that threat is heavily
+disputed, and it’s not a reason why government projects will automatically fail. 
+If it were easy and reliable to engage in regulatory capture, then we would expect the civil
+service to be one of the country’s more lucrative professions, with status-conscious or
+insecure parents advising their children to go into the bureaucracy so that they can collect
+large bribes. This was indeed the advice that many children would get in, e.g., Qing China
+or Soviet Russia, but it’s not anything I’ve heard in America.
+Regulations Won’t Significantly Promote
+Nationalization
+A variant of the regulatory capture idea is the fear that promoting any type of regulation
+will prompt the US government to partially or wholly nationalize the AI industry, bringing
+all AI companies under its control and thereby creating a threatening degree of centralized
+power in the federal government, or creating a government monopoly that denies small
+developers the freedom to pursue their own projects. 
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+10/28
+
+Several years ago, people used to say that we shouldn’t bring AI to the government’s
+attention, because the government might be more interested in nationalizing AI if they
+knew how powerful it would be. That particular ship seems to have sailed; when Oprah
+and the Pope and Joe Rogan are all talking about AI, it’s not really going to be a secret from
+the White House. 
+The only remaining question is whether we should expect that having modest,
+commonsense regulations like an insurance requirement or a whistleblower protection
+law will somehow increase the likelihood that the government will inappropriately
+nationalize AI. It seems clear to me that the answer is “no,” because there is no precedent
+in American history for the full nationalization of such a large and private industry.
+America hasn’t even attempted to maintain an incidentally arising government monopoly
+on government-sponsored technologies like nuclear energy and the Internet; we’re
+certainly not about to try to purposefully establish a government monopoly over a
+privately-developed technology like AI.
+The two closest parallels (which still aren’t very close) were President Wilson’s temporary
+nationalization of American railroads to solve supply problems during World War I, and
+President Truman’s failed attempt to temporarily nationalize the steel mills in 1952 to end
+a labor strike.
+President Wilson acted pursuant to explicit authority granted by an act of Congress, and
+that act specified that the nationalization would automatically end shortly after a peace
+treaty was signed, and that all railroad companies would retain ownership of the
+‘nationalized’ assets and that the government would have to make regular lease payments
+on those assets and return the assets in the same or better condition as when they were
+borrowed. There was also no attempt to prohibit the use of railway technology by local
+entrepreneurs or researchers; Proclamation 1419 only applied to the larger “common
+carriers,” and even they were encouraged to continue normal operations unless and until
+they received specific wartime orders from the government. The railways were returned to
+private control on schedule, three years later.
+President Truman’s attempt to nationalize the country’s steel mills was decisively rejected
+by both the Supreme Court and the popular press. Several major newspapers ran front-
+page headlines directly comparing Truman to Hitler. Congress stripped the relevant
+agency of its labor dispute resolution powers, approximately $47 billion in economic
+output was lost, and all of the steel mills remained under private management. Although
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+11/28
+
+unions got most of what they wanted from the strike, Truman’s approval rating dropped to
+a historical low of 22%.
+Steel mills were considered just as vital to national security in 1952 as AI might be in 2025
+or 2030 – the strike directly endangered the supply of ammunition for American soldiers
+in the ongoing Korean War, as well as interfering with weapons deliveries to fragile
+American allies. The steel mill seizure was intended to be a temporary measure, and it was
+proposed in the context of a political environment that was far more comfortable with
+government intrusion into the economy than the environment of today – for example,
+Truman’s Wage Stabilization Board made binding decisions about the prices and wages set
+by private companies. Nevertheless, the steel mill seizure was firmly defeated.
+A permanent (or indefinite) seizure of AI companies’ assets would be even more politically
+challenging and is extremely unlikely to take place under anything like the current
+political environment. Making nationalization happen would require a far more radical
+stimulus than a whistleblower protection law or a system of government auditing that
+parallels the audits that have been in place for decades for airlines and buses. It’s possible
+we might nationalize AI someday – but if we do, that nationalization won’t happen
+because of modest AI regulation. The scale of change needed to cause nationalization is just
+too large for modest AI regulations to be a significant contributing factor.
+ADVOCATING FOR POLICIES NOW MAKES
+THEM MORE LIKELY TO PASS
+Advocacy Won’t Offend Politicians
+Even if we are confident that our AI policies (if enacted) would be net benefits for
+humanity, one might think that openly advocating for those policies will somehow
+backfire, causing those policies to be less likely to be implemented compared to a world
+where we published our policy solutions in academic journals and otherwise remained
+silent. According to this argument, we should restrict ourselves primarily to research
+(which we know will increase the sum of human knowledge) and avoid spending resources
+on advocacy (which might have positive or negative consequences depending on the skill
+and luck of the advocates).
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+12/28
+
+There’s two different variants of this argument. The first variant relies on unusually
+incompetent advocates. I will grudgingly admit that political advocacy that’s sufficiently
+clueless or offensive can sometimes be of negative value – if, for example, you go around
+telling Congressional staffers that only an idiot would support further AI development, or
+if you repeatedly interrupt them and raise your voice while they’re trying to talk, then that
+might do more harm than good. 
+However, it’s very easy to avoid this level of incompetence. Remain calm, ask some
+questions, listen respectfully to the answers, try to find out how you can be of help to the
+person you’re talking with, and be reasonably polite. That’s really all it takes to avoid
+insulting politicians to the point where you would have been better off not showing up at
+all. By the very nature of their work, politicians have to deal with and charm a wide cross-
+section of the public, not all of which are diplomatic or kind. If you can manage to have a
+civil conversation, you can be competent enough to avoid conducting advocacy that has
+literally negative value.
+The second variant worries about partisan polarization. If your choice of arguments for AI
+safety or your way of presenting yourself feels too closely associated with one political
+party, then you might create or strengthen an association between AI safety and that party,
+which could lead the other party to reject AI safety on partisan grounds.
+This is a real concern, especially if you’re coming from a heavily progressive area like
+Berkeley (90% of which voted for Kamala Harris) and you aren’t aware of how your
+political beliefs and vocabulary differ from the American median. In my experience,
+though, this is a problem that can be solved with an average of four hours per person of
+training. It is not that hard to get well-intentioned people to stop making analogies to
+global warming and COVID while they’re at work. 
+Other key strategies for being and appearing to be a bipartisan advocate include insisting
+that the bills you endorse have co-sponsors from both parties, double-checking the open
+letters you sign to make sure they are not insulting either political party, and keeping an
+eye on the overall partisan balance of staff at your organization so that you can make a
+point of hiring some Republicans (or Democrats) if you’re short on employees from that
+party. This last point pays double dividends in that when there are people from both
+parties in your office, you can just run things by someone from the appropriate party to
+see if they agree that it sounds reasonably neutral.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+13/28
+
+If you know that you’re a rabid political partisan and that you will be unable to exercise
+enough self-control to mostly frame AI safety arguments in a mostly bipartisan way, then
+you should stay away from public advocacy. Otherwise, it’s not that hard to frame your
+arguments in terms that have no particular partisan bias.
+Advocacy Isn’t Useless
+Sometimes skeptics about advocacy seem to me to be confusing uncertainty about the
+results of any particular political campaign (which is valid) with uncertainty about
+whether political advocacy in general tends to help (which seems very hard to justify). 
+Any given political push might fizzle out if it lacks the resources to convince its target
+audience, or if that audience is distracted by breaking news. For example, in summer 2001,
+Congress was very seriously considering a Patients’ Bill of Rights, and President Bush was
+actively negotiating a guest worker program with Mexico. Both of these initiatives were
+dropped when the World Trade Center was attacked on 9/11 as national attention shifted
+almost exclusively to national security. Anyone who donated money to support those two
+political initiatives essentially lost their investments – but they didn’t lose their money
+because they made bad decisions; they just got unlucky.
+Slightly earlier that same year, the Chamber of Commerce and the Heritage Foundation
+played a major role in successfully supporting President Bush’s tax cuts (EGTRRA), and the
+NAACP and the Education Trust were important contributors to passing the No Child Left
+Behind Act.
+There’s no meaningful difference between the support offered by the Chamber of
+Commerce for EGTRRA and the support offered by, e.g., Families USA and the Kaiser
+Foundation for the Patients’ Bill of Rights. One group was lucky enough to get a news cycle
+that allowed its preferred bill to pass, and the other wasn’t. This is part of how politics
+works, and it would be really strange to suggest that all the various sophisticated,
+professional, well-funded organizations that are constantly supporting legislation in DC
+are all wasting their time and money. Sometimes a particular campaign ends up being
+wasted, but in expectation, the campaigns are all valuable to their supporters.
+Suppose that, before we find out whether a political campaign succeeds or fails, a new
+donor adds 30% to the resources of that political campaign. The only reasonable prediction
+to make is that the extra donation will increase the political campaign’s chance of success.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+14/28
+
+More money means more chances to advertise, more ability to recruit higher-quality
+lobbyists, more ability to recruit volunteers, more ability to support those volunteers with
+high-quality materials and travel expenses, more ability to donate to relevant campaigns,
+and so on. Nobody suggests that a political candidate will be defeated in an election
+because people keep donating too much money to their cause; the situation is no different
+for political policies.
+Political Opposition Can’t Be Avoided by Delay
+A related theory of political uncertainty is that revving up political advocacy at the wrong
+time or in the wrong way can galvanize or crystallize your political opposition, making it
+harder for future attempts to succeed. One of the most lucid exponents of this theory is
+Anton Leicht. Leicht isn’t wrong to point out that, e.g., if even pro-regulation California
+can’t sign a relatively minimal AI safety bill into law, then “policymakers elsewhere might
+believe the case for safety policy could not possibly be very strong.” 
+Unfortunately, there weren’t any good alternatives to taking a swing at something like CA
+SB 1047. If AI safety advocates had talked about the dangers of AI for years on end without
+anyone even attempting to pass an AI safety bill, then people would start wondering
+whether the rhetoric is disingenuous – if you’re so worried about AI, why aren’t you trying
+to do something about it? Is it because the topic is so complex that it’s not even possible to
+draft good legislation? Is it because you’re just a smoke screen meant to distract attention
+from AI ethics issues?
+Or, if AI safety advocates carefully refrained from mentioning the dangers of AI in public
+for years, then people would ask why they remained silent. Why the conspiracy? How dare
+AI safety experts sit on the knowledge that a tragedy was coming and wait for people to die
+before they took action? Why should the American public listen to anyone so heartless?
+In the abstract, it would be nice to wait until the perfect moment to launch a political
+campaign to maximize your odds of success. In practice, there’s no way to simultaneously
+defuse all possible political attacks. No matter what political strategy you choose, someone
+will find a plausible way to attack you for it, because that’s their job. Being attacked doesn’t
+necessarily mean you’re doing poorly in the political arena; on the contrary, most
+opponents won’t bother to seriously attack you unless you’re powerful enough for them to
+feel at least somewhat threatened. The goal is not to prevent all possible attacks (which is
+impossible); instead, the goal is to have good enough arguments and good enough political
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+15/28
+
+alliances that you can absorb or deflect the attacks and carry on to a political victory. Both
+the Affordable Care Act and the Bush-era tax cuts came in for serious and prolonged attack
+and ridicule from many important stakeholders; nevertheless, both policies became law
+and have remained in effect for many years.
+Another reason not to wait too long before beginning a political campaign is that there was
+never any serious possibility of getting meaningful AI safety legislation to “sneak
+through” a legislature without Big Tech noticing and opposing it. Meta alone employed 65
+federal lobbyists in 2024, not including their support staff, policy researchers, and so on,
+and not including any work they do on state legislatures, on impact litigation, on general
+public relations, and so on. OpenAI employed 18 federal lobbyists. Alphabet employed 90
+federal lobbyists. Amazon employed 126 federal lobbyists. 
+That’s 299 lobbyists just from those 4 companies. The vast majority of these lobbyists
+would have jobs even if there were never any AI safety advocacy; the companies are
+building up their political muscle in large part so they can win unrelated battles over
+copyright and electricity and privacy. At least one of these lobbyists is definitely going to
+notice if there’s an AI safety bill slowly working its way through Congress. 
+Bills are designed to take months to turn into laws in large part to guarantee that all
+reasonably alert stakeholders have a chance to weigh in on whether those bills make sense.
+After a bill is introduced, it has to be referred to at least one committee, which holds a
+public hearing to markup the bill and consider amendments, and then it has to wait for a
+slot to be considered by the full House or the full Senate, and then the whole process
+repeats in the other chamber, and then there’s another chance to kill the bill while the
+President or Governor decides whether to veto it. It can take a public relations firm a couple
+of weeks to develop a marketing strategy and execute on it, but the PR firm needs much
+less time to mobilize than a bill needs to become law.
+From the outside, it can certainly appear that introducing an AI safety bill or making a
+speech about AI safety “caused” opposition to arise and therefore made future bills less
+likely to pass. The opposition chronologically follows the introduction of the bill, and if the
+bill were introduced later, then the opposition would occur later. However, the opposition
+is basically guaranteed to arise at whatever time you do introduce the bill. There’s no tactic
+or angle you can use that causes everyone to just cheerfully sign your important bill that
+imposes serious regulatory requirements on Fortune 500 companies without having any
+of those companies complain about it in public. In that sense, the advocates aren’t
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+16/28
+
+responsible for changing the total amount of opposition. The opposition was always there,
+it’s just that most people only notice the opposition while a political contest is actively
+unfolding. 
+Improving Advocacy Skills Requires Practice
+A variant of the argument above is that while the opposition to any given policy proposal
+might be constant, our ability to overcome that opposition can vary over time. Perhaps if
+we wait until some later date, our advocacy will be more effective, so we should wait to
+arouse the opposition until after we are ready to defeat it.
+The problem with this strategy is that the main way to improve the strength of an
+advocacy movement is to practice engaging in advocacy. A key reason why AI advocacy
+efforts are relatively weak right now is that very few people who deeply understand AI
+safety are skilled and experienced political advocates. Most of the people who have a
+rigorous understanding of the catastrophic risks posed by AI are either computer scientists
+(who discovered the problem based on their professional research), or philosophers (who
+discovered the problem based on asking abstract questions about which types of problems
+are likely to do the most harm). Neither group is likely to have more than a token amount
+of explicitly political expertise – for example, very few computer scientists run for
+electoral office or work for multiple years in government; most of the computer scientists
+who do work in government have technical responsibilities, rather than policy
+responsibilities.
+This lack of political experience is not a problem that can be solved by writing white
+papers, any more than an aspiring pediatrician could expect to master her craft solely by
+publishing articles in medical journals. Being good at politics requires practice; you need
+to go out into the political arena, try to sell politicians on your ideas, try to organize
+volunteers and get them to show up for your cause, try talking to the media and seeing if
+they bother to publish your quotes, and so on. 
+You also need a robust set of relationships: in politics, as in many other areas of life, it’s all
+about who you know. If you don’t have pre-existing relationships with potential allies,
+then they’re not going to trust you enough to join your team, and you usually need a very
+broad team to make major policy changes happen. 
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+17/28
+
+For the most part, research and writing is an extremely inefficient way to build the
+relevant relationships. Building a reputation as an academic expert in your field can get
+you a warm introduction to some politicians, but you still have to go and seek and use that
+introduction, and parlay it into additional connections to other stakeholders, and then
+contact those stakeholders often enough with information that’s relevant to their day-to-
+day work so that they’ll remember who you are and care about their connection with you.
+The vast majority of researchers don’t have the time or the inclination to do all of that
+work on top of their written research.
+If you’re earnestly concerned that you’re not yet skilled enough as an advocate to
+successfully cope with active opposition, then it might make sense to keep a somewhat
+lower profile – but that would mean keeping a lower profile as an advocate, not working in
+research. You can advocate for policies that are less controversial, or you can advocate in a
+less competitive forum (e.g., state or local politics instead of national politics). I have
+nothing against warm-up exercises. The problem is that policy research isn’t efficient
+enough as an advocacy warm-up exercise to be worth investing in for that purpose. 
+If your goal is to increase your skill as a political advocate, and you insist on doing research
+to achieve your goal, then at the very least you ought to be engaging in political research,
+not policy research. Make a list of the most influential Senators; find out who their chiefs
+of staff are and what those people have said about AI policy in the past. Find someone who
+went to the same university as the chief of staff and see if they can get coffee. Pull up a list
+of bills that a Representative has voted for in the past, and see if you can convincingly
+connect some piece of AI safety legislation to one of their pet issues – if you’re looking to
+support AI whistleblower protections, it helps to know that Senator Grassley loves
+whistleblowers; if you’re looking to support mandatory audits, it helps to know that
+Senator Hawley doesn’t trust Big Tech. Having the perfect policy won’t help you if you
+have no idea how to pitch that idea politically. 
+Even then, though, don’t do too much research. Politics inevitably comes with a small-n
+dataset: no situation is exactly like the one before it, it’s not subject to any rigid physical
+laws that can reliably predict its outcomes, and there are sharp limits to how much you can
+learn about politics by studying it in a library. If you want to improve your advocacy skills,
+there’s really no substitute for going out and advocating.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+18/28
+
+WE CAN INCREASE THE SUPPLY OF
+ADVOCATES
+It doesn’t bother me that there isn’t already a tailor-made supply of highly experienced AI
+safety advocates ready and waiting to start work, because I think we can rapidly hire and
+train enough new advocates to be helpful. Direct political advocacy is so much more
+effective on the margins than academic governance research that it’s fine if it costs us a
+few months to gear up or if some of the newer advocates aren’t quite as effective while
+they’re learning their new craft. There are plenty of good ways to spend money right now
+to increase the effective supply of AI governance advocates.
+Generously Fund Existing Advocacy Groups
+First, we should be generously funding all of the existing advocacy groups. This includes
+the Center for AI Policy, Pause AI, the Center for AI Safety Action Fund, Americans for
+Responsible Innovation, Encode AI, the AI Policy Network, and a few others – if your
+advocacy organization isn’t listed here and you’d like to be included, just let me know and
+I’m happy to add you in.
+I believe all of these organizations can and should absorb new funding. All of us are
+skipping meetings that we would like to be having with important politicians because we
+just don’t have the staff to cover all of them adequately. All of us are skipping out on
+methods of communication that would be useful because we have no one to develop them.
+Every major lobbying organization should have a video producer, an event manager, a
+social media expert, and a campaign finance arm that makes donations to AI safety
+champions. For the most part, we don’t have any of those tools, because we don’t have the
+funding for it. We’re trying to do advocacy on the cheap, which is less likely to be effective.
+If you ask an advocacy organization how much funding it can productively absorb, the
+answer you get will probably be too low, for two reasons. First, hiring high-quality
+mainstream government relations experts often requires a long-term funding
+commitment, which is comparatively rare in the AI safety funding space. The students and
+idealists who make up most of the AI safety workforce are often content to join whatever
+program currently seems to be the optimal use of their time, which allows them to switch
+jobs based on a six-month or twelve-month grant. If the only people we can hire are those
+idealists, then there’s a limit on how many people we can usefully hire.
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+19/28
+
+By contrast, experienced political advocates often have families and mortgages to support,
+and these commitments can seem more important to them at first, before they’ve learned
+enough about AI safety to be truly terrified. Political experts who are earnestly curious
+about AI safety and who would like to learn more about it and do something to help will
+nevertheless shy away from joining a new organization that doesn’t have a guaranteed
+financial runway. The solution to this problem is not to accept a sharp upper bound on
+advocacy funding based on the number of “true believers” who can be lured to work for a
+fly-by-night organization. Instead, the better solution is to offer generous multi-year
+commitments. As in many areas of life, we’ll get better results if we dive in and commit
+hard to governance advocacy as a primary strategy than if we just keep dipping our toes in
+the water and then promptly yanking them out.
+The second reason why funding requests from advocacy organizations are likely to be
+under-stated is that there’s implicit pressure on leaders to make a bid that sounds
+reasonable and that respects the work being done by others in the field. If you make a
+request that’s so large that it implicitly requires transferring resources away from other
+organizations, that feels antisocial and out of touch. The only exception would be if you
+have very firm evidence to support the results that you can deliver using your requested
+funding…but by its very nature, politics is unpredictable and poorly suited to delivering
+measurable results on a fixed schedule.
+So, if we want to scale up political advocacy for AI safety – and we should – then one good
+way to start is to just double or triple the budget of every existing advocacy organization.
+The amount of funding these organizations have consumed in the past is not a reliable
+limit on how much funding they could productively absorb.
+Use Headhunters
+Similarly, the number of staff that advocacy organizations have been able to hire in the
+past is not a reliable guide to how many staff those organizations could usefully employ. In
+2024, when CAIP was rapidly expanding, I had to hire people one or two at a time, running
+the initial phone screens and writing the work tests myself, because we had a limited and
+uncertain budget. This meant that it took literally all year to hire our 10-person team.
+However, professional recruiting services are readily available for a relatively small
+premium. If you’re willing to pay about 20% of a new employee’s salary, you can get
+someone else to search their network for the right candidate and do most of the work of
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+20/28
+
+screening out the people who are obviously unsuitable. Just because you don’t know
+anyone who has the rare mix of skills to be a strong political advocate and to understand
+and care about AI safety doesn’t mean those people don’t exist.
+With enough money, you can find and attract even people who have very rare skill sets. In
+addition to paying a professional headhunter to talk to their network, you can establish an
+advertising budget that will push the job description into the feeds of high-quality
+candidates, you can pay referral bounties, you can host a booth or a talk at high-prestige
+conferences that will put you in touch with more high-quality candidates, and you can
+have a full-time operations manager who clears away obstacles (e.g. visas, relocation, non-
+standard requests for benefits) and accelerates onboarding.
+Part of why I belabored the point in my previous post about how much more valuable
+advocacy is than academic research is because I think these kinds of investments make
+sense for advocacy. If, on current margins, a high-quality advocate is ten times more
+valuable than a high-quality researcher, then we really ought to be paying for headhunters
+and job ads and operations managers in order to recruit that advocate, even if this soaks up
+funding that otherwise could have paid for two or three researchers.
+Aggressively Train New Advocates
+While I do believe that existing organizations have plenty of room to expand, I don’t think
+we can or should rely entirely on existing advocacy organizations to get the job done,
+because the scale of the advocacy effort we need to produce is so large that we can’t
+comfortably house all of it within the existing organizations. This means we need to be
+aggressively training both new advocates and new organizational leaders.
+Blue Dot Impact has done an excellent job of putting together a basic curriculum in AI
+governance, and tech fellowships are doing a good job of placing early-career policy
+professionals in positions that require (and further develop) their scientific expertise. This
+still leaves a gap in resources that train people on how to be an effective advocate – you
+can know how AI works and how AI policy works, but that doesn’t mean you know how to
+convince others to adopt good policies. We need something like “debate coaching,” but far
+less adversarial. People need to practice orally explaining their views – including to
+audiences that are less technical or less committed to the rigorous pursuit of truth – and
+leaning what works and what doesn’t so that when they have high-stakes meetings, they’ll
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+21/28
+
+be better prepared to win hearts and minds. This kind of training could be a good way to
+help AI safety researchers transition to a career in advocacy.
+Similarly, we also need management training, because we need more people who are
+capable of serving as executive directors and as team leaders. Most of the skills involved in
+management can be taught – you can learn how to more effectively recruit, hire, train,
+evaluate, motivate, and terminate your staff. Similarly, you can learn how to create a
+budget, how to actively listen and accept criticism from subordinates, how to structure an
+effective board of directors, and so on. Training for some of these skills might be better
+housed inside the effective altruist or rationalist movement to take advantage of our
+unique approaches to measuring success, and some of them are probably best learned in
+mainstream management courses, to take advantage of what the rest of the world already
+knows about how to run an organization.
+People sometimes cite a lack of high-quality leadership as a bottleneck on donors’ ability
+to fund new advocacy organizations – but if that’s the true objection, then we can’t just sit
+back and wait for leaders to emerge – instead, we need to be investing in a crash effort to
+create competent new leaders.
+WE DON'T HAVE THE LUXURY OF WAITING
+Finally, it’s worth remembering that we probably don’t have the luxury of choosing the
+perfect moment to begin seriously investing in advocacy. The time remaining until
+superintelligence arrives could be very short, and the ‘point of no return’ beyond which no
+plausible political campaign can affect what happens with superintelligence could be even
+shorter than that.
+Most major legislation takes years to pass and implement from the time that you start
+campaigning for it. If you introduce a bill today that has passionate and bipartisan support,
+Congress will still probably take a minimum of six to nine months to pass it – possibly
+much longer than that if the bill is defeated or simply deprioritized; in any given year,
+many bills that are important and well-liked will nevertheless not get called up for a vote
+by the full House and the full Senate, simply because Congressional leadership is busy with
+other tasks. After a law is passed, the relevant federal agency will need several months to
+hire staff, after which those staff will need several months to draft appropriate
+implementing regulations, which usually do not go into effect for a few more months so
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+22/28
+
+that businesses have a fair opportunity to bring their operations into compliance with the
+new regulations. So, as an optimistic assessment, if you introduce a bill with massive
+support today, in May 2025, then you might get effective regulations by, say, October 2027. 
+Of course, we don’t have massive political support lined up right now, and it takes years to
+build that support. If we funded several large advocacy groups today, then they might need
+three years to build an effective mass political movement, meaning that you’d be looking
+at regulations that would start changing corporate behavior sometime in 2030.
+Now, you might not agree with Leopold Aschenbrenner or the AI Futures Project when
+they say that we should expect superintelligence in 2027 or 2028. Maybe you are very
+confident that we have more time than that. But effective regulations need to come into
+being not just before superintelligence is invented, but also while AI companies are still
+small enough to be truly subordinate to the federal government as a matter of power and
+realpolitik. Mechanize, Inc. recently launched a startup with the goal of automating the
+entire workforce. If they’re even partially successful, how could the federal government
+credibly threaten them? Other AI companies are working on software that would be vital
+to, e.g., maintaining command and control over the American military’s key weapon
+systems. It’s hard enough even today to get support for legislation when people raise the
+abstract prospect that the legislation might someday interfere with American military
+dominance. What happens when the companies to be regulated are currently, actively
+supporting US military operations?
+That’s why I don’t think we have any time to lose. We should have started massive
+lobbying efforts a few years ago, but the second-best time to start lobbying is right now.
+Next:
+Orphaned Policies (Post 5 of 7 on
+AI Governance)
+3 comments
+46 karma
+Previous:
+We're Not Advertising Enough
+(Post 3 of 7 on AI Governance)
+3 comments
+54 karma
+Log in to save where you left off
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+23/28
+
+Mentioned in
+122
+Comments 5
+Sorted by New & upvoted
+LeahC
+0
+1
+3
+In 2024, several lobbyists from the same firm represented both OpenAI and the Center for AI Safety
+Action Fund at the same time. I am not suggesting any conflict of interest on their part. However, I
+don't think the "299 corporate lobbyists vs. scrappy AI safety groups" is an effective framing, given
+that at least some of the money is flowing to the similar places. 
+I wouldn't compare external lobbyists to full time advocacy staff because (1) external lobbyists and
+lawyers typically cover many clients and are unlikely to be particularly committed to a single issue
+like AI safety, and (2) firms often register anyone who does outreach on the project, regardless of
+whether they meet federal lobbying disclosure thresholds. It's also pretty congenial in general;
+Amazon lobbyists have helped me with EA-related side projects without payment because they were
+being nice.  
+This isn't to say that advocacy couldn't absorb more funding. But the conflict framing doesn't seem
+to represent the facts on the ground, at if organizations want funding to hire mainstream government
+relations people who rarely see it that way. Upskilling people already committed to AI safety would be
+different.
+You run an AI safety org full time and have a better idea of the field. I'm just throwing in my two cents
+re: representation disparities. 
+Jason Green-Lowe
+1
+0
+4
+So the 299 corporate lobbyists is less about measuring total influence and more about how many
+pairs of eyes there are on the playing field who are potentially able to notice a bill moving forward --
+the odds that all 299 of them miss the bill for months on end are essentially zero.
+You're right to be skeptical of "number of lobbyists" as a measure of influence; a better metric
+would be the total amount of money spent on in-house government relations experts, outside
+lobbyists, advertising, PR firms, social media experts, and campaign donations. I don't have access
+to those figures for tech companies, but I still feel confident that the total industry budget for DC
+influence is much higher than the total AI safety budget for DC influence, especially if we discount
+money that's going to academic AI governance research that's too abstract to buy much political
+influence.
+I'm not sure why you're saying that a conflict framing doesn't represent the facts on the ground --
+it's true that many lobbyists are friendly and are willing to work for a variety of different causes, but
+The Center for AI Policy Has Shut Down
+11mo
+11mo
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+24/28
+
+if they're currently being employed to work against AI safety, then I would think we're in conflict
+with them. Do you see it differently? What kinds of conflicts (if any) do you see in the political arena,
+and how do you think about them?
+LeahC
+0
+0
+1
+I saw this and I agree with your main points. I will be offline for a bit due to travel, but I am happy to
+have a longer conversation with more nuanced responses.
+Policy teams at private companies are more well-resourced while, as you mentioned, working on
+issues ranging from antitrust to privacy and child protection. I may be wrong, but I think the teams
+focused specifically on frontier AI (excluding infrastructure work) seem to be more balanced than
+the provided numbers suggest. This observation may be outdated, especially since SB-1047. You
+likely have a better idea of the current landscape than I do, and I’ll defer to your assessment.
+Regarding “conflict framing” - I should have phrased this differently. I did not mean the policy
+conflicts which come up when a new or potentially consequential industry is facing government
+intervention. I meant a situation when groups and individuals become entrenched in direct conflict
+on almost all issues, regardless of the consequence. A recent non-AI example would be the
+philanthropically funded anti-fossil fuel advocates fighting carbon capture projects despite the IRA
+funding and general support from climate change-focused groups. The conflict has moved beyond
+specific policy proposals or even climate goals and has become a purity test that seems
+impossible to overcome through negotiation. This is a situation that I would not want to see, and I
+am glad it is not the case here.
+Jason Green-Lowe
+0
+0
+1
+OK, let me know when you're back, and I'll be happy to chat more! You can also email me at
+jason@aipolicy.us if you like.
+SummaryBot
+0
+0
+2
+Executive summary: This post argues that the AI governance community must urgently shift
+resources from research to advocacy, asserting that sufficient understanding already exists to
+support beneficial policies, and that delay—whether due to uncertainty, strategic caution, or capacity
+concerns—risks squandering a narrow and fast-closing window to meaningfully influence AI
+development before superintelligence or entrenched industry power makes regulation infeasible.
+Key points:
+1. Advocacy is more central than research for AI governance now: The core issue is not a lack of
+understanding but misaligned incentives for AI developers; fixing this requires political action,
+not further academic research.
+11mo
+11mo
+11mo
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+25/28
+
+2. Common objections to immediate advocacy are weak: Arguments that we lack robust policies,
+skilled advocates, or sufficient political influence underestimate our readiness and the
+diminishing returns of further delay.
+3. Basic safety policies are clearly beneficial and feasible: Measures like audits, whistleblower
+protections, and liability mechanisms offer positive expected value and are analogized to
+historically successful safety interventions like seatbelts.
+4. Regulation fears (e.g., backfiring, oligopoly, nationalization) are overstated: Thoughtfully
+crafted policies can avoid unintended consequences, and the post rebuts concerns around
+driving companies offshore, excessive cost burdens, regulatory capture, and governmental
+overreach.
+5. Advocacy skills and infrastructure must be built through action: Effective political influence
+requires on-the-ground experience, relationship-building, and training—none of which can be
+developed passively through more research.
+6. There’s no time to wait for ideal conditions: Given long legislative timelines and the accelerating
+pace of AI development, waiting for more favorable advocacy conditions may render future
+efforts moot as corporate power and technological capability outstrip regulatory leverage.
+This comment was auto-generated by the EA Forum Team. Feel free to point out issues with this
+summary by replying to the comment, and contact us if you have feedback.
+More from Jason Green-Lowe
+View more
+141
+· 1y ago · 40m read
+25
+Jason Green-Lowe
+61
+· 1y ago · 16m read
+0
+Jason Green-Lowe
+53
+· 10mo ago · 45m read
+2
+Jason Green-Lowe
+Please Donate to CAIP (Post 1 of 7 on AI Governance)
+The Need for Political Advertising (Post 2 of 7 on AI Governance)
+Mainstream Grantmaking Expertise (Post 7 of 7 on AI Governance)
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+26/28
+
+Curated and popular this week
+Impact Requires Implementation: What Dispensers for Safe Water Scale-Back Can Teach
+Us About Monitoring
+ · 13d ago · 17m read  · 
+3
+The AI people have been right a lot
+ · 4d ago · 7m read  · 
+11
+In Development Magazine Launch
+ · 4d ago · 1m read  · 
+4
+Recent opportunities in AI safety
+View more
+Tony Senanayake
+TL;DR Between 2022 and 2023, GiveWell and Open Philanthropy committed over $70 million to
+Evidence Action’s Dispensers for Safe Water programme. An independent survey in 2025 found that in
+Uganda and Malawi the programme was reaching approximately 70% fewer people with detectable…
+Dylan Matthews
+This post was crossposted from Dylan Matthew's blog by the EA Forum
+team. The author may not see or reply to comments. ----------------------
+------------------ Subtitle: Try to keep an open mind as the world gets…
+Lauren Gilbert
+We're announcing a new development magazine: In Development. Our goal is to promote discourse on
+development without dogma. In other words, we public stories doing deep dives into pressing
+development issues, backed up by evidence, argument, and experience. The first piece is by Paul…
+80
+· 11d ago · 8m read
+4
+Garrison
+11
+· 13h ago · 3m read
+0
+Tobias Häberli, Tilman, James Nicholas Bryant, Ariel
+12
+· 22d ago · 7m read
+0
+Sophie Kim
+Help me launch Obsolete: a book aimed at building a new movement for …
+Pivotal Research Fellowship applications are open (deadline May 3)
+AI Can Already Evade DNA Synthesis Screening. Congress's New Bil…
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+27/28
+
+We and our partners use cookies, including to review how our site is used
+and to improve our site's performance. By clicking "Accept all" you agree to
+their use. Customise your cookie settings for more control, or review our
+cookie policy here.
+4/20/26, 10:12 PM
+Shift Resources to Advocacy Now (Post 4 of 7 on AI Governance) — EA Forum
+https://forum.effectivealtruism.org/posts/ixfE7JZy4RYehJW6C
+28/28
