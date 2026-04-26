@@ -1,0 +1,1179 @@
+LOE5: Enshrine AI safeguards in international law and
+secure the AI supply chain
+
+
+
+
+The rise of advanced AI and AGI has the potential to destabilize global security in ways
+reminiscent of the introduction of nuclear weapons. Today, the United States leads in AI
+innovation. However, allies, partners, and adversaries around the world are quickly
+establishing their own AI scaling programs [240–242]. As advanced AI matures and the
+
+
+                                                                               141 of 284
+elements of the AI supply chain continue to proliferate (Introduction, 0.5.3.2), countries
+may race to acquire the resources to build sovereign advanced AI capabilities. Unless
+carefully managed, these competitive dynamics risk triggering an AGI arms race and
+increase the likelihood of global- and WMD-scale fatal accidents, interstate conflict,
+and escalation. These dynamics create the need for a carefully-calibrated U.S. strategy
+that balances competing and sometimes contradictory unilateral and multilateral
+objectives.
+
+This LOE outlines near-term diplomatic actions and longer-term measures the U.S.
+government could take to establish an effective AI safeguards regime in
+international law while securing the AI supply chain. These actions include:
+
+   ● Building a domestic and international consensus on potential catastrophic AI
+     risks and necessary safeguards (see 5.2);
+
+   ● Enshrining those safeguards in international law (see 5.3);
+
+   ● Establishing an International AI Agency (IAIA) to monitor and verify adherence
+     to those safeguards (see 5.4); and
+
+   ● Establishing an AI Supply Chain Control Regime (ASCCR) with allies and
+     partners to limit the proliferation of advanced AI technologies (see 5.5).
+
+As a starting point to the above, the United States could secure the most time-critical
+components of its own domestic AI supply chain (LOE1, 1.5).
+
+
+5.1 Desired end state of this LOE
+
+We believe a series of initiatives like the one described in this action plan should be
+executed with a specific end state in mind as its ultimate objective. That end state may
+be adjusted over time as options evolve. But at all times it should be clearly articulated.
+
+The ideal end state of this action plan is a treaty to mitigate catastrophic AI risk from
+weaponization and loss of control, enshrined in international law, and enforced globally
+by United Nations mandate. This ideal treaty would:
+
+   ● Enforce RADA safeguards on advanced AI training runs beyond a certain scale
+     or capability similar to those recommended in LOE4, 4.1.3;
+
+
+
+
+                                                                                 142 of 284
+   ● Enforce reporting requirements on cloud providers above a certain scale,
+     making those cloud providers responsible for monitoring the safety of advanced
+     AI models trained on their platforms; and
+
+   ● Enforce hardware-based tracking of AI-enabled chips along with international
+     monitoring of AI chip usage, to minimize the risk that dangerous models are
+     being trained clandestinely (Annex L.4).
+
+This treaty structure is an attempt to balance (1) the increased risk of rogue AI
+development due to proliferation of key components of the AI supply chain, against (2)
+the risk that excessively centralizing those components could lead to the development
+of competing unmonitored supply chains. A U.S.-led multilateral supply chain controls
+regime (see 5.5) could probably be put in place more quickly and would achieve some
+of these objectives. But the short-term safety benefits of a multilateral regime would be
+at greater risk of being undermined by a competing supply chain [243] in the medium
+term.
+
+In the long term, it may be challenging to assure U.S. national security in the face of
+catastrophic AI risks without an international solution. AI supply chains could become
+too widely distributed, and AI models too easily proliferated, for unilateral action to
+suffice even given the U.S. position in the present-day supply chain (Introduction,
+0.5.3.2; Annex G, G.1). Even multilateral supply chain controls by a broad coalition of
+U.S. allies may only buy time, though that time could prove invaluable to explore and
+implement further options.
+
+
+5.2 Build international consensus and partner capacity on
+catastrophic AI risk reduction
+
+There are credible reasons to believe that catastrophic AI risk from loss of control and
+weaponization could become meaningful in the relatively near term (Introduction,
+0.5.1.2). As a result, there is a need for rapid and decisive action to enshrine key AI
+safeguards in international law, backed by credible enforcement mechanisms.
+
+In leading such an effort, the United States will face the standard challenges that come
+with international lawmaking. But these will be compounded by the high technical
+complexity of AI risk, and the fact that nations do not yet have a shared understanding
+of this domain. There is also the possibility that U.S. diplomatic action could
+inadvertently alienate potential partners if it is not carefully calibrated given the
+
+
+
+
+                                                                                 143 of 284
+political sensitivities surrounding adjacent issues, such as ethical and responsible use of
+AI.
+
+This lack of shared understanding presents a significant risk while it persists, since it
+increases the chance of an international AI race. But it also offers an opportunity for the
+United States to lead and participate in international consensus-building, by supporting
+other nations in developing and shaping that shared understanding. To take full
+advantage of this opportunity, U.S. government personnel will themselves need to be
+educated on catastrophic AI risks, their mechanisms, and their potential mitigations
+(LOE2, 2.2.1). At the same time, the United States could launch educational programs
+to support improving other countries’ awareness and mitigation capacity, particularly
+concerning AGI alignment failure and resulting loss of control.
+
+The goal of these efforts should be to build a broad international consensus on
+behavior that risks global catastrophic impact from loss of control of AGI-level systems,
+and should therefore face international sanction. We believe this consensus would be
+extremely supportive in developing, negotiating, and enforcing an effective AI safety
+and security treaty.
+
+5.2.1 Coordinate domestic and international messaging and
+capacity-building
+
+The United States is already participating in early consensus-building on catastrophic AI
+risk. The U.K. AI Safety Summit’s Bletchley Declaration [244], signed by the United
+States, 27 other countries, and the European Union, refers to potential risks from
+“intentional misuse or unintended issues of control relating to alignment with human
+intent.” These are the sources of catastrophic AI risk we refer to, respectively, as
+weaponization (Introduction, 0.2.1) and loss of control (Introduction, 0.2.2) in this
+document.
+
+While we recommend continuing to expand on these efforts, consensus building on
+weaponization topics could be polarizing. Instead, focusing education and capacity-
+
+
+
+
+                                                                                  144 of 284
+building on technical cooperation to avoid loss-of-control scenarios, while maximizing
+safety and security, could offer a more promising starting point.91
+
+As part of these efforts, the United States will need to productively engage with two
+key stakeholder groups. The first group will be policymakers and decisionmakers in
+governments, particularly in national security roles. The second group will be the
+technical advisors to those policymakers and decisionmakers. Because of the urgency
+of the risk, domestic U.S. educational initiatives may need to operate in parallel with
+international ones.
+
+5.2.1.1 Policymaker education and outreach
+
+In order to credibly brief international partners on catastrophic AI risk and the benefits
+of cooperation on the issue, the U.S. government needs to increase its institutional
+understanding of its key aspects. We recommend that, in tandem with outreach to its
+international partners and in coordination with existing multilateral regimes, the U.S.
+government rapidly educate its own policymakers on aspects of catastrophic AI risk
+that touch on their areas of responsibility.
+
+Part of the substance of this educational content is outlined in LOE2, 2.2. Additionally,
+based on our direct experience briefing U.S. and international policymakers on this
+issue, we believe these educational efforts should:
+
+    ● Emphasize specific, concrete, and tangible scenarios relevant to AI risk and
+      national security (see Annex C: Example AI alignment failure scenarios and [1]);
+
+91 As a general guideline, we strongly recommend that diplomatic personnel engaged in these efforts
+
+be briefed or trained in advanced AI topics as recommended in LOE2, 2.2.1. In particular, we have found
+through our own outreach efforts that highlighting certain technical topics, such as the distinction
+between outer alignment and inner alignment, can produce a positive diplomatic framing. Specifically,
+the outer alignment problem refers to the challenge of defining goals which, if those goals were
+faithfully pursued by an arbitrarily intelligent system, would not have catastrophic consequences. The
+inner alignment problem refers to the challenge of ensuring that such a goal, once it is defined, will
+actually be internalized by a trained AI system as its true goal. Both problems are currently unsolved. In
+engagements so far, we have found that clearly explaining the distinction between these two problems
+has been constructive from a diplomatic standpoint. The reason is that, because inner alignment is
+unsolved, no actor can be assured that they will be able to control an AGI-level system even if they
+develop and train the system themselves (Introduction, 0.2.2). Since such a system would be a danger to
+everyone including its own developer, all actors are in principle incentivized to cooperate in preventing
+the development of such a system for as long as inner alignment remains an open technical problem.
+Diplomatic engagement can then begin on this basis, including potentially with adversaries. See the
+Glossary of terms for full definitions of outer and inner alignment.
+
+
+                                                                                               145 of 284
+   ● Explain that the build-vs-use distinction that exists for nuclear weapons may not
+     exist for sufficiently capable AI systems, meaning that simply building such a
+     system, with no intent to deploy it, may in and of itself be a dangerous action
+     (Introduction, 0.2.2); and
+
+   ● Clarify that, because of this unusual risk profile, the international community may
+     need to implement rules above and beyond those already in place for less-
+     capable AI systems such as lethal autonomous weapons (LAWs).
+
+Some immediate actions that the U.S. government could take to support education
+and capacity-building for its international partners are:
+
+   ● Through U.S. Missions globally, engage Heads of State and Heads of
+     Government on AI safety, security, and catastrophic risk. Key objectives of these
+     engagements should be to explain to partners what is happening in the field of
+     frontier AI, to ask these governments to begin formulating their perspectives, to
+     offer U.S.-provided foundational AI training, and to build support for an eventual
+     international legal regime. The President or Secretary of State could also
+     preview U.S. positions on advanced AI at the United Nations General Assembly.
+
+   ● Initiate conversations on catastrophic AI risk in existing AI policy-focused forums
+     such as the Global Partnership for AI, the United Nations Convention on Certain
+     Conventional Weapons (CCW) Group of Governmental Experts (GGE) on LAWs,
+     the Organization for Economic Cooperation and Development (OECD), and the
+     AI Partnership for Defense.
+
+   ● Design and implement foreign assistance programs for building partner capacity
+     on AI safety. These programs could include robust foundational AI training, AI
+     safety and security training and best practices, and support for domestic legal
+     and regulatory frameworks needed to manage catastrophic AI risk. This could be
+     done as part of the training and up-skilling efforts in LOE2, 2.2.
+
+5.2.1.2 Technical education and outreach
+
+A significant portion of the risk from advanced AI in the near term is associated with
+development and deployment of frontier AI systems by and for national security and
+defense applications (LOE4 4.3). National security and defense personnel in the United
+States and abroad rely on their scientific communities for advice on the opportunities
+and risks of advanced AI. This means effective outreach to scientific communities, AI
+
+
+                                                                               146 of 284
+researchers, and technical defense advisors around the world will be critical to ensure
+that the national security establishments of stakeholder nations fully appreciate the
+scope and nature of catastrophic risk from advanced AI systems, particularly as posed
+by loss of control (Introduction, 0.2.2 and 0.5.1.1).
+
+The United States should promote clear, open, honest, and secure discussion and
+debate between AI researchers across national boundaries with a focus on catastrophic
+AI risk and its potential mitigations. Because this risk class is global in scope,
+stakeholder nations include the United States itself, its partners, and even its
+adversaries.
+
+Early efforts at international technical engagement by independent AI researchers are
+already underway. Beginning in 2023, prominent Western academics, including
+“godfather of deep learning” Geoff Hinton, began reaching out to the Chinese AI
+research community with the aim of increasing its awareness of catastrophic risks from
+advanced AI and AGI. Prominent AI researchers, practitioners, and public figures have
+also signed the 2023 Center for AI Safety’s (CAIS) Statement on AI Risk [245], as have
+several Chinese academics. We believe such outreach to be extremely valuable in
+building the consensus on AGI risk that will ultimately establish diplomatic common
+ground on this issue.
+
+While the U.S. government should broadly support such efforts, it must be clear to all
+stakeholders that these academics and organizations are acting independently out of
+their own genuine concern. We expect U.S. outreach efforts to be most productive if
+they are focused on promoting forums for expanded discussion on these topics, rather
+than attempting to directly shape the substance of the debate.
+
+Some immediate actions that the U.S. government could take to support education
+and outreach to the international AI research community are:
+
+   ● The U.S. Ambassador to the United Nations to initiate a process to establish an
+     intergovernmental Commission on Frontier AI. The Commission's mandate
+     could be to conduct research and draft a report to the Secretary General aimed
+     at fostering consensus on catastrophic risk from loss of control due to AGI
+     alignment failure. The Commission could draw inspiration from similar
+     institutions, such as the Intergovernmental Panel on Climate Change (IPCC),
+     which played an analogous role for scientific consensus-building on climate
+     change. Although there is a risk that any research related to AI alignment may
+     inadvertently contribute to accelerating AI capabilities and to the proliferation of
+     more powerful AI systems, research aimed at accumulating evidence for the
+
+
+                                                                                147 of 284
+      difficulty of AI alignment (see Annex B: The full challenge of AGI alignment), or
+      at demonstrating alignment failures in powerful non-frontier systems, may be
+      less likely to present this risk. An international Commission on Frontier AI would
+      offer an opportunity to promote international collaboration and clarify the
+      shared incentives that exist between the U.S. and other countries in establishing
+      an international regime for catastrophic AI risks [246].
+
+   ● The Department of State’s Bureau of Oceans and International Environmental
+     and Scientific Affairs’s (OES) Office of Science and Technology Cooperation
+     (STC) to explore avenues for bilateral outreach with partners and international
+     academic forums. These could include:
+
+          ○ Encouraging academic venues such as NeurIPS [247] to host technical
+            talks, workshops, or seminars on catastrophic AI risk;
+          ○ Supporting carefully scoped collaborations, including temporary
+            exchange programs, for AI safety and AGI alignment researchers between
+            adversary, U.S., and Western researchers and institutions; and
+          ○ Sponsoring technical training courses on AI safety and AI alignment to
+            accelerate uptake of the core technical topics in these fields among the
+            broader AI research community.
+
+5.2.1.3 Other forms of capacity-building
+
+Because catastrophic AI risk could manifest in the relatively near-term (Introduction,
+0.5.1.2), we recommend that the United States adopt a collaborative stance to
+discovery and truth-seeking with international stakeholders from an early stage. This is
+a non-standard approach to international diplomacy. While consensus-building efforts
+can proceed in parallel across partners and adversaries, any public announcement
+should be sequenced with geopolitical sensitivities in mind.
+
+Some early actions that the U.S. government could take to support capacity-building
+across partner and adversary nations are:
+
+   ● The Department of State, in coordination with the Defense Threat Reduction
+     Agency (DTRA) and others, to establish programs to support catastrophic risk
+     reduction from advanced AI. These could include destruction, dismantlement, or
+     processing of unlicensed compute stockpiles and other supply chain
+     components; red teaming of partners’ legal and regulatory frameworks;
+     workshops and training on increasing safety and security at the individual and
+
+
+                                                                                148 of 284
+       institutional levels; material assistance; facilitating TTXs; and other forms of
+       cooperative threat reduction.
+
+5.2.2 Articulate and reinforce an of cial U.S. government position
+on catastrophic AI risk
+
+Early outreach and education may be able to proceed on the basis of collaborative
+truth-seeking between the United States and international stakeholders. But later
+consensus-building, and ultimately treaty negotiations, may be challenging without a
+clearly articulated, official U.S. position on catastrophic AI risk [248]. Therefore the
+United States should develop and promulgate such a position as soon as practicable.
+Effective domestic AI regulation, as outlined in LOE1, 1.3 and LOE4, would also greatly
+support the credibility of U.S. diplomatic efforts abroad by signaling willingness to
+unilaterally improve the safety and security of its own AI industry.
+
+To clarify the U.S. position, the Congress could issue a Sense of Congress on
+catastrophic AI risk. The content and scope of a Sense of Congress would depend on
+the degree of institutional understanding and internal assessment of this risk.
+
+Both domestic controls and international safeguards will be time-consuming to
+implement, though both may also need to be developed urgently. The United States
+will need to navigate these constraints in order to effectively lead global coordinated
+action on AI safety and security [249,250].
+
+
+5.3 Enshrine AI safeguards in international law
+
+The Department of State, in coordination with the relevant U.S. government leads,
+could launch an international diplomatic campaign to enshrine AI safeguards in
+international law. Ultimately the law could take the form of a binding treaty ratified by a
+United Nations Security Council (UNSC) Resolution. If ratified by the U.S. Senate, an AI
+safety treaty would become supreme law of the land and govern public and private
+activities regarding advanced AI development.
+
+To succeed, an international campaign to establish such a treaty could focus on
+catastrophic AI risks and the corresponding safeguards. Political issues such as human
+rights, AI ethics and responsible use, and general weaponization restrictions92 are
+
+
+92 However it may be possible to obtain UNSC support for certain narrow weaponization restrictions,
+
+such as a ban on training AI to develop biological weapons.
+
+
+                                                                                            149 of 284
+                                      fi
+important for allied collective action, but could derail negotiations. The top priority in
+negotiations could be to address catastrophic risks specifically stemming from unsafe
+advanced AI development practices and potential loss of control due to AGI alignment
+failure. Because these catastrophic risks have the potential to harm all parties, including
+the developer of the AI itself, there may be a window for meaningful progress on this
+narrowly scoped issue.
+
+5.3.1 Treaty structure considerations
+
+Among other challenges, an AI treaty would need to address the security dilemma that
+frontier AI poses to participating nations. This dilemma has some precedent in the case
+of nuclear and biological weapons development [248,251]. In particular, each
+incremental advance in capabilities by a nation’s domestic AI industry improves that
+nation’s security posture relative to its adversaries. But that improvement comes at the
+expense of heightening global instability by increasing the general risk both of
+intentional use of a weaponized AI system, and of AGI alignment failure and loss of
+control of an AI system regardless of the intent of its developer (Introduction, 0.2.2).
+This risk from loss of control has its closest parallel in research on biological agents,
+which regularly escape containment despite having a clearly understood risk model
+supported by decades of experience [252,253].
+
+Nuclear arms control treaties such as the Strategic Arms Limitation Talks (SALT) have
+historically had some success in mitigating a similar security dilemma [254]. These
+treaties function by incrementally reducing participants’ stockpiles of warheads and
+weapons systems, and confirming those reductions through mutual verification.
+Verification mechanisms include requirements to declare nuclear facilities, disclose
+statistics on nuclear supply chains, and allow inspections of key installations.
+
+In the case of advanced AI, verification mechanisms for hardware could include
+exposing elements of the semiconductor supply chain to inspection, cooperative threat
+reduction in the form of verified destruction of AI hardware stocks, and on-chip
+monitoring mechanisms (see Annex L, L.4). We discuss some of these approaches in
+more detail, and address the dilemmas associated with algorithmic advances, in 5.4.1.
+
+But advanced AI also poses a special challenge to traditional verification mechanisms.
+In nuclear arms control, there is a division between reactor-grade (civilian) and
+weapons-grade (military) nuclear material, defined by enrichment levels. That division
+makes it feasible to apply controls to military applications without unduly hindering the
+peaceful development of civilian nuclear technology. By contrast, an advanced AI
+training data center may be inherently dual-use. It could in principle be used to train
+
+
+                                                                                 150 of 284
+safe and beneficial AI systems, or it could be used to train weaponized or high-risk AI
+systems, without any external signal differentiating the two cases (Annex G, G.1).
+
+This dual-use aspect of AI is especially challenging because current applications of
+advanced AI are disproportionately beneficial. A traditional verification mechanism
+therefore risks unduly curtailing beneficial innovation (Introduction, 0.4.2). On the other
+hand, advanced AI training may be much more amenable to software-based
+monitoring approaches, which have the potential to be more granular than traditional
+verification (LOE1, 1.5.2). Both of these may need to be deployed in combination.
+
+Finally, an AI safety treaty could be supported by an international organization to verify
+compliance, set safety and security standards, and convene the global community of AI
+researchers. We discuss this possibility in 5.4.
+
+5.3.2 Preparation for a treaty
+
+In setting the stage for international treaty negotiations, the United States could
+coordinate closely with other nations that have mature AI industries. The 2023 U.K. AI
+Summit [244] could offer a starting point for these engagements. We recommend that
+the goal of these efforts be to establish comprehensive RADA safeguards to
+minimize catastrophic risks from loss of control due to AGI alignment failure, and
+aligning the international community on new international law or treaty requirements.
+
+According to discussions with participants, the U.K. AI Summit made significant
+progress building consensus in a number of key areas, including the importance of
+implementing defense in depth by implementing overlapping sets of controls, and the
+principle that, as an AI system becomes more powerful, the burden of safety
+increasingly should fall on its developer. Some areas of contention remain, notably
+regarding at which level of capability open-access AI systems stop being compatible
+with continuing global safety and security (Introduction, 0.5.1.6). While some of these
+areas may be resolved by further discussion among the parties, they also highlight the
+ongoing need for technical collaboration and research into the risks, benefits, and
+mitigations.
+
+Similar summits, such as those planned in South Korea and France during 2024 [255],
+could be used to secure additional commitments from frontier AI labs and their cloud
+providers. Such commitments may serve an informal precedent-setting function for
+fast-following labs outside the United States as the global AI supply chain proliferates
+[256,257]. These summits could also be used as opportunities for countries to issue
+joint declarations on their shared understanding of AI safety and security issues, similar
+
+
+                                                                                  151 of 284
+to the 2023 Bletchley Declaration [244], and consistent with the approach the United
+States has taken to addressing global coordination challenges in the past [258,259].
+
+
+5.4 Establish an international regulatory agency
+
+If the United States is successful in spearheading an international legal regime for
+catastrophic AI risk mitigation, the international community may need an agency with
+the authorities to verify and monitor compliance with AI safety protocols, facilitate
+technical AI safety cooperation, and establish and maintain safeguards. Although
+supply chain controls (LOE1, 1.5) and domestic regulation (LOE4) may have a large
+early impact, in the long-term global safety and security could require an international
+agency with a mandate derived from international law. We will refer to this agency here
+as the International AI Agency (IAIA).93
+
+We expect an IAIA’s operating model to evolve, and recommend setting this
+expectation clearly and explicitly. U.S. domestic regulatory efforts from LOE1, 1.4.1.2
+and LOE4, 4.1.2 could inform this work. Similarly to early treaties on climate change,
+the first iteration of an IAIA’s structure may not be the right one for the long term. On
+the other hand, experience has shown that it may be possible to develop a multilateral
+framework that effectively addresses a collective action problem, as long as the
+participants are willing to iterate on the framework and agreement design. An explicit
+iteration process could also let counterparties observe each others’ behavior over time,
+adjust their commitments, and engage in confidence-building measures [215].
+
+The history of nuclear nonproliferation [260] also shows that international efforts to
+differentially control peaceful and military applications of dual-use technology can be
+somewhat successful. For example, today 33 countries have safe nuclear power, while
+only 9 have nuclear weapons [217]. Since an AI data center can be used just as easily to
+develop safe AI systems as dangerous AI systems, differential controls may be more
+challenging to apply in this domain than in the nuclear domain. But the tools to
+monitor advanced AI may also be correspondingly more fine-grained and scalable,
+since many of them could be implemented entirely in software.
+
+Ideally, an IAIA monitoring mechanism should be able to detect individual defections
+by its participants. This is important because the risk of an advance in AGI alignment
+could incentivize individual participants to try to train their own self-aligned AGIs (see
+5.2.1.4). We acknowledge that the challenges to such coordination and
+
+93 It may also be possible to implement the functions of an IAIA that we recommend here through
+
+existing mechanisms, channels, and forums.
+
+
+                                                                                           152 of 284
+implementation are very significant, and that no individual tool or approach can offer
+comprehensive safety or security. This is a key reason we approach this problem
+through the lens of defense in depth and recommend multiple, mutually supportive
+control mechanisms (e.g., see 5.5).
+
+5.4.1 Monitoring and veri cation
+
+An international monitoring and verification regime could cover elements such as:
+
+   ● Comprehensive safeguards agreements;
+
+   ● Additional protocols;
+
+   ● Regular, special, and ad hoc inspections;
+
+   ● Containment and surveillance procedures;
+
+   ● Material accountability;
+
+   ● Access to AI scientists and researchers;
+
+   ● Information sharing and reporting mechanisms; and
+
+   ● Regular reports from the IAIA to the Secretary General.
+
+With respect to specific supply chain components, the entity categories and tiers from
+LOE4, 4.1.3 (AIMDs, AIHOs, DCIPs, and AIHDs) could serve as a template for an initial
+RADA safeguards framework for an IAIA. As with domestic RADA safeguards,
+international safeguards should take into account AI capability measures in addition to
+raw compute, though compute will likely remain an important locus of control (Annex
+G, G.2). Accordingly, regulatory oversight may need to extend into semiconductor
+manufacturing inputs to address the risk that independent AI hardware supply chains
+could arise to circumvent safety controls.
+
+One of an IAIA’s key responsibilities could be to monitor use and development of AI
+hardware around the world. Key challenges will include ensuring that countries which
+are not yet IAIA members do not accumulate public or private pools of compute
+sufficient to support the training of AI models that pose catastrophic risks (Introduction,
+0.5.3.2). This might be achieved in part via coordinated export controls of compute
+
+
+
+                                                                                  153 of 284
+                    fi
+hardware to non-IAIA member countries through a Compute Suppliers Group (CSG)
+analogous to the Nuclear Suppliers Group for nuclear materials [225,261,262].
+
+An additional challenge would be for an IAIA to ensure that models that pose
+catastrophic risks are not trained within or outside its member countries as algorithmic
+improvements allow more capable models to be trained with less hardware [262], and
+as hardware efficiencies increase (Introduction, 0.5.3.2). This risk could be mitigated
+among member countries by having the IAIA adjust its licensing thresholds over time
+to ensure that they continue to apply to any entities capable of marshaling dangerous
+quantities of compute, similar to the FAISA (LOE4, 4.1.2.4) and consistent with RADA
+safeguards principles (LOE1, 1.3.2). In addition to a CSG, an IAIA could also coordinate
+with a U.S.-led international AI supply chain controls regime (see 5.5) to ensure that
+international purchases of AI chips are restricted to members of the controls regime.
+This could become essential as algorithmic breakthroughs may allow smaller compute
+pools to be leveraged to build more dangerous systems (Annex G, G.3).
+
+Perhaps the most important requirement to safeguard long-term global safety and
+security from AI will be hardware-enabled mechanisms that can allow verification and
+control of how compute hardware is being used, supported by robust chip registry
+programs (Annex L, L.4) [148,155,213,224]. This would involve exercising tight control
+on the semiconductor supply chain to ensure that any chips that enter the global
+supply are equipped with on-chip monitoring hardware, as well as preventing
+alternative compute supply chains from forming around the world. Such technical
+efforts could be undertaken in coordination with a multilateral supply chain controls
+regime if one exists (see 5.5).
+
+5.4.2 Standard-setting
+
+An IAIA could set authoritative international standards for advanced AI training runs
+and deployments. These could include standards for security, model containment
+measures, evaluations for advanced AI models, and other key areas informed by
+entities such as the NIST U.S. AISI (LOE3, 3.2).
+
+5.4.3 Convening researchers
+
+Finally, an IAIA should create a regular forum to convene international researchers to
+advance the state of the art in AI monitoring and standard-setting. This could take the
+form of a quarterly or biannual conference of top researchers in these respective areas,
+and of financing grants for research teams working in these domains.
+
+
+
+                                                                               154 of 284
+Another possibility could be to establish an international research facility dedicated to
+AI safety and security research. Such a facility could form an early point of agreement in
+treaty negotiations and even be established before a large-scale monitoring regime, as
+an extension of earlier educational and outreach programs (see 5.2.1.2). Such a facility
+could support joint investigation of AI safety and security questions that could confirm
+or disprove aspects of AI risk and inform negotiations.
+
+
+5.5 Allied multilateral initiatives to manage the AI supply
+chain
+
+A functioning international AI safeguards regime (see 5.4) represents an ideal outcome
+(see 5.1). But as part of a defense-in-depth strategy, the United States could also work
+in parallel with its allies and partners to establish a multilateral framework of AI supply
+chain controls, such as through the Wassenaar Arrangement [263]. Not only would this
+increase U.S. and allied leverage for broader international negotiations, but it could
+also be used to reinforce many of the monitoring functions of the IAIA if successfully
+implemented. Additionally, such a multilateral framework would function as a stopgap
+and failsafe, in case an attempt to work through international bodies proceeds too
+slowly or is otherwise unsuccessful.
+
+In the worst case, an independent multilateral supply chain controls framework, led by
+the United States, may be sufficient on its own to secure the inputs needed to train
+frontier AI systems for some time. But we expect that, in the longer term, independent
+AI supply chains [243] will emerge and ultimately undermine even an otherwise
+effective multilateral system.
+
+A multilateral AI controls framework could have three goals:
+
+   ● Ensure that critical elements of the supply chain for advanced AI, particularly
+     compute94 and its inputs, remain localized to U.S. and allied jurisdictions;
+
+   ● Ensure that access to AI cloud compute is controlled through a regulatory
+     mechanism similar to that proposed in LOE4, 4.1.3 including RADA safeguards
+     implemented in U.S. and allied jurisdictions; and
+
+
+
+
+94 Meaning GPUs, TPUs, and other AI accelerator chips.
+
+
+
+                                                                                  155 of 284
+   ● Provide a path for foreign entities to obtain access to AI cloud compute clusters
+     in U.S. and allied jurisdictions, provided they do so subject to the regulatory
+     mechanism (e.g., LOE1, 1.5.2).
+
+5.5.1 Strategic considerations
+
+The most promising points of regulatory leverage in any supply chain are those that
+involve assets that have been built or acquired at high capital cost. By this criterion, AI
+hardware, data centers, and the other the elements listed above offer valid loci of
+control over the advanced AI supply chain (Introduction, 0.5.3.2).
+
+But other AI supply chain components, while they may be crucial as inputs, are less
+amenable to regulatory oversight because they do not meet this criterion. Textual
+training data, for example, is available online at relatively low cost [264,265]. And
+frontier AI models themselves can be copied and transferred at no cost once created,
+even though they require a high capital cost to train. As a result, controls on open-
+source data or on the sharing of open-access AI models are unlikely to be effective,
+though data controls scoped to specific model training runs could be beneficial (Annex
+N, N.4). Controls at the application level are also unlikely to be worth the cost, unless
+implemented as KYC requirements on a model developer’s end users (Annex P, P.2).
+
+5.5.2 Multilateral partnerships
+
+The supply chain for AI hardware is at the root of any realistic long-term mechanism for
+advanced AI control and nonproliferation (LOE1, 1.5.3; Annex G: Primer on AI and
+compute). It may be vital to maintain close coordination with international partners on
+this issue in order to ensure controls remain robust in the face of changing future
+conditions.
+
+The United States manufactures a significant fraction of the inputs to AI hardware
+production domestically, so it holds a significant position in this supply chain. The
+United States can strengthen this advantage by coordinating with international partners
+in the AI chip supply chain. Many key AI inputs are manufactured in allied and partner
+countries [243,257]. Below is a list of countries that could be inaugural members of an
+ASCCR, along with the significance of each. [266,267]
+
+
+
+
+                                                                                   156 of 284
+Table 4. Potential inaugural members of an ASCCR and the components of the AI supply chain
+over which they exert the most influence.
+
+
+            Country                        AI supply chain control approaches
+
+Netherlands                  Semiconductor tooling export controls
+
+Japan                        Semiconductor tooling export controls, technology transfer
+                             controls, foreign national visa screening
+
+Germany                      Technology transfer controls, foreign national visa screening
+
+Taiwan                       Semiconductor tooling export controls
+
+United Kingdom               Technology transfer controls, foreign national visa screening
+
+South Korea                  Semiconductor tooling export controls
+
+France                       Technology transfer controls, foreign national visa screening
+
+Australia                    Technology transfer controls, foreign national visa screening
+
+Israel                       Semiconductor tooling export controls
+
+Singapore                    Semiconductor tooling export controls
+
+United Arab Emirates [241]   Technology transfer controls, foreign national visa screening
+
+
+The exact conditions for safety compliance are fluid and have many dependencies, but
+could initially be based on terms such as those in Annex I: Voluntary Charter for
+responsible AI, or on the RADA safeguards framework outlined in LOE4, 4.1.3.
+
+An ASCCR could prioritize the development of technologies, standards, and policies
+for on-chip governance (Annex L, L.4). Because robust on-chip governance capabilities
+could take several years to develop and be put into production at scale, the United
+States could consider urgently investing in the development of on-chip governance
+technologies prior to the formation of the ASCCR [148]. This could be done through
+federal AI research Centers such as in LOE3, 3.1.
+
+
+5.6 Open challenges
+
+In this action plan, we have attempted to balance considerations of risk and innovation
+while addressing as many challenges as we can reasonably anticipate. But several open
+challenges remain that we feel we have not directly addressed.
+
+
+
+                                                                                     157 of 284
+One major difficulty in the international setting is that AI-capable nations are
+incentivized to escalate development of AI-enabled national security systems. This
+incentive is preserved even if both sides fully agree on the risk of loss of control from
+the development and deployment of AGI-level systems. Because the exact capability
+level at which these risks begin to manifest is unknown, parties may be motivated to
+make incremental improvements to gain an edge in national security. Certain forms of
+mutual verification could begin to address this challenge, but they may require
+unprecedented levels of access, high trust between the parties, and a broad-based
+consensus on the underlying risk.
+
+Reliable verification of compliance with AI risk mitigations is also an open problem. In
+the face of attempts at obfuscation by a resourced entity, it is challenging to verify that
+the entity is not training a high-capability advanced AI model. Certain approaches like
+on-chip verification are promising and could be implemented on timelines of a few
+months for domestic verification schemes. But this increases to several years in
+contexts involving international verification [148].
+
+The impact of algorithmic improvements on the effectiveness of supply chain controls
+is another consideration in the medium and long term (Introduction, 0.5.3.2). As AI
+algorithms continue to improve, more AI capabilities become available for less total
+compute. Depending on how far this trend progresses, it could ultimately become
+impractical to mitigate advanced AI proliferation through compute concentrations at
+all. Approaches to limit the pace of algorithmic improvements could address this issue
+(LOE4, 4.1.4), though there are significant downsides to placing broad-based controls
+on this kind of research.
+
+
+
+
+                                                                                  158 of 284
+Conclusion
+
+AI is a technology fundamentally unlike any other. It holds vast potential to elevate
+human well-being, but could also be deliberately weaponized or exhibit accidental
+failures that have catastrophic consequences. Our recommendations focus on
+mitigating the most unrecoverable catastrophic risks advanced AI poses (Introduction,
+0.5.1.1) while preserving its potential for positive impact (Introduction, 0.4.2). Current
+and near-term risks from advanced AI include weaponization for applications which
+could include bioweapon design, advanced manufacturing, large-scale human
+persuasion, and cyber warfare (Introduction, 0.2.1). Future risks include loss of control
+of high-capability AI systems (Introduction, 0.2.2). Frontier AI labs have publicly
+suggested that such dangerously capable systems could be developed in the near
+future, and possibly within the next five years (Introduction, 0.5.1.2). Both categories of
+risk have the potential, in the worst case, for unrecoverable catastrophic impact on
+human welfare.
+
+Several underlying factors drive and exacerbate these risks. They include:
+
+   ● Worst case outcomes from weaponization and loss of control are plausible [19]
+     and may have unrecoverable catastrophic impacts (Introduction, 0.5.1.1);
+
+   ● The timescale and degree of risk from loss of control are highly uncertain and
+     the subject of ongoing technical debate (Introduction, 0.5.1.2 and 0.5.1.3);
+
+   ● The world’s most advanced AI labs have publicly acknowledged that they lack
+     the safety and security measures they need to secure their systems against
+     catastrophic risks (Introduction, 0.5.1.4 and 0.5.1.5);
+
+   ● Researchers at these labs have publicly acknowledged that fundamental
+     advances in AI alignment will be required to prevent loss of control over
+     advanced AI systems that may be developed in the near term [84,85];
+   ● The supply chain for advanced AI is challenging to secure by reactive policy
+     measures (Introduction, 0.5.3.2);
+
+   ● There is no known way to comprehensively audit the full range of dangerous
+     capabilities and propensities of advanced AI models, and these models can
+     therefore harbor latent dangerous capabilities that may only be discovered or
+     elicited after they are deployed or released as open-access software
+     (Introduction, 0.5.1.6; LOE3, 3.2.1);
+
+
+                                                                                  159 of 284
+   ● AI technology is advancing faster than reactive policy and legislative processes
+     and may be accelerating, which could cause policy measures to quickly become
+     outdated (Introduction, 0.5.2.1);
+
+   ● Information and discussion on the topic of AI is often highly polarized in public
+     spheres (Introduction, 0.5.2.2);
+
+   ● A lack of domestic controls could reduce the effectiveness of U.S.-led
+     international coordination on risk reduction (LOE5, 5.2.2); and
+
+   ● Excessive domestic controls could damage U.S. innovation and competitiveness
+     in AI (Introduction, 0.4.2).
+
+Given the degree of AI-related risks and the multifaceted nature of the factors that
+contribute to them, no single safeguard may be adequate. Instead, we propose a
+mitigation strategy based on defense in depth, in which multiple lines of effort are
+deployed simultaneously to deliver different impacts across different timescales. These
+lines of effort include:
+
+   ● Establishing an interim domestic regime of responsible AI development and
+     adoption (RADA) safeguards for U.S. frontier labs overseen by an interagency
+     task force, along with controls on the AI supply chain (LOE1);
+
+   ● Establishing legally enshrined AI safeguards, including an AI regulatory
+     agency, criminal and civil liability framework, and emergency Presidential
+     powers (LOE4); and
+
+   ● Establishing and implementing AI safeguards in international law, along with
+     multilateral controls on the supply chain for advanced AI (LOE5).
+
+In addition, we recommend two supporting lines of effort:
+
+   ● Building capability and capacity for advanced AI and AGI preparedness and
+     response (LOE2); and
+
+   ● Increasing national capacity for technical AI safety research and standards
+     development (LOE3).
+
+
+
+
+                                                                               160 of 284
+These LOEs are complementary, mutually reinforcing, and directly address the factors
+underlying AI-related weaponization and loss of control risks. The task force established
+under LOE1, 1.4 would serve as a testing ground for safety and security measures that
+could apply to future domestic and international regulatory regimes (LOE4, 4.1.3 and
+LOE5, 5.3). A mandated set of RADA safeguards (LOE1, 1.3.2) would give the task
+force the leverage necessary to ensure the active participation of frontier AI labs as it
+pilots its oversight operations.
+
+Supporting lines of effort ensure that the legal and regulatory RADA safeguards
+introduced under LOE4 are enforced in a technically informed manner (LOE2, 2.2;
+LOE3, 3.2) that is both responsive to the requirements of contingency planners (LOE2,
+2.4), and flexible in the face of novel technical developments (LOE1, 1.2; LOE2, 2.3).
+And the international RADA safeguards overseen under LOE5, 5.4 would benefit from
+the lessons learned from implementing LOE1 and LOE4 domestically.
+
+Some measures proposed in this action plan are without precedent. LOE1, 1.3 calls for
+pivotal executive actions; LOE4, 4.2 calls for the Congress to pass a landmark bill that
+would set a new framework for national AI governance; and LOE5, 5.3 calls for a
+formally ratified treaty to be negotiated with allies, partners, and other stakeholders.
+But it is increasingly clear that the United States should address frontier AI research
+with the same seriousness as previous paradigm-shifting technological breakthroughs
+with the potential to introduce WMD-like threats to global safety. In the past, this has
+entailed significant regulatory and legal interventions, rooted in coordination between
+technical and governmental experts.
+
+In the face of these challenges, bold action is required for the United States to address
+the current, near-term, and future catastrophic risks that AI poses while maximizing its
+benefits, and successfully navigate what may be the single greatest test of technology
+governance in the nation’s history.
+
+
+
+
+                                                                                161 of 284
+Funding disclosure
+
+This publication was produced for review by the United States Department of State. It
+was prepared by Gladstone February 26, 2024 and the contents are the responsibility
+of the authors. The authors’ views expressed in this publication do not reflect the views
+of the United States Department of State or the United States Government.
+
+Gladstone AI is a for-profit company funded entirely from its own revenues. Neither
+Gladstone AI, nor any of the authors as individuals, have received investments or
+donations from any external institutions. Neither Gladstone AI, nor any of the authors
+as individuals, have financial ties to any of the non-U.S. government entities described
+in this document, or to any of their employees, investors, donors, or affiliates.
+
+
+
+
+                                                                                162 of 284
+Acknowledgements
+
+We thank the following members of the Gladstone AI project team for contributing
+their invaluable subject-matter expertise, edits, and advice to this action plan.
+
+   ● Ben Isaacoff, Project Lead. AI & ML Scientist Manager, General Motors.
+
+   ● Jon Askonas, History Team Lead. Senior Fellow at The Foundation for American
+     Innovation.
+
+   ● Alexander Falbo-Wild, History Team Associate. History PhD Student at Temple
+     University.
+
+   ● Caroline Pitman, History Team Associate. Special Assistant at the Center on
+     Global Energy Policy.
+
+The following organizations and individuals generously offered their time, comments,
+feedback, or insights in reviewing or shaping crucial aspects of this document. We
+greatly appreciate their considerable contributions.
+
+   ● Apollo Research. London, U.K.-based AI evaluations developer, focused on
+     deception and misalignment. (apolloresearch.ai)
+        ○ Marius Hobbhahn, Co-founder and Director
+        ○ Lee Sharkey, Co-founder and Chief Strategy Officer
+
+   ● Center for AI Policy (CAIP). DC-based nonprofit specializing in AI safety
+     legislation. (aipolicy.us)
+        ○ Thomas Larsen, Founder and Executive Director
+        ○ Jason Green-Lowe, Legislative Director
+        ○ Akash Wasil, AI Governance and Policy
+
+   ● Center for a New American Security (CNAS). DC-based national security think
+     tank. (cnas.org)
+        ○ Tim Fist, Research Fellow
+        ○ Caleb Withers, Research Assistant
+
+
+
+
+                                                                              163 of 284
+● Center for AI Safety (CAIS). San Francisco-based research and field-building
+  nonprofit focused on reducing societal-scale risks from AI. (safe.ai)
+     ○ Dan Hendrycks, Co-founder and Executive Director
+     ○ Bri Treece, Chief Operating Officer
+
+● Centre for International Governance Innovation (CIGI). Waterloo, Canada-
+  based independent think tank on global governance. (cigionline.org)
+     ○ Duncan Cass-Beggs, Executive Director, Global AI Risk Initiative
+
+● Centre for the Governance of AI (GovAI). Oxford, U.K.-based research and
+  development nonprofit focused on long-term AI governance. (governance.ai)
+     ○ Ben Garfinkel, Director
+     ○ Guive Assadi, Research Scholar
+     ○ Alan Chan, Research Scholar
+     ○ Noemi Dreksler, Research Fellow
+     ○ Fynn Heide, Research Scholar
+     ○ Lennart Heim, Research Fellow
+     ○ Jonas Schuett, Research Fellow
+     ○ Elizabeth Seger, Research Scholar
+     ○ Robert Trager, International Governance Lead
+
+● Conjecture. London, U.K.-based developer of scalable AI alignment solutions.
+  (conjecture.dev)
+     ○ Connor Leahy, Founder and Chief Executive Officer
+     ○ Andrea Miotti, AI Policy and Governance
+     ○ Chris Scammell, Chief Operating Officer
+     ○ Rachel Stockton, Chief of Staff to the CEO
+
+● Epoch. Remote (U.S. and Europe) nonprofit working on forecasting
+  developments and trends in advanced AI. (epochai.org)
+     ○ Jaime Sevilla Molina, Co-founder and Director
+     ○ Ben Cottier, Staff Researcher
+
+● Machine Intelligence Research Institute (MIRI). Berkeley-based nonprofit
+  research institute focused on technical AI alignment. (intelligence.org)
+     ○ Nate Soares, Executive Director
+     ○ Malo Bourgon, Chief Operating Officer
+
+
+
+
+                                                                        164 of 284
+● Mila – Québec Arti cial Intelligence Institute. Montreal, Canada-based
+  research nonprofit; one of the founding centers of deep learning. (mila.quebec)
+     ○ Yoshua Bengio, Founder and Scientific Director
+
+● Model Evaluation & Threat Research (METR; formerly ARC Evals). Berkeley-
+  based nonprofit developing AI evaluations for self-replication. (metr.org)
+     ○ Chris Painter, Member of Technical Staff
+
+● RAND Corporation. DC-based nonprofit think tank, research institute, and
+  public sector consulting form. (rand.org)
+     ○ Jeff Alstott, Senior Information Scientist
+     ○ Ella Guest, AI Policy Fellow
+
+● Rethink Priorities. Remote (U.S. and Europe) nonprofit working on research and
+  implementation for altruistic causes. (rethinkpriorities.org)
+     ○ Michael Aird, Senior Research Manager, AI Governance and Strategy
+     ○ Joe O’Brien, Research Assistant, AI Governance and Strategy
+     ○ Abi Olvera, Affiliate, AI Governance and Strategy
+
+● SaferAI. Paris, France-based developer of infrastructure for auditing advanced
+  AI systems. (safer-ai.org)
+      ○ Siméon Campos, Founder and Chief Executive Officer
+
+● University of California, Berkeley. Berkeley-based public research university.
+  (berkeley.edu)
+     ○ Hany Farid, Professor, School of Information
+     ○ Chris Hoofnagle, Faculty Director, Berkeley Center for Law & Technology
+     ○ Andrew Reddie, Associate Research Professor, Goldman School of Public
+         Policy
+     ○ Jonathan Stray, Senior Scientist, Center for Human-Compatible AI
+
+● Independent reviewers and contributors. The following individuals did not
+  have institutional affiliations at the time of their reviews or contributions.
+     ○ Fletcher Heisler, cybersecurity researcher
+
+● Anonymous reviewers and contributors. The following reviewers and
+  contributors are anonymous.
+     ○ e5b63409d76da1d33c49e44cf55f8b7ebd52baa6e624a0b53dcd9a
+         04377ce7dec5cabed82c831c10dc10bab942def414eb904f320129
+         be7f41102611283aa02a
+
+
+
+                                                                           165 of 284
+  fi
+          We also thank technical, policy, and leadership teams from OpenAI, Google
+          DeepMind, Anthropic, and Meta for their helpful and constructive discussions over
+          the course of this project.
+
+          In addition, we are grateful to selected officials from the governments of Canada, the
+          United Kingdom, and the United States for conversations that shaped or informed
+          elements of this action plan. These include individuals from the following offices,
+          departments, and agencies. For the avoidance of doubt, this action plan does not
+          necessarily reflect the views, policies, or positions of any of these entities.
+
+          Canada
+
+             ● Of ce of the Prime Minister
+
+             ● Of ce of the Minister of Justice and Attorney General of Canada
+
+             ● Of ce of the Minister of National Defence
+
+             ● Of ce of the Minister of Innovation, Science, and Industry
+
+             ● Of ce of the Minister of Foreign Affairs
+
+             ● Privy Council Of ce
+
+             ● Department of National Defence
+
+             ● Global Affairs Canada
+
+             ● Public Safety Canada
+
+             ● House of Commons
+                 ○ Multiple Members of Parliament (MPs) and staffers
+
+          United Kingdom
+
+             ● Cabinet Of ce
+
+             ● Department for Science, Innovation & Technology
+
+
+
+
+                                                                                         166 of 284
+fi
+fi
+fi
+fi
+fi
+     fi
+             fi
+     ● Foreign, Commonwealth and Development Of ce
+          ○ Counter Proliferation and Arms Control Centre
+          ○ Directorate for Defence and International Security
+
+     ● Ministry of Defence
+          ○ Defence AI Centre
+          ○ Defence AI & Autonomy Policy Unit
+          ○ Defence Science & Technology Laboratory (DSTL)
+          ○ Secretary of State’s Office of Net Assessment and Challenge (SONAC)
+
+United States
+
+     ● Executive Of ce of the President
+          ○ Office of Management and Budget (OMB)
+                ■ Office of the Federal Chief Information Officer (CIO)
+          ○ Office of Science and Technology Policy (OSTP)
+                ■ National Security Division
+
+     ● Director of National Intelligence
+          ○ Office of the Director (ODNI)
+                 ■ Policy and Capabilities (P&C)
+
+     ● National Science Foundation
+
+     ● Securities and Exchange Commission
+          ○ Office of the Chair
+          ○ Division of Examinations
+                 ■ Event & Emerging Risks Team (EERT)
+          ○ Division of Trading and Markets
+          ○ Strategic Hub for Innovation and Financial Technology (FinHub)
+
+     ● Department of Commerce
+         ○ National Institute of Standards and Technology (NIST)
+               ■ Information Technology Laboratory (ITL)
+
+
+
+
+                                                                             167 of 284
+fi
+                                   fi
+● Department of Defense
+    ○ Office of the Secretary
+          ■ Chief Digital and Artificial Intelligence Office (OSD CDAO)
+    ○ Defense Advanced Research Projects Agency (DARPA)
+          ■ Information Innovation Office (I2O)
+    ○ Defense Intelligence Agency (DIA)
+          ■ Technology and Long-Range Analysis Office (TLA)
+    ○ Defense Threat Reduction Agency (DTRA)
+          ■ Research and Development Directorate
+    ○ Department of the Air Force
+          ■ Chief Data and AI Office (DAF CDAO)
+    ○ Office of the Under Secretary for Policy
+          ■ Assistant Secretary of Defense for Strategy, Plans and Capabilities
+             (ASD SPC)
+                 ● Force Development and Emerging Capabilities Office
+                    (FDEC)
+          ■ Nuclear and Countering Weapons of Mass Destruction Policy
+             (NCWMDP)
+    ○ Office of the Under Secretary for Research & Engineering (OUSD (R&E))
+    ○ Joint Chiefs of Staff
+          ■ Strategy, Plans, and Policy (J5)
+          ■ Command, Control, Communications and Computer Systems (J6)
+
+● Department of Energy
+    ○ National Nuclear Security Administration (NNSA)
+          ■ Counterterrorism and Counterproliferation Office (NA-80)
+    ○ Lawrence Livermore National Laboratory (LLNL)
+          ■ Center for Applied Scientific Computing
+    ○ Los Alamos National Laboratory (LANL)
+    ○ Oak Ridge National Laboratory (ORNL)
+          ■ Center for AI Security Research (CAISER)
+    ○ Pacific Northwest National Laboratory (PNNL)
+
+● Department of Justice
+    ○ Federal Bureau of Investigation (FBI)
+          ■ Weapons of Mass Destruction Directorate (WMDD)
+                 ● Emerging Threats and Technologies Unit
+                 ● Nuclear and Radiological Countermeasures Unit
+
+
+
+
+                                                                        168 of 284
+   ● Department of Homeland Security
+       ○ Office of the Secretary
+       ○ Countering Weapons of Mass Destruction Office (CWMD)
+       ○ Office of Intelligence and Analysis (I&A)
+       ○ Office of Strategy, Policy, and Plans (OSPP)
+       ○ Science and Technology Directorate (S&T)
+
+   ● Department of State
+       ○ Office of the Secretary
+             ■ Office of the Special Envoy for Critical and Emerging Technology
+                (S/TECH)
+       ○ Bureau of Intelligence and Research (INR)
+       ○ Office of Policy Coordination (PC)
+       ○ Under Secretary for Arms Control and International Security
+             ■ Bureau of Arms Control, Verification and Compliance (AVC)
+                    ● Office of Emerging Security Challenges (ESC)
+             ■ Bureau of International Security and Nonproliferation (ISN)
+                    ● Office of Cooperative Threat Reduction (CTR)
+                    ● Office of Congressional and Public Affairs (CPA)
+                    ● Office of Critical Technology Protection (CTP)
+                    ● Office of the Nonproliferation and Disarmament Fund (NDF)
+       ○ Under Secretary for Economic Growth, Energy, and the Environment
+             ■ Bureau of Economic and Business Affairs (EB)
+                    ● Division for Trade Policy and Negotiations (TPN)
+                           ○ Office of International Intellectual Property
+                              Enforcement (IPE)
+       ○ Under Secretary for Public Diplomacy and Public Affairs
+             ■ Global Engagement Center (GEC)
+
+   ● United States Congress
+        ○ Multiple Representatives and staffers
+
+Finally, the above acknowledgements are not intended to imply that the listed
+organizations or individuals actively endorse this document in whole or in part. All
+errors and omissions are our own.
+
+                                     ·      ·      ·
+
+
+
+
+                                                                                169 of 284
+
