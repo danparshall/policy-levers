@@ -1,0 +1,545 @@
+    Defense in Depth: An Action Plan to Increase the
+          Safety and Security of Advanced AI
+
+
+
+This publication was produced for review by the United States Department of State. It
+ was prepared by Gladstone February 26, 2024 and the contents are the responsibility
+of the authors. The authors’ views expressed in this publication do not reflect the views
+      of the United States Department of State or the United States Government.
+
+
+
+
+                  Organization         Gladstone AI Inc. (hello@gladstone.ai)
+
+
+
+
+                                       Edouard Harris*
+
+                        Authors        Jeremie Harris
+
+                                       Mark Beall
+
+                                       * Lead and corresponding author.
+                                        Contact: edouard@gladstone.ai
+Table of Contents
+Executive summary                                                                                      11
+
+      LOE1: Establish interim safeguards to stabilize advanced AI development                           15
+
+      LOE2: Strengthen capability and capacity for advanced AI preparedness and response                16
+
+      LOE3: Increase national investment in technical AI safety research and standards development 17
+
+      LOE4: Formalize safeguards for responsible AI development and adoption by establishing an AI
+      regulatory agency and legal liability framework                                              18
+
+      LOE5: Enshrine AI safeguards in international law and secure the AI supply chain                  19
+
+0. Introduction                                                                                        21
+
+      0.1 Background                                                                                    22
+
+      0.2 Categories of AI risk                                                                         24
+
+         0.2.1 Weaponization                                                                            24
+
+         0.2.2 Loss of control                                                                          24
+
+         0.2.3 Other risk categories                                                                    26
+
+         0.2.4 Risks addressed by this action plan                                                      27
+
+      0.3 Potential sources of catastrophic AI risk                                                     27
+
+      0.4 Arguments against regulation for catastrophic AI risk                                         29
+
+         0.4.1 Self-regulation will be sufficient                                                       29
+
+         0.4.2 Regulation could damage U.S. innovation and competitiveness                              30
+
+         0.4.3 Catastrophic AI risk could divert attention from other issues                            32
+
+         0.4.4 Catastrophic AI risk mitigation is unnecessary                                           32
+
+      0.5 Challenges                                                                                    33
+
+         0.5.1 Technical challenges                                                                     33
+
+            0.5.1.1 The worst-case outcomes for AI risk are considered both plausible and extremely
+            severe                                                                                  33
+
+            0.5.1.2 Timescales for catastrophic risk are uncertain                                      35
+
+            0.5.1.3 The degree of risk from loss of control is uncertain                                36
+
+            0.5.1.4 Frontier labs lack safety and security measures to detect and prevent loss of control
+            37
+
+
+
+                                                                                                  2 of 284
+            0.5.1.5 Frontier labs lack sufficient security to prevent critical IP theft               38
+
+            0.5.1.6 Open-access development can elicit dangerous capabilities from previously safe AI
+            models                                                                                  39
+
+            0.5.1.7 Closed-access AI models are vulnerable to black-box exfiltration and other attacks 40
+
+         0.5.2 Political challenges                                                                   40
+
+            0.5.2.1 AI advances faster than the ordinary policy process                               40
+
+            0.5.2.2 The information environment around advanced AI makes grounded conversations
+            challenging                                                                         41
+
+         0.5.3 Economic and strategic challenges                                                      42
+
+            0.5.3.1 Frontier labs face strong incentives to develop and deploy increasingly advanced AI
+            systems with limited safeguards                                                          42
+
+            0.5.3.2 AI supply chain proliferation cannot be mitigated after the fact                  43
+
+         0.5.4 Legal challenges                                                                       45
+
+            0.5.4.1 The current legal environment is inadequate to address the most extreme risks from
+            advanced AI                                                                              45
+
+Action plan to increase the safety and security of advanced AI                                        47
+
+LOE1: Establish interim safeguards to stabilize advanced AI development                               48
+
+         1.1 National security threats addressed by this LOE                                          49
+
+         1.2 Establish an AI Observatory for advanced AI                                              50
+
+            1.2.1 Functions                                                                           51
+
+            1.2.2 Staffing                                                                            52
+
+            1.2.3 Interagency coordination                                                            52
+
+         1.3 Establish responsible AI development and adoption safeguards for U.S. private industry 53
+
+            1.3.1 Implementation mechanism and statutory authorities                                  54
+
+            1.3.2 RADA safeguards principles                                                          54
+
+         1.4 Establish an AI Safety Task Force for RADA oversight                                     56
+
+            1.4.1 Mission                                                                             57
+
+               1.4.1.1 Priority Objective: Finalize and secure agreement on RADA safeguards           57
+
+               1.4.1.2 Sustainment Component: Oversee compliance with RADA safeguards                 61
+
+               1.4.1.3 Sustainment Component: Develop recommendations for future regulations          61
+
+
+
+
+                                                                                                3 of 284
+           1.4.2 Resources and staffing                                                           62
+
+           1.4.3 Financial requirements and budget                                                63
+
+           1.4.4 Authorities                                                                      63
+
+           1.4.5 Location                                                                         65
+
+        1.5 Securing the advanced AI supply chain                                                 65
+
+           1.5.1 AI model weights                                                                 67
+
+           1.5.2 Cloud computing                                                                  67
+
+           1.5.3 AI hardware                                                                      69
+
+           1.5.4 Research collaborations                                                          71
+
+           1.5.5 Education of foreign nationals                                                   72
+
+LOE2: Strengthen capability and capacity for advanced AI preparedness and response                73
+
+        2.1 Coordinate interagency working groups                                                 74
+
+        2.2 Advanced AI education and training                                                    75
+
+           2.2.1 Key stakeholders and learning outcomes                                           76
+
+           2.2.2 Suggested training topics                                                        78
+
+        2.3 Indications and warnings                                                              82
+
+           2.3.1 Key categories and sources of catastrophic risk                                  83
+
+           2.3.2 Improving I&W through bug bounties                                               86
+
+           2.3.3 Improving I&W through direct government investment                               86
+
+        2.4 Contingency planning                                                                  87
+
+           2.4.1 Updating the National Preparedness System                                        88
+
+LOE3: Increase national investment in technical AI safety research and standards development      89
+
+        3.1 Federally funded research in AI safety and security and AGI-scalable alignment        90
+
+           3.1.1 Levels of AI safety and security research                                        91
+
+              3.1.1.1 Open-source and public research                                             91
+
+              3.1.1.2 Research that requires access to proprietary AI models                      92
+
+              3.1.1.3 National security research                                                  93
+
+           3.1.2 Organizational framework                                                         94
+
+              3.1.2.1 Considerations for AGI alignment research                                   95
+
+
+                                                                                             4 of 284
+              3.1.2.2 Research collaborations                                                          96
+
+              3.1.2.3 Sensitive research areas                                                         96
+
+        3.2 Standards for AI evaluations and RADA safeguards                                           97
+
+           3.2.1 Limitations of AI evaluations                                                         98
+
+              3.2.1.1 AI evaluations are not comprehensive                                             98
+
+              3.2.1.2 AI evaluations cannot confirm that a dangerous capability is absent              98
+
+              3.2.1.3 AI evaluations are highly vulnerable to manipulation                             99
+
+              3.2.1.4 AI evaluations could fail systematically in high-capability regimes             100
+
+           3.2.2 Addressing the limitations of AI evaluations                                         100
+
+           3.2.3 Standards for RADA safeguards under catastrophic risk                                101
+
+LOE4: Formalize safeguards for responsible AI development and adoption by establishing an AI
+regulatory agency and legal liability framework                                              102
+
+        4.1 Establish the Frontier AI Systems Administration (FAISA)                                  103
+
+           4.1.1 FAISA appropriations and staffing                                                    104
+
+           4.1.2 FAISA activities                                                                     105
+
+              4.1.2.1 Oversee licensing regime for safe AI scaling                                    105
+
+              4.1.2.2 Monitor AI hardware concentrations and AI programs                              106
+
+              4.1.2.3 Enforce licensing and reporting requirements                                    107
+
+              4.1.2.4 Update technical thresholds for licensing                                       107
+
+              4.1.2.5 Maintain information repositories                                               108
+
+           4.1.3 Comprehensive framework for RADA safeguards                                          109
+
+              4.1.3.1 AI hardware designers (AIHDs)                                                   112
+
+                 4.1.3.1.1 Tier 1: AIHDs at or below the hardware threshold                           114
+
+                 4.1.3.1.2 Tier 2: AIHDs above the hardware threshold                                 114
+
+              4.1.3.2 Data center infrastructure providers (DCIPs)                                    114
+
+                 4.1.3.2.1 Tier 1: DCIPs operating data center facilities at or below the power
+                 consumption threshold                                                                116
+
+                 4.1.3.2.2 Tier 2: DCIPs operating data center facilities above the power consumption
+                 threshold                                                                         116
+
+              4.1.3.3 AI hardware owners (AIHOs)                                                      117
+
+
+
+                                                                                                  5 of 284
+                   4.1.3.3.1 Tier 1: AIHOs who are at or below the aggregate compute capacity
+                   threshold                                                                            119
+
+                   4.1.3.3.2 Tier 2: AIHOs who fall above the aggregate compute capacity threshold 119
+
+               4.1.3.4 AI model developers (AIMDs)                                                      120
+
+                   4.1.3.4.1 Tier 1: AI models below the registration threshold                         122
+
+                   4.1.3.4.2 Tier 2: AI models above the registration threshold, but below the approval
+                   threshold                                                                         123
+
+                   4.1.3.4.3 Tier 3: AI models above the approval threshold, but below the controlled
+                   threshold                                                                         125
+
+                   4.1.3.4.4 Tier 4: AI models above the controlled threshold                           128
+
+               4.1.3.5 General provisions for all licensed entities                                     129
+
+            4.1.4 Publication controls                                                                  131
+
+         4.2 Legislative environment                                                                    133
+
+            4.2.1 Civil liability                                                                       133
+
+            4.2.2 Criminal liability                                                                    135
+
+            4.2.3 Emergency powers                                                                      137
+
+         4.3 Advanced AI in national security systems                                                   139
+
+LOE5: Enshrine AI safeguards in international law and secure the AI supply chain                        141
+
+         5.1 Desired end state of this LOE                                                              142
+
+         5.2 Build international consensus and partner capacity on catastrophic AI risk reduction       143
+
+            5.2.1 Coordinate domestic and international messaging and capacity-building                 144
+
+               5.2.1.1 Policymaker education and outreach                                               145
+
+               5.2.1.2 Technical education and outreach                                                 146
+
+               5.2.1.3 Other forms of capacity-building                                                 148
+
+            5.2.2 Articulate and reinforce an official U.S. government position on catastrophic AI risk 149
+
+         5.3 Enshrine AI safeguards in international law                                                149
+
+            5.3.1 Treaty structure considerations                                                       150
+
+            5.3.2 Preparation for a treaty                                                              151
+
+         5.4 Establish an international regulatory agency                                               152
+
+            5.4.1 Monitoring and verification                                                           153
+
+
+
+                                                                                                    6 of 284
+             5.4.2 Standard-setting                                             154
+
+             5.4.3 Convening researchers                                        154
+
+        5.5 Allied multilateral initiatives to manage the AI supply chain       155
+
+             5.5.1 Strategic considerations                                     156
+
+             5.5.2 Multilateral partnerships                                    156
+
+        5.6 Open challenges                                                     157
+
+Conclusion                                                                      159
+
+Funding disclosure                                                              162
+
+Acknowledgements                                                                163
+
+Bibliography                                                                    170
+
+Annex A: Glossary of terms                                                      204
+
+Annex B: The full challenge of AGI alignment                                    213
+
+Annex C: Example AI alignment failure scenarios                                 214
+
+     C.1 Negligible impact: AI cheating at a video game                         214
+
+     C.2 Low impact: AI sweeping bot                                            214
+
+     C.3 Medium impact: Dangerously creative drone                              214
+
+     C.4 High impact: Electrical grid failure                                   215
+
+Annex D: Advanced AI landscape                                                  217
+
+     D.1 Frontier AI labs                                                       217
+
+     D.2 China-based entities                                                   218
+
+     D.3 Open-access developers                                                 218
+
+     D.4 Elite quantitative hedge funds                                         219
+
+Annex E: Funding in AI safety                                                   221
+
+Annex F: Persuasion and manipulation                                            222
+
+Annex G: Primer on AI and compute                                               224
+
+     G.1 Compute as a pathway to frontier AI development                        224
+
+     G.2 Implications for risk mitigation strategy                              225
+
+
+
+                                                                            7 of 284
+      G.3 Key thresholds and existing compute concentrations                        225
+
+Annex H: AIO activities                                                             229
+
+Annex I: Voluntary Charter for responsible AI                                       231
+
+      I.1 Information sharing                                                       231
+
+      I.2 Compute reporting threshold                                               233
+
+      I.3 Model evaluation protocols                                                234
+
+      I.4 Capability prediction protocols                                           242
+
+      I.5 Security measures                                                         243
+
+      I.6 Model containment measures                                                245
+
+      I.7 AI safety and AGI alignment research                                      247
+
+      I.8 Dangerous capability ban                                                  248
+
+      I.9 Capability research controls                                              248
+
+      I.10 Risk governance                                                          249
+
+      I.11 Caps on cloud services for scaled training runs                          250
+
+      I.12 Incremental adoption                                                     250
+
+      I.13 Final considerations for negotiating Charter terms                       251
+
+Annex J: Effective compute                                                          252
+
+Annex K: ASTF activities and task-organization                                      254
+
+      K.1 Oversee and support compliance with RADA safeguards                       254
+
+      K.2 Develop recommendations for a legal and regulatory regime                 256
+
+      K.3 ASTF task-organization                                                    257
+
+Annex L: AI safety and security research topics                                     260
+
+      L.1 AGI-scalable alignment between AI behaviors and human values              260
+
+      L.2 Monitoring of AI systems to detect misbehavior and preempt failures       261
+
+      L.3 Robustness in the face of adversaries and unforeseen circumstances        262
+
+      L.4 Hardware-based verification                                               262
+
+Annex M: Secure temporary storage of model weights                                  263
+
+Annex N: Training approvals process for high-risk AI models                         265
+
+
+                                                                                8 of 284
+                    N.1 Dangerous capability predictions                     266
+
+                    N.2 Capability evaluations                               267
+
+                    N.3 Capability predictions at training checkpoints       267
+
+                    N.4 Data controls                                        267
+
+                    N.5 Risk management                                      268
+
+Annex O: Training stage monitoring for high-risk AI models                   269
+
+                    O.1 Training journal                                     269
+
+                    O.2 Ongoing capability predictions                       270
+
+                    O.3 Ongoing capability evaluations                       271
+
+                    O.4 Model output predictions                             272
+
+                    O.5 Training kill switch                                 273
+
+                    O.6 Failed evaluation protocol                           274
+
+Annex P: Deployment stage approvals for high-risk AI models                  276
+
+                    P.1 Lifecycle funds                                      277
+
+                    P.2 Pre-deployment KYC                                   278
+
+                    P.3 Risk and contingency planning                        278
+
+                    P.4 Weight storage for model evaluations                 278
+
+                    P.5 Model augmentations                                  278
+
+                    P.6 Failed evaluation protocol                           279
+
+                    P.7 Fine-tuning approval                                 279
+
+Annex Q: Deployment stage monitoring of high-risk AI models                  281
+
+                    Q.1 Usage pattern reporting                              282
+
+                    Q.2 Red teaming                                          283
+
+                    Q.3 Failed evaluation protocol                           283
+Table of Contents
+
+
+
+
+                                                                         9 of 284
+Table of Figures
+Figure 1. Overview of the action plan and its component LOEs.                                              13
+
+Figure 2. Visualization of an approximate spectrum of AI risks, ranging from individual and societal risks
+to catastrophic national security risks.                                                                  27
+
+Figure 3. Visualization of the AI supply chain, potential sources of catastrophic risk, and categories of
+catastrophic risk.                                                                                        29
+
+Figure 4. Simplified representation of the components of the AI supply chain.                              43
+
+Figure 5. Safeguards to introduce to frontier AI developers, AI hardware owners, and data center
+infrastructure providers in the event that RADA safeguards can (Plan A) and cannot (Plan B) be
+mandated.                                                                                                  60
+
+Figure 6. Summary of an example licensing regime for RADA safeguards.                                     111
+
+Figure 7. Summary of an example AI hardware designer licensing regime for RADA safeguards.                113
+
+Figure 8. Summary of an example data center infrastructure provider licensing regime for RADA
+safeguards.                                                                                               115
+
+Figure 9. Summary of an example AI hardware owner licensing regime for RADA safeguards.                   118
+
+Figure 10. Summary of an example AI model developer licensing regime for RADA safeguards.                 121
+
+Figure 11. Summary of key licensing requirements at each stage of the AI product lifecycle under RADA
+safeguards.                                                                                         127
+
+Figure 12. Visualization of our definitions of advanced AI, frontier AI, and AGI.                         209
+
+Figure 13. Organizational chart for the AI Safety Task Force.                                             257
+Table of Figures
+
+
+
+
+Table of Tables
+Table 1. U.S. government stakeholders and potential target learning outcomes of AI education.              77
+
+Table 2. Training topics associated with target learning outcomes.                                         79
+
+Table 3. Potential sources of catastrophic AI risk, corresponding risk categories, and information
+requirements associated with each.                                                                         83
+
+Table 4. Potential inaugural members of an ASCCR and the components of the AI supply chain over
+which they exert the most influence.                                                            157
+Table of Tables
+
+
+
+
+                                                                                                     10 of 284
+
