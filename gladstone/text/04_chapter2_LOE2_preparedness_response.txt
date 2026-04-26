@@ -1,0 +1,674 @@
+LOE2: Strengthen capability and capacity for advanced
+AI preparedness and response
+
+
+
+
+Advanced AI and AGI risk mitigation will engage a broad set of U.S. government
+equities. However, the advanced AI landscape is changing rapidly (Introduction, 0.1). In
+this climate, policy should support swift, well-coordinated decision-making grounded in
+rigorous and timely technical assessments (Introduction, 0.5.2.1). Effective mitigation
+
+
+                                                                                73 of 284
+measures will require advance planning and accurate assessments and synthesis of risk
+signals in a potentially challenging information environment (Introduction, 0.5.2.2).
+Execution in these areas, and in those of the other LOEs, will necessitate substantial
+institutional capacity-building across all U.S. government stakeholders.
+
+This LOE outlines specific actions that the U.S. government could take to increase its
+preparedness for rapidly responding to incidents related to advanced AI and AGI
+development and deployment. These actions are:
+
+   ● Continuing to establish and coordinate interagency working groups, including
+     for the LOEs in this action plan (see 2.1);
+
+   ● Increasing preparedness and response capacity and capability through
+     education and training (see 2.2);
+
+   ● Coordinating the development of an Indications and Warnings (I&W)
+     framework for advanced AI and AGI incidents (see 2.3); and
+
+   ● Coordinating the development of scenario-based contingency plans (see 2.4).
+
+The I&W and contingency planning processes will generate advanced AI-related risk
+management requirements that could inform other aspects of this plan, including the
+specific thresholds for RADA safeguards (LOE1, 1.3.2; LOE4, 4.1.3).
+
+
+2.1 Coordinate interagency working groups
+
+We recommend the U.S. government continue to coordinate the establishment of
+interagency working groups to execute on mitigation measures for catastrophic AI risk.
+To ensure such measures are treated as a holistic and coherent effort, the President
+could create an NSC-level or OSTP-level position with responsibility for all workstreams
+related to national security risk mitigation from advanced AI and AGI. This could
+include overseeing the execution of some of the LOEs in this action plan through the
+participating departments and agencies. For example the NSC-level official could:
+
+   ● Receive regular reports on the state of the advanced AI landscape, including
+     capabilities and risk assessments produced by an AIO (DHS; LOE1, 1.2);
+
+   ● Oversee an ASTF with the mission to implement RADA safeguards for domestic
+     frontier AI (DOE or DHS; LOE1, 1.4);
+
+
+
+                                                                                74 of 284
+   ● Oversee the implementation of I&W (U.S. Intelligence Community; see 2.3) and
+     contingency planning efforts (see 2.4) designed to guard against potential
+     catastrophic risks from advanced AI and AGI;
+
+   ● Support the coordination of regulatory efforts (LOE1, 1.4; LOE4, 4.1) with
+     federally funded advanced AI and AGI safety and security research (National
+     Science Foundation; LOE3, 3.1);
+
+   ● Ensure regulatory efforts are aligned with emerging advanced AI and AGI safety
+     and security standards (NIST U.S. AISI; LOE3, 3.2);
+
+   ● In the long term, oversee a permanent regulatory agency for advanced AI
+     (LOE4, 4.1); and
+
+   ● Oversee U.S. efforts to build international capacity, consensus, and controls to
+     manage catastrophic AI risks (Department of State; LOE5).
+
+
+2.2 Advanced AI education and training
+
+AI safety and security is a complex field in which nuanced technical factors often make
+the difference between effective and ineffective risk mitigation strategies. U.S.
+government personnel charged with implementing or developing AI safety policy must
+understand these factors in order to fulfill their duties successfully. However, different
+personnel will have varying educational requirements depending on their domain of
+work and position.
+
+The U.S. government will therefore require a carefully targeted educational program,
+designed to provide training and support of the right type and depth to individuals
+charged with advancing U.S. national security interests in AI. This program should have
+several key properties:
+
+   1. Ensure that the training and support it provides are updated regularly. This
+      is necessary to account for rapid advances in AI capabilities and risks as the
+      frontier of the field progresses.
+
+   2. Introduce ongoing requirements for continuous learning. Significant advances
+      that shape the landscape of AI capabilities occur on at least a monthly basis
+      [160]. Without continuous learning, even trained personnel would quickly find
+      themselves with an outdated understanding of frontier AI capabilities and risks.
+
+
+
+                                                                                  75 of 284
+       In many cases this knowledge gap could pose a risk to their ability to execute
+       their missions effectively.
+
+   3. Deliver the right information to the right stakeholders. Personnel involved in
+      commercial regulation, military safety policy, international diplomacy, and other
+      fields will each require different training focused on the aspects of the frontier AI
+      landscape relevant to each of their respective domains.
+
+   4. Deliver information in the right format for its intended audience. Most
+      relevant personnel can likely be trained via asynchronous online courses. But
+      others may require live in-person training, ongoing access to centers of
+      expertise within or outside government, or combinations of these options.
+
+A robust, regularly updated, and technically grounded training program will be critical
+to support government decision-making in areas such as:
+
+   ● Developing technically-informed policy, regulatory, and legal frameworks;
+
+   ● Uncovering requirements for necessary new authorities and programs;
+
+   ● Contributing to technical advances in AI safety and security; and
+
+   ● Messaging the topic clearly and effectively with the American public.
+
+There are many means by which training can be acquired, including from the private
+sector, but in all cases it should be vetted for quality and accurate risk focus.
+
+2.2.1 Key stakeholders and learning outcomes
+
+Educational requirements will vary among U.S. government personnel. Below, we
+provide a list of key stakeholder groups, along with recommended high-priority
+learning objectives for each. OMB could consider directing agency heads to identify
+and train personnel in these key areas. We also recommend that the Administration’s
+key influencers acquire their own AI training for the purpose of increasing the technical
+accuracy of public discourse (Introduction, 0.5.2.2).
+
+It is especially crucial to train technical personnel in defense and national security roles
+about this risk category, both in the United States and internationally to the fullest
+extent possible. These individuals need to be equipped to offer their leadership
+
+
+
+                                                                                    76 of 284
+accurate and timely advice that will inform national security strategy with respect to
+advanced AI (LOE5, 5.2.1.2).
+
+Table 1. U.S. government stakeholders and potential target learning outcomes of AI education.
+
+
+              Key stakeholders                          Target learning outcome
+
+NSC, OSTP, OMB, department and agency         Strategic and technically-informed decision-
+political leaders and possible regulators     making
+involved in advanced AI policy
+
+AI Observatory personnel (LOE1, 1.2)          Strategic and technically-informed decision-
+                                              making
+
+AI Safety Task Force personnel (LOE1, 1.3)    Deepened baseline operational
+                                              understanding prior to negotiating with labs,
+                                              understand key considerations for
+                                              enforcement of AI regulations, understand the
+                                              risks associated with frontier AI research to
+                                              incentivize responsible behavior
+
+Intelligence Community-led Indications and    Strategic and technically-informed decision-
+Warnings workstream and direct                making
+management personnel (see 2.3)
+
+Contingency planning workstream and direct Strategic and technically-informed decision-
+management personnel (see 2.4)             making
+
+Interagency teams working all LOEs            Strategic and technically-informed decision-
+                                              making
+
+Congressional leaders and staff               Strategic and technically-informed decision-
+                                              making
+
+Key influencers [161]                         Enhance the accuracy of public discourse
+
+Judiciary leaders and staff [162]             Enhance capability to address cases on the
+                                              range of legal issues presented by advanced
+                                              AI, frontier AI, and AGI
+
+Department of Justice stakeholders            Understand key considerations for
+responsible for enforcement of advanced AI    enforcement of AI regulations
+regulations (LOE4, 4.1.2.3 and 4.2.2)
+
+Key diplomats including embassy staff         Accelerate U.S. ability to drive a common
+(LOE5, 5.2)                                   understanding of potential catastrophic AI
+                                              risks for international coordination
+
+
+
+                                                                                    77 of 284
+International partners and stakeholders       Accelerate U.S. ability to drive a common
+(LOE5, 5.2.1)                                 understanding of potential catastrophic AI
+                                              risks for international coordination
+
+AI researchers at National Labs and other   Understand open problems in technical AI
+technical centers of excellence in the U.S. safety and AGI alignment
+government, and in governments around the
+world (LOE3, 3.1.2; LOE5, 5.2.1.2)
+
+Private sector AI capabilities researchers    Understand the risks associated with frontier
+                                              AI research to incentivize responsible behavior
+
+Public sector AI academics (LOE1, 1.5.4 and   Understand the risks associated with frontier
+1.5.5)                                        AI research to incentivize responsible behavior
+
+
+See the next section for examples of training topics that support each of the training
+outcomes above.
+
+2.2.2 Suggested training topics
+
+Stakeholder training will need to be accessible to non-technical audiences. At the same
+time, it should be substantive enough to allow personnel to make informed predictions
+about near-future AI capabilities. It should also equip personnel to interpret semi-
+technical articles published by frontier labs announcing new breakthroughs (e.g., [163]),
+and to correctly infer some of their implications.
+
+All stakeholders should obtain a baseline understanding of AI and key issues at play in
+frontier AI safety and security. This baseline understanding should include the following
+concepts:
+
+   ● Drivers of AI progress (e.g. AI scaling and algorithmic improvements);
+
+   ● Bottlenecks to AI progress (e.g. AI-optimized hardware, data, talent);
+
+   ● Key sources of catastrophic AI risk (including weaponization and loss of control
+     due to AGI alignment failure; Introduction, 0.2.1 and 0.2.2);
+
+   ● Technical risk mitigation strategies (e.g. AI evaluations, mechanistic
+     interpretability);
+
+
+
+
+                                                                                     78 of 284
+   ● Challenges to risk mitigation (e.g. outcome severity, timelines, incentives, supply
+     chain factors; Introduction, 0.5); and
+
+   ● Policy-based risk mitigation strategies (e.g. compute-based reporting thresholds,
+     reporting requirements for large-scale training runs).
+
+The training could also inform decisions on policy and safeguards for advanced AI
+systems; ideas for improving safety standards; and associated economic, antitrust, and
+regulatory capture concerns. Finally, training could examine operational challenges and
+solutions for international AI safeguards, aiming to build capacity and capability for
+implementations of LOE5. Training content could also be packaged as reference
+documents for government stakeholders. Like the training itself, these documents
+should be kept frequently updated given the pace of progress in frontier AI.
+
+Below is a list of key training outcomes, along with sample training topics that we
+recommend as being supportive of each key outcome.
+
+Table 2. Training topics associated with target learning outcomes.
+
+
+         Target outcome of training                        Sample training topics
+
+Strategic and technically-informed decision-    • AI scaling and its relationship to AI
+making                                            capabilities and alignment
+                                                • AI capabilities and impacts forecasting
+                                                • Inner vs outer alignment and the stability-
+                                                  control paradox [161]
+                                                • The open-source AI ecosystem
+                                                • Compute as a strategic resource
+                                                • Governance and control of advanced AI
+                                                  systems
+                                                • The advanced AI supply chain
+
+
+
+
+                                                                                        79 of 284
+Deepened baseline operational                  • AI scaling and its relationship to AI
+understanding prior to negotiating with labs     capabilities and alignment
+                                               • Weaponization, accident, and loss of control
+                                                 risks, including catastrophic risks
+                                               • AI capabilities and impacts forecasting
+                                               • The open-source AI ecosystem
+                                               • Compute as a strategic resource
+                                               • Antitrust and regulatory capture concerns
+                                               • Concerns over gaming of safety evaluations
+                                               • The culture of and ongoing debates within
+                                                 the AI alignment community
+
+Enhance the accuracy of public discourse       • AI scaling and its relationship to AI
+                                                 capabilities and alignment
+                                               • Weaponization, accident, and loss of control
+                                                 risks, including catastrophic risks
+                                               • AI capabilities and impacts forecasting
+                                               • Antitrust and regulatory capture concerns
+                                               • The culture of and ongoing debates within
+                                                 the AI alignment community
+
+Enhance capability to address cases on the     • Weaponization, accident, and loss of control
+range of legal issues presented by advanced      risks, including catastrophic risks
+AI and AGI                                     • AI capabilities and impacts forecasting
+                                               • Antitrust and regulatory capture concerns
+                                               • Open questions in generative AI
+                                                 copyrighting, and how these impact the
+                                                 data collection strategies of frontier labs
+
+Accelerate U.S. ability to drive a common      • AI scaling and its relationship to AI
+understanding of the risks for international     capabilities and alignment
+coordination                                   • Weaponization, accident, and loss of control
+                                                 risks, including catastrophic risks
+                                               • AI capabilities and impacts forecasting
+                                               • Inner vs outer alignment and the stability-
+                                                 control paradox [161]
+                                               • Concerns over gaming of safety evaluations
+                                               • Governance and control of advanced AI
+                                                 systems
+                                               • The advanced AI supply chain
+
+
+
+
+                                                                                     80 of 284
+Understand key considerations for               • AI scaling and its relationship to AI
+enforcement of AI regulations                     capabilities and alignment
+                                                • Weaponization, accident, and loss of control
+                                                  risks, including catastrophic risks
+                                                • AI capabilities and impacts forecasting
+                                                • Concerns over gaming of safety evaluations
+                                                • Governance and control of advanced AI
+                                                  systems
+                                                • The frontier AI ecosystem and its key players
+                                                • The ideological motivations of frontier AI
+                                                  researchers
+
+Understand open problems in technical AI        • Research agendas aimed at solving AI
+safety and AGI alignment                          alignment
+                                                • Techniques for measuring and mitigating
+                                                  power-seeking behavior
+                                                • Corrigibility techniques
+                                                • Mechanistic interpretability techniques
+                                                • Empirical techniques such as activation
+                                                  engineering, representation engineering,
+                                                  and probing
+                                                • Expected failure modes of reinforcement
+                                                  learning from human feedback and other
+                                                  prosaic alignment techniques in AGI-level
+                                                  systems
+
+Understand the risks associated with frontier   • Weaponization, accident, and loss of control
+AI research to incentivize responsible            risks, including catastrophic risks
+behavior                                        • Concerns over gaming of safety evaluations
+                                                • Research agendas aimed at solving AI
+                                                  alignment
+                                                • Techniques for measuring and mitigating
+                                                  power-seeking behavior
+                                                • Corrigibility techniques
+                                                • Mechanistic interpretability techniques
+                                                • Empirical techniques such as activation
+                                                  engineering, representation engineering,
+                                                  and probing
+                                                • Expected failure modes of reinforcement
+                                                  learning from human feedback and other
+                                                  prosaic alignment techniques in AGI-level
+                                                  systems
+
+
+
+
+                                                                                       81 of 284
+2.3 Indications and warnings
+
+Without a capacity to detect and anticipate potential catastrophic risks from AI
+weaponization or loss of control, the U.S. government risks either being caught at a
+disadvantage by fast-moving national security threats (Introduction, 0.5.1.1, 0.5.1.2,
+and 0.5.2.1), or causing premature harm to its own domestic AI industry (Introduction,
+0.4.2).
+
+Therefore, as a critical near-term action, the U.S. government should develop an
+indications and warnings (I&W) framework for advanced AI and AGI threats.42
+Development of this framework could be undertaken by the U.S. Intelligence
+Community (IC).
+
+Once developed, an I&W framework could inform downstream requirements to
+comprehensively monitor advanced AI research and development globally (LOE1, 1.2),
+track the release of open-access AI models (Annex D, D.3), map the global supply
+chains for AI compute hardware and data centers (Annex G, G.3), and assess potential
+risks from both declared and undeclared frontier AI labs and other projects. The I&W
+framework should be kept regularly updated as new information becomes available,
+including by seeking input from frontier labs and the broader AI safety community.
+
+An I&W framework could enable the U.S. government to receive timely warning of
+emerging risks from frontier AI development programs. Partners such as DHS and DOE
+could also help increase the government’s understanding of technical I&W for
+advanced AI and AGI threats through collaborations with domestic frontier labs. The
+I&W framework could also benefit from coordination and information-sharing with
+other task forces and agencies such as the AIO (LOE1, 1.2), ASTF (LOE1, 1.4), federally
+funded AI research centers (LOE3, 3.1.2) and regulatory bodies (LOE4, 4.1). Such
+partnerships could support the IC in ensuring that the framework remains informed by
+an up-to-date and accurate view of the frontier AI landscape.
+
+Traditional approaches to I&W [164] may need to be modified to accommodate
+challenges associated with modeling catastrophic AI risk. These could include the
+practical difficulties of accessing qualified technical talent to advise on I&W
+
+
+
+
+42 Advanced AI threats are not necessarily AGI threats. AI systems could pose catastrophic
+
+weaponization risk before AGI is developed, for example.
+
+
+                                                                                             82 of 284
+development, and the technical difficulties of forecasting the emerging capabilities of
+future frontier AI systems.43
+
+2.3.1 Key categories and sources of catastrophic risk
+
+Below is a preliminary taxonomy of entities and activities that, either now or in the
+medium-term future (1-5 years as of December 2023), could introduce catastrophic AI
+risks. See Introduction, 0.3 for descriptions of these entity categories and Annex D:
+Advanced AI landscape for more details. See Introduction, 0.2.1 and 0.2.2 for more
+details on the weaponization and loss of control risk categories.
+
+Table 3. Potential sources of catastrophic AI risk, corresponding risk categories, and
+information requirements associated with each.
+
+
+             Potential risk sources                              Potential risk categories
+
+Domestic frontier AI programs                        • Accidental emergence of dangerous
+                                                       capabilities or competent power-seeking
+                                                       behavior (loss of control) [1]
+                                                     • Sudden capability jumps enabled by
+                                                       external software frameworks (loss of
+                                                       control) [120]
+                                                     • Exfiltration followed by weaponization of
+                                                       stolen model by an adversary
+                                                       (weaponization)
+                                                     • Undetected misuse by end-users
+                                                       (weaponization)
+
+
+
+
+43 Although the emergence of specific AI capabilities cannot yet be reliably predicted in advance [165], it
+
+may still be possible to develop imperfect early indicators. For example, METR [166] is exploring an
+approach of breaking a dangerous capability down into a set of sub-tasks, and then measuring AI model
+performance on those sub-tasks. For example, in attempting to anticipate a model’s capability to
+execute autonomous cyberattacks, that capability could be broken down into sub-tasks like the ability to
+write short code snippets or entire malware files, the ability to autonomously probe a cyber environment
+for vulnerabilities, and so on. See LOE3, 3.1 for recommendations on supporting research in this area.
+
+
+                                                                                                 83 of 284
+Foreign AI programs                           • Accidental emergence of dangerous
+                                                capabilities or competent power-seeking
+                                                behavior (loss of control)
+                                              • Sudden capability jumps enabled by
+                                                external software frameworks (loss of
+                                                control)
+                                              • Undetected misuse by end-users
+                                                (weaponization)
+                                              • Intentional offensive deployment
+                                                (weaponization)
+
+Open-access release of advanced AI models     • Accidental emergence of dangerous
+                                                capabilities via fine-tuning (loss of control)
+                                              • Sudden capability jumps enabled by
+                                                external software frameworks (loss of
+                                                control)
+                                              • Intentional weaponization via fine-tuning or
+                                                direct use (weaponization)
+
+Theft or sale and subsequent augmentation     • Accidental emergence of dangerous
+of frontier AI models by state or non-state     capabilities or competent power-seeking
+actors                                          behavior after fine-tuning (loss of control)
+                                              • Sudden capability jumps enabled by
+                                                external software frameworks (loss of
+                                                control)
+                                              • Intentional offensive deployment
+                                                (weaponization)
+
+
+An I&W framework will need to consider a broad range of scenarios linked to these
+entity categories, and could be informed by many different sources of data [167–175].
+The I&W framework should consider scenarios in which risk primarily emerges from an
+AI model or AI system itself, such as loss of control due to AGI alignment failure [176].
+They should also include scenarios in which risk derives from specific actions by end-
+users or model developers, such as automated large-scale cyberattacks. The resulting
+I&W framework should in turn inform contingency planning efforts (see 2.4). Example
+scenarios could include:
+
+   ● The unexpected emergence of dangerous AI capabilities at a U.S. or Western
+     frontier lab [177];
+
+   ● An open-access AI system fine-tuned to support cyber or CBRN attacks;
+
+
+
+                                                                                       84 of 284
+    ● The sudden discovery of a previously unrecognized capability in a generally
+      available open-access AI model that enables dangerous weaponized
+      applications;
+
+    ● The uncontrolled deployment of an AGI or near-AGI system by a hedge fund
+      that autonomously engages in profit-driven information warfare [178];44
+
+    ● Systemic vulnerabilities introduced by integrating interdependent AI systems
+      into decision-making processes whose interactions may have unpredictable
+      effects (e.g. a flash crash in the financial system);
+
+    ● Convincing evidence that suggests that AGI alignment is an intractable problem,
+      or that it cannot be expected to be solved before AGI is developed [7]; or
+
+    ● A breakthrough that makes it possible for a particular weaponized application to
+      be deployed below a certain budget.
+
+For each scenario, the I&W framework could maintain and frequently update a set of
+key metrics, for example:
+
+    ● The estimated breakout timelines to various levels of AI capability by identified
+      domestic and foreign entities;
+
+    ● The largest AI training run a domestic or foreign entity could undertake in a set
+      amount of time; and
+
+    ● The likelihood of emergence of high-risk capabilities under various AI training
+      and deployment regimes.
+
+The I&W framework could also consider longer-timescale metrics that do not need to
+be updated as frequently. For example, understanding how long it may take a country
+to develop an independent AI supply chain under various assumptions, and which
+critical inputs need to be controlled to prevent that development [172].
+
+As part of the I&W framework development process, the U.S. government should
+consider convening an interagency workshop aimed at mapping the AI ecosystem and
+AI hardware supply chain, its key domestic and international players, and the activities
+
+
+
+44 See Annex D, D.4 for more information about this risk category.
+
+
+
+                                                                                 85 of 284
+in which they are engaged that most directly contribute to potential catastrophic risks
+from weaponization and loss of control.
+
+2.3.2 Improving I&W through bug bounties
+
+Software frameworks such as Auto-GPT [120] and BabyAGI [122] extend the
+capabilities of existing AI systems in unpredictable ways by helping them perform
+complicated multi-step tasks without any additional training. They therefore introduce
+new risks that AI developers are not equipped to anticipate or assess. Some of these
+frameworks, like the infamous ChaosGPT [121], are intended to deliberately steer the
+underlying AI system toward destructive behaviors.
+
+To ensure an I&W framework remains robust over time, it is crucial to improve
+understanding of how software frameworks like these can impact downstream AI
+capabilities. These kinds of impacts can be assessed openly, so the government can
+offer bug bounties and other incentives to support this effort. These incentives could
+encourage individuals and teams to report issues, vulnerabilities, and unsafe behaviors
+in frontier AI systems. They could also serve to augment AI developers’ existing bug
+bounty programs.
+
+2.3.3 Improving I&W through direct government investment
+
+Currently, no one knows how to forecast the emergence of high-risk AI capabilities
+under different training and deployment conditions. This lack of knowledge increases
+the uncertainty and challenge of developing and maintaining a robust I&W framework.
+
+To close this gap, the IC should consider establishing a formal academic consortium or
+cooperative research agreement for AI safety and security and technical I&W. This
+consortium could leverage top universities to help refine forecasting approaches by
+advancing the state of the art in areas such as AI capability evaluations, transparency
+and interpretability, and capability prediction techniques (LOE3, 3.2).
+
+In addition to an academic consortium, the U.S. government could establish an explicit
+vehicle for collaboration between the IC, frontier labs, and private sector AI safety and
+AGI alignment research organizations to inform the I&W development and
+maintenance process. The commercial market for this research remains limited, and
+
+
+
+
+                                                                                 86 of 284
+government investment could accelerate efforts to improve the technical accuracy of AI
+forecasting in support of robust I&W.45
+
+Either or both of the above initiatives could be coordinated through federally funded
+AI research centers dedicated to this problem set (LOE3, 3.1.2.3). The IC could also
+consider leveraging the AI testbeds and infrastructure under development by DOE and
+NIST to support I&W framework development and implementation. These testbeds
+could be used to run evaluations on AI models that map directly onto key information
+requirements associated with the I&W framework (see 2.3.1). This could include
+developing model evaluations specifically tailored to the I&W use case.
+
+
+2.4 Contingency planning
+
+Under some worst-case scenarios (see 2.3.1), decision-makers could have only a very
+short window (hours to weeks) to react effectively to a catastrophic threat. An I&W
+framework (see 2.3) could support the detection of early warning signs for such
+scenarios, but contingency planning will be essential to allow for the development of
+appropriate responses.
+
+While no plan can anticipate all contingencies, the planning process itself is essential to
+developing a common understanding of crisis scenarios and response options. These
+options can help the government surface detailed requirements for new authorities,
+programs, resources, policies, and coordination mechanisms. Therefore another critical
+and immediate task for the U.S. government should be to direct, through the NSC, an
+interagency contingency planning process to develop response options for various
+scenarios and timelines of frontier AI development.
+
+Planning could be informed by a range of scenario-based tabletop exercises (TTXs)
+covering advanced AI risks and sources, up to and including how a safe and secure AGI
+should be governed if and when it is developed. It may be necessary to collaborate in
+these exercises with stakeholders from frontier labs, AI safety groups, and evaluation
+and red teams to ensure the parameters of the exercises at all times remain as realistic
+as possible [161]. It may also be helpful to run joint exercises such as crisis response or
+lab shut-down drills with data center infrastructure providers, AI hardware owners, and
+frontier labs to anticipate and better understand key contingencies.
+
+
+
+45 Another reason to favor U.S. government funding for these organizations is that the great majority of
+
+them are nonprofits, and are currently funded by the same set of large donors. See Annex E: Funding in
+AI safety for more information.
+
+
+                                                                                                87 of 284
+Contingency planning activities should involve the full range of stakeholders within the
+U.S. government who would be involved in implementing emergency responses to
+critical events and risks. They could account for input from an AIO (LOE1, 1.2), ASTF
+(LOE1, 1.4), federally funded AI research centers and relevant collaborations, (LOE3,
+3.1.2.2), and eventual regulatory bodies (LOE4, 4.1). In determining which events to
+plan for, planners should consider the set of scenarios uncovered in the I&W
+development process (see 2.3), and identify any additional scenarios that they consider
+necessary to address.46
+
+Planners should flag these additional scenarios to stakeholders in the I&W
+development process when possible. We recommend that contingency planning
+proceed iteratively, to allow initial planning activities to surface information
+requirements which, when met, would allow future planning and I&W development
+activities to be more technically informed.
+
+2.4.1 Updating the National Preparedness System
+
+In the event that a severe incident occurs as a result of advanced AI weaponization or
+loss of control in highly capable AI systems, early planning for prevention and incident
+response will be critical.47 We therefore recommend that DHS direct FEMA to update
+its National Preparedness System [183] to address advanced AI and AGI risk. These
+updates could be executed in collaboration with an AIO (LOE1, 1.2.1), ASTF (LOE1,
+1.4), or eventual regulatory body (LOE4, 4.1).
+
+
+
+
+46 For example, see the companion document, Survey of AI Technologies and R&D Trajectories, for
+
+three sample AGI risk scenarios.
+
+47 It is possible that genuine AGI loss-of-control scenarios would not be survivable events (Introduction,
+
+0.5.1.1), which if true would remove the need for incident response. But this is currently uncertain and
+should not be assumed in advance.
+
+
+                                                                                                  88 of 284
+
