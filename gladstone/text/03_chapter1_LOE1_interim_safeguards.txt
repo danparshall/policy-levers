@@ -1,0 +1,1031 @@
+Action plan to increase the safety and security of advanced AI
+
+This is an action plan for the U.S. government to increase the safety and security of
+advanced AI by countering catastrophic national security risks from AI
+weaponization and loss of control. The United States is in a unique position to
+mitigate these risks. It is home to all the current major frontier AI labs, and exerts
+considerable influence on the global AI supply chain.
+
+Given the pace of progress in AI and the proliferation of key inputs to AI development,
+the U.S. government will need to move quickly and decisively to mitigate catastrophic
+risks from advanced AI. It will need to establish interim AI safeguards urgently, and then
+work to formalize those safeguards in national and international law. At the same time,
+it should accelerate development of technical AI safety and security, including AI
+alignment, by investing heavily in research capacity and capability in the United States
+and around the world. Finally, the United States will need to increase its warning,
+preparedness, and response capacity and capabilities for catastrophic AI risk scenarios.
+
+We organize these actions along five lines of effort (LOEs). We recommend that all
+LOEs begin execution immediately. Together, the LOEs proposed in this action plan
+would allow the United States to immediately begin to reduce catastrophic risks
+associated with frontier AI and AGI development while building the institutional
+capacity and capabilities needed for successful risk management and governance.
+
+Due to the complexity of catastrophic AI risks and the number of distinct vectors
+through which they can arise, no single silver-bullet measure can assure safety and
+security on its own. Rather, any viable action plan will consist of many mutually
+reinforcing efforts that each address different threat vectors and challenges to varying
+degrees, but which combine to form an effective safety and security regime. This is the
+defense in depth principle that guides the structure of this action plan and the content
+of its LOEs.
+
+This action plan was developed over thirteen months, and informed by conversations
+with over two hundred stakeholders from across the United States, United Kingdom,
+and Canadian governments; major cloud providers; AI safety organizations; security
+and computing experts; and formal and informal contacts at frontier AI labs. All of
+these stakeholders — both individuals and institutions — have made unique and crucial
+contributions to this document. We list and thank them in our Acknowledgments.
+
+
+
+
+                                                                                 47 of 284
+LOE1: Establish interim safeguards to stabilize
+advanced AI development
+
+
+
+
+The weaponization potential of current- and next-generation AI systems, [1] and the
+risk of loss of control in future AI systems, create urgent and growing risks to national
+security (Introduction, 0.5.1.1 and 0.5.1.2). The pace of development in AI is now so
+rapid that an ordinary policymaking process could be overtaken by events by the time
+
+
+                                                                                  48 of 284
+the resulting policies take effect (Introduction, 0.5.2.1 and 0.5.3.1). Moreover, as
+components of the AI supply chain continue to proliferate, these risks will become
+increasingly challenging to contain (Introduction, 0.5.1.6 and 0.5.3.2). These factors
+necessitate the implementation of near-term safeguards to protect U.S. national
+security. At the same time, the benefits of innovation in AI mean that these safeguards
+should be scoped to minimize economic or strategic harms (Introduction, 0.4.2).
+
+This LOE outlines possible actions the Executive Branch could take to buy down
+catastrophic AI risk in the near term (1-3 years), while setting the conditions for
+successful long-term AI safeguards. These actions are:
+
+   ● Creating an AI Observatory (AIO) to monitor developments in advanced AI and
+     ensure that the U.S. government’s view of the field is up-to-date and reliable
+     (see 1.2);
+   ● Mandating an interim set of responsible AI development and adoption
+     (RADA) safeguards for advanced AI systems and their developers (see 1.3);
+   ● Creating an interagency AI Safety Task Force (ASTF) to coordinate
+     implementation and oversight of RADA safeguards (see 1.4); and
+   ● Putting in place a set of controls on the advanced AI supply chain calibrated to
+     preserve U.S. government flexibility in the face of unpredictable risks (see 1.5).
+
+
+1.1 National security threats addressed by this LOE
+
+This LOE addresses two near-term national security threats from advanced AI. First, the
+United States is exposed to weaponization of advanced AI systems through a variety of
+vectors. Open-access AI models are at increasing risk of being weaponized by state
+and non-state adversaries as their capabilities increase (Introduction, 0.5.1.6). U.S.-
+developed, proprietary advanced AI systems face an ongoing threat of exfiltration and
+subsequent weaponization (Introduction, 0.5.1.5). And other key components of the
+advanced AI supply chain are proliferating through a variety of pathways, which could
+support future development of AI systems by adversaries (Introduction, 0.5.3.2).
+
+The second urgent national security threat is loss of control due to AGI alignment
+failure [1]. In the near term, this threat stems from the incentives that U.S.-based
+frontier AI companies face to develop and deploy powerful AI systems as rapidly as
+possible with insufficient safeguards (Introduction, 0.5.1.2, 0.5.1.4 and 0.5.3.1). As
+open-access AI capabilities continue to approach the frontier of proprietary systems
+[119], there may also be potential loss-of-control risk from these models if they are
+augmented with tools or software frameworks in unpredictable ways [120–123]
+(Introduction, 0.5.1.6).
+
+
+                                                                                 49 of 284
+1.2 Establish an AI Observatory for advanced AI
+
+The U.S. government urgently needs to establish situational awareness of the
+landscape of advanced AI risks in order to better understand the timelines
+(Introduction, 0.5.1.2), likelihoods (Introduction, 0.5.1.3), and severities (Introduction,
+0.5.1.1) of emerging threats. It also needs to put in place basic early-warning and
+preparedness capabilities. These basic capabilities can form a stop-gap while more
+permanent Indications and Warnings (I&W) (LOE2, 2.3) and contingency measures
+(LOE2, 2.4) are put in place.
+
+Existing authorities may allow for the rapid establishment of these functions, such as
+under the Department of Homeland Security (DHS).24 DHS could create an internal unit
+for advanced AI monitoring and preparedness that we will refer to as an AI
+Observatory (AIO). An AIO could serve as a U.S. government center for AI threat
+evaluation, analysis, and information sharing. Its functions could include horizon-
+scanning for emergent AI capabilities, and DHS-wide coordination to increase
+homeland security preparedness to address weaponized AI and loss of control
+scenarios. An AIO could also serve as a stopgap pending the formation of a dedicated
+interagency task force (see 1.4) or statutory agency (LOE4, 4.1) to oversee catastrophic
+AI risk mitigation. An AIO could also deliver reports on advanced AI to a National
+Security Council-level (NSC-level) official to support awareness and coordination of
+advanced AI risks and responses across departments and agencies (LOE2, 2.1).
+
+Additionally, although DHS has established a Chief AI Officer to govern the
+Department’s internal use of AI [126], no office or component is yet responsible to the
+Secretary for the mission to counter AI threats. This lack of ownership may create a
+responsibility gap in this mission area, and could pose a risk to homeland security.
+State, Local, Tribal, and Territorial (SLTT) partners in particular count on DHS to share
+
+24 For example, the Secretary of DHS may be able to declare advanced AI, defined according to a
+
+computing or capability threshold, as a critical infrastructure sector under Presidential Policy Directive 21
+(PPD-21) [124]. A related approach could be to extend the definition of the Information Technology [124]
+critical infrastructure sector to encompass advanced AI development. A critical infrastructure designation
+could benefit situational awareness by engaging the authorities of the Cybersecurity and Infrastructure
+Security Agency (CISA) under the Cyber Incident Reporting for Critical Infrastructure Act of 2021
+(CIRCIA) [125]. This statute requires operators of critical infrastructure to promptly report certain
+cybersecurity incidents to the CISA. Many frontier AI labs broadly lack adequate cybersecurity
+protections, leaving them vulnerable to exfiltration of advanced AI models by adversarial actors
+(Introduction, 0.5.1.5). A critical infrastructure designation could offer the U.S. government some early
+visibility into the frequency and severity of such incidents.
+
+
+                                                                                                   50 of 284
+critical threat information and close information gaps. In this context, we also
+recommend that an AIO report directly to the Secretary of DHS if possible.
+
+1.2.1 Functions
+
+An AI Observatory could have three primary functions:
+
+    1. Horizon scanning, which would involve closely monitoring progress in frontier AI
+       by drawing from publicly available research, commercial datasets, private
+       discussions with researchers, Cybersecurity and Infrastructure Security Agency
+       (CISA) cyber incident reports, and independent evaluations of publicly
+       accessible AI systems;
+
+    2. Emergency preparedness, which would involve developing response plans for
+       safety and security incidents and driving prioritization of DHS Science and
+       Technology (S&T) AI safety and security investments; and
+
+    3. Information-sharing and coordination both within DHS and with other
+       departments and agencies, including any relevant interagency task forces (see
+       1.4), the NSC, and SLTT partners.
+
+An AIO’s horizon-scanning and information-sharing functions could directly support
+advanced AI risk mitigation across the U.S. government. This includes the activities of
+any future task forces (see 1.4) or statutory agencies (LOE4, 4.1) related to eventual
+oversight and enforcement of RADA safeguards. Insights from oversight and
+enforcement activities could in turn improve the quality of an AIO’s horizon-scanning
+and analysis.25 These mutual benefits highlight the value of close collaboration
+between an AIO and any U.S. government equities responsible for such activities, and
+could argue for eventually centralizing all such functions under a single entity.
+
+See Annex H: AIO activities for more details on the specific activities an AIO could
+undertake.
+
+
+
+
+25 For example, knowing the sizes and capabilities of frontier labs’ most advanced AI systems would
+
+make it easier to understand which external projects merit tracking or present risks based on high-level
+observables like compute resource availability.
+
+
+                                                                                                51 of 284
+     1.2.2 Staf ng
+
+     Through its horizon-scanning function, an AIO would serve as a first-line warning
+     system for homeland defense against AI and AI-derived threats. We therefore
+     recommend that an AIO report directly to the Secretary through its Director. We also
+     recommend that the Director of an AIO be co-equal with the DHS Chief AI Officer if
+     possible. Whereas the Chief AI Officer should continue leading DHS efforts to
+     responsibly use AI in support of homeland security missions, an AIO could focus on
+     tracking and mitigating risks from domestic and external AI programs.
+
+     To support its mission, an AIO could include representation from the Office of Strategy,
+     Policy, and Plans (OSPP), the Science and Technology Directorate (S&T), the Countering
+     Weapons of Mass Destruction (C-WMD) Office, CISA, the Federal Emergency
+     Management Agency (FEMA), and other Components as appropriate. DHS
+     Components could be required to allocate personnel and financial resources to
+     support a DHS AIO.
+
+     An AIO would need to closely monitor a rapidly advancing and highly technical field,
+     and disseminate accurate, timely, and actionable insights across U.S. government
+     stakeholders. A mission failure could, in the worst case, endanger national security
+     (Introduction, 0.5.1.1). As a result, an AIO should be conceived as an elite homeland
+     security unit. We therefore recommend that the AIO Director carefully manage a
+     competitive process by which volunteers from across DHS and industry could be
+     screened and selected to staff the AIO.
+
+     For the same reason, the AIO Director should be a seasoned executive with a deep
+     understanding of both U.S. government policy and AI technology. Technical proficiency
+     in frontier AI would be a key requirement for this leadership position.
+
+     1.2.3 Interagency coordination
+
+     An AIO could coordinate with some of the following departments and agencies on
+     information-sharing:26
+
+         ● The Department of Energy (DOE), because of its technical expertise and
+           ongoing responsibility for developing and implementing a plan for AI testing
+           and evaluations and AI testbeds [127];
+
+     26 In the event of a critical infrastructure designation under PPD-21, some of these could be designated
+
+     as co-Sector-Specific Agencies (co-SSAs) for the advanced AI sector.
+
+
+                                                                                                     52 of 284
+fi
+   ● The National Institutes of Standards and Technology (NIST) and its AI Safety
+     Institute (U.S. AISI) because of its technical expertise and responsibility for
+     developing and implementing guidance for AI evaluation standards [127];
+
+   ● The Securities and Exchange Commission (SEC) because of its examination
+     authorities over financial firms that may be conducting frontier AI development
+     without public disclosure (see Annex D, D.4); and
+
+   ● Any future task forces (see 1.4) or statutory agencies (LOE4, 4.1) dedicated to
+     oversight and enforcement of RADA safeguards.
+
+
+1.3 Establish responsible AI development and adoption
+safeguards for U.S. private industry
+
+While essential, horizon scanning is not sufficient on its own to safeguard against
+potential near-term catastrophic risks from advanced AI (Introduction, 0.5.1.1, 0.5.1.2,
+0.5.1.4, 0.5.1.5, 0.5.1.6 and 0.5.3.1). To address these, we strongly recommend putting
+in place interim emergency regulatory measures pending Congressional action (see
+LOE4).
+
+These measures could take the form of enacting and overseeing a set of responsible
+AI development and adoption (RADA) safeguards for any U.S. entities developing
+advanced AI systems. Several AI developers have already published responsible
+scaling policies [14,128,129] for internal adoption and external scrutiny. In private
+conversations, others have acknowledged the need for government intervention in
+developing and enforcing practices for safe and responsible AI scaling, given prevailing
+incentives (Introduction, 0.5.3.1). However, the RADA safeguards framework we
+propose (LOE4, 4.1.3) encompasses key safety and security principles not only for
+advanced AI developers, but also for other key entities in the advanced AI supply
+chain. This RADA framework also offers flexible guidance with respect to best practices
+and operation of regulatory and oversight bodies (see 1.4; LOE4, 4.1).
+
+In 1.4, we will recommend establishing an interim interagency task force to oversee
+compliance with RADA safeguards until that function can be superseded by a
+Congressionally mandated regulator (LOE4, 4.1). We will also recommend that this task
+force be empowered to modify and update the RADA safeguards as conditions change
+and new information becomes available.
+
+
+
+
+                                                                                 53 of 284
+1.3.1 Implementation mechanism and statutory authorities
+
+RADA safeguards, as conceived above, would only apply to the limited set of AI
+companies working at the frontier of current capabilities. Nonetheless, for the
+Executive Branch to impose and enforce binding rules on domestic private sector
+companies is an unusual action and may be without precedent. We believe this could
+be done in one of two ways.
+
+A first approach could be to include a framework for RADA safeguards as part of a
+National Security Memorandum (NSM) attached to an existing Executive Order [127]. A
+second approach could be to enact a RADA safeguards framework and establish an
+oversight task force in a new Executive Order. In either case, the President may be able
+to leverage authorities from some of the following statutes:
+
+   ● The Communications Act of 1934, 47 USC 606 [130];
+
+   ● The Defense Production Act of 1950, 50 USC 4502 [131];
+
+   ● The Atomic Energy Act of 1954, 42 USC 2162 [132]; and/or
+
+   ● The Invention Secrecy Act of 1951, 35 USC 181 [133].
+
+In the event that the Executive Branch cannot enforce RADA safeguards, there may be
+some limited value in negotiating detailed voluntary commitments with selected U.S.
+frontier AI labs [134]. While voluntary measures would leave substantial safety and
+security gaps relative to mandatory practices, they may be able to cover some portion
+of the risk surface pending a Congressional solution.
+
+In Annex I: Voluntary Charter for responsible AI, we sketch out a set of commitments
+that we believe could form the basis for a voluntary agreement between the U.S.
+government and major frontier labs in the near term (see also 1.4.1.1).
+
+1.3.2 RADA safeguards principles
+
+For an example of a complete RADA safeguards framework, including sample
+calculations of thresholds for covered entities, see LOE4, 4.1.3.
+
+In order to balance innovation and national security considerations (Introduction, 0.4.2
+and 0.5.1.1), RADA safeguards should be stratified according to clearly demarcated
+tiers of AI model capabilities, with escalating safety and security practices mandated for
+
+
+                                                                                 54 of 284
+each tier. Lower tiers should minimize regulatory burdens to the fullest extent possible.
+Total training compute could initially be used as a proxy for AI capabilities in
+determining the thresholds for each tier, but other normalized capability measures may
+also be viable (see LOE4, 4.1.3.4 and Annex J: Effective compute). The thresholds for
+each tier should be grounded in concrete national security considerations, such as the
+lead times needed by contingency planners to identify and respond to various threats
+scenarios (LOE2, 2.3 and 2.4), and the amount of time it would take an adversary to
+develop AI capabilities that could trigger those threat scenarios (LOE4, 4.1.3).
+
+To assure adequate security coverage, RADA safeguards should be followed not only
+by the AI model developers themselves, but also by other entities in the local supply
+chain such as AI hardware designers (LOE4, 4.1.3.1), data center infrastructure
+providers (LOE4, 4.1.3.2), and AI hardware owners (LOE4, 4.1.3.3).
+
+For developers of AI systems assessed as high-risk, RADA safeguards should include
+comprehensive AI evaluations for those systems as one among several factors in
+approving further AI scaling (LOE3, 3.2.2). Other factors should include outcomes of
+automated benchmarks, red teaming, and other safety and security reviews performed
+during the pre-training, training, pre-deployment, and deployment stages of the AI
+development lifecycle (LOE4, 4.1.3.4.3). The ultimate aim of these RADA safeguards is
+to drive the development and validation of robust scientific theories predicting the
+capabilities and propensities of current and future frontier AI systems, to support
+responsible scaling once that understanding is achieved.
+
+Finally, RADA safeguards should support the flexible adjustment of tiering thresholds in
+response to new information. For example, if AI evaluations consistently suggest that
+prevailing capability levels are safe, RADA compute thresholds could be loosened
+under close monitoring to support further scaling. On the other hand, if algorithmic
+improvements make it possible to develop powerful AI capabilities with less compute
+(Annex G, G.3), RADA compute thresholds could be adjusted downward in response.
+
+Because of the rapid pace of progress in AI, compute and capability thresholds for
+RADA tiers should be frequently reviewed and updated in consultation with domain
+experts. Inaction or slow action in this area could stifle U.S. innovation on the one
+hand, or open critical national security gaps on the other.
+
+
+
+
+                                                                                 55 of 284
+1.4 Establish an AI Safety Task Force for RADA oversight
+
+In parallel with a RADA framework, we recommend that the President establish an AI
+Safety Task Force (ASTF) and direct departments and agencies to resource it fully,
+working with the Congress for supplemental funding if required. The ASTF’s primary
+mission would be to lead U.S. government efforts to facilitate responsible AI
+development and adoption by mitigating catastrophic national security threats
+from weaponization and loss of control. It would accomplish this mission by
+overseeing compliance with RADA safeguards (see 1.3) on an interim basis, and
+support institutional capacity-building in AI risk management, until a permanent
+regulatory agency for advanced AI can be established by the Congress (LOE4, 4.1). To
+support this mission, the President could empower the ASTF to implement, update,
+enforce a set of RADA safeguards for relevant domestic stakeholders in advanced AI.
+
+We recommend that the ASTF be led by a Presidentially-appointed, Senate-confirmed
+executive, staffed by interagency personnel, and augmented by technical expertise
+from the private sector. Private sector expertise should be carefully vetted for
+organizational conflicts of interest related to frontier labs, tech companies, and other
+institutional and non-profit investors, prioritizing technical acumen.
+
+We recommend that the ASTF report to an official at the NSC level in the Executive
+Branch, to ensure a direct channel for escalation of AI-related emergencies (see LOE2,
+2.1). The ASTF could be sited either at DOE or DHS. Both Departments have
+complementary areas of expertise with respect to advanced AI: DOE has significant in-
+house technical expertise, while DHS has specialists in CBRN risk assessment.27
+
+As part of its mandate of RADA oversight, the ASTF may need to supervise AI
+evaluations related to CBRN and WMD-enabled capabilities. This may require the ASTF
+to process classified information. However, to accelerate recruitment of personnel with
+key technical expertise (and who may not initially be cleared), the ASTF could begin by
+consuming only unclassified information with the goal of eventually ingesting classified
+information. Because DHS and NIST have already been tasked with developing policies
+
+
+
+27 DHS may also house an AIO (see 1.2), which could simplify collaboration between that unit’s horizon-
+
+scanning function and the ASTF’s oversight function if the ASTF were sited at DHS. The functions of an
+AIO could also be absorbed directly into the ASTF.
+
+
+                                                                                               56 of 284
+for CBRN AI evaluations [127], the ASTF could be focused on loss of control risk in its
+early phase to enable its work to begin in the unclassified domain.
+
+1.4.1 Mission
+
+The ASTF’s mission would be to facilitate responsible AI development and adoption
+by mitigating catastrophic national security threats from weaponization and loss of
+control. This mission would include one initial Priority Objective and two Sustainment
+Components.
+
+The ASTF’s Priority Objective would be to finalize a set of RADA safeguards and secure
+agreement on those terms from key frontier AI labs and other stakeholders. Once the
+ASTF has achieved its Priority Objective, its sustainment activities would fall into two
+categories:28
+
+    ● Overseeing industry compliance with RADA safeguards, and operating the
+      necessary supporting infrastructure; and
+
+    ● Developing recommendations for a future legal regime and regulatory agency in
+      support of LOE4.
+
+The ASTF should also expect some portion of its initial set of RADA safeguards to be
+inadequate or unworkable for reasons that it will discover during negotiation and
+implementation. The ASTF may need to adapt its RADA safeguards accordingly, and
+should capture learnings from its experiences to inform formal regulation.
+
+For a detailed list of activities the ASTF could undertake in support of its mission,
+including one possible organizational structure for the task force, see Annex K: ASTF
+activities and task-organization.
+
+1.4.1.1 Priority Objective: Finalize and secure agreement on RADA
+safeguards
+
+We recommend the ASTF’s top priority be to finalize a set of interim RADA safeguards
+and secure initial commitments from key frontier AI labs and their cloud providers on
+their implementation.
+
+
+28 In the event that the ASTF absorbs the functions of an AIO (see 1.2), it could also take over horizon
+
+scanning and monitoring of external AI programs as a third Sustainment Component.
+
+
+                                                                                                 57 of 284
+If the President has established an enforceable set of RADA safeguards (“Plan A”),
+whether via NSM or Executive Order (see 1.3.1), the Director of the ASTF could be
+empowered to reach an agreement with frontier AI labs ensuring that further frontier AI
+development will adhere to those safeguards. The ASTF could adjust the RADA
+safeguards based on discussion with the frontier labs or on other practical
+considerations. But we recommend the safeguards be as close as possible to what
+could be enforced by a Congressionally mandated regulator (LOE4, 4.1). This would
+allow the ASTF’s experience to better inform the implementation of a full regulatory
+regime by identifying early challenges and blind spots, consistent with its mission (see
+1.4.1.3).
+
+Although we assess that enforceable RADA safeguards are urgently needed, if they
+cannot be established (“Plan B”), we recommend that the President instead empower
+the ASTF to negotiate an interim, voluntary frontier AI safeguards regime with major
+frontier AI labs [135] and additional entities at the ASTF’s discretion. Annex I: Voluntary
+Charter for responsible AI provides a proposal for more limited commitments that
+could be negotiated on a voluntary basis.29 These negotiations could culminate in the
+signing, by frontier labs and cloud providers, of a voluntary Charter outlining a set of AI
+safety and security commitments. Frontier labs may also be encouraged to sign onto a
+voluntary Charter in order to participate in negotiating the Charter terms and
+influencing its implementation, since these could inform the details of future laws and
+regulations.
+
+
+
+
+29 These more limited commitments would significantly increase public safety and national security
+
+exposure to potential catastrophic AI risks relative to the RADA safeguards outlined in LOE4, 4.1.3. They
+would also limit the extent to which the ASTF’s work can inform the implementation of laws and
+regulations under LOE4. For example, proposed voluntary commitments may not include guarantees to
+avoid training models above potentially dangerous thresholds of compute, or promises to avoid
+deploying large uninterpretable models, without prior safety assessments. Both of these measures would
+be critical to any meaningful attempt to address catastrophic risk from AI, under the security and safety
+conditions that currently exist at frontier labs.
+
+
+                                                                                               58 of 284
+In order to best position the ASTF for success in these negotiations, the President
+could also:30
+
+   ● Publicly call on U.S. frontier AI labs to pause development of models trained
+     with more than 10^26 OP of total compute;
+
+   ● Publicly call on U.S. AI developers to pause any plans to release open-access
+     models trained with more than 10^25 OP of total compute; and
+
+   ● Publicly call on U.S. cloud providers to pause their provision of cloud services for
+     training runs aimed at developing open-access AI models with more than 10^25
+     OP of compute.
+
+
+
+
+30 As with all numerical thresholds in this document, these numbers could change quickly and should be
+
+reviewed by subject-matter experts with up-to-date information on the technical landscape in advanced
+AI.
+
+
+                                                                                             59 of 284
+Figure 5. Safeguards to introduce to frontier AI developers, AI hardware owners, and data
+center infrastructure providers in the event that RADA safeguards can (Plan A) and cannot (Plan
+B) be mandated.
+
+
+
+
+                                                                                       60 of 284
+1.4.1.2 Sustainment Component: Oversee compliance with RADA
+safeguards
+
+Once initial commitments are secured, the ASTF could build processes to oversee
+compliance with RADA safeguards, and operate the necessary supporting
+infrastructure.
+
+This Sustainment Component of the ASTF’s mission should be understood to serve as a
+stopgap pending legislation (see LOE4), and as a mechanism by which problems and
+challenges that would face future regulators can be identified and addressed as early
+as possible. The ASTF could be absorbed into a domestic regulatory agency (LOE4,
+4.1) if and when one is established.31
+
+For a list of specific activities the ASTF could undertake in support of this Sustainment
+Component of its mission, see Annex K, K.1.
+
+1.4.1.3 Sustainment Component: Develop recommendations for future
+regulations
+
+The ASTF’s second goal would be to develop recommendations for a future legal
+regime and regulatory agency (see LOE4).
+
+We anticipate that the ASTF may have to revise the RADA safeguards based on its
+experience overseeing stakeholder compliance with its terms [138]. For a future AI
+regulatory agency to have the best chance of success, the teams that develop
+recommendations for that agency’s operating model should work closely with the
+teams that regularly encounter the successes and failures of AI oversight in the real
+world. The ASTF’s oversight component (see 1.4.1.2) would create valuable experience
+that the task force could apply to this mission component. The revisions the ASTF
+implements could then directly inform the development and enforcement of future
+regulations under LOE4.
+
+For a list of specific activities the ASTF could undertake in support of this Sustainment
+Component of its mission, see Annex K, K.2.
+
+
+
+
+31 This would be similar to, e.g., the Atomic Energy Commission’s succession by the Nuclear Regulatory
+
+Commission (NRC) under the Energy Reorganization Act of 1974 (42 USC § 5801) [136,137].
+
+
+                                                                                              61 of 284
+1.4.2 Resources and staf ng
+
+The ASTF could initially consist of a small task force of 20-25 individuals. The U.K.
+Frontier AI Taskforce has shown that a task force with this size and mandate can be
+established quickly, and then immediately begin to make visible progress on its key
+objectives [139].
+
+The ASTF’s unique mission (see 1.4.1) necessitates the capability both to interpret and
+update a RADA framework, and to oversee its implementation in practice. This means
+the task force will need to be staffed by individuals who have experience in both
+policies and programs.32 Initially this could mean recruiting subject-matter experts from
+across relevant departments and agencies, to be augmented with private-sector
+contractors over time.
+
+The ASTF’s mission would also require it to respond rapidly to real-time developments
+in AI which may have complicated origins and implications. To be set up for success in
+this mission, the ASTF would need to recruit the world’s top technical experts in
+advanced AI safety and security. It would also need to recruit high-quality personnel,
+from its inception, to ensure a culture of speed and effectiveness is established and
+reinforced from an early stage.
+
+This combination of requirements may necessitate compensation waivers for the task
+force [127].33 The ASTF could also benefit from additional approaches to ensuring a
+high quality standard. For example, the first set of ASTF employees could be assigned
+at six-month intervals, and key personnel decisions could be approved at the level of
+the Executive Branch.
+
+Additionally, many of the world’s top experts in AI safety and security are motivated by
+a desire for positive impact. But these individuals, while experts in their respective
+fields, may not be experienced at identifying positions in a government organization in
+which they could contribute. As a result, we believe the ASTF could benefit from high-
+level public messaging that would position it as the central hub for forward-thinking
+regulation in advanced AI safety and security across the U.S. government. The U.K.’s
+
+32 In the event a set of enforceable RADA safeguards are not established, the ASTF will need the
+
+capability to negotiate a voluntary Charter with frontier AI labs, then oversee compliance with that
+Charter. This mission would still require a combination of policies and programs experience to execute
+successfully.
+
+33 For reference, based on interviews conducted over the course of this assessment, junior AI alignment
+
+researchers at frontier labs have total compensation packages totalling $500,000 per year or more.
+
+
+                                                                                               62 of 284
+                      fi
+Frontier AI Taskforce has shown the effectiveness of this centralized approach in
+attracting and retaining some of the world’s top AI talent [140], something that all
+governments have otherwise found challenging.
+
+Finally, ASTF staff may be exposed to stakeholders’ IP as part of the task force’s
+oversight activities. The ASTF should therefore consider implementing revolving door
+guarantees that would forbid task force employees who are exposed to such IP from
+working, consulting for, or being contracted by organizations that are or may be
+developing advanced AI systems for some period of time (e.g., 5 years) after leaving
+the ASTF.
+
+See Annex K, K.3 for one approach to organizing the ASTF into workstreams that
+would support execution of its mission’s two Sustainment Components (see 1.4.1.2 and
+1.4.1.3).
+
+1.4.3 Financial requirements and budget
+
+The ASTF would require a budget sufficient to cover temporary duty (TDY) for
+government staff, contractor salaries, equipment, and facilities. This could include
+contracting advanced AI researchers to support the ASTF’s mission. Given that the
+ASTF would also need to maintain high security standards, as well as costly AI testing,
+evaluation, and development infrastructure, it would have to be well-resourced in order
+to be positioned for success.
+
+By default, funding for the ASTF would be drawn from the budget of its parent
+department, whether DOE or DHS. This may be inadequate depending on the lifetime
+of the task force. We therefore recommend that the President ask for supplemental
+funding from the Congress for the ASTF. The Office of Management and Budget (OMB)
+could make a request for supplemental funding from Congress that is limited in scope.
+Alternatively, the President could also direct OMB to reallocate funds from the existing
+budget.
+
+1.4.4 Authorities
+
+Authorities could be delegated to the ASTF in one of two ways. First, the ASTF could
+be staffed by interagency representatives that would bring with them the authorities of
+their respective departments and agencies via memoranda of understanding (MOUs).
+And second, the President could delegate authorities directly to the ASTF. Either
+approach would let the ASTF leverage the authorities of selected other agencies in real
+time, a critical requirement given the urgency of the task force’s mandate.
+
+
+                                                                                  63 of 284
+But certain useful authorities could only be granted by the Congress. For example, the
+fast timescale of AI progress may make it challenging for the ASTF to operate on an
+annual budget cycle (Introduction, 0.5.2.1). To cover this gap, the ASTF could benefit
+from no-year funding authority to support its operations, which would need to be
+granted as part of a supplemental funding request. Additionally, decisionmakers may
+want to provide additional flexibility for unknown requirements by granting the ASTF
+"notwithstanding authority." This would give the ASTF flexibility to do its work when
+the national security imperative overrides the reasons for other legal restrictions.
+
+In any case, some of the authorities granted to the ASTF would depend on whether the
+President has mandated an enforceable set of RADA safeguards (see 1.3).
+
+   ● If RADA safeguards have been mandated, the ASTF could oversee an
+     implementation of those safeguards similar to that described in LOE4, 4.1.3 and
+     could therefore be granted some of the following authorities:
+
+          ○ Advise the President and Congress on AI safety and security and
+            potential catastrophic AI risk, or report directly to an NSC-level official if
+            one has been appointed (LOE2, 2.1);
+          ○ Enter into commercial and academic partnerships and contracts;
+          ○ Coordinate with interagency stakeholders and international partners such
+            as the U.K. Frontier AI Taskforce (through the Department of State) in
+            support of frontier AI and AGI safeguards;
+          ○ Engage on behalf of the United States with frontier AI labs, their cloud
+            providers, and other stakeholders to finalize a set of RADA safeguards
+            under which entities can be licensed to pursue certain forms of frontier AI
+            research and development;
+          ○ Inspect and audit frontier AI labs and projects;
+          ○ Compel testimony and production of documents;
+          ○ License and approve AI training runs above certain compute and
+            capability thresholds (LOE4, 4.1.3.4);
+          ○ License data center infrastructure providers whose facilities fall above a
+            threshold of power consumption (LOE4, 4.1.3.2);
+          ○ License AI hardware owners whose aggregate compute capacity exceeds
+            a given threshold (LOE4, 4.1.3.3);
+
+
+
+
+                                                                                    64 of 284
+          ○ Determine publication control standards for frontier AI- and AGI-relevant
+            information (e.g., LOE4, 4.1.4); and
+          ○ Pause frontier AI training runs on an emergency basis.
+
+   ● If RADA safeguards have not been mandated, the ASTF could instead negotiate
+     with frontier AI labs and major cloud providers to obtain specific voluntary
+     commitments for safe and secure AI development, and could therefore be
+     granted some of the following authorities:
+
+          ○ Advise the President and Congress on AI safety and security and
+            potential catastrophic AI risk, or report directly to an NSC-level official if
+            one has been appointed (LOE2, 2.1);
+          ○ Enter into commercial and academic partnerships and contracts;
+          ○ Coordinate with interagency stakeholders and international partners such
+            as the U.K. Frontier AI Taskforce (through the Department of State) in
+            support of frontier AI and AGI safeguards;
+          ○ Negotiate a Charter of commitments to voluntary AI safeguards on behalf
+            of the United States. (See Annex I: Voluntary Charter for responsible AI.)
+
+1.4.5 Location
+
+We recommend that the ASTF be headquartered in the National Capital Region (NCR)
+with a small footprint in the San Francisco Bay Area in close proximity to frontier AI
+labs, AI safety research groups, and relevant tech companies. This would follow the
+practice of other federal regulators such as the SEC, which maintains regional offices in
+major financial centers [141] in addition to federal headquarters in the NCR.
+
+
+1.5 Securing the advanced AI supply chain
+
+The global supply chain for advanced AI includes:
+
+   ● The AI models themselves;
+
+   ● The data centers and cloud computing platforms that train those AI models;
+
+   ● The AI hardware (GPUs, TPUs) that powers those data centers;
+
+
+
+
+                                                                                    65 of 284
+   ● The semiconductor foundries that manufacture that AI hardware, along with their
+     upstream tooling and inputs; and
+
+   ● The research organizations and other human capital required to train the most
+     advanced AI systems.
+
+The United States is well positioned to enact effective counterproliferation measures
+across key nodes in this supply chain. Development of this capacity is critical for
+national security, especially considering the significant capabilities and risks associated
+with current and near-future AI systems [4].
+
+However, the advanced AI supply chain poses challenges that necessitate anticipatory
+rather than reactive action. Under present conditions, elements of this supply chain will
+continue to proliferate while algorithmic improvements will likely lower the cost of
+training powerful models (Introduction, 0.5.1.6 and 0.5.3.2).
+
+In light of these considerations, we recommend securing key nodes in the advanced AI
+supply chain proactively. Initially this could include measures aimed at securing the
+immediate inputs to advanced AI model development, and explore approaches aimed
+at minimizing the risk posed by the proliferation of the AI models themselves. At the
+same time, the U.S. government should consider more robust long-term controls on AI
+hardware exports and tooling across all levels of this supply chain, and seek
+recommendations for controls in areas such as advanced AI research collaborations
+between U.S. and foreign entities.
+
+It is also important for these measures to account for the national security implications
+associated with adversarial access to dual-use items. This nuance is well-known by
+specialists in the dual-use export control field but advanced AI will present unique
+challenges. For example, absent additional measures, existing regulations may still
+permit foreign actors to access AI hardware, AI cloud services for training or inference,
+and API usage of advanced AI systems. The U.S. government could leverage best
+practices from existing authorities such as the Export Administration Regulations (EAR)
+[142] to consider how best to control exports of several of the relevant components.
+
+
+
+
+                                                                                   66 of 284
+1.5.1 AI model weights
+
+Beyond a certain threshold of capability, an advanced AI model could be a dual-use
+technology. The exact threshold for this is challenging to define precisely and remains
+the subject of ongoing research.34 In particular, it is currently unclear whether today’s
+most advanced AI models have meaningful dual-use capabilities, though there are
+indications that this threshold could be crossed soon [91,143]. As software, AI model
+weights are also extremely easy to disseminate and pose substantial proliferation risks.
+Open-access AI models, in particular, carry risks of augmentation and latent capabilities
+(Introduction, 0.5.1.6).
+
+In light of these risks, we recommend that the U.S. government urgently explore
+approaches to restrict the open-access release or sale of advanced AI models above
+key thresholds of capability or total training compute. These approaches may be able
+to leverage existing authorities, supported by ongoing efforts to assess dual-use
+capabilities [144,145]. However the irreversibility of open-access release, and the
+possibility of subsequent dangerous capability augmentation, means that dual-use
+assessments may not provide an adequate measure of the risk surfaces of AI systems
+under open-access release.
+
+1.5.2 Cloud computing
+
+The United States currently holds a significant advantage in cloud computing
+technology. If leveraged appropriately, the U.S. government could harness its domestic
+industry capabilities in a manner that services a number of strategic objectives.
+
+Even with sound controls for AI model weight dissemination (see 1.5.1) and AI
+hardware exports (see 1.5.3), U.S. adversaries could still access significant compute for
+AI training runs via U.S.-based cloud service providers. This is a source of meaningful
+risk, particularly as larger amounts of compute become increasingly available through
+these services (see Annex D, D.3). The Department of Commerce has been directed to
+draft regulations regarding the use of U.S.-based AI cloud providers by foreign users to
+train AI models, with an emphasis on risks from AI-enabled cyber warfare [127]. In this
+
+
+
+
+34 In particular, DOE, DHS, and NIST have been tasked to evaluate advanced AI models’ weaponization
+
+potential in the CBRN domains [127].
+
+
+                                                                                           67 of 284
+section we will discuss a few considerations that we believe are relevant to cloud
+computing regulations now and in the future.35
+
+At the moment, the entities that develop the most capable open-access AI models are
+primarily training them on infrastructure owned by AI cloud providers that are
+headquartered in the United States and allied jurisdictions. As a result, any regulatory
+framework that would apply to proprietary AI models would largely apply to open-
+access AI models. However, an AI model could be required to meet a higher threshold
+of safety (e.g., have a lower level of capability) to qualify for release under open access
+than for proprietary development. In particular, the AI cloud provider would have to
+certify that no model trained using its infrastructure surpassed a given open-access
+capability threshold.
+
+We believe the long-term goal of an AI cloud controls regime should be to extend a
+set of RADA safeguards, such as those proposed in LOE4, 4.1.3 to foreign AI
+model developers who train their models using U.S. cloud providers. This ideal
+would require very fine grained monitoring of AI cloud training runs while still
+preserving privacy, and may be infeasible for some time. In the nearer term, the
+Department of Commerce could follow either of two licensing approaches to address
+this risk:36
+
+    1. Restrict foreign entities’ access to U.S. AI cloud compute services. This
+       mitigates some short-term risk, but also creates economic pressure for foreign
+       states to build their own AI cloud clusters, potentially eroding U.S. strategic
+       control over the AI supply chain in the long term.37 Even a brief period of broad
+       restrictions could create a strategic impetus for adversaries to indigenize AI
+       cloud services [146].
+
+    2. Retain most foreign entities’ ability to access U.S. AI cloud compute services, but
+       implement narrow controls for cases in which an entity requests large
+       amounts of compute capacity. This would involve end-user controls, combined
+
+
+35 Direction was for Commerce to prepare draft regulations within 90 days of October 30, 2023, so by
+
+January 28, 2024. Since this date falls after the final content review date of this assessment, we are
+unable to refer to the text of these draft regulations here.
+
+36 Thanks to Tim Fist at the Center for a New American Security (CNAS) for some of the suggestions in
+
+this section.
+
+37 This concern may be reduced in the medium term if export controls on AI hardware (see 1.5.3) are
+
+extended to a broader set of states.
+
+
+                                                                                                   68 of 284
+        with strong know-your-customer (KYC) procedures. At a minimum, KYC could
+        confirm that an AI cloud customer is not on the Entity List, Military User End List,
+        or other similar lists [147]. It could also block customer access above key
+        thresholds of total training compute (see, for example, the approval threshold
+        that defines Tier 3 AI models in the RADA framework of LOE4, 4.1.3). Over time,
+        these practices could also be expanded to cloud providers in key allied
+        jurisdictions.
+
+1.5.3 AI hardware
+
+Any entity with enough AI hardware (e.g., GPUs), supporting infrastructure, and talent
+can train advanced AI models. Today’s AI hardware is generally not traceable or
+auditable, and includes limited remote monitoring functionality. AI hardware that is
+modified to enable verification and monitoring will be integral to any
+counterproliferation plan. It will take time to ensure this hardware is widely
+disseminated but early efforts suggest it may be technologically feasible [148]. As in
+the case of AI cloud computing (see 1.5.2), nearer-term controls will need to be more
+fine-grained.
+
+As of October 17, 2023, the Department of Commerce Bureau of Industry and Security
+(BIS) has expanded U.S. export controls related to advanced AI-enabled chips to China.
+[149–151].
+
+In the near term, the BIS could consider the following factors in further refining its AI
+hardware export controls:
+
+    ● As of January 2024, updated BIS controls restrict the export of AI chips to China
+      if they exceed either (1) a total processing performance (TPP) of 4800 bits x
+      TOPS38, or (2) a performance density threshold of 5.92 bits x TOPS per square
+      millimeter of die area39 [152,153]. These updates close several previous gaps.
+      But we assess that security could be further improved by:
+
+
+
+
+38 TOPS = trillions of operations per second. So this threshold is equivalent to 4.8 x 10^15 bits x OPS.
+
+See the Glossary of terms for more information.
+
+39 Above this performance density threshold, chip exports are banned. Below this threshold, but above
+
+3.2 bits x TOPS per square millimeter, a chip requires a license to export to China.
+
+
+                                                                                                 69 of 284
+            ○ Updating condition (1) to apply to any AI chip whose maximum compute
+              capacity, across all numerical representations, is above 800 TOPS, with
+              sparsity; and also
+            ○ Updating condition (2) to apply to any AI chip whose maximum compute
+              capacity, across all numerical representations, is above 1 TOPS per square
+              millimeter of die area. This would amount to lowering the compute
+              capacity ceiling for export by 33% while preserving the original intent of
+              the performance density threshold condition.40
+
+        We assess that these updates would significantly impact foreign actors’ ability to
+        train both current-generation (GPT-4) and next-generation (GPT-5) frontier AI
+        models.41
+
+    ● As AI algorithms improve, the potential risk of weaponization and loss of control
+      from a given concentration of AI hardware increases over time. As a first step to
+      de-risking this effect, the BIS could consider using AI benchmarks such as
+      Massive Multitask Language Understanding (MMLU) [154] to estimate proxies for
+      AI capabilities per OP using present-day algorithms. It could then update its
+      export control thresholds periodically as algorithms improve. Ultimately, though,
+      export control thresholds at any given time will need to account for the
+      possibility of unknown future algorithmic improvements. The same concentration
+      of AI hardware that is safe given today’s AI training algorithms, could pose risks
+      of weaponization or loss of control if it is used to implement future training
+      techniques (Introduction, 0.5.3.2).
+
+
+
+
+40 As an example, the NVIDIA A100 GPU has an FP16 (i.e., 16-bit width) tensor core performance of 312
+
+TOPS (or teraFLOPS) without sparsity, and 624 TOPS (or teraFLOPS) with sparsity. Current export
+controls work by multiplying the 16-bit width by the 312 TOPS no-sparsity performance, yielding 4992
+TOPS x bits for this chip and therefore very close to the existing export control threshold of 4800 TOPS x
+bits. Our recommendation would be to instead look for the maximum with-sparsity compute capacity of
+this chip, which is 1248 TOPS under the INT8 (i.e., 8-bit width) tensor core representation, and therefore
+clearly exceeds our proposed threshold of 800 TOPS.
+
+41 We are recommending a TOPS-based (i.e., compute capacity) threshold rather than (as with current
+
+controls) a threshold based on the product of TOPS multiplied by bit width. The reason is that a (TOPS x
+bit width) threshold risks incentivizing the development of AI chips optimized for shorter bit
+representations and higher compute capacities, which is already an industry trend that has been
+accelerating advanced AI capabilities development. A purely TOPS-based threshold, on the other hand,
+targets compute capacity directly. Thanks to Tim Fist at CNAS for this observation.
+
+
+                                                                                                70 of 284
+   ● The BIS could also coordinate with future task forces (see 1.4), research centers
+     (LOE3, 3.1.2.2) and regulatory agencies (LOE4, 4.1) to align export controls for
+     AI hardware with domestic regulations and up-to-date assessments of AI
+     capabilities and safety research.
+
+   ● As research into remote monitoring systems for AI hardware progresses, the BIS
+     could consider tying export licenses to the implementation of on-chip
+     monitoring [148]. For example, enabling companies to adopt on-chip
+     monitoring for all exports in order to restore export licenses. This could support
+     legitimate uses of advanced AI hardware, while preserving the ability to detect
+     and remotely block high-risk activity. In the near-term, in order to incentivize
+     progress in remote monitoring and related technologies, BIS could consider
+     committing to AI hardware designers that they will maintain certain levels of
+     access to export markets if they implement on-chip security features with certain
+     properties [148].
+
+   ● Given the risk that adversarial countries could acquire advanced chips through
+     illegitimate means, including through third countries [155,156], the BIS could
+     also consider temporarily blocking exports of certain AI hardware to all foreign
+     or non-allied jurisdictions [157].
+
+To support efforts tied to on-chip remote monitoring and related technologies, the
+Departments of Commerce and DHS could consider establishing export licensing red
+teaming programs. These programs could focus on testing and uncovering
+vulnerabilities in new or proposed on-chip governance technologies designed to grant
+companies the ability to export AI hardware to specific geographies [148]. These
+programs could also be undertaken in collaboration with federally funded research
+centers (LOE3, 3.1).
+
+1.5.4 Research collaborations
+
+U.S. and foreign researchers have frequently collaborated on AI research activities. This
+has led to the co-development of noteworthy models, such EfficientZero (Tsinghua
+University and UC Berkeley collaboration) [158] and NÜWA (Peking University and
+Microsoft Research Asia collaboration) [159], and has contributed to AI talent
+development abroad.
+
+The U.S. government should investigate the the cost-benefit tradeoffs of such
+collaborations in the context of the advanced AI risk landscape.
+
+
+
+                                                                                 71 of 284
+However, excessive restrictions could prevent the diffusion of U.S. technical knowledge
+on advanced AI risk to the international research community. For example, the recent
+outreach by Western AI researchers to the Chinese research community about AI risk
+has been a critical step to establishing common ground and a shared understanding of
+the topic. Overly restrictive controls could deter such outreach in the future, to the
+detriment of U.S. and global security. Additionally, because AI risk awareness is still
+relatively nascent globally, we expect that research collaborations focused on
+understanding and mitigating key AI risks could become positive factors in long-term
+safety (LOE5, 5.2.1.2).
+
+One straightforward option could be to educate U.S. academics on the national
+security risks of certain kinds of knowledge transfer to support their ability to judge
+which research collaborations are appropriate.
+
+1.5.5 Education of foreign nationals
+
+Currently, foreign AI expertise draws significantly from both collaboration with U.S.
+academic labs, and from foreign nationals educated at U.S. universities. We
+recommend the U.S. government explore approaches to encourage foreign nationals
+studying AI at U.S. universities — particularly at the graduate level — to remain in the
+United States upon completion of their studies. Lowering immigration barriers for such
+individuals is likely to increase U.S. competitiveness in AI while supporting economic
+growth and job creation.
+
+The Department of State has already been directed to establish a program to attract
+top AI talent to the United States [127]. DHS has also been directed to clarify and
+modernize immigration pathways for AI researchers, startup founders, and others
+working in the field. We believe these are constructive steps.
+
+Educating U.S. academics on national security risk and designating categories of AI
+research projects as suitable for work by foreign graduate and undergraduate students
+could also support limiting knowledge transfer, as in the case of research collaborations
+(see 1.5.4).
+
+
+
+
+                                                                                   72 of 284
+
