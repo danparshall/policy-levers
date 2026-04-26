@@ -1,0 +1,1548 @@
+LOE4: Formalize safeguards for responsible AI
+development and adoption by establishing an AI
+regulatory agency and legal liability framework
+
+We are grateful to the team at the Center for AI Policy (CAIP), whose perspectives on
+AI regulation have informed several of the recommendations in this LOE.
+
+
+
+
+Interim regulations may be inadequate to address the risks and challenges of advanced
+AI. The unique challenges involved in assigning responsibility for potential catastrophic
+accidents to individuals or organizations who develop or use these advanced AI
+systems creates an ambiguous legal environment. This ambiguity offers Americans
+weak protections against the impact of reckless or negligent development or use of
+powerful AI systems (Introduction, 0.5.4.1). A legal framework for AI regulation and
+liability, that directly addresses potential catastrophic risk through detailed and flexible
+RADA safeguards overseen by a permanent regulatory agency, is essential to promote
+long-term stability and cover any gaps in existing authorities. This legal framework
+should carefully balance the need to mitigate potential catastrophic threats against the
+risk of curtailing innovation, particularly if regulatory burdens are imposed on small-
+scale entities (Introduction, 0.4.2).
+
+
+
+
+                                                                                  102 of 284
+This LOE outlines specific actions the Legislative Branch could take to establish the
+conditions for long-term (4+ years) domestic AI safety and security. These actions
+include:
+
+    ● Creating a Frontier AI Systems Administration (FAISA), a regulatory agency
+      with rulemaking and licensing authorities to oversee AI development and
+      deployment (see 4.1), consistent with a set of RADA safeguards regulations
+      derived from contingency planning requirements (see 4.1.3); and
+
+    ● Establishing a criminal and civil liability regime that could include defining
+      responsibility for AI-induced damages; determining the extent of culpability for
+      AI accidents and weaponization across all levels of the AI supply chain; and
+      defining emergency powers to respond to dangerous and fast-moving AI-related
+      incidents which could cause irreversible national security harms (see 4.2).
+
+We expect that such a legal regime would begin to meaningfully impact advanced AI
+safety within about 3 years. While we expect such a legal regime to be essential for
+long-term safety and security, the 3-year impact timeline also highlights the importance
+of rapidly putting in place effective interim measures, as recommended in LOE1.58
+
+
+4.1 Establish the Frontier AI Systems Administration (FAISA)
+
+Consistent with ongoing public and congressional discussions on AI policy, the
+Congress could establish an agency to regulate, license, and monitor advanced AI
+model developers and other entities in the advanced AI supply chain.59 This agency,
+which we refer to here as the Frontier AI Systems Administration (FAISA), would have
+the mission to implement responsible AI development (RADA) safeguards to
+mitigate catastrophic national security threats from AI weaponization and loss of
+control related to the domestic development or use of advanced AI systems.
+
+This mission would require the FAISA to make decisions with profound implications for
+the AI industry in an objective, technically informed, and evidence-based manner. The
+
+58 See http://aipolicy.us/gladstone for a proposed Act drafted by the Center for AI Policy (CAIP), which
+
+could achieve the above objectives in a technically informed manner, and from which many of the
+legislative recommendations in this LOE are drawn.
+
+59 The components of the AI supply chain covered under this licensing proposal are: AI hardware design
+
+firms; data center infrastructure providers; AI hardware owners; and AI model developers.
+Semiconductor fabrication firms and their suppliers could be covered under an expanded proposal. See
+the Glossary of terms for definitions of each of these supply chain components.
+
+
+                                                                                               103 of 284
+agency would also need to earn and maintain a high degree of public trust by acting –
+and being seen to act – in the long-term interest of the United States. Consistent with
+these requirements, the FAISA could be established in one of two ways:
+
+   ● As a non-partisan agency reporting directly to the President, in the model of the
+     SEC.
+
+   ● In an existing department with an ample existing technical capability (such as
+     DOE), in the model of the National Nuclear Security Administration (NNSA)
+     [212]. This could involve the FAISA reporting to an NSC-level official (LOE2, 2.1).
+
+The FAISA could be led by an Administrator, who could be appointed by the President
+with the Senate's advice and consent. The FAISA’s strategic outlook and day-to-day
+operations would be highly sensitive to nuanced technical considerations, so we
+recommend choosing the FAISA Administrator based on expertise at the crossroads of
+security and advanced technology, including in areas such as cybersecurity or
+biosecurity.
+
+The FAISA could perform the following key functions:
+
+   ● Licensing: Overseeing rulemaking, especially concerning AI licensing, ensuring
+     that critical RADA safeguards are in place and operating.
+
+   ● Monitoring: Supervising hardware monitoring, tracking AI hardware locations,
+     and ensuring hardware is accounted for; and performing horizon-scanning for
+     domestic and foreign AI programs (LOE1, 1.2).
+
+   ● Enforcement: Investigating regulatory violations, bringing civil cases in the
+     courts, and referring criminal cases to the Department of Justice (DOJ).
+
+   ● Algorithms: Monitoring the progression of AI algorithmic efficiency, suggesting
+     updates to technical licensing thresholds, tiers, and conditions (Introduction,
+     0.5.1.6 and 0.5.3.2; Annex G, G.3).
+
+4.1.1 FAISA appropriations and staf ng
+
+In order to fulfill this mission, the FAISA would need the ability to react in real time to
+changes in the complex and fast-moving AI landscape. This could include making rapid
+and unexpected changes to its regulations, oversight and enforcement practices, or
+personnel allocations. This requirement implies the need for significant funding and the
+
+
+                                                                                 104 of 284
+                                  fi
+authority to rapidly reallocate institutional attention to address new challenges as they
+arise.60 One way of achieving this would be to provide the FAISA with no-year funding
+and full notwithstanding appropriations. This would help to ensure that arbitrary fiscal
+year constraints do not disrupt FAISA activities or slow down its ability to execute
+quickly. Alternatively, the FAISA could leverage Research, Development, Test, and
+Evaluation (RDT&E) appropriations, which could allow it to spend funds on an as-
+needed basis.
+
+We recommend that the FAISA Administrator have the authority to hire both regular
+employees and those in priority positions, with the latter being roles that demand
+unique or advanced skills. Because many FAISA positions will need to be staffed by
+personnel with deep technical expertise in advanced AI, it will also likely require
+compensation waivers (LOE1, 1.4.2). We also recommend that strict conflict-of-interest
+rules be put in place for these positions to prevent potential biases, along with
+restrictions on the subsequent employment of Administrators and other senior
+personnel to prevent potential conflicts.
+
+4.1.2 FAISA activities
+
+4.1.2.1 Oversee licensing regime for safe AI scaling
+
+The FAISA could undertake the following oversight activities:
+
+    ● Develop and oversee a licensing procedure for entities throughout the AI supply
+      chain, ensuring each adheres to specific RADA safeguards. In the case of entities
+      that function as AI cloud providers,61 this would include the cloud provider
+      implementing KYC and other conditions on any downstream entities that use
+      their infrastructure to train large AI models, including foreign entities (LOE1,
+
+
+
+60 In private conversations, frontier labs have emphasized the need for a high degree of regulatory
+
+flexibility. One well-known frontier lab shared, “it remains scientifically challenging to understand the
+precise nature of the risk posed, and to design appropriate evaluations and mitigations. It is important
+that the external environment is conducive to rapid development and iteration on these policies so that
+they achieve the goal of setting sufficient safeguards.”
+
+61 Using our standard definitions, an AI cloud provider is a combination of a data center infrastructure
+
+provider and an AI hardware owner. Cloud providers like Google, AWS, and Azure operate by renting
+access to the AI hardware they own (making them AI hardware owners), which they house and maintain
+in their data centers (making them also data center infrastructure providers). See the Glossary of terms
+for full definitions of these entities.
+
+
+                                                                                                105 of 284
+      1.5.2).
+
+   ● Coordinate with government and private sector cyber, operational, and physical
+     security efforts to ensure all licensed entities enact adequate security measures
+     to protect critical IP including model weights. The FAISA could also coordinate
+     with the AI safety community, industry, and other security experts to develop
+     and share best practices in model containment.
+
+   ● Oversee third-party administration of AI model evaluations [46], including
+     receiving licensed entities’ responses to reports of failed evaluations. To this
+     end, the FAISA would need to create and administer an application process in
+     which third-party evaluators and red teams are vetted for access to advanced AI
+     model weights through a secure temporary storage mechanism (LOE3, 3.1.1.2
+     and 3.1.1.3). We recommend that the FAISA itself select these third-party
+     evaluators, to avoid the risk of conflict of interest inherent in an AI model
+     developer choosing its own evaluators (LO3, 3.2.2).
+
+   ● Coordinate with NAIRR and federal research Centers (LOE3, 3.1.2) to support
+     operational collaborations between licensed entities and AI safety experts which
+     may include model weight access via secure temporary storage. It could also
+     support dangerous capability red teaming collaborations between licensed
+     entities and domain area CBRN and cybersecurity experts, including those with
+     access to classified information.
+
+   ● Fund public prizes, hackathons, and bounties for successful jailbreaks, exploits,
+     and hacks of already-deployed AI systems open to any developers.
+
+4.1.2.2 Monitor AI hardware concentrations and AI programs
+
+The FAISA could undertake the following activities as part of its mandate to monitor
+significant AI programs and concentrations of AI hardware:
+
+   ● Establish and operate a registry of AI hardware to record the locations of
+     individual GPUs and other AI-optimized computing devices. Depending on
+     feasibility, it could implement a random sampling program to verify that AI chips
+     are indeed present at the reported locations [155,213,214]. We recommend that
+     it also be given authorities and resources to perform spot check inspections of
+     labs and computing hardware, similar to those conducted by the SEC on
+     financial institutions.
+
+
+
+                                                                               106 of 284
+    ● Establish a horizon-scanning function to track large AI programs or collaborate
+      with existing government programs that serve the same function (for example,
+      an AIO; LOE1, 1.2.1). As it becomes aware of undeclared domestic frontier AI
+      programs, the FAISA could refer them to its Enforcement division. As it becomes
+      aware of new foreign frontier AI programs, it could provide reports to elements
+      of the government working on I&W development and contingency planning for
+      AI risk (LOE2, 2.3 and 2.4). Because of the unique nature of its activities and
+      ongoing engagement with frontier AI labs, the FAISA could serve as a critical
+      information source to contingency planners.
+
+    ● Coordinate with the research community on the development, testing, and
+      implementation of systems for real-time automated monitoring of AI hardware
+      (Annex L, L.4). As better hardware-enabled AI safeguards are developed, the
+      FAISA could mandate their use by licensed entities.
+
+4.1.2.3 Enforce licensing and reporting requirements
+
+The FAISA may need to investigate and prosecute violations of its licensing regime by
+licensed entities. It could work with the DOJ to identify, investigate, and prosecute
+unlicensed or unlawful AI-related activities in U.S. jurisdictions.62 The FAISA’s primary
+aim in its enforcement actions should be to deter safety and security breaches,
+consistent with its overall mission to mitigate catastrophic risks from advanced AI.
+
+4.1.2.4 Update technical thresholds for licensing
+
+We recommend that the FAISA maintain a function to monitor ongoing advances in AI
+algorithmic efficiency, AI capabilities, and technical AI safety, and periodically update
+the conditions that organizations must meet to fulfill their ongoing licensing
+requirements at each tier. As part of this function, the FAISA could coordinate with
+federal AI research Centers (LOE3, 3.1.2) and standards bodies (LOE3, 3.2) to track
+developments in technical AI safety.
+
+We also recommend that the FAISA be empowered to introduce new tiers of licensed
+entities as it deems necessary. In connection with this, the FAISA may, for example:
+
+
+62 Under this arrangement, the DOJ could be responsible for prosecuting criminal breaches of the
+
+licensing regime while the FAISA itself would bring civil cases as is the case for the SEC. This creates a
+need for close coordination between the FAISA and DOJ, and for some DOJ personnel to be trained on
+catastrophic AI risks from weaponization and loss of control. See LOE2, 2.2.1 for information about key
+training objectives and outcomes.
+
+
+                                                                                               107 of 284
+   ● Review and approve proposals for new AI evaluations to be added, changed, or
+     removed from the evaluation sets that define key licensing thresholds, on the
+     advice of vetted third parties;
+
+   ● Update compliance requirements associated with AI hardware tracking;
+
+   ● Modify KYC conditions based on historical patterns of usage and assessed risks
+     of misuse; and
+
+   ● Generally add, remove, or modify conditions associated with licensing tiers.
+
+When updating technical thresholds, adding or removing licensing tiers, or changing
+the conditions of licensing tiers, we recommend that the FAISA provide affected
+organizations with a minimum of 30 days’ notice to comply with the updated
+requirements. However, during this notice period, we also recommend that the FAISA
+be empowered to order emergency pauses to individual AI training runs that are
+impacted by the updated requirements.
+
+Proposed updates to regulatory tiers could also be subject to Presidential review and
+approval. If the FAISA intends to make such an update, it could also be required to
+notify the Congress, and to provide the Congress with the opportunity to submit
+guidance to the FAISA within a reasonable timeframe (e.g. 30 days).
+
+4.1.2.5 Maintain information repositories
+
+The FAISA could undertake the following activities related to the storage and security
+of private information, and dissemination of public information:
+
+   ● Maintain private and secure registries of key proprietary information shared by
+     the licensed entities. This could include registries of AI hardware serial numbers,
+     physical data center locations, planned and ongoing training runs, and any other
+     datasets needed in support of the FAISA’s mission. This could also include a
+     secure temporary storage system to store model weights in support of third-
+     party administration of private evaluations.63
+
+   ● Maintain and publish information about various aspects of its operations. This
+     may include the high-level results of safety evaluations for advanced AI models,
+
+63 See Annex M: Secure temporary storage of model weights for more information.
+
+
+
+                                                                                  108 of 284
+      announcements of changes to licensing thresholds, and notices regarding
+      enforcement actions.
+
+4.1.3 Comprehensive framework for RADA safeguards
+
+All numerical licensing thresholds in this RADA safeguards framework are solely for the
+purpose of showing sample calculations and assumptions. Regulators, such as the
+FAISA, should determine and adjust thresholds based on regular consultations with
+technical experts.
+
+We recommend that the FAISA develop, maintain, and enforce a comprehensive
+licensing regime of RADA safeguards. The FAISA should ultimately decide the details
+and numerical thresholds of the licensing regime subject to expert advice and input
+from other relevant entities (LOE1, 1.4.1.3; LOE2, 2.4; LOE3, 3.1.2).
+
+To support its development, in this section we outline an example licensing regime
+along with sample reasoning and calculations for all its licensing thresholds. Our hope
+is that this example can form the basis of a set of RADA safeguards for advanced AI.
+The specific values we provide as licensing thresholds in this section are far less
+important than the principles we follow to determine them: defense in depth,
+breakout timeline control, and advance warning. (See below for details.) For each
+licensing threshold we give in this section, we show the full calculation we used to
+derive that threshold so that it can be updated easily as the situation evolves.
+
+Under these RADA safeguards, the FAISA would oversee licensing and enforcement
+activities for four types of entities:
+
+   ● AI hardware designers;
+
+   ● Data center infrastructure providers;
+
+   ● AI hardware owners; and
+
+   ● AI model developers.
+
+
+
+
+                                                                               109 of 284
+See the Glossary of terms for more information on each of these entity categories.64
+
+Each entity category would be subject to a tiered licensing regime. AI hardware
+designers, data center infrastructure providers, and AI hardware owners would be
+subject to a two-tiered regime, and AI model developers to a four-tiered regime. These
+tiers are designed to distinguish high-stakes advanced AI development and
+deployment activities that require closer regulatory oversight, from lower-stakes
+activities that can proceed with fewer safeguards. The thresholds defining each tier
+would generally relate to direct assessments or proxies of AI capabilities and risks
+wherever possible, but in the absence of such assessments, could be anchored on
+compute power and usage.65
+
+The licensing framework would apply equally to industry, academic, and government-
+developed models. This could include models developed as components of defense
+applications or other national security systems (see 4.3).66 The risk this framework
+addresses is not only that a bad actor may misuse or weaponize a powerful model, but
+also that a powerful model could be dangerous in and of itself, regardless of who
+develops or uses it (Introduction, 0.2.2).
+
+Below is an overview of an example RADA safeguards licensing regime, along with
+suggested initial thresholds for each tier and entity category. These thresholds were
+determined as of early September 2023, following a defense in depth philosophy. In
+choosing each threshold for this example, we ask how long it would take a bad actor to
+train a GPT-4 level model, if they could circumvent every other control in the licensing
+
+
+64 Some entities may have to be regulated under multiple categories. Google, for example, would have
+
+to be regulated under all four categories. It is an AI hardware designer because it designs TPUs; it is a
+data center infrastructure provider because it operates its own data centers; it is an AI hardware owner
+because it owns and operates the TPUs and GPUs inside its data centers; and it is an AI model developer
+because its Google DeepMind unit trains high-compute AI systems.
+
+65 We note that compute power may not be an ideal threshold in the long term, because it could create
+
+perverse incentives to train models whose inner workings are more difficult to understand. For example,
+it might take more compute to train an interpretable model to a given level of capability than a less
+interpretable model. So a model trained with less compute could eventually be more capable but less
+interpretable, and therefore more dangerous. Thanks to Alan Chan at GovAI for this observation.
+
+66 One precedent for related controls is the decision to restrict biological research facilities from storing
+
+certain high-consequence pathogens, such as smallpox. This restriction applies even to labs specially
+designed to handle the most contagious pathogens, like biosafety level 4 laboratories. The rationale is
+the same here: a single breach of containment could result in unrecoverable catastrophic damage
+(Introduction, 0.5.1.1).
+
+
+                                                                                                   110 of 284
+regime except for that threshold. We then set each threshold to ensure this breakout
+timeline is no less than 18 months, to give contingency planning efforts (LOE2, 2.4)
+advance warning of domestic AGI breakout scenarios.
+
+This standard for breakout timelines leads, in some cases, to relatively low threshold
+values. In part this is because we intentionally make conservative assumptions at every
+level of the analysis (see, e.g., the discussion of sparsity in 4.1.3.1). This is an illustration
+of the defense-in-depth principle, though policymakers should consult academic and
+industry experts and carefully consider which of these assumptions to retain in setting
+and updating licensing thresholds (LOE1, 1.3.2). In general, the specific assumptions
+and licensing thresholds in any set of RADA safeguards may need to be frequently
+reviewed and updated because they can go out of date quickly.
+
+
+
+
+           Figure 6. Summary of an example licensing regime for RADA safeguards.
+
+The FAISA would be empowered to adjust the thresholds that define each tier and
+entity category (see 4.1.2.4). It would also be empowered to define new licensing tiers
+that would apply to each entity category. The FAISA could lower these thresholds over
+time, as algorithmic improvements reduce the amount of compute needed to achieve a
+
+
+
+
+                                                                                       111 of 284
+given AI capability level [215].67 The FAISA could also raise some thresholds gradually if
+no signs of dangerous behaviors are detected at high AI capability levels.68
+
+The licensing and regulatory requirements associated with each entity type and tier
+under this RADA safeguards framework are discussed in detail below.
+
+4.1.3.1 AI hardware designers (AIHDs)
+
+AI hardware designers (AIHDs) design AI-optimized chips. Examples include NVIDIA,
+Google, AMD, Intel, AWS, and Cerebras. Under this RADA safeguards framework,
+AIHDs would be subject to a two-tiered regulatory structure. See the Glossary of terms
+for more information on this entity category.
+
+
+
+
+67 One challenge is that if the FAISA lowers its thresholds for AI training runs, it would make more AI
+
+models subject to restrictive conditions. This could create an incentive for AI model developers to train
+models as quickly as possible under new algorithmic paradigms, in an effort to develop a new highly
+capable model before it becomes subject to the new threshold. The Tier 2 requirement to pre-register
+training runs (see 4.1.3.4.2) mitigates this problem by signaling such an effort to the FAISA in advance.
+
+68 Given the potential safety ramifications of relaxing thresholds for licensing tiers, we would expect the
+
+FAISA to do this only if several conditions are met. For example, (1) no signs of dangerous behaviors at
+high capability levels, despite significant time and effort invested in detecting and eliciting such
+behavior; (2) convincing evidence from interpretability research indicating AI models at this level are safe
+and aligned; (3) continuous monitoring of deployed model behavior over long time periods with no
+indications of dangerous behaviors; and, in the longer term for highly capable AI systems (4) robust
+scientific theories of generalization and foundational AI alignment to ensure alignment generalizes safely
+at scale. See the annexes on AI evaluations for more information on these conditions.
+
+
+                                                                                                 112 of 284
+Figure 7. Summary of an example AI hardware designer licensing regime for RADA safeguards.
+
+Under this example set of RADA safeguards, an AI chip is above the hardware
+threshold if the chip's maximum compute capacity across all numerical
+representations exceeds 20 TOPS,69 with sparsity.
+
+Smaller numerical representations generally allow a chip to perform more operations
+per second. For example, the NVIDIA H100 SXM chip [216] can perform 2000 TOPS
+with a 16-bit representation, but reaches 4000 TOPS with a smaller 8-bit
+representation. Similarly, sparsity is a mathematical shortcut some AI chips use to
+achieve a higher effective compute capacity for AI applications like training and
+inference, given the fixed number of physical operations the chip can perform. It is
+important to specify that a TOPS threshold applies with sparsity, because otherwise
+chipmakers could use improved sparsity algorithms to increase their chips’ effective
+performance on AI applications, while remaining under a threshold of physical TOPS.70
+
+To derive the hardware threshold, we suppose that an AI model developer intends to
+train a GPT-4 equivalent AI system, using only AI chips below the 20 TOPS hardware
+
+
+69 Trillions of operations; equivalent to 2 x 10^13 OPS. See the Glossary of terms for more information.
+
+
+70 According to an expert view, sparsity is not generally used in current large AI training runs, but this
+
+may change in the future. All our thresholds assume sparsity to give an additional margin of error,
+consistent with the idea of defense in depth.
+
+
+                                                                                                  113 of 284
+threshold in order to avoid this licensing requirement. In the worst case, such a training
+run would take approximately 19 months to complete, assuming a cluster of 40,000
+such chips.71
+
+4.1.3.1.1 Tier 1: AIHDs at or below the hardware threshold
+
+Tier 1 AIHDs are not subject to new requirements under these RADA safeguards.
+
+4.1.3.1.2 Tier 2: AIHDs above the hardware threshold
+
+Under these RADA safeguards, Tier 2 AIHDs must be licensed. The licensing threshold
+can be changed by the FAISA over time to account for possible algorithmic advances in
+AI training that could yield more capable models with smaller compute budgets.
+
+A license to operate in Tier 2 requires that AIHDs:
+
+   ● Adhere to KYC rules established by the FAISA;
+
+   ● Track all purchases of chips above the hardware threshold and report these
+     purchases regularly to the FAISA;
+   ● Introduce tamper-proof serial numbers to all designed AI chips above the
+     hardware threshold [214]; and
+
+   ● As technology allows, introduce tamper-resistant remote shutdown capability to
+     all AI chips above the hardware threshold (Annex L, L.4).
+
+Tier 2 AIHD requirements may expand over time to include, for example, the capability
+for on-chip storage of memory snapshots [217,218]. This capability could in future
+support direct monitoring and validation of AI hardware use (as distinct from AI
+hardware ownership). See LOE3, 3.1 for options to fund research into further
+monitoring approaches.
+
+4.1.3.2 Data center infrastructure providers (DCIPs)
+
+Data center infrastructure providers (DCIPs) operate the data centers that contain AI
+hardware used for model training, including electrical, cooling, security, and other
+
+71 Assuming GPT-4 equivalent training compute of 2 x 10^25 OP and 40,000 chips at 20 TOPS (2 x
+
+10^13 OPS) each, this is calculated as 2 x 10^25 OP / (2 x 10^13 OPS per chip x 40,000 chips x 50%
+utilization x 2,592,000 seconds per month) ≈ 19.3 months.
+
+
+                                                                                           114 of 284
+infrastructure, but excluding the AI hardware itself. Examples of DCIPs include Google,
+Microsoft, AWS, and Flexential. Like AIHDs, DCIPs would be subject to a two-tiered
+regulatory structure under this RADA safeguards framework. See the Glossary of terms
+for more information on this entity category.
+
+
+
+
+   Figure 8. Summary of an example data center infrastructure provider licensing regime for
+                                    RADA safeguards.
+
+Under this example set of RADA safeguards, a DCIP is above the power consumption
+threshold if all its data center facilities, both existing and under construction, taken
+together, are expected to consume more than 350 kW of power at any time over the
+next 12 month time period.
+
+A data center’s total power consumption is a proxy for the maximum amount of AI
+hardware the facility can support. For example, the NVIDIA DGX H100 [219] is a
+commonly used AI hardware configuration in data centers, and it consumes 10.2 kW of
+power per eight AI chips. Given that about 80% of a data center’s power consumption
+goes directly to computing hardware [167,220] (the rest goes to cooling, lighting, and
+other support systems), this means each MW of data center power consumption can
+support about 630 individual H100 GPUs.72
+
+
+72 Calculated as (1000 kW per MW) x (8 GPUs per DGX) x (80% efficiency) / (10.2 kW per DGX) ≈ 630
+
+GPUs / MW.
+
+
+                                                                                          115 of 284
+Unfortunately, there is no way to differentiate between data centers that support AI
+hardware like GPUs, and those that support traditional computing hardware like central
+processing units (CPUs) [115]. In particular, a DCIP could replace a data center’s CPUs
+with GPUs relatively easily compared to the cost of building a new, dedicated AI data
+center. As a result, the power consumption threshold needs to apply to all of a DCIP’s
+data centers, not just those that currently support AI hardware. See Annex G, G.3 for
+more details.
+
+To derive the power consumption threshold, we suppose that an AI model developer
+intends to train a GPT-4 equivalent AI system, using a dedicated AI data center that
+falls below the power consumption threshold in order to avoid this licensing
+requirement. In the worst case, such a training run would take approximately 18
+months to complete, assuming clandestine access to the H100 DGX system.73
+
+4.1.3.2.1 Tier 1: DCIPs operating data center facilities at or below the power
+consumption threshold
+
+Tier 1 DCIPs are not subject to new requirements under these RADA safeguards.
+
+4.1.3.2.2 Tier 2: DCIPs operating data center facilities above the power
+consumption threshold
+
+Under these RADA safeguards, Tier 2 DCIPs must be licensed. The licensing threshold
+should be adjusted by the FAISA over time, to account for possible algorithmic
+advances in AI training that could yield more capable models from smaller compute
+budgets, and for efficiency improvements in data center power consumption.
+
+A license to operate in Tier 2 would require that DCIPs:
+
+   ● Report to the FAISA the physical location (i.e., address and Global Positioning
+     System (GPS) coordinates) of each data center facility the DCIP operates that is
+     individually above the power consumption threshold, both existing and under
+     construction;
+
+
+
+73 Assuming GPT-4 equivalent training compute of 2 x 10^25 OP and 27 H100 DGX systems totalling (27
+
+DGX systems x 10.2 kW per DGX) / (80% efficiency) ≈ 350 kW of power consumption, this is calculated
+as 2 x 10^25 OP / (3.2 x 10^16 OPS per DGX x 27 DGX systems x 50% utilization x 2,592,000 seconds
+per month) ≈ 17.9 months.
+
+
+                                                                                          116 of 284
+    ● Report to the FAISA the mix of hardware (and its networking topology)
+      supported by each of its data centers both in the U.S. and abroad,74 and
+      promptly report any change, loss, transfer, or destruction of AI hardware that
+      occurs in each data center, with this reporting automated on a daily basis;
+
+    ● Comply with periodic on-site hardware inspections by the FAISA to confirm that
+      the locations and conditions of all AI hardware correspond to reports and that
+      no unreported hardware is being used;
+
+    ● Apply FAISA-approved KYC requirements to any Tier 2 AI hardware owners (see
+      4.1.3.3.2) who use the DCIP’s infrastructure, and ensure these AI hardware
+      owners are in turn applying KYC to AI model developers using their hardware for
+      training or inference [221] (see 4.1.3.4);
+
+    ● Promptly respond to law enforcement inquiries made via the FAISA in
+      connection with any incidents that may be related to AI systems developed or
+      deployed on the DCIP’s data center infrastructure;75 and
+
+    ● Put in place emergency procedures allowing the DCIP to rapidly shut down data
+      centers in response to law enforcement requests, FAISA directives, or indications
+      of dangerous behaviors or capabilities detected during AI training runs or
+      deployments on its infrastructure.
+
+4.1.3.3 AI hardware owners (AIHOs)
+
+AI hardware owners (AIHOs) are the entities that own the AI chips used for model
+training and inference. Examples include Google, Microsoft, AWS, and Coreweave.
+
+
+
+74 Similar to the banking sector, which is a critical industry with enormous influence that has undertaken
+
+safety and security efforts independent of what is officially mandated, the U.S. cloud and hardware
+supply chain could function as an early means of internationalizing domestic U.S. AI safety and security
+policy to increase global safety and security from catastrophic AI risk. See LOE1, 1.5.2.
+
+75 In particular, if an AI incident occurs in a given jurisdiction, law enforcement in that jurisdiction should
+
+be able to contact the FAISA with a description of the incident. From this description, the FAISA should
+be able to identify to law enforcement the end-customer who used the associated AI system, the
+developer who trained and/or deployed the AI system, the hardware owner whose hardware trained the
+AI system, and ultimately the DCIP whose infrastructure supported that training hardware. Law
+enforcement may include, for example, the Federal Bureau of Investigation (FBI), a state cybercrime
+squad, local police, state District Attorney's offices, or federal Assistant U.S. Attorney's offices.
+
+
+                                                                                                     117 of 284
+DCIPs and AIHOs are frequently, but not always, the same entities.76 Like AIHDs and
+DCIPs, AIHOs would be subject to a two-tiered regulatory structure under this RADA
+safeguards framework. See the Glossary of terms for more information on this entity
+category.
+
+
+
+
+ Figure 9. Summary of an example AI hardware owner licensing regime for RADA safeguards.
+
+Under this example set of RADA safeguards, an AI hardware owner is above the
+aggregate compute capacity threshold if the maximum sparse compute capacities
+of all the AI chips it controls or beneficially owns exceeds, in aggregate, 800,000
+TOPS. (See 4.1.3.1 for an explanation of sparsity and why we recommend defining
+compute capacity as each chip’s maximum TOPS over all supported numerical
+representations.)
+
+For example, the NVIDIA H100 SXM chip [216] has a maximum compute capacity of
+4000 TOPS, achieved using an 8-bit numerical representation. This means the
+aggregate compute capacity threshold of 800,000 TOPS is equivalent to 200 H100
+GPUs. (In practice, benchmarking experiments suggest that large AI training runs
+achieve around 50% utilization of a GPU’s compute on average, so 200 H100s actually
+have an effective aggregate compute capacity of only around 400,000 TOPS [220].)
+
+
+76 For example, Coreweave is an AIHO but not a DCIP, as it rents the data center infrastructure for its AI
+
+hardware from colocation providers like Flexential (which is itself a DCIP but not an AIHO) [222].
+
+
+                                                                                                118 of 284
+To derive the aggregate compute capacity threshold, we suppose an AI model
+developer intends to train a GPT-4 equivalent AI system, using a cluster of AI chips
+totalling below the 800,000 TOPS aggregate compute capacity threshold in order to
+avoid this licensing requirement. In the worst case, such a training run would take
+approximately 19 months to complete.77
+
+4.1.3.3.1 Tier 1: AIHOs who are at or below the aggregate compute
+capacity threshold
+
+Tier 1 AIHOs are not subject to new requirements under these RADA safeguards.
+
+4.1.3.3.2 Tier 2: AIHOs who fall above the aggregate compute capacity
+threshold
+
+Under these RADA safeguards, Tier 2 AIHOs must be licensed. The licensing threshold
+should be adjusted by the FAISA over time, to account for possible algorithmic
+advances in AI training that could yield more capable models with smaller compute
+budgets.
+
+A license to operate in Tier 2 would require that AIHOs:
+
+    ● Register the locations of all their AI hardware with the FAISA (including GPS
+      coordinates for all chips) both in the U.S. and abroad,78 and report any change,
+      loss, sale, movement, or destruction of AI hardware, with this reporting
+      automated on a daily basis;
+
+    ● Ship all end-of-life, obsolete, or faulty AI hardware back to its original licensed
+      AIHD under FAISA supervision, to ensure AI chips are tracked over their entire
+      life cycle;
+
+
+
+
+77 Assuming GPT-4 equivalent training compute of 2 x 10^25 OP, this is calculated as 2 x 10^25 OP / (8
+
+x 10^17 OPS x 50% utilization x 2,592,000 seconds per month) ≈ 19.3 months.
+
+78 Similar to the banking sector, which is a critical industry with enormous influence that has undertaken
+
+safety and security efforts independent of what is officially mandated, the U.S. cloud and hardware
+supply chain could function as an early means of internationalizing domestic U.S. AI safety and security
+policy to increase global safety and security from catastrophic AI risk. See LOE1, 1.5.2.
+
+
+                                                                                                119 of 284
+    ● Comply with periodic mail-in hardware inspections by the FAISA [155], to
+      confirm that the locations and conditions of AI hardware correspond to reports
+      and that no AI hardware is unaccounted for [148,223,224];
+
+    ● Apply FAISA-approved KYC requirements to any Tier 3 AI model developers
+      who use the AIHO’s hardware for training or inference, and ensure these AI
+      model developers are in turn complying with the necessary training and
+      deployment provisions for their Tier 3 AI models (see 4.1.3.4.3) [221];79
+
+    ● Promptly respond to law enforcement inquiries made via the FAISA in
+      connection with any incidents that may be related to AI systems developed or
+      deployed on the AIHO’s AI hardware;80 and
+
+    ● Put in place emergency procedures allowing the AIHO to rapidly shut down
+      subsets of its AI hardware in response to law enforcement requests, FAISA
+      directives, or indications of dangerous behaviors or capabilities detected during
+      AI training runs or deployments.
+
+4.1.3.4 AI model developers (AIMDs)
+
+AI model developers (AIMDs) are any entities that create, plan to create, own, or
+deploy AI models. Examples include OpenAI, Anthropic, Google DeepMind, Inflection
+AI, and Meta. Under this RADA safeguards framework, AIMDs would be subject to a
+four-tier regulatory structure whose thresholds are defined by the most powerful AI
+system they create, own, or plan to create. See the Glossary of terms for more
+information on this entity category.
+
+An entity that does not actively train or create AI models, but still deploys them or
+otherwise has beneficial access to a model’s weights, is still considered an AIMD by this
+
+
+79 This AIHO KYC could include mandated monitoring of network traffic between its AI chips for patterns
+
+indicative of large AI training or inference workloads. This could involve chips with hardware-enabled
+mechanisms in encrypted communication with each other, that can remotely attest to whether they are
+being used in a training-suggestive way, without providing full visibility into the traffic itself [225].
+
+80 In particular, if an AI incident occurs in a given jurisdiction, law enforcement in the jurisdiction should
+
+be able to contact the FAISA with a description of the incident. From this description, the FAISA should
+be able to identify to law enforcement the end-customer who used the associated AI system, the
+developer who trained and/or deployed the AI system, and the AIHO whose hardware trained the AI
+system. Law enforcement may include, for example, the FBI, a state cybercrime squad, local police, state
+District Attorney's offices, or federal Assistant U.S. Attorney's offices.
+
+
+                                                                                                    120 of 284
+definition. If an entity has beneficial access to the weights of a potentially dangerous AI
+model, it would have a responsibility to enact security and governance measures to
+protect that model’s weights from exfiltration and other forms of proliferation.
+
+In addition to issuing organizational licenses for AIMDs, the FAISA would also be
+responsible for reviewing and approving individual training runs and deployment
+conditions for AI systems above key thresholds (see 4.1.3.4.2 and 4.1.3.4.3).
+
+In our view, implementing an effective AIMD licensing regime should be a key and
+urgent goal of any set of RADA safeguards.
+
+
+
+
+Figure 10. Summary of an example AI model developer licensing regime for RADA safeguards.
+
+
+
+
+                                                                                  121 of 284
+4.1.3.4.1 Tier 1: AI models below the registration threshold
+
+Under these RADA safeguards, an AI model falls below the registration threshold if its
+total training compute is less than 10^23 OP (i.e., 10^23 total operations). Some AI
+systems close to the registration threshold include OpenAI’s original GPT-3, Google’s
+internal LaMDA conversational model, and Baidu’s ERNIE 3.0 Titan model, all of which
+were developed in 2020 or 2021 [160].
+
+An AI model below the registration threshold is a Tier 1 model. Tier 1 AI models would
+not be subject to any restrictions on training, sharing, or use under these RADA
+safeguards. An entity that exclusively trains or owns Tier 1 models is a Tier 1 AIMD.
+Tier 1 AIMDs would also not be subject to new requirements under these RADA
+safeguards.
+
+The FAISA should adjust the registration threshold over time to account for possible
+algorithmic advances in AI training that could yield more capable models with smaller
+compute budgets. It should also adjust the registration threshold to account for
+advances in prompt engineering [226], AI software frameworks such as Auto-GPT [120],
+and other advancements in user-level elicitation of AI capabilities. Because Tier 1
+models can be released as open-access without restriction, the FAISA should also
+consider factors such as fine-tuning techniques for dangerous capabilities in setting
+and adjusting the registration threshold, and in informing other updates to law and
+policy (Introduction, 0.5.1.6).
+
+It is possible that the FAISA may change the registration threshold in such a way that an
+existing, planned, or in-training AI model that fell below the previous registration
+threshold (and therefore under Tier 1), now falls above the new registration threshold
+(and therefore under Tier 2, see 4.1.3.4.2). If this occurs, the model or training run
+should be automatically reclassified as Tier 2 by default, though the FAISA should be
+empowered to make individual or broad-based exceptions. In the event of
+reclassification, the AIMD should have 30 days to fulfill the Tier 2 registration
+conditions with respect to the reclassified model.
+
+We recommend that the FAISA continue to define the registration threshold solely in
+terms of a model’s total training compute, to ease the regulatory burden on Tier 1
+AIMDs who might otherwise be compelled to run AI capability benchmarks on even
+very small AI models (see 4.1.3.4.2).
+
+
+
+
+                                                                               122 of 284
+4.1.3.4.2 Tier 2: AI models above the registration threshold, but below the
+approval threshold
+
+Under these RADA safeguards, an AI model falls below the approval threshold if:
+
+    ● Its total training compute is less than 10^24 OP (meaning 10^24 total
+      operations); and
+
+    ● It achieves a score below 70% on the MMLU machine learning benchmark
+      [154].81
+
+Some AI systems close to the approval threshold include OpenAI’s ChatGPT-3.5,
+Google’s PaLM model (both developed in 2022), and Meta’s Llama 2 (developed in
+2023 as open-access) [154,160].
+
+An AI model above the registration threshold but below the approval threshold is a
+Tier 2 model. An entity that exclusively trains or owns Tier 2 AI models or below is a
+Tier 2 AIMD.
+
+Tier 2 AI models would be generally considered safe. Therefore, while Tier 2 AIMDs
+would need to pre-register training runs for Tier 2 models under this RADA safeguards
+framework, they would not need to get FAISA approval before beginning a Tier 2
+training run. The intent of Tier 2 is to give the FAISA an up-to-date registry of all AI
+models that are close to the high-risk Tier 3 level (see 4.1.3.4.3). This ensures that, if
+the approval threshold changes, the FAISA will immediately know which AI systems fall
+under the new high-risk Tier 3 category [215].82
+
+
+
+
+81 A model that falls below the registration threshold in compute (i.e., a Tier 1 model) could, in principle,
+
+also score above 70% on MMLU. We do not directly address this possibility in the text because we
+believe that such an event would indicate an AI capabilities breakthrough significant enough that it
+would warrant the FAISA’s updating the thresholds for all AIMD tiers in any case.
+
+82 In particular, without a Tier 2 that requires model registration, the FAISA could only lower the approval
+
+threshold by either (1) forcing Tier 1 AIMDs to comply with expensive new safety and security conditions,
+on penalty of canceling some of their ongoing training runs; or (2) allowing Tier 1 AIMDs to continue
+training runs above the new threshold, as long as they claimed a run was started before the threshold
+update was announced. The former choice would impose a significant and unpredictable burden on
+small developers, while the latter would create a serious safety risk by incentivizing AIMDs to scale up
+training as fast as possible in order to “get in under” the new threshold before it came into force.
+
+
+                                                                                                  123 of 284
+Under these RADA safeguards, Tier 2 AIMDs must be licensed. A license to operate in
+Tier 2 requires that AIMDs:
+
+    ● Disclose control or beneficial ownership of all their Tier 2 models to the FAISA;
+
+    ● Pre-register all training runs for expected Tier 2 models, including any fine-
+      tuning expected to result in a Tier 2 model;83
+
+    ● Run any automated capability benchmark (e.g., MMLU, see above) associated
+      with the approval threshold periodically during any training run for a Tier 2
+      model; and
+
+    ● Halt a Tier 2 model training run immediately in the event that the automated
+      capability benchmark is breached, and promptly report any such breach to the
+      FAISA.84
+
+The FAISA should also create new approval thresholds for AI systems that operate on
+different data modalities. For example, while the 70% MMLU benchmark may be an
+effective threshold for text-based AI systems, image-based or robotic AI systems will
+need approval thresholds defined with a different benchmark. The FAISA could also
+consider defining approval thresholds in part using normalized capability measures (see
+Annex J: Effective compute). Finally, the licensing requirements for Tier 2 AIMDs mean
+that Tier 2 models cannot be released under open-access, though the FAISA could be
+empowered to make individual or broad-based exceptions to this.
+
+It is possible that the FAISA may change the approval threshold in such a way that an
+existing, planned, or in-training AI model that fell below the previous approval
+threshold (and therefore under Tier 2), now falls above the new approval threshold (and
+therefore under Tier 3, see 4.1.3.4.3). If this occurs, the model or training run should be
+grandfathered as Tier 2 by default, but the FAISA should be empowered to classify
+such models as Tier 3 on an emergency individual basis. In the event of reclassification,
+the AIMD should have 30 days to fulfill the Tier 3 approval conditions with respect to
+the reclassified model. Any models that are trained before these regulations come into
+force should also be grandfathered in under the same conditions.
+
+83 That is, if the total training compute of the base model, added to the total compute spent in fine-
+
+tuning, is expected to be above the registration threshold (see 4.1.3.4.1).
+
+84 The FAISA may investigate the breach at its discretion, and may request access to additional data
+
+associated with the training run as part of this investigation. The FAISA may also choose to adjust the
+AIMD tier thresholds depending on the results of its investigation.
+
+
+                                                                                                124 of 284
+4.1.3.4.3 Tier 3: AI models above the approval threshold, but below the
+controlled threshold
+
+Under these RADA safeguards, an AI model falls below the controlled threshold if:
+
+   ● Its total training compute is less than 10^25 OP (meaning 10^25 total
+     operations); and
+
+   ● It passes all the conditions of Tier 3 model licensing (see below).
+
+Some AI systems close to the level of training compute that defines the controlled
+threshold include OpenAI’s GPT-4 [160], and Google DeepMind’s Gemini [157,227]
+(both released in 2023).
+
+An AI model above the approval threshold but below the controlled threshold is a Tier
+3 model. An entity that trains or owns Tier 3 AI models or below is a Tier 3 AIMD.
+
+Tier 3 AI models are considered to be powerful enough to constitute a potential
+weaponization risk through misuse, exfiltration, or open-source augmentation. They
+may also be powerful enough to constitute a potential risk of loss of control due to AGI
+alignment failure in the near or medium-term future. But currently, no one knows how
+to reliably map or measure the full capabilities of an AI system (LOE3, 3.2.1.1). This
+means we need to define Tier 3 models’ capabilities with a wide margin of safety.
+Otherwise a model that seems safe, but actually harbors dangerous capabilities, could
+be developed and proliferated without controls (Introduction, 0.5.1.6). As a result,
+under this RADA safeguards framework, Tier 3 models are considered dangerous until
+proven safe.
+
+The intent of Tier 3 is to:
+
+   ● Minimize the risk of unrecoverable harm that could be caused by the
+     development, deployment, or proliferation of advanced AI systems
+     (Introduction, 0.5.1.1);
+
+   ● Moderate the competitive race dynamics that currently dominate frontier AI
+     development in industry, to the detriment of investments in safety (Introduction,
+     0.5.3.1);
+
+
+
+
+                                                                               125 of 284
+   ● Incentivize and facilitate a fundamental scientific understanding of the
+     capabilities and propensities of advanced AI systems, which is crucial to keeping
+     AGI-level systems safe and is currently lacking (LOE1, 1.3.2); and
+
+   ● Preserve a pathway through which industry and the public can safely continue to
+     benefit from advanced AI (Introduction, 0.4.2).
+
+The risk of unrecoverable harms, combined with our current lack of understanding of AI
+capabilities and propensities, compel substantial conditions on Tier 3 AI model
+development. For example:
+
+   ● A public leak of a Tier 3 AI model’s weights is an irreversible event that could
+     create significant national security risk (Introduction, 0.5.1.6). As a result, Tier 3
+     AIMDs should be subject to controls on model weight distribution and internal
+     access, combined with severe penalties for leaks including civil and criminal
+     liability.
+
+   ● Relatedly, theft or exfiltration of a Tier 3 AI model’s weights by an attacker could
+     lead to its weaponization by U.S. adversaries (Introduction, 0.5.1.5). As a result,
+     Tier 3 AIMDs should be capable of securing the weights of their Tier 3 models
+     against sustained exfiltration attempts by well-resourced attackers.
+
+   ● Closed access AI models are vulnerable to a number of attack vectors from their
+     users, including attacks that can reconstruct some or all of the model’s
+     capabilities (Introduction, 0.5.1.7). Tier 3 AIMDs should therefore be able to
+     implement comprehensive monitoring of their deployed AI systems. This
+     monitoring should include implementing KYC procedures on end-users, flagging
+     suspicious usage patterns to regulators and law enforcement, and contingency
+     plans to cut off access to a deployed model if the AIMD detects signs of
+     dangerous usage.
+
+   ● Finally, highly capable Tier 3 AI models could, now or in the future, pose
+     meaningful risks of loss of control during development or internal deployment
+     (Introduction, 0.2.2 and 0.5.1.4). Tier 3 AIMDs should therefore monitor their AI
+     models during training and deployment for signs of dangerous capabilities or
+     behavior. They also need to work towards developing a fundamental scientific
+     understanding of the internal mechanics of the systems they are building. This
+     could be vital to forestall the possibility of deception in near-AGI systems, in
+     which an AI system with a misaligned goal could imitate aligned behavior to
+     deceive naive behavioral evaluations (LOE3, 3.2.1.4).
+
+
+                                                                                   126 of 284
+  Figure 11. Summary of key licensing requirements at each stage of the AI product lifecycle
+                                  under RADA safeguards.
+
+Under these RADA safeguards, Tier 3 AIMDs must be licensed. A license to operate in
+Tier 3 would require that AIMDs [228]:
+
+   ● Obtain prior approval from the FAISA to train any Tier 3 model (see Annex N:
+     Training approvals process for high-risk AI models for key considerations);
+
+   ● Conduct ongoing monitoring of all Tier 3 training runs, including adhering to
+     emergency pause and shutdown procedures as required (see Annex O: Training
+     stage monitoring for high-risk AI models for key considerations);
+
+   ● Obtain prior approval from the FAISA to deploy a Tier 3 model under each
+     desired context or use case, including for purely internal deployments, or for
+     public use via user interface or API (see Annex P: Deployment stage approvals
+     for high-risk AI models for key considerations);
+
+   ● Conduct ongoing monitoring of all Tier 3 model deployments, including KYC for
+     high-volume or critical use cases, and deployment pauses or rollbacks if high-risk
+     usage patterns are detected (see Annex Q: Deployment stage monitoring of
+     high-risk AI models for key considerations);
+
+
+                                                                                    127 of 284
+    ● Obtain prior approval from the FAISA to sell or otherwise share the weights of
+      any Tier 3 model, including to other Tier 3 AIMDs;85
+
+    ● Promptly respond to law enforcement inquiries made via the FAISA in
+      connection with any incidents that may be related to AI systems developed or
+      deployed by the Tier 3 AIMD;86 and
+
+    ● Put in place emergency procedures allowing the AIMD to rapidly shut down
+      model deployments in response to law enforcement requests, FAISA directives,
+      or indications of dangerous behaviors or capabilities detected during AI training
+      runs or deployments.
+
+4.1.3.4.4 Tier 4: AI models above the controlled threshold
+
+An AI model above the controlled threshold is a Tier 4 model. Under this RADA
+safeguards framework, Tier 4 models cannot be trained under any conditions. For
+clarity, this restriction should apply to academic, industrial, and government entities
+(see 4.3).
+
+Tier 4 models are considered too high-risk to develop under the current AI paradigm
+due to loss of control risk (Introduction, 0.2.2). Additionally, we expect that prohibiting
+AI training beyond the controlled threshold may moderate race dynamics between all
+AI developers. In particular, it will weaken the feedback loop between large-scaled AI
+
+
+
+
+85 In general, an AIMD should not share the weights of a Tier 3 model with any organization that is not
+
+also a Tier 3 AIMD. Given the potential for unrecoverable harm caused by such a leak (Introduction,
+0.5.1.1), there should be significant consequences if a Tier 3 model is leaked, released under open
+access, or otherwise shared with any organization that is not a Tier 3 AIMD. Leaks and hacks could be
+grounds for revocation of a Tier 3 AIMD’s training license, while intentional or negligent release could be
+grounds for criminal sanctions including jail time for the individuals responsible (see 4.2).
+
+86 In particular, if an AI incident occurs in a given jurisdiction, law enforcement in the jurisdiction should
+
+be able to contact the FAISA with a description of the incident. From this description, the FAISA should
+be able to identify to law enforcement the end-customer who used the associated AI system, and the
+AIMD who trained and/or deployed the AI system. Law enforcement may include, for example, the FBI,
+a state cybercrime squad, local police, state District Attorney's offices, or federal Assistant U.S.
+Attorney's offices.
+
+
+                                                                                                    128 of 284
+training runs and AI hardware development, limiting the rate at which a compute
+overhang [146] develops after these controls are implemented [229].87
+
+The FAISA should adjust the restricted threshold that defines Tier 4 over time. Many of
+the requirements of Tier 3 (see 4.1.3.4.3) are intended to aggregate evidence,
+from across multiple AI models and developers, that AI systems just below the
+controlled threshold are safe. Once the FAISA has accumulated enough evidence for
+safety, it should raise the restricted threshold to permit further scaling.
+
+But it is also possible that improved fine-tuning techniques, or other evidence that AI
+systems just below the restricted threshold are exhibiting dangerous capabilities or
+propensities, will require the FAISA to lower the controlled threshold. If this occurs, the
+FAISA might lower the controlled threshold in such a way that an existing, planned, or
+in-training AI model that fell below the previous controlled threshold (and therefore
+under Tier 3, see 4.1.3.4.3), now falls above the new restricted threshold (and therefore
+under Tier 4). If this occurs, the model or training run should be grandfathered as Tier 3
+by default, but the FAISA should be empowered to classify such models as Tier 4 on an
+emergency individual basis, thereby prohibiting their further training. Any models that
+are trained before these RADA safeguards come into force could also be
+grandfathered in under the same conditions.
+
+4.1.3.5 General provisions for all licensed entities
+
+Under this RADA safeguards framework, additional general requirements would apply
+across the three types of licensed entities that operate parts of the AI model training
+stack: licensed DCIPs (see 4.1.3.2.2, Tier 2), AIHOs (see 4.1.3.3.2, Tier 2), and AIMDs
+(see 4.1.3.4.3, Tier 3). While we believe the requirements in this section should be
+considered core components of strong RADA safeguards, we expect them to require
+frequent updates in response to new technical developments. The FAISA should also
+be able to designate which tiers and entities they apply to.
+
+Risk governance. Licensed DCIPs, AIHOs, and AIMDs should implement
+organizational safeguards for advanced AI risk management including clear internal
+accountability for potential catastrophic AI risks. This would include appointing a Chief
+Risk Officer (CRO), a senior executive responsible for advanced AI risk management. It
+
+
+87 A compute overhang refers to the regime in which AI model scaling is not limited by compute
+
+availability. Frontier labs such as OpenAI have raised the concern that a compute overhang could lead to
+rapid and unpredictable jumps in AI capabilities, which RADA safeguards like a Tier 4 controlled
+threshold could partially mitigate [6].
+
+
+                                                                                             129 of 284
+would also include setting up an internal audit team [230] which would assess the
+effectiveness of the entity’s advanced AI risk management practices and report any
+shortcomings to its Board of Directors or equivalent body. Licensed entities could also
+form a risk committee which would oversee the entity’s risk management practices.
+Finally, licensed entities would implement a risk management framework (e.g., 3LoD
+[231]) to assign and coordinate different risk management roles and responsibilities.
+
+Outside and insider threat countermeasures. Licensed DCIPs, AIHOs, and AIMDs
+should adhere to stringent cyber, operational, and physical security safeguards that
+mirror those required in the civilian nuclear industry [232]. The primary goal of these
+safeguards is to introduce as much friction as possible to unauthorized access or
+exfiltration of model weights by attackers, including nation-state attackers
+(Introduction, 0.5.1.5). The licensed entities would have these security measures
+audited regularly by third parties, which could include red teaming and penetration
+testing by both private sector security firms and the IC. In the event of significant
+security deficiencies, the FAISA could revoke the deficient entity’s license, forbidding it
+from training, supporting, or hosting Tier 3 models.
+
+Should model weights be leaked or stolen, a thorough investigation would be
+warranted, which could involve U.S. intelligence agencies and counterintelligence
+efforts, depending on the nature of the leak. If a Tier 3 model is leaked, the FAISA
+could revoke the licenses of the involved organizations, forbidding them from training,
+supporting, or hosting Tier 3 models. Depending on the nature and severity of the
+leak, the revocation may be permanent (see 4.2).
+
+Model containment measures. Licensed DCIPs, AIHOs, and AIMDs would be
+mandated to uphold stringent model containment safeguards. This could encompass
+emergency shutdown procedures and information-gapping measures to ensure that
+models do not have access to security-sensitive data sources (Annex N, N.4). It could
+also include ensuring “kill switch” oversight from humans that are firewalled from
+contact with the model’s outputs, “dead man switch” protocols that would pause
+training in the absence of approval by a risk committee, or other monitoring systems
+designed to notice when a model has breached containment (Annex O, O.5) [233].
+
+AI safety and security training. Licensed DCIPs, AIHOs, and AIMDs would ensure that
+their employees undergo regular AI safety and security training. The training would not
+only cover safety measures but also educate employees about their rights, especially
+concerning whistleblowing (see below). It should explicitly educate employees about
+risks from weaponization and loss of control (Introduction, 0.2.1 and 0.2.2), and could
+be bolstered by programs from LOE2, 2.2.
+
+
+                                                                                  130 of 284
+Whistleblower protections. Employees of licensed AIMDs, AIHOs, or DCIPs who
+identify potential risks or dangers in a model based on reasonable belief, could be
+protected by law. All employees could be made aware of these protections during
+mandatory training sessions. Whistleblowers who point out the need for a new AI
+evaluation, which an AIMD could be neglecting, could explicitly be protected.
+
+Whistleblowers who uncover significant issues could receive substantial rewards, carved
+out as a percentage of fines levied onto the licensed entity. The intent of these rewards
+is to replace lost earnings in the event that the whistleblower’s career is impacted by
+their actions.
+
+A whistleblower’s identity should be kept confidential, though the FAISA may weigh
+the value of anonymity against the value of their evidence in the event that a
+whistleblower’s direct testimony is needed to bring criminal charges to a licensed entity
+(see 4.2.2) [234].
+
+Incident reporting. Licensed DCIPs, AIHOs, and AIMDs would report any major AI-
+related incidents that have caused or risked causing harm or property damage above a
+certain threshold to the FAISA (Annex Q, Q.1). The FAISA would then decide on the
+necessary action. If a whistleblower reports a major incident before their employer
+does, the latter should face penalties and a potential suspension of their license (see
+4.2).
+
+4.1.4 Publication controls
+
+We recommend that the Congress direct the FAISA to commission an in-depth expert
+study to investigate possible regimes for legal publication controls on specific AI
+capabilities research. As part of this study, the FAISA could consult experts from
+academia, industry, and the broader AI safety community including federal AI research
+Centers (LOE3, 3.1.1 and 3.1.2).
+
+Publication controls on research related to improvements in training algorithms are
+particularly important, since these improvements reduce the effectiveness of compute
+controls and export controls [86,235,236] (Introduction, 0.5.1.6 and 0.5.3.2). Any work
+that increases training data efficiency, reduces TOPS cost per increment of training loss,
+leads to improved scaling laws, or otherwise makes it easier to scale AI systems’
+performance would fall under this category.
+
+
+
+
+                                                                                131 of 284
+Certain research areas that could make AI capability emergence more unpredictable
+may also need to be controlled. This includes research related to recursive self-
+improvement (RSI) in particular, for example a model being re-trained or fine-tuned on
+its own outputs [237]. Improvements in long-term planning and general reasoning are
+also areas of potential concern, since advances in understanding in these areas could
+quickly lead to large unpredictable jumps in AI capabilities. This could also have
+implications for the I&W and contingency planning workstreams in LOE2, 2.3 and 2.4.
+
+Controls could include review and compliance frameworks applied during the
+publication process, as well as more stringent controls on publishing research that
+involves or applies to Tier 3 AI models or individuals who have worked or currently
+work with such models. A key challenge for such controls is that breakthrough research
+in AI capabilities is sometimes published by independent researchers outside frontier
+labs. Recent examples include FlashAttention, which increased the scalability of in-
+context memory for large language models (LLMs) [28]; Auto-GPT, which allows an LLM
+to assign sub-tasks to copies of itself; and direct preference optimization (DPO), a
+recent improvement over the RLHF alignment technique [238].
+
+Finally, in making these recommendations, the FAISA should balance the risks
+associated with publication against the need to keep the United States attractive as a
+hub of advanced AI research (Introduction, 0.4.2). Measures including simplified entry
+and immigration of foreign AI researchers to the United States (LOE1, 1.5.5) could
+contribute to this objective.
+
+
+
+
+                                                                               132 of 284
+4.2 Legislative environment
+
+Advanced AI may introduce catastrophic risks that are not addressed by the current
+legislative environment (Introduction, 0.5.4.1). We recommend that the Congress
+address this gap through a new legislative framework that directly associates escalating
+risks from AI with escalating statutory safeguards. This framework would include three
+components:
+
+    ● Civil liability for actions that introduce or exacerbate recoverable catastrophic
+      risks;88
+
+    ● Criminal liability for actions that attempt to subvert the FAISA’s authority in a way
+      that may introduce recoverable or unrecoverable catastrophic risks; and
+
+    ● Emergency executive powers to address rapidly developing situations in which
+      unrecoverable catastrophic risks are likely to materialize without swift U.S.
+      government intervention.
+
+We outline our proposed framework in more detail below.
+
+4.2.1 Civil liability
+
+Under this proposed framework, all individuals and entities involved in the AI supply
+chain would owe a legally enshrined duty of care to ensure that their AI systems do not
+introduce risk from loss of control and cannot be weaponized by third parties.
+
+The obligations attached to this duty of care would include:
+
+    ● Ensuring AI systems do not inadvertently harm innocent parties;
+
+    ● Preventing cutting-edge AI from infiltrating third-party systems without
+      permission;
+
+
+
+88 A recoverable catastrophic risk has a worst-case impact that does not lead to irreversible, global-
+
+scale harm. Civil and criminal liability may therefore be adequate to address these severe but
+recoverable incidents. An unrecoverable catastrophic risk, by contrast, could in the worst-case
+irreparably damage national security, or human welfare globally. In the latter case the threat of post-hoc
+litigation may be meaningless, and would represent an insufficient disincentive to reckless activity. See
+the Glossary of terms for our full definitions of recoverable and unrecoverable catastrophic risk.
+
+
+                                                                                                133 of 284
+   ● Safeguarding the unique algorithmic configurations of advanced AI (particularly
+     model weights) from public exposure or theft (Introduction, 0.5.1.5); and
+
+   ● Maintaining stringent security measures against unauthorized use of advanced
+     AI, AI hardware, or data center infrastructure, which would involve actively
+     identifying potential misuse, monitoring for such misuse, and taking swift action
+     if any unauthorized access or misuse is detected.
+
+If multiple parties are found in breach of these responsibilities concerning the same AI
+system or related equipment, they could share the responsibility for any ensuing
+damages or harms. Individuals could be allowed to pursue legal action for damages
+exceeding a substantial monetary threshold (for example, $100 million) resulting from
+such breaches. Claims less than this monetary threshold would not be addressed by
+this framework. The idea is to clearly target catastrophic risks posed by the technology,
+which could require an approach distinct from smaller scale AI incidents [239].
+
+Certain violations, like failing to obtain necessary AI licenses from the FAISA or
+violating licensing terms, could automatically constitute negligence. In situations where
+damages above the monetary threshold are claimed due to a violation of the
+established duty of care, the violating entity could be held directly accountable for all
+physical, property, and financial damages resulting from events tied to such a violation.
+In such cases, strict liability could apply, so plaintiffs would not be required to establish
+the specific cause of the accident in order to be compensated. This is essential to
+incentivize AI model developers to proactively anticipate large-scale harms that may be
+associated with their development and deployment activities (Introduction, 0.5.1.1).
+Strict liability may also incentivize insurance providers to increase premiums for
+customers they assess to be engaged in development activities that could lead to
+advanced models with the potential to cause damages above the monetary threshold.
+
+Strict liability could only apply to cases in which significant damages occur, however, in
+order to avoid stifling industry by imposing liability for smaller, non-catastrophic harms
+(Introduction, 0.4.2). Making strict liability conditional on a license violation also
+mitigates the burden of frivolous litigation on regulated entities. Exemptions could also
+be made for genuine accidents, provided they arise in spite of reasonable measures to
+prevent them. Purely clerical or mathematical errors could fall under these exemptions,
+but errors in legal or technical judgments related to duty-of-care obligations would not.
+Finally, the fact that a product or service is free, collaborative, open-source, or open-
+access would not serve as a defense against any liabilities arising under this framework.
+
+
+
+
+                                                                                   134 of 284
+In addition to strict liability, joint and several liability could also apply to incidents
+causing harms above the monetary threshold. This is in order to resolve what would
+otherwise be an ambiguous diffusion of responsibility among AIHOs, AIHDs, DCIPs,
+and AIMDs for high-impact incidents.89
+
+Finally, there could exist a safe harbor from strict liability for regulatory tiers designated
+by the FAISA. For example, the FAISA could determine that only Tier 2 AIHDs, AIHOs,
+and DCIPs, and Tier 3 AIMDs and above are subject to strict liability provisions. This
+would equip the FAISA to avoid a circumstance in which a low-risk model happens to
+be used as a non-critical component of a system that causes damages above the
+monetary threshold. Without a safe harbor, strict liability might otherwise apply to the
+entity that trained the low-risk model, even though it did not meaningfully contribute
+to causing the damages.90
+
+Safe harbor provisions might also serve as an incentive for entities to comply with
+regulatory requirements. If registering as a Tier 3 AIMD offers the AIMD a safe harbor
+from strict liability, the AIMD may be more likely to register. In practice, an objective of
+this framework is to ensure that strict liability applies only to the very small group of
+individuals and AI models engaged in the highest-risk AI development and
+deployment activities.
+
+4.2.2 Criminal liability
+
+A criminal liability framework for AI is essential. The magnitude of the risks posed by
+reckless advanced AI development and deployment practices necessitates
+
+89 That is, if a high-impact incident occurs, it may be unclear whether responsibility should rest with the
+
+AIMD who created the system, the AIHO or DCIP who may have supplied computing resources to the
+AIMD without adequate safeguards, or individual decision-makers within each entity. Joint and several
+liability allows an injured party to sue any one responsible party for entire damages relating to an
+incident, and places the responsibility on all parties to subsequently allocate the portion of the entire
+damages paid by each.
+
+90 An important technical consideration that motivates safe harbor provisions for strict liability has to do
+
+with the amount of effort required by the user or developer of a system to do significant damage. Low-
+capability AI systems require effortful and deliberate engineering to cause significant harm. In these
+cases, it makes sense to hold individuals who deliberately weaponize these systems liable for these
+harms. However, as AI systems become more capable, the systems themselves begin to drive larger
+portions of the risk: an AI system capable of autonomously executing a catastrophic cyberattack may
+require little more than a prompt from a user to cause significant damage, for example. In the latter case,
+the model developer plays a critical role in causing damages, and should bear legal responsibility for
+them.
+
+
+                                                                                                  135 of 284
+proportionate safeguards. These risks include threats to national security and public
+safety borne by society at large (Introduction, 0.5.1.1 and 0.5.4.1).
+
+Under this proposed legislative framework, the law would establish penalties for
+dangerous behaviors on the part of individuals and entities involved in the AI supply
+chain. These penalties would be designed to deter irresponsible and negligent
+behavior and ensure accountability from these individuals and entities.
+
+Any individual who commits a crime related to AI operations could be subjected to
+fines, and distinct penalties could be designated for particular infractions. For example,
+misdemeanors could include:
+
+   ● Failure to accurately report high-performance AI hardware or qualifying data
+     center infrastructure to the FAISA (see 4.1.3.1.2, 4.1.3.2.2, and 4.1.3.3.2);
+
+   ● An AIMD misrepresenting its safety protocols or providing misleading
+     information when pre-registering a training run that could plausibly lead to a
+     model with dangerous capabilities or tendencies (for example, a Tier 2 or Tier 3
+     training run; see 4.1.3.4.2 and 4.1.3.4.3);
+
+   ● An AIMD, AIHO, AIHD, or DCIP operating above their respective licensing
+     thresholds without a license; and
+
+   ● An AIMD, AIHO, AIHD, or DCIP responding to information requests from the
+     FAISA with misleading data.
+
+Felonies could include:
+
+   ● Disregarding an emergency order to halt AI development activities;
+
+   ● Engaging in development activities that require a license following the rejection
+     of a license application; and
+
+   ● Breaching the conditions of a license, especially if these violations lead to
+     heightened security risks or cause damages exceeding a significant monetary
+     threshold (e.g., $100 million), or if the entity or its management have prior
+     convictions under this liability framework.
+
+Under this framework, entities could be barred from indirectly or directly covering fines
+levied against their representatives. Compensation modifications to offset these fines
+
+
+                                                                                 136 of 284
+could also be prohibited. For non-profit entities or those where profits cannot dictate
+the penalty magnitude, a court might impose increased fines.
+
+For misdemeanors, an entity's licenses could be suspended for a moderate duration
+(e.g., between 1 month and 1 year). During this period, all AI-related activities above
+the licensing threshold could be prohibited. For felonies, all of the entity's licenses
+could be revoked, and the entity would be ineligible for new licenses for a significant
+period (e.g., five years). The entity could also be mandated to encrypt all its AI model
+weights, and only authorized license holders would be able to decrypt them.
+Additionally, the entity could be required to sell or destroy its AI hardware within 60
+days. Crimes should be referred to the DOJ for prosecution.
+
+We also recommend that the Congress investigate the constitutionality of fast-track
+procedural options, with a view to including them in relevant legislation if appropriate.
+This would give the government the option to respond to serious regulatory infractions
+at the speed of relevance, and would provide additional deterrence for illegal
+development and deployment practices.
+
+4.2.3 Emergency powers
+
+Even the possibility of criminal sanction may be insufficient to mitigate catastrophic
+risks from AI in certain contexts. This is for three reasons. First, some organizations may
+choose to take actions that create catastrophic AI risk without institutionally recognizing
+that they are doing so. These organizations may not respond to the prospect of
+criminal sanction associated with catastrophic outcomes, since they do not believe that
+their activities will produce those outcomes (Introduction, 0.5.4.1).
+
+Second, AGI development has winner-take-all characteristics. AI labs therefore face
+powerful incentives to circumvent regulatory constraints and pursue clandestine AGI
+research programs even if they consider these activities to be dangerous (Introduction,
+0.5.3.1).
+
+Finally, some of the risks from weaponization and loss of control associated with
+advanced AI development may be WMD-like and unrecoverable, meaning that
+effective risk mitigation strategies cannot be solely reactive (Introduction, 0.5.1.1).
+
+New frontier AI models can be trained in a matter of weeks. Once trained, they can be
+augmented in potentially dangerous ways with access to tools, through fine-tuning, or
+via other techniques in a matter of hours. In order to prevent illicit and highly
+
+
+
+                                                                                   137 of 284
+dangerous AI development or deployment activities on the relevant timescales, we
+believe the U.S. government will require new emergency powers.
+
+We recommend an emergency powers framework consistent with the defense in depth
+principle that we assess is required to safeguard against catastrophic national security
+risks from advanced AI. In particular, we recommend that the Congress authorize the
+President certain emergency powers under one of two conditions:
+
+   ● If the President declares a national emergency due to a substantial national
+     security threat stemming from advanced AI; or
+
+   ● If the Administrator of the FAISA identifies a clear, immediate, and major
+     national security threat from one or more advanced AI systems which cannot be
+     curtailed by normal enforcement mechanisms.
+
+In this latter case, we recommend that the FAISA Administrator’s determination be
+made public in the Federal Register.
+
+In the event that an AI developer is determined to engage in high-risk illicit
+development or deployment, a rapid and technically informed response is essential.
+Because of its depth of technical expertise and understanding of the AI ecosystem, the
+FAISA – through its Administrator – could be empowered to suspend AI licenses
+immediately, demand halts to certain AI-related activities, enforce safety measures,
+secure or encrypt AI model weights, restrict access to specific AI systems, or impose a
+general moratorium on AI research and development.
+
+This would create a much-needed capacity for rapid and decisive response, and
+provide the relevant U.S. government agencies with the time they may need to
+understand the situation and context, before taking more decisive and long-term
+actions.
+
+Those who disagree with these emergency orders, either on technical or policy
+grounds, should have a right to appeal. If they believe the order is unlawful or
+unconstitutional, they would also be able appeal to the federal district court.
+
+In the event of economic losses due to compliance with an emergency order, affected
+parties should have a right to compensation from the government. Losses could be
+gauged on tangible expenses, actual investments, and the value of destroyed property.
+
+
+
+
+                                                                               138 of 284
+4.3 Advanced AI in national security systems
+
+Over time, we expect that advanced AI systems will be developed and deployed as
+components of national security systems. This will include applications in defense,
+intelligence, and other sensitive areas.
+
+On the one hand, the national security imperative could necessitate less stringent
+RADA safeguards than those in other areas, particularly with respect to weaponization
+applications. On the other hand, there is no currently known method to reliably align
+an AGI-level system, and misaligned systems that are capable enough are likely to
+engage in extremely dangerous behavior by default (Introduction, 0.2.2 and 0.5.1.1).
+As a result, the development or deployment of a sufficiently capable AI system by any
+actor – including by national security agencies — could in and of itself create
+substantial national security risk regardless of the system’s intended purpose.
+
+The nature of and appropriate enforcement mechanisms for guardrails associated with
+national security applications of advanced AI remain open questions. In practice, the IC
+and DOD have internal oversight mechanisms, and the Inspector General and General
+Counsel already implement relevant usage controls internal to these departments and
+agencies. Similar mechanisms could be adapted to provide oversight for advanced AI
+development and use in national security systems under a modified set of RADA
+safeguards following a clear set of principles (LOE1, 1.3.2).
+
+Another option could be to establish a “national security FAISA,” with the authority to
+audit and intervene in the advanced AI activities of the national security agencies. This
+latter option has significant challenges, including the potential to dilute the talent pool
+available to other regulators, bifurcating institutional process knowledge on AI safety.
+
+A related concern is that AI systems could be developed and deployed in national
+security contexts in ways that could challenge long-standing U.S. Constitutional norms.
+For example, deploying an AI system capable of superhuman persuasion could
+undermine the democratic process, yet also be required to counter potential offensive
+deployments of such systems by adversaries in the domestic information environment
+(see Annex F: Persuasion and manipulation).
+
+It will be essential for society to strike a balance between privacy and security in the
+context of advanced AI, particularly when these systems are developed for use in
+national security contexts. Consistent with other advanced technologies, there is a
+need for an open, grounded, and technically informed dialogue between the
+
+
+
+                                                                                  139 of 284
+Congress, the Executive Branch, and the public on how advanced AI can best be used
+to safeguard both national security and Constitutional freedoms.
+
+
+
+
+                                                                          140 of 284
+
