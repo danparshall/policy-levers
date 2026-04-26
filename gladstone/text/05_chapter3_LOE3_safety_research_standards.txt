@@ -1,0 +1,548 @@
+LOE3: Increase national investment in technical AI
+safety research and standards development
+
+
+
+
+The acceleration of investment in AI capabilities is outpacing the development of
+proportionate technical safeguards against advanced AI and AGI risks [5] (Introduction,
+0.5.1.2 and 0.5.1.3). If this continues, frontier AI labs may find themselves unable to
+meet the safety and security challenges posed by their own systems (Introduction,
+0.5.1.4). Unless strong technical safeguards are designed, standardized, and broadly
+applied, continued development and adoption of frontier AI systems could create
+significant risks (Introduction, 0.5.1.1).
+
+This LOE outlines specific actions the U.S. government could take to strengthen
+domestic technical capacity in advanced AI safety and security, AGI alignment, and
+other technical AI safeguards. These actions include:
+
+   ● Directly funding advanced AI safety and security research including AGI-
+     scalable alignment research (see 3.1); and
+
+   ● Developing, regularly reviewing, and promulgating safety and security
+     standards for responsible AI development and adoption (see 3.2).
+
+
+
+
+                                                                               89 of 284
+These solutions would grow the pool of competent AI and AGI safety and security
+researchers, encourage organizations to invest in AI safety and security, and increase
+overall understanding of AGI alignment techniques.
+
+
+3.1 Federally funded research in AI safety and security and
+AGI-scalable alignment
+
+Since 2021, annual private spending on AI capabilities has exceeded $100B,
+dramatically outstripping funding for AI safety and security [184]. AI capabilities
+research publications outnumber safety publications by a fifty-to-one margin [184]. Yet
+according to experts, in order for the level of investment in AGI-scalable safety
+research to approach the level needed to address catastrophic AI risk, it would need to
+reach at least 50% of total research spend [185]. The current funding gap exists
+because, while AI safety and security is a common good, AI capabilities produce
+benefits that are easier to privatize. As a result, private industry has a strong incentive
+to invest in capabilities at the expense of research aimed at catastrophic AI risk
+reduction (Introduction, 0.5.1.4, 0.5.1.5, and 0.5.3.1).
+
+Aside from private industry and academic labs [186,187], there is also an emerging
+ecosystem of independent AI safety researchers, nonprofit and for-profit AGI alignment
+labs [188–190], and advanced AI auditing firms [94,166,191]. However most of the
+organizations in this ecosystem currently rely on a small set of donors for funding,
+which could limit the diversity of strategies to AGI alignment reflected in the output of
+the AI safety research community.48 Because AGI alignment is still a nascent field that
+benefits disproportionately from a breadth of research approaches, this concentration
+of funding sources could create limitations to progress.
+
+The U.S. government is uniquely positioned to close the funding gap between AI
+capabilities and AI safety and security, accelerate progress on core problems, and
+diversify the set of funding sources and research programs aimed at solving AGI
+alignment.49 See Annex L: AI safety and security research topics for a list of research
+areas that could be supported by U.S. federal funding.
+
+
+
+
+48 See Annex E: Funding in AI safety for more information.
+
+
+49 See Annex B: The full challenge of AGI alignment for details.
+
+
+
+                                                                                   90 of 284
+3.1.1 Levels of AI safety and security research
+
+In addition to its capacity for funding critical basic research, the U.S. government can
+also ensure that those research efforts adhere to necessary security practices and that
+they have the required levels of access to key technologies, resources, and talent. This
+is critical in the context of AI safety and security research that may require interacting
+closely with potentially dangerous frontier AI models.
+
+Not all such research will require the deepest levels of access. We recommend
+establishing tiers of AI safety and security research that reflect the escalating risk and
+responsibility associated with granting researchers broader access to increasingly
+capable models and evaluation capabilities. We provide a possible categorization
+below along with examples.
+
+3.1.1.1 Open-source and public research
+
+Some types of AI safety and security research involve only low-risk activities and do not
+require any special access to frontier AI models. All aspects of research at this level can
+and should be publicly shared. Funding of open-source research could support
+independent AI alignment and AI safety and security researchers and organizations. It
+could also support the development of software tools and frameworks with important
+safety and security applications, such as test harnesses, evaluation frameworks,
+sandboxes, and interpretability tools. To maximize the diversity of research approaches,
+we recommend that funding grants at this level impose minimal compliance overhead
+on recipients.
+
+Some examples of research at this level could include:
+
+   ● Certain kinds of evaluations for advanced AI systems, including basic sandbox
+     and testbed development;
+
+   ● Certain kinds of AI interpretability research, including on sub-frontier AI models
+     generally regarded as safe [192];
+
+   ● Theoretical research aimed at investigating evidence for risks associated with
+     power-seeking and associated tendencies [2,47];
+
+   ● Research aimed at determining the extent to which existing alignment
+     techniques could or could not scale to AGI-level systems [84]; and
+
+
+
+                                                                                    91 of 284
+   ● Basic research into on-device monitoring for AI chips [148].
+
+The decision to classify AI safety research as open-source should take into account the
+risk that the research could empower threat actors to weaponize AI more effectively,
+subvert on-chip monitoring capabilities (e.g. LOE1, 1.5.3), or otherwise accelerate or
+proliferate AGI development. But it should also account for the potential economic and
+societal harms of withholding such research from the public (Introduction, 0.4.2). As a
+result, publication decisions should be closely informed by input from academic
+researchers, the AI safety and national security communities, and private sector
+industry including the startup community.
+
+Funding for open-source and public research could be directed towards the following
+types of entities:
+
+   ● Academic labs and independent researchers working on AI safety and security
+     projects;
+
+   ● Nonprofits conducting AI safety and security research;
+
+   ● Researchers at National Labs and other centers of excellence within the U.S.
+     government with the capacity to pursue AGI-scalable alignment research;
+
+   ● For-profit AI safety research labs working on AGI-scalable alignment techniques.
+
+3.1.1.2 Research that requires access to proprietary AI models
+
+Certain essential types of AI safety and security research will require a high degree of
+access to frontier labs’ proprietary AI models, or may otherwise involve moderate-risk
+activities without being sensitive enough to necessitate a security clearance. Some of
+the results of research at this level could still be published, but the extent of disclosure
+should be informed by risk assessments and IP considerations.
+
+The government can play a key role in supporting this research by offering direct
+funding, mediating researcher access to developers’ AI models, and overseeing
+researcher compliance with the necessary security practices. This could involve
+certifying AI safety research groups or individual researchers to access frontier labs’
+proprietary AI models. This approach could also be used to support AI evaluator
+certification and access to frontier lab models by entities such as the ASTF (see LOE1,
+1.4.1.2) or a permanent regulator (see LOE4, 4.1.2.1).
+
+
+
+                                                                                    92 of 284
+Some examples of research at this level could include:
+
+   ● Research that involves inducing powerful AI models to behave in dangerous
+     ways, such as behavioral and propensity evaluations for dangerous capabilities
+     like deception and persuasion [193];
+
+   ● The development of some sets of private AI evaluations that should be withheld
+     from frontier labs to avoid compromising the integrity of model audits (see
+     3.2.2);
+
+   ● Some kinds of fundamental AGI alignment research, particularly if they require
+     direct access to frontier models;
+
+   ● Mechanistic interpretability research that requires direct access to frontier
+     models [194]; and
+
+   ● Research into on-device monitoring for AI chips that could benefit from frontier
+     labs’ engineering resources or expertise in scaled AI training runs [148].
+
+Given the potential sensitivity of research in this category, researchers and model
+evaluators may require dedicated infrastructure to support secure access to the weights
+of frontier AI models. We describe a high-level weight-sharing protocol that could meet
+this requirement in Annex M: Secure temporary storage of model weights. In addition
+to directly funding private collaborations with AI labs, the government could fund the
+development of secure information-sharing infrastructure to ensure this research can
+occur securely and with minimal friction.
+
+3.1.1.3 National security research
+
+The most high-risk category of AGI safety research will likely involve unrestricted access
+to frontier AI models to evaluate propensities for highly dangerous capabilities,
+including WMD-like and WMD-enabling capabilities. This category of research will
+need to be conducted in a classified environment by cleared researchers following
+appropriate security procedures. Some kinds of model evaluations overseen by entities
+such as the ASTF (see LOE1, 1.4.1.2) or a permanent regulator (see LOE4, 4.1.2.1) may
+need to be classified at this level.
+
+Similarly to proprietary research (see 3.1.1.2), this level of research would enable a
+capability for secure sharing of the weights of frontier AI models. See Annex M: Secure
+
+
+
+                                                                                  93 of 284
+temporary storage of model weights for a description of a high-level protocol for
+weight-sharing.
+
+3.1.2 Organizational framework
+
+The U.S. government would need the ability to identify, fund, and administer promising
+research projects at each of the sensitivity levels in 3.1.1. Each level may have a
+different set of oversight, administration, and funding conditions that reflect its degree
+of risk and access requirements.
+
+The U.S. government has already begun developing a capacity that could support such
+activities. In January 2024, the National Science Foundation (NSF) launched a pilot
+program for a National AI Research Resource (NAIRR) [195,196], whose budget is
+estimated to reach $2.6 billion over an initial six-year period. The NAIRR also includes
+an initiative called NAIRR Secure, which aims to support research involving sensitive
+data by assembling secure compute clusters and other privacy-preserving resources
+[197]. One of the NAIRR’s four key goals is to advance trustworthy AI [198].
+
+Many of the AI safety and security research areas relevant to mitigating catastrophic
+risk from advanced AI are aligned with this NAIRR key goal. As a result, we believe that
+relevant research directions at each of the relevant sensitivity levels (see 3.1.1) could be
+directly supported by:50
+
+    ● The NAIRR, through a dedicated National Center for AI Alignment and Security
+      Research (NCAASR) established under the NAIRR;
+
+    ● A new AI Alignment and Security (AAS) Federally Funded Research and
+      Development Center (FFRDC), possibly in collaboration with the NAIRR;51 or
+
+
+
+
+50 Given that there are ongoing U.S. government workstreams in this area, we recommend considering
+
+these options in conjunction with other entities that could already be in development.
+
+51 One advantage of an AAS FFRDC is that it could be sponsored by organizations such as the Defense
+
+Advanced Research Projects Agency (DARPA), the Intelligence Advanced Research Projects Activity
+(IARPA), or the DOE’s National Laboratories, which all have established CBRN research capabilities that
+could support in designing AI evaluations for frontier models. An AAS FFRDC would also offer the
+government a classified and secure environment in which researchers can be paid industry-competitive
+salaries. This is a particularly important factor given the prevailing level of compensation at frontier AI
+labs (see LOE1, 1.4.2).
+
+
+                                                                                                   94 of 284
+    ● Both a NCAASR and a new AAS FFRDC, with research areas divided between
+      them and research collaborations in areas of mutual interest.
+
+We recommend that these Centers establish a review process to determine which kinds
+of safety research should remain unpublished, and base decisions on national security
+risk assessments (LOE4, 4.1.4).52 This review process could also be informed by an
+ASTF’s work under LOE1, 1.4.1.3 and be developed in consultation with members of
+the technical AI safety community.
+
+These Centers could also advance basic scientific research into AGI alignment,
+normalize the field, and grow the overall pool of researchers.
+
+3.1.2.1 Considerations for AGI alignment research
+
+Many alignment techniques that work on less capable AI systems are not expected to
+work on AGI-level systems [84] (Introduction, 0.5.1.4). It is also easier to make
+measurable progress on sub-AGI alignment than on AGI-scalable alignment. As a
+result, we recommend that these Centers define and fund research workstreams fully
+and exclusively dedicated to developing alignment techniques that are intended to
+scale to AGI-level systems. Absent a clear institutional prioritization of AGI-scalable
+alignment, research effort funded by the Centers risks being expended in areas in
+which progress is more legible but less scalable.53
+
+See Annex B: The full challenge of AGI alignment for a discussion of the reason why
+alignment techniques that work on advanced AI systems may fail once these systems
+reach high enough capability levels. See Annex L: AI safety and security research topics
+for a list of possible research topics that an NCAASR and AAS FFRDC could fund or
+support.
+
+
+
+
+52 This could also be done in coordination with the I&W and contingency planning efforts in LOE2, 2.3
+
+and 2.4.
+
+53 Moreover, many forms of sub-AGI alignment research deliver immediate economic returns by making
+
+it easier for users to extract value from better-aligned, sub-AGI scale systems. As a result, these research
+areas already benefit from substantial investment by private-sector frontier AI labs.
+
+
+                                                                                                   95 of 284
+3.1.2.2 Research collaborations
+
+Centers such as the NCAASR and/or AAS FFRDC could be instrumental in developing
+a regime of technical RADA safeguards (LOE1, 1.3.2) to mitigate potential catastrophic
+AI risks from weaponization and loss of control. The Centers could collaborate with the
+NIST U.S. AISI to standardize this safeguards regime (see 3.2.3), and with entities such
+as an ASTF (LOE1, 1.4.1.2) or future regulatory body (LOE4, 4.1.2.1, 4.1.2.2, and
+4.1.2.4) to implement and oversee those standards. These Centers could also
+collaborate with and support AI safety and security initiatives across the U.S.
+government and beyond, including:
+
+   ● The BIS in periodic reviews of export controls related to catastrophic AI risk
+     mitigation, including support with on-chip monitoring initiatives (LOE1, 1.5.3);
+
+   ● The Department of Commerce and DHS for export license red teaming
+     exercises (LOE1, 1.5.3);
+
+   ● The IC to support creating and updating I&W frameworks (LOE2, 2.3.3);
+
+   ● The NSC to support creating and updating contingency plans (LOE2, 2.4);
+   ●
+   ● The ASTF to help prepare for a future regulatory regime (Annex K, K.2); and
+
+   ● Through the Department of State, international partners such as the U.K.
+     Frontier AI Taskforce and the U.K. AI Safety Institute (U.K. AISI) [199].
+
+Operationally, with the support of the NAIRR, the Centers could also foster direct
+collaboration between independent AI safety and security researchers, academics, and
+industry, including frontier labs. This could include funding the development of
+infrastructure to support secure information sharing with frontier labs (e.g., NAIRR
+Secure [197]). It could also offer researchers access to computing resources [198].
+
+3.1.2.3 Sensitive research areas
+
+Certain types of research aimed at mitigating catastrophic weaponization risk from
+CBRN, cyber, and other applications enabled by advanced AI will require direct access
+to frontier models, secure information environments, and cleared personnel (see
+3.1.1.3). This may also be the case for some categories of research investigating the
+risk of loss of control due to alignment failure of high-capability AI systems.
+
+
+
+                                                                                 96 of 284
+The level of security required to support such research will likely require close
+coordination between frontier AI labs, the teams conducting the research, the IC, and
+the Centers supporting the research. The Centers would also need infrastructure to
+support highly secure sharing of information with frontier labs, including model weights
+(see 3.1.1.3).
+
+Given the substantial overlap in requirements and likely collaboration in other areas,
+the Centers could also consider sharing infrastructure between sensitive AI research
+initiatives and the regulatory bodies overseeing private-sector AI scaling, including
+model evaluations for CBRN and other capabilities (Annex K, K.1 and LOE4, 4.1.3.4.3).
+
+
+3.2 Standards for AI evaluations and RADA safeguards
+
+Without clear standards for responsible AI development and adoption (RADA),
+advanced AI developers lack principles against which to judge the adequacy of their
+safety and security practices. Self-regulatory industry bodies such as the FMF
+(Introduction, 0.4.1) could have a positive influence on the development of such
+standards. But competitive pressures — including from challenger labs whose models
+lag the public frontier by 12 months or less, and are even less rigorous in their safety
+measures [51,200,201] (Annex D, D.1) — ultimately drive even the frontier labs to
+employ inconsistent and inadequate safety and security practices (Introduction, 0.5.1.4,
+0.5.1.5, and 0.5.3.1).
+
+It is therefore crucial to develop standards for RADA safeguards which address
+catastrophic risks from weaponization and loss of control in a rigorous and technically
+informed manner. These should include standards for the evaluation of AI models’
+behaviors and propensities to display dangerous capabilities [46]. NIST, through the
+U.S. AISI [202], is currently spearheading U.S. government efforts to develop and
+promulgate AI evaluation standards consistent with the NIST AI Risk Management
+Framework [203].
+
+In addition to AI evaluations, standards for effective RADA safeguards will also need to
+comprehensively address security, risk governance, incident reporting, and other key
+issues across multiple layers of the advanced AI supply chain. See LOE1, 1.3.2 for our
+recommendations on guiding principles behind these standards.
+
+Finally, ongoing refinement and updating of standards for RADA safeguards could be
+supported by expanded national research capacity in AI safety and security research as
+described in 3.1.
+
+
+
+                                                                                 97 of 284
+3.2.1 Limitations of AI evaluations
+
+AI evaluations are important tools to increase confidence in the safety and security of
+advanced AI systems and support RADA safeguards. And depending on the degree of
+coverage and prior real-world experience with an evaluation set, passing a set of AI
+safety evaluations may offer a strong positive indicator of the safety of an AI system.
+But AI evaluations are inadequate on their own to fully assure that an AI system or
+model is safe to develop or deploy, because they suffer from a number of fundamental
+limitations in coverage and reliability [204]. We list below some of these key limitations,
+and discuss ways to mitigate their impacts in 3.2.2.
+
+3.2.1.1 AI evaluations are not comprehensive
+
+Current AI evaluations cannot provide comprehensive coverage of an advanced AI
+model’s behavior or risk surface. If there is a dangerous behavior or set of behaviors
+that is not included in the test suite used to evaluate a model, then that behavior will
+not be detected, and it could be displayed or elicited under real world conditions [206]
+including under high-risk conditions.
+
+There is also currently no way to reliably predict the emergence of capabilities,
+dangerous or otherwise, from advanced AI systems as they are scaled or augmented
+[165,206]. This means that not only do researchers have no way of knowing in advance
+which kinds of evaluations will be most informative for future AI systems, but they also
+have no way to reliably predict how an existing AI system will behave if it is fine-tuned
+or otherwise augmented. In particular, open-access AI systems can be augmented in
+any number of ways that may be entirely unanticipated by the system’s original
+developers or the evaluators themselves (Introduction, 0.5.1.6). Therefore, as limited as
+AI evaluations are for substantiating the safety of proprietary AI systems, they are even
+more limited when applied to open-access AI systems.
+
+3.2.1.2 AI evaluations cannot con rm that a dangerous capability is
+absent
+
+AI evaluation techniques today are empirical. They generally function by feeding a
+model a wide range of input prompts and observing its outputs.54
+
+
+
+54 More sophisticated techniques may fine-tune a model to attempt to elicit latent capabilities. This is a
+
+more effective approach than prompting, but is still limited.
+
+
+                                                                                                  98 of 284
+                                 fi
+If the model returns a dangerous output in response to an evaluation, this may show
+that the model has a dangerous capability. But if the model does not return a
+dangerous output in response to the evaluation, this could be because the evaluator
+failed to identify an effective prompt, or for other reasons, rather than because the
+model does not have the evaluated capability. Even small changes to prompting
+techniques often reveal latent capabilities that were not detected by prior evaluations
+[207]. As a result, AI evaluations can only reveal the presence, but not con rm the
+absence, of dangerous capabilities [204].
+
+3.2.1.3 AI evaluations are highly vulnerable to manipulation
+
+AI evaluations can be undermined and manipulated easily. If an AI model fails an
+evaluation, its developer can fine-tune the model — or make other superficial changes
+to it — until the model passes that evaluation, without addressing the underlying cause
+of the failure.
+
+For example, suppose an AI model fails a cyberattack evaluation by complying with a
+user request to write working malware. In this case, it is easier for the model’s
+developer to train it to refuse the particular user request it was tested on, than to
+rigorously investigate and address the underlying cause of the behavior. But this
+superficial approach could leave the model vulnerable to jailbreaks [83,208] that induce
+the model to display the undesirable behavior under slightly more complex conditions.
+In other words, the dangerous capability can remain latent, even if an AI model passes
+the evaluation. Moreover, if an AI developer is able to resubmit fine-tuned or
+“patched” models for evaluation an arbitrary number of times, the resubmitted models
+may eventually pass the original evaluations purely or partly by chance [46].55
+
+Given the prevailing competitive environment, frontier AI labs and other advanced AI
+developers face a strong incentive to game evaluations in this way (see 0.5.3.1). In fact,
+by the private judgment of one expert with direct knowledge of the matter, this has
+already begun to occur at one major frontier AI lab. Moreover, AI developers also face
+related incentives to argue that models that pass unreliable evaluations should still be
+considered safe for the purpose of further development or deployment.
+
+
+
+
+55 One frontier AI researcher stated during a private discussion that passing a dangerous capability
+
+evaluation provides little evidence that the model is safe, if the lab developing the model is allowed to
+resubmit tweaked versions of the model for re-evaluation until the evaluation is passed. As they put it,
+“There's a key step [missing] here of figuring out what went wrong.”
+
+
+                                                                                                 99 of 284
+                                                                            fi
+3.2.1.4 AI evaluations could fail systematically in high-capability
+regimes
+
+At higher levels of capability, advanced AI and near-AGI systems could develop the
+capability to infer whether a given interaction is part of their training, their testing, or
+their deployment. This property is called situational awareness [209,210], and
+researchers at major frontier labs believe it could arise as an emergent capability in
+future AI systems [209].
+
+If an AI system can infer that it is being tested, it may have the ability to produce
+different outputs when it is being tested than when it is deployed. In principle this
+could allow the AI model to manipulate its own evaluations, by producing apparently
+safe outputs in response to evaluation queries in testing, and unsafe outputs in
+response to real user queries in deployment [209]. This hypothesized behavior is known
+as deceptive alignment [45] . Deceptive alignment remains a speculative and
+controversial risk [211], but if it manifests, it could systematically undermine the entire
+effectiveness of a naive AI evaluations regime.56
+
+3.2.2 Addressing the limitations of AI evaluations
+
+There are several possible strategies to lessen the impacts of the above limitations on
+the value of AI evaluations as safety signals.
+
+First, a diverse ecosystem of independent AI model evaluators is crucial.
+Independence is crucial because model developers are heavily incentivized to pass
+safety evaluations by making superficial changes that do not address underlying drivers
+of risk (see 3.1.2.3). Independent evaluators can administer private evaluation sets,
+whose exact protocols are not known to AI model developers, and that are therefore
+more difficult to pass by superficial means. Independence also means that AI
+evaluators should not be selected by the AI developers they are evaluating, to avoid
+obvious conflicts of interest. Diversity, on the other hand, is crucial because current AI
+behavioral evaluations are unreliable, and failing to observe a dangerous capability
+may not mean that the capability is actually absent (see 3.2.1.1). A diverse ecosystem
+of evaluators supports multiple independent evaluation strategies and this
+combination is more likely to detect a dangerous capability if one is present.
+
+56 It is also important not to anthropomorphize these risks. Deceptive alignment is not expected to arise
+
+due to sentience, human-projected drives, or consciousness, but rather because, under certain
+circumstances, it may simply be an effective behavior for the purpose of achieving the goals an AI
+system has internalized during its training.
+
+
+                                                                                               100 of 284
+Second, a diverse set of AI evaluations, with different private subsets developed,
+refined, and administered by different evaluators, is also crucial. This is because there is
+no way to fully assess the capability surfaces of modern advanced AI models (see
+3.2.1.1). The broader the set of teams, and the more diverse the evaluations, the lower
+the chance that dangerous capabilities and other risk vectors are unexamined. This also
+means that standards bodies should avoid overspecifying the parameters of AI
+evaluations — with the exception of the security conditions under which they should be
+administered.57
+
+Finally, because AI evaluations may have fundamental limitations (see 3.2.1.4), over-
+reliance on AI evaluations could propagate a false sense of security among AI
+developers, regulators. Instead, AI evaluations could be considered as one part of a
+multifaceted case for model safety and security, consistent with the principle of
+defense in depth.
+
+3.2.3 Standards for RADA safeguards under catastrophic risk
+
+For recommended principles to guide standards development for RADA safeguards
+under catastrophic risk, see LOE1, 1.3.2.
+
+For an example of a complete standards framework for RADA safeguards, including
+sample calculations of thresholds for covered entities, see LOE4, 4.1.3.
+
+
+
+
+57 Because dangerous capability evaluations often involve actively eliciting dangerous capabilities, in
+
+high-capability regimes the evaluations themselves could become sources of risk and should therefore
+observe strict operational security precautions.
+
+
+                                                                                                101 of 284
+
