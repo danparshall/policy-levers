@@ -245,4 +245,194 @@ Gladstone claims this reform would "significantly impact" foreign actors' abilit
 
 ---
 
-[remaining sections 04–11 to be added in subsequent passes]
+### 04 — Chapter 2: LOE2 — Strengthen capability and capacity for advanced AI preparedness and response
+**File:** `gladstone/PDFs/04_chapter2_LOE2_preparedness_response.pdf` | **Text:** `gladstone/text/04_chapter2_LOE2_preparedness_response.txt` | **Pages:** 16 (doc pp. 73–88) | *Chapter*
+
+#### Prose summary
+
+LOE2 is the connective-tissue chapter — its purpose is institutional capacity-building rather than direct intervention. Where LOE1 establishes interim safeguards and LOE4 formalizes them, LOE2 supplies the people, knowledge, detection, and contingency-planning machinery that lets all the other LOEs function. Four building blocks: (1) **interagency working groups** with an NSC-level or OSTP-level coordinator; (2) **advanced AI education and training** for U.S. government personnel; (3) an **Indications and Warnings (I&W) framework** for advanced AI and AGI threats, led by the U.S. Intelligence Community; and (4) **scenario-based contingency planning**. The chapter has a distinctive feedback structure: the I&W and contingency-planning processes are explicitly designed to **generate** the risk-management requirements that inform the specific RADA thresholds in LOE1 §1.3.2 and LOE4 §4.1.3 — so LOE2 is not just preparedness, it's the empirical input pipeline for the rest of the regulatory architecture.
+
+The interagency-coordination piece (§2.1) recommends a single NSC-level or OSTP-level position responsible for all national-security-risk workstreams related to advanced AI and AGI, with explicit oversight of the AIO (LOE1), the ASTF (LOE1), the IC-led I&W workstream, the contingency-planning effort, NSF-funded safety research (LOE3), NIST/AISI standards work (LOE3), the eventual permanent regulator (LOE4), and State Department international-capacity-building (LOE5). This person is the connective node — without them, Gladstone treats the cross-LOE coordination as likely to fail. The education and training section (§2.2) is unusually granular for a policy plan: Table 1 specifies 13 stakeholder groups (NSC/OSTP/OMB leaders, AIO personnel, ASTF personnel, IC I&W workstream, contingency planners, interagency teams, congressional leaders and staff, key influencers, judiciary, DOJ enforcers, key diplomats, international partners, AI researchers in National Labs, private-sector capabilities researchers, public-sector AI academics) each with a tailored learning outcome. Table 2 maps eight target learning outcomes to specific training topics — including some that read as mission-critical (the AI scaling–capability–alignment relationship, weaponization/loss-of-control risk types, AI capability forecasting, the open-source AI ecosystem, governance and control of advanced AI, the supply chain) and several that signal Gladstone's sociological framing: "the culture of and ongoing debates within the AI alignment community," "**the ideological motivations of frontier AI researchers**," "concerns over gaming of safety evaluations," and "antitrust and regulatory capture concerns." That Gladstone treats lab-culture/ideology as a trained-personnel competency is a tell — it implies regulators will need to read intent, not just specifications.
+
+The I&W framework (§2.3) is the load-bearing technical content of the chapter. The IC is the lead, with input from DHS, DOE, frontier labs, the AI safety community, the AIO, the ASTF, and federally-funded research centers. Table 3 cross-tabulates four risk-source categories (domestic frontier programs, foreign programs, open-access releases, theft/sale-and-augmentation) with their relevant risk types — the same source can produce loss-of-control via accidental capability emergence, loss-of-control via external software-framework augmentation, and weaponization via end-user misuse or intentional offensive deployment. Key metrics for the I&W framework include estimated breakout timelines, the largest training run a domestic or foreign entity could mount in a given window, the likelihood of high-risk capability emergence under various training/deployment regimes, and longer-timescale metrics like time-to-indigenize an AI supply chain. Two specific concrete sub-recommendations stand out: (a) **bug bounties** to assess how software frameworks like Auto-GPT, BabyAGI, and ChaosGPT extend the capabilities of underlying AI systems in unpredictable ways — this is the chapter's acknowledgment that the model-vs-system distinction matters and that off-the-shelf scaffolding can transform risk profiles without retraining; and (b) **direct government investment** in an academic forecasting consortium and an IC-frontier-lab-private-safety-research collaboration vehicle to advance the state of the art in capability prediction, since the commercial market for this research remains thin and the same handful of donors (see Annex E) currently fund most of it. Footnote 43 of the chapter cites METR's task-decomposition approach as an exemplar of the kind of imperfect-but-useful capability-forecasting methodology Gladstone wants the IC investing in.
+
+Contingency planning (§2.4) is NSC-directed and tabletop-exercise-based. The chapter recommends joint exercises with frontier labs, AI safety groups, evaluation/red teams, data-center providers, hardware owners — including, explicitly, "lab shut-down drills." The chapter also recommends FEMA update its National Preparedness System (§2.4.1) to address advanced AI and AGI risk, in collaboration with the AIO, ASTF, or eventual regulatory body. Footnote 47 of the chapter contains the document's bleakest moment of unhedged honesty: "It is possible that genuine AGI loss-of-control scenarios would not be survivable events…which if true would remove the need for incident response. But this is currently uncertain and should not be assumed in advance." This footnote is rhetorically out of keeping with the rest of LOE2's bureaucratic-procedural tone, and is worth knowing about — it's a place where Gladstone briefly stops being a policy document and becomes an existential-risk document. For Dan's purposes: LOE2 is the chapter most likely to survive the 2026 political shift, because most of its components (FEMA preparedness updates, IC analytical workstreams, training programs) can be funded and structured without new legislation or controversial executive actions. The bug-bounty recommendation and the academic-forecasting-consortium proposal are independently citable. The "lab shut-down drills" idea is rhetorically powerful — it implies the U.S. government should treat frontier-lab voluntary cooperation as a known-failure-mode and prepare for compelled shutdown — and is a useful talking point even outside the LOE2 framework. The weakest element is the assumption of a willing NSC-level coordinator; without that role being filled by a sympathetic person, much of the cross-LOE coordination Gladstone envisions is an uncoordinated set of agency efforts, which is approximately what 2026 looks like.
+
+#### Fact-sheet
+
+**Four building blocks of LOE2:**
+1. **Interagency working groups** — NSC- or OSTP-level coordinator (§2.1)
+2. **Education and training** — 13 stakeholder groups, role-specific learning outcomes (§2.2)
+3. **Indications & Warnings (I&W) framework** — IC-led detection/forecasting machinery (§2.3)
+4. **Scenario-based contingency planning** — NSC-directed, tabletop-based, includes FEMA NPS update (§2.4)
+
+**Cross-LOE feedback loop (the chapter's structural distinctive):**
+LOE2's I&W and contingency-planning workstreams generate the risk-management requirements that inform RADA threshold-setting in LOE1 §1.3.2 and LOE4 §4.1.3. So LOE2 is not just preparedness — it is the empirical input pipeline for the rest of the regulatory architecture.
+
+**13 stakeholder groups for education (§2.2.1, Table 1):**
+NSC/OSTP/OMB leaders · AIO personnel · ASTF personnel · IC I&W workstream · contingency planners · interagency teams · Congressional leaders/staff · key influencers · judiciary · DOJ enforcers · key diplomats · international partners · National Lab AI researchers · private-sector capabilities researchers · public-sector AI academics
+
+**Notable training topics** (§2.2.2, Table 2): AI scaling and its relationship to capability/alignment; AI capability forecasting; inner-vs-outer alignment and the stability-control paradox; the open-source AI ecosystem; compute as strategic resource; governance/control of advanced AI; the AI supply chain; **the culture of and ongoing debates within the AI alignment community**; **the ideological motivations of frontier AI researchers**; concerns over gaming of safety evaluations; antitrust and regulatory capture concerns. The inclusion of cultural/ideological topics is a tell — Gladstone treats reading lab intent as a trainable regulator competency.
+
+**I&W framework specs (§2.3):**
+- Lead: U.S. Intelligence Community
+- Input partners: DHS, DOE, frontier labs, AI safety community, AIO, ASTF, federally-funded research centers
+- Risk-source × risk-category matrix (Table 3): four sources × multiple risk types
+- Key metrics: breakout timelines; max training run feasible in a given window; likelihood of high-risk capability emergence; time-to-indigenize an AI supply chain
+- Sub-rec 1: **bug bounties** for assessing software-framework-induced capability extensions (Auto-GPT, BabyAGI, ChaosGPT cited) — model-vs-system distinction matters, scaffolding can transform risk without retraining
+- Sub-rec 2: **direct gov investment** in academic forecasting consortium + IC–frontier-lab–private-safety-research collaboration vehicle (because commercial market for this research is thin; see Annex E)
+- METR's task-decomposition approach cited as exemplar (fn. 43)
+
+**Contingency planning specs (§2.4):**
+- NSC-directed
+- Tabletop exercises with frontier labs, AI safety groups, eval teams, red teams, DCIPs, AI hardware owners
+- **Explicit recommendation: lab shut-down drills**
+- FEMA to update National Preparedness System for advanced AI / AGI risk (§2.4.1)
+
+**Footnote 47** — the document's bleakest moment of honesty: AGI loss-of-control may not be a survivable event, in which case incident response is moot. Cited unhedged, then immediately followed by "should not be assumed in advance." Worth knowing as a tonal contrast with the rest of the procedural chapter.
+
+**Companion document:** *Survey of AI Technologies and R&D Trajectories* — referenced (fn. 46) for three sample AGI risk scenarios that contingency planners are pointed toward.
+
+**Annexes referenced:**
+- Annex D, D.3 (open-access developers — feeds I&W tracking)
+- Annex D, D.4 (elite quant hedge funds — risk source category)
+- Annex E (AI-safety funding — relevant to consortium proposal)
+- Annex G, G.3 (compute thresholds and concentrations)
+
+**Page anchors:**
+- NSC-level coordinator role: p. 74
+- 13-stakeholder education table (Table 1): p. 77
+- Training-topics table (Table 2): pp. 79–81
+- I&W risk-source × risk-category matrix (Table 3): pp. 83–84
+- Bug-bounty sub-recommendation: p. 86
+- Lab shut-down drills: p. 87
+- FEMA NPS update: p. 88
+
+**Notable analytical moves:**
+- The "ideological motivations of frontier AI researchers" listed as a training topic — implies regulators must read intent, not just specifications. Sociological-not-just-technical framing.
+- Software-framework risk acknowledged via Auto-GPT/BabyAGI/ChaosGPT citations — Gladstone is one of few policy docs to take the model-as-substrate, scaffolding-as-amplifier distinction seriously.
+- Academic forecasting consortium tied to a critique of the AI-safety funding ecosystem (fn. 45 + Annex E reference) — reinforces the Green-Lowe / CAIP-adjacent argument that AI-safety research is concentrated in too few funders.
+- "Lab shut-down drills" framed as routine preparedness — implies treating frontier-lab voluntary cooperation as a known-failure-mode worth pre-rehearsing.
+
+**Methodological tensions and 2026-context flags:**
+- The single load-bearing assumption is **a willing NSC- or OSTP-level coordinator with cross-LOE oversight authority**. In 2026 conditions, no such role exists or is likely to be filled.
+- IC-led I&W is in principle continuable — but requires sustained tasking that may not match current administration priorities.
+- FEMA NPS update is durable across administrations and would not require statutory action; this is the single most likely-to-survive recommendation in the chapter.
+- The training-program scope is ambitious and depends on OMB direction to agency heads — hard to imagine this rolling out without White House push.
+
+**What survives the 2026 political shift:**
+- FEMA National Preparedness System update — purely administrative, durable.
+- Bug-bounty mechanism for software-framework risk — small-scale, fundable through DARPA/IARPA channels.
+- Academic forecasting consortium — possible via NSF/IARPA without controversial executive action.
+- "Lab shut-down drills" as a rhetorical/policy talking point even without formal exercises.
+- The 13-stakeholder education taxonomy as a model for state-level (CA, NY) or international-partner (UK, Canada) capacity-building programs.
+
+**Crucial frame to preserve in advocacy:** LOE2 is **infrastructure**, not enforcement. Anyone treating the chapter as the regulatory action of the plan is missing the point — LOE2 builds the people, the detection systems, and the planning processes that make every other LOE actually function. The corollary: **without LOE2, the rest of the plan would be unable to update itself in response to capability advances**, which Gladstone treats as a fatal flaw in static regulatory designs.
+
+---
+
+### 05 — Chapter 3: LOE3 — Increase national investment in technical AI safety research and standards development
+**File:** `gladstone/PDFs/05_chapter3_LOE3_safety_research_standards.pdf` | **Text:** `gladstone/text/05_chapter3_LOE3_safety_research_standards.txt` | **Pages:** 13 (doc pp. 89–101) | *Chapter*
+
+#### Prose summary
+
+LOE3 is the technical-research chapter — its purpose is to close the gap between AI capabilities investment and AI safety investment, and to develop the standards machinery that LOE1's RADA safeguards and LOE4's FAISA licensing regime need to actually function. Two building blocks: (1) **federally funded research** in AI safety/security and AGI-scalable alignment (§3.1), and (2) **standards** for AI evaluations and RADA safeguards (§3.2). The opening framing sets up the funding-gap argument with two specific numbers worth memorizing: annual private spending on AI capabilities has exceeded $100B since 2021, and AI capabilities research publications outnumber safety publications by **50:1**. Gladstone cites an expert estimate that for AGI-scalable safety investment to be adequate to the catastrophic-risk challenge, it would need to reach **at least 50% of total AI research spend** — an order-of-magnitude shift from the status quo. The structural reason private industry under-invests is familiar (capabilities benefits are easier to privatize; safety is a common good), but the chapter adds an important secondary observation: most independent AI-safety research organizations rely on a small set of donors (see Annex E), which Gladstone argues limits the diversity of strategies being pursued in a field that benefits disproportionately from a breadth of approaches. The U.S. government is positioned to do two things private actors won't: close the absolute funding gap, *and* diversify the funder base.
+
+The research architecture (§3.1) tiers AI safety work by access requirements: **open-source/public** research (no special access; basic interpretability, theoretical power-seeking analysis, on-device monitoring research, evaluations frameworks); **proprietary-access** research (moderate risk; requires certification and weight access for things like behavioral evaluations of dangerous capabilities, mechanistic interpretability on frontier models, private evaluation sets that must be withheld from labs); and **national-security** research (classified, cleared personnel, unrestricted access to frontier models for CBRN/WMD-enabling capability evaluations). The organizational vehicle for funding these tiers is Gladstone's most concrete institutional proposal in the chapter: building on the NSF's January 2024 launch of the National AI Research Resource (NAIRR, $2.6B/6 years, with a NAIRR Secure component for sensitive-data research), Gladstone proposes either (a) a **National Center for AI Alignment and Security Research (NCAASR)** sited under NAIRR; (b) a separate **AI Alignment and Security FFRDC**, possibly sponsored by DARPA, IARPA, or DOE National Labs (which have established CBRN research capabilities and could pay industry-competitive salaries in a classified environment — addressing the same comp-gap problem flagged for the ASTF in LOE1); or (c) both, with research areas divided. Crucially, §3.1.2.1 demands that these Centers prioritize **AGI-scalable** alignment research over sub-AGI alignment, because sub-AGI alignment already attracts commercial investment (better-aligned commercial models extract more value), while AGI-scalable alignment has no such incentive — without explicit institutional prioritization, "research effort funded by the Centers risks being expended in areas in which progress is more legible but less scalable."
+
+The standards section (§3.2) is short, but §3.2.1 — the limitations of AI evaluations — contains LOE3's most independently citable analytical content, and arguably the document's strongest standalone argument. Four concrete limitations: (1) **AI evaluations are not comprehensive** — they cannot exhaustively test the capability surface of a modern frontier model, and the limitation is even worse for open-access models that can be augmented post-release; (2) **AI evaluations cannot confirm a capability is absent** — empirical methods can show a model has a dangerous capability if it produces a dangerous output, but failure to elicit one only tells you the evaluator did not find an effective prompt, not that the capability is missing; (3) **AI evaluations are highly vulnerable to manipulation** — a developer can fine-tune the model or make superficial changes until it passes a specific test without addressing underlying causes, and resubmission of "patched" models for evaluation makes eventual passage essentially statistical (Gladstone cites a frontier-lab insider quote — short, fine for copyright — that "there's a key step [missing] here of figuring out what went wrong"); and (4) **evaluations could fail systematically in high-capability regimes** because of situational awareness (a model inferring whether it's in training, testing, or deployment) and consequently deceptive alignment (a model producing apparently safe outputs in evaluation and unsafe ones in deployment). Gladstone explicitly anti-anthropomorphizes the deceptive-alignment risk in footnote 56 — it is not expected from sentience or consciousness but from goal-directed behavior shaped during training. The remediation sketch in §3.2.2 has three planks: a diverse ecosystem of independent evaluators (independence avoids developer conflict-of-interest; private evaluation sets resist gaming); diverse evaluations themselves with private subsets developed by different teams; and treating evaluations as **one input** to a defense-in-depth case for model safety rather than a single dispositive safety signal. NIST/AISI is named as the lead U.S. government body for evaluation-standards development under the NIST AI Risk Management Framework.
+
+For Dan's purposes specifically: the four-part limitations-of-evaluations argument in §3.2.1 is the most useful single piece of LOE3 for advocacy. It applies to *any* eval-based AI safety regime — California's TFAIA, the Hawley-Blumenthal pre-deployment evaluation framework, Anthropic's own Responsible Scaling Policy, the EU AI Act's high-risk-system testing requirements — and survives even if a reader rejects everything else in Gladstone. The 50:1 publications ratio and the "50% of total research spend" expert benchmark are quotable. The NCAASR/AAS-FFRDC architecture is interesting because both vehicles could be stood up under existing executive authority (NSF, DARPA, IARPA, DOE National Lab sponsorship) without new legislation — and the FFRDC pathway has the additional virtue that it could pay industry-competitive salaries, which is otherwise a structural problem for any government-sited AI safety program. The weakest element is the assumption that more funding will translate into faster AGI-scalable alignment progress — Gladstone gestures at this assumption without engaging the harder question of whether AGI-scalable alignment is even tractable on the relevant timescales. Annex B (the full alignment challenge) is explicitly cited as the place where this is discussed, but the chapter leaves the question hanging: *what if 50% of total research spend on AGI-scalable alignment doesn't solve the problem fast enough?* Gladstone does not say. The defense-in-depth framing in §3.2.2 is the closest the chapter gets to addressing this — evaluations are not solely sufficient, layered controls are needed — but the chapter doesn't grapple with the possibility that *all* of LOE3's outputs (research, standards, evaluations) might collectively be inadequate to the rate of capability advance.
+
+#### Fact-sheet
+
+**Two building blocks of LOE3:**
+1. **Federally funded AI safety/security/AGI-alignment research** (§3.1)
+2. **Standards for AI evaluations and RADA safeguards** (§3.2)
+
+**Funding-gap evidence (the chapter's marquee numbers):**
+- AI capabilities annual private spending: **>$100B since 2021**
+- AI capabilities vs. safety publications: **50:1 ratio**
+- Expert-recommended safety fraction of total AI R&D: **≥50%** (vs. status-quo single-digit percent)
+- Concentration tension: most independent safety orgs rely on small donor set (see Annex E) — limits research-strategy diversity
+
+**Three tiers of safety research access (§3.1.1):**
+| Tier | Access | Risk | Examples |
+|---|---|---|---|
+| Open-source / public | None special | Low | Sandbox/testbed dev; sub-frontier interp; theoretical power-seeking analysis; on-device monitoring research; AGI-scaling-of-techniques theoretical work |
+| Proprietary access | Certified researchers + weights | Moderate | Behavioral/propensity evaluations; private evaluation sets; mech-interp on frontier models; on-chip-monitoring R&D with frontier-lab engineering |
+| National security | Classified + cleared personnel | High | CBRN/WMD-enabling capability evaluations on frontier models; some loss-of-control research |
+
+**Proposed organizational vehicles (§3.1.2):**
+- **NCAASR** — National Center for AI Alignment and Security Research, sited under NSF's NAIRR
+- **AAS FFRDC** — AI Alignment and Security Federally Funded R&D Center, possibly sponsored by DARPA, IARPA, or DOE National Labs
+- Or both, with research areas divided
+- Existing precondition: **NSF NAIRR pilot** launched Jan 2024, ~$2.6B over 6 years, with NAIRR Secure component for sensitive-data research
+- FFRDC virtues: classified environment + industry-competitive salaries (addresses same comp-gap as ASTF in LOE1 §1.4.2)
+
+**AGI-scalable alignment prioritization (§3.1.2.1):**
+- Centers must explicitly fund workstreams "fully and exclusively dedicated" to AGI-scalable alignment
+- Reasoning: sub-AGI alignment already commercially incentivized (better-aligned models extract more value via RLHF etc.)
+- Without explicit prioritization, funded effort drifts toward "more legible but less scalable" sub-AGI work
+- Annex B (full alignment challenge) and Annex L (AI safety research topics) provide detail
+
+**Cross-LOE collaboration plan (§3.1.2.2):** Centers should collaborate with BIS (export-control review), DOC/DHS (export license red teaming), IC (I&W framework), NSC (contingency planning), ASTF (regulatory-prep), State Dept (UK AISI partnership)
+
+**Limitations of AI evaluations (§3.2.1) — the chapter's most independently citable content:**
+| # | Limitation | Mechanism |
+|---|---|---|
+| 1 | Not comprehensive | Cannot exhaustively test capability surface; even worse for open-access (post-release augmentation) |
+| 2 | Cannot confirm absence of capability | Failure to elicit ≠ capability missing; only positive results are informative |
+| 3 | Highly vulnerable to manipulation | Fine-tune to pass specific test without addressing root cause; resubmission of patched models = eventual statistical passage |
+| 4 | Systematic failure in high-capability regimes | Situational awareness → deceptive alignment (different outputs in eval vs. deployment) |
+
+**Frontier-lab insider quote (§3.2.1.3, fn. 55):** evaluation gaming via resubmission has reportedly already begun at one major frontier lab, with the missing step described as figuring out what went wrong rather than retraining until passage.
+
+**Anti-anthropomorphization** (fn. 56): deceptive alignment is not predicted from sentience or consciousness, but from training-shaped goal-directed behavior. Mirrors the §0.2.2 framing of loss-of-control as competence-of-optimizer.
+
+**Three remediations for evaluation limitations (§3.2.2):**
+1. **Diverse ecosystem of independent evaluators** — independence (no developer conflict-of-interest), private evaluation sets resistant to gaming
+2. **Diverse evaluations with different private subsets** developed by different teams — broader coverage, less likely to miss latent capabilities
+3. **Evaluations as one input to multi-faceted defense-in-depth case for safety**, not standalone signal
+
+**NIST/AISI** is the named U.S. government body leading AI-evaluation-standards development under the NIST AI Risk Management Framework.
+
+**Annexes referenced:**
+- Annex B (full alignment challenge)
+- Annex E (AI-safety funding — relevant to donor-concentration argument)
+- Annex L (AI safety/security research topics — what NCAASR/AAS FFRDC could fund)
+- Annex M (secure temporary storage of model weights — protocol for Tier 2 and Tier 3 research)
+
+**Page anchors:**
+- Funding-gap statistics: pp. 89–90
+- Three research tiers: pp. 91–93
+- NCAASR / AAS FFRDC proposal: pp. 94–95 (fn. 51 includes DARPA/IARPA/DOE sponsorship)
+- AGI-scalable alignment prioritization: p. 95
+- Limitations of evaluations: pp. 98–100
+- Frontier-lab gaming insider quote: p. 99 (fn. 55)
+- Three remediations: pp. 100–101
+
+**Notable analytical moves:**
+- **50:1 publications ratio** + **50% of total research spend benchmark** — quotable, citable funding-gap argument.
+- **AGI-scalable vs. sub-AGI alignment distinction** — important for evaluating any AI safety research portfolio: easy-to-fund work (interpretability of small models, prosaic alignment) ≠ work that addresses the actual concern.
+- **Evaluation-as-input-not-output** framing (§3.2.2) — extends defense-in-depth from infrastructure to epistemic methodology.
+- **Anti-anthropomorphization** explicitly built into deceptive-alignment framing — mirrors the Chapter 0 loss-of-control framing, sidesteps "AI doesn't really think" objections.
+
+**Methodological tensions and 2026-context flags:**
+- Gladstone assumes **more funding will accelerate AGI-scalable alignment progress** without engaging the harder question of whether the problem is tractable on relevant timescales. Annex B is cited but the chapter does not claim the problem will be solved.
+- LOE3 is largely **funding-and-organizational**, which means much of it could survive 2026 — NSF, DARPA, IARPA, DOE National Labs are durable institutions, and an FFRDC can be stood up without new legislation.
+- NIST/AISI's status is contested in 2026, which weakens §3.2.3's reliance on NIST as the standards-setting lead. State-level efforts (CA TFAIA) and proposed federal bills (Hawley-Blumenthal) might supersede or complement.
+- The four limitations of evaluations (§3.2.1) survive any political shift — they are technical claims about the methodology, not policy recommendations.
+
+**What survives the 2026 political shift:**
+- The four-part **limitations-of-evaluations** argument is durable and broadly applicable to any AI safety regime (CA TFAIA, Hawley-Blumenthal, EU AI Act, RSPs).
+- **NCAASR/AAS-FFRDC architecture** can be stood up under existing NSF/DARPA/IARPA/DOE authority — no new legislation needed.
+- **NAIRR / NAIRR Secure** is already operational; its trustworthy-AI mandate is durable.
+- **AGI-scalable vs. sub-AGI alignment distinction** is a useful research-funding evaluation criterion at any level (federal, state, philanthropic).
+- The **50:1 publications ratio** and the **50% safety-spend benchmark** are quotable for advocacy.
+
+**Crucial frame to preserve in advocacy:** LOE3 is **funding the gap, not closing it directly**. Gladstone is not claiming that more funded research will solve AGI alignment in time — only that under-investing makes the problem definitely worse. This is the chapter most consistent with the "we don't know if alignment is solvable, but we should be trying much harder" framing common to safety advocacy. Anyone reading LOE3 as an alignment-will-be-solved chapter is over-reading; anyone reading it as a moratorium-substitute is under-reading.
+
+---
+
+[remaining sections 06–11 to be added in subsequent passes]
