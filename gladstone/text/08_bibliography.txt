@@ -1,0 +1,1596 @@
+Bibliography
+
+Note: The entries in this bibliography include peer-reviewed papers, research
+publications that have not undergone peer review, and informal sources like blog posts
+and, in some cases, tweets. Many of the landmark insights in modern AI research have
+been published as blog posts (e.g. Richard Sutton’s “The Bitter Lesson”), in some cases
+by pseudonymous authors (e.g. Gwern’s “The Scaling Hypothesis”), so a bibliography
+of modern AI that omitted informal sources would be incomplete. In general,
+publication norms in AI research are less formal than of other STEM fields.
+Nonetheless, for each entry in this bibliography, we have reviewed the source and
+concluded that it supports the corresponding claim in the body of the document.
+
+
+ [1]      Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+          Trajectories. Section: “Risks”. (2023).
+
+ [2]      Turner, A. M., Smith, L., Shah, R., Critch, A., & Tadepalli, P. (2019). Optimal policies tend to
+          seek power. In arXiv [cs.AI]. http://arxiv.org/abs/1912.01683
+
+ [3]      Clark, J. [jackclarkSF]. (2022, August 7). Malware is bad now but will be extremely bad in
+          the future due to intersection of RL + code models + ransomware economic incentives.
+          That train is probably 1-2 years away based on lag of open source replication of existing
+          private models, but it’s on the tracks. Twitter. https://twitter.com/jackclarkSF/status/
+          1556181432522797056
+
+ [4]      Amodei, D. (2023, July 25). Written Testimony of Dario Amodei, Ph.D. Co-Founder and
+          CEO, Anthropic For a hearing on “Oversight of A.I.: Principles for Regulation” Before the
+          Judiciary Committee Subcommittee on Privacy, Technology, and the Law United States
+          Senate. https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-
+          _amodei.pdf
+
+ [5]      Leike, J., & Sutskever, I. (2023, July 5). Introducing superalignment. Openai.com. https://
+          openai.com/blog/introducing-superalignment
+
+ [6]      Altman, S. (2023, February 24). Planning for AGI and beyond. Openai.com. https://
+          openai.com/blog/planning-for-agi-and-beyond
+
+ [7]      Core Views on AI Safety: When, Why, What, and How. (2023, March 8). Anthropic.com.
+          https://www.anthropic.com/index/core-views-on-ai-safety
+
+ [8]      Bove, T. (2023, May 3). CEO of Google’s DeepMind says we could be ‘just a few years’
+          from A.I. that has human-level intelligence. Yahoo Finance. https://finance.yahoo.com/
+          news/ceo-google-deepmind-says-could-213237542.html
+
+
+
+                                                                                                170 of 284
+[9]    Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+       Trajectories. Section: “Notable players, their products and capabilities”. (2023).
+
+[10]   Wiggers, K., Coldewey, D., & Singh, M. (2023, April 6). Anthropic’s $5B, 4-year plan to
+       take on OpenAI. TechCrunch. https://techcrunch.com/2023/04/06/anthropics-5b-4-year-
+       plan-to-take-on-openai/
+
+[11]   Perrigo, B. (2023, January 12). DeepMind’s CEO helped take AI mainstream. Now he’s
+       urging caution. Time. https://time.com/6246119/demis-hassabis-deepmind-interview/
+
+[12]   Perrigo, B. (2023, May 30). AI is as risky as pandemics and nuclear war, top CEOs say,
+       urging global cooperation. Time. https://time.com/6283386/ai-risk-openai-deepmind-
+       letter/
+
+[13]   Bove, T. (2023, May 30). Sam Altman and other technologists warn that A.I. poses a ‘risk of
+       extinction’ on par with pandemics and nuclear warfare. Fortune. https://fortune.com/
+       2023/05/30/sam-altman-ai-risk-of-extinction-pandemics-nuclear-warfare/
+
+[14]   Anthropic’s Responsible Scaling Policy. (2023, September 19). Anthropic. https://www-
+       cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-
+       policy.pdf
+
+[15]   Amodei, D., & Patel, D. (2023, August 8). Dario Amodei (Anthropic CEO) - $10 Billion
+       Models, OpenAI, Scaling, & Alignment. https://www.youtube.com/watch?v=Nlkk3glap_U
+
+[16]   Knight, W. (2023, May 8). What really made Geoffrey Hinton into an AI doomer. Wired.
+       https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/
+
+[17]   Russell, S. (2023, July 26). Written Testimony of Stuart Russell Professor of Computer
+       Science The University of California, Berkeley Before the U.S. Senate Commitee on the
+       Judiciary Subcommitee on Privacy, Technology, & the Law. United States Senate. https://
+       www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_russell.pdf
+
+[18]   Bengio, Y. (2023, July 25). Professor Yoshua Bengio Full professor of Computer Sciences at
+       University of Montreal, Founder and Scientific Director of Mila - Quebec AI Institute 2018
+       Co-recipient of the AM Turing Award. United States Senate. https://
+       www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_bengio.pdf
+
+[19]   Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+       Trajectories. (2023).
+
+[20]   Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+       Trajectories. Section: “Progress in advanced AI”. (2023).
+
+
+
+
+                                                                                           171 of 284
+[21]   Branwen, G. (2020). The scaling hypothesis. https://gwern.net/scaling-hypothesis
+
+[22]   Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A.,
+       Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T.,
+       Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). Language
+       Models are Few-Shot Learners. In arXiv [cs.CL]. http://arxiv.org/abs/2005.14165
+
+[23]   Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S.,
+       Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. In
+       arXiv [cs.LG]. http://arxiv.org/abs/2001.08361
+
+[24]   Knight, W. (2023, April 17). OpenAI’s CEO says the age of giant AI models is already over.
+       Wired. https://www.wired.com/story/openai-ceo-sam-altman-the-age-of-giant-ai-models-
+       is-already-over/
+
+[25]   Wang, B. (2023, November 20). Microsoft Spending Over $50 Billion to Buildout AI
+       Datacenters. Next Big Future. https://www.nextbigfuture.com/2023/11/microsoft-
+       spending-over-50-billion-to-buildout-ai-datacenters.html
+
+[26]   Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, E., Casas, D.
+       de L., Hendricks, L. A., Welbl, J., Clark, A., Hennigan, T., Noland, E., Millican, K., van den
+       Driessche, G., Damoc, B., Guy, A., Osindero, S., Simonyan, K., Elsen, E., … Sifre, L. (2022).
+       Training Compute-Optimal Large Language Models. In arXiv [cs.CL]. http://arxiv.org/abs/
+       2203.15556
+
+[27]   Tay, Y., Dehghani, M., Tran, V. Q., Garcia, X., Wei, J., Wang, X., Won, H., Siamak, C., Dara,
+       S., Tal, B., Huaixiu, S., Zheng, S., Zhou, D., Houlsby, N., & Metzler, D. (2023, February 28).
+       UL2: Unifying language learning paradigms. Arxiv.org. Retrieved September 11, 2023,
+       from http://arxiv.org/abs/2205.05131
+
+[28]   Dao, T., Fu, D. Y., Ermon, S., Rudra, A., & Ré, C. (2022, June 24). FlashAttention: Fast and
+       memory-efficient exact attention with IO-awareness. Arxiv.org. Retrieved September 11,
+       2023, from http://arxiv.org/abs/2205.14135
+
+[29]   OpenAI. (2023). GPT-4 Technical Report. In arXiv [cs.CL]. http://arxiv.org/abs/2303.08774
+
+[30]   Gemini Team. (2023, December 18). Gemini: A Family of Highly Capable Multimodal
+       Models. ArXiv.org. https://doi.org/10.48550/arXiv.2312.11805
+
+[31]   Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2018). Language
+       Models are Unsupervised Multitask Learners. https://d4mucfpksywv.cloudfront.net/better-
+       language-models/language_models_are_unsupervised_multitask_learners.pdf
+
+
+
+
+                                                                                            172 of 284
+[32]   OpenAI. (2022, November 30). Introducing ChatGPT. OpenAI; OpenAI. https://
+       openai.com/blog/chatgpt
+
+[33]   Romera-Paredes, B., Barekatain, M., Novikov, A., Balog, M., Kumar, M. P., Dupont, E., Ruiz,
+       F. J. R., Ellenberg, J. S., Wang, P., Fawzi, O., Kohli, P., & Fawzi, A. (2023). Mathematical
+       discoveries from program search with large language models. Nature, 625, 1–8. https://
+       doi.org/10.1038/s41586-023-06924-6
+
+[34]   AI Unleashed (2023, June 21). EngineerGPT: AI can build ENTIRE applications now! (GPT4
+       API). https://www.youtube.com/watch?v=J0iom7OohIo&ab_channel=AIUnleashed
+
+[35]   Bass, D. (2023, January 23). Microsoft Invests $10 Billion in ChatGPT Maker OpenAI.
+       bloomberg.com. https://www.bloomberg.com/news/articles/2023-01-23/microsoft-makes-
+       multibillion-dollar-investment-in-openai
+
+[36]   Confino, P. (2023, September 25). What is Anthropic? The buzzy AI startup just got up to
+       $4 billion in funding from Amazon as part of a colossal tech alliance. Yahoo Finance.
+       https://finance.yahoo.com/news/anthropic-buzzy-ai-startup-just-232804974.html
+
+[37]   Q. ai. (2023, October 31). Google Invests In Anthropic For $2 Billion As AI Race Heats Up.
+       Forbes. https://www.forbes.com/sites/qai/2023/10/31/google-invests-in-anthropic-for-2-
+       billion-as-ai-race-heats-up/?sh=264a70e8664e
+
+[38]   AI could be one of humanity’s most useful inventions. (2023, May 3). web.archive.org;
+       DeepMind. https://web.archive.org/web/20230503165322/http://www.deepmindagi.com/
+
+[39]   About Google DeepMind. (n.d.). Google DeepMind. https://deepmind.google/about/
+
+[40]   Goldman, S. (2024, January 18). Meta is developing open source AGI, says Zuckerberg.
+       VentureBeat. https://venturebeat.com/ai/meta-is-all-in-on-open-source-agi-says-
+       zuckerberg/
+
+[41]   Matthews, D. (2023, July 28). OpenAI and other AI companies need to manage “windfall
+       profits.” Vox. https://www.vox.com/future-perfect/23810027/openai-artificial-intelligence-
+       google-deepmind-anthropic-ai-universal-basic-income-meta
+
+[42]   Fang, R., Bindu, R., Gupta, A., Zhan, Q., & Kang, D. (2024, February 15). LLM Agents can
+       Autonomously Hack Websites. ArXiv.org. https://doi.org/10.48550/arXiv.2402.06664
+
+[43]   OpenAI. (2024, February 14). Disrupting malicious uses of AI by state-affiliated threat
+       actors. openai.com. https://openai.com/blog/disrupting-malicious-uses-of-ai-by-state-
+       affiliated-threat-actors
+
+
+
+
+                                                                                         173 of 284
+[44]   Perez, E., Ringer, S., Lukošiūtė, K., Nguyen, K., Chen, E., Heiner, S., Pettit, C., Olsson, C.,
+       Kundu, S., Kadavath, S., Jones, A., Chen, A., Mann, B., Israel, B., Seethor, B., McKinnon,
+       C., Olah, C., Yan, D., Amodei, D., … Kaplan, J. (2022). Discovering language model
+       behaviors with model-written evaluations. In arXiv [cs.CL]. http://arxiv.org/abs/2212.09251
+
+[45]   Scheurer, J., Balesni, M., & Hobbhahn, M. (2023, November 27). Technical Report: Large
+       Language Models can Strategically Deceive their Users when Put Under Pressure.
+       ArXiv.org. https://doi.org/10.48550/arXiv.2311.07590
+
+[46]   Shevlane, T., Farquhar, S., Garfinkel, B., Phuong, M., Whittlestone, J., Leung, J., Kokotajlo,
+       D., Marchal, N., Anderljung, M., Kolt, N., Ho, L., Siddarth, D., Avin, S., Hawkins, W., Kim,
+       B., Gabriel, I., Bolina, V., Clark, J., Bengio, Y., & Christiano, P. (2023). Model evaluation for
+       extreme risks. https://doi.org/10.48550/arxiv.2305.15324
+
+[47]   Turner, A. M., & Tadepalli, P. (2022, October 11). Parametrically Retargetable Decision-
+       Makers Tend To Seek Power. ArXiv.org. https://doi.org/10.48550/arXiv.2206.13477
+
+[48]   Krakovna, V., & Kramar, J. (2023, April 14). Power-seeking can be probable and predictive
+       for trained agents. Arxiv.org. http://arxiv.org/abs/2304.06528
+
+[49]   Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+       Trajectories. Section: “Prioritizing categories of AI risk”. (2023).
+
+[50]   Zhan, Q., Fang, R., Rohan Bindu, Gupta, A., Hashimoto, T., & Kang, D. G. (2023).
+       Removing RLHF Protections in GPT-4 via Fine-Tuning. ArXiv (Cornell University). https://
+       doi.org/10.48550/arxiv.2311.05553
+
+[51]   Vincent, J. (2023, March 8). Meta’s powerful AI language model has leaked online — what
+       happens now? The Verge. https://www.theverge.com/2023/3/8/23629362/meta-ai-
+       language-model-llama-leak-online-misuse
+
+[52]   Microsoft. (2023, July 26). Microsoft, Anthropic, Google, and OpenAI launch Frontier
+       Model Forum. Microsoft on the Issues. https://blogs.microsoft.com/on-the-issues/
+       2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/
+
+[53]   Kang, C. (2023, May 16). OpenAI’s Sam Altman Urges A.I. Regulation in Senate Hearing.
+       The New York Times. https://www.nytimes.com/2023/05/16/technology/openai-altman-
+       artificial-intelligence-regulation.html
+
+[54]   Update on ARC’s recent eval efforts. (2023, March 13). Alignment.org. Retrieved
+       September 11, 2023, from https://evals.alignment.org/blog/2023-03-18-update-on-
+       recent-evals/
+
+
+
+
+                                                                                              174 of 284
+[55]   Mollman, S. (2023, July 24). Marc Andreessen says his A.I. policy conversations in D.C. ‘go
+       very differently’ once China is brought up. Fortune. https://fortune.com/2023/07/23/marc-
+       andreessen-ai-policy-conversations-in-dc-go-differently-once-china-brought-up/
+
+[56]   Coldewey, D. (2023, April 1). Ethicists fire back at ‘AI Pause’ letter they say ‘ignores the
+       actual harms.’ TechCrunch. https://techcrunch.com/2023/03/31/ethicists-fire-back-at-ai-
+       pause-letter-they-say-ignores-the-actual-harms/
+
+[57]   LeCun, Y. [ylecun]. (2023, August 25). Once AI systems become more intelligent than
+       humans, humans we will *still* be the “apex species.”Equating intelligence with
+       dominance is the main fallacy of the whole debate about AI existential risk.It’s just
+       wrong.Even *within* the human species It’s wrong: it’s *not* the…. Twitter. https://
+       twitter.com/ylecun/status/1695056787408400778
+
+[58]   McMorrow, R. (2023, December 19). Andrew Ng: “Do we think the world is better off with
+       more or less intelligence?” Financial Times. https://www.ft.com/content/2dc07f9e-
+       d2a9-4d98-b746-b051f9352be3
+
+[59]   LeCun, Y. [ylecun]. (2023, October 31). My estimate is: "considerably less than most other
+       potential causes of human extinction Because we have agency in this. It's not like some
+       sort of natural phenomenon that we can't stop. Conversely, AI could actually save
+       humanity from extinction. What is your estimate for that probability?. Twitter. https://
+       twitter.com/ylecun/status/1719475457265938604
+
+[60]   Ng, A. [AndrewYNG]. (2023, November 1). I agree with Yann on this. The risk of human
+       extinction within 30 years is extremely low -- it likely requires making Earth inhospitable to
+       human life, so that it’s not possible even for small pockets of humans to survive. This could
+       happen from global thermonuclear war, pandemic, or (much less likely) asteroid strike.
+       Over very long timescales (hundreds of years), low birth rates/population collapse leading
+       to a long, slow decline of humanity is also possible. In comparison to these risks, the idea
+       of rogue AGI killing off 8 billion people seems much less tangible and much more remote.
+       Having more intelligence available to humanity -- including both human intelligence and
+       artificial intelligence -- arms us better to tackle many problems, including existential ones
+       like the ones mentioned above. So I believe AI will reduce the all-cause extinction risk for
+       humans. If we want humanity to survive and thrive for the next 1,000 years, rather than
+       slowing AI down with burdensome regulations, I would rather make it go faster. Twitter.
+       https://twitter.com/AndrewYNg/status/1719807380337328192
+
+[61]   Sutton, R. (2023, September 9). AI Succession. https://www.youtube.com/watch?
+       v=NgHFMolXs3U&ab_channel=RichSutton
+
+[62]   Metz, C., Weise, K., Grant, N., & Isaac, M. (2023, December 3). Ego, Fear and Money:
+       How the A.I. Fuse Was Lit. New York Times. https://www.nytimes.com/2023/12/03/
+       technology/ai-openai-musk-page-altman.html
+
+
+
+
+                                                                                             175 of 284
+[63]   Hinton, G. [geoffreyhinton]. (2023, May 1). In the NYT today, Cade Metz implies that I left
+       Google so that I could criticize Google. Actually, I left so that I could talk about the
+       dangers of AI without considering how this impacts Google. Google has acted very
+       responsibly. Twitter. https://twitter.com/geoffreyhinton/status/1652993570721210372
+
+[64]   Hinton, G. [geoffreyhinton]. (2023, October 31). So what is your best estimate of the
+       probability that if AI is not strongly regulated it will lead to human extinction in the next 30
+       years? If you are a true Bayesian you should be able to give a number. My current estimate
+       is 0.1. I suspect Yann's is <0.01. Twitter. https://twitter.com/geoffreyhinton/status/
+       1719447980753719543
+
+[65]   Roose, K. (2023, December 6). Silicon Valley Confronts a Grim New A.I. Metric. New York
+       Times. https://www.nytimes.com/2023/12/06/business/dealbook/silicon-valley-artificial-
+       intelligence.html
+
+[66]   Ange Lavoipierre. (2023, July 14). It started as a dark in-joke. It could also be one of the
+       most important questions facing humanity. ABC News. https://www.abc.net.au/news/
+       2023-07-15/whats-your-pdoom-ai-researchers-worry-catastrophe/102591340
+
+[67]   Personalized GPTs Are Here, F.T.C. Chair Lina Khan on A.I. Competition, and Mayhem at
+       Apefest. (2023, November 10). New York Times. https://www.nytimes.com/2023/11/10/
+       podcasts/hardfork-chatbot-ftc.html
+
+[68]   Shapira, L. [liron]. (2023, October 7). Dario Amodei's P(doom) is 10–25%. CEO and Co-
+       Founder of @AnthropicAI. https://twitter.com/liron/status/1710520914444718459
+
+[69]   Leike, J. (2023, August 22). OpenAI’s huge push to make superintelligence safe | Jan
+       Leike. https://www.youtube.com/watch?
+       v=ZP_N4q5U3eE&t=4560s&ab_channel=80%2C000Hours
+
+[70]   Christiano, P. (2023, April 24). How We Prevent the AI’s from Killing us with Paul Christiano.
+       https://www.youtube.com/watch?v=GyFkWb903aU&t=560s&ab_channel=Bankless
+
+[71]   Hendrycks, D. (2023, November 3). Dan Hendrycks on Catastrophic AI Risks. https://
+       www.youtube.com/watch?v=57y7DxWfOS0&t=50s&ab_channel=FutureofLifeInstitute
+
+[72]   Grace, K., Stewart, H., Sandkühler, J., Thomas, S., Weinstein-Raun, B., & Brauner, J. (2024).
+       Thousands of AI Authors on the Future of AI. https://aiimpacts.org/wp-content/uploads/
+       2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf
+
+[73]   Portman, Peters Introduce Bipartisan Bill to Ensure Federal Government is Prepared for
+       Catastrophic Risks to National Security. (2022, June 24). Committee on Homeland Security
+       & Governmental Affairs. https://www.hsgac.senate.gov/media/reps/portman-peters-
+       introduce-bipartisan-bill-to-ensure-federal-government-is-prepared-for-catastrophic-risks-
+       to-national-security/
+
+
+
+                                                                                             176 of 284
+[74]   United Kingdom Ministry of Defence. (2022). Defence Artificial Intelligence Strategy.
+       https://assets.publishing.service.gov.uk/media/62a7543ee90e070396c9f7d2/
+       Defence_Artificial_Intelligence_Strategy.pdf
+
+[75]   GOV.UK. (2023, November 1). The Bletchley Declaration by Countries Attending the AI
+       Safety Summit, 1-2 November 2023. GOV.UK. https://www.gov.uk/government/
+       publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-
+       countries-attending-the-ai-safety-summit-1-2-november-2023
+
+[76]   Remarks by Vice President Harris on the Future of Artificial Intelligence | London, United
+       Kingdom. (2023, November 1). The White House. https://www.whitehouse.gov/briefing-
+       room/speeches-remarks/2023/11/01/remarks-by-vice-president-harris-on-the-future-of-
+       artificial-intelligence-london-united-kingdom/
+
+[77]   Mok, A. (2023, November 29). Nvidia CEO Jensen Huang says artificial general
+       intelligence will be achieved in five years. Yahoo Finance; Yahoo! Finance. https://
+       finance.yahoo.com/news/nvidia-ceo-jensen-huang-says-215656321.html
+
+[78]   Zabell, S. (1989). The Rule of Succession. Erkenntnis, 31, 283–321. https://
+       www.ece.uvic.ca/~bctill/papers/mocap/Zabell_1989.pdf
+
+[79]   Harris, E., & Suo, S. (2022). Instrumental convergence in single-agent systems. The
+       Alignment Forum. https://www.alignmentforum.org/s/HBMLmW9WsgsdZWg4R/p/
+       pGvM95EfNXwBzjNCJ
+
+[80]   Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J., & Garrabrant, S. (2021, December 1).
+       Risks from Learned Optimization in Advanced Machine Learning Systems. ArXiv.org.
+       https://doi.org/10.48550/arXiv.1906.01820
+
+[81]   Shah, R., Varma, V., Kumar, R., Phuong, M., Krakovna, V., Uesato, J. and Kenton, Z., 2022.
+       Goal misgeneralization: Why correct specifications aren't enough for correct goals. arXiv
+       preprint arXiv:2210.01790.
+
+[82]   Quach, K. (2023, December 3). ChatGPT repeating certain words can expose its training
+       data. The Register. https://www.theregister.com/2023/12/01/chatgpt_poetry_ai/
+
+[83]   Zou, A., Wang, Z., Zico Kolter, J., & Fredrikson, M. (2023, July 27). Universal and
+       transferable adversarial attacks on aligned language models. Arxiv.org. Retrieved
+       September 11, 2023, from http://arxiv.org/abs/2307.15043
+
+[84]   Burns, C., Izmailov, P., Kirchner, J., Baker, B., Gao, L., Aschenbrenner, L., Chen, Y., Ecoffet,
+       A., Joglekar, M., Leike, J., Sutskever, I., & Wu, J. (2023). Weak-to-Strong Generalization:
+       Eliciting Strong Capabilities with Weak Supervision. https://cdn.openai.com/papers/weak-
+       to-strong-generalization.pdf
+
+
+
+
+                                                                                              177 of 284
+[85]   Leike, J. [janleike]. (2023, July 5). Why 4 years? It's a very ambitious goal, and we might
+       not succeed. But I'm optimistic that it can be done. There is a lot of uncertainty how much
+       time we'll have, but the technology might develop very quickly over the next few years. I'd
+       rather have alignment be solved too soon. Twitter. https://twitter.com/janleike/status/
+       1676638208145383424
+
+[86]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+       Control Regimes. Section: “Dynamite case study: dual use in non-military context”. (2023)
+
+[87]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+       Control Regimes. Section: “Biological & chemical weapons case study: use by rogue
+       actors”. (2023)
+
+[88]   Gade, P., Lermen, S., Rogers-Smith, C., & Ladish, J. (2023, October 31). BadLlama:
+       cheaply removing safety fine-tuning from Llama 2-Chat 13B. ArXiv.org. https://doi.org/
+       10.48550/arXiv.2311.00117
+
+[89]   Qi, X., Zeng, Y., Xie, T., Chen, P.-Y., Jia, R., Mittal, P., & Henderson, P. (2023). Fine-Tuning
+       Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!.
+       https://arxiv.org/pdf/2310.03693.pdf
+
+[90]   Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Zettlemoyer, L., Cancedda,
+       N., & Scialom, T. (2023). Toolformer: Language Models Can Teach Themselves to Use
+       Tools. https://doi.org/10.48550/arxiv.2302.04761
+
+[91]   Gopal, A., Helm-Burger, N., Justen, L., Soice, E. H., Tzeng, T., Jeyapragasan, G., Grimm,
+       S., Mueller, B., & Esvelt, K. M. (2023, November 1). Will releasing the weights of future
+       large language models grant widespread access to pandemic agents? ArXiv.org. https://
+       doi.org/10.48550/arXiv.2310.18233
+
+[92]   Jaime Sevilla Molina, personal communication
+
+[93]   Introducing Llama 2. (2023). Meta.com. Retrieved September 11, 2023, from https://
+       ai.meta.com/llama/
+
+[94]   Greshake, K., Abdelnabi, S., Mishra, S., Endres, C., Holz, T., & Fritz, M. (n.d.). Not what
+       you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect
+       Prompt Injection. Arxiv.org. Retrieved September 12, 2023, from http://arxiv.org/abs/
+       2302.12173
+
+[95]   Universal LLM jailbreak: ChatGPT, GPT-4, BARD, BING, Anthropic, and beyond. (2023,
+       April 13). Adversa AI | Trusted AI Security; Adversa. https://adversa.ai/blog/universal-llm-
+       jailbreak-chatgpt-gpt-4-bard-bing-anthropic-and-beyond/
+
+
+
+
+                                                                                               178 of 284
+[96]    Kucharavy, A., Schillaci, Z., Maréchal, L., Würsch, M., Dolamic, L., Sabonnadiere, R., David,
+        D. P., Mermoud, A., & Lenders, V. (2023). Fundamentals of generative large Language
+        Models and perspectives in cyber-defense. In arXiv [cs.CL]. http://arxiv.org/abs/
+        2303.12132
+
+[97]    Quach, K. (2023b, July 28). Friendly AI chatbots will be designing bioweapons for
+        criminals “within years.” The Register. https://www.theregister.com/2023/07/28/
+        ai_senate_bioweapon/
+
+[98]    Taori, R., Gulrajani, I., Zhang, T., Dubois, Y., Li, X., Guestrin, C., Liang, P., & Hashimoto, T.
+        (2023, March). Stanford CRFM. Crfm.stanford.edu. https://crfm.stanford.edu/2023/03/13/
+        alpaca.html
+
+[99]    Zaremba, W., Brockman, G., & OpenAI. (2021, August 10). OpenAI Codex. Openai.com.
+        https://openai.com/blog/openai-codex
+
+[100]   OpenAI. (2022, April). DALL·E 2. OpenAI. https://openai.com/dall-e-2
+
+[101]   OpenAI. (2024, February 15). Sora: Creating video from text. Openai.com. https://
+        openai.com/sora
+
+[102]   Faverio, M., & Tyson, A. (2023, November 21). What the Data Says about Americans’
+        Views of Artificial Intelligence. Pew Research Center. https://www.pewresearch.org/short-
+        reads/2023/11/21/what-the-data-says-about-americans-views-of-artificial-intelligence/
+
+[103]   Cha, A. E. (2014, December 26). They made a fortune in Silicon Valley. Now they’re giving
+        most of it away. Washington Post. https://www.washingtonpost.com/business/billionaire-
+        couple-give-plenty-to-charity-but-they-do-quite-a-bit-of-homework/
+        2014/12/26/19fae34c-86d6-11e4-b9b7-b8632ae73d25_story.html
+
+[104]   Harris, J. (2020, November 6). Effective altruism, AI safety, and learning human
+        preferences from the state of the world. Medium. https://towardsdatascience.com/
+        effective-altruism-ai-safety-and-learning-human-preferences-from-the-state-of-the-
+        world-83b1141585e3
+
+[105]   Bordelon, B. (2023, October 13). How a billionaire-backed network of AI advisers took
+        over Washington. POLITICO. https://www.politico.com/news/2023/10/13/open-
+        philanthropy-funding-ai-policy-00121362
+
+[106]   e/acc. (2022, October 31). Effective Accelerationism — e/acc. E/Acc Newsletter. https://
+        effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
+
+
+
+
+                                                                                                179 of 284
+[107]   Chowdhury, H. (2023, July 28). Get the lowdown on “e/acc” — Silicon Valley’s favorite
+        obscure theory about progress at all costs, which has been embraced by Marc
+        Andreessen. Business Insider. https://www.businessinsider.com/silicon-valley-tech-leaders-
+        accelerationism-eacc-twitter-profiles-2023-7
+
+[108]   Klein, E. (2023, October 26). The Chief Ideologist of the Silicon Valley Elite Has Some
+        Strange Ideas. New York Times. https://www.nytimes.com/2023/10/26/opinion/marc-
+        andreessen-reactionary-futurism.html
+
+[109]   Quach, K. (2023, February 13). Satya Nadella wants to make Google dance in battle for AI
+        chat-powered web search. The Register. https://www.theregister.com/2023/02/13/
+        in_brief_ai/
+
+[110]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Aircraft case study: dual use arms racing”. (2023)
+
+[111]   Fawzi, A., Balog, M., Huang, A., Hubert, T., Romera-Paredes, B., Barekatain, M., Novikov,
+        A., R. Ruiz, F. J., Schrittwieser, J., Swirszcz, G., Silver, D., Hassabis, D., & Kohli, P. (2022).
+        Discovering faster matrix multiplication algorithms with reinforcement learning. Nature,
+        610(7930), 47–53. https://doi.org/10.1038/s41586-022-05172-4
+
+[112]   Leike, J., Schulman, J., & Wu, J. (2022, August 24). Our approach to alignment research.
+        OpenAI. https://openai.com/blog/our-approach-to-alignment-research
+
+[113]   Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., Dassarma, N., Drain, D., Fort, S.,
+        Ganguli, D., Henighan, T., Joseph, N., Kadavath, S., Kernion, J., Conerly, T., Elhage, N.,
+        Hatfield-Dodds, Z., Hernandez, D., Hume, T., Johnston, S., & Kravec, S. (2022). Training a
+        Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.
+        https://arxiv.org/pdf/2204.05862.pdf
+
+[114]   Burtell, M., & Woodside, T. (2023). Artificial Influence: An Analysis Of AI-Driven Persuasion.
+        https://arxiv.org/pdf/2303.08721.pdf
+
+[115]   Pilz, K., & Heim, L. (2023, November 18). Compute at Scale -- A Broad Investigation into
+        the Data Center Industry. ArXiv.org. https://doi.org/10.48550/arXiv.2311.02651
+
+[116]   Ostrouchov, G., Maxwell, D., Ashraf, R., Engelmann, C., Shankar, M. (Arjun), & Rogers II, J.
+        (2020, November 1). GPU Lifetimes on Titan Supercomputer: Survival Analysis and
+        Reliability. Www.osti.gov. https://www.osti.gov/servlets/purl/1771896
+
+[117]   Pandaily. (2023, June 14). ByteDance and alibaba place massive GPU orders with NVIDIA,
+        fueling the AI race. Pandaily. https://pandaily.com/bytedance-and-alibaba-place-massive-
+        gpu-orders-with-nvidia-fueling-the-ai-race/
+
+
+
+
+                                                                                                  180 of 284
+[118]   Lennart Heim, personal communications.
+
+[119]   Jackson, A. (2024, January 19). Meta’s Llama 3: Developing Artificial General Intelligence.
+        Aimagazine.com. https://aimagazine.com/machine-learning/metas-llama-3-developing-
+        artificial-general-intelligence
+
+[120]   Home. (n.d.). The Official Auto-GPT Website. Retrieved September 12, 2023, from https://
+        news.agpt.co/
+
+[121]   Lanz, J. A. (2023, April 13). Meet chaos-GPT: An AI tool that seeks to destroy humanity.
+        Decrypt. https://decrypt.co/126122/meet-chaos-gpt-ai-tool-destroy-humanity
+
+[122]   Nakajima, Y. (2023). BabyAGI. GitHub. https://github.com/yoheinakajima/babyagi
+
+[123]   TransformerOptimus. (2023). SuperAGI. GitHub.https://github.com/TransformerOptimus/
+        SuperAGI
+
+[124]   White House Office of the Press Secretary. (2013, January 12). PRESIDENTIAL POLICY
+        DIRECTIVE/PPD-21. CISA.gov. https://www.cisa.gov/sites/default/files/2023-01/ppd-21-
+        critical-infrastructure-and-resilience-508_0.pdf
+
+[125]   Clarke, Y. D. (2021, September 30). H.R.5440 - 117th Congress (2021-2022): Cyber
+        Incident Reporting for Critical Infrastructure Act of 2021. Congress.gov. https://
+        www.congress.gov/bill/117th-congress/house-bill/5440
+
+[126]   DHS AI Leadership | Homeland Security. (n.d.). DHS.gov. https://www.dhs.gov/ai/dhs-ai-
+        leadership
+
+[127]   Biden, J. (2023, October 30). Executive Order on the Safe, Secure, and Trustworthy
+        Development and Use of Artificial Intelligence. The White House. https://
+        www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-
+        the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
+
+[128]   OpenAI. (2023, December 18). Preparedness. OpenAI.com. https://openai.com/safety/
+        preparedness
+
+[129]   Responsible Scaling Policies (RSPs). (2023, September 26). METR.org. https://metr.org/
+        blog/2023-09-26-rsp/
+
+[130]   47 U.S. Code § 606 - War powers of President. (1934). https://www.law.cornell.edu/
+        uscode/text/47/606
+
+[131]   50 U.S. Code § 4502 - Declaration of policy. (1950). https://www.law.cornell.edu/uscode/
+        text/50/4502
+
+
+
+
+                                                                                           181 of 284
+[132]   42 U.S. Code § 2162 - Classification and declassification of Restricted Data. (1954). https://
+        www.law.cornell.edu/uscode/text/42/2162
+
+[133]   35 U.S. Code § 181 - Secrecy of certain inventions and withholding of patent. (1951).
+        https://www.law.cornell.edu/uscode/text/35/181
+
+[134]   The White House. (2023, July 21). FACT SHEET: Biden-Harris Administration Secures
+        Voluntary Commitments from Leading Artificial Intelligence Companies to Manage the
+        Risks Posed by AI. The White House. https://www.whitehouse.gov/briefing-room/
+        statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-
+        commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-
+        by-ai/
+
+[135]   Ensuring safe, secure, and trustworthy AI. (2023, July 21). Whitehouse.gov. Retrieved
+        September 12, 2023, from https://www.whitehouse.gov/wp-content/uploads/2023/07/
+        Ensuring-Safe-Secure-and-Trustworthy-AI.pdf
+
+[136]   42 U.S. Code § 5801 - Congressional declaration of policy and purpose. (1974). https://
+        www.law.cornell.edu/uscode/text/42/5801
+
+[137]   NRC: History. (2019). NRC.gov. https://www.nrc.gov/about-nrc/history.html
+
+[138]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Atomic weapons case study: regulation of components”.
+        (2023)
+
+[139]   Frontier AI Taskforce: first progress report. (2023, September 7). GOV.UK. https://
+        www.gov.uk/government/publications/frontier-ai-taskforce-first-progress-report
+
+[140]   Industry and national security heavyweights to power UK’s Frontier AI Taskforce. (2023,
+        September 7). GOV.UK. https://www.gov.uk/government/news/industry-and-national-
+        security-heavyweights-to-power-uks-frontier-ai-taskforce
+
+[141]   SEC.gov | SEC Regional Offices. (Last modified: 2023, January 26). SEC.gov. Retrieved
+        February 23, 2024, from https://www.sec.gov/about/regional-offices
+
+[142]   Export Administration Regulations (EAR). (n.d.). BIS.doc.gov. https://www.bis.doc.gov/
+        index.php/regulations/export-administration-regulations-ear
+
+[143]   Building an early warning system for LLM-aided biological threat creation. (2024, January
+        21). OpenAI.com. https://openai.com/research/building-an-early-warning-system-for-llm-
+        aided-biological-threat-creation
+
+
+
+
+                                                                                              182 of 284
+[144]   Bush, G. H. W. (1993, January 6). Executive Order 12829—National Industrial Security
+        Program. The White House. https://www.archives.gov/files/isoo/policy-documents/
+        eo-12829.pdf
+
+[145]   Code of Federal Regulations. (n.d.).15 CFR 744.6. Retrieved February 23, 2024, from
+        https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-744/
+        section-744.6
+
+[146]   Thompson, B. (2023, November 16). An Interview with Bill Bishop and Andrew Sharp
+        Checking In on China. Stratechery by Ben Thompson. https://stratechery.com/2023/an-
+        interview-with-bill-bishop-and-andrew-sharp-checking-in-on-china/
+
+[147]   Fist, Tim. (2023). Overview: KYC as a safeguard against frontier AI misuse.
+
+[148]   Aarne, O., Fist, T., & Withers, C. (2024). Secure, Governable Chips Using On-Chip
+        Mechanisms to Manage National Security Risks from AI & Advanced Computing. https://
+        s3.us-east-1.amazonaws.com/files.cnas.org/documents/CNAS-Report-Tech-Secure-Chips-
+        Jan-24-finalb.pdf
+
+[149]   Advanced Computing and Semiconductor Manufacturing Items Controls to PRC. (2023,
+        November 6). BIS.doc.gov. https://www.bis.doc.gov/index.php/policy-guidance/
+        advanced-computing-and-semiconductor-manufacturing-items-controls-to-prc
+
+[150]   Implementation of Additional Export Controls: Certain Advanced Computing Items;
+        Supercomputer and Semiconductor End Use; Updates and Corrections. (n.d.).
+        BIS.doc.gov. Retrieved February 23, 2024, from https://www.bis.doc.gov/index.php/
+        documents/federal-register-notices-1/3353-2023-10-16-advanced-computing-
+        supercomputing-ifr/file
+
+[151]   Export Controls on Semiconductor Manufacturing Items. (n.d.). BIS.doc.gov. Retrieved
+        February 23, 2024, from https://www.bis.doc.gov/index.php/documents/federal-register-
+        notices-1/3352-10-16-23-semiconductor-equipment-controls/file
+
+[152]   Frequently Asked Questions (FAQs) for “Export Controls on Semiconductor Manufacturing
+        Items” (SME IFR) and “Implementation of Additional Export Controls: Certain Advanced
+        Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections”
+        (AC/S IFR). (n.d.). BIS.doc.gov. https://www.bis.doc.gov/index.php/documents/policy-
+        guidance/3434-2023-frequently-asked-questions-003-clean-for-posting/file
+
+[153]   Patel, D. (2023, October 24). Wafer Wars: Deciphering Latest Restrictions On AI And
+        Semiconductor Manufacturing. SemiAnalysis.com. https://www.semianalysis.com/p/wafer-
+        wars-deciphering-latest-restrictions
+
+
+
+
+                                                                                        183 of 284
+[154]   Papers with code - MMLU benchmark (multi-task language understanding). (n.d.).
+        Paperswithcode.com. Retrieved September 12, 2023, from https://paperswithcode.com/
+        sota/multi-task-language-understanding-on-mmlu
+
+[155]   Fist, T., & Grunewald, E. (2023). Options for U.S. Policymakers to Address AI Chip
+        Smuggling.
+
+[156]   Baptista, E. (2024, January 15). China’s military and government acquire Nvidia chips
+        despite US ban. Reuters. https://www.reuters.com/technology/chinas-military-
+        government-acquire-nvidia-chips-despite-us-ban-2024-01-14/
+
+[157]   Patel, D., & Nishball, D. (2023, August 28). Google Gemini eats the world – Gemini
+        smashes GPT-4 by 5X, the GPU-poors. SemiAnalysis. https://www.semianalysis.com/p/
+        google-gemini-eats-the-world-gemini
+
+[158]   Ye, W., Liu, S., Kurutach, T., Abbeel, P., & Gao, Y. (2021). Mastering Atari Games with
+        Limited Data. ArXiv:2111.00210 [Cs]. https://arxiv.org/abs/2111.00210
+
+[159]   Wu, C., Liang, J., Ji, L., Yang, F., Fang, Y., Jiang, D., & Duan, N. (2021, November 24).
+        NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion. ArXiv.org. https://
+        doi.org/10.48550/arXiv.2111.12417
+
+[160]   AI Tracker. (n.d.). Aitracker.org. Retrieved September 12, 2023, from http://aitracker.org
+
+[161]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Atomic weapons case study: overcoming absence of historic
+        patterns”. (2023)
+
+[162]   Microsoft. (2023). Governing AI: A blueprint for the future. https://
+        query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW14Gtw
+
+[163]   GPT-4. (2023, March 13). OpenAI.com. https://openai.com/research/gpt-4/
+
+[164]   Lilly, B., Hodgson, Q., Ablon, L., & Moore, A. (2019). Applying Indications and Warning
+        Frameworks to Cyber Incidents. https://ccdcoe.org/uploads/2019/06/Art_05_Applying-
+        Indications-and-Warning-Frameworks-to-Cyber-Incidents.pdf
+
+[165]   Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., Yogatama, D., Bosma,
+        M., Zhou, D., Metzler, D., Chi, E. H., Hashimoto, T., Vinyals, O., Liang, P., Dean, J., &
+        Fedus, W. (n.d.). Emergent abilities of large language models. Openreview.net. Retrieved
+        September 12, 2023, from https://openreview.net/pdf?id=yzkSU5zdwD
+
+[166]   METR. (n.d.). METR.org. Retrieved February 24, 2024, from https://metr.org/
+
+
+
+
+                                                                                             184 of 284
+[167]   Crawford, D., Thill, B., Li, S., Sebastian, C., Heaton, C., Champion, T., Kulkarni, R., Josey,
+        R., Erickson, B., & Mathivanan, D. (2023, April 26). META Q1 2023 Follow Up Call
+        Transcript. https://s21.q4cdn.com/399680738/files/doc_financials/2023/q1/META-
+        Q1-2023-Follow-Up-Call-Transcript.pdf
+
+[168]   Minsky, Y. (ron) [yminsky]. (2023, July 19). We’ve done something very similar at Jane
+        Street, with similar uptake. And it really feels like we’re just beginning. Even without
+        improvements in the underlying models, there’s a lot to be gained purely in tooling-space.
+        Twitter. https://twitter.com/yminsky/status/1681795193685590017
+
+[169]   Victor, J., & Weinberg, C. (2023, June 8). Wall Street firm citadel Securities courts AI
+        startups for trading edge. The Information. https://www.theinformation.com/articles/wall-
+        street-firm-citadel-securities-courts-ai-startups-for-trading-edge
+
+[170]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Night optical devices case study: unilateral measures and
+        supply chain characteristics”. (2023)
+
+[171]   Shilov, A. (2022, September 16). SMIC mass produces 14nm nodes, advances to 5nm,
+        7nm. Tom’s Hardware. https://www.tomshardware.com/news/smic-mass-produces-14nm-
+        nodes-advances-to-5nm-7nm
+
+[172]   Patel, D., Ahmad, A., & Xie, M. (2023, September 12). China AI & semiconductors rise: US
+        sanctions have failed. SemiAnalysis. https://www.semianalysis.com/p/china-ai-and-
+        semiconductors-rise
+
+[173]   Meta. (2023). llama: Inference code for LLaMA models. GitHub.
+
+[174]   Open LLM Leaderboard - a Hugging Face Space by HuggingFaceH4. (n.d.).
+        HuggingFace.co. Retrieved February 24, 2024, from https://huggingface.co/spaces/
+        HuggingFaceH4/open_llm_leaderboard/
+
+[175]   Together. (2022, November 30). NeurIPS 2022: Overcoming communication bottlenecks
+        for decentralized training (1/2). TOGETHER. https://together.ai/blog/neurips-2022-
+        overcoming-communication-bottlenecks-for-decentralized-training-12
+
+[176]   Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+        Trajectories. Section: “Concrete alignment failure scenarios”. (2023).
+
+[177]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Aircraft case study: treaty enforcement and subversion”. (2023)
+
+[178]   Harris, J., Harris, E., Beall, M. Deliverable 2: Survey of AI Technologies and AI R&D
+        Trajectories. Section: “Open-source and vectors of access to advanced AI”. (2023).
+
+
+
+
+                                                                                              185 of 284
+[179]   Announcing Epoch: A research initiative investigating the road to transformative AI. (2022,
+        June 23). Epoch. https://epochai.org/blog/announcing-epoch
+
+[180]   ARC evals. (n.d.). Alignment.org. Retrieved September 12, 2023, from https://
+        evals.alignment.org/
+
+[181]   Palisade research – home. (n.d.). Palisaderesearch.org. Retrieved September 12, 2023,
+        from https://palisaderesearch.org/
+
+[182]   Hobbhahn, M. (2023, May 29). Announcing. Apollo Research. https://
+        www.apolloresearch.ai/blog/announcement
+
+[183]   National Preparedness System | FEMA.gov. (n.d.). Www.fema.gov. Retrieved February 26,
+        2024, from https://www.fema.gov/emergency-managers/national-preparedness/system
+
+[184]   Federal Funding for AI Safety research. (n.d.). The Center for AI Safety. Retrieved
+        September 12, 2023, from https://docs.google.com/document/d/
+        1ux2xmwBfr8BtcC0GyKO2TmvHm_w8WUk8HS46UNjLfWo/edit
+
+[185]   Amanpour and Company [@AmanpourandCompany]. (2023, May 9). “godfather of AI”
+        Geoffrey Hinton warns of the “existential threat” of AI | amanpour and company. Youtube.
+        https://www.youtube.com/watch?v=Y6Sgp7y178k
+
+[186]   Center for Human-Compatible Artificial Intelligence – Center for Human-Compatible AI is
+        building exceptional AI for humanity. (n.d.). Center for Human-Compatible AI. https://
+        humancompatible.ai/
+
+[187]   Home. (n.d.). Mila. https://mila.quebec/en/
+
+[188]   Redwood Research. (n.d.). Redwood Research. https://www.redwoodresearch.org/
+
+[189]   Conjecture. (n.d.). Www.conjecture.dev. Retrieved February 24, 2024, from https://
+        www.conjecture.dev/
+
+[190]   Alignment Research Center. (n.d.). Alignment Research Center. Retrieved February 24,
+        2024, from https://www.alignment.org/
+
+[191]   Apollo Research. (n.d.). Apollo Research. Retrieved February 24, 2024, from https://
+        www.apolloresearch.ai/
+
+
+
+
+                                                                                              186 of 284
+[192]   Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y.,
+        Chen, A., Conerly, T., DasSarma, N., Drain, D., Ganguli, D., Hatfield-Dodds, Z., Hernandez,
+        D., Jones, A., Kernion, J., Lovitt, L., Ndousse, K., … Olah, C. (2021, December 22). A
+        mathematical framework for transformer circuits. Transformer-Circuits.Pub. https://
+        transformer-circuits.pub/2021/framework/index.html
+
+[193]   Hubinger, E., Denison, C., Mu, J., Lambert, M., Tong, M., MacDiarmid, M., Lanham, T.,
+        Ziegler, D. M., Maxwell, T., Cheng, N., Jermyn, A., Askell, A., Radhakrishnan, A., Anil, C.,
+        Duvenaud, D., Ganguli, D., Barez, F., Clark, J., Ndousse, K., & Sachan, K. (2024, January
+        17). Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.
+        ArXiv.org. https://doi.org/10.48550/arXiv.2401.05566
+
+[194]   Bricken, T., Templeton, A., Batson, J., Chen, B., Jermyn, A., Conerly, T., L Turner, N., Anil,
+        C., Denison, C., Askell, A., Lasenby, R., Wu, Y., Kravec, S., Schiefer, N., Maxwell, T.,
+        Joseph, N., Tamkin, A., Nguyen, K., McLean, B., & Burke, J. E. (2023, October 4). Towards
+        Monosemanticity: Decomposing Language Models With Dictionary Learning. Transformer-
+        Circuits.pub. https://transformer-circuits.pub/2023/monosemantic-features/index.html
+
+[195]   NAIRR Pilot - Home. (n.d.). Nairrpilot.org. Retrieved February 24, 2024, from https://
+        nairrpilot.org/
+
+[196]   Artificial intelligence (AI) at NSF. (n.d.). Nsf.gov. Retrieved September 12, 2023, from
+        https://www.nsf.gov/cise/ai.jsp
+
+[197]   NAIRR Pilot - NAIRR Secure. (n.d.). Nairrpilot.org. Retrieved February 24, 2024, from
+        https://nairrpilot.org/nairr-secure
+
+[198]   National Artificial Intelligence Research Resource Task Force. (2023). Strengthening and
+        Democratizing the U.S. Artificial Intelligence Innovation Ecosystem. https://nsf-gov-
+        resources.nsf.gov/2023-10/NAIRR-TF-Final-Report-2023.pdf?
+        VersionId=2RqgASgtGLzEI6QKsMIL.MWITnjgrmh_
+
+[199]   Introducing the AI Safety Institute. (2023, November). GOV.uk. https://www.gov.uk/
+        government/publications/ai-safety-institute-overview/introducing-the-ai-safety-institute
+
+[200]   DeepSeek. (n.d.). DeepSeek.com. Retrieved February 24, 2024, from https://
+        www.deepseek.com/
+
+[201]   Patrick, E. (2023, September 29). French AI Startup Mistral Faces Backlash as New LLM
+        Generates Harmful Content. Cryptopolitan. https://www.cryptopolitan.com/french-ai-
+        startup-mistral-faces-backlash/
+
+[202]   U.S. Artificial Intelligence Safety Institute. (n.d.). NIST.gov. Retrieved February 24, 2024,
+        from https://www.nist.gov/artificial-intelligence/artificial-intelligence-safety-institute
+
+
+
+
+                                                                                               187 of 284
+[203]   AI Risk Management Framework: AI RMF (1.0). (2023). National Institute of Standards and
+        Technology. https://doi.org/10.6028/nist.ai.100-1
+
+[204]   Theories of Change for AI Auditing. (2023, November 13). Apollo Research. https://
+        www.apolloresearch.ai/blog/theories-of-change-for-ai-auditing
+
+[205]   Vincent, J. (2023, February 15). Microsoft’s Bing is an emotionally manipulative liar, and
+        people love it. The Verge. https://www.theverge.com/2023/2/15/23599072/microsoft-ai-
+        bing-personality-conversations-spy-employees-webcams
+
+[206]   Murgia, M. (2023, November 14). OpenAI CEO Sam Altman wants to build AI
+        “superintelligence.” Ars Technica. https://arstechnica.com/ai/2023/11/openai-ceo-sam-
+        altman-wants-to-build-ai-superintelligence/2/
+
+[207]   Kojima, T., Shixiang, S., Gu, Reid, M., Research, G., Matsuo, Y., & Iwasawa, Y. (2023). Large
+        Language Models are Zero-Shot Reasoners. https://arxiv.org/pdf/2205.11916.pdf
+
+[208]   Lapid, R., Langberg, R., & Sipper, M. (2023, Sept 4). Open sesame! Universal black box
+        jailbreaking of large language models⋆. Arxiv.org. Retrieved September 11, 2023, from
+        http://arxiv.org/abs/2309.01446
+
+[209]   Berglund, L., Stickland, A. C., Balesni, M., Kaufmann, M., Tong, M., Korbak, T., Kokotajlo,
+        D., & Evans, O. (n.d.). Taken out of context: On measuring situational awareness in LLMs.
+        Github.Io. Retrieved September 11, 2023, from https://owainevans.github.io/
+        awareness_berglund.pdf
+
+[210]   Laine, R., Meinke, A., & Evans, O. (n.d.). Towards a Situational Awareness Benchmark for
+        LLMs. Retrieved February 25, 2024, from https://openreview.net/pdf?id=DRk4bWKr41
+
+[211]   DavidW. (2023). Deceptive Alignment is <1% Likely by Default.
+        Forum.effectivealtruism.org. https://forum.effectivealtruism.org/posts/
+        4MTwLjzPeaNyXomnx/deceptive-alignment-is-less-than-1-likely-by-default
+
+[212]   National Nuclear Security Administration. (n.d.). Energy.gov. Retrieved February 25, 2024,
+        from https://www.energy.gov/nnsa/national-nuclear-security-administration
+
+[213]   Fist, Timothy, Arne, O., & Withers, C. (2023, July 2). Hardware-Enabled Mechanisms for AI
+        Governance. Center for a New American Security.
+
+[214]   Arane, O. (2023). Leveraging hardware security features for AI governance. Rethink
+        Priorities.
+
+
+
+
+                                                                                            188 of 284
+[215]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Environmental regulation case study: mechanism design is
+        critical”. (2023)
+
+[216]   NVIDIA H100 Tensor Core GPU. (n.d.). NVIDIA. Retrieved September 12, 2023, from
+        https://www.nvidia.com/en-us/data-center/h100/
+
+[217]   Shavit, Y. (2023). What does it take to catch a Chinchilla? Verifying Rules on Large-Scale
+        Neural Network Training via Compute Monitoring. In arXiv [cs.LG]. http://arxiv.org/abs/
+        2303.11341
+
+[218]   Choi, D., Shavit, Y., & Duvenaud, D. (2023). Tools for verifying neural models’ training
+        data. In arXiv [cs.LG]. http://arxiv.org/abs/2307.00682
+
+[219]   NVIDIA DGX H100 datasheet. (n.d.). NVIDIA. Retrieved September 12, 2023, from https://
+        resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx
+
+[220]   Konstantin Piltz and Lennart Heim, personal communications.
+
+[221]   Heim, L. (2023, June 20). Deployment Oversight (aka inference governance).
+
+[222]   PR Newswire. (2023, October 10). CoreWeave Expands Data Center Footprint with Two
+        New Flexential Colocation Facilities. Yahoo Finance. https://finance.yahoo.com/news/
+        coreweave-expands-data-center-footprint-130000855.html?guccounter=1
+
+[223]   Fist, Tim, Heim, L., & Schneider, J. (2023, June 21). Chinese firms are evading chip
+        controls. Foreign Policy. https://foreignpolicy.com/2023/06/21/china-united-states-
+        semiconductor-chips-sanctions-evasion/
+
+[224]   Fist, T., & Grunewald, E. (2023, October 24). Preventing AI Chip Smuggling to China.
+        Www.cnas.org. https://www.cnas.org/publications/reports/preventing-ai-chip-smuggling-
+        to-china
+
+[225]   Sastry, G., Heim, L., Belfield, H., Anderljung, M., Brundage, M., Hazell, J., O'keefe, C.,
+        Hadfield, G., Ngo, R., Pilz, K., Gor, G., Bluemke, E., Shoker, S., Egan, J., Trager, R., Avin,
+        S., Weller, A., & Bengio, Y. (2024). Computing Power and the Governance of Artificial
+        Intelligence. https://arxiv.org/pdf/2402.08797.pdf
+
+[226]   Yang, C., Wang, X., Lu, Y., Liu, H., Le, Q. V., Zhou, D., & Chen, X. (2023). Large Language
+        Models as Optimizers. In arXiv [cs.LG]. http://arxiv.org/abs/2309.03409
+
+[227]   Gemini - Google DeepMind. (n.d.). Deepmind.google. Retrieved February 25, 2024, from
+        https://deepmind.google/technologies/gemini/#introduction
+
+
+
+
+                                                                                               189 of 284
+[228]   Sharkey, L., Ghuidhir, C., Research, A., Braun, D., Scheurer, J., Balesni, M., Bushnaq, L.,
+        Stix, C., & Hobbhahn, M. (n.d.). A Causal Framework for AI Regulation and Auditing.
+        Retrieved February 25, 2024, from https://static1.squarespace.com/static/
+        6593e7097565990e65c886fd/t/65a6f1389754fc06cb9a7a14/1705439547455/
+        auditing_framework_web.pdf
+
+[229]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Night optical devices case study: battlefield utility, TTPs, and
+        nonproliferation”. (2023)
+
+[230]   Schuett, J. (2023). AGI labs need an internal audit function. In arXiv [cs.CY]. http://
+        arxiv.org/abs/2305.17038
+
+[231]   Schuett, J. (2022). Three lines of defense against risks from AI. In arXiv [cs.CY]. http://
+        arxiv.org/abs/2212.08364
+
+[232]   Nuclear Energy Institute. (2016, September). Nuclear Power Plant Security and Access
+        Control. Nuclear Energy Institute. https://www.nei.org/resources/fact-sheets/nuclear-plant-
+        security-and-access-control
+
+[233]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Atomic weapons case study: accidental risk mitigation of
+        single-use technology”. (2023)
+
+[234]   Perona, A. (2019, December 21). Tension in the law: Confrontation clause and
+        whistleblower protection. Crimlawpractitioner. https://www.crimlawpractitioner.org/post/
+        2019/12/21/tension-in-the-law-confrontation-clause-and-whistleblower-protection
+
+[235]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Aircraft case study: technological forecasting challenges”.
+        (2023)
+
+[236]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Biological & chemical weapons case study: market influence”.
+        (2023)
+
+[237]   Y. Bai et al., “Constitutional AI: Harmlessness from AI Feedback,” arXiv [cs.CL], 2022.
+
+[238]   Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., & Finn, C. (2023, May 29).
+        Direct Preference Optimization: Your Language Model is Secretly a Reward Model.
+        ArXiv.org. https://doi.org/10.48550/arXiv.2305.18290
+
+
+
+
+                                                                                               190 of 284
+[239]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Dynamite case study: successes and failures of state power”.
+        (2023)
+
+[240]   Nolan, B. (2024, February 15). MSN. MSN.com. https://www.msn.com/en-ca/money/
+        other/every-country-needs-its-own-ai-systems-says-nvidia-ceo-jensen-huang/ar-BB1ijUmM
+
+[241]   (2023, September 6). Technology Innovation Institute Introduces World’s Most Powerful
+        Open LLM: Falcon 180B. Businesswire.com. Retrieved September 11, 2023, from https://
+        www.businesswire.com/news/home/20230906583274/en/Technology-Innovation-Institute-
+        Introduces-World%E2%80%99s-Most-Powerful-Open-LLM-Falcon-180B
+
+[242]   Ren, Rebecca. (2023, April 5). Microsoft President says China’s BAAI is at the forefront of
+        AI innovation. Here is a snapshot of the ORG. (n.d.). PingWest. Retrieved September 11,
+        2023, from https://en.pingwest.com/a/11658
+
+[243]   Patel, D. (2023, November 9). Nvidia’s New China AI Chips Circumvent US Restrictions -
+        H20, L20, and L2 Specifications. Www.semianalysis.com. https://www.semianalysis.com/p/
+        nvidias-new-china-ai-chips-circumvent
+
+[244]   AI Safety Summit 2023: The Bletchley Declaration. (2023, November 1). GOV.UK. https://
+        www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration
+
+[245]   Statement on AI Risk. (n.d.). Safe.Ai. Retrieved September 12, 2023, from https://
+        www.safe.ai/statement-on-ai-risk
+
+[246]   Ho, L., Barnhart, J., Trager, R., Bengio, Y., Brundage, M., Carnegie, A., Chowdhury, R.,
+        Dafoe, A., Hadfield, G., Levi, M., Snidal, D., & Deepmind, G. (2023, July 11). International
+        Institutions for Advanced AI. Arxiv.org. http://arxiv.org/abs/2307.04699
+
+[247]   NeurIPS 2022. (n.d.). NeurIPS.cc. https://neurips.cc/
+
+[248]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Biological & chemical weapons case study: treaty design and
+        enforcement”. (2023)
+
+[249]   Knight, W. (2023, November 2). World Powers Say They Want to Contain AI. They’re Also
+        Racing to Advance It. Wired. https://www.wired.com/story/uk-ai-summit-declaration/
+
+[250]   Kang, D. (2023, June 21). Cooperation or competition? China’s security industry sees the
+        US, not AI, as the bigger threat. The Seattle Times. https://www.seattletimes.com/
+        business/cooperation-or-competition-chinas-security-industry-sees-the-us-not-ai-as-the-
+        bigger-threat/
+
+
+
+
+                                                                                             191 of 284
+[251]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Atomic weapons case study: the stability/control paradox”.
+        (2023)
+
+[252]   Field, M. (2023, December 22). A new study reports 309 lab acquired infections and 16
+        pathogen lab escapes between 2000 and 2021. Bulletin of the Atomic Scientists. https://
+        thebulletin.org/2023/12/a-new-study-reports-309-lab-acquired-infections-and-16-
+        pathogen-lab-escapes-between-2000-and-2021/
+
+[253]   Blacksell, S.D., Dhawan, S., Kusumoto, M., Le, K.K., Summermatter, K., O’Keefe, J.,
+        Kozlovac, J.P., Almuhairi, S.S., Sendow, I., Scheel, C.M. and Ahumibe, A. (2023).
+        Laboratory-acquired infections and pathogen escapes worldwide between 2000 and 2021:
+        a scoping review. The Lancet Microbe.
+
+[254]   United States Department of State. (2019). Milestones: 1969–1976 - Office of the
+        Historian. State.gov. https://history.state.gov/milestones/1969-1976/salt
+
+[255]   Reuters. (2023, November 1). South Korea and France to host next two AI Safety Summits.
+        https://www.reuters.com/technology/south-korea-france-host-next-two-ai-safety-
+        summits-2023-11-01/
+
+[256]   Allen, G. C. (2023). In Chip Race, China Gives Huawei the Steering Wheel: Huawei’s New
+        Smartphone and the Future of Semiconductor Export Controls. CSIS.org. https://
+        www.csis.org/analysis/chip-race-china-gives-huawei-steering-wheel-huaweis-new-
+        smartphone-and-future
+
+[257]   David, E. (2024, February 5). Huawei just retasked a factory to prioritize AI over its
+        bestselling phone. The Verge. https://www.theverge.com/2024/2/5/24062541/huawei-
+        ascend-chips-ai-mate-phones-pause
+
+[258]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “environmental regulation case study: cooperation against
+        shared risk is possible”. (2023)
+
+[259]   Wagner, Vance; personal communication.
+
+[260]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Atomic weapons case study”. (2023)
+
+[261]   NSG - Homepage. (n.d.). Nuclearsuppliersgroup.org. Retrieved February 25, 2024, from
+        https://nuclearsuppliersgroup.org/en/
+
+[262]   Pilz, K., Heim, L., & Brown, N. (2024, February 13). Increased Compute Efficiency and the
+        Diffusion of AI Capabilities. ArXiv.org. https://doi.org/10.48550/arXiv.2311.15377
+
+
+
+
+                                                                                           192 of 284
+[263]   The Wassenaar Arrangement. (2015). The Wassenaar Arrangement. https://
+        www.wassenaar.org/
+
+[264]   Gao, L., Biderman, S., Black, S., Golding, L., Hoppe, T., Foster, C., Phang, J., He, H., Thite,
+        A., Nabeshima, N. and Presser, S., 2020. The pile: An 800gb dataset of diverse text for
+        language modeling. arXiv preprint arXiv:2101.00027.
+
+[265]   Common Crawl. (n.d.). Common Crawl. Retrieved February 25, 2024, from https://
+        commoncrawl.org/
+
+[266]   Imbrie, A., Fedasiuk, R., Aiken, C., Chhabra, T., & Chahal, H. (2020, February). Agile
+        Alliances. Center for Security and Emerging Technology. https://cset.georgetown.edu/
+        publication/agile-alliances/
+
+[267]   Thompson, B. (2023, October 26). An Interview with Gregory Allen About the Updated
+        China Chip Ban. Stratechery by Ben Thompson. https://stratechery.com/2023/an-
+        interview-with-gregory-allen-about-the-updated-china-chip-ban/
+
+[268]   Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee,
+        Y., Li, Y., Lundberg, S., Nori, H., Palangi, H., Ribeiro, M., & Zhang, Y. (2023). Sparks of
+        Artificial General Intelligence: Early experiments with GPT-4. https://arxiv.org/pdf/
+        2303.12712.pdf
+
+[269]   About us. (n.d.). Dcsa.Mil. Retrieved September 12, 2023, from https://www.dcsa.mil/
+        about/
+
+[270]   Clark, J., & Amodei, D. (2016, December 21). Faulty reward functions in the wild.
+        Openai.com. https://openai.com/research/faulty-reward-functions
+
+[271]   Krakovna, V. (n.d.). Specification gaming examples in AI - master list - Google Drive.
+        Retrieved February 25, 2024, from https://docs.google.com/spreadsheets/u/2/d/e/
+        2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzux
+        o8bjOxCG84dAg/pubhtml
+
+[272]   Learn More About Interconnections. (n.d.). Energy.gov. Retrieved February 25, 2024, from
+        https://www.energy.gov/oe/learn-more-about-interconnections
+
+[273]   Microsoft Research Lab - Asia. (n.d.). Microsoft Research. Retrieved February 26, 2024,
+        from https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+
+[274]   Stanford-Tsinghua Student Exchange Program-Tsinghua University. (n.d.).
+        Www.tsinghua.edu.cn. Retrieved February 26, 2024, from https://www.tsinghua.edu.cn/
+        en/info/1245/4054.htm
+
+
+
+
+                                                                                             193 of 284
+        [275]   Chan, K., & Keaten, J. (2024, January 18). AI is the buzz, the big opportunity and the risk
+                to watch among the Davos glitterati. AP News. https://apnews.com/article/artificial-
+                intelligence-davos-chatgpt-microsoft-277f4d10191397cfa5929901720d60c0
+
+        [276]   Hsiao, J. (2023, October 11). China prepares for data center construction surge to double
+                computing power by 2025. DIGITIMES. https://www.digitimes.com/news/
+                a20231011VL200.html
+
+        [277]   Heide, F. (2023). Thoughts on March 2023 proposal for AGI development by Zhu
+                Songchun.
+
+        [278]   China’s internet giants order $5bn of Nvidia chips to power AI ambitions. (2023, August
+                10). Nikkei Asia. https://web.archive.org/web/20230811104459/https://asia.nikkei.com/
+                Business/Tech/Semiconductors/China-s-internet-giants-order-5bn-of-Nvidia-chips-to-
+                power-AI-ambitions
+
+        [279]   ERNIE Bot: Baidu’s Knowledge-Enhanced Large Language Model Built on Full AI Stack
+                Technology. (2023, March 24). Baidu Research. http://research.baidu.com/Blog/index-
+                view?id=183
+
+        [280]   零    万物-AI2.0 模型技术和应 的全球公司（01.AI）. (n.d.). 零 万物-AI2.0 模型技术和
+                应    的全球公司（01.AI）. Retrieved February 25, 2024, from https://www.01.ai/
+
+        [281]   deepseek-ai/DeepSeek-Coder. (2024, January 12). GitHub. https://github.com/deepseek-
+                ai/DeepSeek-Coder
+
+        [282]   Feed, T. (2023, November 15). Kai-Fu Lee’s AI large language model Yi used Meta’s Llama
+                architecture without namechecking its source · TechNode. TechNode. https://
+                technode.com/2023/11/15/kai-fu-lees-ai-large-language-model-yi-used-metas-llama-
+                architecture-without-namechecking-its-source/
+
+        [283]   Ma, Z., He, J., Qiu, J., Cao, H., Wang, Y., Sun, Z., Zheng, L., Wang, H., Tang, S., Zheng, T.,
+                Lin, J., Feng, G., Huang, Z., Gao, J., Zeng, A., Zhang, J., Zhong, R., Shi, T., Liu, S., …
+                Chen, W. (2022). BaGuaLu: Targeting brain scale pretrained models with over 37 million
+                cores. Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of
+                Parallel Programming, 1.
+
+        [284]   Shilov, A. (2023, December 12). Evidence mounts that China has sanctions-defying 5nm
+                tech — Huawei reportedly preps new AI processor built with Chinese fabs’ N+2 node.
+                Tom’s Hardware. https://www.tomshardware.com/tech-industry/artificial-intelligence/
+                evidence-mounts-that-china-has-sanctions-defying-5nm-tech-huawei-reportedly-preps-
+                new-ai-processor-built-with-chinese-fabs-n2-node
+
+
+
+
+                                                                                                     194 of 284
+一
+用
+    大
+                 用
+                                                    一
+                                                                 大
+            [285]   Rapier, R. (2023, September 11). China Poised To Surpass The U.S. As The World’s Top
+                    Nuclear Power Producer. Forbes. https://www.forbes.com/sites/rrapier/2023/09/11/china-
+                    poised-to-surpass-the-us-as-the-worlds-top-nuclear-power-producer/?sh=e4b833960927
+
+            [286]   State of AI Safety in China. (2023, October). Concordia AI. https://concordia-ai.com/wp-
+                    content/uploads/2023/10/State-of-AI-Safety-in-China.pdf
+
+            [287]   2023 北京智源 会. (n.d.). Baai.Ac.Cn. Retrieved September 12, 2023, from https://
+                    2023.baai.ac.cn/speakers
+
+            [288]   Pan, C. (2024, January 9). China to persist with AI development in 2024 despite US chip
+                    curbs: UBS. South China Morning Post. https://www.scmp.com/tech/tech-trends/article/
+                    3247835/china-persist-ai-development-efforts-2024-despite-setbacks-rigid-us-
+                    semiconductor-restrictions-ubs
+
+            [289]   强     智能安全预警研究 - 百度 库. (n.d.). Baidu.com. Retrieved September 12, 2023,
+                    from https://wenku.baidu.com/view/
+                    e29ace91d3d233d4b14e852458fb770bf78a3b76.html?_wkts_=1692799823761
+
+            [290]   Homepage EN - Concordia AI. (2023, August 18). Concordia AI -; Concordia AI. https://
+                    concordia-consulting.com/
+
+            [291]   Home. (2021, June 27). Open Philanthropy. https://www.openphilanthropy.org/
+
+            [292]   Grants. (2021, June 30). Open Philanthropy. https://www.openphilanthropy.org/grants/?
+                    q=&focus-area%5B%5D=potential-risks-advanced-ai
+
+            [293]   Survival and Flourishing Fund (SFF). (n.d.). Retrieved September 12, 2023, from https://
+                    survivalandflourishing.fund/
+
+            [294]   Rethink priorities. (n.d.). Rethink Priorities. Retrieved September 12, 2023, from https://
+                    rethinkpriorities.org/
+
+            [295]   Home. (2022, January 25). Future Fund. https://ftxfuturefund.org.cach3.com/
+
+            [296]   OpenAI — general support. (2017, February 15). Open Philanthropy. https://
+                    www.openphilanthropy.org/grants/openai-general-support/
+
+            [297]   Matthews, D. (2023a, July 17). The $1 billion gamble to ensure AI doesn’t destroy
+                    humanity. Vox. https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-
+                    claude-2
+
+            [298]   FTX CEO leads $580m Series B round in Anthropic. (2023, May 5). Private Equity Wire.
+                    https://www.privateequitywire.co.uk/ftx-ceo-leads-580m-series-b-round-anthropic/
+
+
+
+
+                                                                                                         195 of 284
+人
+    工
+        大
+                      文
+[299]   Goldman, S. (2023, December 19). The widening web of effective altruism in AI security |
+        The AI Beat. VentureBeat. https://venturebeat.com/ai/the-widening-web-of-effective-
+        altruism-in-ai-security-the-ai-beat/
+
+[300]   Bordelon, B. (2023, December 16). MSN. Www.msn.com. https://www.msn.com/en-us/
+        money/other/billionaire-backed-think-tank-played-key-role-in-bidens-ai-order/ar-
+        AA1lANuU
+
+[301]   Dupré, M. H. (2023, October 28). Sam Altman Warns That AI Is Learning “Superhuman
+        Persuasion.” Futurism. https://futurism.com/sam-altman-ai-superhuman-persuasion
+
+[302]   Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N.,
+        Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S.,
+        Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2023, October 27).
+        Towards Understanding Sycophancy in Language Models. ArXiv.org. https://doi.org/
+        10.48550/arXiv.2310.13548
+
+[303]   Xiang, C. (2023, March 30). “He Would Still Be Here”: Man Dies by Suicide After Talking
+        with AI Chatbot, Widow Says. Www.vice.com. https://www.vice.com/en/article/pkadgm/
+        man-dies-by-suicide-after-talking-with-ai-chatbot-widow-says
+
+[304]   Huet, E. (2023, March 22). What Happens When Sexting Chatbots Dump Their Human
+        Lovers. Bloomberg.com. https://www.bloomberg.com/news/articles/2023-03-22/replika-
+        ai-causes-reddit-panic-after-chatbots-shift-from-sex
+
+[305]   Haleluya Hadero. (2024, February 14). AI chatbots are sparking romance (with the chatbot,
+        that is). CBC. https://www.cbc.ca/news/world/artificial-intelligence-companion-
+        apps-1.7114695
+
+[306]   Price, R. (n.d.). People are grieving the “death” of their AI companions after a chatbot app
+        abruptly shut down. Business Insider. Retrieved February 26, 2024, from https://
+        www.businessinsider.com/soulmate-users-mourn-death-ai-chatbots-2023-10
+
+[307]   Industry and Security Bureau. (2023). Implementation of additional export controls: Certain
+        advanced computing and semiconductor manufacturing items; Supercomputer and
+        semiconductor end use; Entity list modification; Updates to the controls to add Macau. In
+        Federal Register (Vol. 88, pp. 2821–2829). https://www.federalregister.gov/d/2023-00888
+
+[308]   Allen, G. C., & Benson, E. (2023). Clues to the U.S.-Dutch-Japanese semiconductor export
+        controls deal are hiding in plain sight. Center for Strategic and International Studies.
+
+[309]   Nellis, S., & Lee, J. (2023, March 22). Nvidia tweaks flagship H100 chip for export to China
+        as H800. Reuters. https://www.reuters.com/technology/nvidia-tweaks-flagship-h100-chip-
+        export-china-h800-2023-03-21/
+
+
+
+
+                                                                                           196 of 284
+[310]   Epoch. (2023, April 11). ML trends. Epoch. https://epochai.org/trends
+
+[311]   A100 GPU’s Offer Power, Performance, & Efficient Scalability. (n.d.). NVIDIA. Retrieved
+        September 12, 2023, from https://www.nvidia.com/en-us/data-center/a100/
+
+[312]   NVIDIA HGX A100. (n.d.). Nvidia.com. Retrieved September 12, 2023, from https://
+        www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/a100-80gb-hgx-a100-
+        datasheet-us-nvidia-1485640-r6-web.pdf
+
+[313]   G482-Z54 (rev. 100). (n.d.). GIGABYTE. Retrieved September 12, 2023, from https://
+        www.gigabyte.com/Enterprise/GPU-Server/G482-Z54-rev-100
+
+[314]   Dettmers, T., Lewis, M., Belkada, Y., Zettlemoyer, L., & Paris-Saclay, E. (n.d.). Llm.int8(): 8-
+        bit Matrix Multiplication for Transformers at Scale. Arxiv.org. Retrieved September 12,
+        2023, from http://arxiv.org/abs/2208.07339
+
+[315]   Piltz, K., & Heim, L. (202 C.E., July). Compute at Scale: A broad investigation into the data
+        center industry. https://pdf.konstantinpilz.com/compute-at-scale
+
+[316]   Anthropic Partners with Google Cloud. (2023, February 3). Anthropic. https://
+        www.anthropic.com/index/anthropic-partners-with-google-cloud
+
+[317]   22,000 GPUs: Inflection AI building 22 exaFLOPS generative AI cluster. (2023, June 30).
+        High-Performance Computing News Analysis | InsideHPC; insideHPC. https://
+        insidehpc.com/2023/06/22000-gpus-inflection-ai-building-22-exaflops-generative-ai-
+        cluster/
+
+[318]   AI Transformer Inventors Launch Adept with $65M to Lend a Hand to Knowledge Workers.
+        (2023, April 26). Businesswire. https://www.businesswire.com/news/home/
+        20220426005963/en/AI-Transformer-Inventors-Launch-Adept-with-65M-to-Lend-a-Hand-
+        to-Knowledge-Workers
+
+[319]   Wiggers, K. (2022, May 13). Inflection AI, led by LinkedIn and DeepMind co-founders,
+        raises $225M to transform computer-human interactions. TechCrunch. https://
+        techcrunch.com/2022/05/13/inflection-ai-led-by-linkedin-and-deepmind-co-founders-
+        raises-225m-to-transform-computer-human-interactions/
+
+[320]   Wiggers, K. (2023, June 27). Reka emerges from stealth to build custom AI models for the
+        enterprise. TechCrunch. https://techcrunch.com/2023/06/27/reka-emerges-from-stealth-
+        to-build-custom-ai-models-for-the-enterprise/
+
+[321]   Lunden, I. (2023, June 13). France’s Mistral AI blows in with a 113M seed round at a 260M
+        valuation to take on OpenAI. TechCrunch. https://techcrunch.com/2023/06/13/frances-
+        mistral-ai-blows-in-with-a-113m-seed-round-at-a-260m-valuation-to-take-on-openai/
+
+
+
+
+                                                                                                197 of 284
+[322]   Imbue raises $200M to build AI systems that can reason and code. (n.d.). Imbue.com.
+        Retrieved September 12, 2023, from https://imbue.com/company/introducing-imbue/
+
+[323]   Liu, H., Zaharia, M., & Abbeel, P. (2023, November 27). Ring Attention with Blockwise
+        Transformers for Near-Infinite Context. ArXiv.org. https://doi.org/10.48550/
+        arXiv.2310.01889
+
+[324]   Bulletin of the Atomic Scientists. (n.d.). Bulletin of the Atomic Scientists. https://
+        thebulletin.org/
+
+[325]   Code of Federal Regulations. (n.d.).17 CFR 279.9. Retrieved February 23, 2024, from
+        https://www.ecfr.gov/current/title-17/chapter-II/part-279/section-279.9
+
+[326]   Code of Federal Regulations. (n.d.).17 CFR 275.204(b)-1. Retrieved February 23, 2024,
+        from https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.204(b)-1
+
+[327]   Homepage. (n.d.). Neudata.Co. Retrieved September 12, 2023, from https://
+        www.neudata.co/
+
+[328]   EleutherAI. Retrieved September 12, 2023, from https://www.eleuther.ai/
+
+[329]   BigScience Research Workshop. Huggingface.Co. Retrieved September 12, 2023, from
+        https://bigscience.huggingface.co/
+
+[330]   Huggingface.Co. Retrieved September 12, 2023, from https://bigscience.huggingface.co/
+
+[331]   TOGETHER. Retrieved September 12, 2023, from https://together.ai/
+
+[332]   Ontocord.AI. Retrieved September 12, 2023, from https://www.ontocord.ai/
+
+[333]   Christiano, P., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep
+        reinforcement learning from human preferences. In arXiv [stat.ML]. http://arxiv.org/abs/
+        1706.03741
+
+[334]   OpenMined Community. (2023, June 30). How to audit an AI model owned by someone
+        else (part 1). OpenMined Blog. https://blog.openmined.org/ai-audit-part-1/
+
+[335]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Dynamite case study: the efficacy of regulatory capture”.
+        (2023)
+
+[336]   Alaga, J., & Schuett, J. (2023, August 9). Coordinated pausing: An evals-based
+        coordination scheme for frontier AI developers. GovAI. https://docs.google.com/
+        document/d/1MCqh0bBfizMN9brIITYyxWnaqI0rRC5TPPOKSBNFMLo/edit
+
+
+
+
+                                                                                                 198 of 284
+[337]   Muehlhauser, L. (2023, April 17). 12 tentative ideas for US AI policy. Open Philanthropy.
+        https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/
+
+[338]   Villalobos, P. (2023, July 28). Trading off compute in training and inference. Epoch. https://
+        epochai.org/blog/trading-off-compute-in-training-and-inference
+
+[339]   Dodson, D., Souppaya, M., & Scarfone, K. (2020). Mitigating the risk of software
+        vulnerabilities by adopting a secure software development framework (SSDF). National
+        Institute of Standards and Technology.
+
+[340]   SLSA specification. (n.d.). SLSA. Retrieved September 12, 2023, from https://slsa.dev/
+        spec/v1.0/
+
+[341]   An assessment of data center infrastructure’s role in AI governance. (n.d.).
+        Konstantinpilz.com. Retrieved September 12, 2023, from https://www.konstantinpilz.com/
+        data-centers/assessment
+
+[342]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “night optical devices case study: secrecy and one-shot
+        control”. (2023)
+
+[343]   Range safety. (n.d.). Wikiwand. Retrieved September 12, 2023, from https://
+        www.wikiwand.com/en/Range_safety
+
+[344]   Onetto, M. (2014, February). When Toyota met e-commerce: Lean at Amazon. McKinsey
+        Quarterly. https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/
+        Operations/Our%20Insights/
+        When%20Toyota%20met%20e%20commerce%20Lean%20at%20Amazon/
+        When%20Toyota%20met%20e%20commerce%20Lean%20at%20Amazon.pdf
+
+[345]   Chowdhery, A., Narang, S., Devlin, J., Bosma, M., Mishra, G., Roberts, A., Barham, P.,
+        Chung, H. W., Sutton, C., Gehrmann, S., Schuh, P., Shi, K., Tsvyashchenko, S., Maynez, J.,
+        Rao, A., Barnes, P., Tay, Y., Shazeer, N., Prabhakaran, V., … Fiedel, N. (2022). PaLM: Scaling
+        language modeling with Pathways. In arXiv [cs.CL]. http://arxiv.org/abs/2204.02311
+
+[346]   Anil, R., Dai, A. M., Firat, O., Johnson, M., Lepikhin, D., Passos, A., Shakeri, S., Taropa, E.,
+        Bailey, P., Chen, Z., Chu, E., Clark, J. H., Shafey, L. E., Huang, Y., Meier-Hellstern, K.,
+        Mishra, G., Moreira, E., Omernick, M., Robinson, K., … Wu, Y. (2023). PaLM 2 Technical
+        Report. In arXiv [cs.CL]. http://arxiv.org/abs/2305.10403
+
+[347]   Burden, J., & Hernandez-Orallo, J. (2020). Exploring AI Safety in Degrees: Generality,
+        Capability and Control. https://riunet.upv.es/bitstream/handle/10251/177484/
+        BurdenHernandez-Orallo%20-
+        %20Exploring%20AI%20Safety%20in%20Degrees%20Generality%20Capability%20and%2
+        0Control.pdf?sequence=1
+
+
+
+                                                                                               199 of 284
+[348]   Huang, Q., Vora, J., Liang, P., & Leskovec, J. (2023, October 5). Benchmarking Large
+        Language Models As AI Research Agents. ArXiv.org. https://doi.org/10.48550/
+        arXiv.2310.03302
+
+[349]   Department for Science, & Technology. (2023, April 24). Initial £100 million for expert
+        taskforce to help UK build and adopt next generation of safe AI. Gov.uk. https://
+        www.gov.uk/government/news/initial-100-million-for-expert-taskforce-to-help-uk-build-
+        and-adopt-next-generation-of-safe-ai
+
+[350]   UK Artificial Intelligence Policy Update (Statement UIN HCWS1054). (2023, September
+        19). https://questions-statements.parliament.uk/written-statements/detail/2023-09-19/
+        hcws1054
+
+[351]   XAI: Understand the universe. (n.d.). X.Ai. Retrieved September 12, 2023, from https://
+        x.ai/
+
+[352]   Stability AI. (n.d.). Stability AI. Retrieved September 12, 2023, from https://stability.ai/
+
+[353]   Emerging Technology Observatory. (2021). Supply Chain Explorer. Eto.Tech. https://
+        chipexplorer.eto.tech/
+
+[354]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “Aircraft case study: supply chain counterproliferation”. (2023)
+
+[355]   Langosco, L., Koch, J., Sharkey, L., Pfau, J., Orseau, L., & Krueger, D. (2021). Goal
+        misgeneralization in deep reinforcement learning. In arXiv [cs.LG]. http://arxiv.org/abs/
+        2105.14111
+
+[356]   Bai, T., Luo, J., Zhao, J., Wen, B., & Wang, Q. (2021). Recent advances in adversarial
+        training for adversarial robustness. In arXiv [cs.LG]. http://arxiv.org/abs/2102.01356
+
+[357]   Turner, A., Rigg, A., Thiergart, L., & Mini, U. (2023). Open problems in activation
+        engineering. The Alignment Forum. https://www.alignmentforum.org/posts/
+        JMebqicMD6azB8MwK/open-problems-in-activation-engineering
+
+[358]   Rimsky, N. (2023). Red-teaming language models via activation engineering. The
+        Alignment Forum. https://www.alignmentforum.org/posts/iHmsJdxgMEWmAfNne/red-
+        teaming-language-models-via-activation-engineering
+
+[359]   Turner, A., MacDiarmid, M., Udell, D., Thiergart, L., & Mini, U. (2023, May 13). Steering
+        GPT-2-XL by adding an activation vector. Alignmentforum.org. https://
+        www.alignmentforum.org/posts/5spBue2z2tw4JuDCx/steering-gpt-2-xl-by-adding-an-
+        activation-vector
+
+
+
+
+                                                                                                200 of 284
+[360]   Zou, A., Phan, L., Chen, S., Campbell, J., Guo, P., Ren, R., Pan, A., Yin, X., Mazeika, M.,
+        Dombrowski, A.-K., Goel, S., Li, N., Byun, M., Wang, Z., Mallen, A., Basart, S., Koyejo, S.,
+        Song, D., Fredrikson, M., & Kolter, Z. (2023). Representation Engineering: A Top-Down
+        Approach to AI Transparency. https://arxiv.org/pdf/2310.01405.pdf
+
+[361]   Christiano, P., Cotra, A., & Xu, M. (2021, December). Eliciting latent knowledge. Alignment
+        Research Center. https://docs.google.com/document/d/1WwsnJQstPq91_Yh-
+        Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit
+
+[362]   Soares, N., & Fallenstein, B. (2017). Agent foundations for aligning machine intelligence
+        with human interests: A technical research agenda in the technological singularity:
+        Managing the journey. Springer. 2017. Intelligence.org. Retrieved September 12, 2023,
+        from https://intelligence.org/files/TechnicalAgenda.pdf
+
+[363]   Soares, N., & Fallenstein, B. (2015, July 7). Toward idealized decision theory. Arxiv.org.
+        http://arxiv.org/abs/1507.01986
+
+[364]   Yudkowsky, E., & Soares, N. (2017). Functional decision theory: A new theory of
+        instrumental rationality. In arXiv [cs.AI]. http://arxiv.org/abs/1710.05060
+
+[365]   Murfet, D., Wei, S., Gong, M., Li, H., Gell-Redman, J., & Quella, T. (2020). Deep Learning
+        is Singular, and That’s Good. In arXiv [cs.LG]. http://arxiv.org/abs/2010.11560
+
+[366]   Cammarata, N., Carter, S., Goh, G., Olah, C., Petrov, M., & Schubert, L. (2020). Thread:
+        Circuits. Distill, 5(3), e24. https://doi.org/10.23915/distill.00024
+
+[367]   Nanda, N., Chan, L., Lieberum, T., Smith, J., & Steinhardt, J. (2023). Progress measures for
+        grokking via mechanistic interpretability. In arXiv [cs.LG]. http://arxiv.org/abs/2301.05217
+
+[368]   Varma, V., Shah, R., Kenton, Z., Kramár, J., & Kumar, R. (2023). Explaining grokking through
+        circuit efficiency. In arXiv [cs.LG]. http://arxiv.org/abs/2309.02390
+
+[369]   Hendrycks, D., Mazeika, M., & Dietterich, T. (2018). Deep anomaly detection with Outlier
+        Exposure. In arXiv [cs.LG]. http://arxiv.org/abs/1812.04606
+
+[370]   Zhang, X., Chen, H., & Koushanfar, F. (2021). TAD: Trigger Approximation based Black-box
+        Trojan Detection for AI. In arXiv [cs.CR]. http://arxiv.org/abs/2102.01815
+
+[371]   Turner, A., Grietzer, P., Mini, U., MacDiarmid, M., & Udell, D. (2023, March 11).
+        Understanding and controlling a maze-solving policy network. Alignmentforum.org.
+        https://www.alignmentforum.org/posts/cAC4AXiNC5ig6jQnc/understanding-and-
+        controlling-a-maze-solving-policy-network
+
+
+
+
+                                                                                             201 of 284
+[372]   Specification gaming: the flip side of AI ingenuity. (n.d.). Deepmind.com. Retrieved
+        September 12, 2023, from https://www.deepmind.com/blog/specification-gaming-the-flip-
+        side-of-ai-ingenuity
+
+[373]   Chan, L., Garriga-Alonso, A., Goldowsky-Dill, N., Greenblatt, R., Nitishinskaya, J.,
+        Radhakrishnan, A., Shlegeris, B., & Thomas, N. (2022, December 2). Causal Scrubbing: a
+        method for rigorously testing interpretability hypotheses [Redwood Research].
+        Alignmentforum.org. https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-
+        scrubbing-a-method-for-rigorously-testing
+
+[374]   McDermid, J. (2014, January 14). Safety Cases: Purpose, Process and Prospects.
+        SafetyCase Workshop. https://web.archive.org/web/20171215131227/https://www.apt-
+        research.com/news/2014-01-15_SafetyCaseWorkshop/
+        T-13-00600%20Safety%20Case%20Workshop%20Findings.pdf
+
+[375]   Askonas J., Falbo-Wild A., Pitman C. Deliverable 1: A Historical Survey of Technology
+        Control Regimes. Section: “environmental regulation case study: beware unintended
+        consequences”. (2023)
+
+[376]   Park, P. S., Goldstein, S., O’gara, A., Chen, M., & Hendrycks, D. (n.d.). AI deception: A
+        survey of examples, risks, and potential solutions. Arxiv.org. Retrieved September 12,
+        2023, from http://arxiv.org/abs/2308.14752
+
+[377]   Quach, K. (2022, March 18). AI drug algorithms can be flipped to invent bioweapons. The
+        Register. https://www.theregister.com/2022/03/18/ai_weapons_learning/
+
+[378]   OpenAI. (2023b). Preparedness Framework (Beta). https://cdn.openai.com/openai-
+        preparedness-framework-beta.pdf
+
+[379]   Anthropic. (2023, October 4). Challenges in evaluating AI systems. Anthropic.com. https://
+        www.anthropic.com/news/evaluating-ai-systems
+
+[380]   Turner, A. (2023, June 19). Ban development of unpredictable powerful models? The
+        Alignment Forum. https://www.alignmentforum.org/posts/8CvkNa6FKSrK4Nj83/ban-
+        development-of-unpredictable-powerful-models
+
+[381]   O’Brien, J., Ee, S., & Williams, Z. (2023). Deployment corrections An incident response
+        framework for frontier AI models Institute for AI Policy and Strategy (IAPS). https://
+        static1.squarespace.com/static/64edf8e7f2b10d716b5ba0e1/t/
+        651c397fc04af033499df9f8/1696348544356/
+        Deployment+corrections_+an+incident+response+framework+for+frontier+AI+models.p
+        df
+
+
+
+
+                                                                                            202 of 284
+[382]   Yerushalmy, J. (2023, February 17). ‘I want to destroy whatever I want’: Bing’s AI chatbot
+        unsettles US reporter. The Guardian. https://www.theguardian.com/technology/2023/feb/
+        17/i-want-to-destroy-whatever-i-want-bings-ai-chatbot-unsettles-us-reporter
+
+
+
+
+                                                                                          203 of 284
+
