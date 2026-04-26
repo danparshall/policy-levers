@@ -435,4 +435,184 @@ For Dan's purposes specifically: the four-part limitations-of-evaluations argume
 
 ---
 
-[remaining sections 06–11 to be added in subsequent passes]
+### 06 — Chapter 4: LOE4 — Formalize safeguards by establishing an AI regulatory agency and legal liability framework
+**File:** `gladstone/PDFs/06_chapter4_LOE4_FAISA_liability.pdf` | **Text:** `gladstone/text/06_chapter4_LOE4_FAISA_liability.txt` | **Pages:** 39 (doc pp. 102–140) | *Chapter — the document's intellectual centerpiece*
+
+#### Prose summary
+
+LOE4 is the longest substantive chapter in Gladstone and the document's intellectual core. It is also the only chapter that opens with an explicit attribution: "We are grateful to the team at the Center for AI Policy (CAIP), whose perspectives on AI regulation have informed several of the recommendations in this LOE" — and footnote 58 points to CAIP's draft Act at aipolicy.us/gladstone as the source from which "many of the legislative recommendations in this LOE are drawn." This matters for advocacy: anyone calling Gladstone a "Gladstone proposal" is half-right; the LOE4 architecture is closer to a CAIP-Gladstone collaboration than original Gladstone work, which gives the chapter additional standing in the U.S. legislative-advocacy ecosystem. Gladstone openly states the legislative regime would take **about 3 years** to begin meaningfully impacting safety after passage — which is why LOE1's interim measures are necessary even if Congress acts. Three building blocks: (1) **establish FAISA** with a comprehensive 4-entity, multi-tier licensing regime (§4.1); (2) **enact a civil/criminal liability framework with emergency powers** (§4.2); and (3) **handle national-security applications of AI** through some combination of existing IC/DOD oversight and modified RADA safeguards (§4.3).
+
+The Frontier AI Systems Administration (FAISA) gets two siting options: a non-partisan SEC-style independent agency reporting directly to the President, or a unit inside DOE modeled on the National Nuclear Security Administration (NNSA) and reporting to an NSC-level official. The Administrator is Senate-confirmed; Gladstone recommends selecting on cybersecurity-or-biosecurity expertise rather than AI-research credentials. Four core functions: **Licensing** (rulemaking + RADA-safeguard enforcement), **Monitoring** (hardware tracking, AI-program horizon-scanning), **Enforcement** (civil cases brought directly, criminal referrals to DOJ), and **Algorithms** (a continuously-updating function that tracks algorithmic-efficiency advances and recommends threshold updates — this last function is what makes the regime non-static). The financing recommendations are deliberately budget-flexible: no-year funding plus notwithstanding appropriations, or RDT&E mechanisms that allow as-needed spending. Compensation waivers reappear here from LOE1's ASTF discussion, addressing the same structural problem that frontier-lab junior alignment researchers earn $500k+/yr. Conflict-of-interest rules, post-employment restrictions on Administrators and senior staff, and **FAISA-selection (not developer-selection) of third-party evaluators** are all baked in as anti-capture provisions. The agency's day-to-day activities (§4.1.2) include maintaining an AI hardware registry with **GPS coordinates** for individual devices, random sampling and spot-check inspections, jailbreak/exploit bounty programs, threshold-update authority with 30-day notice but with emergency-pause power during the notice period, and presidential-review-with-Congressional-consultation on threshold changes.
+
+The four-entity, tiered RADA licensing regime in §4.1.3 is the chapter's center of gravity. **AI hardware designers (AIHDs)** like NVIDIA, Google, AMD, Intel, AWS, Cerebras get a 2-tier regime keyed to chip capability. **Data center infrastructure providers (DCIPs)** get a 2-tier regime keyed to power consumption — Gladstone derives the threshold by asking how long it would take a bad actor to clandestinely train a GPT-4-equivalent model using a sub-threshold dedicated AI data center, then setting the threshold so this **breakout timeline is ≥18 months** to give LOE2 contingency planners advance warning. The footnote shows the specific calculation: 27 H100 DGX systems totaling ~350 kW = ~17.9 months for a 2×10^25 OP GPT-4-equivalent training run. **AI hardware owners (AIHOs)** get a 2-tier regime keyed to aggregate compute capacity — example threshold of **800,000 TOPS** (equivalent to ~200 NVIDIA H100 chips at INT8 with sparsity), derived to produce a ~19-month GPT-4 breakout. Gladstone explicitly notes that DCIPs and AIHOs are often the same entity (Google, AWS, Azure rent access to chips they own and house) but the licensing categories are conceptually separate. Tier 1 entities have no new requirements. Tier 2 entities must register everything (GPS-tagged hardware locations, daily automated reporting of changes/loss/transfer/destruction), submit to inspections, apply FAISA-approved KYC to their downstream customers, respond to law-enforcement queries via FAISA, and **maintain emergency procedures to rapidly shut down data centers or chips**. The footnote-tucked aside that the U.S. cloud-and-hardware supply chain "could function as an early means of internationalizing domestic U.S. AI safety and security policy" — banking-sector parallel cited — is a structural argument for why these requirements have international leverage even before a treaty is negotiated.
+
+**AI model developers (AIMDs)** get the document's most consequential structure: a four-tier regime where each tier has different conditions, all keyed to compute thresholds plus capability benchmarks. **Tier 1**: total training compute < **10^23 OP** (the registration threshold). No requirements. Example contemporaries: GPT-3, LaMDA, Baidu's ERNIE 3.0 Titan. **Tier 2**: 10^23 ≤ compute < **10^24 OP** AND MMLU score < 70% (the approval threshold). Pre-register training runs (so FAISA always has a current registry), run capability benchmarks periodically during training, immediately halt and report if benchmarks are breached. Example contemporaries: ChatGPT-3.5, PaLM, Llama 2. Open-access release prohibited for Tier 2 by default. **Tier 3**: above approval threshold but below the controlled threshold of **10^25 OP** (the level of GPT-4 and Gemini at the time of writing, late 2023). Tier 3 models are explicitly **"dangerous until proven safe"** — Gladstone openly inverts the normal regulatory burden of proof. Tier 3 AIMDs need pre-approval to train, conduct ongoing monitoring with emergency-pause/shutdown procedures, get pre-approval for *each* deployment context (including purely internal deployments and APIs), conduct ongoing deployment monitoring with KYC for high-volume or critical use, get pre-approval to share weights even with other Tier 3 AIMDs, respond to law-enforcement queries, and maintain emergency shutdown procedures. The four annexes N, O, P, Q (covered in section 11) provide the operational specifics. **Tier 4**: above the **10^25 OP** controlled threshold. Cannot be trained under any conditions, by anyone — academic, industrial, or government. The Tier 4 prohibition is the **only explicit prohibition in Gladstone** and is rationalized in two ways: (a) loss-of-control risk in current paradigm at this scale is too high, and (b) prohibiting training above this threshold weakens the feedback loop between training-run scaling and AI-hardware development, limiting the rate at which a "compute overhang" develops. Footnote 87 acknowledges this last point as a frontier-lab-raised concern (citing OpenAI). Models trained before regulations come into force are grandfathered as Tier 3 by default, but FAISA can re-classify to Tier 4 on emergency basis.
+
+Two things in the licensing regime deserve specific attention as structural concessions or hedges. **Footnote 65** (Alan Chan / GovAI cited) acknowledges that compute may be a poor long-run threshold because it could create perverse incentives toward training less-interpretable architectures: it might take more compute to train an interpretable model than an uninterpretable one to the same capability, so a sub-threshold model could eventually be more capable but less safe. This is Gladstone admitting its central design choice may be flawed long-term. **Footnote 66** offers the chapter's most striking analogy: biosafety-level-4 laboratories are forbidden from storing certain high-consequence pathogens like smallpox, even though they are designed for the most contagious pathogens — because a single containment breach could be unrecoverable. Same logic applies to Tier 4 AI: even fully equipped labs cannot be trusted to build it safely. This is the chapter's best one-line answer to "but the responsible labs need to lead." General provisions (§4.1.3.5) for all licensed Tier 2+ entities mirror civilian-nuclear-industry security: a Chief Risk Officer, internal audit team, risk committee, three-lines-of-defense framework, civilian-nuclear-equivalent cyber/operational/physical security, model containment with emergency shutdowns, kill switches with **human oversight firewalled from the model's outputs**, dead-man-switch protocols requiring affirmative risk-committee approval to continue training. Whistleblower protections are substantive: legal protection, percentage-of-fines monetary rewards (modeled on SEC/DOJ qui tam practice), confidentiality with case-by-case override for testimony in criminal cases. Publication controls (§4.1.4) are deferred to a FAISA-commissioned expert study, with one specific area flagged: research that improves training-algorithm efficiency, since these reduce the effectiveness of compute and export controls.
+
+The civil and criminal liability framework (§4.2) is the chapter's second pillar and is deliberately scoped to catastrophic-only outcomes. **Civil liability**: above a **$100M damage threshold**, **strict liability** applies — plaintiffs don't need to establish the specific cause of an accident to be compensated. License violation automatically constitutes negligence. **Joint and several liability** applies above the threshold to resolve diffusion of responsibility across the supply chain (any one party can be sued for the full amount; allocation among defendants is their problem). Open-access, free, or collaborative status is not a defense. **Safe harbor** for FAISA-designated regulatory tiers (e.g., Tier 2 hardware entities + Tier 3 AIMDs) — explicit incentive to register and comply, which is a clever inversion of strict-liability's typical chilling effect. **Criminal liability**: misdemeanors include failure to report hardware/data centers, misrepresenting safety protocols in pre-registration, operating above thresholds without a license, and misleading FAISA. Felonies include disregarding emergency orders, operating after license rejection, and breaching license conditions causing $100M+ damages. Entities cannot indirectly cover fines or offset via compensation modifications (an anti-corporate-self-protection provision). License suspension 1 month to 1 year for misdemeanors; full license revocation + 5-year ineligibility + mandatory hardware sale/destruction within 60 days for felonies. Crimes referred to DOJ. Gladstone recommends Congress investigate the constitutionality of fast-track procedural options to enable response at "the speed of relevance."
+
+**Emergency powers** (§4.2.3) are the most aggressive single provision in the chapter. Triggered by either Presidential declaration of a national emergency due to advanced-AI threat, *or* by the FAISA Administrator's identification of a clear, immediate, major national-security threat that cannot be addressed by normal enforcement (with the determination published in the Federal Register). Once triggered, the FAISA Administrator can suspend AI licenses immediately, demand halts to AI activities, secure or encrypt model weights, restrict access to specific AI systems, **or impose a general moratorium on AI research and development**. The general-moratorium power is the closest Gladstone gets to ControlAI's Narrow Path Phase 0 prohibitions — but it's conditional on triggering, not standing. Right to appeal (federal district court for unlawful/unconstitutional claims) and right to compensation for compliance-related economic losses are both included. **Advanced AI in national security systems** (§4.3) is the chapter's most underdeveloped section: Gladstone acknowledges the tension between national-security imperatives (which would push for less stringent RADA) and loss-of-control risk (which is agnostic to who builds the system) without resolving it. Three options sketched: leverage existing IC/DOD oversight (Inspector General, General Counsel); modify RADA safeguards for national-security applications; or stand up a "national-security FAISA" with audit authority over national-security AI activities. Civil-liberties concern flagged: superhuman-persuasion AI capability could undermine democratic processes, but might be required to counter adversarial deployment in the domestic information environment.
+
+For Dan's purposes specifically: LOE4 is the chapter to know cold. The 4-tier AIMD regime is the most-cited single piece of operational policy in the document and the chapter that does the most to differentiate Gladstone from both purely-voluntary frameworks (Anthropic RSP, OpenAI Preparedness Framework) and from prohibition-style proposals (ControlAI Narrow Path, MIRI). The 10^25 OP controlled threshold is now numerically obsolete — Claude Opus 4.7, GPT-5, Gemini 3.5, and several other models in 2026 are well above it — but the *structural* design (compute + capability-benchmark thresholds, with FAISA empowered to update them, with Tier 4 prohibition as the upper bound) survives as policy template. The strict-liability-above-$100M and joint-and-several-liability provisions are technically sound and citable independent of FAISA's existence; they could be implemented via state-level legislation or via a narrower federal bill. The whistleblower-protection-with-percentage-of-fines mechanism is durable and adopts a model already proven in financial-sector enforcement. The biosafety-level-4 analogy in footnote 66 is the chapter's best single rhetorical kernel for activist conversation. Major weaknesses to flag: (a) the chapter assumes Congressional action that has not happened, and the bill closest to it (Hawley-Blumenthal S. 2938) is much narrower and currently stalled; (b) the December 2025 federal-preemption EO actively works against the entire FAISA architecture; (c) the constitutional questions raised by emergency moratorium power, fast-track criminal procedures, and FAISA Administrator unilateral threat determinations are gestured at but not engaged — major-questions doctrine post-*West Virginia v. EPA* and the non-delegation doctrine both apply; (d) the national-security AI section (§4.3) is the document's least-developed substantive section and would need significant additional work before any of it could be operationalized; (e) the compute-threshold-as-design-anchor concession in footnote 65 is a real epistemic concession, not just a hedge — it implies the entire numerical scaffolding has a finite useful life. None of these weaknesses defeats the chapter's framework, but they do mean a sophisticated reader should expect to defend the architecture rather than the specific numbers.
+
+#### Fact-sheet
+
+**Three building blocks of LOE4:**
+1. **FAISA — Frontier AI Systems Administration** (§4.1) with comprehensive licensing regime
+2. **Civil/criminal liability + emergency powers** (§4.2)
+3. **National security AI** handling (§4.3) — least developed section
+
+**FAISA siting options (§4.1):**
+- (a) Non-partisan independent agency reporting to President — SEC model
+- (b) Unit inside DOE — NNSA model (National Nuclear Security Administration), reports to NSC-level official
+- Senate-confirmed Administrator selected on cybersecurity/biosecurity expertise
+- 4 functions: Licensing, Monitoring, Enforcement, Algorithms (continuously-updating threshold-recommendation function)
+
+**FAISA financing & staffing (§4.1.1):**
+- No-year + notwithstanding appropriations OR RDT&E mechanism
+- Compensation waivers (same $500k+ frontier-lab benchmark from LOE1 §1.4.2)
+- Conflict-of-interest rules + post-employment restrictions on Administrator and senior staff
+- **FAISA selects third-party evaluators**, not developers — anti-capture provision
+
+**Four entity categories (§4.1.3):**
+
+| Entity | Tiers | Threshold proxy | Example threshold | Worked breakout time |
+|---|---|---|---|---|
+| AIHDs (hardware designers) | 2 | Chip capability | (set by FAISA) | — |
+| DCIPs (data center providers) | 2 | Power consumption | ~350 kW per facility (1MW ≈ 630 H100 GPUs) | ~17.9 mo for 2×10^25 OP GPT-4 equivalent |
+| AIHOs (hardware owners) | 2 | Aggregate TOPS | 800,000 TOPS (≈200 H100 INT8 sparse) | ~19.3 mo for GPT-4 equivalent |
+| AIMDs (model developers) | **4** | Compute + capability | See AIMD table | — |
+
+Many entities (Google, AWS, Microsoft) regulated under all four categories simultaneously.
+
+**AIMD four-tier regime (§4.1.3.4) — the document's centerpiece:**
+
+| Tier | Threshold | Status | Requirements | Example models (late 2023) |
+|---|---|---|---|---|
+| 1 | < 10^23 OP | Registration threshold | None | GPT-3, LaMDA, ERNIE 3.0 Titan |
+| 2 | 10^23 to 10^24 OP, MMLU < 70% | Approval threshold; "generally safe" | Pre-register training runs; periodic in-training benchmarks; immediate halt+report on benchmark breach; **no open-access release** | ChatGPT-3.5, PaLM, Llama 2 |
+| 3 | 10^24 to 10^25 OP, MMLU ≥ 70% | Controlled threshold; **"dangerous until proven safe"** | Pre-approval to train; ongoing training monitoring; pre-approval for *each* deployment context; KYC on high-volume use; pre-approval for weight transfers (even to other Tier 3 AIMDs); emergency shutdown procedures | GPT-4, Gemini |
+| 4 | > 10^25 OP | Controlled threshold | **Cannot be trained under any conditions** — academic, industry, government — until FAISA raises threshold | (none at time of writing) |
+
+**Breakout-timeline derivation principle:** thresholds set so a bad actor circumventing all *other* controls would still need ≥ 18 months to train a GPT-4-equivalent model — buying LOE2 contingency planners advance warning.
+
+**Tier 4 prohibition rationale (§4.1.3.4.4):**
+- (a) Loss-of-control risk too high under current paradigm
+- (b) Limits compute-overhang dynamics (footnote 87 cites OpenAI's own concern)
+- **The only explicit prohibition in Gladstone** — closest the document gets to ControlAI's Narrow Path framing
+
+**General provisions for Tier 2+ entities (§4.1.3.5):**
+- **Risk governance**: Chief Risk Officer, internal audit team, risk committee, 3LoD framework
+- **Security**: civilian-nuclear-industry-equivalent cyber + operational + physical; license revocation for deficiencies
+- **Model containment**: emergency shutdowns; info-gapping; **kill switches with human oversight firewalled from model outputs**; dead-man switch protocols
+- **AI safety/security training** for employees
+- **Whistleblower protections**: legal protection + **percentage-of-fines rewards** + confidentiality (overridable for testimony) — modeled on SEC qui tam
+- **Incident reporting**: above-threshold incidents to FAISA; whistleblower-first reporting penalizes employer
+
+**Civil liability framework (§4.2.1):**
+- **$100M damage threshold** for strict liability triggering
+- Strict liability — plaintiffs need not establish specific cause
+- License violation = automatic negligence
+- **Joint and several liability** for multi-actor incidents
+- Safe harbor for FAISA-designated regulatory tiers — incentive to register
+- Open-access/free/collaborative status NOT a defense
+
+**Criminal liability framework (§4.2.2):**
+
+| Severity | Examples | Penalties |
+|---|---|---|
+| **Misdemeanor** | Failure to report hardware/data centers; misrepresenting pre-registration safety protocols; operating without license; misleading FAISA | License suspension 1 month – 1 year |
+| **Felony** | Disregarding emergency order; operating after license rejection; breaching license causing $100M+ damages | License revocation + 5-yr ineligibility + AI hardware sale/destruction within 60 days; DOJ prosecution |
+
+- Entities **cannot indirectly cover fines** or offset via compensation
+- **Constitutional fast-track procedures** recommended for serious infractions
+
+**Emergency powers (§4.2.3) — the chapter's most aggressive single provision:**
+Triggers:
+- Presidential declaration of national emergency from advanced AI threat, OR
+- FAISA Administrator's clear/immediate/major-threat determination, published in Federal Register
+
+Powers (FAISA Administrator can):
+- Suspend AI licenses immediately
+- Demand halts to AI activities
+- Secure or encrypt model weights
+- Restrict access to specific systems
+- **Impose general moratorium on AI R&D**
+
+Safeguards: federal-district-court appeal for unlawful/unconstitutional orders; right to compensation for compliance-related economic losses.
+
+**National security AI (§4.3) — least developed section:**
+Three options for handling national-security applications, none endorsed:
+- Existing IC/DOD oversight (IG, General Counsel)
+- Modified RADA safeguards
+- "National security FAISA" with audit authority
+
+Civil-liberties concern: superhuman-persuasion AI deployment domestic vs. foreign — "balance between privacy and security" called out; not resolved.
+
+**Critical attribution flags:**
+- **Center for AI Policy (CAIP)** explicitly thanked at chapter opening; aipolicy.us/gladstone cited as legislative-recommendations source (fn. 58)
+- **Tim Fist / CNAS** for export-control reasoning carryover from LOE1 (fn. 36 referenced from earlier)
+- **Alan Chan / GovAI** for the compute-threshold critique (fn. 65)
+
+**Two structural concessions worth memorizing:**
+- **Footnote 65 (Alan Chan / GovAI)**: compute may be a poor long-run threshold because it creates perverse incentives toward less-interpretable architectures (a more interpretable model might require *more* compute for the same capability). Self-aware admission that the central design choice has finite useful life.
+- **Footnote 66**: Biosafety-level-4 lab analogy — even fully equipped labs are forbidden from storing smallpox; same logic applies to Tier 4 AI. Best one-line answer to "but the responsible labs need to lead."
+
+**Annexes that operationalize LOE4:**
+- Annex G (compute primer & key thresholds — feeds tier definitions)
+- Annex J (effective compute methodology)
+- Annex M (secure temporary storage of model weights)
+- **Annex N** (training-stage approvals — Tier 3 detail)
+- **Annex O** (training-stage monitoring — Tier 3 detail)
+- **Annex P** (deployment-stage approvals — Tier 3 detail)
+- **Annex Q** (deployment-stage monitoring — Tier 3 detail)
+
+These four annexes (covered in section 11 of this index) collectively provide the operational specifics for Tier 3 AIMD licensing.
+
+**Page anchors:**
+- FAISA establishment: pp. 103–105
+- 4-entity framework: pp. 109–111 (Figure 6)
+- AIHD licensing: pp. 112–114 (Figure 7)
+- DCIP licensing + breakout calculation (fn. 73): pp. 114–117 (Figure 8)
+- AIHO licensing + 800,000 TOPS threshold derivation: pp. 117–120 (Figure 9)
+- AIMD 4-tier regime: pp. 120–128 (Figure 10) — **the single most-cited section**
+- Tier 4 prohibition + grandfathering: pp. 128–129
+- General provisions: pp. 129–131
+- Publication controls: pp. 131–132
+- Civil liability + $100M threshold: pp. 133–134
+- Criminal liability table: pp. 135–136
+- Emergency powers: pp. 137–138
+- National security AI: pp. 139–140
+
+**Notable analytical/strategic moves:**
+- **"Dangerous until proven safe"** for Tier 3 — explicit inversion of normal regulatory burden of proof.
+- **Biosafety-level-4 analogy** (fn. 66) — best one-line argument that responsible labs cannot be trusted with Tier 4 work.
+- **Compute-overhang argument** for Tier 4 prohibition — turns frontier-lab-raised concern into prohibition rationale.
+- **Strict liability with $100M threshold + safe harbor** — registration becomes self-protective, inverting the chilling effect.
+- **Whistleblower percentage-of-fines** — adopts proven SEC/DOJ qui tam mechanism.
+- **Kill-switch human firewalled from model outputs** — operationalizes the deceptive-alignment concern from LOE3 §3.2.1.4.
+- **Banking-sector parallel for cloud/hardware international leverage** (fn. 74) — an international-policy lever even before LOE5's treaty.
+- **CAIP attribution upfront** — gives the chapter additional standing in legislative advocacy ecosystems.
+
+**Methodological tensions and 2026-context flags:**
+- Entire chapter assumes **Congressional action**; bill closest to it (Hawley-Blumenthal S. 2938) is much narrower and **stalled in Senate Commerce**.
+- The **December 2025 federal preemption EO** actively works against FAISA architecture by directing federal agencies to challenge state AI laws.
+- 10^25 OP controlled threshold is **numerically obsolete in 2026** — Claude Opus 4.7, GPT-5, Gemini 3.5 are all well above it. The structural framework survives; the specific numbers don't.
+- **Constitutional questions** with emergency moratorium power, fast-track criminal procedures, and FAISA Administrator unilateral threat determinations are flagged but unengaged. Major-questions doctrine post-*West Virginia v. EPA* (2022) and non-delegation doctrine both apply.
+- §4.3 (national security AI) is **the document's least-developed substantive section** — would need significant additional work before operationalization.
+- **Footnote 65's compute-threshold concession** is a real epistemic admission, not a rhetorical hedge — the entire numerical scaffolding has finite useful life.
+
+**What survives the 2026 political shift:**
+- The 4-tier AIMD framework is **policy template** at any level (federal, state, philanthropic procurement standards) — California TFAIA and NY RAISE Act both echo elements.
+- Strict-liability-above-$100M and joint-and-several-liability provisions could be implemented at state level without federal action.
+- Whistleblower-with-percentage-of-fines mechanism is durable and proven.
+- Emergency-pause power is replicable at state level (CA TFAIA does so).
+- The biosafety-level-4 analogy and "dangerous until proven safe" framing survive any political configuration as advocacy frames.
+- CAIP attribution makes this the most legislatively-grounded piece of Gladstone — useful when arguing the proposal is operational, not academic.
+
+**Crucial frame to preserve in advocacy:** LOE4 is **not a prohibition framework**. The Tier 4 prohibition is the only flat-prohibition mechanism, and it is conditional on a compute threshold that FAISA can adjust — not a "moratorium on AGI." The general moratorium emergency power is real but conditional on triggering. Anyone arguing LOE4 is the same as ControlAI's Narrow Path Phase 0 is over-reading; anyone arguing it is just licensing-as-usual is under-reading. The chapter's distinctive position is **scoped, evidence-driven, threshold-adjustable regulation with a hard upper bound** that can be raised or lowered as evidence accumulates. That precise position — between voluntary RSPs and prohibition — is what gives Gladstone its niche in the advocacy ecosystem and is worth defending precisely.
+
+---
+
+[remaining sections 07–11 to be added in subsequent passes]
