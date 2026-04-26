@@ -121,4 +121,128 @@ For Dan's purposes specifically: this chapter contains the strongest single piec
 
 ---
 
-[remaining sections 03–11 to be added in subsequent passes]
+### 03 — Chapter 1: LOE1 — Establish interim safeguards to stabilize advanced AI development
+**File:** `gladstone/PDFs/03_chapter1_LOE1_interim_safeguards.pdf` | **Text:** `gladstone/text/03_chapter1_LOE1_interim_safeguards.txt` | **Pages:** 26 (doc pp. 47–72) | *Chapter*
+
+#### Prose summary
+
+LOE1 is the bridging chapter — its explicit purpose is to "buy down catastrophic AI risk in the near term (1–3 years), while setting the conditions for successful long-term AI safeguards" via Executive Branch action. Gladstone treats LOE1 as scaffolding for LOE4: the institutions proposed here (an AI Observatory and an interagency AI Safety Task Force) are intended to be **superseded** by the legislatively-created Frontier AI Systems Administration once Congress acts, with Gladstone explicitly invoking the Atomic Energy Commission → Nuclear Regulatory Commission transition under the Energy Reorganization Act of 1974 as the structural precedent. Four building blocks make up the LOE: (1) an **AI Observatory (AIO)** for horizon-scanning and information sharing, sited at DHS; (2) an interim set of **Responsible AI Development and Adoption (RADA) safeguards** mandated for U.S. frontier developers and other supply-chain entities; (3) an **AI Safety Task Force (ASTF)** to oversee compliance; and (4) a set of **supply-chain controls** on model weights, cloud computing, AI hardware, research collaborations, and foreign-national education. The chapter's organizing tension is that all four building blocks rely on Executive Branch authority, and Gladstone is openly uncertain whether existing statutory hooks are sufficient — hence the document's most consequential strategic move, the **Plan A / Plan B framing**, where Plan A is mandatory RADA via NSM or Executive Order using authorities like the Defense Production Act and Atomic Energy Act, and Plan B is a voluntary Charter (sketched in Annex I) negotiated with frontier labs if mandate proves infeasible.
+
+The AI Observatory (§1.2) is conceived as a small, elite DHS unit for AI threat evaluation, analysis, and information sharing. Its three functions are horizon-scanning (drawing from public research, commercial data, private discussions with researchers, CISA cyber-incident reports, and independent evaluations of public AI systems), emergency preparedness (response plans and DHS Science & Technology investment prioritization), and coordination both inside DHS and with NSC, NIST/AISI, DOE, SEC, and SLTT partners. Gladstone notes that DHS has a Chief AI Officer for *internal* AI governance, but no office responsible to the Secretary for the *external* AI-threat mission — the AIO would fill this gap, with its Director co-equal to the CAIO. The Director's hiring criteria are explicit: deep policy *and* technical expertise; competitive selection from across DHS and industry. The chapter footnote-flags critical-infrastructure designation under PPD-21 as a possible legal hook (extending the Information Technology critical-infrastructure designation to advanced AI development), which would activate CISA's CIRCIA cyber-incident reporting authorities. RADA principles (§1.3.2) follow a familiar tiering logic: stratified by capability with compute as the initial proxy, escalating safeguards per tier, lower tiers minimizing regulatory burden, thresholds grounded in concrete national-security considerations (specifically the LOE2 contingency-planning lead times). RADA explicitly applies not only to model developers but also to AI hardware designers, data center infrastructure providers, and AI hardware owners — Gladstone is forcing the supply-chain framing into the chapter's foundational institutional architecture. The framework is also explicitly designed to be **adjustable in both directions**: thresholds tighten if algorithmic improvements lower the compute-needed for dangerous capabilities, but loosen if AI evaluations consistently suggest prevailing capability levels are safe.
+
+The AI Safety Task Force (§1.4) is the chapter's institutional centerpiece. ASTF specs: 20–25 staff initially (modeled on the U.K. Frontier AI Taskforce); Presidentially-appointed, Senate-confirmed Director; sited at either DOE (for in-house technical expertise) or DHS (for CBRN risk assessment); reporting to an NSC-level official; HQ in the National Capital Region with a small footprint in the SF Bay Area. The mission is one Priority Objective (finalize RADA safeguards and secure agreement from frontier labs) plus two Sustainment Components (oversee compliance; develop recommendations for the future statutory regulator). Crucially, the Plan A / Plan B distinction maps directly onto the ASTF's authorities (§1.4.4): under **Plan A**, the ASTF can compel testimony, audit labs, license hardware owners and DCIPs, license training runs above compute thresholds, set publication-control standards, and **pause frontier training runs on an emergency basis**; under **Plan B**, the ASTF can only negotiate a voluntary Charter and coordinate. Three operational details are worth memorizing: the chapter recommends **compensation waivers** to compete with frontier labs (Gladstone cites $500k+/yr total comp for junior alignment researchers as the benchmark to match); a **5-year revolving-door restriction** for ASTF staff exposed to stakeholder IP; and as concrete near-term political asks the chapter recommends the President **publicly call for pauses** on training runs above 10^26 OP, on open-access releases above 10^25 OP, and on cloud services for open-access training above 10^25 OP. These three pause-call thresholds are the most aggressive specific numerical recommendations in LOE1 and require no statutory action — they are pure executive jawboning.
+
+Supply-chain controls (§1.5) are LOE1's most technically detailed and most independently actionable section. **Model weights** (§1.5.1): restrict open-access release above capability or compute thresholds; Gladstone hedges that dual-use assessments may not adequately measure risk under open-access conditions because of post-release augmentation. **Cloud computing** (§1.5.2): two-track choice between broad foreign-access restriction (mitigates short-term risk but creates strategic incentive for adversary indigenization) versus narrow controls with strong KYC (Entity List, Military User End List checks, blocks above the LOE4 Tier 3 approval threshold) — Gladstone implicitly favors the second. **AI hardware** (§1.5.3): the most numerically specific section in the chapter, with a concrete proposed reform of BIS export controls. Current (Jan 2024) thresholds restrict AI chip export to China above 4,800 bits×TOPS total processing performance and 5.92 bits×TOPS per mm² density; Gladstone (with explicit attribution to Tim Fist at CNAS) argues for replacing both with pure TOPS thresholds: 800 TOPS with sparsity across all numerical representations, and 1 TOPS/mm² density. The reasoning is technical but important: the current TOPS×bits formulation incentivizes industry to design chips with shorter bit representations (which is already an accelerating trend); a pure TOPS threshold targets compute capacity directly. The worked NVIDIA A100 example: 4,992 TOPS×bits at FP16 (just under the current threshold) but 1,248 TOPS at INT8 with sparsity (well above the proposed 800 TOPS). This proposed reform would, per Gladstone, "significantly impact" foreign actors' ability to train both GPT-4-class and GPT-5-class models. The chapter also recommends BIS tie export licenses to **on-chip remote monitoring** as that capability matures, and consider temporarily blocking exports of advanced AI hardware to all non-allied jurisdictions to prevent third-country diversion. **Research collaborations** (§1.5.4) and **foreign-national education** (§1.5.5) are notably restrained — Gladstone recommends *educating* U.S. academics on knowledge-transfer risks rather than restricting collaborations, and explicitly endorses lowering immigration barriers for foreign AI graduate students who want to remain in the U.S.
+
+For Dan's purposes specifically: the strongest, most independently citable, and most still-actionable items in LOE1 are (a) the BIS export-control reform — pure TOPS thresholds replacing TOPS×bit-width, with concrete numbers and worked examples — which requires no legislation and survives administration changes; (b) the cloud-KYC framework (Entity List checks + compute-capacity thresholds), which has partial overlap with provisions actually deployed under Biden's now-rescinded EO; and (c) the public-pause-call thresholds (10^25 / 10^26 OP), which are pure rhetorical/political asks. The weakest, most-2026-obsolete elements are the entire Plan A architecture: as of 2026, the current administration will not issue an EO mandating RADA, will not stand up an ASTF, and the December 2025 federal-preemption EO actively works against the LOE4 path that LOE1 was designed to bridge to. The Plan B Voluntary Charter (Annex I) is the surviving fallback, but Gladstone itself flags in footnote 29 that voluntary commitments would "significantly increase public safety and national security exposure" — i.e., the Charter is admitted to be inadequate. Methodological tension: the cited statutory authorities (Communications Act 1934, DPA 1950, Atomic Energy Act 1954, Invention Secrecy Act 1951) are creative but legally untested for AI; major-questions doctrine post–*West Virginia v. EPA* makes EO-based mandate even more legally fragile than Gladstone implies, and Chapter 1 does not engage with this directly. The AEC-to-NRC succession analogy is rhetorically clean but somewhat strained — AEC had a single-purpose nuclear-energy mandate; AI is dual-use across the entire economy.
+
+#### Fact-sheet
+
+**Four building blocks of LOE1:**
+1. **AI Observatory (AIO)** — DHS-sited horizon-scanning unit (§1.2)
+2. **RADA safeguards** — mandated framework for frontier developers + supply-chain entities (§1.3)
+3. **AI Safety Task Force (ASTF)** — interagency oversight body (§1.4)
+4. **Supply-chain controls** — model weights, cloud, hardware, research collabs, foreign-national education (§1.5)
+
+**Plan A vs. Plan B framing** (§1.3.1, §1.4.1.1, §1.4.4):
+| | Plan A (mandate) | Plan B (voluntary) |
+|---|---|---|
+| Mechanism | NSM attached to existing EO, or new EO | Voluntary Charter (Annex I) |
+| Statutory hooks | Communications Act 1934, DPA 1950, Atomic Energy Act 1954, Invention Secrecy Act 1951 | Negotiation only |
+| ASTF authorities | Audit, compel testimony, license training/hardware/DCIPs, set publication controls, **emergency pause** | Negotiate Charter, coordinate |
+| Gladstone's view | Strongly preferred | "Significantly increase[s]" risk exposure (fn. 29) |
+
+**ASTF specs** (§1.4):
+- Initial size: 20–25 staff (UK Frontier AI Taskforce as model)
+- Director: Presidentially-appointed, Senate-confirmed; reports to NSC-level
+- Siting: DOE or DHS (DOE has technical expertise; DHS has CBRN expertise)
+- Location: NCR HQ + small SF Bay Area footprint
+- Comp benchmark: $500k+/yr (frontier-lab junior alignment researcher) — used to justify comp waivers
+- Revolving-door restriction: 5 years for staff exposed to stakeholder IP
+- Succession path: absorbed into FAISA when Congress acts (analogy: AEC → NRC, Energy Reorganization Act 1974)
+
+**Three public-pause-call thresholds** (§1.4.1.1, the most aggressive concrete asks in LOE1):
+- Pause frontier training runs above 10^26 OP total compute
+- Pause open-access releases above 10^25 OP total compute
+- Pause cloud services for open-access training runs above 10^25 OP total compute
+- These require no statutory authority — pure executive jawboning
+
+**BIS export-control reform** (§1.5.3, the most technically specific item in the chapter, attributed to Tim Fist / CNAS):
+
+| | Current (Jan 2024) | Gladstone's proposal |
+|---|---|---|
+| Threshold 1 | 4,800 bits×TOPS total processing performance | 800 TOPS (with sparsity, all numerical reps) |
+| Threshold 2 | 5.92 bits×TOPS per mm² density | 1 TOPS/mm² density |
+| Worked example: NVIDIA A100 | 4,992 TOPS×bits at FP16 (just under) | 1,248 TOPS at INT8 with sparsity (well above) |
+| Net effect | — | ~33% reduction in compute-capacity ceiling; targets compute directly rather than incentivizing short-bit-rep design |
+
+Gladstone claims this reform would "significantly impact" foreign actors' ability to train GPT-4-class and GPT-5-class models. Also recommends: tying export licenses to on-chip remote monitoring as that matures; temporarily blocking exports to all non-allied jurisdictions to prevent third-country diversion.
+
+**Cloud-computing controls** (§1.5.2):
+- Two-track choice: broad foreign restriction (creates indigenization incentive) vs. narrow controls + KYC (Gladstone implicitly favors)
+- KYC minimum: Entity List, Military User End List, similar list checks
+- Block customer access above LOE4 Tier 3 approval threshold (a specific compute number defined in §4.1.3.4.3)
+- Long-term goal: extend RADA safeguards to *foreign* AI developers training on U.S. cloud
+
+**Open-access model controls** (§1.5.1):
+- Restrict release above capability or compute thresholds
+- Hedge: dual-use assessments may not adequately capture risk under open-access (because of post-release augmentation, see Intro §0.5.1.6)
+
+**Research collaborations & foreign nationals** (§1.5.4–§1.5.5) — notably *restrained*:
+- Recommend educating U.S. academics on knowledge-transfer risks rather than restricting collaborations
+- Explicitly endorse lowering immigration barriers for foreign AI grad students to retain talent
+
+**AIO functions** (§1.2.1):
+1. Horizon scanning (public research + commercial data + private discussions + CISA reports + independent evaluations of public AI systems)
+2. Emergency preparedness (response plans, DHS S&T investment priorities)
+3. Information sharing & coordination (DHS-internal + NSC + NIST/AISI + DOE + SEC + SLTT)
+
+**Named entities/agencies in LOE1:**
+- DHS, DOE, NIST/AISI, SEC, DOC/BIS, NSC, OMB, FEMA, CISA
+- DHS components: OSPP (Office of Strategy, Policy, Plans), S&T, C-WMD Office, CISA, FEMA
+- UK Frontier AI Taskforce (institutional model for ASTF)
+
+**Annexes referenced from LOE1:**
+- Annex D, D.4 (elite quant hedge funds — relevant for SEC examination authority hook)
+- Annex G, G.3 (compute thresholds and concentrations)
+- Annex H (AIO activities — operational detail)
+- Annex I (Voluntary Charter — Plan B fallback)
+- Annex J (effective compute methodology)
+- Annex K (ASTF activities and task-organization)
+
+**Page anchors for fast lookup:**
+- AIO: pp. 50–53
+- RADA principles: pp. 53–55
+- ASTF mission and Plan A/Plan B: pp. 56–61
+- Three pause-call thresholds: p. 59 (footnote 30 hedge included)
+- ASTF authorities: pp. 63–65
+- Model weights: pp. 67
+- Cloud computing two-track + KYC: pp. 67–68
+- BIS hardware export reform with NVIDIA A100 worked example: pp. 69–70 (footnotes 38–41)
+
+**Notable analytical/strategic moves:**
+- **Plan A vs. Plan B** is itself a strategic hedge — Gladstone openly admits uncertainty about whether existing executive authorities can mandate RADA.
+- **AEC → NRC succession analogy**: Gladstone explicitly casts the ASTF as a transition vehicle to FAISA, paralleling 1974's Atomic Energy Commission reorganization.
+- **Compute-as-proxy hedge**: §1.3.2 frames compute thresholds as initial expedient ("could initially be used as a proxy"), explicitly acknowledging "other normalized capability measures may also be viable."
+- **Tim Fist / CNAS attribution** for the BIS reform recommendation — useful provenance for an activist-citable proposal.
+- **Pause-call mechanism**: rhetorically aggressive but legally toothless; designed as political leverage rather than enforcement.
+- **Restraint on research collabs and foreign nationals**: the only place in LOE1 where Gladstone goes *less* restrictive than political baseline — recommends *more* immigration, not less.
+
+**Methodological tensions and 2026-context flags:**
+- Cited statutory authorities (Communications Act, DPA, Atomic Energy Act, Invention Secrecy Act) are legally **untested for AI**; major-questions doctrine post–*West Virginia v. EPA* (2022) makes EO-based RADA mandate more fragile than Gladstone implies. Chapter does not engage this.
+- Plan A architecture is **dead in 2026** — current administration will not issue an EO mandating RADA, won't stand up an ASTF, and the December 2025 federal-preemption EO actively works *against* the LOE4 trajectory LOE1 was designed to bridge to.
+- Plan B Voluntary Charter is the surviving fallback — but Gladstone (fn. 29) admits it would "significantly increase public safety and national security exposure" relative to Plan A.
+- AEC-to-NRC analogy is **rhetorically clean but strained** — AEC had a single-purpose nuclear-energy mandate; AI is dual-use across the entire economy, making the FAISA institutional design substantially harder than NRC's.
+- The AIO/ASTF design **assumes a willing Executive Branch** with NSC-level cooperation; this is the load-bearing assumption that 2026 conditions have falsified.
+
+**What survives the 2026 political shift (the activist takeaway):**
+- BIS export-control reform (TOPS-based thresholds) — pure executive technical action, no legislation needed.
+- Cloud-KYC framework — partially deployed under Biden's now-rescinded EO; some elements survived in Commerce/BIS rules.
+- Public pause-call thresholds (10^25 / 10^26 OP) — survive as numerical reference points for advocacy even without an Executive willing to make the calls.
+- The **architecture** of an AIO + ASTF + RADA is preservable as a model for future administrations or as a comparator for state-level proposals (e.g., California TFAIA, NY RAISE Act).
+
+**Crucial frame to preserve in advocacy:** LOE1 is **not a moratorium**. The pause-call thresholds are scoped (training above 10^26 OP, open-access above 10^25 OP) and time-limited (interim 1–3 years). Anyone using LOE1 to argue for a generalized AI development pause is reading it incorrectly — Gladstone is asking for a narrowly-scoped pause on the most extreme frontier scaling specifically to give Congress time to legislate, not as a permanent stop.
+
+---
+
+[remaining sections 04–11 to be added in subsequent passes]
