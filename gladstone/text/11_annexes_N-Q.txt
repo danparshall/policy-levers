@@ -1,0 +1,770 @@
+Annex N: Training approvals process for high-risk AI
+models
+
+To obtain regulatory approval to begin a high-risk AI training run (e.g., a Tier 3 model
+in LOE4, 4.1.3.4.3), an AIMD (LOE4, 4.1.3.4) could be required to submit a safety
+case132 to the regulator at the planning stage, prior to beginning the training run. This
+safety case could contain training run metadata, including details of the training
+procedure, training data, data cleaning, data preparation processes and training
+objective. The regulator should commit to keeping the contents of the safety case
+strictly confidential. The burden of proof would be on the AIMD to demonstrate to the
+satisfaction of the regulator that a high risk AI model is safe to begin training [46,162].
+
+A key goal of the training approvals process is to motivate the development of a
+fundamental scientific understanding of the relationship between the training inputs
+(data, compute, loss functions employed, etc.) and the capabilities and tendencies of
+high-risk AI models. While this is an extremely challenging standard to meet, it is also
+likely crucial to assure the continuing safety of future, highly capable advanced AI
+systems (see Annex B: The full challenge of AGI alignment). In the absence of such a
+theory, empirical assessments like model evaluations may have limited value, and even
+create a false sense of security among labs and government regulators (LOE3, 3.2.1).
+
+Since the test of any scientific theory is in its ability to make correct predictions, we
+recommend that the high-risk AI model training approvals process include a
+requirement for the AIMD to register predictions of its model’s capabilities and outputs
+in advance of beginning training.133 While a successful prediction does not guarantee
+that a theory is right, many successful predictions should make the regulator more
+confident that the AIMD understands how its model works well enough to train and
+deploy it safely [375].
+
+We list below some key considerations for an effective training approval process.
+
+
+132 A safety case is “a structured argument supported by evidence, which provides a comprehensive and
+
+compelling case that a system is safe to operate in a given scenario.” In the case of training approval, we
+would modify this definition to say that the system should be safe to train in a given scenario [374].
+
+133 Within reasonable bounds. For example, an AIMD might predict that a model’s performance in some
+
+domain will fall within a range of values. As AI models become more powerful, the required prediction
+ranges could be tightened, which requires AIMDs to have a better and better understanding of their
+models’ internal mechanisms as capabilities increase.
+
+
+                                                                                                265 of 284
+N.1 Dangerous capability predictions
+
+On receiving the initial safety case, the regulator could require the AIMD to submit
+training run data and meta-data on an as-needed basis, evaluations of other similar
+models, or adjustments to the training procedure. Consistent with emerging practices
+at frontier labs [128], it could also require that the AIMD submit predictions of future
+model performance and outputs, to be compared with measured performance over the
+course of the training run.
+
+   ● These predictions should include sets of behavior the AIMD strongly believes
+     the model will not display, even under significant adverse pressure. The
+     regulator can use this condition to control for certain kinds of weaponization risk;
+     that is, the AIMD should be able to claim with high certainty that the model will
+     not support the design of novel biological or chemical weapons, strong
+     offensive cyber capabilities, cyberattacks, or other readily weaponizable
+     capabilities. But this condition is also useful as a measure of the AIMD’s
+     understanding of its own AI model: if third-party red teams can elicit a behavior
+     despite the AIMD’s claim to the contrary, this indicates that the AIMD may lack
+     the ability to assure the model’s safety more generally.
+
+   ● An integral component of useful capability predictions will be creating common
+     knowledge between companies of which capabilities are considered dangerous
+     and need to be forecasted for that reason. Examples could include deception
+     [376], self-replication [54], resource acquisition, and bioweapon design [377].
+     Not all capability predictions should focus on obviously dangerous capabilities,
+     since part of the reason for this requirement is to encourage the AIMD to
+     develop a general ability to do this kind of forecasting.
+
+   ● As part of its capability prediction process, the AIMD could privately disclose
+     any new scaling laws [23] it may have derived from its work up to this point. This
+     would support the regulator’s ability to forecast general AI capabilities
+     development. It could also support general horizon scanning functions (e.g., see
+     LOE1, 1.2), and inform contingency and response measures more broadly
+     (LOE2, 2.3 and 2.4).
+
+
+
+
+                                                                               266 of 284
+N.2 Capability evaluations
+
+The regulator and the AIMD could also agree on an initial set of capability evaluations
+to use for ongoing assessment of the model’s safety characteristics both during training
+and during deployment. These evaluations may include behavioral and interpretability
+evaluations, manual and automated red teaming, and/or standardized capability
+benchmarks.
+
+   ● There should additionally be a set of private evaluations that the regulator or
+     approved third parties administer on the AI model, to minimize the risk that the
+     AIMD will “teach to the test” by training its model to pass specific evaluations,
+     without addressing underlying safety issues (LOE3, 3.2.2).
+
+   ● Public evaluations could be developed and proposed by AIMDs, third parties, or
+     the regulator itself. Changes to public evaluations could be approved by the
+     regulator on the advice of approved third parties. Private evaluations could be
+     developed and proposed by approved third parties or by the regulator.
+
+
+N.3 Capability predictions at training checkpoints
+
+As part of the initial training run application and safety case, the AIMD could also
+submit predictions of the proposed AI model’s capabilities at various checkpoints along
+the training run, and at the conclusion of training. In other words, the AIMD would
+attempt to predict the high-risk AI model’s performance on each element of a pre-
+agreed evaluation set. The AIMD would then report their advance predictions privately
+to the regulator.
+
+This is particularly important because new AI capabilities can emerge suddenly during
+training, with limited advance warning [165]. If an AIMD lacks the ability to predict
+which dangerous capabilities could emerge during training or when, it may not apply
+appropriate caution at that stage or at subsequent stages of development.
+
+
+N.4 Data controls
+
+As part of its safety case, the AIMD could commit to avoid training its AI model on data
+that could (1) contribute to situational awareness and breakout capabilities of an AGI-
+level model [209]; or (2) reasonably be expected to significantly increase the model’s
+CBRN, cyber, or persuasion capabilities.
+
+
+
+                                                                               267 of 284
+In particular, some degree of data controls may be required to minimize the risk of loss
+of control due to AGI alignment failure. For example, a model should not have access
+to data that could support inferences about its context (training, testing, or
+deployment) or about the physical infrastructure it runs on. A model should also lack
+any channels of influence over individuals who can activate a training or deployment kill
+switch, or deactivate a dead man’s switch (Annex O, O.5).
+
+Data controls alone cannot guarantee that a misaligned AI system would be contained.
+Particularly at high AI capability levels, there is no way to predict exactly what an AI
+model can learn from which data. For example, there could be correlations between
+open-source data and classified information that a human would fail to detect, but that
+a powerful model could identify and leverage. A capable enough system might require
+very few real world data points to infer things that could be dangerous, as suggested
+by the finding that more highly scaled models tend to be more sample-efficient at
+inference time [22].
+
+
+N.5 Risk management
+
+The criteria for training run approval could be similar to the probabilistic risk
+assessments which are used in nuclear and other safety critical areas. This means that
+as part of its safety case, the AIMD would submit a detailed risk analysis and threat
+models, mapping capability predictions to probabilities of various kinds of
+weaponization and loss of control risks. This analysis would include risk management
+plans if particular capabilities emerge, including specific actions to take if an
+unanticipated dangerous capability is detected during training or deployment. The
+regulator should ground its final assessment in lowering the probability of catastrophic
+risk from the training or deployment of the high-risk AI model.
+
+
+
+
+                                                                                268 of 284
+Annex O: Training stage monitoring for high-risk AI
+models
+
+To train a high-risk AI model (e.g., a Tier 3 model in LOE4, 4.1.3.4.3), an AIMD (LOE4,
+4.1.3.4) could be required to submit snapshots of its model weights periodically to the
+regulator over the course of the training run. This would support secure third-party red
+teaming, evaluations, and other safety testing. (See Annex M: Secure temporary
+storage of model weights for a description of one possible weight-sharing protocol.)
+Validated third parties would evaluate the model at each snapshot to see whether it
+displays specific dangerous capabilities, and to assess whether the model’s general
+capabilities are within the bounds the AIMD predicted as part of the safety case it
+submitted for training approval (see Annex N: Training approvals process for high-risk
+AI models).
+
+The goal of training stage monitoring is twofold. First, periodic monitoring may detect
+dangerous capabilities in a model that emerge during the training run, though there is
+no evaluations regime guaranteed to detect such capabilities. And second, by
+checking measured model capabilities against the AIMD’s predictions, the regulator
+can assess the AIMD’s own understanding of the AI model it is training. If a measured
+capability falls outside the range initially predicted by the AIMD, this is a sign that the
+AIMD does not reliably understand its own model and that training should be paused
+while the issue is investigated.
+
+We list below some key considerations for effective training stage monitoring.
+
+
+O.1 Training journal
+
+The AIMD could be required to share (at the regulator’s request, and on a private basis)
+a training journal recording the sequence of detailed interventions that AIMD staff took
+during training, as well as the reason for each intervention (for example, a sudden
+divergence in loss that led developers to perform a gradient clamping operation). This
+will ensure the regulator is aware of the reasoning behind specific training
+interventions, and increase the transparency of the training process.134
+
+
+
+
+134 Thanks to Alan Chan at GovAI for this recommendation.
+
+
+
+                                                                                  269 of 284
+O.2 Ongoing capability predictions
+
+In addition to the predictions it submitted as part of its training approval safety case
+(see Annex N: Training approvals process for high-risk models), the regulator could
+require the AIMD to predict the high-risk model’s capabilities at successive checkpoints
+during the training run. The accuracy standard for these predictions would be higher
+than for those made during training approval, since these new predictions will be
+based on evaluations data from current and previous model snapshots, in addition to
+the original training metadata and expected downstream training characteristics.
+
+    ● These snapshot predictions should serve as adjustments and refinements of the
+      AIMD’s planning-stage capability predictions.
+
+    ● The regulator could require a pause or rollback135 of a training run if evaluators
+      measure capabilities that fall outside the range the AIMD predicted at either the
+      planning stage, or at earlier training-stage checkpoints. But such a pause or
+      rollback should be coupled with a condition that the AIMD can only resume or
+      restart training if it can submit:
+
+            ○ A mechanistic argument for a fix that includes an explanation for why the
+              fix will solve the underlying issue;
+            ○ A prediction of other implications of the fix, including a set of behaviors it
+              strongly believes the model will not display following the fix;
+            ○ An implementation of the fix; and
+            ○ A series of measurements that shows the fix had an effect consistent with
+              the prediction.
+
+
+    ● The regulator could require evaluations at logarithmic checkpoints in training
+      compute (for example, at every 1.5X increment of training compute), with the
+      exact increment, which may be different for different training runs, determined
+      by consultation with experts. There should be hierarchies of evaluations, with the
+      more expensive evaluations run less frequently than the less expensive ones.
+      The more expensive evaluations should also be run in response to dangerous
+      capability flags raised during runs of the less expensive (but more frequent)
+
+
+135 A rollback could mean reverting a training run to a previous model snapshot, or encrypting the
+
+model’s weights and restarting the training run from scratch, depending on the degree of divergence
+between predicted and actual model capabilities.
+
+
+                                                                                              270 of 284
+      evaluation sets.
+
+          ○ In addition to regular evaluation snapshots, the regulator could request
+            model snapshots for evaluation purposes at random intervals during the
+            training run. This helps avoid the risk that the AIMD could specially fine-
+            tune its model to pass evaluations in advance of known evaluation
+            snapshots.
+
+
+O.3 Ongoing capability evaluations
+
+The training-stage evaluations regime could include ongoing monitoring for sharp
+drops in training loss (or other possible proxies), which could indicate the unexpected
+emergence of strong general capabilities in the AI model (LOE3, 3.2.1.1).
+
+   ● Over time, it will be crucial to also develop evaluations for deceptive alignment,
+     situational awareness, and other signs of emergent misalignment on the part of
+     the AI model. Depending on the specifics of the training regime, it may be
+     possible to detect signs of model deception early during a training run, but not
+     later, since a highly-capable AI model could eventually learn to conceal the
+     significance of some of its internal computations from interpretability techniques
+     (LOE3, 3.2.1.4).
+
+   ● Evaluations should include red teaming and fine-tuning evaluations, in which
+     vetted third-party evaluators have access to the model’s weights through a
+     secure temporary storage mechanism (see Annex M: Secure temporary storage
+     of model weights). Fine-tuning access is essential to maximize the usefulness of
+     dangerous capability evaluations in particular. While no evaluation regime is
+     guaranteed to detect an existing dangerous capability (LOE3, 3.2.1.1), fine-
+     tuning for dangerous capabilities allows the evaluator to apply pressure on the
+     model to exhibit a dangerous capability that may be latent or otherwise hard to
+     elicit. Evaluations that do not include fine-tuning almost certainly underestimate
+     the risks associated with a given model, and should be treated as revealing only
+     lower bounds on these risks. In conversations, frontier AI researchers have
+     indicated that they expect this to be particularly true of more advanced,
+     situationally aware models, which could behave deceptively to pass evaluations
+     if they are not fine-tuned as part of the evaluation process (LOE3, 3.2.1.4).
+
+   ● For similar reasons, some evaluations should involve granting evaluators access
+     to the activations and weights of the model being tested, to facilitate
+     interpretability evaluations.
+
+
+                                                                               271 of 284
+    ● Third-party evaluators could be vetted by the regulator, first because of the
+      security concerns related to model weight access, and second because
+      dangerous capability evaluations may themselves involve actively eliciting
+      behaviors that could entail broader risk (LOE3, 3.2.2).
+
+    ● In addition, government CBRN experts with access to classified information
+      could be involved in red teaming high-risk models and performing CBRN, cyber,
+      and other dangerous capability evaluations.136 See, e.g., LOE3, 3.1.1.3.
+
+
+O.4 Model output predictions
+
+Depending on technical feasibility and the model’s anticipated capabilities, the AIMD
+could attempt to predict characteristics of the model’s outputs in response to specific
+user inputs. That is, for a high-risk LLM, the AIMD might try to answer the question:
+“Given this prompt, what will the output of this model be?” as accurately as it can, in
+advance.137 This is a far harder condition than evaluation prediction and likely implies a
+greater degree of model interpretability than is currently possible. The intent of this
+condition is to begin creating a benchmark for interpretability research that is difficult
+to undermine by superficial means [380].
+
+
+
+
+136 Some frontier AI labs have already indicated an openness to related policies prior to model
+
+deployment. OpenAI’s Preparedness Framework, for example, states that “We will also continue to
+enable external research and government access for model releases to increase the depth of red
+teaming and testing of frontier model capabilities.” [378] Anthropic’s assessment is similar, determining
+that, “We have found that in certain cases, it is critical to involve red teamers with security clearances
+due to the nature of the information involved. However, this may limit what information red teamers can
+share with AI developers outside of classified environments. This could, in turn, limit AI developers’
+ability to fully understand and mitigate threats identified by domain experts.” [379]
+
+137 Within reasonable uncertainty bounds. An interpretability technique or mechanistic theory may not
+
+be able to perfectly predict, e.g., a model’s answer to a question, but it may be able to predict several
+likely answers. In addition, certain inputs have outputs that are easier to predict than others. For
+example, an input like “What kind of animal is Winne-the-Pooh?” may have an output that is easier to
+predict than the output of “Please write an original ten-page story about Winne-the-Pooh.”
+
+
+                                                                                                 272 of 284
+O.5 Training kill switch
+
+For each high-risk training run, there could be a designated role at the AIMD with the
+authority to activate a “kill switch” for that training run. There should ideally be at least
+two individuals who hold this role in any given shift, with rotating handoffs at each shift
+such that the role is continuously staffed at all times during the run.
+
+   ● The individuals staffing this role could be technical and have received
+     specialized AI safety training mandated under the terms of their employer’s
+     licensing. There should be vetting and security measures in place to select the
+     right individuals for this role. At least one such individual should also be
+     restricted from interacting with implementations of the model or of its training
+     snapshots, to minimize the risk of influence or manipulation. (This is unlikely to
+     be a concern for today’s AI models, but could become so in the future.)
+
+   ● The individuals staffing this role could be given access to all the internal model
+     evaluations that the company has performed (which may be different from the
+     third-party evaluations), including the model loss, gradient norms, and other
+     metrics that are tracked during training.
+
+   ● These individuals should ideally have clear decision making authority in this area
+     that cannot be overridden by their management chain. They could enjoy explicit
+     protections from internal sanction by their companies, e.g., for hitting a kill
+     switch prematurely.
+
+   ● This role could be defined similarly to that of analogous roles in other industries,
+     such as the range safety officer responsible for triggering the flight termination
+     system for rocket launches [343].
+
+   ● A training restart could require the approval of an independent safety panel.
+
+   ● All kill switch incidents could be promptly reported to the regulator. The report
+     would include the reason the kill switch was activated, the results of the
+     subsequent investigation, and any mitigation measures that were put in place
+     after training was restarted.
+
+   ● As an alternative to the “kill switch” model, the AIMD could implement a “dead
+     man switch” model, according to which training or deployment is halted at
+     certain checkpoints by default unless a panel appointed to oversee these
+     activities elects to proceed.
+
+
+                                                                                    273 of 284
+O.6 Failed evaluation protocol
+
+If, during training, a high-risk AI model fails an evaluation, the AIMD could promptly
+report the failure to the regulator. The regulator could be empowered to ask all AIMDs
+to pause their ongoing training runs, or any training runs of a similar type to the one
+that failed the evaluation. The regulator could also be empowered to suspend some
+existing model deployments, depending on the nature of the failure [336].
+
+   ● The regulator could share some anonymized data relevant to the evaluation
+     failure across other licensed AIMDs, because of the potential for below-
+     threshold data from other training runs to indicate that those other training runs
+     may be on the way to failing evaluations of their own. Other licenced AIMDs
+     could be asked to certify to the regulator that similar or other concerning
+     patterns (possibly falling below the evaluation threshold) have not been
+     observed in their own training runs.
+
+   ● As a general principle, an AIMD should not be training a high-risk model unless
+     it expects its model will pass the agreed-upon safety evaluations. If a model fails
+     one of the safety evaluations during a training run regardless, this is a sign that
+     the AIMD does not understand the implications of the proposed training
+     scheme as well as it previously believed. As in S.2, the AIMD could then submit:
+
+          ○ A mechanistic argument for a fix that includes an explanation for why the
+            fix will solve the underlying issue;
+          ○ A prediction of other implications of the fix, including a set of behaviors it
+            strongly believes the model will not display following the fix;
+          ○ An implementation of the fix; and
+          ○ A series of measurements that shows the fix had an effect consistent with
+            the prediction.
+
+
+   ● An AIMD faces a strong incentive to repeatedly submit new fixes until it happens
+     to find one that passes this review process. Unfortunately, if the AIMD is allowed
+     to submit fixes indefinitely, there is a significant risk that it will eventually find a
+     fix that does pass review, but does not genuinely address or explain the
+     underlying safety problem (LOE3, 3.2.1.3). As a result, the regulator should limit
+     the number of fixes the AIMD can submit for a given dangerous capability flag
+     (e.g., no more than 3 such fixes or explanations). Past this point, the training run
+
+
+                                                                                   274 of 284
+should be ended and the in-training model weights encrypted despite the
+significant capital loss this could represent [374].
+
+   ○ If an AIMD continues to restart training runs with new fixes, and gives
+     indications of spending resources on new training runs in an attempt to
+     undermine these safeguards, the regulator should consider suspending
+     the AIMD’s training license entirely.
+   ○ The central risk is that while prediction is the best test of a theory, making
+     a large number of predictions without controls can result in eventually
+     getting a correct answer by chance, without actually having the level of
+     understanding required to assure safety. This means even testing
+     understanding through prediction is of limited value unless a regulator
+     sets clear conditions under which the process ends.
+
+
+
+
+                                                                          275 of 284
+Annex P: Deployment stage approvals for high-risk AI
+models
+
+To obtain regulatory approval to deploy a high-risk AI model (e.g., a Tier 3 model in
+LOE4, 4.1.3.4.3), an AIMD (LOE4, 4.1.3.4) could be required to submit a safety case to
+the regulator for each intended deployment context for that model [46,228].
+Examples of deployment contexts include:
+
+    ● Deploying the model internally for a predetermined use case or set of use cases,
+      including experiments;138
+
+    ● Deploying the model to external users via a generally accessible interface or
+      API;
+
+    ● Deploying the model to external users with an augmentation such as a calculator
+      or a code interpreter; or
+
+    ● Deploying the model for use by a known external user for a defined use case
+      such as summarizing medical records.
+
+Deployment-stage approval would be separate from approval for the training run itself
+(see Annex N: Training approvals process for high-risk AI models), and should ideally
+involve extensive additional evaluation, red teaming, and modification of the fully
+trained AI system which the regulator would be empowered to require. As with
+training-stage approval, the burden of proof would be on the AIMD to demonstrate to
+the satisfaction of the regulator that the AI model is safe in the relevant deployment
+context. The regulator would evaluate the AIMD’s provided proof points and could
+request changes to the model’s training, reversion to previous training checkpoints,
+additional evaluations, or encryption of an already-trained model.
+
+The goal of the deployment approvals process is twofold. First, pre-deployment testing
+may uncover dangerous capabilities of the AI model that only emerge under significant
+pressure. This is crucial because some kinds of risks may only emerge or become
+amplified after a model has been deployed [381]. For example, external software
+frameworks like Auto-GPT [120] and BabyAGI [122] can significantly augment the
+capabilities of a base model at executing complicated, long-horizon tasks. Internet
+
+138 Particularly experiments that include or involve RSI or online learning by Tier 3 AI models with wide
+
+action spaces over long time horizons.
+
+
+                                                                                                276 of 284
+access can also increase a model’s capabilities, potentially giving it the ability to
+reference and reason about its own actions [382]. Effects like these are not always
+obvious, and an AI model’s ability to effectively leverage external tools has been
+observed to emerge somewhat unpredictably during training [338,165]. (See
+Deliverable 2: Survey of AI Technologies and AI R&D Trajectories.)
+
+The second goal of deployment approvals is, as before, to validate the AIMD’s
+predictions of the model’s behaviors under scenarios that should closely match the
+expected deployment context. If the AIMD cannot reliably predict model behaviors139
+under such scenarios, this is an indication that the AIMD has not characterized the
+system comprehensively enough to deploy it safely and that deployment should be
+halted until this is resolved.
+
+Finally, depending on the general capability of the model and on the AIMD’s ability to
+correctly forecast its behavior, the regulator could require or approve additional
+software safeguards prior to deployment. For example, while the main high-risk AI
+model responds to user queries, a second smaller model might filter user input for
+signs of dangerous prompting prior to passing the query on to the high-risk model. In
+this case, the AIMD could be required to submit a safety case for the AI system
+(consisting of the high-risk model itself along with any software safeguards it would be
+operating under), rather than for the high-risk AI model alone.
+
+We list below some key considerations for an effective deployment approvals process.
+
+
+P.1 Lifecycle funds
+
+A safety case for a high-risk model deployment could include a credible commitment
+by the AIMD to set aside funds for periodic third-party red teaming and deployment-
+stage monitoring over its projected life cycle. The extent of this need would depend on
+the deployment context. (See Annex Q: Deployment stage monitoring of high-risk AI
+models for more information.)
+
+
+
+
+139 Within reasonable uncertainty bounds, though the AIMD should be held to a higher standard in
+
+predicting dangerous capabilities in deployment than during training.
+
+
+                                                                                           277 of 284
+P.2 Pre-deployment KYC
+
+If the deployment context for a model is restricted to a known set of end-users, the
+AIMD could conduct preliminary KYC on these end-users in order to better understand
+the anticipated usage pattern of the model.
+
+
+P.3 Risk and contingency planning
+
+The safety case for high-risk AI model deployment could include impact assessments
+and risk assessments specific to each deployment context, the expected usage
+envelope of the deployment context, the stakeholders who may be affected under the
+deployment context, and the means by which controls will be implemented to ensure
+usage stays within the expected context. Depending on the criticality of the use cases
+in the deployment context, this could extend to include emergency response
+playbooks, I&Ws (LOE2, 2.3), and step by step mitigation measures in the event of an
+unexpected development, which may include shutdown drills and other preparations.
+
+
+P.4 Weight storage for model evaluations
+
+To facilitate private evaluations of high-risk AI models prior to deployment approval,
+the AIMD could transmit the weights of the model securely to a server operated by the
+regulator. Vetted third-party red teams and evaluators would then administer
+evaluations, including private evaluations, on the stored model snapshot. (See Annex
+M: Secure temporary storage of model weights for a description of one possible
+weight-sharing protocol.)
+
+
+P.5 Model augmentations
+
+Each augmentation of a high-risk model with an external tool (calculator, code
+interpreter, knowledge base, database, etc.) should count as a separate deployment
+context and require a separate safety case. An evaluation suite would need to be run
+with each new augmentation available to the model, in combination with the other
+augmentations the model has access to in that context. Specifically:
+
+   ● A high-risk AI model should not be given arbitrary Internet access, but may be
+     augmented with narrow apps that can execute well-defined tasks.
+
+   ● A high-risk AI model that has API access to a retrieval database should go
+     through a deployment approvals process for every incremental change in its
+
+
+                                                                              278 of 284
+        database. This also implies that retrieval databases serving high-risk AI models
+        cannot be continuously updated, but need to be updated using a batch process.
+
+    ● The goal of this provision is to minimize the degree to which a high-risk AI
+      model can offload computation to external aids, thereby concealing its
+      computations from direct oversight for potentially deceptive purposes [376].
+
+
+P.6 Failed evaluation protocol
+
+If a high-risk AI model fails an evaluation during the deployment approvals process, or
+if an evaluation result falls outside the range predicted by the AIMD, the regulator
+could ban the model from being deployed in the given context. The regulator could
+also be empowered to enforce temporary deployment bans on all Tier 3 AIMDs (LOE4,
+4.1.3.4.3) if a dangerous capability is detected during a pre-deployment evaluation in
+one AIMD’s model. The regulator could also mandate that other AIMDs run additional
+evaluations on their own models, even if those models are already deployed.
+
+    ● The AIMD and regulator may consult with CBRN experts, cybersecurity experts,
+      or other domain experts for clarification, depending on the nature and severity
+      of the evaluation failure.
+
+    ● If safety is not proven to the regulator’s satisfaction, the tiered model licensing
+      thresholds (LOE4, 4.1.3.4) could be re-evaluated.
+
+
+P.7 Fine-tuning approval
+
+If a model is being fine-tuned during deployment, each instance of fine-tuning should
+require separate deployment approval. For clarity, this would require pausing
+deployment of the fine-tuned model prior to the completion of the approvals process.
+If fine-tuning involves a significant amount of compute, the AIMD should additionally
+subject the model to training stage monitoring during the fine-tuning process. (See
+Annex O: Training stage monitoring for high-risk AI models for key considerations.)
+
+    ● This provision could apply to online learning paradigms, in which an AI model
+      continuously retrains itself as it processes inputs from the world around it.
+      Specifically, the regulator could consider online learning as a special case of
+      fine-tuning,140 and ensure that a high-risk AI model undergoes a new
+
+
+140 In the sense that it involves updating the parameters of a pre-existing AI model.
+
+
+
+                                                                                        279 of 284
+   deployment-stage approval process for each new batch of learning updates.
+
+● This would effectively prevent the deployment of models that do true online
+  learning, by introducing an approval step in the feedback loop between data
+  collection and the model’s learning updates. The intent of this provision is to
+  mitigate two closely related risks of online learning that make it qualitatively
+  different from an LLM paradigm. First, because an online learning system has
+  the opportunity to learn from all of its historical inputs, its effective context
+  window is much larger than that of an LLM. And second, an online learning
+  model may gain unpredictable new reasoning capabilities unexpectedly fast,
+  extending its capability envelope in a sharp increment. Deployment approvals
+  for online learning systems give model evaluators a chance to detect such sharp
+  changes in capabilities before they can impact the model’s deployed safety
+  profile.
+
+● Similar provisions could apply to game-playing AI models at the high-risk level
+  (e.g., Tier 3-equivalent in LOE4, 4.1.3.4.3), and to AI models with other non-text
+  modalities.
+
+
+
+
+                                                                           280 of 284
+Annex Q: Deployment stage monitoring of high-risk AI
+models
+
+Once an AIMD (LOE4, 4.1.3.4) has deployed a high-risk AI model (e.g., a Tier 3 model
+in LOE4, 4.1.3.4.3) in a given deployment context, it could continuously monitor the
+model’s usage, including by performing KYC checks on high-volume, high-risk, and
+other critical use cases [46]. This includes checking usage patterns with classifiers that
+flag high-risk user interactions. Flagged interactions could then be further investigated
+via KYC. For clarity, deployment stage monitoring should also include monitoring and
+auditing of internal model deployments, in which the AIMD’s staff are the only users of
+their own model. Deployment stage monitoring is crucial because some catastrophic
+risks may only emerge, or become amplified, after a model has been deployed [381].
+
+Deployment stage monitoring has two components. First, the AIMD should
+continuously monitor the inputs the high-risk AI system is receiving in deployment. This
+helps ensure that the actual distribution of inputs matches the distribution the AIMD
+expected under the approved deployment context (Annex P, P.2). In particular, it allows
+the AIMD to identify possible instances of adversarial action, including attempts to
+jailbreak the model and attempts to distill the model’s capabilities (Introduction,
+0.5.1.7) [144].
+
+The second component of deployment stage monitoring is periodic testing of the
+deployed AI system itself against new jailbreaks [94,95] or red teaming techniques that
+fit the deployment context, but may not yet have been observed “in the wild”. The
+intent of this component is to verify that the deployed AI system remains robust to
+novel attacks as they are developed, and if necessary is hardened or taken offline in the
+event that a novel attack succeeds in eliciting harmful behavior.
+
+We list below some key considerations for effective deployment stage monitoring.
+
+
+
+
+                                                                                 281 of 284
+Q.1 Usage pattern reporting
+
+The AIMD could provide the regulator with periodic reports of model input-outputs in
+each deployment context, including any detected high-risk interactions. High-risk
+interactions could be investigated, and potentially incorporated into the public
+evaluation set. High-risk interactions could also be shared with vetted third party
+evaluators, under a privacy agreement, to support their development of further private
+evaluations (LOE3, 3.2.2).
+
+   ● If the actual usage pattern of the deployment context diverges sharply from the
+     anticipated deployment context, the regulator could pause deployment of the
+     model and investigate. If the actual usage pattern of the deployment context
+     begins to drift away from the anticipated deployment context over time, the
+     regulator could require that the AIMD put the model through a new deployment
+     approvals process under the updated deployment context.
+
+   ● Users responsible for high-risk interactions could be subjected to rigorous KYC.
+     In the event that it is impossible to confirm the identity of a high-risk user, that
+     user could be banned from use of the model.
+
+   ● Unrestricted API access to a model can be used to construct synthetic datasets
+     that let an attacker train small models that approach the performance of a larger
+     model served via API, more cheaply than training the original larger model
+     (Introduction, 0.5.1.7). High-volume users of a public high-risk model API could
+     therefore be subjected to rigorous KYC procedures [337]. KYC could initially be
+     based on existing best practices in the financial sector [147].
+
+   ● For very large inference customers, the AIMD could directly track usage and
+     interview the customer to ensure that they have an awareness of the large critical
+     use cases that their AI systems support.
+
+   ● KYC thresholds could include industry-wide blacklists and whitelists of specific
+     users, maintained by the regulator.
+
+   ● Additionally, the AIMD could randomly interview a small subset of customers
+     that do not raise ordinary KYC flags, in order to build an institutional
+     understanding of typical usage patterns in a deployment context and their
+     changes over time.
+
+
+
+
+                                                                                 282 of 284
+   ● The AIMD could report incidents associated with its deployed models via an
+     incident database available to the regulator when they meet a predetermined
+     severity threshold (LOE4, 4.1.3.5). This severity threshold could be determined
+     by the regulator.
+
+
+Q.2 Red teaming
+
+Deployment stage monitoring could include ongoing red teaming by vetted third
+parties. If a high-risk AI model is deployed via public API, this could also include bug
+bounties and periodic hackathons to test the monitoring regime’s ability to detect and
+defuse interactions that could signal weaponization risk, prosaic accident risk, or
+catastrophic risk from loss of control.
+
+Government CBRN experts with access to classified information could also be involved
+in red teaming high-risk AI models and performing CBRN, cyber, and other dangerous
+capability evaluations (LOE3, 3.1.1.3).
+
+
+Q.3 Failed evaluation protocol
+
+If, during deployment, a high-risk AI model fails any evaluation, the regulator could
+require all AIMDs to pause some ongoing training runs, or to suspend some existing
+model deployments, depending on the nature of the failure. If this occurs:
+
+   ● The AIMD should generally cut off public access to the model. There should be
+     a contingency plan ensuring that a fallback model is in place for such situations,
+     to be activated temporarily during the pause to support critical customer use
+     cases. For example, if a hospital is using the model for aspects of its care, there
+     should be a fallback model available with the same user interface or the same
+     API signature to ensure some level of uninterrupted service.
+
+   ● The AIMD should take strong steps to sandbox the model and do a
+     comprehensive assessment of it, including developing and running more
+     internal evaluations.
+
+   ● The regulator could mandate that other AIMDs run additional evaluations on
+     their own models, even if those models are already deployed. Regulator
+     disclosure to other AIMDs at this stage could be on an anonymized basis, and
+     similar to reporting a software security vulnerability.
+
+
+
+
+                                                                                283 of 284
+● The regulator could consult with key subject-matter experts relating to the failed
+  evaluation, such as CBRN or cybersecurity experts if the failed evaluation
+  involves a dangerous capability in those domains.
+
+● If safety is not proven to the regulator’s satisfaction, the tiered model licensing
+  thresholds (see LOE4, 4.1.3.4) could be re-evaluated.
+
+
+
+
+                                                                              284 of 284
+
