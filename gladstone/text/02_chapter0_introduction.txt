@@ -1,0 +1,1069 @@
+ 0. Introduction
+
+Since 2012, AI systems have achieved superhuman performance in an ever-growing
+range of domains, including image recognition, text classification, and real-time
+decision-making. However, early AI systems were narrow: they could only carry out the
+tasks they were trained to perform. Until recently, a common view was that powerful
+general-purpose AI systems required conceptual breakthroughs.
+
+This view has been challenged in the last four years, and an increasing number of
+frontier AI researchers now believe that general-purpose systems as broadly capable as
+human beings – and perhaps significantly more so – could be developed in the near
+future [8,15,16]. Such systems could potentially be used to design and even execute
+catastrophic biological, chemical, or cyber attacks, or enable unprecedented
+weaponized applications in swarm robotics. There is also reason to believe that they
+may be uncontrollable if they are developed using current techniques, and could
+behave adversarially to human beings by default [4,17,18]. This could potentially lead
+to catastrophic accidents [1].
+
+In the near future, advanced AI may therefore introduce extreme and global risks.
+Without U.S. government action, weaponization or loss of control of advanced AI could
+cause outcomes such as WMD-scale mass-casualty events or global destabilization.
+
+In meeting these risks, the United States has several key advantages. First, the United
+States and its allies control key nodes in the global AI supply chain. And second, the
+world’s top AI labs are all currently based in the United States or in allied jurisdictions,
+as are the world’s top AI safety experts. The latter are developing technical solutions
+vital to addressing catastrophic risks from advanced AI, though their progress is
+outpaced by advances in risk-generating AI capabilities.
+
+The United States is uniquely positioned to accelerate progress in AI safety and
+security,6 drive global consensus and cooperation on catastrophic AI risks, and temper
+the racing dynamics that currently contribute to the unsafe development of frontier AI
+systems. In the process, the United States can strike a balance between harnessing the
+
+
+
+6 By AI safety and security, we mean the combination of AI alignment measures (ensuring AI systems,
+
+including AGI-level systems, behave consistently with human intent) and AI security and containment
+measures (safeguards against external attackers, insider threats, and unexpected behaviors by high-
+capability AI systems). See the Glossary of terms for full definitions.
+
+
+                                                                                            21 of 284
+enormous opportunity that comes with advanced AI, and mitigating its unprecedented
+risks, in a manner that protects the public interest.
+
+
+0.1 Background
+
+This section offers a brief overview of the technological state of play in advanced AI.
+For a more comprehensive review of AI technology and catastrophic AI risks, readers
+should refer to this plan’s companion document, Survey of AI R&D Trajectories [19].
+
+Until the late 2010s, AI research was generally directed at improving the architectures
+of AI systems, and finding new and better ways to configure and refine the information
+processing structures they contained. This approach led to useful narrow AI systems,
+which could perform the specific tasks they were trained to carry out. But these systems
+did not have the ability to generalize and solve a wide range of problems, as human
+beings do.
+
+Towards the end of the decade, a then-fringe theory was proposed: perhaps current AI
+techniques were already sufficient to allow researchers to build general-purpose
+reasoning systems. Rather than refining AI system architectures, this theory suggested,
+the key to general intelligence – and perhaps even to achieving human-level AGI – was
+simply to “scale up” existing AI systems, training much larger models on far more data
+with far more processing power. This idea has since become known as the scaling
+hypothesis [20].
+
+In late 2019, OpenAI placed an unprecedented bet on the scaling hypothesis [21]. The
+result was GPT-3 [22], a text-generating model trained using more data and compute,
+and composed of ten times more parameters, than any AI model before it. GPT-3
+achieved remarkable performance on a variety of tasks: it could write code, translate
+languages, compose essays, write effective marketing copy, and much more.
+
+OpenAI’s experiments with AI scaling yielded such reliable improvements in
+performance across so many orders of magnitude in dataset size, model size, and
+compute budgets that they became known as scaling laws [23]. A resource-intensive,
+industry-wide race to scale AI ensued. Today’s frontier AI labs are openly pursuing AGI
+by using strategies centered on AI scaling, in some cases spending tens of billions of
+dollars to acquire the AI computing resources needed to execute their ever-larger
+training runs [10,24,25].
+
+In early 2021, Google DeepMind proposed an improved set of AI scaling laws that
+assigned a greater importance to dataset size than did OpenAI’s [26]. Since then, other
+
+
+                                                                                 22 of 284
+AI labs have developed still better scaling laws, training protocols, and AI system
+architectures that have allowed ever more powerful systems to be developed using
+fewer and fewer resources [27,28].
+
+These AI systems now include OpenAI’s GPT-4, which can outperform the vast majority
+of human beings at a wide range of standardized tests, from the SAT reading exam
+(93rd percentile) to the SAT math test (89th percentile) to the Uniform Bar Exam (90th
+percentile) [29]. The publicly accessible version of GPT-4 was widely recognized as the
+world’s leading frontier AI system at the time of its release.7 And in December 2023,
+Google DeepMind announced Gemini [30], a new AI system that rivals the capabilities
+of GPT-4.
+
+But the greater significance of these models lies in the improvements to AI capabilities
+they demonstrate — improvements largely achieved by continued scaling. In early
+2020, state-of-the-art AI systems struggled to string together more than a few coherent
+sentences [31]. By 2021 [22], it could write high-school essays. By the end of 2022, a
+single AI system could write professional-grade code, write entire plays, argue for or
+against political perspectives, compose music, emulate operating systems, play text-
+based games, and translate language [32]. As of early 2024, specialized AI systems can
+discover new solutions to decades-old problems in mathematics [33], outperform
+human experts on professional exams [29], and code apps from scratch with minimal
+oversight [34].
+
+Spurred by these advances, tech giants and private investors have poured billions of
+dollars into frontier AI labs to fund AI scaling. In 2023 Microsoft invested over $10B in
+OpenAI [35], while Google and Amazon together invested over $4B in Anthropic alone,
+with an additional $2.5B in future commitments [36,37].
+
+Many of these frontier labs have now stated openly and explicitly that their goal is to
+build AGI [6,38,39], and in at least one case, to release it as open-source [40]. This goal
+is viewed as justifying unprecedented levels of investment [25], given that the potential
+returns could be substantial enough to transcend ordinary economics [6]. In principle
+the first company to build AGI could have access to a system that could automate most
+human labor, radically accelerate scientific progress, reshape entire industries, influence
+global policy, and potentially, even define the future of humanity itself [41].
+
+
+
+
+7 According to private sources, versions of GPT-4 that exist internally within OpenAI have even more
+
+impressive capabilities.
+
+
+                                                                                               23 of 284
+With unprecedented funding in hand, frontier AI labs are now racing to build AI
+systems with human-level or superhuman capabilities across a wide range of tasks
+including situational awareness, advanced reasoning, and long-term planning. An
+increasing number of frontier researchers now believe that AGI may be achieved within
+the next 5 years, and perhaps considerably sooner [8,15,16].
+
+Powerful AI systems will bring unprecedented value. But they may also introduce
+extreme and catastrophic risks. The industry-wide and international race to build ever
+more capable AI systems is taking place without regulatory oversight, even as we lack
+reliable solutions to urgent and critical technical safety problems.
+
+
+0.2 Categories of AI risk
+
+See this plan’s companion document, Survey of AI R&D Trajectories, for more
+information on these risk classes, including references.
+
+Advanced AI, and ultimately AGI, introduces two distinct categories of catastrophic
+risk.
+
+0.2.1 Weaponization
+
+The first risk class is weaponization. AI systems can and will be weaponized in many
+ways, but future advanced AI systems may be WMD-like in their destructive capabilities
+[1]. They could enable AI-powered mass cyberattacks that autonomously discover
+crippling zero-day exploits [42], disinformation campaigns, and bioweapon design,
+among many other dangerous applications [14, 43]. As a result, the proliferation of
+such models – and indeed, even access to them – could be extremely dangerous
+without effective measures to monitor and control their outputs.
+
+0.2.2 Loss of control
+
+The second risk class is loss of control due to AGI alignment failure. There is evidence
+to suggest that as advanced AI approaches AGI-like levels of human- and superhuman
+general capability, it may become effectively uncontrollable. Specifically, in the absence
+of countermeasures, a highly capable AI system may engage in so-called power-
+seeking behaviors. These behaviors could include strategies to prevent itself from
+being shut off or from having its goals modified, which could include various forms of
+deception; establishing control over its environment; improving itself in various ways;
+and accumulating resources. Even today’s most advanced AI systems may be
+
+
+                                                                                 24 of 284
+displaying early signs of such behavior, and some have demonstrated the capacity [44]
+and propensity [45] for deception and long-term planning.8 Though power-seeking
+remains an active area of research, evidence for it stems from empirical and theoretical
+studies published at the world’s top AI conferences [2,47].
+
+If a power-seeking AGI were to have internal goals that differed even slightly from
+those of its developers, executing competently on those goals could involve placing
+itself outside the effective control of its developers to avoid having its goals altered.
+Given the potential capabilities of such a system, in the worst case such a loss of
+control could pose an extinction-level threat to the human species. Because of this risk,
+major frontier labs have highlighted the crucial importance of ensuring that the
+behavior of an AGI is always consistent with — or aligned with — the intent of its
+developers [5]. However, there is currently no known method to accomplish this. This
+unsolved technical challenge is known as the alignment problem9 [1], and it is
+believed to be central to the safe development and operation of future, superhuman AI
+systems.10 See Annex B: The full challenge of AGI alignment for more information.
+
+Loss of control from AGI alignment failure makes no reference to questions of
+consciousness or sentience of AI systems. A misaligned AGI system is a source of
+catastrophic risk simply because it is a highly competent optimizer. Its competence lets
+it discover and implement dangerously creative strategies to achieve its internalized
+goals, and most effective strategies to achieve most types of goals likely involve power-
+seeking behaviors [48]. As a result, a highly competent AI system may tend to engage
+in such behaviors by default under a wide range of circumstances.
+
+This risk category has several implications. First, AGI may lack the build-vs-use
+distinction that exists for many other WMD-like technologies. Successfully building an
+AGI system, even without choosing to deploy it, could have a catastrophic impact if the
+system escapes controls and circumvents its safeguards. And second, which human
+agency designs, develops, or deploys an AGI system may be immaterial. If the AGI
+system escapes the control of its developer, then the developer’s goals or intent can no
+longer affect the outcome. In these respects, the risk profile of AGI is unusual, but not
+unique. Certain kinds of biological weapons research present similar risks: even if there
+
+
+8 Many frontier AI labs view long-term planning capabilities as intrinsically dangerous [46].
+
+
+9 See the Glossary of terms for more information.
+
+
+10 Recently, some frontier labs have begun using the term “superalignment” to refer to the alignment
+
+problem in the context of human-level and superhuman AI systems (i.e., AGI) [5]. It is generally believed
+that today’s alignment techniques will not scale to such systems.
+
+
+                                                                                                25 of 284
+is no intent to deploy, simply conducting active research on a pathogen runs some risk
+that the pathogen could escape containment (LOE5, 5.3.1).
+
+See Annex C: Example AI alignment failure scenarios for illustrations of the escalating
+impact potential of misaligned AI systems with increasing capabilities.
+
+0.2.3 Other risk categories
+
+Apart from weaponization and loss of control, advanced AI introduces other risks of
+varying likelihood and impact. These include, among others:
+
+    ● Dangerous failures induced intentionally by adversaries;
+
+    ● Biased outputs that disadvantage certain individuals or groups;
+
+    ● Prosaic accidents like self-driving car crashes;
+
+    ● Exotic accidents due to interactions between complex networks of
+      interdependent AI systems that may lead to cascading failures (“network risk”);
+      and
+
+    ● Unpredictable and uncontrollable technological change that could itself
+      destabilize society in ways we cannot anticipate [1].
+
+All these risks are important to consider and should be addressed. However, this
+action plan focuses on risks from weaponization and loss of control. These two
+categories contribute disproportionately to the possibility of unrecoverable
+catastrophic risks,11 and their mitigations pose unique technical, political, legal, and
+economic challenges (see 0.5) [49].
+
+
+
+
+11 By unrecoverable catastrophic risks, we mean risks whose worst-case impact is so severe that it
+
+would have a profound and irreversible effect on society. See the Glossary of terms for our full definition.
+
+
+                                                                                                  26 of 284
+0.2.4 Risks addressed by this action plan
+
+
+
+
+Figure 2. Visualization of an approximate spectrum of AI risks, ranging from individual and
+societal risks to catastrophic national security risks.
+
+The safeguards we will propose in this action plan are aimed at addressing
+catastrophic risks from weaponization and loss of control. Many safeguards are
+mutually supportive between these two risk categories. But loss of control from AGI
+alignment failure is a particularly challenging risk category that requires some
+mitigations beyond those for weaponization. A subset of our recommendations is
+therefore primarily aimed at addressing loss of control from AGI alignment failure.
+
+Currently, only a small and well-capitalized subset of the AI industry is engaged in
+activities that could introduce catastrophic risk. The majority of AI research,
+development, and adoption efforts are purely beneficial. Approaches to mitigating
+catastrophic AI risks should therefore be carefully scoped to minimize regulatory
+burdens on safe and beneficial activities. A balanced approach should encourage U.S.
+innovation to thrive, promote safe and secure development, and enable the public to
+benefit from increasing AI adoption.
+
+
+0.3 Potential sources of catastrophic AI risk
+
+We assess that medium-term risk (1-5 years) from the weaponization and loss of control
+of advanced AI systems may come from a limited set of sources. See Annex D:
+Advanced AI landscape for a breakdown of the entities associated with each of the
+sources below.
+
+
+
+
+                                                                                       27 of 284
+Some potential medium-term risk sources are:
+
+    ● Domestic frontier AI programs. Frontier AI programs at U.S.-based
+      organizations represent a significant source of advanced AI risk. These
+      organizations respond to market incentives and other competitive pressures by
+      building and deploying ever-more powerful AI systems as quickly as they can
+      (see 0.5.3.1). Over the medium term, this category includes frontier AI labs and
+      elite quantitative hedge funds.
+
+    ● Foreign AI programs. State and non-state actors abroad could be engaged in
+      research on the critical path to AGI. China-based entities are currently the most
+      notable candidates in this category, but this could change.
+
+    ● Theft or sale and subsequent augmentation of frontier AI models by state or
+      non-state actors. Frontier AI labs generally lack the operational, cyber, and
+      physical security to protect themselves from nation-state espionage (see
+      0.5.1.5). If an attacker steals a highly capable AI model from a frontier lab, that
+      attacker can then augment the model’s capabilities and “train out” any existing
+      safeguards against alignment failure or weaponization [50]. This leads to a
+      system with risks or capabilities that were not present in the original model.
+
+    ● Open-access12 release of advanced AI models. When an AI developer
+      publishes the weights of a powerful model, anyone can download the full
+      model, and then package or fine-tune it to augment its capabilities. The key
+      driver of risk from open-access release is the widespread availability of the
+      weights of models that could be weaponized or pose loss of control risk under
+      augmentation (see 0.5.1.6). Advanced AI model weights have also been leaked
+      accidentally in some cases [51].
+
+
+
+
+12 By open-access, we mean AI models whose weights are generally available for download under a
+
+permissive license. This also includes activities commonly referred to as “open-source.” See the Glossary
+of terms for more information.
+
+
+                                                                                               28 of 284
+Figure 3. Visualization of the AI supply chain, potential sources of catastrophic risk, and
+categories of catastrophic risk.
+
+
+0.4 Arguments against regulation for catastrophic AI risk
+
+Several compelling arguments have been made against U.S. government regulation of
+advanced AI for catastrophic risk mitigation. We list a few of these below.
+
+0.4.1 Self-regulation will be suf cient
+
+Some technology executives have argued that catastrophic AI risk can be mitigated
+through self-regulation and coordination among the AI industry [34]. Major AI
+developers and cloud providers have created the Frontier Model Forum (FMF) [52]
+partly as a self-regulatory industry body. Opinions on regulation differ between frontier
+labs, with some privately and publicly [53] endorsing the idea, and others objecting.
+Indeed, according to sources contacted over the course of this assessment, at least one
+
+
+                                                                                          29 of 284
+                               fi
+major cloud provider’s opposition has been made clear by attempts on its part to curb
+regulatory efforts.
+
+Self-regulation may be enough to mitigate many types of AI risk, and it is likely to have
+some positive effect even on certain forms of catastrophic risk. But it will not offer
+adequate protection from weaponization or loss of control risk, for a number of
+reasons.
+
+First, frontier AI labs face an intense and immediate incentive to scale their AI systems
+as fast as they can (see 0.5.3.1). They do not face an immediate incentive to invest in
+safety or security measures that do not deliver direct economic benefits, even though
+some do out of genuine concern. Catastrophic AI risk safeguards are perceived to
+impose a cost on the lab that applies them, while the benefit they deliver is a common
+good. As a result, adequate private investment in catastrophic AI risk mitigation is best
+incentivized by regulation.
+
+Second, frontier AI labs assess their AI systems for dangerous behaviors by
+administering AI evaluations13 [46]. In a self-regulatory regime, these labs face a strong
+incentive to mitigate dangerous behaviors through superficial adjustments (e.g., fine-
+tuning a model to give better answers on the evaluation set) rather than by addressing
+the underlying factors that may have led to the behavior. This makes self-evaluated AI
+systems appear safer than they are. As a result, reliable AI evaluations — considered an
+essential component of technical AI safety in the current paradigm — require
+regulatory oversight [54]. See LOE3, 3.2 for more information on standards for AI
+evaluations.
+
+Finally, frontier AI labs lack access to classified threat intelligence. As a result, they
+often do not implement the security measures required to secure their critical
+intellectual property (IP) from exfiltration by resourced state and non-state attackers
+(see 0.5.1.5). Access to these resources requires ongoing collaboration and
+coordination with government stakeholders.
+
+0.4.2 Regulation could damage U.S. innovation and
+competitiveness
+
+Up to this point, AI has been disproportionately a beneficial technology. Adding
+friction to advanced AI development through regulation risks denying society the
+
+13 By AI evaluations, we mean attempts to elicit behaviors and gauge the propensities of AI systems
+
+through various means. See the Glossary of terms for a full definition.
+
+
+                                                                                             30 of 284
+benefits of continued unimpeded progress in the field. Moreover, it has been
+suggested that catastrophic risk mitigation policies could undermine U.S.
+competitiveness, both economically and strategically, vis-à-vis its adversaries [55].
+These are both genuine and valid concerns.
+
+Safeguards on advanced AI will need to both support innovation and defend national
+security. To strike the optimal balance, we recommend against regulation on the AI
+sector as a whole. Instead, the U.S. government could work through the private sector
+to address many AI-related issues.14 However, there is a distinct category of
+catastrophic AI national security threats that parallel the grave dangers posed by WMD,
+stemming from weaponization (see 0.2.1) and loss of control (see 0.2.2). The private
+sector is incapable by itself of adequately managing this threat category (see 0.4.1), so
+the U.S. government should intervene with common sense safeguards.
+
+While these safeguards will have an effect on the innovation ecosystem, a number of
+approaches can mitigate its impact. First, regulations can be carefully scoped to target
+the activities that entail catastrophic AI risks, while minimizing their impact on activities
+that do not entail such risks (LOE1, 1.3.2 and LOE4, 4.1.3). Second, effective early
+warning systems, (LOE1, 1.2 and LOE2, 2.3) coupled with emergency response
+mechanisms (LOE2, 2.4 and LOE4, 4.2.3) and regulatory flexibility (LOE1, 1.3.2 and
+LOE4, 4.1.2.4), could improve safety margins enough to ease some day-to-day
+regulatory burdens. Finally, safety is a precondition of effective innovation. Research
+and implementation of standards for safe AI scaling (LOE3, 3.1 and 3.2) may ultimately
+accelerate responsible progress.
+
+Apart from its economic effects, there is also a concern that regulation could cause U.S.
+AI technology to fall behind that of its adversaries. For example, controls on U.S.
+domestic AI industry could lead to private-sector investment in AI being redirected
+abroad, or otherwise allow adversaries to overtake U.S. AI. We believe this risk can be
+mitigated through a combination of approaches. These include broad-based controls
+on the AI supply chain (LOE1, 1.5; LOE5, 5.5); ongoing monitoring of the global AI
+landscape (LOE1, 1.2 and LOE2, 2.3) combined with contingency planning (LOE2, 2.4);
+domestic laws and regulations to encourage AI development and adoption under
+responsible conditions (LOE4, 4.1 and 4.2); education and outreach to international
+partners (LOE5, 5.2.1); and a campaign to internationalize AI safeguards globally
+(LOE5, 5.3 and 5.4).
+
+
+14 For example, federal agencies could strategically leverage their procurement of commercial solutions
+
+to shape the market, ensure personnel have adequate training, and update their internal policies to
+safeguard privacy and civil rights in the application of AI tools in federal functions.
+
+
+                                                                                               31 of 284
+Moreover, under current conditions of frontier lab security, it is likely that many well-
+resourced state and non-state actors can access the weights of frontier AI models
+developed in the United States already (see 0.5.1.5). Until frontier AI lab security is
+hardened, U.S. AI progress can be expected to translate directly into adversary AI
+capabilities. Additionally, U.S. and other Western open-access AI development can be
+leveraged immediately by adversaries. Finally, the catastrophic impact of a loss of
+control event in an AI system (see 0.2.2) is agnostic to which entity has designed,
+developed, or deployed that AI system. No AI developer, regardless of competitive
+alignment, can currently assure the safe operation of an AI system beyond certain as-
+yet unknown capability bounds (see 0.5.1.4).
+
+0.4.3 Catastrophic AI risk could divert attention from other issues
+
+Another concern is that focusing on extreme and catastrophic AI risks could divert
+resources away from other AI issues, such as ethical and social justice challenges
+introduced by the technology [56]. The U.S. government will indeed face the challenge
+of balancing a large portfolio of pressing issues associated with accelerating AI
+progress. But advanced AI weaponization and loss of control introduce WMD-scale
+mass-casualty risks (see 0.5.1.1) [19], and should be afforded resources proportionate
+to the profound national security threats they represent.
+
+0.4.4 Catastrophic AI risk mitigation is unnecessary
+
+Some AI researchers and other public figures have indicated that they believe
+catastrophic AI risk mitigation is unnecessary. In the current public discourse, this
+position is primarily represented by two views with separate lines of argument.
+
+First, not all AI researchers agree that catastrophic risk from AGI is significant. Skeptics
+include, among others, Meta Chief AI Scientist — and one of the “godfathers” of deep
+learning — Yann LeCun [57]; and Google Brain founder Andrew Ng [58]. Both of these
+prominent researchers have argued that the risk from AI is lower than that from most
+other potential causes of human extinction for several reasons, including that humans
+may be able to exercise more agency in the outcome than many believe [59,60]. While
+these views could ultimately prove correct, numerous other mainstream AI researchers
+(including founders of the field), practitioners, and U.S. and other government officials
+have voiced serious and credible concern with respect to the possibility of catastrophic
+outcomes from advanced AI development (see 0.5.1.1). In light of all the available
+evidence, we currently assess that despite the substantial uncertainty (see 0.5.1.3), the
+
+
+
+                                                                                    32 of 284
+worst case outcomes are plausible and severe enough to justify substantial mitigation
+efforts.
+
+A second, separate argument against catastrophic AI risk mitigation has been
+advanced by Richard Sutton, the founder of the field of reinforcement learning and a
+distinguished research scientist at Google DeepMind [61]. Sutton’s position is that
+humanity’s replacement by powerful AI systems is inevitable, but instead of risk
+mitigation, he has advocated for “succession planning,” the idea that humans should
+hand over their agency and control to AGIs intentionally. Google cofounder Larry Page
+has also expressed a similar view in the past [62].
+
+In general, given the current information environment (see 0.5.2.2), messaging on AI
+risk mitigation should be as grounded and carefully calibrated as possible.
+
+
+0.5 Challenges
+
+The U.S. government faces several unique challenges in its efforts to address
+catastrophic risk from advanced AI. These challenges cut across technical, political,
+economic, and legal domains. These challenges — particularly the severity of the threat
+(see 0.5.1.1), the rapid pace of change relative to ordinary policy (see 0.5.1.2 and
+0.5.2.1), and the irreversibility of certain forms of AI supply chain proliferation (see
+0.5.1.6 and 0.5.3.2) — combine to necessitate a system of overlapping controls
+consistent with the defense in depth strategy we follow in the Action plan.
+
+0.5.1 Technical challenges
+
+0.5.1.1 The worst-case outcomes for AI risk are considered both
+plausible and extremely severe
+
+A growing number of experts believe that, if developed, AGI could create
+unrecoverable catastrophic risks up to and including the risk of human extinction.
+Despite the controversial nature of such a prediction, numerous AI researchers and
+practitioners (including founders of the field) — and some U.S. government officials —
+have publicly stated that they believe such extreme outcomes to be plausible. For
+example:
+
+   ● Geoff Hinton, a so-called “godfather” of deep learning, left Google in early
+     2023 in order to speak freely about AI risk concerns [63]. Hinton believes there is
+
+
+
+
+                                                                                33 of 284
+      a 10% chance that AI will lead to complete human extinction within the next 30
+      years [64,65].
+
+   ● Yoshua Bengio is another of the “godfathers” of deep learning. Bengio has
+     estimated a 20% chance of a catastrophic outcome from AI at some point in the
+     future [65,66].
+
+   ● Lina Khan is the Chair of the Federal Trade Commission (FTC). She has stated
+     that she believes there is a 15% chance that all humans will be killed by AI
+     [65,67].
+
+   ● Dario Amodei is the CEO and cofounder of U.S. frontier AI lab Anthropic.
+     Amodei has placed the likelihood of a civilizational catastrophe due to AI at
+     10-25% [65,68].
+
+   ● Jan Leike co-leads the OpenAI Superalignment team which is attempting to
+     discover effective techniques for aligning superhuman systems by 2027. Leike
+     has stated that the chance of a “very bad” (in context, catastrophic) outcome
+     from AI could be anywhere between 10% and 90% [69].
+
+   ● Paul Christiano is the former Head of Alignment at OpenAI. Christiano believes
+     there is a 50% chance that all humans will be killed relatively soon after human-
+     level AI systems are developed [70].
+
+   ● Elon Musk founded and financed AGI startup xAI in 2023. Musk has stated that
+     he believes the probability of an “existential” catastrophe from AI is around
+     20-30% [71].
+
+   ● In October 2023, nonprofit organization AI Impacts conducted a survey of 2778
+     AI researchers who had recently published in one of six top AI journals or
+     conferences. Over half of participants believed there is a greater than 10%
+     chance that an AI loss of control event will lead to human extinction or to a
+     similarly permanent impact on human welfare [72].
+
+Moreover, these risks are now recognized by governments around the world. For
+example:
+
+   ● In 2022, the bipartisan Global Catastrophic Risk Management Act was enacted
+     by Congress. The Act recognizes the potential “catastrophic risks” associated
+     with the weaponization of AI and other emerging technologies [73].
+
+
+                                                                               34 of 284
+   ● In June 2022, the United Kingdom’s Ministry of Defence published its Defense
+     AI Strategy, in which it referenced the “existential risks” that may arise from
+     technologies such as AI [74].
+
+   ● In November 2023, representatives from the United States, United Kingdom,
+     China, and 25 other countries signed the Bletchley Declaration, which stated
+     that, “Substantial risks may arise from potential intentional misuse or unintended
+     issues of control relating to alignment with human intent. These issues are in
+     part because those capabilities are not fully understood and are therefore hard
+     to predict. We are especially concerned by such risks in domains such as
+     cybersecurity and biotechnology, as well as where frontier AI systems may
+     amplify risks such as disinformation. There is potential for serious, even
+     catastrophic, harm, either deliberate or unintentional, stemming from the most
+     significant capabilities of these AI models” [75].
+
+   ● Also in November 2023, Vice President of the United States Kamala Harris noted
+     that, “from AI-enabled cyberattacks at a scale beyond anything we have seen
+     before to AI-formulated bio-weapons that could endanger the lives of millions,
+     these threats are often referred to as the ‘existential threats of AI’ because, of
+     course, they could endanger the very existence of humanity” [76].
+
+Finally, technical personnel at multiple frontier AI labs have expressed similar concerns
+in private communications. One individual at a well-known AI lab expressed the view
+that, if a specific next-generation AI model were ever released as open-access, this
+would be “horribly bad”, because the model’s potential persuasive capabilities could
+“break democracy” if they were ever leveraged in areas such as election interference or
+voter manipulation.
+
+0.5.1.2 Timescales for catastrophic risk are uncertain
+
+AGI is generally viewed as the primary driver of catastrophic risk from loss of control.
+But there is no clear consensus on when AGI will be developed. As of December 2023,
+OpenAI, Google DeepMind, Anthropic, and NVIDIA have all stated publicly that
+human-level or superhuman AGI could be built within 5 years, by 2028 [5–8,77]. On the
+other hand, an October 2023 survey of AI researchers forecasted only a 50% chance
+that all human labor would be automated by the year 2116, nearly nine decades later
+[72].
+
+
+
+
+                                                                                 35 of 284
+The divergence in forecasts between frontier labs and academics has been a source of
+controversy. While frontier AI labs have more up-to-date information about the true
+state of progress in the field,15 they may also face incentives to exaggerate their near-
+term capabilities. This can make frontier labs’ shorter estimates challenging to
+interpret.
+
+To partially address this problem, in December 2023 we asked several technical sources
+across multiple frontier labs to privately share their personal estimates of the chance
+that an AI incident could lead to global and irreversible effects, sometime during the
+calendar year 2024. The lowest estimate we received was 4%; the highest extended as
+far as 20%.16 These estimates were collected informally and likely subject to significant
+bias, but they all originated from technically informed individuals working at the frontier
+of AI capabilities. Technical experts inside frontier labs also expressed that the AGI
+timelines messaged externally by frontier labs were consistent with those labs’ internal
+assessments.
+
+Disagreements over AGI timelines pose a legitimate challenge to policymaking. Risk
+mitigation measures that can be deployed quickly could ultimately prove harmful if AGI
+is decades or more away (see 0.4.2). On the other hand, better-calibrated approaches
+could minimize economic impacts, but be too slow to address risks that could emerge
+on shorter timescales.
+
+0.5.1.3 The degree of risk from loss of control is uncertain
+
+There is significant uncertainty with respect to loss of control risk from AGI alignment
+failure. A major challenge in assessing this risk is that it is only expected to fully emerge
+in future AI systems with as-yet unobserved capabilities. Since there is no direct
+empirical evidence that a future AGI system will behave dangerously in this way, loss of
+controls is sometimes referred to as a vague or speculative risk. But this argument
+applies even more strongly in reverse: there is no direct empirical evidence that a
+future AGI system will behave safely, and there are far more ways for a highly capable
+
+
+15 This is especially true in recent years, as frontier labs publish fewer and fewer details of their most
+
+advanced AI systems in an effort to maximize their proprietary advantages. The difference between
+OpenAI’s GPT-3 paper [22] and its GPT-4 technical report [29] is one clear example of this trend.
+
+16 As a point of comparison for the low-end 4% estimate, intercontinental ballistic missiles (ICBMs) were
+
+first widely deployed 50 years ago, estimating conservatively. Since there has not been a nuclear war in
+that time, this makes the naive annualized probability of nuclear war around 1/50, or ~2% [78].
+Therefore, by even the lowest of these estimates, 2024 would be the first calendar year in which AGI
+development could arguably pose a greater threat to global safety and security than nuclear war.
+
+
+                                                                                                     36 of 284
+AI system to behave dangerously than to behave safely.
+
+Without direct empirical evidence of AGI behavior, we need to rely on theoretical
+arguments guided by experiments on today’s less capable AI systems. This body of
+evidence has significant limitations. We describe it at greater length in [19], but it
+includes theoretical arguments for power-seeking behavior in several categories of AI
+systems [2,47] backed by some limited empirical studies [79,44]. It also includes
+arguments that AGI failure modes may be challenging to predict and address [80],
+along with some early empirical evidence [81]. And it includes evidence of alignment
+failures in frontier AI systems, even in the presence of cutting-edge safeguards [82,83],
+and of AI systems actively deceiving their users without having been trained to do so
+[45].
+
+Many frontier AI researchers with domain expertise in AI safety, and an absolute
+majority of AI researchers in general, believe this risk to be significant (see 0.5.1.1). But
+this majority view still falls short of a consensus, and several leading figures in AI still
+disagree that the risk justifies action (see 0.4.4).
+
+Uncertainty is often a poor guide to policy. But in the case of advanced AI, the worst-
+case impact of dangerous behavior is sufficiently severe(see 0.5.1.1) and near-term (see
+0.5.1.2) that even a relatively minor chance of such an outcome should carry
+meaningful weight in a risk assessment.
+
+0.5.1.4 Frontier labs lack safety and security measures to detect and
+prevent loss of control
+
+Some frontier AI labs have publicly stated that they currently lack the ability to control
+or contain the behavior of dangerously powerful models that they aim to develop in
+the near future [5,84]. For example, OpenAI’s Superalignment Team co-lead has said
+that his team’s objective — solving AGI alignment by 2027 — is “a very ambitious goal,
+and we might not succeed” [85]. There is currently no technical consensus on the true
+difficulty of aligning AGI-level systems [7], though the problem has features that
+suggest it may be extremely challenging. See Annex B: The full challenge of AGI
+alignment for more information.
+
+Apart from the fundamental challenge of aligning an AGI-level system, researchers at
+several major frontier labs have indicated in private conversations that they do not
+believe their organizations are likely to implement the measures necessary to prevent
+loss of control over powerful, misaligned AI systems they may develop internally. In one
+case, a researcher indicated that their lab’s perceived lax approach to safety reflected a
+
+
+                                                                                     37 of 284
+trade-off between safety and security on the one hand, and research velocity on the
+other. The same source said they expected their lab to continue to prioritize
+development velocity over safety and security. Another individual expressed the
+opinion that their lab’s safety team was effectively racing its capabilities teams, to avoid
+the possibility that they may develop AGI-level systems before being able to control
+them. A third frontier AI researcher expressed skepticism at the effectiveness of their
+lab's model containment protocols, despite their lab's internal belief that they may
+achieve AGI in the relatively near term.
+
+As one example of lax containment practices, researchers at one well known frontier
+lab performed experiments on a newly trained, cutting-edge AI system that involved
+significant augmentation of the system’s capability surface and autonomy. These
+experiments were unmonitored at the time they were performed, were conducted
+before the system’s overall capability surface was well-understood, and did not include
+measures to contain the impact of potential uncontrolled behavior by the system.
+
+Loss of control from AGI alignment failure appears highly unlikely to occur in present-
+day AI systems (see 0.5.1.3). But the level of internal concern at many frontier labs [54]
+reflects the assumption that the continuing acceleration of AI capabilities means such
+risks could emerge with little warning. In private conversations, frontier researchers
+have expressed concern that they may not be able to detect and correct alignment
+problems in future, more powerful models before they are deployed. They also shared
+their concern that if such models were deployed, it may be impossible to intercede
+quickly enough to prevent significant and potentially irreversible harms.
+
+On the other hand, multiple researchers have also privately expressed optimism that
+the necessary measures could be developed and implemented if frontier labs had
+enough time, and a stronger safety culture than they currently do (see 0.5.3.1).
+
+0.5.1.5 Frontier labs lack suf cient security to prevent critical IP theft
+
+By the private judgment of many of their own technical staff, the security measures in
+place at many frontier AI labs are inadequate to resist a sustained IP exfiltration
+campaign by a sophisticated attacker. When asked for examples of dangerous gaps in
+security measures at their frontier lab, a member of the lab’s technical staff indicated
+that they had many to share, but that they were not permitted to do so. The same
+individual shared that their lab's lax approach to information security was the object of
+a running joke: their lab, its staff apparently say, is doing more to accelerate
+adversaries' AI research than the adversaries themselves.
+
+
+
+                                                                                    38 of 284
+                      fi
+Conversations with leading frontier labs have corroborated that many lack an
+institutional appreciation of necessary security practices.
+
+Given the current state of frontier lab security, it seems likely that such model
+exfiltration attempts are likely to succeed absent direct U.S. government support, if
+they have not already.
+
+0.5.1.6 Open-access development can elicit dangerous capabilities
+from previously safe AI models
+
+A given AI model is far more dangerous under open-access conditions than it is under
+closed-access conditions [86,87]. This is partly because threat actors who have full
+development access to the model can retrain it for a very low cost and thereby undo its
+built-in technical controls [88,89]. But on top of this, threat actors can also fine-tune an
+open-access AI model or augment it with tools, and extend its capabilities
+unpredictably — sometimes far beyond the original’s [90,91]. By one estimate, a
+model’s capabilities can be extended by 1-2 orders of magnitude of compute on
+specific behaviors through fine-tuning [92].17 Moreover, AI labs regularly release open-
+access AI models whose capabilities are not fully characterized, meaning that threat
+actors may not even need to augment a model at all to access dangerous capabilities.
+
+This means that a model that is generally safe at the time its weights are shared could
+still be fine-tuned by a bad actor for various weaponized applications that would be
+beyond the capability of the original model, including bioweapon design, cyber
+warfare, and large-scale disinformation campaigns. Moreover, AI labs regularly release
+open-access AI models whose capabilities are not fully characterized [93], meaning that
+threat actors may not need to augment a model at all to access dangerous capabilities.
+
+Once a model has been released under open-access, there are no realistic means of
+shutting it down or adding restrictions. This means controls on open-access models
+need to be applied before a dangerous release occurs.
+
+See Annex D, D.3 for information on the major developers of open-access AI models.
+
+
+
+17 In other words, if the original developer trained an AI model with 10^24 OP of compute (10^24 total
+
+operations), an open-source community with access to its weights could plausibly fine-tune it for specific
+tasks until it has similar performance on those tasks as would a model trained with 10^25 to 10^26 OP
+of compute (10^25 to 10^26 total operations). These numbers are very rough estimates based on the
+open-source activity related to Meta AI’s Llama and Llama 2 models.
+
+
+                                                                                                 39 of 284
+     0.5.1.7 Closed-access AI models are vulnerable to black-box
+     ex ltration and other attacks
+
+     Advanced AI models have repeatedly had their safety features subverted (“jailbroken”)
+     by security researchers with no access to the model’s weights [94,95]. Future jailbreaks
+     could enable malicious actors to leverage even legitimate AI systems to support
+     weaponization use cases like cyber warfare and bioweapon design, using only models
+     that are accessible through secure application programming interfaces (APIs) or user
+     interfaces like ChatGPT [96,97]. Moreover, it is also possible to replicate many of the
+     capabilities of a powerful AI system at far lower cost, by training a second AI system on
+     the outputs of the first [98]. This means if a closed-access AI system is made available
+     for use through an API or user interface, the system’s operator should monitor usage
+     for patterns that could indicate weaponization [43] or black-box exfiltration.
+
+     0.5.2 Political challenges
+
+     0.5.2.1 AI advances faster than the ordinary policy process
+
+     The pace of development in advanced AI is faster than any government's ability to
+     respond through most ordinary policy mechanisms. When ChatGPT brought advanced
+     AI to the attention of policymakers and the public in late 2022, frontier AI models could
+     achieve a 10% score on the Uniform Bar Exam (UBE) [29]; write modest quantities of
+     reasonably high-quality code [99]; and generate art and photorealistic images [100].
+     Just over a year later, the public frontier of AI capabilities has completely transformed.
+     Leading AI models outperform average human professionals across a wide range of
+     professional exams (including the UBE, with scores up to 90%) [29]; can write entire
+     applications with minimal human oversight [34]; and generate photorealistic video clips
+     [101].
+
+     Though the forecast remains uncertain (see 0.5.1.2), there is reason to expect AI
+     progress in the coming years to continue at its current pace or even to accelerate.
+     Relative to this pace of progress, legislative and executive response times are far
+     slower. This difference in timescale creates a “regulatory policy lag” that poses a
+     fundamental challenge to reactive regulation. In order for policy or legislation to
+     successfully address the relevant national security threats, it must either proactively
+     anticipate future problems and capabilities, or delegate sufficient authorities to
+     regulatory bodies to ensure timely reactions to new risks as they emerge.
+
+
+
+
+                                                                                        40 of 284
+fi
+0.5.2.2 The information environment around advanced AI makes
+grounded conversations challenging
+
+Heightened attention on AI risk has increased public support for U.S. government
+action, with 67% of a bipartisan sample in one poll expressing concern that the
+regulatory response to AI could be insufficient [102]. However, since GPT-4’s release in
+early 2023, the information environment surrounding advanced AI has become
+polarized in other ways. For example, AGI alignment risk has been one of the focus
+areas of the effective altruism (EA) movement, a philosophical movement that emerged
+at Oxford University (U.K.) in the early 2010s [103]. Due to its early work in the field, the
+EA movement makes up a large fraction of advocates for extreme AI risk mitigation
+[104]. More recently, the EA movement has been noted for its political influence and
+donations [105].18 See Annex E: Funding in AI safety for more information about
+relevant entities and their donations.
+
+The EA movement has led to the emergence of a reactionary movement known as
+effective accelerationism (stylized as e/acc), that increased in prominence during 2023
+[106]. In contrast to EA, proponents of e/acc call for the unrestricted development of AI
+and self-regulation of AI companies (see 0.4.1), and generally dismiss arguments for
+catastrophic risk (see 0.4.4) [107]. The e/acc movement is sometimes associated with
+transhumanism, which advocates for the merging of human beings and machines [108].
+Both the EA and the e/acc movements enjoy considerable support from wealthy Silicon
+Valley backers [107].
+
+The polarization of advanced AI risk, combined with the genuine uncertainties
+surrounding the topic (see 0.5.1.3), increases the challenge of sustaining technically
+informed conversations on this issue in the public sphere. We recommend U.S.
+government personnel ensure their awareness of the subject matter is grounded in an
+up-to-date technical understanding (see LOE2, 2.2) to ensure productive engagement
+with relevant stakeholders and the public.
+
+
+
+
+18 For information about the sources of financial support for this assessment and its authors, see our
+
+Funding disclosure.
+
+
+                                                                                                 41 of 284
+0.5.3 Economic and strategic challenges
+
+0.5.3.1 Frontier labs face strong incentives to develop and deploy
+increasingly advanced AI systems with limited safeguards
+
+All three of the main frontier AI labs (see Annex D, D.1) have at least a basic awareness
+of the catastrophic risk potential of the AI systems they are building. But all are
+currently locked in a competitive race [109] that has eroded each individual
+organization’s agency with respect to the safety and security considerations that they
+themselves believe are necessary (see 0.5.1.4 and 0.5.1.5). By the private judgment of
+many of their own technical AI safety staff, none of these organizations is currently
+investing in AI and AGI safety to the degree that would be needed to adequately offset
+its respective investment in AI capabilities. The race dynamic between these labs
+originates from a combination of economic competition and a genuine institutional
+belief within each organization that it, and not its competitors, would be the best
+steward of an eventual AGI system if and when one is developed [110].
+
+The incentives driving this race are intensified by the potential for extreme winner-take-
+all effects. Frontier AI labs that fall behind perceive that they may find themselves at a
+permanent disadvantage [10], while the lab that is the first to achieve an AGI-level
+capability might — if it avoids causing a catastrophic outcome (see 0.5.1.1 and 0.5.1.3)
+— enjoy unprecedented windfall profits.19
+
+These winner-take-all effects are reinforced even further by the possibility that future AI
+systems could themselves be used to accelerate frontier AI research and development.
+Some frontier labs have already begun experimenting with forms of AI-supported AI
+research [69,111]. If this approach succeeds, it could lead to an accelerating dynamic in
+which progress in AI produces rapidly compounding returns beyond a certain critical
+capability level [112].20
+
+Private conversations with frontier researchers clearly indicate that this possibility is
+taken seriously inside leading labs.
+
+
+
+19 We mean “profits” here in the sense of “excess value” rather than defining it in purely monetary
+
+terms.
+
+20 The use of AI systems to automate AI research may also introduce particularly acute risks from AGI
+
+alignment failure. See Annex B: The full challenge of AGI alignment for more information about the risks
+of automated AI research.
+
+
+                                                                                               42 of 284
+Because of these factors, under the present self-regulating regime (see 0.4.1) frontier
+AI labs face strong incentives to compromise on safety and security in a number of
+critical areas. For example, in performing self-evaluations of their AI models for
+dangerous behaviors, frontier labs may be motivated to make their models appear
+safer than they are. Indeed, according to individuals with direct experience conducting
+safety evaluations on frontier models, this has already begun to occur. One frontier
+researcher shared that, although their lab was being reasonably cautious with its AI
+evaluations, they ultimately expect it to follow institutional financial incentives to game
+evaluations. (See LOE3, 3.2.1 for more information on the technical limitations of AI
+evaluations.)
+
+As the capabilities of AI systems increase in the future, additional risks — driven by the
+same sets of incentives as above — could surface at the intersection of frontier lab
+interests, national security, and the democratic process. For example, many AI
+researchers believe that future AI systems could develop persuasive capabilities that
+match or exceed those of the most skilled humans [113,114]. If such systems were
+developed, they could be used to influence the views of regulators, legislators,
+policymakers, and voters in any number of ways. See Annex F: Persuasion and
+manipulation for more information on this category of AI capabilities and the
+associated risks.
+
+0.5.3.2 AI supply chain proliferation cannot be mitigated after the fact
+
+
+
+
+        Figure 4. Simplified representation of the components of the AI supply chain.
+
+Some parts of the supply chain for advanced AI are unusually prone to proliferation
+risk. The irreversibility of open-access model releases, and the risk of their subsequent
+augmentation, may be the most visible example (see 0.5.1.6).
+
+More generally, several nodes in the advanced AI supply chain can produce outputs
+without the need for high-cost consumable inputs. To use an open-access AI model for
+inference, for example, requires only electrical energy as a consumable input. The AI
+
+
+
+                                                                                        43 of 284
+model itself is not consumed, so it can be used for any number of subsequent
+inferences.
+
+Similarly, an AI data center,21 while expensive to build, can be used to train or augment
+any number of advanced AI models. To use an existing AI data center to train AI
+models requires primarily electricity and water for cooling, which are low-cost
+commodities [115]. The AI data center itself is not consumed,22 so it can be used to
+train or augment AI models effectively unrestricted.
+
+AI model training and inference generally do not require high-cost consumables. The
+high-cost items in this supply chain are the AI model and the AI data center. Supply
+chain controls on these activities would primarily apply to these high-cost items,
+because low-cost commodities like electricity and water are impractical to control. But
+even if controls are enacted on these items, existing AI data centers can still be used
+for training, and existing AI models can still be used for inference. And entities that
+expect to be subject to controls on these items in the future can also anticipate
+restrictions by stockpiling them in advance [117].
+
+As a result, supply chain controls on AI training and inference inputs will have a delayed
+rather than immediate impact. Instead of directly interrupting the flow of a
+consumable, controls will take effect over time through wear and tear and erosion of
+competitiveness of the controlled capital goods. This means supply chain controls in
+this area will be less effective as a reactive measure than they may be in other sectors.
+By the time a proliferation risk is recognized, it could be too late for such controls to
+make a difference.
+
+In the case of AI training and inference, this factor is compounded by an even greater
+challenge. Improvements in AI algorithms continue to reduce the amount of compute
+required to train an AI model to a given level of capability, by approximately 50% every
+18 months [118]. If this continues, then a stock of GPUs that is considered safe today,
+could become dangerous in the future.
+
+
+
+
+21 That is, a data center that supports AI hardware, such as graphics processing units (GPUs) or tensor
+
+processing units (TPUs), that are generally used to train and run inference on advanced AI models. See
+the Glossary of terms for a full definition.
+
+22 In reality, AI hardware like data center GPUs undergo wear and tear and fail over time. But the useful
+
+lifetime of a GPU is typically between 3-6 years (depending heavily on usage) [116], so an entity with a
+stock of GPUs in a datacenter is effectively unrestricted in its training of AI models over that timeframe.
+
+
+                                                                                                   44 of 284
+This combination of challenges suggests that supply chain controls on AI training and
+inference will to some extent have to be anticipatory. They will need to account not
+only for what is possible today, but for what may be possible with the algorithms of the
+next few years. Without a proactive approach, if AI systems begin to display dangerous
+capabilities at a future point, the U.S. government may find itself with fewer options to
+prevent such systems from proliferating.
+
+See Annex G: Primer on AI and compute for more information on the impact of the
+compute supply chain on AI risk, including key numerical thresholds and existing
+compute concentrations.
+
+0.5.4 Legal challenges
+
+0.5.4.1 The current legal environment is inadequate to address the
+most extreme risks from advanced AI
+
+Advanced AI could introduce catastrophic risks that may not be adequately addressed
+by the current U.S. legal environment. These risks have features that make them
+difficult to mitigate without new legislative tools.
+
+First, because AI models are software, they can proliferate almost instantly as open-
+access or be stolen through cyberattacks. Once proliferated, certain advanced AI
+models could irreversibly and dramatically increase the destructive footprint of threat
+actors [1] (see 0.5.1.6). In the worst case, weaponization and loss of control of stolen or
+open-access models could introduce catastrophic risks that are completely unintended
+by the AI system’s developers. Moreover, some AI developers have an economic
+incentive to publish increasingly powerful open-access models even as these
+potentially become dangerously capable [93].23 One has even claimed it intends to
+develop, and then open-source, AGI itself [40]. In the current legal environment, these
+developers can release powerful AI models without incurring any liability if their models
+are weaponized or augmented in dangerous ways.
+
+Second, liability alone may be insufficient to address some of the most high-risk AI
+development activities. This is because some frontier AI developers do not believe
+catastrophic AI risk is plausible (see 0.4.4), while at the same time, some forms of
+catastrophic AI risk may be so severe as to be unrecoverable (see 0.5.1.1). As a result,
+
+
+23 This is because by publishing their models, these companies encourage open-source developers to
+
+build on top of those models and frameworks, effectively augmenting their development capacity.
+
+
+                                                                                            45 of 284
+these developers are unlikely to be deterred by civil or even criminal liability that would
+attach to an event that they do not believe will occur, and that, if it did, would impact
+them in itself far more than would any realistic criminal sanction.
+
+The current U.S. legal environment makes no explicit provision for such risks, and does
+not establish clear criminal and civil liability conditions for the irresponsible release or
+development of dangerous AI systems.
+
+
+
+
+                                                                                    46 of 284
+
