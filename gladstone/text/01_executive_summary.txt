@@ -1,0 +1,328 @@
+Executive summary
+
+The recent explosion of progress in advanced artificial intelligence (AI) has brought
+great opportunities, but it is also creating entirely new categories of weapons of mass
+destruction-like (WMD-like) and WMD-enabling catastrophic risks1 [1–4]. A key driver of
+these risks is an acute competitive dynamic among the frontier AI labs2 that are
+building the world’s most advanced AI systems. All of these labs have openly declared
+an intent or expectation to achieve human-level and superhuman artificial general
+intelligence (AGI)3 — a transformative technology with profound implications for
+democratic governance and global security — by the end of this decade or earlier [5–
+10].
+
+The risks associated with these developments are global in scope, have deeply
+technical origins, and are evolving quickly. As a result, policymakers face a diminishing
+opportunity to introduce technically informed safeguards that can balance these
+considerations and ensure advanced AI is developed and adopted responsibly. These
+safeguards are essential to address the critical national security gaps that are rapidly
+emerging as this technology progresses.
+
+Frontier lab executives and staff have publicly acknowledged these dangers [11–13].
+Nonetheless, competitive pressures continue to push them to accelerate their
+investments in AI capabilities at the expense of safety and security (Introduction,
+0.5.3.1). The prospect of inadequate security at frontier AI labs raises the risk that the
+world's most advanced AI systems could be stolen from their U.S. developers, and then
+weaponized against U.S. interests [9]. Frontier AI labs also take seriously the possibility
+
+
+
+
+1 By catastrophic risks, we mean risks of catastrophic events up to and including events that would lead
+
+to human extinction. See the Glossary of terms for our full definition.
+
+2 By frontier AI labs, we mean the organizations that are involved in building cutting-edge, general-
+
+purpose AI systems, and whose research programs are explicitly aimed at, or could plausibly lead to, the
+development of artificial general intelligence or AGI. Examples include OpenAI, Google DeepMind, and
+Anthropic. See the Glossary of terms for our full definition.
+
+3 By AGI, we mean an AI system that can outperform humans across all economic and strategically
+
+relevant domains, such as producing practical long-term plans that are likely to work under real world
+conditions. See the Glossary of terms for our full definition.
+
+
+                                                                                                11 of 284
+that they could at some point lose control4 of the AI systems they themselves are
+developing [5,14], with potentially devastating consequences to global security
+(Introduction, 0.5.1.1).
+
+Given the growing risk to national security posed by rapidly expanding AI capabilities
+from weaponization and loss of control — and particularly, the fact that the ongoing
+proliferation of these capabilities serves to amplify both risks — there is a clear and
+urgent need for the U.S. government to intervene.
+
+This action plan is a blueprint for that intervention. Its aim is to increase the safety and
+security of advanced AI by countering catastrophic national security risks from AI
+weaponization and loss of control. It was developed over thirteen months, and
+informed by conversations with over two hundred stakeholders from across the U.S.,
+U.K., and Canadian governments; major cloud providers; AI safety organizations;
+security and computing experts; and formal and informal contacts at the frontier AI labs
+themselves.5 The actions we propose follow a sequence that:
+
+    ● Begins by establishing interim safeguards to stabilize advanced AI development,
+      including export controls on the advanced AI supply chain;
+
+    ● Leverages the time gained to develop basic regulatory oversight and strengthen
+      U.S. government capacity for later stages;
+
+    ● Transitions into a domestic legal regime of responsible AI development and
+      adoption, safeguarded by a new U.S. regulatory agency; and
+
+    ● Extends that regime to the multilateral and international domains.
+
+
+
+
+4 Loss of control due to AGI alignment failure is a potential failure mode under which a future AI
+
+system could become so capable that it escapes all human efforts to contain its impact. See the Glossary
+of terms for our full definition.
+
+5 See the Acknowledgments section of this document for details about these stakeholders.
+
+
+
+                                                                                               12 of 284
+               Figure 1. Overview of the action plan and its component LOEs.
+
+
+The U.S. government and its allies and partners, in close partnership with industry, can
+achieve this aim by implementing five mutually supporting lines of effort (LOEs). These
+LOEs will establish (LOE1), formalize (LOE4), and internationalize (LOE5) safeguards
+on advanced AI development, while increasing preparedness (LOE2) and building
+technical capacity and capability (LOE3). Some of the measures we propose are
+unprecedented, but after consulting with stakeholders and experts, we believe they are
+proportionate to the magnitude and urgency of the risk we face.
+
+Because of the severity, uncertainty, and irreversibility of these risks, an action plan to
+address them needs to offer a wide margin of safety. This plan follows the principle of
+defense in depth, in which multiple overlapping controls combine to offer resilience
+against any single point of failure. We frame tradeoffs in terms of AI breakout timelines,
+the amount of time it would take an actor to train an AI system from scratch to equal
+
+
+                                                                                   13 of 284
+the current state-of-the art under various expert-vetted assumptions. And we illustrate
+this framework with an example regulatory regime that targets an AI breakout timeline
+of 18 months to train a GPT-4 equivalent AI model under worst-case assumptions
+(LOE4, 4.1.3). We expect regulators to set their own thresholds and update them
+depending on the lead times required by contingency planners (LOE2, 2.4), and in
+response to future technological developments.
+
+AI development and governance is complicated and dynamic, and exists at the
+intersection of multiple unsolved questions in engineering, policy, and fundamental
+research. As a result, some of our recommendations may be flawed and should be
+vetted by relevant subject-matter experts. Nonetheless, we believe that this action plan
+is the most complete framework proposed so far to support an informed, effective, and
+rapid response to the emerging threats we face at this historic inflection point.
+
+We include a brief summary of each of the plan’s LOEs below.
+
+
+
+
+                                                                                14 of 284
+LOE1: Establish interim safeguards to stabilize advanced AI
+development
+
+
+
+
+Current frontier AI development poses urgent and growing risks to national security
+(Introduction, 0.5.1.1 and 0.5.1.2). As components of the AI supply chain proliferate,
+these risks will become increasingly challenging to contain (Introduction, 0.5.3.2).
+Moreover, the pace of development in AI is now so rapid that an ordinary policymaking
+process could be overtaken by events by the time the resulting policies take effect
+(Introduction, 0.5.2.1).
+
+This LOE outlines possible actions the Executive Branch could take to buy down
+catastrophic AI risk in the near term (1-3 years), while setting the conditions for
+successful long-term AI safeguards. These actions are:
+
+   ● Creating an AI Observatory (AIO) to monitor developments in advanced AI and
+     ensure that the U.S. government’s view of the field is up-to-date and reliable
+     (LOE1, 1.2);
+
+   ● Mandating an interim set of responsible AI development and adoption (RADA)
+     safeguards for advanced AI systems and their developers (LOE1, 1.3);
+
+   ● Creating an interagency AI Safety Task Force (ASTF) to coordinate
+     implementation and oversight of RADA safeguards (LOE1, 1.4); and
+
+   ● Putting in place a set of controls on the advanced AI supply chain calibrated to
+     preserve U.S. government flexibility in the face of unpredictable risks (LOE1,
+     1.5).
+
+
+                                                                               15 of 284
+LOE2: Strengthen capability and capacity for advanced AI
+preparedness and response
+
+
+
+
+Advanced AI and AGI risk mitigation will engage a broad set of U.S. government
+equities. However, understanding of the advanced AI landscape is uneven. Mitigation
+measures require advance planning, coordination, and a broad understanding of risk
+signals to be most successful, which entails substantial capacity-building.
+
+This LOE outlines specific actions that the U.S. government could take to increase its
+preparedness for rapidly addressing incidents related to advanced AI and AGI
+development and deployment. These actions are:
+
+   ● Directing the establishment of interagency working groups for the LOEs listed in
+     this action plan (LOE2, 2.1);
+
+   ● Increasing preparedness and response capacity and capability through
+     education and training (LOE2, 2.2);
+
+   ● Coordinating the development of an Indications and Warnings (I&W) framework
+     for advanced AI and AGI incidents (LOE2, 2.3); and
+
+   ● Coordinating the development of scenario-based contingency plans (LOE2, 2.4).
+
+
+
+
+                                                                                16 of 284
+LOE3: Increase national investment in technical AI safety
+research and standards development
+
+
+
+
+The acceleration of investment in AI capabilities is outpacing the development of
+proportionate technical safeguards against advanced AI and AGI risks [5] (Introduction,
+0.5.1.2 and 0.5.1.3). If this continues, frontier AI labs may find themselves unable to
+meet the safety and security challenges posed by their own systems (Introduction,
+0.5.1.4). Unless strong technical safeguards are designed, standardized, and broadly
+applied, continued development and adoption of frontier AI systems could create
+significant risks (Introduction, 0.5.1.1).
+
+This LOE outlines specific actions the U.S. government could take to strengthen
+domestic technical capacity in advanced AI safety and security, AGI alignment, and
+other technical AI safeguards. These actions include:
+
+   ● Directly funding advanced AI safety and security research including AGI-scalable
+     alignment research (LOE3, 3.1); and
+
+   ● Developing, regularly reviewing, and promulgating safety and security standards
+     for responsible AI development and adoption (LOE3, 3.2).
+
+
+
+
+                                                                               17 of 284
+LOE4: Formalize safeguards for responsible AI development
+and adoption by establishing an AI regulatory agency and
+legal liability framework
+
+
+
+
+Interim regulations may be insufficient to address the unique risks and challenges of
+advanced AI. A legal framework for AI regulation and liability, that directly addresses
+catastrophic risk through detailed and flexible responsible AI development and
+adoption (RADA) safeguards, is essential to promote long-term stability and cover any
+gaps in existing authorities (Introduction, 0.5.4.1).
+
+This LOE outlines specific actions the Legislative Branch could take to establish the
+conditions for long-term (4+ years) domestic AI safety and security. These actions
+include:
+
+   ● Creating a Frontier AI Systems Administration (FAISA), a regulatory agency with
+     rulemaking and licensing powers to oversee AI development and deployment
+     (LOE4, 4.1), consistent with a set of RADA safeguards derived from contingency
+     planning requirements (LOE4, 4.1.3); and
+
+   ● Establishing a criminal and civil liability regime that could include defining
+     responsibility for AI-induced damages; determining the extent of culpability for
+     AI accidents and weaponization across all levels of the AI supply chain; and
+     defining emergency powers to respond to dangerous and fast-moving AI-related
+     incidents which could cause irreversible national security harms (LOE4, 4.2).
+
+For an example of a complete RADA safeguards framework, including sample
+calculations of thresholds for covered entities, see LOE4, 4.1.3.
+
+
+
+
+                                                                                18 of 284
+LOE5: Enshrine AI safeguards in international law and secure
+the AI supply chain
+
+
+
+
+The rise of advanced AI and AGI has the potential to destabilize global security in ways
+reminiscent of the introduction of nuclear weapons. As advanced AI matures and the
+elements of the AI supply chain continue to proliferate (Introduction, 0.5.3.2), countries
+may race to acquire the resources to build sovereign advanced AI capabilities. Unless
+carefully managed, these competitive dynamics risk triggering an AGI arms race and
+increase the likelihood of global- and WMD-scale fatal accidents, interstate conflict,
+and escalation.
+
+This LOE outlines near-term diplomatic actions and longer-term measures the U.S.
+government could take to establish an effective AI safeguards regime in
+international law while securing the AI supply chain. These actions include:
+
+   ● Building a domestic and international consensus on catastrophic AI risks and
+     necessary safeguards (LOE5, 5.2);
+
+   ● Enshrining those safeguards in international law (LOE5, 5.3);
+
+   ● Establishing an International AI Agency (IAIA) to monitor and verify adherence to
+     those safeguards (LOE5, 5.4); and
+
+   ● Establishing an AI Supply Chain Control Regime (ASCCR) with allies and partners
+     to limit the proliferation of advanced AI technologies (LOE5, 5.5).
+
+
+                                                                                  19 of 284
+                                      ·     ·      ·
+
+The specific recommendations in each of these LOEs are semi-flexible. In some cases,
+functions for which we recommend establishing a new task force or agency (e.g. LOE5,
+5.4) could be incorporated into existing or recently established U.S. government
+offices, systems, or entities.
+
+Several of these LOEs also call for bold action beyond what has been required in
+previous periods of rapid technological change. We do not make these
+recommendations lightly. Rather, they reflect the unprecedented challenge posed by
+rapidly advancing AI capabilities which create the potential for catastrophic risks
+fundamentally unlike any that have previously been faced by the United States. They
+also reflect a multitude of unique challenges that make the threats resistant to single-
+approach solutions. These include:
+
+   ● The severity of worst case outcomes is extreme (Introduction, 0.5.1.1);
+
+   ● The timescale and degree of risk are highly uncertain (Introduction, 0.5.1.2 and
+     0.5.1.3);
+
+   ● The entities developing frontier AI systems are incentivized to invest in
+     capabilities at the expense of safety and security (Introduction, 0.5.1.4, 0.5.1.5,
+     and 0.5.3.1);
+
+   ● The advanced AI supply chain is especially prone to proliferation, particularly in
+     the case of open-access AI models (Introduction, 0.5.1.6 and 0.5.3.2);
+
+   ● The geopolitical landscape may pose a further challenge to coordination
+     (Introduction, 0.4.2); and
+
+   ● The introduction of excessive regulation in this domain may harm innovation and
+     competitiveness (Introduction, 0.4.2).
+
+To paraphrase a safety researcher at a frontier lab, the risk from this technology will be
+at its most acute just as it seems poised to deliver its greatest benefits. Given these
+factors, inaction is likely to erode decisionmaker flexibility and narrow options in the
+face of a rapidly evolving risk landscape. But by taking bold action, the United States
+can seize a unique opportunity to lead the domestic, scientific, and international efforts
+that will meet the needs of this historic moment.
+
+
+
+
+                                                                                  20 of 284
+
