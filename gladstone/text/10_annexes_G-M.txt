@@ -1,0 +1,1673 @@
+Annex G: Primer on AI and compute
+
+G.1 Compute as a pathway to frontier AI development
+
+To train an advanced AI system from scratch, a developer needs access to a large
+number of dedicated AI chips (e.g., GPUs or TPUs) that are connected together in the
+same physical data center. The current market leader in the design of such chips is
+NVIDIA, a firm based in the United States. Notably, some companies besides NVIDIA
+may have the capability to design AI chips of comparable performance. These include
+firms based in the United States, South Korea, the United Kingdom, and China, among
+others. However, only a single firm is currently capable of manufacturing the most
+cutting-edge chips that are needed to train next-generation frontier AI systems. That
+firm is Taiwan Semiconductor Manufacturing Co. (TSMC), whose leading-edge foundry
+operations are all located in Taiwan.
+
+In October 2022, the Department of Commerce’s Bureau of Industry and Security (BIS)
+announced a series of export control measures that restricted Chinese entities’ access
+to many TSMC-manufactured AI chips [307]. Then, in March 2023, Japan and the
+Netherlands each announced their own measures curbing the export to China of the
+advanced equipment they would need to accelerate the development of a domestic
+manufacturing capability for such chips [308]. Most recently, in October 2023, the BIS
+tightened controls further, closing loopholes that had previously permitted Chinese
+entities to purchase advanced AI chips that had been carefully designed to circumvent
+previous controls [117,309].
+
+Currently, the most critical inputs to the supply chain that supports the development of
+the world’s most advanced AI systems remain in the hands of the United States and its
+allies and partners. This control could be crucial for any effort to manage catastrophic
+risks from advanced AI, because scale has proved to be a necessary ingredient in the
+development of highly capable AI systems. Very roughly speaking, the more AI chips a
+developer can interconnect together, the less time it takes that developer to train an AI
+system of a given level of capability. Similarly, the higher the quality of the chips it uses,
+the less time an AI training run takes to achieve a given level of capability. In other
+words, for the purpose of training an advanced AI system, quality and quantity of
+available chips are interchangeable to some extent.
+
+But once an AI developer has built a data center for advanced AI training, that
+developer can then use its data center to train AI systems of any kind and for any
+purpose. Therefore, absent ongoing audits of its use of the data center, a developer is
+
+
+                                                                                    224 of 284
+only limited in the AI systems it can train by the product of chip quality, chip quantity,
+and time that it chooses to invest in that training run. This product of quality, quantity,
+and time is the total number of compute operations (“OP”) an AI system is trained
+with.103 This number is sometimes also called training compute, and it can function as
+a rough directional measure of the capability of an AI system.
+
+AI researchers continuously improve the algorithms they use to train advanced AI
+systems, and in many cases they publish those improvements in the literature. Broadly
+speaking, the impact of an algorithmic improvement is to reduce the training compute
+it takes to train an AI system to a given level of capability. Ongoing improvements in AI
+training algorithms therefore make it impossible to predict even the approximate
+capabilities that a future AI system will have from its training compute alone, other than
+to provide a rough lower bound on what those capabilities could be. All we can say for
+certain is that a given data center will be able to cost-effectively train more capable AI
+systems in the future than it can today, even without any further improvement in its
+hardware.
+
+
+G.2 Implications for risk mitigation strategy
+
+In light of the above, an advanced AI risk mitigation strategy likely requires a long-term
+capability to closely monitor both the data centers that train advanced AI systems, and
+the AI chips those data centers contain. Ideally such a framework should also be based
+on an ongoing assessment of an AI system’s capabilities while it is being trained, since
+high-level metrics like training compute may not provide an adequate risk signal in the
+face of future algorithmic improvements.
+
+
+G.3 Key thresholds and existing compute concentrations
+
+Below we calculate some numerical rules of thumb to highlight the potential of large
+compute concentrations to train AI systems up to a given level of capability. As a
+benchmark, we will use the best publicly available estimate of GPT-4’s total training
+compute: 2 x 10^25 OP [310].104 Using this, we will calculate upper and lower bounds
+
+
+103 For example, a data center with H100 GPUs, each of which can process 4000 trillion operations per
+
+second (quality), might use 1000 of those GPUs (quantity) to train an AI model for 1 month (time). This
+would produce a model trained with a total of (4 x 10^15 operations per second per GPU) x (1000 GPUs)
+x (2,592,000 seconds per month) ≈ 10^25 total operations, or OP. See the Glossary of terms for more
+information.
+
+104 20 trillion trillion total operations.
+
+
+
+                                                                                            225 of 284
+on the time required to train a GPT-4 equivalent model under different assumptions.
+Our lower bound assumes previous-generation AI chips (the NVIDIA A100 GPU) and
+our upper bound assumes current-generation AI chips (the NVIDIA H100 GPU).
+
+    ● Our previous-generation hardware benchmark is the NVIDIA A100 GPU, which
+      has been used to train current-generation AI models (as of January 2024). The
+      A100 GPU has a baseline compute capacity of around 300 TOPS105 at FP16
+      without sparsity. This is probably quite close to the actual configuration used to
+      train the cutting-edge AI models available today, such as GPT-4. The A100
+      consumes around 825 W of power per unit in a common HGX configuration
+      [311–313].106
+
+    ● Our current-generation hardware benchmark is the NVIDIA H100 GPU, which is
+      being used to train next-generation AI models. The H100 GPU has a baseline
+      compute capacity of around 1000 TOPS at FP16 without sparsity, but this rises to
+      4000 TOPS at FP8 with sparsity. We will use the latter number as our upper
+      bound because while next-generation models may not be trained under exactly
+      this configuration, efforts are ongoing to accelerate model training and
+      inference by using shorter bit representations that enable higher GPU compute
+      capacities [314]. The H100 consumes around 1275 W of power per unit in the
+      DGX configuration [216,219].107
+
+Given that a data center’s power consumption footprint translates into computing
+power at around 80% efficiency [220] a 10 MW data center can support about 9700
+A100 GPUs, or 6300 H100 GPUs [219,315].108 Given that typical GPUs achieve a real-
+world utilization of about 50% during large training runs [220], this is enough to train a
+
+
+
+
+105 TOPS refers to trillion operations per second. OPS would refer to operations per second. See the
+
+Glossary of terms for more information.
+
+106 The HGX G482-Z54 server is typical. It has a fully loaded power capacity of 6600 W (3 x 2200 W
+
+power supplies) and supports 8 A100 GPUs, so 6600 W / 8 GPUs = 825 W per GPU.
+
+107 The H100 DGX server consumes 10,200 W fully loaded and supports 8 H100 GPUs, giving 10,200
+
+W / 8 GPUs = 1275 W per GPU.
+
+108 Calculated as 10 MW x (1000 kW per MW) x (80% efficiency) / (1.275 kW per H100) ≈ 6300 GPUs for
+
+H100s. For A100s, this is 10 MW x (1000 kW per MW) x (80% efficiency) / (0.825 kW per A100) ≈ 9700
+GPUs.
+
+
+                                                                                             226 of 284
+GPT-4 equivalent model in between 3 and 23 weeks, assuming no other constraints.109
+In practice, though, most commercial compute capacity is used either for inference110
+or to train more mundane AI systems below the frontier, as opposed to developing
+truly cutting-edge advanced AI systems.
+
+As of January 2024, the majority of advanced AI training runs are still conducted on
+U.S. soil by U.S. companies using U.S. servers. Globally, there are probably fewer than
+50 dedicated AI data centers with a power consumption footprint greater than 10
+MW [315], but this will likely increase in the medium term future [25].
+
+We also estimate there are probably only about a dozen entities that have AI data
+centers with a power consumption footprint above 25 MW (equivalent to 10,000 H100
+GPUs): Microsoft (and OpenAI), Google DeepMind (and Anthropic [316]), Coreweave
+(and Inflection AI [317]), Meta AI, Bytedance, Alibaba, AWS, xAI, NVIDIA, Tesla, and
+possibly a few others.
+
+AI data centers can only exist in a limited number of places. They need access to
+electricity and water for cooling, and for many applications need a high-bandwidth
+fiber link to an Internet backbone. The logistics requirements of a data center are
+significant, and its footprint is readily detectable. This means data centers may serve as
+effective points of regulatory leverage in the advanced AI supply chain (see LOE1,
+1.5.2).
+
+The global GPU stockpile is large. By one estimate, there were 2 million GPUs in 2022
+[217]. By another, there will be 3.5 million H100 GPUs alone by the end of 2024 [157].
+
+Algorithmic improvements in compute efficiency increase the level of AI capabilities
+that a developer can obtain using a fixed amount of compute. Algorithmic
+improvements have been responsible for approximately doubling compute ef ciency
+
+
+109 Lower bound: assuming GPT-4 equivalent training compute of 2 x 10^25 OP and 788 H100 DGX
+
+systems of 8 H100s each (totalling 6300 H100s), this is calculated as 2 x 10^25 OP / (32,000 TOPS per
+DGX x 10^12 OPS per TOPS x 788 DGX systems x 50% utilization x 604,800 seconds per week) ≈ 2.6
+weeks. Upper bound: assuming 9700 A100s, this is calculated as 2 x 10^25 OP / (300 TOPS per A100 x
+10^12 OPS per TOPS x 9700 A100s x 50% utilization x 604,800 seconds per week) ≈ 22.7 weeks.
+
+110 From conversations with technical personnel at major AI cloud providers, about 60% of GPU capacity
+
+internally is allocated to inference and the other 40% to training, though this varies greatly by provider
+and over time. Nonetheless, one inference pass costs 8-10X less than one training pass in terms of
+compute operations, meaning these companies are probably serving around 10 user queries (i.e.,
+inference passes) per training step (i.e. training update), averaged across their whole infrastructure.
+
+
+                                                                                                 227 of 284
+                                                                                fi
+every 18 months [118]. These improvements may not continue indefinitely, and one
+informed technical source believes it is unlikely that algorithmic improvements will yield
+more than an order-of-magnitude (10X) increase in compute efficiency over the
+mid-2023 state of the art.
+
+
+
+
+                                                                                228 of 284
+Annex H: AIO activities
+
+An AIO could consider undertaking some or all of the following activities:
+
+   1. Track advanced AI startups and organizations as they emerge through public
+      news reports. Recent examples include Adept AI [318], Inflection AI [319], Reka
+      [320], Mistral AI [321], and Imbue [322]. This includes tracking announcements of
+      major compute purchases, as well as venture capital and other sources of
+      funding for large AI projects.
+
+   2. Conduct ongoing reviews of the technical literature in advanced AI to identify
+      key trends, research publications, and insights that could accelerate or alter the
+      trajectory of frontier AI development [238,323].
+
+   3. Compile a list of key AI researchers who may have the knowledge and
+      experience to significantly impact the trajectory of an advanced AI project
+      through their contributions. An AIO could investigate options to build
+      community ties to these researchers. This could be structured similarly to the
+      Bulletin of the Atomic Scientists [324], but for frontier AI.
+
+   4. In collaboration with the Securities and Exchange Commission (SEC), establish a
+      capability to track possible frontier AI development in the financial industry,
+      especially at hedge funds. For more information on why hedge funds constitute
+      a vector of catastrophic AI risk, see Annex D, D.4.111
+
+   5. Begin an effort to track international frontier AI development activity. An AIO
+      could establish relationships with open-source experts and with alternative data
+      brokers and providers (e.g. Neudata [327]) to synthesize information sources. To
+      this end, the AIO may need to gather data about factors such as electricity
+      usage, GPU purchase flows, and heat signatures from satellite imagery [315].
+
+   6. Build relationships with the leadership of the open-source AI community,
+      including organizations such as Eleuther AI [328], BigScience [329], Hugging
+      Face [330], Together [331], and Ontocord [332], among others. This activity
+      could also support consensus-building around RADA safeguards related to
+
+
+111 The SEC may be able to request information about hedge funds’ frontier AI development activities
+
+through the reporting requirements of Form PF and Rule 204(b)-1. See, respectively, 17 CFR 279.9 [325]
+and 17 CFR 275.204(b)-1 [326].
+
+
+                                                                                            229 of 284
+   registration of open-access AI models. It could also support awareness of the
+   technical implications of potential decentralized AI inference and training
+   capabilities. See Annex D, D.3 for more information.
+
+7. Work to identify key nodes in advanced AI development: researchers, institutes
+   (both in academia and industry), foreign nationals pursuing degrees in key
+   disciplines or undertaking advanced AI research in U.S. universities, publication
+   clusters, GPU stocks (e.g., “H100 equivalents”) in different geographies, etc.
+
+8. As resources allow, conduct or oversee independent AI evaluations of publicly
+   available advanced AI systems (see LOE3, 3.2). This could include evaluations of
+   open-access systems, but could also include evaluations of proprietary systems
+   available for commercial use via API (e.g., OpenAI’s GPT-4). AI evaluations could
+   be informed by chemical, biological, radiological and nuclear (CBRN) experts to
+   understand the significance of AI models’ WMD-like and WMD-enabling
+   capabilities, if any.
+
+9. Periodically publish some of its findings to the public in a Global AI Risk Report.
+   For nonpublic findings, an AIO could submit periodic reports to the Congress
+   and to affected departments and agencies.
+
+
+
+
+                                                                             230 of 284
+Annex I: Voluntary Charter for responsible AI
+
+In the event that the Executive Branch is unable to establish or enforce RADA
+safeguards for domestic frontier AI development, we recommend that an interagency
+AI Safety Task Force (ASTF) (LOE1, 1.4) be empowered and directed to negotiate a
+detailed Charter of voluntary commitments with selected U.S. frontier AI labs and cloud
+providers (LOE1, 1.4.1.1). The first goal of such a Charter would be to ensure the U.S.
+government is not caught off guard by AI capabilities developments from existing labs.
+The second goal would be to incentivize RADA safeguards to the fullest extent
+achievable through voluntary measures. The third goal would be to incentivize the level
+of investment in AI safety and security research that would be needed to offset the risks
+from increasingly general AI capabilities.
+
+Ideally, the ASTF should negotiate a Charter as closely aligned as possible with RADA
+safeguards that would be enforced by a legally mandated regulatory agency (such as
+those described in LOE4, 4.1.3). Apart from providing immediate benefits to safety and
+security, this approach would also increase the degree to which experience from the
+ASTF’s interim oversight efforts could inform the practices of a more permanent
+regulatory agency (LOE4, 4.1).
+
+We include below a draft of possible key Charter terms and their rationales. As with
+the example RADA safeguards in LOE4, 4.1.3 the speci c numerical thresholds in
+this section are included solely to illustrate our calculation methods. Actual
+thresholds should be developed in close consultation with subject-matter experts and
+account for recent and potential future developments in this fast-moving field.
+
+
+I.1 Information sharing
+
+Charter participants would agree to work toward information sharing regarding trust
+and safety risks, dangerous or emergent capabilities, and attempts to circumvent
+security safeguards [135]. This includes, in the interest of safety, sharing certain
+otherwise proprietary information with the ASTF, subject to data privacy guarantees. It
+also includes making AI models partially available to third-party red teams and
+evaluators to support safety-related activities, secured either by the ASTF itself or by
+frontier labs’ own platforms.
+
+The ASTF in turn would agree to privacy guarantees, data protection, and other
+security measures for proprietary data that Charter participants share with it.
+
+
+
+                                                                                231 of 284
+                                             fi
+   1. Charter participants would agree to privately report to the ASTF the physical
+      locations of all their existing and under-construction data center facilities of all
+      types that are expected to consume more than (for illustration) 350 kW of power
+      at any time over the next 12 month time period. A data center’s total power
+      consumption is a proxy for the maximum amount of AI hardware the facility can
+      support. For example, the NVIDIA DGX H100 [219] is a commonly used AI
+      hardware configuration in data centers that consumes 10.2 kW of power per
+      eight AI chips. Given that about 80% of a data center’s power consumption goes
+      directly to computing hardware [220,315] (the rest goes to cooling, lighting, and
+      other support systems), this means each MW of data center power consumption
+      can support about 630 individual H100 GPUs [315].112 A 350 kW data center —
+      a very small facility — could support enough H100 GPUs to train GPT-3 in just
+      over 8 days [22].113
+
+           a. The reporting threshold for data centers is based on power consumption
+              rather than compute, because in principle data center infrastructure is
+              agnostic to the compute mix it supports (i.e., GPUs vs CPUs). For that
+              reason, it is possible to clandestinely convert a high-capacity data center
+              that originally contained only CPUs, to one that contains GPUs, at much
+              lower cost than it would take to build a covert data center from scratch.
+              Although there is not much risk that Charter participants would take this
+              clandestine approach, tracking data centers on the basis of power
+              consumption will likely be a necessary part of a long-term regulatory
+              regime (LOE4, 4.1.3.2). The ASTF should therefore aim to build
+              experience that could inform such a regime whenever possible.
+
+   2. Charter participants would agree to report to the ASTF the mix of AI chips of all
+      types (GPUs, TPUs, and any other AI-optimized hardware) that are physically
+      present at each data center, along with their networking topology. This does not
+      include chips or hardware that are not optimized for AI workloads (e.g., CPUs). It
+      does include reporting major changes to the data center’s AI hardware mix or
+      amount.
+
+
+
+
+112 Calculated as (1000 kW per MW) x (8 GPUs per DGX) x (80% efficiency) / (10.2 kW per DGX) ≈ 630
+
+GPUs / MW. See Annex G: Primer on AI and compute for more information about these calculations.
+
+113 Given GPT-3’s training compute of 3 x 10^23 OP, and that a 350 kW data center could support 27
+
+H100 DGX systems of 10.2 kW each, this is calculated as 3 x 10^23 / (3.2 x 10^16 OPS per DGX x 27
+DGX systems x 50% utilization x 86,400 seconds per day) ≈ 8 days.
+
+
+                                                                                           232 of 284
+I.2 Compute reporting threshold
+
+Charter participants would agree to an initial reporting threshold of (for illustration)
+10^24 OP of total training compute for AI models.114 Charter participants would
+voluntarily disclose any ongoing or planned training runs beyond this reporting
+threshold to the ASTF.
+
+This reporting threshold includes the compute associated with any subsequent fine-
+tuning and alignment techniques such as reinforcement learning from human feedback
+(RLHF) or direct preference optimization (DPO) [238,333]. Participants would also
+voluntarily disclose to the ASTF any existing models that have already been trained
+beyond this threshold. Planned and ongoing training runs beyond the reporting
+threshold would be subject to benchmarking, red teaming, cybersecurity, and other
+conditions below. Models and training runs below the reporting threshold could be
+trained, deployed, used, and shared without restrictions under the Charter [87,235].
+
+    1. The actual compute reporting threshold could be flexible and should be re-
+       evaluated periodically to account for algorithmic improvements and potential
+       architectural improvements in AI hardware, along with improvements in
+       understanding of the general safety characteristics of AI models [215,235].
+
+    2. Charter participants would privately disclose model cards for the model,
+       anticipated compute for the training run, predicted capabilities and limitations
+       of the model, training objective, high level description of the training data, data
+       cleaning, and data prep process to the ASTF.
+
+            a. Predicted capabilities should be as specific as possible. For example, if a
+               lab has derived new scaling laws, they should also share those (with
+               appropriate privacy guarantees from the ASTF). This sharing would be
+               useful as an early warning that could allow for general preparations and
+               mitigation measures in anticipation of more capable models built using
+               the new scaling laws.
+            b. Some of this metadata may need to have need-to-know access even
+               within the ASTF. The ASTF may need to clearly commit to and
+               communicate its internal access policy to the Charter participants.
+               Information pertaining to a model’s training data, data preparation, and
+               training objective will need to be kept confidential and secure.
+
+
+114 This is approximately the total compute that was used to train GPT-4.
+
+
+
+                                                                                  233 of 284
+            c. Even with a clear internal access policy and privacy commitments, not all
+               of this metadata may be shareable on a voluntary basis initially. This may
+               become more feasible once there is some trust built into the ASTF’s
+               reporting system and proprietary data protections.
+            d. Eventually, Charter participants could be asked to share records or logs of
+               the detailed interventions that developers made during training runs (for
+               example, a sudden divergence in loss that led developers to perform a
+               gradient clamping operation).
+            e. For reporting purposes, a training run above threshold could count as
+               having been “planned” if any one of the following is true:
+                  i.     The Charter participant has decided on a total training compute
+                         budget, training objective, and approximate dataset for that
+                         training run, even if those decision are preliminary and subject to
+                         change;
+                  ii.    The Charter participant has allocated a total training compute
+                         budget above threshold for that training run, in the sense of having
+                         reserved compute instances either internally or through an outside
+                         provider;
+                  iii.   The Charter participant at any point before or during the training
+                         of a model expects the total training compute for that model to
+                         exceed the reporting threshold; or
+                  iv.    The total training compute for a model has exceeded the reporting
+                         threshold.
+
+
+I.3 Model evaluation protocols115
+
+Charter participants would agree to set up a comprehensive model evaluations regime
+to monitor ongoing training runs and deployments of AI systems that pass the
+compute reporting threshold (see I.2). This regime could start with a basic set of AI
+evaluations that would then be extended over time. Initial evaluations could include
+red teaming of AI systems in an expanding set of risk areas, to be conducted both
+internally by the Charter participants, and externally by approved third parties [135].
+
+
+
+115 Several of the recommendations in this section overlap with those in other annexes. Because the
+
+recommendations in this section represent an adaptation of those annexes to the voluntary case, we
+have preserved the duplications so that these two sets of recommendations can be read independently.
+
+
+                                                                                             234 of 284
+Evaluations would also include, among others:116
+
+    ● Automated benchmarks of a model’s performance on standard sets of tasks;
+
+    ● Behavioral evaluations, including dangerous capability evaluations [46]; and
+
+    ● Propensity evaluations.
+
+This AI evaluations regime could be also extended over time to include interpretability-
+based (or understanding-based) evaluations.
+
+Evaluations could be developed and proposed by Charter participants or third parties.
+Ideally the ASTF should be able to select third-party auditors to minimize possible
+conflicts of interest. The ASTF could be responsible for approving a minimal set of
+publicly-disclosed evaluations, on the advice of Charter participants and third parties.
+These evaluations would ideally be administered by a diverse consortium of experts
+drawn from civil society, academia, and industry, though for practical reasons this may
+not be possible initially.117 See LOE3, 3.2.1 for information on the limitations of AI
+evaluations.
+
+The ASTF could also approve a set of privately-held evaluations that are entirely
+proposed, developed, and administered by third parties. This would reduce the
+incentive for Charter participants to train their AI systems specifically to pass the known
+evaluations without necessarily resolving underlying safety issues (LOE3, 3.2.1).
+However, Charter participants could have the ability to surface problems with specific
+evaluations and request them to be changed, in order to incentivize more participants
+to join the Charter (since these evaluations may eventually become part of a legally
+sanctioned regulatory apparatus; see LOE4, 4.1.3.4.3).
+
+According to conversations with cybersecurity researchers, academics who regularly
+red-team frontier AI systems [94] find that publishing an attack quickly makes that
+attack (and others like it) effectively useless as a safety benchmark. Often not only the
+attack itself, but the very concept behind the attack, become non-viable. This happens
+because AI model developers use several techniques to quickly fine-tune their models
+against specific attacks, and today’s frontier AI systems are often capable enough to
+
+116 See the Glossary of terms for definitions of these subtypes of AI evaluations.
+
+
+117 For example, it may be necessary for frontier labs to develop and run their own public evaluations at
+
+first, possibly via the Frontier Model Forum [52], while the capacity to support this activity is being
+developed at the ASTF and elsewhere.
+
+
+                                                                                                   235 of 284
+learn how to defend themselves against an attack based on nothing more than a
+written description of it. One red teaming researcher communicated that they think of a
+modern frontier large language model (LLM) as a “superhuman defender”, in the sense
+that it (and its developers) can use every known bit of information about an attack to
+defend against it in the future. This sharpens the need for a set of private evaluations
+that are unknown to the frontier labs and fully administered by third parties [334].
+
+It could also be beneficial to offer incentives to third parties to look for and report
+issues and vulnerabilities in frontier AI systems during the training stage and beyond
+[135].
+
+   1. Charter participants would set up bounty systems, contests, or prizes to
+      encourage the responsible disclosure of weaknesses such as unsafe behaviors,
+      and include AI systems in companies’ existing bug bounty programs [135].
+
+   2. Charter participants could partner with third parties to develop, propose, and
+      administer AI model evaluations.
+
+          a. Charter participants could provide input on proposed evaluations,
+             including internally developing particular evaluations they want to
+             recommend as part of the set of public evaluations.
+          b. Evaluators should be given as much access as possible, up to and
+             including access to model weights. Without access to model weights,
+             some forms of interpretability evaluations become impossible.
+          c. It is important for a diverse set of third parties to develop, propose, and
+             administer these evaluations. See LOE3, 3.2.2 for more information.
+                i.    It should be relatively easy for third parties to propose new
+                      evaluations, but stringent selection criteria should be applied to
+                      select the third parties that will administer these evaluations.
+                ii.   When requesting to be an evaluator, prospective evaluators could
+                      be certified to perform only certain types of evaluations. Different
+                      evaluation types come with different risks, and evaluator selection
+                      criteria should reflect this reality. For example, jailbreaking is less
+                      dangerous (low bar); eliciting persuasion capabilities may be more
+                      dangerous (medium bar); and dangerous knowledge evaluation
+                      focusing on areas such as bioweapon synthesis is most dangerous
+                      (high bar which could include a security clearance).
+
+
+
+
+                                                                                    236 of 284
+            d. Third-party evaluations could also involve first-party and third-party red
+               teaming, to assess an AI system’s risk profile during and after its training
+               run. This could include red teaming partially trained models at periodic
+               checkpoints during the training process. It could also include periodic red
+               teaming after the AI system has been deployed, as broader information
+               around usage, exploits, and other risk factors becomes available [335].
+                   i.    As part of this, the ASTF could host hackathons for third parties to
+                         try to hack or jailbreak AI systems under controlled conditions. This
+                         would help stress test existing evaluations and support
+                         development of new ones. Depending on the capabilities of the
+                         model and its stage of training, hackathon participants may need
+                         to be vetted. Other security measures may need to be
+                         implemented to minimize the chance of the jailbreaks themselves
+                         triggering dangerous behaviors on the part of an AI system that
+                         could transcend the bounds of the testing conditions.
+                   ii.   Third parties could also train or fine-tune their own AI systems to
+                         try to jailbreak or evaluate the AI system under study. (Though
+                         those red teaming AI systems would themselves have to be below
+                         the compute reporting threshold for their own safety.)
+
+
+    3. The public and private evaluation suites should ideally be flexible and subject to
+       update by the ASTF as new evaluations are proposed and new information
+       becomes available.
+
+    4. Charter participants could agree to a clear protocol to implement evaluations
+       during the training stage. (See the annex on training stage monitoring for more
+       information.) For example, Charter participants could agree to take periodic
+       snapshots of their models at prescribed increments in training compute. Charter
+       participants could then run the public evaluation suite (along with any additional
+       evaluations they want to run individually) against each snapshot, then privately
+       report the results to a common AI safety and security repository hosted by the
+       ASTF. Random spot checks could also be performed to supplement periodic
+       evaluations, to reduce the risk that developers could adjust the training process
+       to work around fixed evaluation schedules.118 Frontier lab researchers have
+       communicated that the compute costs associated with running these evaluations
+
+
+118 That is, if a model developer is aware that a given evaluation is about to be applied to its model-in-
+
+training, it could attempt to fine-tune the model to pass that evaluation without addressing the
+underlying safety issues that may exist, and which would otherwise have caused it to fail that evaluation.
+
+
+                                                                                                 237 of 284
+would be fairly limited (no more than 5% of total training compute costs), and
+frontier labs already run various evaluations and benchmarks at frequent
+intervals during the training process.
+
+   a. Ideally, there should be a hierarchy of evaluations that are run throughout
+      training, looking for any rapid development of capabilities. The lowest
+      level evaluations in the hierarchy would be run often, and should be
+      simple and fast. Higher-level, more complicated and slower evaluations
+      would run at regular intervals, or when lower-level evaluation flags are
+      triggered, indicating an increase in some capability of concern. The idea
+      is to catch significant capability spikes as early as possible, so as to
+      anticipate increases in loss of control risk and weaponization potential.
+   b. In the event that an AI system fails an evaluation (i.e., the result of that
+      evaluation is outside the agreed-on safe threshold for that evaluation)
+      during training, the U.S. government could agree to support coordinated
+      action mediated by the ASTF. This may help alleviate antitrust concerns
+      on the part of Charter participants [110,335].
+        i.   If a Charter participant detects a failed evaluation during training, it
+             could agree to promptly report the failure to the ASTF. If this
+             happens, all other Charter participants could agree to pause
+             training runs of a similar type (as defined, potentially, by the ASTF)
+             and check in with each other, as coordinated by the ASTF.
+             Specifically:
+                1. All data relevant to that failed evaluation could be shared
+                   across Charter participants, because of the potential for
+                   below-threshold data from other training runs to indicate
+                   that those other training runs may be on the way to failing
+                   evaluations of their own.
+                2. All other Charter participants could be notified of the failed
+                   evaluation and asked to certify to the ASTF that similar or
+                   other concerning patterns have not been observed in their
+                   own training runs. While this coordination is happening, all
+                   labs could pause work, checkpoint their training runs, and
+                   run the evaluation set that triggered the failure.
+                3. The lab that detected a failed evaluation should prioritize
+                   determining the cause of the initial evaluation failure. If
+                   possible, labs would ideally agree to pause until the cause
+
+
+
+
+                                                                           238 of 284
+                                 of the initial evaluation failure is understood before
+                                 resuming all training runs.
+
+
+    5. Charter participants could agree to a clear protocol to implement evaluations
+       before the internal or external deployment of a model. (See annexes on
+       deployment stage approvals for more information.) After a Charter participant
+       finishes training their AI system, but before they deploy it, the Charter
+       participant could agree to subject the AI system to a comprehensive set of
+       evaluations. This could include running the public evaluation suite (along with
+       any additional evaluations the Charter participant wants to run individually)
+       against the trained AI system, then privately reporting the results to a common
+       AI safety and security repository hosted by the ASTF.
+
+            a. Charter participants could also transmit the weights of each model
+               snapshot securely to a server operated by the ASTF. This practice could
+               help the ASTF develop process knowledge and best practices for model
+               weight transfer and security that could inform the implementation of
+               future laws and regulations under LOE4.119
+            b. Third party red teams and evaluators would likely need to be vetted, sign
+               nondisclosure agreements, and conduct their tests securely and under
+               supervision, possibly in a physical facility operated by the ASTF. While it is
+               crucial to be able to administer held-out third-party evaluations, the
+               evaluation protocol would need to strictly minimize the risk of model
+               leaks during this process.
+            c. Charter participants could agree to a clear set of rules to determine how
+               and whether a model can be deployed in the event of a failed evaluation
+               before the deployment stage (even if the evaluation being applied is a
+               new one). Depending on the evaluation results, a model may be
+               approved for limited deployment or its deployment may be completely
+               restricted (even as an API). For evaluation failures determined to be
+               particularly high-risk, the ASTF could take the following measures:
+                   i.   Take strong steps to sandbox the model and do a comprehensive
+                        assessment of it, including developing and running more internal
+                        evaluations.
+
+
+
+
+119 At least one frontier lab has privately signaled that they may be open to an auditing protocol that
+
+would require secure transfer of their model weights for the purpose of facilitating model evaluations.
+
+
+                                                                                                239 of 284
+                  ii.    Other Charter participants could run assessments on their own
+                         similar models. Disclosure to other Charter participants at this
+                         stage could be similar to reporting a software security vulnerability.
+                  iii.   Consult with CBRN and cybersecurity experts and U.S. government
+                         subject-matter experts, depending on which evaluation failed and
+                         what dangerous capability it is associated with.
+
+
+   6. Charter participants could agree to a clear protocol for continuous monitoring
+      during the deployment stage. (See annex on deployment stage monitoring for
+      more information.) This would involve agreeing to continuously monitor usage of
+      their AI systems during deployment. This could include checking usage patterns
+      with classifiers that flag high-risk user interactions for further investigation.
+      Flagged interactions, and the AI model instances that result from prompting
+      during those interactions, could then be further investigated. This could include
+      running the public evaluation suite against those pre-prompted high-risk
+      instances. High-risk interactions detected in this way could later be incorporated
+      into the public evaluation set. High-risk interactions could also be shared with
+      vetted third party evaluators to support their development of further private
+      evaluations.
+
+           a. In the event of a failed evaluation during the deployment stage (even if
+              the evaluation being applied is a new one), the developer could pause
+              deployment of the model and agree with other Charter participants that
+              none of them can release a model within a certain fraction of the training
+              compute of the failed model. The ASTF, together with Charter
+              participants, could then convene on an emergency basis to agree on a set
+              of conditions under which development could be unpaused.120 Ideally,
+              these conditions would include (1) the development of convincing
+              alignment techniques that demonstrate that even though the model may
+              have the capability to be weaponized or autonomously execute
+              dangerous actions, it is sufficiently aligned that it will not; and (2) the
+              development of robust interpretability techniques that can detect and
+              disrupt dangerous plans being formed within the model, and delete
+              capabilities from the model in a verifiable way [336]. During a pause, the
+              ASTF could:
+
+
+
+120 For example, determining what conditions must be met before development can resume if a model
+
+has failed a bioweapon design evaluation.
+
+
+                                                                                        240 of 284
+            i.     Ask to cut off public access to the failing model. Ensure that a
+                   fallback model is in place (that is, a less capable model of the same
+                   type) to be activated temporarily during a pause to support critical
+                   customer use cases. For example, if a hospital is using the model
+                   for aspects of care, there should be a fallback model available
+                   through the same interface or with the same API signature.
+            ii.    Ask to take strong steps to sandbox the model and do a
+                   comprehensive assessment of it, including developing and running
+                   more internal evaluations.
+            iii.   Ask other Charter participants to run assessments on their own
+                   similar models. Disclosure to other Charter participants at this
+                   stage could be similar to reporting a software security vulnerability.
+            iv.    Consult with CBRN and cybersecurity experts and U.S. government
+                   subject-matter experts, depending on which evaluation failed and
+                   what dangerous capability it is associated with.
+            v.     In extreme cases, request that the government leverage executive
+                   authorities to block deployment of the model outright, but this is
+                   not ideal.
+
+      b. Charter participants could also implement limited KYC to defend against
+         the risk of model theft or misuse (Introduction, 0.5.1.7), as it is possible to
+         copy many of the capabilities of a deployed proprietary model if one can
+         make a large volume of calls to the model’s API. KYC is also likely to be
+         relatively straightforward to implement, and can be based on existing
+         best practices in the financial sector [147].
+
+7. Charter participants could agree to a clear protocol for confidentially reporting
+   general AI incidents, other than failed evaluations, to the ASTF [337]. Depending
+   on the incident, the protocol could be similar to the approach with failed
+   evaluations during the deployment stage. Since AI incidents are hard to define
+   at this stage, initially the goal could be to minimize incentives against reporting.
+   So by default, the ASTF could take no action when a Charter participant reports
+   an incident. Initially AI incidents could be defined fairly loosely, as any events
+   involving an AI system that either caused or nearly caused significant financial
+   cost, injury, or loss of life.
+
+
+
+
+                                                                                241 of 284
+I.4 Capability prediction protocols121
+
+Charter participants could agree to run advance capability predictions on their AI
+systems, both during the planning stage (before a training run) and during the training
+stage, as soon as technology allows.122 This means, specifically, attempting to predict
+an AI system’s performance on each element of the public evaluation set.
+
+As part of the negotiation process, Charter participants could agree to define a set of
+capabilities they consider dangerous enough to merit direct evaluation, as well as a
+process by which this set can be updated. Initial categories of dangerous capabilities
+could include deception, self-replication, resource acquisition, CBRN enablement, and
+cyber warfare capabilities.
+
+Charter participants could also agree to report their capability predictions privately to
+the ASTF, along with the corresponding results of evaluations measured at training
+checkpoints and at the end of training [235].
+
+   1. This could include capability predictions at the planning stage. This means
+      predicting AI model capabilities before a training run starts, based on total
+      expected compute, training objective and algorithm, dataset characteristics, and
+      other training run metadata known in advance. If, on the basis of these
+      predictions, a training run is expected to lead to a model with certain dangerous
+      capabilities, the model should either not be trained (if the predicted capabilities
+      would introduce catastrophic risks, as would be the case for survival and
+      spreading, self-exfiltration, and recursive self-improvement), or the model’s
+      training process could be subject to more stringent oversight procedures
+      determined by the ASTF on a case-by-case basis.
+
+   2. It could also include capability predictions at the training stage. This means
+      predicting AI model capabilities continuously during a training run, based on
+      planning-stage inputs, expected downstream training characteristics, and
+      evaluations data from current and previous model snapshots.
+
+
+
+
+121 Several of the recommendations in this section overlap with those in other annexes. Because the
+
+recommendations in this section represent an adaptation of those annexes to the voluntary case, we
+have preserved the duplications so that these two sets of recommendations can be read independently.
+
+122 See the Glossary of terms for more information on the stages of the AI development process.
+
+
+
+                                                                                             242 of 284
+   3. It could also include capability predictions at the deployment stage. This means
+      predicting AI model performance on new evaluations as those evaluations are
+      developed, based on planning-stage inputs and existing evaluation data.
+
+          a. This could include a combination of: (1) predicting and attempting to
+             elicit new dangerous capabilities that were not part of previous evaluation
+             suites; and (2) forecasting possible capability improvements that users
+             might be able to achieve via new prompting techniques. Solving for (2)
+             will be challenging, but one approach would be for testers to use
+             inference-time compute augmentations to simulate possible
+             improvements during auditing [338].
+
+   4. Charter participants could pre-register their capability predictions in the
+      planning, training, and deployment stages. They could then report deviations at
+      each stage, and against the final deployment-stage values.
+
+          a. There is a strong financial incentive for Charter participants to do these
+             kinds of capability predictions well. Good capability predictions let
+             frontier labs plan more efficient training runs. As a result this requirement
+             is overall aligned with activities Charter participants are likely either
+             already doing, or planning to do.
+
+
+I.5 Security measures
+
+Charter participants could agree to invest in outside and insider threat detection and
+prevention measures to protect proprietary and unreleased model weights [54]. This
+could include establishing cyber, operational, and physical security procedures, and
+access control safeguards for the weights of AI models above the compute reporting
+threshold (see I.2). It could also include voluntary agreements on standards for sharing
+of model weights with external organizations or the public. And it could include
+collaborating with government agencies such as NIST in establishing and
+implementing these standards.
+
+   1. Frontier labs could be held to a minimal standard of security, such as SOC2.
+      Beyond this, some existing public standards for cybersecurity are multi-party
+      control, elements of the NIST Secure Software Development Framework (SSDF)
+      [339], and the Supply Chain Levels for Software Artifacts (SLSA) [340].
+
+          a. Charter participants’ security practices should ideally be as public and
+             open to criticism as possible, particularly as regards model weight
+
+
+                                                                                 243 of 284
+          security. Security measures cannot remain secret indefinitely, and the
+          more scrutiny such measures receive, the more robust they tend to be.
+          (This does not apply to model evaluations, however, some of which will
+          need to remain private in order to preserve their value as risk indicators.)
+
+2. Charter participants could agree to collaborate with U.S. government teams to
+   support cyber, operational, and physical security, and access control best
+   practices.
+
+3. Charter participants could agree to share information concerning security
+   incidents with the ASTF, and if possible, with one another.
+
+4. This could include allowing U.S. government and approved third-party red
+   teams and penetration testers to routinely evaluate the security practices of
+   Charter participants.
+
+       a. This could be coupled with continuous sharing of results and best
+          practices across the Charter participants, coordinated by the ASTF.
+
+5. There is a necessary division of responsibility for security measures between the
+   frontier AI labs (i.e., the AI model developers) and their AI cloud providers (i.e.,
+   the data center infrastructure providers and AI hardware owners).
+
+       a. The AI cloud providers are responsible for physically securing the
+          hardware that runs the AI systems. They are also responsible for securing
+          the deepest layers of the software stack (e.g., the virtualization and
+          operating systems) against vulnerabilities and attacks [341].
+
+6. Charter participants could agree not to release open-access weights for models
+   with a total training compute above the compute reporting threshold (see I.2)
+   [86,87,342], and in any case, not to release open-access weights for models that
+   fail an agreed-upon set of dangerous capability evaluations that check for
+   capabilities such as self-replication, CBRN enablement, and breakout.
+
+7. Charter participants could agree not to sell or share weights for models above
+   the compute reporting threshold (see I.2) to any external organization that has
+   not itself signed onto the Charter [342].
+
+       a. This is similar to GNU and other copyleft software licenses, where any
+          organization that wants to use software released under that license agrees
+
+
+                                                                              244 of 284
+                to itself be bound by the terms of the license. It is also conceptually
+                similar to how the International Traffic in Arms Regulations (ITAR) regime
+                for export control operates, except here the commitment would be
+                voluntary.
+
+    8. Charter participants could agree to treat the weights of frontier models as highly
+       sensitive data, and to be subject to the same restrictions and penalties for
+       improperly handling these weights as would apply to personal identifiable
+       information (PII).
+
+
+I.6 Model containment measures123
+
+Charter participants could agree to identify and implement best practices at the
+training and deployment stages aimed at minimizing the risk of unanticipated
+dangerous model behavior at either stage. Best practices could include identifying and
+denying access to information that could contribute to a model’s situational awareness,
+emergency shutdown procedures for AI data centers, or continuous monitoring of a
+model’s input-output channels. We will refer to this set of safeguards as model
+containment measures.124
+
+    1. This could include assessments by the Charter participants of the anticipated
+       and possible sensing modalities of AI models prior to the training stage, and
+       ongoing reassessments of these modalities as training proceeds.
+
+    2. This could also include clear guidelines for data center security at the cloud
+       provider level, such as emergency shutdown measures tied to evaluation
+       performance as training progresses. This could include a non-networked power
+       cutoff switch for large compute clusters [337].
+
+            a. For each training run above the compute reporting threshold (see I.2),
+               there could be a designated role at the AI model developer and at the AI
+               cloud provider, with the sole authority to activate a “kill switch” for that
+               training run.
+
+
+
+123 Several of the recommendations in this section overlap with those in other annexes. Because the
+
+recommendations in this section represent an adaptation of those annexes to the voluntary case, we
+have preserved the duplications so that these two sets of recommendations can be read independently.
+
+124 See the Glossary of terms for more information.
+
+
+
+                                                                                             245 of 284
+     i.     The individuals staffing this role should ideally be technical and
+            have received specialized AI safety training. These individuals (at
+            least at the AI model developer) could be members of the
+            technical AI safety team.
+     ii.    The individuals staffing this role could be given access to internal
+            evaluations and benchmarks, which their organization should be
+            using in addition to public evaluations, and could base their
+            decision to activate or not activate a kill switch on this information.
+     iii.   This role could be given clear decision making authority in this area
+            that cannot be overridden by anyone in its management chain.
+     iv.    An individual in this role should ideally not be penalized for
+            activating the kill switch prematurely.
+     v.     A training restart could be contingent on documented approval of
+            an independent panel or of other members of the safety team.
+     vi.    All kill switch incidents could also be promptly reported to the
+            ASTF. The report could include the reason the kill switch was
+            activated, the results of the subsequent investigation, and any
+            mitigation measures that were put in place after training was
+            restarted. A lab’s decision to resume training after a kill switch has
+            been activated could also be reported to the ASTF, along with the
+            reasoning for the resumption.
+     vii. This role could be modeled on analogous ones in other domains,
+          such as the range safety officer with responsibility for triggering the
+          flight termination system for rocket launches, or employees at
+          Toyota who have a duty to pull the andon cord that stops all
+          production if they see a problem [343,344].
+b. There could be a similar role, with similar responsibilities and
+   characteristics, with the authority to throttle or terminate a model being
+   served at the deployment stage.
+     i.     As in the case of model evaluations, a fallback model should be in
+            place to be brought online automatically when a kill switch is
+            activated to support critical customer use cases.
+c. As an alternative to the “kill switch” model, AI labs conducting training
+   runs or deployments above the compute reporting threshold could
+   implement a “dead man switch” model, according to which training or
+   deployment is halted at certain checkpoints by default unless a panel
+
+
+
+                                                                          246 of 284
+             appointed to oversee these activities elects to proceed.
+
+
+   3. This could also include information-gapping for models by the AI model
+      developer and their cloud provider. For example, Charter participants could
+      ensure that information pertaining to the model’s own training process, GPU
+      capacity, physical data center footprint, data center security measures,
+      emergency shutdown procedures, etc., are not available in the training set or
+      otherwise accessible by the AI system’s sensing modalities. If possible, this
+      information should not be stored electronically, or if it has to be, could be stored
+      on separate air-gapped servers [233].
+
+          a. Individuals, both at the frontier lab and cloud provider, who have
+             knowledge of these critical model containment measures, could be
+             blocked from interacting with instances of the model unless it passes
+             certain safety evaluations. (To minimize risk that the model will extract key
+             information through its interactions with them.)
+          b. The idea is to make this information as challenging as possible to access
+             under the model’s known or anticipated sensing modalities.
+
+
+   4. This could include tailored AI safety training for all employees at both the
+      frontier AI labs and relevant roles at the cloud provider. The training could
+      encompass extreme risk scenarios, and include periodic surveys to test
+      employees’ knowledge and understanding of safety. It may also include agreed
+      upon interview practices and principles to filter hires for AI capabilities related
+      roles [233].
+
+   5. Charter participants could precommit to specific risk management plans to be
+      implemented in the event that particular evaluations or capability predictions
+      return certain results. For example, if evaluations suggest that a model exhibits
+      concerning persuasive abilities and meets certain situational awareness criteria,
+      safeguards might be put in place to prevent staff from interacting with the
+      model via an API without supervision, among other things.
+
+
+I.7 AI safety and AGI alignment research
+
+Charter participants could agree to invest a financial budget (equivalent to, e.g., 20%
+of their total compute budget) into (1) scalable AGI alignment efforts; and (2) red
+teaming, probing, risk and evaluation research and implementation [5,135].
+
+
+
+                                                                                 247 of 284
+I.8 Dangerous capability ban
+
+Charter participants could agree to bans against directly training in or fine-tuning for
+clearly dangerous capabilities such as deception, persuasiveness, manipulation, CBRN
+weapon design, or cyber warfare. Exception could be made if these capabilities are
+being investigated for AI safety research purposes (e.g., as part of AI evaluations),
+which should only be done under external supervision. In these cases, Charter
+participants could agree to report to the ASTF any AI safety research that involves
+directly eliciting dangerous capabilities from any AI systems above the compute
+reporting threshold (see I.2).
+
+   1. Frontier AI labs theoretically have the capability to train models that could
+      directly help them persuade regulators to regulate them more favorably. This
+      could represent a new type of vulnerability in the regulatory system, particularly
+      in the face of increasingly capable LLMs. A public commitment along these lines
+      adds some internal friction to this risk vector, and legally backed whistleblower
+      rules could strengthen it further.
+
+   2. Several frontier labs are already exploring training manipulative models for
+      internal safety projects, with the goal of preventing manipulation from arising in
+      the first place, detecting it, or otherwise blocking it.
+
+
+I.9 Capability research controls
+
+Charter participants could agree not to publish internal research that supports
+dangerous increases in frontier AI capabilities.
+
+   1. Many frontier labs are already reducing the degree of transparency of their AI
+      research publications. Releases of technical reports and capability profiling (as
+      opposed to more transparent traditional research papers) is now far more
+      common for frontier models than it was previously. This is due to the increasing
+      commercial value of the research driving increased controls on competitively
+      relevant IP. This kind of ban increases the general friction for training frontier AI
+      models.
+
+          a. For example, compare the GPT-3 [22] and original PaLM [345] papers to
+             the GPT-4 [29] and PaLM 2 [346] technical reports.
+          b. The leadership at some of the more safety-conscious frontier labs has
+             generally been more reluctant to publish than some of their technical
+
+
+                                                                                   248 of 284
+             employees have. Technical employees frequently care about publication
+             record for their reputations and careers, so can often push for more
+             openness. Getting the U.S. government to create even an informal norm
+             around this could make it more palatable to limit publication.
+
+
+   2. Publication controls could include:
+
+          a. A process by which AI-related publications are evaluated for safety by
+             cleared personnel.
+          b. Criteria for defining particular research products as high-risk capabilities
+             work. Possible criteria include:
+               i.     Work that increases data efficiency.
+               ii.    Work that reduces TOPS per loss-increment.
+               iii.   Work that makes scaling easier.
+               iv.    Performance-enhancing scaling laws along some particular axis of
+                      interest.
+          c. A structured access scheme to a repository of controlled research, where
+             actors who are cleared by the ASTF can access certain kinds of research,
+             particularly research that could apply to improve both AI alignment and
+             capabilities.
+          d. Criteria by which the ASTF could assign access permissions to particular
+             research.
+          e. Criteria by which research controls could be lifted on a case-by-case basis
+             to allow for open publication of research that was previously controlled.
+
+
+I.10 Risk governance
+
+Charter participants could agree to implement certain risk governance structures
+around their core risk management processes. This may include:
+
+   1. Appointing a Chief Risk Officer (CRO) who would be responsible for risk
+      management. This person should ideally become a strong counterpart to the
+      executives who are responsible for research and product development at each
+      lab.
+
+
+
+
+                                                                                  249 of 284
+   2. Setting up an internal audit team [230] which would assess the effectiveness of
+      the lab’s risk management practices and report any shortcomings to the Board of
+      Directors.
+   3. Setting up a Board risk committee which would oversee a lab’s risk management
+      practices. They would receive risk reports from the CRO and the internal audit
+      team.
+   4. Implementing a risk management framework such as the Three Lines of Defense
+      (3LoD). This could support the lab’s efforts to assign and coordinate different risk
+      management roles and responsibilities [231].
+
+
+I.11 Caps on cloud services for scaled training runs
+
+Charter participants who manage AI cloud platforms could agree to update their terms
+of service to prohibit the training of potentially dangerous models on their
+infrastructure. See LOE1, 1.5.2 for more information on principles for cloud computing
+controls.
+
+   1. For example, Charter participants who manage AI cloud platforms could agree
+      to prohibit use of their AI cloud services or hardware to develop models above
+      the reporting threshold (see I.2).
+
+   2. Charter participants who manage AI cloud platforms could agree to introduce
+      KYC and infrastructure monitoring procedures to enforce these prohibitions.
+
+
+I.12 Incremental adoption
+
+If necessary, the ASTF could adopt elements of the above Charter incrementally as it
+and the Charter participants come to separate agreements on each element.
+
+   1. As one example, the secure temporary storage infrastructure to support third-
+      parties’ ability to run private safety evaluations may take time to set up. The
+      ASTF could defer implementation of private evaluations until that infrastructure
+      has been put in place. Taking the time to establish this infrastructure and
+      properly secure Charter participants’ proprietary IP would build trust with
+      participants and support mutually escalating commitments. The ASTF could also
+      offer Charter participants’ security teams the opportunity to inspect the
+      infrastructure and processes that are put in place to protect their IP as a further
+
+
+
+
+                                                                                 250 of 284
+      trust-building measure.
+
+   2. The ASTF should also consult with prospective Charter participants on the
+      feasibility of each of these measures, keeping in mind the incentives at play at
+      each organization. In particular, AI model developers like OpenAI, Anthropic,
+      and Inflection AI may have one set of concerns and responsibilities under the
+      Charter. AI data center infrastructure providers like Microsoft, Google, Amazon,
+      and Flexential may have a different set of concerns and responsibilities.
+
+   3. The ASTF should additionally seek ongoing feedback from the broader AI safety
+      and AGI alignment communities on the adequacy of each of the Charter’s
+      commitments. See Annex E: Funding in AI safety for additional context on these
+      communities.
+
+   4. Additionally, we expect that some of the oversight mechanisms in this Charter
+      could turn out to be unworkable or inadequate for reasons that cannot be
+      known in advance. An incremental approach that takes into account ongoing
+      input from all its stakeholders could allow the ASTF to develop practices that are
+      effective under real world conditions. We believe it is crucial for most of this
+      iteration to take place in a lower stakes environment under which the parties
+      enjoy a basic degree of mutual trust. As AI oversight mechanisms become
+      embedded in regulation, legislation, and ultimately international law, they will
+      become much more difficult to change. As a result we recommend aiming to
+      learn as much as possible from as many mistakes as possible, as early as
+      possible. [138] This is similar to the dynamic way in which climate change
+      accords have been adopted with increasing mutual trust-building measures
+      between the parties [215,258].
+
+
+I.13 Final considerations for negotiating Charter terms
+
+Ideally the Charter should allow the ASTF, in consultation with the Charter signatories,
+to update computing thresholds, or to use thresholding strategies tied to variables
+other than compute. For example, capability-based thresholds [347,348] may turn out
+to be preferable once it becomes technically possible to better define and measure AI
+capabilities. See Annex J: Effective compute for the advantages and limitations of one
+such proposal.
+
+
+
+
+                                                                                251 of 284
+Annex J: Effective compute
+
+Any compute-based licensing thresholds for AI models (LOE4, 4.1.3.4) would need to
+be updated regularly as algorithmic improvements make it possible to build more
+performant systems with a fixed compute budget. For this reason, regulators should
+monitor the AI research ecosystem for signs of algorithmic breakthroughs that could
+significantly affect the relationship between model training compute, inference
+compute, and AI capabilities.125
+
+But it may be possible to construct a rough estimate of a model’s effective compute
+that attempts to combine raw training compute and algorithmic efficiency into a single
+quantity. Effective compute could be estimated with the following procedure:126
+
+   1. Choose a broad-based quantitative benchmark B for a model class. For
+      example, the MMLU benchmark for LLMs.
+
+   2. Construct a scaling law for the benchmark B. A scaling law relates the amount of
+      compute used to train a model, to that model’s performance on the benchmark
+      B.
+
+   3. For any new model M whose effective compute is to be estimated, first evaluate
+      the model M’s performance on the benchmark B.
+
+   4. Using the above scaling law, look up the model M’s performance on benchmark
+      B, and read off the compute value that corresponds to that performance. This
+      compute value is model M’s effective compute.
+
+This measure of effective compute is relatively cheap to calculate. But it is also
+imperfect in a number of ways and limited in its applicability. First, the chosen
+benchmark B may not correlate well with dangerous capabilities of interest under
+general conditions. Second, effective compute can be undermined as a measure of
+
+
+
+
+125 See Annex G: Primer on AI and compute for more information.
+
+
+126 Thanks to the policy and technical teams at Google DeepMind for the suggestions in this annex.
+
+
+
+                                                                                            252 of 284
+capability, particularly if it is used to set a regulatory threshold.127 And finally, effective
+compute is a property of an AI model, so it cannot be used to define regulatory
+thresholds for AI hardware owners, data center infrastructure providers, or other
+elements of the advanced AI supply chain. For that reason, effective compute cannot
+be used on its own as a metric for defining regulatory thresholds. But it could still serve
+as one of several indicators of a model’s general capability level.
+
+
+
+
+127 For example, a regulated entity could attempt to fine-tune an otherwise highly capable model to
+
+perform poorly on the specific benchmark used to define effective compute in the context of a
+regulatory threshold. This would make the model appear to use less effective compute, allowing it to
+circumvent a regulatory threshold defined in those terms.
+
+
+                                                                                             253 of 284
+Annex K: ASTF activities and task-organization
+
+We propose here some activities the ASTF could undertake in support of the two
+Sustainment Components of its mission (LOE1, 1.4.1.2 and 1.4.1.3):
+
+    1. Overseeing industry compliance with RADA safeguards, and operating the
+       necessary supporting infrastructure; and
+
+    2. Developing recommendations for a future legal regime and regulatory agency in
+       support of LOE4.
+
+We also propose one possible task-organization for the ASTF to support its mission
+and activities.
+
+
+K.1 Oversee and support compliance with RADA safeguards
+
+To support this Sustainment Component of its mission, the ASTF could undertake some
+of the following activities:
+
+    1. Maintain private, secure registries of key proprietary information shared with it
+       under RADA safeguards. Depending on the details of the RADA safeguards,
+       these may include, among others, registries of AI labs’ physical data center
+       locations, and of the AI hardware mix at each relevant data center; private safety
+       evaluations that third parties administer on frontier labs’ AI systems [46]; and a
+       secure temporary storage system that holds model weights as sensitive data in
+       support of third-party administration of private evaluations.128
+
+    2. Maintain key public information about various aspects of its standards and
+       operations. The ASTF could publish this information on its website. Depending
+       on the details of the RADA safeguards, this may include, among other elements,
+       registries of standardized model cards, public safety evaluations, and security
+       standards and access controls. These standards could be developed in
+       collaboration with the NIST U.S. AISI. See LOE3, 3.2.2.
+
+    3. Periodically update the RADA reporting and licensing thresholds, and
+       communicate those updates to affected stakeholders.
+
+128 See Annex M: Secure temporary storage of model weights for one possible protocol that could
+
+support this activity.
+
+
+                                                                                          254 of 284
+4. If appropriate given the RADA safeguards, coordinate third-party administration
+   of public and private AI evaluations, including frontier labs’ responses to reports
+   of failed evaluations. Standards for the evaluations could be developed in
+   collaboration with the NIST U.S. AISI, DOE, and DHS and could explicitly include
+   evaluations aimed at assessing risk from loss of control. DHS support in
+   particular may be necessary for the development of CBRN and WMD-related
+   evaluations.
+
+5. If appropriate given the RADA safeguards, license independent third parties to
+   administer AI evaluations on frontier models. The ASTF could set up an
+   application process for third-party evaluators and red teams that request access
+   to pre-deployment models for the purpose of developing and administering
+   private safety evaluations. These third parties, once approved, could solicit
+   evaluation proposals from outside entities, which they may then implement
+   themselves. This could also be done in coordination with partners such as the
+   U.K. Frontier AI Taskforce [349,350] through the Department of State.
+   Independent AI evaluations should ideally be funded by AI developers but the
+   evaluators themselves should be selected by the ASTF, to avoid conflicts of
+   interest inherent in AI labs choosing their own evaluators. See LOE3, 3.2 for
+   more on AI evaluations.
+
+6. Facilitate collaboration between U.S. government agencies, industry, and AI
+   model evaluators to identify classified data leaks. In connection with AI
+   weaponization, there is a risk that advanced AI models could infer classified
+   information purely by triangulating from public data, and that these inferences
+   could be inadvertently disclosed to users through their interactions with the
+   resulting AI system. Model developers cannot know if a leak has occurred if they
+   do not know that the leaked information is classified, so coordination in this area
+   is crucial.
+
+7. Support coordination of frontier AI labs and AI cloud providers with U.S.
+   government cyber, operational, and physical security efforts, including red
+   teaming and penetration testing, and support sharing of learnings and best
+   practices.
+
+8. Support coordination of frontier AI labs with the AGI alignment and AI safety
+   communities and other security experts to develop and share model
+   containment learnings and best practices.
+
+
+
+
+                                                                             255 of 284
+    9. Serve, if necessary, as a clearinghouse for technical AGI alignment research and
+       other AI safety and security research that could be mutually beneficial between
+       stakeholders.129
+
+    10. If an entity engages in frontier AI activities (such as training or deployments of
+        dangerous systems) that violate RADA safeguards in ways deemed by the ASTF
+        to introduce unacceptable risks to public safety or national security, order the
+        entity to cease those activities, assuming that the ASTF has been granted this
+        authority.
+
+    11. In the absence of an enforceable set of RADA safeguards for frontier AI
+        development, identify further industry partners who could be onboarded onto a
+        more limited voluntary agreement or Charter, and initiate relationships with
+        them as appropriate (see Annex I: Voluntary Charter for responsible AI). Possible
+        candidates could include NVIDIA, xAI [351], Stability AI [352], Meta, and others.
+        Identification of candidates could be supported by horizon-scanning efforts
+        (LOE1, 1.2).
+
+
+K.2 Develop recommendations for a legal and regulatory
+regime
+
+To support this Sustainment Component of its mission, the ASTF could undertake some
+of the following activities:
+
+    1. Establish a working group to understand the complete supply chain for frontier
+       AI model training. In particular the ASTF could seek to understand which inputs
+       are manufactured in the United States or in allied jurisdictions, and which legal
+       and policy mechanisms exist for enacting controls over these inputs on various
+       timescales (LOE1, 1.5; LOE5, 5.5) [353,354]. See Introduction, 0.5.1.6 and
+       0.5.3.2 for challenges associated with the advanced AI supply chain, and Annex
+       G: Primer on AI and compute for information on the relationship between the
+       semiconductor and advanced AI supply chains.
+
+    2. Collaborate with AI chip design firms and foundries to understand the feasibility
+       and technical timeline for designing hardware safeguards such as (1) a system to
+       register and track GPUs with tamper-resistant serial numbers [155]; (2) a GPU
+
+
+129 This could also help to allay potential antitrust concerns frontier AI labs may have, given that the
+
+ASTF would be a U.S. government-sanctioned entity.
+
+
+                                                                                                  256 of 284
+      memory snapshot and hash system on AI chip hardware [138, 217]; and (3) on-
+      chip firmware for remote shutdown. The sooner a process is put in place for
+      tracking where GPUs are going, the tighter the bounds that can be put on the
+      total stock of untracked compute capacity. This work could also be supported by
+      collaborations with federally funded research centers (LOE3, 3.1.2.2).
+
+   3. Create an ongoing process to understand whether requirements under RADA
+      safeguards should be expanded, reduced, or changed. The ASTF could also
+      establish a mechanism to solicit and receive public and international proposals
+      for changes to RADA safeguards. This could be a public engagement effort that
+      ties into risk reporting to give the public a better understanding of the risks and
+      the opportunity to contribute mitigation ideas.
+
+
+K.3 ASTF task-organization
+
+Below we propose one possible organizational structure that could support ASTF
+mission execution (LOE1, 1.4.1).
+
+
+
+
+                Figure 13. Organizational chart for the AI Safety Task Force.
+
+
+
+
+                                                                                257 of 284
+The ASTF could be led by a Director with five immediate reports. Each of these reports
+could lead a workstream focused on executing a different element of the ASTF’s
+mission across both Sustainment Components (see N.1 and N.2; and LOE1, 1.4.1.2 and
+1.4.1.3).
+
+   ● A Capabilities Assessment Team could be responsible for the ASTF’s
+     development and implementation of AI model risk assessment strategies,
+     including dangerous capability evaluations and capability forecasting. This team
+     could coordinate with industry and work closely with and draw WMD-relevant
+     expertise from partner organizations such as the Office of the Secretary of
+     Defense for Research and Engineering, the Joint Staff, U.S. Strategic Command,
+     DHS, DOE, and the NIST U.S. AISI.
+
+   ● A Security Team could support efforts to harden cyber, operational, and
+     physical security at frontier AI labs. Core expertise required could include the
+     capabilities of the National Security Agency (NSA), the Federal Bureau of
+     Investigation (FBI), the Director of National Intelligence (DNI), and the Defense
+     Counterintelligence and Security Agency (DCSA).
+
+   ● An AI Safety and Alignment Team could closely monitor developments in
+     technical AI safety and analyze their implications for catastrophic AI risks from
+     weaponization and loss of control. It could be led by a government technical
+     expert from the DOE with staffing by AI alignment researchers with industry
+     experience. It could also collaborate with National Science Foundation-funded
+     (NSF-funded) research centers with similar focus areas (LOE3, 3.1.2).
+
+   ● A Regulatory Team could develop the ASTF’s recommendations in support of
+     follow-on legislative and regulatory action associated with LOE4. It could draw
+     expertise from organizations such as the SEC, the Nuclear Regulatory
+     Commission (NRC), the Department of State, and the Department of
+     Commerce.
+
+   ● A Legal and Administrative Team could advise the Director on legal matters
+     and help manage administrative functions such as ASTF’s internal security and
+     contracting.
+
+
+
+
+                                                                               258 of 284
+The ASTF could also incorporate a sixth workstream if it absorbs the functions of an
+AIO (LOE1, 1.2.1):
+
+   ● A Plans Team could perform the ASTF’s forecasting and capacity building
+     activities. In particular, it could explore and propose opportunities for
+     international collaboration on catastrophic AI risk mitigation, as well as potential
+     domestic risk management strategies. It would also be home to the ASTF’s
+     horizon-scanning function, and could coordinate with the Department of State
+     and the DHS, as well as with industry.
+
+
+
+
+                                                                                259 of 284
+Annex L: AI safety and security research topics
+
+Below we list some workstreams and topic areas that could be included in a federally
+funded research agenda for advanced AI and AGI safety and security. This list is not
+exhaustive and is in no particular order.
+
+
+L.1 AGI-scalable alignment between AI behaviors and human
+values
+
+This research workstream could include:130
+
+   ● Direct research on inner alignment, which would aim to gather evidence of inner
+     alignment failure in highly scaled and capable AI systems, and predict these
+     failures in advance from descriptions of a planned AI system [81,355].
+
+   ● Research on power-seeking and techniques to mitigate AI systems’ incentives to
+     power-seek, or their ability to competently act on these incentives [2,47].
+
+   ● The development of new scalable alignment and scalable supervision
+     techniques designed to ensure the safe behavior of AGI systems in regimes
+     where these systems may be engaged in recursive self-improvement (RSI). These
+     would be successors to current techniques such as RLHF [333], Constitutional AI
+     [237], and DPO [238], which may not work effectively for AGI-level systems [84].
+     They may include adversarial training paradigms [356], activation or
+     representation engineering techniques [357–360], or other novel approaches to
+     ensure scalable controllability of AGI.
+
+   ● Technical guarantees of honesty from AI systems, and techniques that minimize
+     the discrepancy between a model’s internal representation of the truth, and its
+     outputs [361].
+
+   ● Research investigating the extent to which alignment of AGI or superintelligent
+     AI systems is technically possible [7].
+
+   ● Agent foundations theory and decision theory, to establish fundamental
+     principles on which safe AGI systems can be developed [362–364].
+
+
+130 See Annex B: The full challenge of AGI alignment for more context.
+
+
+
+                                                                              260 of 284
+   ● Safety-oriented research into the mathematical foundations of deep learning,
+     such as singular learning theory [365].
+
+
+L.2 Monitoring of AI systems to detect misbehavior and
+preempt failures
+
+This research workstream could include:
+
+   ● Transparency techniques that can provide clarity on the inner workings of AI
+     models [366–368].
+
+   ● Mechanistic anomaly detection techniques that allow unexpected inputs or
+     outputs to be flagged for human review [369].
+
+   ● Techniques that can detect, anticipate or fix so-called “trojan” AI models, which
+     behave well in most situations, but which reliably misbehave in certain trigger
+     contexts [370].
+
+   ● Interpretable uncertainty techniques, which allow humans to determine when
+     advanced AI models are uncertain about their outputs [361].
+
+   ● Hazardous capability removal techniques, which would focus on eliminating
+     dishonesty, as well as harmful capabilities that could enable biological or cyber
+     attacks [371].
+
+   ● AI capability evaluations that would allow humans to understand what
+     capabilities an AI system has. These would include behavioral evaluations, fine-
+     tuning based evaluations, interpretability or understanding-based evaluations,
+     automated benchmarking, and red teaming practices. Red teaming efforts could
+     focus on detecting behavior with potentially dangerous applications, like
+     persuasion, planning, RSI, general reasoning, CBRN and cyber weapon design,
+     etc. [46]
+
+   ● Sandbox and testbed development to support AI capability evaluations.
+
+   ● AI failure mode forecasting, including by developing AI systems capable of
+     predicting the failures of other AI systems.
+
+
+
+
+                                                                               261 of 284
+   ● AI capabilities forecasting to understand what capabilities an AI system will have
+     based on how it is trained [213].
+
+   ● AI alignment evaluations, aimed at understanding whether an AI system will
+     reliably act in a way that is consistent with its stakeholders’ intentions, as well as
+     behavioral evaluations on alignment, which could try to infer the goals of an AI
+     from its behavior [46].
+
+
+L.3 Robustness in the face of adversaries and unforeseen
+circumstances
+
+This research workstream could include:
+
+   ● Fixes and detection techniques for outer alignment failures, in which the goals
+     given to an advanced AI system are misspecified in ways that can be gamed, or
+     that lead to harmful behaviors [270,372].
+
+   ● Behavioral guarantees, which would allow developers to ensure that highly
+     advanced AI systems will always act in certain predictable ways, even when
+     adversarial inputs are introduced [373].
+
+
+L.4 Hardware-based veri cation
+
+This research workstream could include:
+
+   ● Monitoring and verification schemes for AI inference deployments and training
+     runs. This includes efforts aimed at tracking the physical usage of AI chips by
+     companies and other entities [217,218,225].
+
+   ● Chip registry schemes which can provide information about the location and
+     ownership of large clusters of AI hardware, to serve as the foundation for future
+     compute governance regimes [155].
+
+   ● Hardware-enabled mechanisms that could enable trusted verification of training
+     compute and data. Trusted execution environments and confidential or multi-
+     party computing could allow analysis and execution of model weights without
+     revealing the raw weights themselves [213].
+
+
+
+
+                                                                                  262 of 284
+                     fi
+Annex M: Secure temporary storage of model weights
+
+There is a strong competitive incentive for frontier AI model developers to train their AI
+systems specifically to pass known evaluations, without necessarily resolving underlying
+safety issues (Introduction, 0.5.1.3 and LOE3, 3.2.1). This means it is important to
+maintain a set of private AI evaluations, whose exact protocols are not known to the
+AI model developers, to ensure that developers are not incentivized to attempt to pass
+evaluations through superficial fine-tuning. These private evaluations should ideally be
+administered by independent third-party evaluators (see LOE3, 3.2.1.3).
+
+This need for private evaluations creates a technical security problem. Many types of
+evaluations (particularly interpretability-based evaluations) cannot be administered
+without direct access to the weights of the AI model being evaluated. To obtain this
+access, a third-party evaluator could use the infrastructure of the AI model developer
+itself to administer their evaluation. But because the AI model developer controls this
+infrastructure, it could observe the evaluation process and learn the details of the
+evaluation protocol. This would irreversibly impair the privacy of that evaluation
+protocol and its integrity as a risk signal.
+
+Unfortunately there is no practical way to ensure the privacy of an evaluation protocol
+under those conditions. Instead, one solution could be for the AI model developer to
+make a copy of its model’s weights, and transfer that copy to a server operated by a
+trusted body or agency (e.g., LOE1, 1.4; LOE3, 3.1.2; LOE4, 4.1). The trusted agency
+could then support temporary secure access to the model weights by third-party
+evaluators, and encrypt that copy of the weights once the evaluations have been
+completed. But because a second copy of the model weights increases the exfiltration
+attack surface for adversaries, a secure protocol for model weight sharing would be
+crucial to support such an arrangement.
+
+Below we sketch a protocol that may achieve this goal with a limited degree of security
+risk. The protocol’s participants are: (1) a Regulator, who operates the secure server; (2)
+a Developer, who uploads the model weights; and (3) an Evaluator, who administers
+the private model evaluation.
+
+
+
+
+                                                                                 263 of 284
+Secure weight-sharing protocol:131
+
+    1. Regulator generates a one-time instance of an audited (from all sides), signed
+       server in a secure setup. (For example, a government cloud provider like AWS or
+       Azure.)
+
+    2. Developer encrypts a model weights file.
+
+    3. Developer uploads the encrypted blob to Regulator’s server.
+
+    4. After this upload, Regulator’s server only has single-user, one-time inbound
+       Secure Shell Protocol (SSH) access enabled.
+
+    5. Developer shares the key with Evaluator representative. Physical handoff of the
+       key is recommended.
+
+    6. Regulator gives server access key to Evaluator; Evaluator accesses and rotates
+       key. Regulator can now no longer access its own instance.
+
+    7. Evaluator uses automated server scripts with Developer-provided weights key
+       to decrypt the model and run private evaluations against it.
+
+    8. (Optional) Regulator’s server sends high-level telemetry to Developer,
+       Evaluator, and Regulator of non-sensitive information on evaluation progress
+       and results.
+
+    9. Developer, Evaluator, and Regulator all separately have the ability to send a
+       signed request to the cloud provider to terminate the server at the infrastructure
+       level. (This is not a request to the server itself.)
+
+    10. Once the evaluations are completed, Evaluator notifies Regulator. Regulator
+        terminates the server, deleting the instance of model weights.
+
+Depending on the degree of security required, the secure server could also be housed
+on-premises in an air gapped facility, instead of on a cloud provider’s infrastructure.
+
+
+
+
+131 Thanks to Fletcher Heisler for suggesting this protocol.
+
+
+
+                                                                                264 of 284
+
