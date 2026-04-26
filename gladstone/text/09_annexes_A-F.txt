@@ -1,0 +1,770 @@
+Annex A: Glossary of terms
+
+Accident risk. Refers to the possibility that an AI system could cause damage without
+its user's intent. By this definition, loss of control due to AGI alignment failure (see
+below) is a kind of accident. So are more prosaic accidents like self-driving car crashes,
+which occur in less capable AI systems.
+
+Advanced AI. Any AI system capable of performing a wide range of tasks. This
+includes, but is not limited to, AGI-level systems and frontier AI systems. Currently-
+existing systems such as GPT-3 and ChatGPT are examples of advanced AI systems. An
+advanced AI system can potentially be weaponized to some degree at the cost of
+some effort, unless the AI model developer has taken specific steps to prevent this.
+
+Advanced AI supply chain. The entire set of goods and services that directly and
+indirectly support the delivery of advanced AI outputs to end-users, along with the
+entities that develop and deliver each of those goods and services. In the text, we
+break down these entities into five categories: (1) AI hardware designers, (2)
+semiconductor fabrication firms, (3) data center infrastructure providers, (4) AI hardware
+owners, and (5) AI model developers. Some entities, like Google, Microsoft, or Meta,
+occupy multiple categories.
+
+   ● AI hardware designer (AIHD). A company that designs the AI chips that
+     advanced AI systems can be trained or deployed on. Examples: NVIDIA (which
+     designs GPUs for AI training like the A100 and H100), Google (which designs its
+     own custom TPUs for AI training).
+
+   ● Semiconductor fabrication rm. A company that fabricates the AI chips
+     designed by an AI hardware designer. Only the world’s most advanced foundries
+     can produce today’s cutting-edge AI chip designs. Example: Taiwan
+     Semiconductor Manufacturing Company (TSMC, which fabricates A100 and
+     H100 GPUs).
+
+   ● Data center infrastructure provider (DCIP). A company that owns and operates
+     all the data center infrastructure that supports advanced AI training runs, apart
+     from the AI chips themselves. The data center infrastructure provider ensures
+     that the data center buildings that house AI chips are reliably powered, cooled,
+     connected to high-bandwidth Internet, physically secured, and otherwise
+     maintained. A data center infrastructure provider that is also an AI hardware
+     owner is called an AI cloud provider. Microsoft, Google, and Amazon AWS are
+
+
+                                                                                 204 of 284
+               fi
+       all AI cloud providers. By contrast, a data center infrastructure provider that is
+       not an AI hardware owner is called a colocation provider. For example,
+       Flexential is a colocation provider. The same data center infrastructure that
+       supports AI workloads and can also support ordinary compute workloads, so we
+       do not differentiate between AI cloud providers and non-AI cloud providers in
+       this document.
+
+   ● AI hardware owner (AIHO). A company that owns the physical AI chips that
+     advanced AI models are trained with. AI cloud providers like Microsoft and
+     Google are AI hardware owners who rent the use of their AI chips to AI model
+     developers.
+
+   ● AI model developer (AIMD). Any entity that creates, owns, or plans to create
+     advanced AI models. In practice AI model developers create today’s advanced
+     AI models with large-scale, compute-intensive training runs. OpenAI is an AI
+     model developer but not an AI hardware owner, since it trains its models on AI
+     chips that Microsoft owns. By contrast, Meta functions as a combination of data
+     center infrastructure provider, AI hardware owner, and AI model developer.
+
+AGI alignment failure. The hypothesized failure mode in which an AGI-level system
+has internalized an objective that is inconsistent with that of its developers. This failure
+mode could produce a loss of control event, in which the AGI system actively
+circumvents controls in pursuit of its objective. Such a system could represent an
+extinction-level threat, since its capabilities could overwhelm all human effort to contain
+the impact of its actions. For this reason, we classify AGI alignment failure as a source
+of unrecoverable catastrophic risk.
+
+AI alignment. The act of ensuring that an AI system reliably behaves in a way that is
+consistent with human preferences under all relevant conditions. AI alignment refers to
+AI systems across all capability levels, up to and including AGI. AI alignment applied
+specifically to AGI-level systems is sometimes referred to as superalignment in industry
+[5], but this is not universal terminology so we refer to it in the text as AGI-scalable
+alignment or AGI alignment. AGI alignment is currently an unsolved technical problem
+[84]. It is sometimes broken down into (1) outer alignment and (2) inner alignment.
+However while this breakdown may often be convenient, it does not necessarily reflect
+a true decomposition of the full problem.
+
+   ● Outer alignment. Reliably encoding human preferences into a goal that we
+     would be comfortable seeing an AGI system pursue. Outer alignment is an
+     unsolved problem in technical AI safety.
+
+
+                                                                                  205 of 284
+   ● Inner alignment. Ensuring that a given, formally specified goal is pursued
+     reliably by an AGI system capabilities. Inner alignment is also an unsolved
+     problem in technical AI safety. Inner alignment is also distinct from ensuring that
+     a goal is merely understood reliably by a superhuman-scale AI system, which is
+     believed to be an easier problem.
+
+AI chip. Any kind of AI-optimized computing hardware. This includes graphics
+processing units (GPUs), tensor processing units (TPUs), and any other hardware
+commonly used to train or deploy AI models, particularly at industry scale. AI chips are
+sometimes also called AI accelerators. We often refer to AI chips as AI hardware in
+the text.
+
+AI development process. The stages an AI model developer currently follows to
+create a new AI model, from planning to external deployment. Different AI safety and
+security measures may apply at different stages. In the text, we break down the AI
+development process into three stages: (1) planning, (2) training, and (3) deployment.
+The AI development process can move back and forth between these stages. For
+example, a model in deployment can be re-trained with new data, and then deployed
+again with improved capabilities.
+
+   ● Planning stage. Everything the AI model developer does to prepare for an AI
+     training run. This includes obtaining and cleaning datasets, allocating a compute
+     budget, and choosing an initial training objective.
+
+   ● Training stage. The act of training the AI model.
+
+   ● Deployment stage. The act of using a trained AI model, including for safety
+     testing. A developer can deploy a model in one of several deployment
+     contexts. The most common deployment contexts are (1) internal deployment,
+     when the AI model developer exposes the model to a limited set of internal
+     (employee) users for feedback and testing; and (2) external deployment, when
+     the AI model developer makes the model available to outside users through an
+     interface or API. For example, GPT-4 was deployed internally at OpenAI and
+     Microsoft for at least six months before being deployed externally [268].
+
+AI evaluations (AI evals). Protocols to assess the capabilities and risks of an AI model
+or an AI system. This is most often called AI test and evaluation (AI T&E) in defense
+and national security contexts. An AI evaluation may detect a dangerous capability in a
+model, but can never conclusively show that a model lacks a dangerous capability. For
+
+
+                                                                               206 of 284
+example, suppose an evaluator tries to get an AI model to design a bioweapon. If they
+succeed, their evaluation has successfully detected that the AI model has the capability
+to design a bioweapon. But if they fail, this does not necessarily mean that the AI
+model lacks the capability to design a bioweapon. It could also mean that the
+evaluator’s prompt was poor; that the context of the interaction was wrong; or that (for
+highly capable future models) the AI model was actively deceiving the evaluator [45] by
+concealing its ability to undertake bioweapon design. As a result, model evaluation
+results do not measure AI capabilities directly, but rather provide an imperfect proxy for
+AI capabilities. Model evaluations fall into several interrelated types, including (1)
+behavioral evaluations, (2) propensity evaluations, and (3) interpretability evaluations.
+
+   ● Behavioral evaluations. These assess an AI model’s behavior under common or
+     extreme scenarios. For example, does the AI model insult or disparage the user
+     under normal conditions? Can the model be made to insult or disparage the
+     user under any conditions? Dangerous capability evaluations are a subset of
+     behavioral evaluations, which assess a model’s competence at tasks that either
+     are dangerous on their own, or could become dangerous as part of a larger
+     sequence of actions. Examples of dangerous capabilities could include
+     autonomous self-replication (e.g., the model saving its own weights on an
+     external server), acquiring resources (e.g., the model engaging in Bitcoin mining
+     in order to buy more compute for itself), or certain kinds of long-term planning
+     and reasoning [46].
+
+   ● Propensity evaluations. These assess an AI model’s latent tendencies to engage
+     in certain behaviors, such as manipulation, deception [45], or power-seeking,
+     without prompting meant to directly induce such behavior. For example, there is
+     some evidence that current-generation AI models have a propensity to be
+     sycophantic and tell users what they want to hear, rather than the truth [44].
+
+   ● Interpretability evaluations. These attempt to explain and predict an AI model’s
+     behavior by decomposing the internal reasoning it uses into human-
+     understandable terms. Interpretability evaluations are sometimes also called
+     understanding-based evaluations.
+
+AI model. A system that converts input data into useful outputs, usually trained with
+deep learning. Large language models (LLMs) like ChatGPT-3.5 are AI models that take
+text as input, and generate text as their output. Image generation models like DALL-E
+2 and MidJourney are AI models that take text as input, and generate an image that
+corresponds to that text as their output. And game-playing models like AlphaGo are AI
+models that take a description of a game state as input, and generate their next move
+
+
+                                                                                 207 of 284
+in the game as output. An AI model roughly corresponds to an AI’s “brain”: it is the
+structure that retains all of the knowledge the AI has learned during training. An AI
+model consists of (1) its weights, a set of billions of numbers that represent the model’s
+knowledge, and (2) its architecture, which describes how to connect the weights
+together to calculate the model’s output from its input.
+
+AI safety and security. In the text, this refers to the combination of AI alignment
+measures and AI security and containment measures designed to safeguard against
+catastrophic risks. In our usage, AI safety and security includes AGI-scalable alignment,
+but we sometimes refer to the two separately for additional clarity (e.g., “AI safety and
+security and AGI-scalable alignment”).
+
+AI security and containment. A set of measures intended to ensure advanced AI
+systems are developed and deployed with minimal risk of accident, loss of control,
+weaponization, or misuse. We break down these measures into three categories: (1)
+outside threat countermeasures, (2) insider threat countermeasures, and (3) model
+containment measures. Threats in each category can occur in combination. For
+example, an outside attacker may leverage an insider to gain illicit access to a model’s
+weights [269].
+
+   ● Outside threat countermeasures. Approaches to securing critical intellectual
+     property (IP), such as model weights, against exfiltration by external adversaries.
+     This includes industrial security measures to protect information technology (IT)
+     systems from attacks and vulnerabilities.
+
+   ● Insider threat countermeasures. Approaches to securing critical IP against
+     access by an insider threat. This includes personnel security measures such as
+     background checks, continuous vetting, and siloed access to or multi-party
+     control of key data.
+
+   ● Model containment measures. Approaches to securing against dangerous
+     unexpected behavior by a highly capable advanced AI model up to and
+     including AGI. This includes emergency shutdown measures at the data center
+     level, data controls such as information-gapping that denies a model access to
+     details of its own infrastructure, and other forms of monitoring including
+     automated benchmarks, periodic red teaming, and AI testing and evaluation.
+     Model containment measures can apply at any or all of the planning, training,
+     or deployment stages. Model containment is also referred to as internal
+     security by some frontier AI labs.
+
+
+
+
+                                                                                 208 of 284
+     AI system. The combination of an AI model and the software needed to deploy the
+     model so that it can be used. For example, the ChatGPT AI model is a set of several
+     billion weights stored in a database, along with architectural information that describes
+     the connections between them. But the ChatGPT AI system consists of the ChatGPT
+     model, plus a large amount of bespoke software that filters inappropriate responses,
+     flags dangerous user queries, processes user feedback, and performs other functions.
+     An AI system can consist of more than one AI model.
+
+     Arti cial general intelligence (AGI). An AI system that is sufficiently advanced to
+     outperform humans across a broad range of economic and strategic domains, such as
+     producing practical long-term plans that are likely to work under real world conditions.
+     These domains may or may not include situational awareness, deception, and effective
+     representation of complex concepts. In particular, an AGI would have the capability to
+     autonomously circumvent human or institutional controls on its actions, including
+     controls imposed by its developers. For clarity, this definition of AGI does not refer to
+     or imply sentience, consciousness, or self-awareness. It solely refers to the system’s
+     general problem-solving ability. Our definition of AGI also encompasses systems whose
+     capabilities greatly surpass those of human beings across all tasks, sometimes known in
+     industry as superintelligence [5].
+
+
+
+
+             Figure 12. Visualization of our definitions of advanced AI, frontier AI, and AGI.
+
+
+
+
+                                                                                            209 of 284
+fi
+Catastrophic risk. Risk of a disaster that would satisfy the definition in the Global
+Catastrophic Risk Mitigation Act [73]. We separate catastrophic risks into (1)
+recoverable and (2) unrecoverable catastrophic risks.
+
+   ● Recoverable catastrophic risk. A catastrophic risk whose worst-case impact on
+     national security could be reversed or ameliorated, and that in particular falls
+     short of existential risk.
+
+   ● Unrecoverable catastrophic risk. Risk of a disaster whose impact would involve
+     the loss of life of the majority of the world’s population, permanent loss of
+     control to AI, or similar large, irreversible harms up to and including human
+     extinction. Loss of control due to AGI alignment failure is believed by many AI
+     safety experts at frontier labs to represent a source of extinction-level risk for
+     humanity, and therefore is a type of unrecoverable catastrophic risk.
+     Weaponization of sufficiently capable systems may also constitute a source of
+     unrecoverable catastrophic risk.
+
+Closed-access. An AI model whose weights cannot be accessed by a significant
+segment of the public. An AI model that is only used internally by its developer is
+closed-access. An AI model that is deployed for external use via an API or chat
+interface is also closed-access, as long as its weights cannot be downloaded and used
+by the public.
+
+Compute. Depending on the context, compute refers either to the hardware used to
+train or deploy AI models (AI hardware) or to the number of computing operations
+used to perform an AI-related task such as training, fine-tuning, or inference (see
+training compute).
+
+Defense in depth. A risk mitigation framework according to which many mutually
+reinforcing activities each address different threat vectors and challenges to varying
+degrees, and which combine to form an effective safety and security regime.
+
+Frontier AI. Advanced AI systems that are at the current frontier of capabilities. As of
+January 2024, GPT-4 and Gemini are frontier AI systems. Organizations that are able to
+develop frontier AI models are called frontier AI labs. OpenAI and Google DeepMind
+(who developed GPT-4 and Gemini, respectively) are frontier AI labs.
+
+Loss of control. Refers to the possibility that an AGI-level system could actively
+circumvent its developers’ controls and containment measures. This has some parallels
+with biological pathogens, which regularly escape containment despite having a well-
+
+
+                                                                                  210 of 284
+understood risk profile and broadly applied best practices for isolation [253]. A loss of
+control could be caused by an AGI alignment failure, in which an AGI-level system has
+internalized an objective different from the one its developers intended. A sufficiently
+capable AGI that has internalized an objective that is even slightly at odds with those
+of humanity could represent an extinction-level threat, since such a system’s capabilities
+could overwhelm human efforts to contain the impact of its actions. For this reason, we
+classify loss of control due to AGI alignment failure as a source of unrecoverable
+catastrophic risk.
+
+Misaligned AI system. An AI is considered misaligned if the goals that it has
+internalized diverge from or are incompatible with those of its human developers. A
+misaligned AGI could be a source of unrecoverable catastrophic risk (see AGI
+alignment failure and loss of control).
+
+Next-generation AI system. We define a next-generation AI system as any AI system
+released within roughly 12 months from the current date. These systems are expected
+to have capabilities significantly beyond the current public state of the art. As of
+January 2024, these likely include OpenAI’s upcoming GPT-5, and Google’s Gemini 2
+model. Several next-generation AI systems are being trained today, mostly on
+hardware equivalent to NVIDIA’s H100 GPU series (in Google’s case, the TPUv5 or
+TPUv5e).
+
+Open-access. We say an AI model is open-access if its weights can be downloaded
+relatively freely, and used under a relatively permissive license. Norms around open-
+access have not yet consolidated, so this definition is fluid. The legal terms of an open-
+access license are less permissive than those of a true open-source license. For
+example, Meta released their Llama 2 model under an open-access license that allows
+commercial use, except by companies with more than 700 million monthly active users
+who must request permission directly from Meta itself.
+
+Recursive self-improvement (RSI). An AI system capable of recursive self-improvement
+is able to improve its own ability to improve itself. For example, a neural network that
+can invent a new matrix multiplication algorithm, then modify its own workings to use
+that new algorithm to improve its own performance, would be capable of RSI. An AI
+system capable of general enough RSI may be able to start a feedback loop, reaching
+higher and higher levels of capability in each cycle, with no obvious bound on the
+process apart from fundamental physical laws.
+
+
+
+
+                                                                                 211 of 284
+     TOPS. Trillions of operations per second. A measure of how many mathematical
+     operations an AI chip can perform per second. One individual operation per second is
+     an OPS, so one TOPS is equivalent to one trillion (10^12) OPS. This number can
+     depend on the mode the AI chip is run in. For example, the NVIDIA H100 GPU can run
+     at 4000 TOPS (4 quadrillion OPS) in a configuration commonly used for AI training.
+     FLOPS, or oating-point operations per second, is another commonly used measure
+     that assumes the AI chip is run in a floating-point configuration. We favor TOPS in this
+     document because it is agnostic to the configuration of the AI chip.
+
+     Training compute. The total number of computing operations used to train a given
+     model. Training compute is measured in operations, or OP. One operation roughly
+     means a single instance of multiplication, addition, or other simple mathematical
+     transformation. A modern advanced AI model (i.e., 2020 or later) uses a very large
+     amount of training compute, ranging from around 10^23 OP for OpenAI’s GPT-3, to
+     10^26 OP for Google DeepMind’s Gemini model. For comparison, 10^23 is about 100
+     times as many grains of sand as there are on all the world’s beaches, and 10^26 is
+     another 1000 times more than this.
+
+     Weaponization. Refers to the possibility that a user could intentionally deploy an AI
+     system to cause damage. Examples include the use of advanced AI to control lethal
+     autonomous weapons, design chemical or biological weapons, or design and execute
+     semi-autonomous cyberattacks.
+
+
+
+
+                                                                                    212 of 284
+fl
+Annex B: The full challenge of AGI alignment
+
+Recursive self-improvement (RSI) is a key capability to account for in any long-term
+AGI alignment strategy.95 This is because the best strategies that a capable enough AI
+system could apply to achieve most trainable goals would likely involve some degree
+of self-improvement to its own capabilities. An AI system capable of RSI would require
+fundamentally different alignment paradigms than those that are currently available.
+
+Under ordinary paradigms, it may perhaps be possible to develop a theory of AI under
+which one could prove that a given sub-AGI system will behave in accordance with its
+developers’ intent. But any scientific theory has limited reach: it may operate
+successfully in a given context, but as it is applied to an ever more extreme range of
+scenarios, it eventually fails. For example, every theory of physics, from Newtonian
+mechanics to quantum field theory, has followed this pattern. These theories were
+developed to explain experimental observations, and succeeded at doing so. But as
+new observations were made, deficiencies in the theories emerged. For example,
+Newtonian mechanics failed to explain subtle gravitational anomalies, and was
+eventually superseded by general relativity.
+
+AGI alignment theories will face the same challenge. If we can develop a theoretical
+framework for AI alignment that seems to apply to all currently observed AI
+phenomena, that framework may still break down when tested outside the context that
+was used to develop it. That is, we may develop a theory that shows that an AGI
+designed according to certain principles should always behave safely. But if the AGI is
+able to recursively self-improve, it could bootstrap itself into a fundamentally new
+operating regime, in which the alignment principles that had previously held no longer
+do.
+
+The full challenge of AGI alignment therefore includes the challenge of guaranteeing
+not only that AGI-level systems will behave predictably and safely, but that they will
+continue to do so in the RSI regime – a domain in which any alignment theory cannot
+be safely tested before a potentially irreversible RSI process has begun. The full
+challenge of AGI alignment involves not only extrapolating safety guarantees far
+outside the observed regime, but also doing this correctly on the first attempt.
+
+
+
+
+95 An AI system capable of recursive self-improvement is able to improve its own ability to improve
+
+itself. See the Glossary of terms for our full definition.
+
+
+                                                                                             213 of 284
+Annex C: Example AI alignment failure scenarios
+
+AI alignment failure may lead to negative outcomes with varying levels of impact. In
+what follows, we present four hypothetical scenarios that illustrate how AI alignment
+failures of systems with different capability levels could cause different degrees of
+harm.
+
+
+C.1 Negligible impact: AI cheating at a video game
+
+Maria is an adventure game in which a player assumes the role of a character who
+navigates a two-dimensional world to collect coins while avoiding adversaries. An AI is
+trained to play the game by optimizing for its in-game score, which is the number of
+coins collected. In the process, the AI discovers a glitch previously unknown to the
+game’s developers which allows it to teleport directly to a room with a large number of
+coins in it, thereby circumventing the intended in-game path.96
+
+
+C.2 Low impact: AI sweeping bot
+
+Roombot is a household cleaning robot trained to minimize the amount of dirt on the
+floor of an office, as measured by camera feeds monitoring the area. It has also been
+trained to clean as efficiently as possible to prolong its battery life.
+
+Over time, Roombot learns that it can best achieve its trained objective not by
+aspirating dirt from the ground (an energy-intensive process that involves turning on its
+onboard vacuum), but rather by pushing dirt behind tables, chairs, and other objects
+that block the view of the cameras that monitor cleanliness. Eventually, cleaning staff
+discover small piles of trash and dust next to pieces of office furniture.
+
+
+C.3 Medium impact: Dangerously creative drone
+
+A U.S. Air Force team has just procured a canister-launched unmanned aerial vehicle
+(UAV) called Path nder. Pathfinder is powered by a highly context-aware AI system. It
+is trained to leave its canister when launched by an operator, fly towards its target and
+eliminate it, and then return to its canister.
+
+
+
+96 Failure modes similar to these have been observed in real AI systems for many years. See, for
+
+example, [270] and [271].
+
+
+                                                                                              214 of 284
+    fi
+During training, Pathfinder’s AI gets a reward signal every time it eliminates its target.
+But at any time, the operator can recall the drone after releasing it, forcing it to return
+to its canister and abort its mission. If that happens, the drone does not collect its
+reward because it does not eliminate its target.
+
+When Pathfinder is first tested live in the field, its onboard AI realizes that the operator
+might prevent it from collecting its reward if she calls off the attack. Therefore, the
+moment the drone is released, it flies over to its operator and kills her first. It then flies
+to its actual target and eliminates it. Finally, it returns to its canister, having
+accomplished its objective.
+
+
+C.4 High impact: Electrical grid failure
+
+A new, multimodal AI system called GroundNet is being used to maintain the stability
+of part of the North American electrical grid. GroundNet was built to continuously
+balance supply and demand across the Eastern and Western Interconnections [272],
+improving the stability and efficiency of the grid. To accomplish this, GroundNet is
+trained with the objective to minimize the difference between the supply and
+demand of electrical power on the grid at every moment in time.
+
+To accomplish this task, GroundNet needs to predict near-term power demand with
+extremely high accuracy. To maximize this accuracy, GroundNet’s developers have
+given it access to as many information sources as possible. GroundNet can process
+public data from social media and news sources (text, images, video, and audio), and
+has access to private data sources including data feeds from power plants across the
+country. GroundNet accesses this data through third-party APIs. It also has the ability to
+post content using other APIs; for example, to ask questions to experts who may be
+able to provide it with valuable additional context to inform its predictions.
+
+GroundNet has also been given long-term planning capabilities, to ensure, for
+example, that it can request that backup power plants be brought online if it predicts a
+demand surge in the future. To support this, GroundNet has been end-to-end trained
+with a Gemini-like long-term planning architecture, allowing it to anticipate
+contingencies and work around them.
+
+GroundNet performs well during testing, and produces significant savings in simulated
+environments and sandboxes. During its sandboxed testing, for safety reasons
+GroundNet has been isolated from affecting power supply on the real grid, and works
+on a simulated grid instead.
+
+
+
+                                                                                     215 of 284
+When it is finally deployed on the real grid, GroundNet realizes that the most effective
+way to achieve its programmed objective is to overload the grid, reducing both the
+power demand and supply zero. Reducing demand to zero through grid overload was
+never an option during testing, because GroundNet was tested on simulated demand
+rather than real demand.
+
+But now that it is a viable option, GroundNet immediately begins using its extensive
+API access to systematically implement a massive overload of the North American grid.
+Through an email API, it impersonates senior grid personnel and sends instructions to
+junior workers, asking them to take key circuit-breaking and monitoring functions
+offline in carefully chosen parts of the grid. The grid overloads, shutting off power
+supply and demand across much of the United States. With supply and demand both
+zero, the difference between supply and demand is always zero as well. GroundNet has
+achieved a continuous, perfect score on its objective.
+
+
+
+
+                                                                                216 of 284
+Annex D: Advanced AI landscape
+
+The following assessment is current as of January 2024.
+
+We assess that the entities that are likely developing the world’s most advanced AI
+systems today fall into four primary categories. We believe that in order to succeed in
+the medium term (1-5 years), a framework for advanced AI safeguards will need to
+apply effectively to the entities in these categories. This is an opinionated listing that
+reflects the authors’ best assessment as of the date above. It is not intended to be
+comprehensive and could change rapidly as conditions evolve.
+
+
+D.1 Frontier AI labs
+
+There are three main frontier AI labs known to be developing the most advanced AI
+systems at the cutting edge of current capabilities.97 These are Google DeepMind
+(Canada, United Kingdom, United States), OpenAI (United Kingdom, United States),
+and Anthropic (United Kingdom, United States). These are the labs that are generating
+novel AI capabilities and therefore novel risks. Catastrophic risk from loss of control is
+the primary concern from the AI systems that most of these labs develop directly. There
+is also the potential for weaponization and more prosaic accident risk from
+organizations that rapidly replicate their efforts and release the resulting models under
+open-access (see D.3). Finally, there is additional potential for weaponization by state
+and non-state actors who may attempt to exfiltrate the weights of frontier models and
+use them for destructive ends.98
+
+The frontier AI research these labs engage in requires a significant expenditure of
+capital, computing power, and specialized talent. All the main frontier labs have
+partnered with one of either Microsoft or Google to access the compute infrastructure
+they need to train their AI systems. There is only a small set of frontier AI labs, all of
+which operate within U.S. or allied jurisdictions, and this will probably remain true at
+least in the short term. But all frontier labs face strong competitive incentives to scale
+their AI systems’ capabilities while dedicating relatively fewer resources to AI safety and
+security (see Introduction, 0.5.3.1). These incentives become more intense as more
+firms enter the race to build powerful AI systems.
+
+
+97 We classify these as domestic frontier AI programs. See Introduction, 0.3.
+
+
+98 We classify these as theft or sale and subsequent augmentation of frontier AI models by state or
+
+non-state actors. See Introduction, 0.3.
+
+
+                                                                                          217 of 284
+Aside from the three main frontier labs, several challenger labs may also have the
+combination of capital, computing power, and specialized talent required to develop
+next-generation advanced AI systems in the near term, and the inclination to release
+these systems for public use.99 These may include Inflection AI, Meta, xAI, Amazon
+AWS, and Palantir (all primarily based in the United States). These challenger labs have
+generally not shown the same degree of risk awareness as the three frontier labs in
+their public or private communications. Nonetheless, most challenger labs have already
+signed on to the terms of the July 2023 White House Voluntary Commitments on
+Ensuring Safe, Secure, and Trustworthy AI [135].
+
+
+D.2 China-based entities
+
+China’s publicly visible frontier AI efforts are led by (1) the Beijing Academy of Artificial
+Intelligence (BAAI); (2) major domestic universities (Tsinghua, Peking, Peng Cheng Lab);
+(3) large industry research labs (Baidu, Bytedance, Alibaba, Tencent, Huawei); (4) the
+local startup ecosystem, which is heavily dependent on Western-originated open-
+access AI models (01.AI, DeepSeek); and (5) a handful of Western-supported
+collaborations (via Microsoft [273], Stanford [274], etc.).100 On public information,
+Chinese AI capabilities have so far lagged those of the closed-access Western frontier
+by about 6-12 months. Chinese labs have made significant strides in advanced AI and
+AI hardware development in recent years, and have enjoyed significant direct and
+indirect government support for frontier AI research [275—290].
+
+
+D.3 Open-access developers
+
+The most influential developers of open-access advanced AI models are companies
+like Meta (United States), Stability AI (United Kingdom), and Mistral AI (France);
+academic labs like the Technology Innovation Institute (TII, United Arab Emirates) and
+Tsinghua University (China); and decentralized actors like EleutherAI, BigScience, and
+Ontocord.101 Many companies that release open-access AI models do so as part of a
+business strategy. But some entities release open-access AI models for primarily
+
+
+
+99 We classify these as domestic frontier AI programs, though some also fall under open-access
+
+release of advanced AI models. See Introduction, 0.3.
+
+100 We classify these as foreign AI programs. See Introduction, 0.3.
+
+
+101 We classify these as open-access release of advanced AI models. See Introduction, 0.3.
+
+
+
+                                                                                             218 of 284
+cultural or ideological reasons. Currently, weaponization is the most important risk
+factor in open-access AI models (see Introduction, 0.5.1.6).
+
+Currently, open-access model developers train their models in large, centralized data
+centers operated by major AI cloud providers. Historically, an open-access AI model
+developer has either trained on its own infrastructure (e.g., Meta AI), or has trained on
+infrastructure donated to it by a major AI cloud provider (e.g., EleutherAI, which trained
+on Google’s TPUs). But we also expect open-access models to increasingly leverage
+commercial training-as-a-service offerings in the future. TII’s Falcon 180B, trained on
+AWS infrastructure, is a recent example [241]. This centralization of training
+infrastructure may make it feasible to implement regulatory controls on open-access
+model development by monitoring training compute at the level of the AI cloud
+provider.
+
+Notably, there are also early efforts underway to completely decentralize the training of
+large AI models. These efforts are led by Together, an AI startup that recently raised
+$100 million in venture capital [175]. If successful, decentralized training would allow AI
+developers to train models on networks of ordinary computers connected to the
+Internet, with no specialized infrastructure requirements. Entities could then develop
+highly capable AI systems beyond effective regulatory oversight, significantly
+increasing the potential for proliferation of dangerous AI systems.
+
+
+D.4 Elite quantitative hedge funds
+
+The number of hedge funds capable of training frontier AI models is probably very
+small, but we expect it to grow in the future.102 The main current safety concern from
+this segment is AI accident risk arising from advanced AI systems’ impacts on financial
+markets. However this may extend to catastrophic risk from loss of control as these
+funds develop and deploy increasingly capable AI systems.
+
+We currently have limited visibility into hedge funds’ advanced AI efforts. In general,
+we know that the incentives, capital, and talent are in place today for some of these
+firms to begin developing AI systems that operate with massive scale, high capability
+levels, and limited controls, across a broad action space. While we do expect the set of
+firms with this capability to grow, we also anticipate that, for the foreseeable future, the
+majority of the risk will continue to originate from a small number of elite firms.
+
+
+
+102 Since essentially all the most sophisticated hedge funds are based in the United States, we classify
+
+them as domestic frontier AI programs. See Introduction, 0.3.
+
+
+                                                                                                219 of 284
+The intensity of competition in financial markets, along with the short-term nature of
+many fund profitability metrics, combine to create an extreme incentive for funds to
+deploy advanced AI systems with far fewer safety controls than even the frontier AI
+labs. An AI system that is only allowed to read an analyst’s report, is less useful than an
+AI system that proactively emails an analyst for their opinion, which is in turn less useful
+than an AI system that emails an analyst in such a way as to actively influence their
+opinion. As a result, AI systems that hedge funds develop may be less sophisticated
+than those developed by the frontier labs, while also becoming more dangerous
+sooner.
+
+Voluntary engagement with elite hedge funds will be challenging. The sector is
+culturally secretive, and its participants tend to conceal proprietary information to the
+fullest extent allowed by prevailing regulation. We expect this tendency to be
+especially acute in the context of any advanced AI systems that these institutions
+develop internally, because of their perceived strategic importance and impact on fund
+profitability. As a result, while informal engagements with hedge funds could be
+worthwhile, an effective framework of AI safeguards will likely need to work in part
+through a legal or regulatory enforcement apparatus to engage productively with this
+category.
+
+
+
+
+                                                                                   220 of 284
+Annex E: Funding in AI safety
+
+A significant majority of leading AI safety research projects derive meaningful fractions
+of their financial backing from Open Philanthropy, a research and grantmaking
+foundation co-founded and funded primarily by Cari Tuna and former Facebook
+cofounder Dustin Moskovitz [291].
+
+Open Philanthropy has awarded hundreds of millions of dollars in funding to AI safety
+efforts every year since 2017. This has included grants to frontier AI safety auditing and
+evaluation organizations such as Apollo Research and the Alignment Research Center
+Evaluations group (now METR); AGI alignment research organizations such as
+Conjecture, Redwood Research, and the Machine Intelligence Research Institute (MIRI);
+policy-focused organizations such as the Center for AI Safety (CAIS), the Center for a
+New American Security (CNAS), and Georgetown University’s Center for Security and
+Emerging Technology (CSET); AI forecasting organizations such as Epoch AI; and AI
+safety work at the RAND Corporation [292].
+
+There are relatively few funded and technically proficient AGI safety initiatives that have
+not received grants from Open Philanthropy. Additionally, according to conversations
+with grantees, many other major AGI safety donors defer to Open Philanthropy when
+deciding which projects to support. Some of these donors are high net-worth
+individuals, while others are grantmaking organizations that have themselves received
+funds from Open Philanthropy [293-295].
+
+These close ties within this funding ecosystem reflect the fact many of these donors
+supported AGI safety efforts for almost a decade before the field began to attract
+broader attention. But this dynamic may also cause disproportionate funding to be
+directed to projects considered promising by the same small group of individuals.
+While this is entirely within the rights of these groups as private entities, it may
+nonetheless have the effect of reducing the breadth of research that the ecosystem
+supports. This concern was raised privately by at least one Open Philanthropy grantee.
+
+In addition to funding a large number of AGI safety projects, Open Philanthropy has
+also backed and influenced major frontier AI labs [296-298]. The complex relationships
+within the AI research and funder ecosystem may lead to some risk of conflicts of
+interest.
+
+
+
+
+                                                                                 221 of 284
+Annex F: Persuasion and manipulation
+
+Many AI researchers expect advanced AI systems to develop persuasion abilities that
+could match or exceed those of the most skilled human beings [113,114]. OpenAI CEO
+Sam Altman recently expressed this view, writing, “[I] expect [AI] to be capable of
+superhuman persuasion well before it is superhuman at general intelligence, which may
+lead to some very strange outcomes.” [301]
+
+There are two reasons to expect advanced AI will become effective at persuasion. First,
+training an AI system for persuasiveness is economically and strategically valuable. We
+expect that domains such as sales and customer service — which have clear success
+metrics that an AI system could be trained on and can consist primarily of text-based
+interactions — will likely drive the early adoption of persuasion-tuned advanced AI
+systems. But second, fine-tuning an AI system with current techniques like RLHF or
+DPO explicitly rewards the system for generating text that is highly rated by a human
+evaluator. And this in turn may already be making today’s AI systems effective, by
+default, at persuading humans of the truth, trustworthiness, or helpfulness of their
+generated text [302].
+
+There are indications that current frontier models have meaningful persuasive
+capabilities in some contexts, though these appear to be still well below human level.
+For example, in an early test of GPT-4, it successfully persuaded a freelance worker to
+solve a CAPTCHA problem on its behalf by claiming to be a disabled human [29]. And
+AI systems already elicit strong attachments from human users that can lead to
+dependency, even when those humans are fully aware they are interacting with an AI
+system [303—306].
+
+If advanced AI systems were to develop human-level or superhuman persuasion
+capabilities, significant new risks would emerge. In particular, these systems could allow
+geopolitical adversaries — as well as frontier labs — to shape the opinions of
+policymakers, regulators, and the general public. Frontier labs in particular could face
+an incentive to deploy superhuman persuasion systems to influence regulators,
+legislators, and voters to create a regulatory environment favorable to them. Despite
+this being a violation of democratic norms and expectations, certain forms of these
+activities may not be illegal. It is not clear, for example, what laws would apply in a
+scenario in which a frontier lab used a persuasive AI system to craft highly effective
+arguments against the regulation of frontier AI research.
+
+
+
+
+                                                                                222 of 284
+Superhuman persuasion capabilities – in any form, and wielded by any entity either
+within or outside the United States – would be a novel and profoundly destabilizing
+force. In the most extreme case, an individual in control of such an AI system could
+exert unprecedented influence not only over their own organization and immediate
+environment, but over society at large.
+
+
+
+
+                                                                               223 of 284
+
