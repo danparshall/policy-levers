@@ -615,4 +615,144 @@ These four annexes (covered in section 11 of this index) collectively provide th
 
 ---
 
-[remaining sections 07–11 to be added in subsequent passes]
+### 07 — Chapter 5: LOE5 — Enshrine AI safeguards in international law and secure the AI supply chain
+**File:** `gladstone/PDFs/07_chapter5_LOE5_international.pdf` | **Text:** `gladstone/text/07_chapter5_LOE5_international.txt` | **Pages:** 18 (doc pp. 141–158) | *Chapter*
+
+#### Prose summary
+
+LOE5 is Gladstone's international chapter and the document's most ambitious LOE — the level at which the regulatory regime stops being U.S. policy and becomes a multilateral institution. The chapter opens with explicit nuclear-weapons framing: AGI proliferation could destabilize global security in ways "reminiscent of the introduction of nuclear weapons," and absent careful management could trigger "an AGI arms race" raising the risk of WMD-scale accidents, interstate conflict, and escalation. Four building blocks: (1) **build domestic and international consensus** on catastrophic AI risks (§5.2); (2) **enshrine safeguards in international law** via treaty (§5.3); (3) **establish an International AI Agency (IAIA)** to monitor and verify treaty compliance (§5.4); and (4) **establish an AI Supply Chain Control Regime (ASCCR)** with allies as a faster, parallel mechanism (§5.5). Section 5.6 explicitly catalogs open challenges Gladstone admits it has not solved. The chapter's stated **desired end state** (§5.1) is a UN-mandated global treaty enforcing the RADA safeguards from LOE4, cloud-provider monitoring requirements above scale thresholds, and international hardware-based tracking of AI chips. Gladstone is honest that the ASCCR can be stood up faster than the treaty regime, but warns that purely multilateral controls will likely be undermined in the medium term by the rise of competing supply chains — meaning both mechanisms are needed.
+
+The consensus-building piece (§5.2) is structurally interesting because it argues that the loss-of-control framing is **more diplomatically tractable than weaponization**, since inner-alignment failure threatens even the developing party itself. Footnote 91 of the chapter spells this out: because the inner-alignment problem is unsolved, "no actor can be assured that they will be able to control an AGI-level system even if they develop and train the system themselves," meaning all actors — including adversaries — share an incentive to cooperate in preventing the development of such systems while inner alignment remains open. This is one of the document's better single insights and works as a lay explanation tool for diplomats who don't want to start with weaponization framing. Specific recommendations include U.S. Mission engagements with Heads of State/Government, conversations in existing forums (Global Partnership for AI, UN CCW Group of Governmental Experts on LAWs, OECD, AI Partnership for Defense), and foreign-assistance programs for partner-capacity-building. The technical-outreach subsection (§5.2.1.2) explicitly endorses the Hinton-led Western-academic outreach to Chinese AI researchers that began in 2023, cites the 2023 CAIS Statement on AI Risk (signed by several Chinese academics), and proposes the U.S. Ambassador to the UN initiate an **intergovernmental Commission on Frontier AI** modeled on the IPCC — drafting consensus reports to the Secretary General to foster shared understanding of loss-of-control risk. State Department's OES/STC office is named for bilateral outreach, including encouraging NeurIPS to host AI-risk workshops, supporting carefully-scoped exchange programs, and sponsoring international AI-safety training. The chapter is careful that U.S. government support of these efforts should focus on creating forums rather than shaping substance — credibility requires academic independence.
+
+The treaty work (§5.3) acknowledges that AI poses fundamental challenges to traditional verification. In nuclear arms control, the reactor-grade vs. weapons-grade enrichment distinction makes differential controls feasible; in AI, a training data center is inherently dual-use — it can train safe or weaponized systems with no external signal differentiating them. The chapter's partial answer is that AI is more amenable to **software-based monitoring**, which can be more granular than nuclear-style verification, but Gladstone is clear that both software and traditional verification will be needed in combination. The 2023 UK AI Summit (Bletchley) is cited as having built consensus on two important principles: implementing defense in depth via overlapping controls, and the principle that **the burden of safety should increasingly fall on the developer as systems become more powerful**. The Bletchley Declaration's reference to "intentional misuse or unintended issues of control relating to alignment with human intent" is directly mapped to Gladstone's weaponization/loss-of-control taxonomy. Subsequent summits (South Korea, France 2024) are flagged as opportunities for additional commitments and joint declarations. The IAIA (§5.4) is the long-term institutional vehicle. Gladstone explicitly recommends the IAIA's structure be **expected to evolve**, with iteration analogous to early climate-change treaties and confidence-building observations of counterparty behavior. The four-entity framework from LOE4 (AIMDs, AIHOs, DCIPs, AIHDs) is offered as the IAIA's initial template. A **Compute Suppliers Group (CSG)** is proposed for coordinating export controls of compute hardware to non-IAIA member countries — bringing semiconductor-tool exporting nations together. The nuclear-nonproliferation analogy is invoked: 33 countries today have safe nuclear power, while only 9 have nuclear weapons; differential controls on dual-use technology can succeed even without hermetic containment. The hardest IAIA challenge Gladstone flags is **detection of individual defections** — a participant attempting to develop a self-aligned AGI clandestinely. The chapter acknowledges that no individual mechanism solves this; defense in depth is offered as the answer. Footnote 93 is a meaningful concession: "It may also be possible to implement the functions of an IAIA … through existing mechanisms, channels, and forums" — i.e., a new institution may not be necessary if existing bodies (IAEA-style adaptation, expanded Wassenaar Arrangement) can do the work.
+
+The ASCCR (§5.5) is the chapter's most concretely operational proposal because it can be stood up via existing structures and U.S./allied executive action without UN involvement. Three goals: keep critical supply-chain components in U.S. and allied jurisdictions; control cloud-compute access via RADA-style safeguards; provide a regulated pathway for foreign entities to access U.S./allied cloud compute. The strategic-considerations subsection (§5.5.1) articulates an important regulatory-leverage principle: **the most promising points of regulatory leverage are assets with high capital cost (AI hardware, data centers, semiconductor tooling)**, not low-cost components (textual training data, AI weights themselves once trained, application-layer products). This justifies the supply-chain focus and rules out controls on training data or open-source-model sharing as ineffective. Table 4 lists eleven potential ASCCR inaugural member countries with their specific supply-chain leverage: **Netherlands, Taiwan, South Korea, Singapore, Israel** (semiconductor tooling export controls); **Japan** (semi tooling + tech-transfer + visa screening — most comprehensive position); **Germany, France, UK, Australia, UAE** (technology-transfer controls + foreign-national visa screening). Compliance terms could initially track Annex I's Voluntary Charter or LOE4's RADA safeguards. The chapter notes that on-chip governance technology is a priority area for ASCCR development, with up-front federal investment via LOE3's Centers possibly needed because the technology takes "several years" to develop and deploy at scale. The Wassenaar Arrangement is cited as a candidate vehicle for the ASCCR's controls.
+
+Section 5.6 is the document's most candid acknowledgment of unsolved problems. Three open challenges: (a) AI-capable nations are incentivized to escalate AI-enabled national-security systems even if both sides fully agree on loss-of-control risk, because the precise capability level at which risk manifests is unknown — incremental gains may be perceived as low-risk; (b) reliable compliance verification is genuinely unsolved — on-chip verification is feasible on month-timescales for domestic schemes but takes "several years" for international verification; (c) algorithmic-efficiency improvements may eventually make compute-based controls impractical because more capabilities are accessible at lower compute. Approaches to limiting the pace of algorithmic improvements are mentioned but not developed. The chapter's quiet implication is that defense in depth must extend even to the algorithmic-publication layer (which §4.1.4 publication controls partially addresses).
+
+For Dan's purposes specifically: LOE5 is the most ambitious LOE and the most likely to be operationally deferred, but it has two pieces that are independently citable and tractable in 2026. First, the **ASCCR architecture and the eleven-country leverage table** are useful policy templates regardless of treaty progress — they identify exactly which allies have which kinds of supply-chain control leverage, and the Wassenaar Arrangement is a real, existing institution that can be expanded under existing executive authority. Second, the **outer-vs-inner alignment diplomatic framing** in footnote 91 is genuinely good — it works as a lay-explanation tool for why catastrophic AI risk creates a cooperation incentive even between adversaries. The treaty/IAIA architecture is correctly understood as long-horizon — the chapter does not pretend otherwise — but the structural question it answers (what would a verification-and-monitoring regime for advanced AI look like, and what's the simplest institutional vehicle?) is independently valuable as policy thinking. Major weaknesses: (a) the Bletchley → Seoul → Paris summit chain has produced thinner-than-anticipated binding commitments, weakening the treaty pathway; (b) U.S./UK AISIs (Gladstone's institutional bets for international standards-setting) are politically weakened in 2026; (c) China relations on AI safety have not warmed appreciably, making the Hinton-style academic outreach more important and harder; (d) §5.6's algorithmic-improvement-defeats-compute-controls concession is structurally significant — it implies the entire LOE5 architecture has finite useful life if algorithmic efficiency continues at observed rates (~50% reduction per 18 months, per Chapter 0). The cleanest framing for advocacy: LOE5 is the document's **most ambitious and least urgent** chapter; LOE1 + LOE4 do most of the immediate work, and LOE5 is where the long-horizon stability of the regime ultimately rests. Anyone treating LOE5 as the lever Congress should pull next is misreading the priority order.
+
+#### Fact-sheet
+
+**Four building blocks of LOE5:**
+1. **Consensus and capacity-building** internationally (§5.2)
+2. **International law / treaty** for AI safeguards (§5.3)
+3. **International AI Agency (IAIA)** for monitoring and verification (§5.4)
+4. **AI Supply Chain Control Regime (ASCCR)** with allies (§5.5)
+
+**Desired end state (§5.1):** UN-mandated global treaty that (a) enforces RADA safeguards on training runs above scale/capability thresholds; (b) places monitoring duty on cloud providers above scale thresholds; (c) implements hardware-based AI-chip tracking and international monitoring of AI chip usage.
+
+**Consensus-building approach (§5.2.1):**
+- **Loss-of-control framing is more diplomatically tractable than weaponization** — see footnote 91
+- Foundational forums: Global Partnership for AI, UN CCW GGE on LAWs, OECD, AI Partnership for Defense
+- Bletchley Declaration (UK 2023, 28 countries + EU) explicitly maps to Gladstone's weaponization/loss-of-control taxonomy
+
+**Outer-vs-inner alignment diplomatic frame (footnote 91, the chapter's best one-line tool):** Because the inner-alignment problem is unsolved, *no actor can be assured of controlling an AGI even if they develop and train it themselves.* Therefore all actors — including adversaries — share an incentive to cooperate in preventing such systems while inner alignment remains open. This is the chapter's best argument that catastrophic-risk reduction is not zero-sum.
+
+**Technical outreach (§5.2.1.2):**
+- Endorses **Hinton-led Western-academic outreach** to Chinese AI researchers (begun 2023)
+- 2023 **CAIS Statement on AI Risk** cited; signatories include several Chinese academics
+- Proposes **U.S. Ambassador to UN** initiate **intergovernmental Commission on Frontier AI** — IPCC model
+- State Department **OES/STC office** for bilateral outreach
+- Specific tactics: NeurIPS workshops, exchange programs, technical training courses for Chinese-AI-research community
+
+**Treaty considerations (§5.3):**
+- AI training data centers are **inherently dual-use** — no nuclear-style enrichment-level analog
+- **Software-based monitoring** is the partial answer — more granular than traditional verification, but both will be needed
+- **Bletchley consensus** principles: (a) defense in depth via overlapping controls; (b) burden of safety falls on developer as system becomes more powerful
+- Ongoing contention: at what capability threshold do open-access AI systems stop being compatible with global safety
+- Subsequent summits (Seoul, Paris 2024) flagged as opportunities for joint declarations
+
+**IAIA structure (§5.4):**
+- Initial RADA template: 4-entity / multi-tier framework from LOE4
+- **Compute Suppliers Group (CSG)** for coordinated export controls to non-IAIA members
+- **Nuclear-nonproliferation analogy**: 33 safe-power countries vs. 9 nuclear-weapons countries — differential controls on dual-use tech can work
+- Hardest challenge: detect individual defections (a participant clandestinely developing self-aligned AGI)
+- **Footnote 93 concession**: IAIA functions could be implemented via existing channels (no new institution strictly required)
+
+**ASCCR architecture (§5.5) — most concretely operational:**
+
+Three goals:
+- Keep critical supply-chain components in U.S. and allied jurisdictions
+- Control cloud-compute access via RADA-style safeguards
+- Provide regulated pathway for foreign entities to access U.S./allied cloud subject to safeguards
+
+**Regulatory-leverage principle (§5.5.1):** Most effective leverage is on **high-capital-cost** assets (AI hardware, data centers, semiconductor tooling). Low-cost components (textual training data, AI weights, applications) are not promising loci of control. This rules out training-data controls and open-access-model-sharing controls as primary mechanisms.
+
+**Eleven candidate ASCCR inaugural members and their leverage (Table 4):**
+
+| Country | Leverage |
+|---|---|
+| Netherlands | Semiconductor tooling export controls |
+| **Japan** | **Semi tooling + tech-transfer + visa screening (most comprehensive)** |
+| Germany | Tech-transfer + visa screening |
+| Taiwan | Semiconductor tooling export controls |
+| United Kingdom | Tech-transfer + visa screening |
+| South Korea | Semiconductor tooling export controls |
+| France | Tech-transfer + visa screening |
+| Australia | Tech-transfer + visa screening |
+| Israel | Semiconductor tooling export controls |
+| Singapore | Semiconductor tooling export controls |
+| United Arab Emirates | Tech-transfer + visa screening |
+
+**ASCCR institutional vehicle:** **Wassenaar Arrangement** cited as candidate existing structure. ASCCR also potentially feeds IAIA monitoring functions if IAIA later established. Compliance terms could initially track Annex I (Voluntary Charter) or LOE4 RADA safeguards.
+
+**On-chip governance** flagged as ASCCR priority — needs federal R&D investment via LOE3 Centers because the technology takes "several years" to develop and deploy at scale.
+
+**Open challenges (§5.6) — Gladstone's most candid concession:**
+- (a) AI-capable nations incentivized to escalate AI-enabled national-security systems even if loss-of-control risk is shared knowledge — incremental gains perceived as low-risk
+- (b) Reliable compliance verification is unsolved: on-chip verification feasible at month-timescales domestically, "several years" internationally
+- (c) **Algorithmic-efficiency improvements may eventually defeat compute-based controls** — capability-per-OP is rising; defense in depth would need to extend to algorithmic-publication layer (LOE4 §4.1.4 publication controls only partially address)
+
+**Companion document referenced:** *Survey of AI Technologies and R&D Trajectories* (cited multiple times throughout LOE5).
+
+**Annexes referenced from LOE5:**
+- Annex C (failure scenarios — for diplomatic engagement)
+- Annex F (persuasion and manipulation — international information-warfare risk)
+- Annex G (compute primer — supports ASCCR/IAIA threshold definitions)
+- Annex I (Voluntary Charter — basis for initial ASCCR compliance terms)
+- Annex L, L.4 (hardware-based verification — feeds IAIA/ASCCR monitoring)
+- Annex N, N.4 (data controls scoped to specific training runs — narrow exception to no-data-controls principle)
+- Annex P, P.2 (KYC on end users — narrow exception to no-application-controls principle)
+
+**Page anchors:**
+- Desired end state: p. 142
+- Outer-vs-inner alignment diplomatic frame (fn. 91): p. 145
+- Hinton outreach + CAIS Statement: pp. 146–147
+- Intergovernmental Commission on Frontier AI (IPCC analog): p. 147
+- Treaty verification challenge (dual-use vs. nuclear enrichment): pp. 150–151
+- Bletchley consensus principles: p. 151
+- IAIA design + footnote 93 concession: pp. 152–153
+- Compute Suppliers Group (CSG): pp. 153–154
+- Regulatory-leverage principle (high-capital-cost): pp. 155–156
+- 11-country ASCCR table: pp. 156–157
+- Open challenges including algorithmic-efficiency concession: pp. 157–158
+
+**Notable analytical/strategic moves:**
+- **Outer-vs-inner alignment as cooperation incentive** — the chapter's best diplomatic move.
+- **Loss-of-control framing more tractable than weaponization** — counterintuitive, but argued well.
+- **Nuclear-nonproliferation differential controls work for dual-use tech** — 33:9 ratio cited.
+- **High-capital-cost regulatory leverage principle** — rules out training-data and open-access-weight controls as primary mechanisms; focuses leverage on hardware/data centers.
+- **Intergovernmental Commission on Frontier AI = IPCC analog** — credible institutional model.
+- **Wassenaar as existing ASCCR vehicle** — does not require new institution.
+- **Footnote 93 IAIA concession** — IAIA functions implementable via existing channels.
+
+**Methodological tensions and 2026-context flags:**
+- **Bletchley → Seoul → Paris summit chain** has produced thinner-than-anticipated binding commitments — treaty pathway is weakened.
+- **U.S./UK AISIs** are politically weakened in 2026 — Gladstone's institutional bets for standards-setting are at risk.
+- **U.S.-China relations on AI safety** have not warmed appreciably — Hinton-style academic outreach is more important and harder.
+- **§5.6 algorithmic-efficiency concession** is structurally significant — it implies the entire LOE5 architecture has finite useful life.
+- **Footnote 93 IAIA concession** is the chapter's most useful institutional realism — but also weakens the case for the IAIA as a discrete institution.
+
+**What survives the 2026 political shift:**
+- **ASCCR architecture + 11-country leverage table** — usable as policy template via Wassenaar Arrangement under existing executive authority.
+- **Outer-vs-inner alignment diplomatic frame** — durable advocacy and explanation tool.
+- **Compute Suppliers Group (CSG)** as a coordinative concept among semi-tooling exporters.
+- **High-capital-cost regulatory leverage principle** — survives any political configuration.
+- **Intergovernmental Commission on Frontier AI** — can be advocated separately even if treaty stalls.
+
+**Crucial frame to preserve in advocacy:** LOE5 is **the most ambitious and least urgent** LOE. The work it sets up — treaty, IAIA, ASCCR — is long-horizon and requires the foundational LOE1/LOE4 work to be in motion first. Anyone using LOE5 as evidence that international action precedes domestic action is misreading the priority order: Gladstone is explicit (§5.1, §5.2) that the U.S. needs to "secure the most time-critical components of its own domestic AI supply chain" first. The ASCCR is the only LOE5 element that could plausibly run on a near-term timeline, and only because it can leverage existing structures (Wassenaar) rather than create new ones.
+
+---
+
+[remaining sections 08–11 to be added in subsequent passes]
