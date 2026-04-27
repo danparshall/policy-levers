@@ -1,0 +1,449 @@
+       COMPREHENSIVE LIST OF
+THE COMMISSION’S 2024 RECOMMENDATIONS
+
+     Part II: Technology and Consumer Product
+                 Opportunities and Risks
+Chapter 3: U.S.-China Competition in Emerging Technologies
+The Commission recommends:
+ 1. Congress establish and fund a Manhattan Project-like program
+    dedicated to racing to and acquiring an Artificial General In-
+    telligence (AGI) capability. AGI is generally defined as systems
+    that are as good as or better than human capabilities across
+    all cognitive domains and would surpass the sharpest human
+    minds at every task. Among the specific actions the Commission
+    recommends for Congress:
+    • Provide broad multiyear contracting authority to the execu-
+       tive branch and associated funding for leading artificial in-
+       telligence, cloud, and data center companies and others to
+       advance the stated policy at a pace and scale consistent with
+       the goal of U.S. AGI leadership; and
+    • Direct the U.S. secretary of defense to provide a Defense Pri-
+       orities and Allocations System “DX Rating” to items in the
+       artificial intelligence ecosystem to ensure this project receives
+       national priority.
+ 2. Congress consider legislation to:
+    • Require prior approval and ongoing oversight of Chinese in-
+       volvement in biotechnology companies engaged in operations
+       in the United States, including research or other related
+       transactions. Such approval and oversight operations shall
+       be conducted by the U.S. Department of Health and Human
+       Services in consultation with other appropriate governmental
+       entities. In identifying the involvement of Chinese entities
+       or interests in the U.S. biotechnology sector, Congress should
+       include firms and persons:
+       ○ Engaged in genomic research;
+       ○ Evaluating and/or reporting on genetic data, including for
+          medical or therapeutic purposes or ancestral documenta-
+          tion;
+       ○ Participating in pharmaceutical development;
+       ○ Involved with U.S. colleges and universities; and
+       ○ Involved with federal, state, or local governments or agen-
+          cies and departments.
+                                 (733)
+                               734
+
+   • Support significant Federal Government investments in bio-
+      technology in the United States and with U.S. entities at
+      every level of the technology development cycle and supply
+      chain, from basic research through product development and
+      market deployment, including investments in intermediate
+      services capacity and equipment manufacturing capacity.
+3. To protect U.S. economic and national security interests, Con-
+   gress consider legislation to restrict or ban the importation of
+   certain technologies and services controlled by Chinese entities,
+   including:
+   • Autonomous humanoid robots with advanced capabilities of
+      (i) dexterity, (ii) locomotion, and (iii) intelligence; and
+   • Energy infrastructure products that involve remote servicing,
+      maintenance, or monitoring capabilities, such as load balanc-
+      ing and other batteries supporting the electrical grid, bat-
+      teries used as backup systems for industrial facilities and/
+      or critical infrastructure, and transformers and associated
+      equipment.
+4. Congress encourage the Administration’s ongoing rulemaking
+   efforts regarding “connected vehicles” to cover industrial ma-
+   chinery, Internet of Things devices, appliances, and other con-
+   nected devices produced by Chinese entities or including Chi-
+   nese technologies that can be accessed, serviced, maintained, or
+   updated remotely or through physical updates.
+5. Congress enact legislation prohibiting granting seats on boards
+   of directors and information rights to China-based investors in
+   strategic technology sectors. Allowing foreign investors to hold
+   seats and observer seats on the boards of U.S. technology start-
+   ups provides them with sensitive strategic information, which
+   could be leveraged to gain competitive advantages. Prohibiting
+   this practice would protect intellectual property and ensure that
+   U.S. technological advances are not compromised. It would also
+   reduce the risk of corporate espionage, safeguarding America’s
+   leadership in emerging technologies.
+6. Congress establish that:
+   • The U.S. government will unilaterally or with key interna-
+      tional partners seek to vertically integrate in the develop-
+      ment and commercialization of quantum technology.
+   • Federal Government investments in quantum technology
+      support every level of the technology development cycle and
+      supply chain from basic research through product develop-
+      ment and market deployment, including investments in in-
+      termediate services capacity.
+   • The Office of Science and Technology Policy, in consultation
+      with appropriate agencies and experts, develop a Quantum
+      Technology Supply Chain Roadmap to ensure that the United
+      States coordinates outbound investment, U.S. critical supply
+      chain assessments, the activities of the Committee on Foreign
+      Investment in the United States (CFIUS), and federally sup-
+      ported research activities to ensure that the United States,
+                                735
+
+      along with key allies and partners, will lead in this critical
+      technology and not advance Chinese capabilities and devel-
+      opment.
+Chapter 4: Unsafe and Unregulated Chinese Consumer Goods:
+    Challenges in Enforcing Import Regulations and Laws
+The Commission recommends:
+ 7. With respect to imports sold through an online marketplace,
+    Congress eliminate Section 321 of the Tariff Act of 1930 (also
+    known as the “de minimis” exemption), which allows goods val-
+    ued under $800 to enter the United States duty free and, for
+    all practical purposes, with less rigorous regulatory inspection.
+    Congress should provide U.S. Customs and Border Protection
+    adequate resources, including staff and technology, for imple-
+    mentation, monitoring, and enforcement.
+ 8. Congress amend the Consumer Product Safety Act to (1) grant
+    the U.S. Consumer Product Safety Commission (CPSC) unilat-
+    eral mandatory recall authority over products where the Chi-
+    nese seller is unresponsive to requests from the CPSC for fur-
+    ther information or to initiate a voluntary recall and the CPSC
+    has evidence of a substantial product hazard, defined as either
+    failing to comply with any CPSC rule, regulation, standard, or
+    ban or posing a substantial risk of injury to the public; and (2)
+    classify Chinese e-commerce platforms as distributors to allow
+    for enforcement of recalls and other safety standards for prod-
+    ucts sold on these platforms.
+ 9. Congress direct the U.S. Department of Homeland Security and
+    U.S. Customs and Border Protection, in conjunction with the
+    U.S. Department of Commerce, to develop assessment tools ca-
+    pable of identifying the true origins of parts, components, and
+    materials contained in products entering the United States to
+    prevent tariff evasion and limit safety and security risks in
+    light of the increasing complexity of global supply chains.
+10. Congress require that the U.S. Trade Representative, in consul-
+    tation with the U.S. Department of Commerce, the U.S. Inter-
+    national Trade Commission, and other entities, as appropriate,
+    prepare a comprehensive report within 90 days on the operation
+    of the U.S.-Mexico-Canada Trade Agreement since its entry into
+    force that provides data and information on:
+    • Chinese-affiliated investments in Mexico and Canada and
+       specific information on their production of goods and how
+       those goods may enter the U.S. market either as finished
+       products or as components in other products;
+    • Trade flows of products produced in China to Mexico and
+       Canada and how such trade flows have changed;
+    • Prices of products produced in China shipped to Mexico and
+       Canada as well as products shipped through those countries
+       to the United States and how those prices relate to the prices
+       of such goods shipped directly into the U.S. market; and
+    • Trade enforcement actions by Mexico and Canada regarding
+       Chinese-produced products (including those transshipped
+                                  736
+
+      through third countries’ markets) and how such actions re-
+      late to U.S. trade enforcement actions.
+11. Congress amend applicable laws to mandate that online mar-
+    ketplaces clearly disclose on product listings for Chinese-made
+    goods the name, physical address, and contact information for
+    the manufacturer. The online marketplaces should also be re-
+    quired to clearly display a warning label that the item is man-
+    ufactured in a country that does not comply with U.S. consumer
+    safety standards.
+12. Congress direct the U.S. Government Accountability Office to
+    investigate the reliability of safety testing certifications for con-
+    sumer products and medical devices imported from China.
+
+           Part III: Competition and Conflict
+Chapter 5: China and the Middle East
+The Commission recommends:
+13. Congress direct the Office of the Director of National Intelli-
+    gence to produce and provide to the U.S. Department of the
+    Treasury within six months a detailed study of Chinese pur-
+    chases of Iranian oil over the span of the last five years. The
+    study shall include analysis of China’s use of transshipment
+    points and shell companies as methods to insulate itself from
+    sanctions. Congress should further direct that within six months
+    of receipt of the study, the Treasury Department must make a
+    determination if sanctionable activity is occurring and report its
+    findings to Congress.
+14. Congress direct the U.S. member on the International Maritime
+    Organization (IMO) Council to use their voice and vote to re-
+    quire China to abide by its treaty obligations under the IMO
+    conventions, including by upholding safety regulations on the
+    use of Automatic Identification System transponders.
+Chapter 6: Key Economic Strategies for Leveling the U.S.-
+    China Playing Field
+The Commission recommends:
+15. Congress consider legislation to eliminate federal tax expendi-
+    tures for investments in Chinese companies on the Entity List
+    maintained by the U.S. Department of Commerce, or identified
+    as a Chinese military company on either the “Non-Specially
+    Designated National (SDN) Chinese Military-Industrial Com-
+    plex Companies List” maintained by the U.S. Department of
+    the Treasury or the “Chinese military companies” list main-
+    tained by the U.S. Department of Defense. Among the tax
+    expenditures that would be eliminated prospectively are the
+    preferential capital gains tax rate, the capital loss carry-for-
+    ward provisions, and the treatment of carried interest.
+16. To enhance the effectiveness of export controls, Congress should:
+    • Improve the analytic and enforcement capabilities of the U.S.
+      Department of Commerce’s Bureau of Industry and Security
+      (BIS) by providing resources necessary to hire more in-house
+                                 737
+
+      experts; establish a Secretary’s Fellows Program to more ef-
+      fectively attract interagency talent; expand partnerships with
+      the national labs; increase access to data and data analysis
+      tools, including the acquisition of proprietary datasets and
+      modern data analytic systems; and hire additional agents
+      and analysts for the Office of Export Enforcement.
+    • Amend the Export Control Reform Act to require that within
+      30 days of granting a license for export to entities on the
+      Entity List, including under the Foreign Direct Product Rule,
+      BIS shall provide all relevant information about the license
+      approval to the relevant congressional committees, subject to
+      restrictions on further disclosure under 50 U.S.C. § 4820(h)(2)
+      (B)(ii).
+    • Direct the president to:
+      ○ Designate a senior official to coordinate efforts across the
+         Administration to prioritize bilateral and multilateral sup-
+         port for U.S. export control initiatives; and
+      ○ Establish a Joint Interagency Task Force, reporting to and
+         overseen by the national security advisor and with its own
+         budget and staff, to assess ways to achieve the goal of lim-
+         iting China’s access to and development of advanced tech-
+         nologies that pose a national security risk to the United
+         States. The task force should include designees from the
+         U.S. Departments of Commerce, Defense, State, Treasury,
+         and Energy; the intelligence community; and other rele-
+         vant agencies. It should assess the effectiveness of existing
+         export controls; provide advice on designing new controls
+         and/or using other tools to maximize their effect while min-
+         imizing their negative impact on U.S. and allied economies;
+         and recommend new authorities, institutions, or interna-
+         tional arrangements in light of the long-term importance
+         of U.S.-China technology competition.
+    • Codify the “Securing the Information and Communications
+      Technology and Services Supply Chain” Executive Order to
+      ensure that as the authority is used more robustly, challenges
+      to its status as an executive order will not constrain BIS’s
+      implementation decisions or delay implementation.
+17. Congress direct the Administration to create an Outbound In-
+    vestment Office within the executive branch to oversee invest-
+    ments into countries of concern, including China. The office
+    should have a dedicated staff and appropriated resources and
+    be tasked with:
+    • Prohibiting outbound U.S. investment through a sector-based
+      approach in technologies the United States has identified as
+      a threat to its national or economic security;
+    • Expanding the list of covered sectors with the goal of aligning
+      outbound investment restrictions with export controls. The of-
+      fice should identify and refine the list of covered technologies
+      in coordination with appropriate agencies as new innovations
+      emerge; and
+                                 738
+
+    • Developing a broader mandatory notification program for
+       sectors where investment is not prohibited to allow policy-
+       makers to accumulate visibility needed to identify potential
+       high-risk investments and other sectors that pose a threat
+       to U.S. national or economic security. In addition to direct
+       investments, the notification regime should capture passive
+       investment flows to help inform debates around the expan-
+       sion of prohibitions to cover portfolio investment.
+18. Congress repeal Permanent Normal Trade Relations (PNTR) for
+    China. The PNTR status allows China to benefit from the same
+    trade terms as U.S. allies, despite engaging in practices such as
+    intellectual property theft and market manipulation. Repealing
+    PNTR could reintroduce annual reviews of China’s trade prac-
+    tices, giving the United States more leverage to address unfair
+    trade behaviors. This move would signal a shift toward a more
+    assertive trade policy aimed at protecting U.S. industries and
+    workers from economic coercion.
+19. Congress direct relevant departments and agencies to expand
+    their data collection and transparency initiatives into the vol-
+    ume and types of investment flowing into China by taking the
+    following actions:
+    • Amending the International Investment and Trade in Ser-
+       vices Survey Act to require the Bureau of Economic Analysis
+       within the U.S. Department of Commerce to publish more
+       detailed sectoral breakdowns of U.S. direct investment in
+       China on a nationality basis and the U.S. Department of the
+       Treasury to publish annual sector breakdowns of U.S. portfo-
+       lio investment in China on a nationality basis. The portfolio
+       investment sectors should be more specific than those provid-
+       ed by the Commerce Department for direct investment. Ad-
+       ditionally, Congress should require the Treasury Department
+       to publish quarterly updates—without sector breakdowns—of
+       nationality-based portfolio investment in China.
+    • Requiring the U.S. Department of Commerce to produce a
+       report on the feasibility and methodology for publishing na-
+       tionality-based results for direct investment, where offshore
+       tax havens and locales of incorporation would not be said to
+       receive hundreds of billions of dollars and true destinations
+       of the capital would be accurately identified.
+20. Congress direct the Administration to impose sanctions on Chi-
+    nese financial institutions that violate sanctions, including those
+    that are proven to be working with or supporting the Russian
+    military industrial base or facilitating purchases of Iranian oil.
+21. In light of the periodic and increasingly frequent removal of
+    some of these materials from Chinese websites, Congress direct
+    the executive branch to fund the creation and operation of a
+    regularly updated, permanent data archive, in effect a series
+    of snapshots of portions of the Chinese internet. In the past
+    decade, foreign analysts have made use of open source Chi-
+    nese-language materials to gain insight into various aspects of
+    current policy as well as internal (but unclassified) discussions
+                                739
+
+    of future military, diplomatic, and economic strategy. Informa-
+    tion would be stored in the permanent data archive, accessible
+    to both government and private analysts.
+22. Congress consider legislation to set priorities and goals for
+    U.S.-China economic relations. These policy priorities and goals
+    should include:
+    • Updating existing trade and economic tools to ensure their
+       timely application, utility, and effectiveness in countering
+       China’s non-market economic policies;
+    • Limiting U.S. economic and security dependence on supply
+       chains in critical and emerging products, technologies, and
+       services provided by companies controlled, operating in, or
+       subject to the influence of China;
+    • Enhancing the accountability of the executive branch to Con-
+       gress and increasing the transparency of its actions to ensure
+       coordinated governmental action and respect for Congress’s
+       constitutional Article I, Section 8 authority;
+    • Prioritizing domestic production and employment while also
+       recognizing the need, as appropriate, to coordinate and align
+       policies with friends and allies;
+    • Acting to address production overcapacity fueled by Chinese
+       policies and actions; and
+    • Advancing the resilience of the U.S. economy and ensuring its
+       access to key inputs and technologies.
+23. Congress pass legislation eliminating the ability of entities
+    operating in U.S. Foreign-Trade Zones (FTZs) to qualify for
+    zero or lower tariffs on products imported from China or Chi-
+    nese-affiliated or -invested entities into the FTZ and then re-
+    exported.
+24. The relevant committees of Congress hold hearings to assess
+    the desirability and feasibility of creating a trade defense co-
+    alition with other like-minded countries to forestall the risk
+    of a second China shock. Such a grouping would seek to align
+    policies for responding to the recent acceleration in China’s ex-
+    ports of subsidized, underpriced materials and manufactured
+    goods.
+Chapter 7: China’s New Measures for Control, Mobilization,
+    and Resilience
+The Commission recommends:
+25. Congress direct the Office of the Director of National Intelli-
+    gence, within 180 days, to conduct a classified assessment, and
+    brief its findings to Congress, of the intelligence community’s
+    (IC) ability to accurately monitor strategic, nonmilitary indi-
+    cators that would signal that China is preparing for immi-
+    nent conflict and the extent to which China’s increasing lack
+    of transparency affects the IC’s ability to monitor this infor-
+    mation. The assessment should include, but not be limited to,
+    the following:
+                                740
+
+    • The IC’s ability to monitor:
+      ○ China’s energy storage locations and stockpiling rates, par-
+         ticularly for crude oil, coal, and natural gas;
+      ○ Production shifts from civilian to military industries;
+      ○ China’s national defense mobilization system; and
+      ○ China’s strategic reserves and their compositions and lo-
+         cations;
+    • The IC’s ability to coordinate with non-Title 10 and -Title 50
+      federal agencies that have technical expertise in agriculture
+      and trade to monitor China’s food and energy stockpiling and
+      any derived indicators that may signal a potential prepara-
+      tion for conflict;
+    • Whether the IC’s current geospatial intelligence posture is
+      adequate to compensate for the loss of open source informa-
+      tion from China; and
+    • The desirability and feasibility of establishing an Energy
+      Strategic Warning system involving coordination between rel-
+      evant entities including the National Geospatial-Intelligence
+      Agency and the U.S. Departments of Energy, Commerce,
+      State, and the Treasury.
+Chapter 8: China’s Evolving Counter-Intervention Capabilities
+    and the Role of Indo-Pacific Allies
+The Commission recommends:
+26. Congress direct the U.S. Department of Defense to produce
+    within 60 days a classified net assessment report on current
+    People’s Liberation Army (PLA) Command, Control, Communi-
+    cations, Computers Intelligence, Surveillance, and Reconnais-
+    sance (C4ISR) capabilities and PLA electronic warfare (EW) ca-
+    pabilities (including electronic attack and electronic protection
+    capabilities). The report should examine U.S. counter-C4ISR
+    and counter-EW capabilities, assess the resiliency of U.S. capa-
+    bilities, identify counter-C4ISR and counter-EW gaps, and pro-
+    vide a menu of procurement options to close the gaps. Not later
+    than 60 days after its completion, the U.S. secretary of defense
+    shall provide the report to the appropriate congressional com-
+    mittees and brief them on its findings.
+27. Congress direct the Office of the Director of National Intelli-
+    gence, in conjunction with the U.S. Departments of Defense,
+    Commerce, and the Treasury, and other relevant agencies, to
+    conduct a comprehensive review of potential technological
+    chokepoints across the People’s Republic of China military in-
+    dustrial base and devise plans to apply controls, in conjunction
+    with allies, to slow China’s military development.
+28. Congress reinvigorate and recommit to space as an area of
+    strategic competition, including by conducting a review of the
+    commercial space industry to determine if there are regulatory
+    updates that would ensure that the U.S. commercial space in-
+    dustry is able to innovate as quickly as possible while maintain-
+    ing safety as a top priority.
+                                  741
+
+             Part IV: Taiwan and Hong Kong
+Chapter 9: Taiwan
+The Commission recommends:
+29. Congress amend the Arms Export Control Act of 1976 to include
+    Taiwan on the list of “NATO Plus” recipients.
+30. Congress create a “Taiwan Allies Fund” that would provide
+    foreign assistance only to countries that have an official diplo-
+    matic relationship with Taiwan. No country could receive more
+    than 15 percent of the appropriated funding each year. Coun-
+    tries that no longer have a diplomatic relationship with Taiwan
+    would immediately be ineligible for this funding.
+Chapter 10: Hong Kong
+The Commission recommends:
+31. Congress require the Administration to produce a determina-
+    tion whether reasonable grounds exist for concluding that the
+    Hong Kong Special Administrative Region should be designated
+    as a Primary Money Laundering Concern (PMLC) jurisdiction
+    under Section 311 of the Patriot Act due to its growing role as
+    the central sanctions evasion hub and transshipment center for
+    illicit finance and technology to Russia, Iran, and North Korea.
+32. Congress direct the U.S. Department of the Treasury, in coor-
+    dination with the U.S. Departments of State and Commerce,
+    to provide the relevant congressional committees a report as-
+    sessing the ability of U.S. and foreign financial institutions
+    operating in Hong Kong to identify and prevent transactions
+    that facilitate the transfer of products, technology, and money
+    to Russia, Iran, and other sanctioned countries and entities in
+    violation of U.S. export controls, financial sanctions, and related
+    rules. The report should:
+    • Evaluate the extent of Hong Kong’s role in facilitating the
+       transfer of products and technologies to Russia, Iran, other
+       adversary countries, and the Mainland, which are prohibited
+       by export controls from being transferred to such countries;
+    • Evaluate Hong Kong’s role in facilitating trade and financial
+       transactions that violate U.S. sanctions on Russia, Iran, and
+       other countries and entities subject to U.S. financial sanctions;
+    • Examine whether Hong Kong’s National Security Law has
+       limited the ability of financial institutions to adhere to global
+       standards for anti-money laundering and know-your-custom-
+       er procedures; and
+    • Describe the level of cooperation between Hong Kong and
+       U.S. authorities in enforcing export controls and sanctions
+       regimes.
+
