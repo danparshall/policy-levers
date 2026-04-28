@@ -1,0 +1,223 @@
+The chain of command
+
+
+If a national-scale project works and we build a superintelligence, prevent it from being stolen,
+and manage to contain and steer it, a few people will find themselves in control of a world-
+defining technology. The decisions those people make will shape the future of America and the
+world beyond. Even if this project achieves all its other objectives, it will fail if those in control
+use their power in a way that undermines American ideals.
+
+
+The concentration of power that comes with superintelligence is as much a problem for the
+private AI labs who might build it as it would be for a national project. That’s why frontier AI
+researchers, startup founders, and investors — including some of the most influential figures in
+Silicon Valley — have already started privately raising concerns about the leadership of some of
+those private AI labs. To quote one frontier researcher as he was discussing a particular top
+lab’s CEO, “It seems clear he’s a pathological liar, and I think there’s a good chance that he’s a
+full-on sociopath. He’s power-hungry, and I’d bet he’s willing to trade U.S. national security
+interests for a better chance of controlling superintelligence. As far as I know, he’s not opposed
+to making compute clusters in [regions under totalitarian control]. He’s probably up there in
+terms of one of the worst people to run a government AI project.” He later added, “Very many
+people who’ve worked with him closely feel the same – maybe not as strongly, but basically the
+same.” At the time, we were surprised enough by this position that we interviewed several
+other individuals with professional exposure to the CEO in question. And while their views did
+vary, a majority did generally agree with that researcher’s assessment.
+
+
+While we found that case surprising and notable, the issue isn’t whether or not a specific AI
+executive is willing to compromise U.S. interests or is otherwise driven by a desire for personal
+power. The real problem is that all the checks and balances on power that American democracy
+depends on simply fall apart in the face of superintelligence.57
+
+
+Many frontier lab insiders and top Silicon Valley investors openly expect that the capabilities of
+near-future AI systems will make it possible for one person to create mutli-billion dollar
+
+57 Several whistleblowers shared their concerns with us about current checks and balances at frontier
+
+labs. As one former OpenAI researcher told us, referring to OpenAI’s new board, “Frankly, the function
+of the Board is to pretend to oversee the company.” Of course opinions will differ, and we spoke to
+some current OpenAI employees who said they did not share this view. This level of oversight would also
+be perfectly fine at a random software company. But it’s not strong enough for a company that’s said it’s
+aiming to build a superintelligence.
+
+
+                                                                                                   45 of 62
+businesses alone. We think this is probably true, but its implications obviously don’t stop at
+“single-employee unicorn startups”. If AI really does provide this much leverage, it could easily
+make it possible for a single person at a computer console to launch nation-crippling
+cyberattacks or automated persuasion campaigns without anyone else signing off, or even
+knowing about it.
+
+Power corrupts, and absolute power corrupts absolutely. This level of power is dangerous for a
+fundamental reason: it threatens basic American freedoms. The Founding Fathers wrote
+separation of powers into the constitution for a reason. The constitutional mechanisms they
+introduced have stood the test of time, but they weren’t built to handle the extreme power that
+could come with technology like superintelligence.
+
+Superintelligence will concentrate power like we’ve never seen before, and in ways that aren’t
+necessarily obvious. If Xi Jinping had a superintelligent AI deployed at scale, he wouldn’t need
+to keep his population under control by conventional means — or even necessarily to keep
+them alive at all: ultimately, his tax revenues would come from an automated economy, in
+which people are mostly dead weight. Even in America, a 4-year political appointee who
+happens to oversee a superintelligence project might end up wielding more power than any
+leader in history ever has, despite not having been appointed with anything close to that level
+of responsibility in mind. What’s more, the person or group that controls superintelligence may
+be able to use it to circumvent their chain of command and democratic restraints in any
+number of ways, including by deceiving or persuading others that they’re doing the right thing.
+
+
+The imperative to prevent concentration of power and protect the project from corruption has
+to be traded off against two hard requirements. The first is time: checks and balances take time
+to develop and they slow down progress. And the second is security: information relevant to
+major decisions about the direction of the project will have to be closely held to prevent
+damaging leaks.
+
+
+But too much concentration of power in a superintelligence project isn’t something that can be
+fixed after the fact. The chain of command for a national AI project will need to have oversight
+over both the superintelligent AI itself, and also over the AI systems the project develops on
+the path to superintelligence, if they have specific superhuman capabilities like persuasion and
+deception that could compromise the project from the inside. We won’t get many chances to
+get this right.
+
+
+The chain of command needs to be put in place before it’s needed, or the entire project could
+be corrupted by a small group of people. Thanks to automated AI research agents, frontier
+
+
+                                                                                             46 of 62
+labs’ most advanced activities could ultimately be controlled by just a few people — or even
+just by one. In fact, one frontier researcher, who was citing OpenAI as an example, remarked
+“Man, at some point the silo might be literally [OpenAI President] Greg Brockman”.
+
+
+Recommendations: If a national project has perfect security and it manages to solve the
+problem of controlling a superintelligent AI, then a small handful of people will end up in
+control of the most powerful technology ever created. AI isn’t like nuclear weapons, where
+most of the power comes from the technology’s destructive potential. If you really have a
+superintelligent AI under your control, you might be able to reshape the world directly on your
+own. That’s a recipe for the worst kind of corruption – especially because the demands of
+project security mean that the group in control needs to remain small.
+
+
+This problem only matters if we can both secure and control a superintelligence first — if we
+fail at either of those things, then it won’t matter how good our oversight is. But we still need
+to think about this now, because security, control, and oversight are problems that could come
+up in quick succession one after another. It could be a pretty short jump from an AI that’s so
+capable that destroying or stealing it becomes a CCP strategic priority (security), to an AI that’s
+dangerously hard to control (control), to an AI superweapon that centralizes power in a totally
+unprecedented way (chain of command).
+
+Whatever form a push to superintelligence takes, we’ll need to have checks and balances in
+place from the very beginning that will prevent the individuals in charge from using the
+technology for their own personal or ideological reasons. But just putting the right people in
+charge won’t be enough. Not only does power corrupt, but we should be prepared for the
+possibility that AI systems developed on the path to superintelligence will develop the ability
+to persuade or compel their operators to do things they normally wouldn’t.
+
+The checks and balances we build will need to guide us through a transition period, when we
+have AIs that are very capable but still below the level of superintelligence. We also need to be
+able to halt development if we get security data that suggests a serious breach, technical data
+that indicates that controlling a superintelligence will be too difficult under current conditions,
+or indications that oversight mechanisms are at serious risk of failing. And we’ll have to build
+these checks into a project well before they’re actually needed.
+
+No one has experience designing an oversight mechanism for such a speculative, high-stakes
+project. That said, the nuclear chain of command is a good example of a high-stakes context in
+which security, response times, and democratic accountability all have to be balanced carefully.
+We spoke to specialists in nuclear deterrence, security, and defense to figure how oversight
+
+
+
+                                                                                             47 of 62
+mechanisms for nuclear technology could inform the design of a superintelligence project, and
+were surprised at some potential quick wins that they flagged.
+
+First, it’s a common misconception that the nuclear chain of command always begins with the
+President. In some contexts, authority to launch nukes is delegated to base commanders or
+similar personnel to ensure short response times (though additional checks do apply to them).
+Similarly, in the context of a national superintelligence project, there will surely be game-time
+decisions that cyber operators or national security leadership will have to make quickly and
+with minimal intelligence signatures, but these can be narrowly scoped. Figuring out exactly
+which decisions can be made in real-time by a small set of people, and which need to be
+escalated to a decision-maker with greater democratic accountability is an obvious place to
+start.
+
+Some other questions project designers will have to answer include:
+
+    ●    How many people should have to give independent sign-off for major decisions – and
+         which decisions count as “major”?
+    ●    We’ll need to test and verify the integrity of the project’s chain of command – both the
+         individuals within it, to detect potential signs of duress or foreign influence, and the
+         communications channels they rely on. How should that be done, and by whom?
+    ●    What technical mechanisms, such as codes and keys, should be used? In the current
+         paradigm, users provide AI systems with a prompt to give it instructions. That’s quite
+         different from the far more restricted action space available to the operators of nuclear
+         weapons (roughly: where do I aim, and should I launch or not?). Presumably we want
+         some mechanism to validate the prompts that are fed to the project’s WMD-like
+         models; how should that happen?
+    ●    The technology the project develops could have tremendous economic value. How can
+         we ensure that there’s an “offramp” that allows capabilities we develop in the project’s
+         secure environment to enter the free market to drive growth and prosperity?
+    ●    How do we maintain democratic accountability for project leadership? The project
+         needs to be ultimately responsible to elected representatives of the popular will, the
+         same way our military chain of command operates under civilian leadership.
+    ●    How do we design the right incentives for project leadership? What mechanisms can we
+         use to remove participants if they seem to be compromised, and how can we design
+         those mechanisms so that they can’t themselves be compromised?
+    ●    The space between incentives and behavior is filled by culture. What is the appropriate
+         culture of the project team? How should it balance the imperative to move fast with the
+
+
+
+
+                                                                                              48 of 62
+        security, oversight, and control risks that the project could face? And what does that
+        imply about personnel selection for project leadership, and more operational roles?
+
+Apart from the basics, there are some easy wins we already know from experience that we’ll
+need.58 For example, the oversight team will need to talk to the technical researchers on
+the project directly and constantly, instead of getting all their information through the
+leadership team. Right now, some frontier AI labs use their “policy teams” as a smokescreen
+to filter the information they pass on to the government.59 Government officials get fed pre-
+selected information from policy teams and lab leadership, when they should instead be
+talking directly to the researchers and engineers who are doing the work to get a true picture
+of what’s going on (including those working on capabilities, security, and control). We’ve heard
+this complaint privately from dozens on both sides. Some government teams know they aren’t
+getting the full picture but they aren’t able to talk to the technical teams. And many technical
+researchers want to share their concerns with the government but their labs don’t allow them
+to. That kind of obfuscation won’t fly in a project like this one, and in fact we should put in
+place explicit whistleblower protections and a duty to report to make sure problems don’t get
+swept under the rug.
+
+Setting up good oversight will be hard. But the good news is that if we do this well, it will give
+us an advantage over adversaries in the AI race as well. If there’s a global race to
+superintelligence, countries and people will have to choose sides. If this happens, the United
+States can give itself an advantage by publicly committing to credible, democratically
+accountable oversight of its project. A Chinese effort would be much less credible because
+democratic oversight of a project like this is incompatible with China’s recent history, the CCP’s
+culture, and its values. We should lean into this, commit to as much transparency and oversight
+as we can, and do it boldly and proactively. If Chinese messaging is the first to emphasize a
+democratic mandate — no matter how little real credibility those claims may have — we’ll be
+seen as playing catch-up to China in a domain where our values should have placed us first. We
+should also commit to sharing the benefits of superintelligent AI to support our allies, and to
+encourage them to remain aligned with American superintelligence and national security
+efforts along the way.
+
+
+
+
+58 There are also some easy wins that we don’t have experience with yet but that we’ll obviously need in
+
+the future. For example we’ll need operational controls that scale with the capabilities of the AI — things
+like maintaining digital chains of custody, and preventing any project team member from querying the AI
+on their own if the AI’s persuasive capabilities are rated high enough.
+
+59 This has been a recurring theme in our conversations with AI lab insiders.
+
+
+
+
+                                                                                                   49 of 62
+
