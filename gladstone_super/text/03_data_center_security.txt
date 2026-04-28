@@ -1,0 +1,825 @@
+Data center security
+
+
+When you tour a HPC AI data center with special forces operators, they ask some weird
+questions. Who manufactures the fire alarms? ** **** * *** *** ****** ** * ** ** ** **** * *** ***
+****** ** * ** ** ** **** * *** *** ****** ** * ** ** Where were the critical mineral inputs to the
+AI accelerators processed? What construction company was contracted to build the facility?
+The tactics, techniques, and procedures (TTPs) actually available to and employed by our
+nation-state adversaries are more advanced than hyperscalers, private labs, chip design firms,
+and data center infrastructure providers can know. That will have to change if a U.S.
+government superintelligence project is going to succeed.
+
+
+        With a ******, what you do is you get **** * ***, and you knock out the whole [data center
+        component] with **** * *** You just rip it across the [component] and fucking take it out.11
+
+
+        – Former special forces operator evaluating the security of an AI data center housing
+        hyperscaler infrastructure
+
+
+To train and deploy frontier AI models, you need AI hardware to run computations and move
+data around, a reliable source of high base load power to keep your hardware running, and
+cooling systems to stop your hardware from overheating. If you want to truly secure a U.S.-
+backed superintelligence project, then you need to secure the supply chains for these assets –
+starting with the data centers themselves.
+
+
+Data centers are where the critical supply chains for AI chips, power, and cooling come
+together. They’re the facilities in which a U.S.-backed superintelligence project will actually train
+and run its models. Because of their size and complexity, data centers have lots of human,
+physical, and cyber security access points and vulnerabilities. Nation states can easily exploit
+those vulnerabilities to extract sensitive IP or to damage key facilities, in ways that aren’t
+addressed by any known current or proposed future security measures.
+
+
+In November 2024, we joined a team of former Tier 1 special forces operators and national
+security intelligence professionals and were given access to a ** ** * data center containing
+
+11 Obviously this is a very redacted quote. But the attack described could allow someone to knock out a
+
+>$2B facility on a sub-$30k budget so we were specifically asked not to disclose it in too much detail.
+What’s worth noting here is how quickly and casually individuals with experience executing nation state-
+level operations on similar facilities can identify these extreme asymmetric vulnerabilities.
+
+
+                                                                                                 12 of 62
+hyperscaler AI clusters, in order to assess its security posture. We later also spoke with
+individuals directly responsible for the security of hyperscaler-owned and operated AI data
+centers.
+
+
+Our goal was to understand the current state of data center security, to determine how it needs
+to be improved to resist nation-state attacks, and whether we can expect those improvements
+to happen in time for ASI-grade training runs if they were executed in the 2026-28 era. If we
+take seriously the prospect that superintelligence will be a WMD and or WMI (weapon of mass
+influence), then these data centers will become priority targets for the intelligence and special
+operations of nation-state adversaries and their covert surrogate networks. So in order to
+understand how to secure a superintelligence project, we need to talk to intelligence and
+special forces operators directly.
+
+
+
+Physical security
+
+Today, security practices vary widely between AI data centers operated by hyperscalers12 and
+colocation providers, but some trends are clear. A given data center tends to have a highly
+uneven security posture across different threat vectors. For example, it’s often hard for
+employees or visitors to take photographs of data halls, but it would be easy to ** * **** ******
+** * **** **** *** * ** * ** ****** ** * ******* *** * **** ** ** ****** ** ** * *****. This inconsistent
+security profile is a problem. Even the most secure windows in the world don’t matter if you
+leave the front door open.
+
+
+By the assessment of one special forces operator with direct firsthand experience running *** *
+******* ** * ***** ** *** **** **** * operations in front-line environments, a strike capable of
+destroying a key component of a hyperscaler data center infrastructure “could be done with
+*** ** *** for under 20k [dollars]. Pending you had all the necessary component parts to *****
+***** ** ***** ***** *** ** * **** ***.” When we asked the data center’s security lead how long it
+would take for them to get the facility back online after a strike like this, his reply was “A year?
+
+
+12 There’s no consistent frameworks for data center security today, so security measures reflect individual
+
+companies' tolerance for risk. This is because the security requirements that data center builders and
+operators follow typically come from contractual obligations to the data center’s users and not from any
+particular set of best practices. As it becomes increasingly obvious that frontier AI models are key
+national security assets, this will have to change. Executive and/or legislative actions will have to create
+more consistent and stringent requirements on hyperscalers building and running inference on frontier
+systems.
+
+
+                                                                                                      13 of 62
+Six months at least. ***** **** ******** *** ** ** **** ***** * * ****** ***** *** * ***** ***** ***
+**** * ** ** *** **** ** * ** ** *** ******* ** *** * * *****”13
+
+
+That’s a $2B facility out of commission for over 6 months, on a budget of $20-30k. All from a
+threat that’s been completely overlooked by every widely referenced assessment we’re aware
+of. Fortunately, it’s also a vulnerability that’s easily fixed: according to one special forces
+operator, the lowest-cost ** * *** *** variants of this attack could be blocked by simple and
+cheap add-ons.
+
+
+But this also wasn’t the only critical *** ***** *** * vulnerability the team identified. Many
+critical components of data centers are on multi-year back-order and are highly exposed even
+in the most secure builds. As one operator explained, “With a ******, what you do is you get
+**** * ***, and you knock out the whole [data center component] with **** * ***. You just rip it
+across the [component] and fucking take it out.” We’ve been asked not to share the specific
+components or techniques involved in these attacks precisely because of how significant these
+vulnerabilities are, and how cheaply they can be exploited.
+
+
+These low-cost, highly leveraged and disruptive attacks could easily prove decisive in the
+context of a U.S.-government backed project designed and understood to be aimed at
+developing weaponizable superintelligence, among other capabilities. In particular, if we find
+ourselves in a race to superintelligence with the CCP, a cheap attack on an unprotected data
+center could set our efforts back by months or even years depending on supply chain delays.14
+And although special authorities could considerably reduce wait times for key components,
+significant downtime for core data center infrastructure could still be decisive in an adversarial
+race.
+
+
+Recommendation: At the design stage, new data center projects that are aiming to support
+training and inference for frontier models by the end of 2025 should enlist support from
+individuals with direct experience performing nation-state denial operations, including but
+not limited to operations involving *** * *****. These should specifically include red teaming,
+pentesting, and tabletop exercises supported by current and former special operators to
+address vulnerabilities introduced by new platforms as they come online during design and
+construction. This activity should be coordinated with the U.S. government, and involve the
+
+13 *** ** * ** **** * ** *** *** ***** *** **** * * *** *** ** * ***** *** **** ** * ** * ** *** ** *** **** ***** ** ** *** ** *
+** *** ** **** ** * ***
+
+14 Many of these critical components are themselves sourced from China, which brings its own major
+
+vulnerabilities that we’ll get into in later sections.
+
+
+                                                                                                                         14 of 62
+development of a variant of the **** ** * *** *** * ** *** *** *** ** * **** ** *** * ****** ** ****
+*** *** ** *** *** *** **** ** ** *** * * * *** **** * ** * **** ** ** ** ** * ** * ** **** ** ** ***** *
+*** * ** *** ** *** * **** ** *** ** ** ** ** ** ******** * *** ** **** *** ** *** ****** * *** **** ****
+**** *** * **** ** **** **** **** *** ***** * ** * ***** *** ** ** ****** ** ** ***** **** ** ***** ****
+** * **** *** * *** **. We can provide further information upon request.
+
+
+The IC and national security community will need to work with data center builders,
+hyperscalers, and frontier labs to define security measures that can withstand attacks by
+resourced nation state adversaries. That should include funding or incentivizing fast
+prototyping build-outs and retrofits of data centers and supporting infrastructure that can
+withstand those kinds of attacks. Some or all of these projects will probably fail to meet the full
+level of security they need. Funding for these prototype builds will have to be risk-tolerant the
+same way venture capital is: we can’t let fear of failure hold back critical experiments in data
+center security.
+
+
+We can start with small-scale prototypes. For example, an individual GPU or a pod of 8 GPUs
+with simulated network fabric is something that can be set up very quickly. It can also be red
+teamed and pentested fast before it’s scaled up to a bigger build that fixes the security
+problems that get discovered in smaller-scale iterations.
+
+
+Ultimately, perfect security is impossible, and we shouldn’t expect to be able to build an
+impenetrable fortress. But we should raise the bar for security to the point where our
+adversaries’ attempts to take down key frontier AI infrastructure are attributable, so that
+these attacks lead to a credible threat of retaliation.
+
+
+
+Hardware supply chain security
+
+According to the AI data center builders and operators we spoke to, the supply chains they’d
+need to draw on to provision secure physical data center infrastructure are badly strained.
+Those constraints will impact training runs and deployments of leading AI models in the 2026
+era and beyond. Most at risk are components whose supply chains depend heavily on Chinese
+manufacturers, and which in some cases are produced exclusively by Chinese companies. To
+take just one example, the overwhelming majority of transformer substations contain
+components that were made in China and can be used as back-doors for sabotage
+
+
+
+
+                                                                                                    15 of 62
+operations.15 Indeed back-door electronics are known to have been installed in Chinese-made
+transformers. If a superintelligence project were kick-started under nominal conditions,
+unsecured supply chains for AI hardware, as well as electrical and cooling infrastructure could
+embed physical CCP trojan horses deep into the data centers that house some of the most
+national security-critical technology America will ever build.16
+
+
+What’s more, China announced a $275B investment in AI infrastructure17 within days of the
+announcement of OpenAI’s Project Stargate. In this context, we’d be naive to expect that
+China is going to prioritize shipping critical data center components to U.S. AI labs over its own
+directly competing projects. Therefore we should expect that the lead times on China-sourced
+generators, transformers, and other critical data center components will start to lengthen
+mysteriously beyond what they already are today. This will be a sign that China is quietly
+diverting components to its own facilities, since after all, they control the industrial base that is
+making most of them.18
+
+
+As one example of foreign supply chain dependence, a critical and underappreciated security
+problem for AI data centers is the supply chain for Baseboard Management Controllers (BMCs).
+BMCs are microcontrollers that sit on server motherboards and handle key housekeeping tasks,
+like monitoring temperature, voltage and power flows, detecting memory errors, and
+monitoring network connectivity. BMCs operate even when the main server they monitor is
+powered off, and they have a privileged position in the system architecture: among other
+things, they can directly interface with baseboard hardware, and they can read the firmware
+that links the baseboard hardware to the operating system. This means that attackers who gain
+control of the BMC can **** * ** *** **** ***** *** **** ** ** * ******* ** * ** **** ** * *** ***
+
+
+
+
+15 Other examples include transformers, generators, uninterrupted power supplies, copper cables, etc.
+
+
+16 This isn’t just a problem for the initial build of new data centers and supporting infrastructure. New
+
+components are in constant demand due to the need for continuous maintenance, upgrades, and
+replacement of failed components.
+
+17 The actual amount of the investment is 1 trillion yuan. This has been frequently reported as a $137B
+
+investment, but in reality it’s closer to $275B when measured in purchasing power parity (PPP) terms —
+since that’s a better reflection of what you can buy in-country.
+
+18 If they're clever about it, they will of course never announce these diversions as a policy — we'll just
+
+see lengthening delays and chalk them up to increased demand, competitive bidding for rush orders,
+mundane shipping problems, and so on.
+
+
+                                                                                                      16 of 62
+**** ** **** * * ** ** **** ** * *** ** **** ** ** * **** *** ** **** ** * *** *** *** * *** **** **** ** *
+***** *** ** ***** ** * **** *** *** *** *** *** ***** *** **** *** * *** *.19
+
+
+BMCs are a “soft underbelly” of AI server security – and a dream target for adversaries looking
+to Stuxnet some of our most critical national security assets. Which is why it’s especially bad
+that Taiwan-based ASPEED makes 70% of the world’s BMC chips.20 ASPEED BMCs are all over
+the place, appearing in every Nvidia DGX server – and, while they’re modular in more recent
+Blackwell systems, they’re being widely deployed in hyperscaler AI data centers. We should
+expect ASPEED to already be a target for the CCP, and for their ASPEED infiltration,
+compromise, and sabotage operations to be increasingly prioritized as the stakes of
+superintelligence get more widely recognized. We need made-in-America alternatives.
+
+
+Beyond BMCs, many of the less “sexy”, lower-tech but essential infrastructure components that
+make data centers hum are key vectors for adversary operations. Programmable logic
+controllers (PLCs) that power critical power and cooling systems, for example, have more
+diversified supply chains, but are also under-appreciated attack channels.
+
+
+Reshoring critical supply chains to America or our allies won’t be a matter of months, but of
+years. We won’t have time to do it after we’ve come to a political consensus around securing a
+superintelligence project. But whether or not we ultimately choose to kick off a
+superintelligence project, if we want our infrastructure to be robust to even the most basic of
+these supply chain attacks, we need to start now.
+
+
+There have been proposals to screen physical hardware that enters data centers as part of
+supply chain security. While this helps, it’s not adequate against a resourced attacker that
+controls major parts of the supply chain, as China does. We can't go into details, but we were
+informed during our investigation that there exist techniques for supply chain sabotage,
+including for destruction and surveillance, that are ****** *** *** * **** *** **** ** * **** ** *****
+***** * ******* * ***** **** * ***. As a former intelligence official informed us, the only
+guaranteed defense is full control of the supply chain from mineral extraction to final assembly
+
+
+19 Based on private communication with Seth Demsey.
+
+
+20 Notably, ASPEED BMCs are starting to integrate open-source RISC-V cores which have not been
+
+properly vetted for security. Open-source software in general has security upsides, since in principle it’s
+auditable by external, security-minded developers. Unfortunately the ASPEED RISC-V BMC has received
+very limited security scrutiny to date, particularly relative to proprietary alternatives from Arm and Intel.
+Chinese entities have invested heavily in supporting the rapidly growing RISC-V ecosystem.
+
+
+                                                                                                       17 of 62
+and installation of every component. Of course, perfect security is impossible, and security
+standards have to be balanced against development velocity in the context of a technological
+race. But the intelligence official who shared this assessment with us was basing it on an overall
+evaluation of the risk profile of other forms of WMD development: if we’re going to treat
+superintelligence like the weapon that it will be, then that’s just the security bar we have to
+meet.
+
+
+Recommendation: We need as much production capacity associated with critical data
+center components – like transformers, power supplies, cables, networking equipment,
+and cooling components – onshored as possible. We know from conversations with national
+security professionals that there are ways to doctor components in the supply chain for
+surveillance or sabotage that ****** *** ** **** ** ** ** ****** ** ** ***** *** ****** **. If
+adversaries are manufacturing most of our critical components, that’s a problem we need to
+solve immediately. One possible workaround is *** ***** ** ****** **** ***** ** * * * * ****** ***
+*** *** ** ** ** **** ***** **** *** ** * **** *** * **** **** * ** ***** *** **** * ** ******* ** * *
+******** ***** **** * **** ** ***** * ******* **** ***** ***** **** * ** *** ***** *** *** *** * * ****
+* We need to assess how feasible this would be for each critical component in the AI supply
+chain so that we can pull the trigger on this option if we determine that onshoring
+manufacturing of these components will take too long.
+
+
+We also specifically need a securely sourced alternative to ASPEED BMCs — ideally, a simple,
+purpose-built and easily auditable drop-in replacement for existing chips. DARPA projects
+focused on developing secure BMC hardware could be a helpful step towards a solution, but
+government purchase guarantees could drive demand in tandem. To mitigate risk in the shorter
+term, *** * ** ** *** ** ** **** * ** ** * *** **** ** ** ** ** **** ** ** * *** * **** *** * *** *** ****
+** *** *** **** *; insist on having suppliers share information about their sourcing of BMC chips;
+and introduce requirements for supplier diversity, including at the firmware level. **** *** ** **
+*** *** ** *** * ** ** *** **** ** * * ** *** *** *** ** * * *** * *** * ** *** ** ** **** ** *** ** ** * **
+*** **** ** *** ** *** **** ** ** * **** *** ** * * ** ****** ***** * *** *** *** *** *** *** ** *** ** **
+** ** *** *** *** *** *** *** *** * **** ** ** *** *** ** **** * **** *** ***** ** ** * *** **** ***.
+
+
+These would be big — and expensive — moves, but they reflect the scale and impact of the
+vulnerability they’re meant to address. BMCs offer our adversaries a way to conduct crippling
+attacks on our most important compute infrastructure. We can share extensive further
+recommendations if desired.
+
+
+
+
+                                                                                                    18 of 62
+Side-channel security
+
+Adversaries will almost certainly aim to knock out the American data centers powering training
+runs for a superintelligence project. But to secure the project, we’ll need to do more than
+prevent adversaries from destroying AI infrastructure – we’ll also need to prevent them from
+stealing critical IP.
+
+
+A widely-cited report by AI security researchers published in 2024 provides a reasonable
+starting point for understanding what it would take to secure AI model weights from theft by
+nation-state attackers. It defines AI systems requiring Security Level 5 (SL5) as systems that
+would become targets for “top-priority operations by the top cyber-capable institutions” like
+the People's Liberation Army's Strategic Support Force, China’s Ministry of State Security, and
+analogous institutions in other adversary countries. Superintelligence could offer those who
+control it a decisive strategic advantage, and would almost certainly need to be secured at the
+SL5 level. The recommendations at this level of security are extensive. They include:
+
+
+    ●   Strict limitation of external connections to a completely isolated network
+    ●   Routine rigorous device inspections
+    ●   Disabling of most communication at the hardware level
+    ●   Extreme isolation of AI model weight storage (completely isolated network)
+    ●   Advanced preventive measures for side-channel attacks (e.g., noise injection, time
+        delays, and other tools)
+    ●   Formal hardware verification of key components
+
+
+To quote one former Mossad cyber operative, achieving the proposed SL5 standard would be
+“really hard. Even people who’ve read the report and understand cybersecurity underestimate
+how hard this would be.” In practice, SL5 would require U.S.-made components, or highly
+trusted components that the Department of Defense or the Intelligence Community (IC) would
+be comfortable using for extremely classified operations.
+
+
+But as we mentioned earlier, many of the components in current AI clusters are sourced directly
+from China. As one cyberoperative put it, current clusters are, “not even close to being close.
+No one is even thinking about this. This is not a priority for them. [...] AI companies have funds,
+but not for this; people who are smart, but not on this topic. It’s just not in their skillset. [...]
+Government could do this, sure, but this is a big project; this is a mega-project. I’m not [aware
+of] ultra-secure projects that would be this size, and require this much specialized equipment at
+the drop of a hat.”
+
+
+                                                                                                   19 of 62
+And the report’s recommendations aren’t even comprehensive: they leave out key security
+challenges associated with geographically distributed training, for example. They also only
+address the risk of model weight theft, and not attacks meant to disable or destroy computing
+infrastructure, which, as we’ve seen, would be extremely cheap and damaging under current
+conditions.
+
+
+These aren’t long-term problems either. An AI security expert who collaborates frequently with
+frontier AI labs estimated that the next generation of AI models could already qualify for the
+SL4 threshold – defined in the report as security measures required to counter “most standard
+operations by leading cyber-capable institutions.” By his assessment, even SL4 security
+measures would take at least 1.5 to 2 years to implement under current conditions, requiring a
+“massive investment” from key players. This individual assessed that the shift from SL4 to SL5
+security would also be significant, almost certainly requiring entirely new data center facilities
+built from the ground up – a perspective echoed by several other physical and personnel
+security experts we spoke with.21
+
+
+Our interviews with energy and compute infrastructure specialists, intelligence experts, and
+special operations personnel have surfaced other critical challenges. For one, data center
+construction can take well over a year to complete, and data centers probably can’t be
+retrofitted to meet these criteria after they’ve been built. Similarly, the AI accelerators that will
+fill frontier AI data centers in 2026 and beyond are having their designs finalized. They will have
+to be redesigned to address accelerator-level vulnerabilities that will be relevant in the
+geostrategic and security environment in coming years, but which aren’t on leading players’
+radar today. Absent unprecedented government incentives driving a major security push in the
+very near term, secure AI accelerators will not be available in time for a superintelligence
+project.
+
+
+One key attack vector is side-channel attacks, which include things like Telecommunications
+Electronics Materials Protected from Emanating Spurious Transmissions (TEMPEST) threats.
+
+21 By contrast to SL4 and SL5, which are security thresholds intended to be capable of thwarting nation-
+state operations, SL3 is in principle designed to defend against operations by non-state actors such as
+cyber crime syndicates, terrorist organizations, or insider threats. The SL3, SL4, and SL5 thresholds are
+widely referenced in the AI security community, but intelligence officials we spoke to made it clear that in
+practice, non-state actors are often trained or even backed by states, and can use advanced TTPs that
+most analysts would associate with “nation-state” capabilities as a result. So in practice, and contrary to
+conventional wisdom in the AI security ecosystem, dealing with threats from non-state actors will require
+many measures drawn from the SL4 and SL5 standards.
+
+
+                                                                                                    20 of 62
+These are information extraction attacks that use leaked electromagnetic, sound, or vibrational
+signals to reconstruct sensitive and intelligence-bearing information.
+
+
+It’s been argued that TEMPEST attacks would not be able to exfiltrate model weights
+themselves due to their limited bandwidth, but that they could be used to extract decryption
+keys or other metadata that makes model weights easier to access or reconstruct. However, our
+investigation suggests that TEMPEST technologies may be far more advanced than is widely
+recognized. **** ***** **** ** ***** **** *** ** ** *** ** * * ***** *** ** ** * ** ****** ** **** ***
+** *** **** ** *** ** **** *** ** ** * **** *** *** ******* ** * *** ** ** ** ***** *** *** **** *** ****
+*** ** ***** * **** We assess that it is plausible that some adversary nation-states have access
+to TEMPEST and other side-channel attacks that could allow for direct weight exfiltration under
+certain conditions.22
+
+
+Although many are classified, some standard defenses against TEMPEST attacks include
+ensuring a minimum distance between HVAC conduits and sensitive equipment, using
+shielding and Faraday cages, implementing physical security control zones around sensitive
+areas, using fiber optic cables instead of copper cables where possible,23 and air-gapping
+critical components. Many of these strategies have to be accounted for at the design stage of a
+new data center build; it won’t be possible to retrofit existing facilities to meet appropriate
+TEMPEST standards. Failing to do so would bake critical vulnerabilities into a government-
+backed superintelligence project.
+
+
+Recommendation: At the design stage, and throughout the build, new data center projects
+aiming to support training and inference for frontier models by the end of 2025 should
+work directly with intelligence and national security agencies to identify and mitigate
+vulnerabilities from TEMPEST and other side-channel attacks. This work should also involve
+current or former frontier AI researchers, hardware design specialists from leading companies
+like NVIDIA/AMD, and data center infrastructure design experts.
+
+
+Only the U.S. national security and intelligence communities, with support from private sector
+experts retained at leading chip design, data center, and AI model development companies,
+
+22 As one indication that we can share: we were shown a live demonstration of an attack that allows
+
+hackers to reconstruct the architecture of a small AI model using nothing but the power consumption
+profile of the hardware that runs it.
+
+23 However, our discussions with former cyber operators suggest that even dark fiber connections
+
+between geographically separated data centers are highly vulnerable to established nation-state attacks,
+the details of which are not public.
+
+
+                                                                                                   21 of 62
+are in a position to estimate the actual extent of the TEMPEST and cyber threats that a
+superintelligence project would face. And this holds for vulnerabilities beyond TEMPEST
+attacks too: there almost certainly exist highly classified methods, technologies, and tools
+available to adversary nation states whose capabilities will have to be accounted for from the
+earliest design stages of a superintelligence project.
+
+
+There is no other option: the IC and national security community need to be involved in project
+design and in the design of its supporting infrastructure – including of the AI accelerators
+themselves – from the very beginning. As one former military security specialist put it, “I
+wouldn’t consider [AI accelerators nation-state proof], unless the NSA or CIA is involved in
+designing them.”
+
+
+
+Software supply chain security
+
+The software stack that frontier AI labs use, and that runs on AI data center infrastructure, is
+insecure. According to a cybersecurity specialist with experience executing nation state cyber
+operations, “There are at least several incidents you could point to with libraries that are used
+by leading labs that have been compromised in the past, whether by the intelligence
+communities of other countries or accidentally.” In addition to these known vulnerabilities,
+nation-state adversaries have almost certainly identified zero-day vulnerabilities.
+
+
+In this respect, the CCP is one among many potential threat actors. Although China’s physical
+access to sensitive supply chains makes it the leading threat actor along that vector, Russia has
+shown itself to be highly capable in the cyber domain. And while Russia lacks the AI hardware
+and talent it would need to train frontier AI models, they may have enough infrastructure to run
+a frontier model if they steal one in a cyber operation. In a world of compromised frontier lab
+security, cyber powers are AI powers.
+
+
+       No one is doing this, no one is looking into this, no one is trying to create an end-to-
+       end secure software stack that is secure – not just in quotation marks – but genuinely
+       secure.
+
+
+       – Former IDF cyber security operator on frontier AI lab cyber security
+
+
+These challenges create a dilemma: nation states aren’t pricing in the military implications of
+superintelligence, which makes it difficult to justify investing in basic security measures today.
+
+
+                                                                                              22 of 62
+But lead times for energy infrastructure components are measured in years, chip design cycles
+are even longer, and security features can’t be retrofitted into hardware, so delay is not an
+option. We can either place a bold bet on securing our critical AI infrastructure today, or find
+ourselves racing the CCP to superintelligence with an easily-penetrable hardware and software
+stack.
+
+
+Recommendation: There are lists of software libraries that are approved for use in military
+systems at various levels of classification.24 We should open up and expand this process for
+deep learning-supporting software libraries used by frontier labs, and resource it so it can
+move as fast as it needs to. This probably also requires collaboration between the research
+engineers and the accreditation orgs, as well as the involvement of the intelligence community.
+The speed of this review process should be explicitly balanced against the need for rapid
+development, with the understanding that a single critical breach could cause the project to
+fail.
+
+
+
+Energy security
+
+Energy production is an often-cited bottleneck to frontier AI development, and increasing high
+base load power availability on the U.S. electric grid should be a top national security priority.
+We won’t rehash the details here since there are many public reports on this already, other than
+to say that our interviews with energy specialists suggest that new natural gas plants capable of
+supporting hundreds of megawatts currently take 5 to 7 years to set up, but could be built in
+just over two years – quickly enough to support training runs of the 2027–2028 era – if
+permitting and supply chain bottlenecks were removed.25
+
+
+The speed at which new natural gas plants can be brought online (assuming we remove
+regulatory frictions) makes them a particularly promising way to support a U.S.-backed
+superintelligence project in the near term. Other options like nuclear and geothermal matter
+more on longer timescales.
+
+
+
+
+24 For example, Iron Bank sets and verifies standards for hardened containers used in software
+
+development for sensitive DOD applications.
+
+25 This is worth emphasizing: it means that regulatory hurdles are currently the primary reason that new
+
+natural gas capacity could not be brought online in time to support a 2027/28 superintelligence project.
+
+
+                                                                                                  23 of 62
+Gas turbines are already sold out across the market, and other components are on long-term
+back-order. This won’t be fixed in time to make a difference for the training runs of the 2027
+era. U.S. government policy can move the needle here though, as we’ll explain below.
+
+
+From speaking with cabinet officials in U.S. states, a less recognized problem is the time cost of
+litigation over environmental concerns. Litigation creates a huge bottleneck to new power and
+infrastructure build-outs. Strategic economic interference by China is an important factor here.
+We’ve heard from former counterintelligence and special operations personnel that Chinese
+entities are explicitly funding and leveraging domestic environmental groups to tie up data
+center and other critical national security builds through litigation. The environmental groups
+involved in this work are not generally aware of the ultimate source of their funding — the
+funding is often indirect and funneled through proxies and surrogates — but effectively
+operate in alignment with adversary interests.
+
+
+Recommendation: We know it’s possible to build massive amounts of power generation
+quickly — up to 3-5 GW or more26 — as long as we’re willing to ignore carbon emissions
+concerns in the short term and just set up huge gas turbines.27 In terms of energy, we’re more
+bottlenecked by our own regulations than by economics or physics. In practice, we could pick a
+site for a project, exempt it from regulations, and probably build as much power as we need
+there quickly. To help resolve supply chain problems, **** *** *** * *** ** ** **** ** ** ** ** ****
+** ** ** ** *** *** ** *** **** ** ** ** *** ** *** * *** *** **** *** *** *** **** *. Over time we
+could even phase out gas turbines and replace them with lower carbon sources, but there’s no
+need for that to delay other parts of the project.
+
+
+Deregulation is essential, and plenty of people are already discussing it. Environmental
+regulations are a particularly big problem here, and the President could invoke the DPA Title III
+
+
+
+
+26 Enough to power about 2-3 million American homes, or the state of Utah. It’s around 1-2% of the
+
+power generation capacity of the entire United States. At this scale you can power about 2 million H100
+GPUs (depending on various assumptions), equivalent to at least 10x more compute capacity than we
+believe exists at any one site as of January 2025.
+
+27 The Department of Energy didn’t actually think this was possible when we spoke to them in December
+
+2024: they told us there was no way to pull together more than 1 GW of capacity in any one place over
+the next couple of years. But in fact it’s exactly how Elon Musk was able to get xAI’s Memphis data center
+up and running in record time. The 3-5 GW number was also confirmed to us by a couple of people who
+are actually working on deploying those gas turbines. Our best guess is that the DOE team we spoke to
+must have been assuming only low-carbon energy sources.
+
+
+                                                                                                  24 of 62
+          to provide NEPA exemptions28 to advanced AI clusters and related dedicated energy
+          infrastructure that meet various security requirements. We also need categorical exclusions to
+          NEPA for no-impact preliminary activities on these data center projects, like design, drilling
+          boreholes, and collecting soil samples. This would unlock early DOE financing through loans.
+
+
+          We should direct the creation of limits on litigation options for designated critical infrastructure
+          projects, and in particular, expedited court decisions. Every delay mechanism that could be
+          used to tie up new data center and related energy projects should be bounded.
+
+
+
+          Export controls
+
+          Just as we need to ensure robust supply chains for our own efforts, we need to deny the same
+          to our adversaries. While U.S. GPU export controls have strengthened over the past few years,
+          Chinese firms are known to have subverted controls to acquire controlled chips manufactured
+          and packaged by TSMC by simply spinning up subsidiaries and shell companies that don’t
+          appear on entity lists. To take just one example reported by SemiAnalysis, leading Chinese fab
+          SMIC operates two factories linked together by a wafer bridge, which effectively makes them a
+          single facility, yet they were treated as separate entities under then-current U.S. export control
+          policy — one was included on the U.S. entity list, and the other wasn’t.
+
+
+          Recommendation: We’ll have to move from entity blacklists to selective entity whitelists,
+          signi cantly limiting the access that photolithography and optics companies, chip fabs and
+          design rms currently have to the Chinese and other markets. We’ll also need to pursue less
+          targeted export bans: current highly targeted approaches aimed at restricting chips based on
+          narrow technical specifications still allow China to import significant volumes of strategically
+          critical AI processing hardware. Recent updates to export control rules have tried to address
+          this problem, but have left major loopholes.29 China has repeatedly demonstrated their ability
+          to integrate and use heterogeneous and legacy hardware into significant training clusters, and
+
+
+          28 However we should note that according to a White House official with experience writing executive
+
+          orders that include NEPA exceptions, they can be legally challenging.
+
+          29 For example: recent AI diffusion regulations limit certain non-allied countries to importing no more
+
+          than 50,000 advanced GPUs. However, chip orders of under 1,700 GPUs do not count towards this cap.
+          This creates an obvious loophole that is precisely aligned with the demonstrated strategies and
+          capabilities of the CCP, which has historically imported large quantities of otherwise controlled AI chips
+          via a network of subsidiary companies, often spun up specifically for that purpose.
+
+
+                                                                                                              25 of 62
+fi
+     fi
+it is unlikely that even the best-informed technical assessments available to the BIS (the U.S.
+office that manages export control compliance) will be able to anticipate the workarounds
+they’ll develop to any set of narrowly scoped controls.
+
+
+
+AI hardware security
+
+A national superintelligence project would need to secure a lot of different supply chains, or
+*** *** ** **** *** ** *** **** ** * * ***** *** *** **** **** **. But in addition to taking a “wide”
+view, and solving for security across many devices and pieces of infrastructure, it would also
+have to take a “deep” view, and consider security exposure from geographically distributed
+supply chains for logic and memory. If the project depends on chips that are being made in
+Taiwan and South Korea, then securing and defending TSMC and SK Hynix becomes America’s
+de facto responsibility. All it takes is for the CCP to hack into the right network and modify the
+firmware that goes on fabricated chips, and the project can be compromised.30
+
+
+In terms of AI GPUs — the specialized processors that actually train and run AI models — an
+obvious big concern is that most AI GPUs are made by TSMC in Taiwan, and that China claims
+Taiwan as its own. There’s a long history of illicit technology transfer from TSMC to mainland
+China, and TSMC is likely heavily infiltrated by CCP spies and saboteurs.31
+
+
+There are a lot of hard steps involved in building a GPU, and most of those steps happen at
+TSMC facilities in Taiwan today. Two of the most important are fabrication and packaging.
+Fabrication is where you use lasers and chemicals to etch the tiny circuits into the chip32 that
+implement its logic. Packaging is where you combine chips together on one board in such a
+way that they can talk to each other and with other components like memory and power.
+
+30 There may be an alternative, however. Trustless computing schemes – such as flexHEG-based devices
+and protocols – may allow us to use certain hardware components securely even if the components
+themselves have been tampered with in certain ways. This is one reason why secure computing should
+be a top national security priority: currently, all frontier AI logic dies are fabbed by TSMC on Taiwanese
+soil. We should not base our national security strategy on the assumption that the CCP has failed to
+achieve what must be one of its top national security priorities: infiltrating and compromising TSMC.
+
+31 SMIC, China’s leading semiconductor fab, was founded by Richard Chang, a former senior executive
+
+at TSMC. In a series of 2003-2004 lawsuits, TSMC alleged that Chang, as well as several other early
+SMIC employees, stole critical TSMC IP and used it to massively accelerate SMIC’s development.
+
+32 Really this is called a die, not a full chip. When we talk about fabrication here we mean the step that
+
+goes from wafers to dies.
+
+
+                                                                                                     26 of 62
+We could fabricate quite a lot of AI chips in America today if we wanted to. TSMC’s Fab 21 in
+Arizona alone likely has the potential to produce about 11.5 million H100-equivalents per year
+today33 (a type of GPU),34 which is already much more than you could power in a 5 GW
+cluster.35
+
+The problem today is packaging. Right now TSMC’s entire packaging capacity for AI GPUs is
+equivalent to about 11 million H100s per year,36 although they’re expanding that quickly.
+Unfortunately almost all of that packaging capacity is located in Taiwan itself.37 Intelligence
+experts have warned us privately that there’s a significant amount of low grade sabotage being
+conducted by adversaries on U.S. soil today, but it’s even easier for those adversaries to disrupt
+or block supply chains that originate in Taiwan — and harder for us to harden them — than if
+they were based in America. In the event of a CCP invasion of Taiwan, packaging capacity
+constraints – in addition to the collapse of logic die fabrication capacity – could quickly
+become critical.
+
+
+
+
+33 As of early 2024 Fab 21 was expected to run about 20,000 wafer starts per month through the facility,
+
+at yields similar to those at TSMC’s other facilities which have been reported elsewhere as around 80%.
+That means they’re getting 20,000 x 80% = around 16,000 usable dies out the other end each month, or
+around 192,000 dies per year. NVIDIA and TSMC likely get around 60 H100 chips out of each wafer,
+which ballparks to around 11.5 million H100s per year if all of Fab 21’s capacity were dedicated to doing
+just that. Right now Fab 21 is mostly making iPhone chips.
+
+34 We’re discussing H100s here, rather than the newer B100/B200 GPUs that are rolling out now. This is
+
+to get a conservative lower bound on what’s needed. The B100/B200 series can do more computations
+and also uses less power per computation than the H100 does.
+
+35 One H100 GPU consumes about 1340 W in the common HGX configuration, and data center power
+
+efficiencies typically range between 75-90% (1.1-1.3 PUE). So 11.5 million H100s consume at most
+around 11.5 million x 1340 W x 1.3 = about 20 GW.
+
+36 TSMC’s Chip-on-Wafer-on-Substrate (CoWoS) packaging capacity was expected to be around 15,000
+
+wafers per month or 180,000 wafers per year by the end of 2024. If we assume 60 H100 chips per wafer,
+that means almost 11 million H100s can be CoWoS packaged across all of TSMC’s facilities.
+
+37 Fortunately, that is starting to change. TSMC and Amkor recently announced the development of two
+
+packaging facilities on U.S. soil, one of which will be located in Arizona and will have a capacity of
+14,500 12-inch wafers per month (the second facility’s capacity is not yet publicly known). Construction of
+the Arizona packaging facility is only expected to be complete in 2028, however, by which time it would
+represent ~10% of TSMC’s target 2028 capacity of 150,000 wafers per month. This timeline is too long to
+address the risk of a collapse in America’s advanced packaging supply in the event of a CCP invasion of
+Taiwan pre-2028.
+
+
+                                                                                                   27 of 62
+Upstream of TSMC, there are also vulnerabilities at the level of the photolithography supply
+chain, which makes critical components TSMC uses to etch nanoscopic circuits onto AI chips.
+That includes the ASML/Carl Zeiss complex of companies that manufactures the machines that
+use intricate ultraviolet light sources and optics to pattern circuits onto the chips, and the
+specialized optical components that go into those machines.
+
+
+Although it can take years for a new generation of photolithography machines to start being
+used for high-volume manufacturing of leading edge chips, existing photolithography
+machines are so complex that they need a full-time team from ASML just to maintain them in
+good working order. That means adversaries who wanted to limit our access to advanced AI
+chips could also try to do it at the level of ASML — although that scenario matters most if we
+expect to achieve superintelligence later than 2027 or 2028.
+
+
+Recommendation: We should prioritize localizing CoWoS and CoWoS-like packaging,
+including CoWoS-L and CoWoS-R, in the United States, possibly by extending purchase
+guarantees to domestic companies like Intel and Amkor.38 We also need to make sure that the
+components needed to manufacture chips, such as photolithography machines, are secured.
+This could involve closer collaboration between the United States and Dutch, Japanese,
+German, and other governments on counterintelligence, counterespionage, and
+countersabotage.
+
+
+We also need to accelerate work on on-chip security technologies like con dential
+computing at scale, which are going to be critical to any effort to secure frontier model
+weights. We should be funding and incentivizing chip fabs and design firms to do that work
+directly, and engaging national security agencies in pinning down the security features that are
+most badly needed based on the current threat landscape.
+
+A key priority also needs to be establishing *** *** *** * * ** ** *** ** ** *** ** *** ** * **
+****** ** ** * ** * ** * ** ****** *** * ** * ***** * ** **** *** ** * *** ** * **** ** * *** ******
+**** * * ** ***** * ** * **** *** *** ** **** *** *** * * ** ** *** ** ** *** ** *** ** * ** ****** **
+** * ** * ** * ** ****** *** * ** * ***** * ** **** *** ** * *** ** * **** ** * *** ****** **** * * **
+***** * ** * **** *** *** ** * *** *** *** * * ** ** *** ** ** *** ** *** ** * ** ****** ** ** * ** *
+** * ** ****** *** * ** * ***** * ** **** *** ** * *** ** * **** ** * *** ****** **** * * ** ***** *
+
+
+38 Intel already has at least 5000 wafers per month of CoWoS-like packaging capacity (via their Foveros
+
+process) — much of which is already located in North America — and is already using it to package
+NVIDIA H100 GPUs. This is equivalent to 60,000 wafers per year or over 3.5 million H100s at 60 H100s
+per wafer.
+
+
+                                                                                                 28 of 62
+                                                                     fi
+** * **** *** *** ** * *** *** *** * * ** ** *** ** ** *** ** *** ** * ** ****** ** ** * ** * ** * **
+****** *** * ** * ***** * ** **** *** ** * *** ** * **** ** * *** ****** **** * * ** ***** * ** *
+**** *** *** ** * *** *** *** * * ** ** *** ** ** *** ** *** ** * ** ****** ** ** * ** * ** * **
+****** *** * ** * ***** * ** **** *** ** * *** ** * **** ** * *** ****** **** * * ** ***** * ** *
+**** *** *** ** *
+
+To be clear: some of these infrastructure pieces might not matter at all if we reach
+superintelligence within the next two years or so. If we get superintelligence that fast, then we
+probably have enough AI chips in the United States today to train a superintelligence already.
+And that means that ensuring a domestic supply of AI chips today matters somewhat less,
+although denying AI chips and developing retrofittable secure computing add-ons (e.g.
+flexHEG) still matter a lot.
+
+Finally, if all this turns out to be overblown and we’re actually decades away from
+superintelligence, it’s important to realize that all these infrastructure expenses won’t have
+been wasted. Even if AI never gets any better than it is today, there is already massive demand
+for AI inference that can be served more cheaply by bigger data centers, more chips, and more
+power. At worst, we end up in a situation similar to the dot-com bust, where the fiber optic
+infrastructure that got built during the boom ended up driving the growth of the modern
+Internet.
+
+
+
+
+                                                                                                29 of 62
+
