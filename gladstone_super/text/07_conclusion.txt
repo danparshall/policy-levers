@@ -1,0 +1,554 @@
+Conclusion
+
+
+A national-scale superintelligence project would be a massive undertaking. The stakes would
+be high, the margins of error slim, and the infrastructure costs staggering. It would invite
+adversaries like China to accelerate their own programs and try to slow down ours. We’d need
+to move fast and retain control of a system that’s as smart or smarter than we are, while under
+constant threat from peer-level geopolitical adversaries. But this is arguably the trajectory we’re
+on anyway: China is a live player in the race to ASI, they’re already spying on all our top labs,
+and they’re already pushing as hard as they can to develop domestic supply chains for
+everything from AI chips to frontier AI models. It’s not clear that the CCP could be much more
+forward-leaning on ASI than they already are.
+
+
+The window to kick off a project is also closing. In private conversations, frontier AI researchers
+tell us they believe we’re less than a year away from having AI agents that can automate the
+majority of current software engineering work. We may not be that far from superintelligence
+already, and data centers take time to build. Existing data centers are nowhere near as secure
+as they’ll need to be, and CCP-proof security can’t be retrofitted.
+
+
+There’s no guarantee that superintelligence will come soon. But if it does, and if we plan to
+prevent the CCP from stealing it, we might need to break ground on a fully secure, gigawatt-
+scale AI data center within the next few months for a project like this to be relevant once the
+build is complete. And before we can do that we’ll need to determine what good security looks
+like for superintelligence clusters. This is all doable, but every day we don’t move on it limits
+the options we’ll have available to us when things heat up.
+
+
+And while nobody knows the complete picture yet, we can at least say a few things about what
+a project like this would have to look like and what its high-level objectives should be.
+
+
+
+
+                                                                                               50 of 62
+Objective of the project
+
+A domestic superintelligence project would have a huge energy footprint that we wouldn’t be
+able to conceal from adversaries.60 This was a universal point of agreement among everyone
+we spoke to, from the intelligence community to the DOE to domain experts in AI hardware
+and energy.
+
+So if we build a superintelligence cluster, China will know about it. And because they’ll know
+about the project from the start, we should expect they’ll both accelerate their own competing
+projects and also try to disrupt ours in any way they can. China has already announced a $275B
+investment in AI infrastructure,61 within days of the announcement of $100B in committed
+funding for Project Stargate. If they're serious about this – and anybody who drops a quarter
+trillion dollars is serious62 – we can expect that the lead times on generators, transformers, and
+other China-source components for U.S. data centers will start mysteriously lengthening. This
+will be a tell that China is quietly diverting components to its own facilities, since after all, they
+control the industrial base that is making most of them. If they're clever about it, they will of
+course never announce this as a policy — we'll just see annoying delays and chalk it up to
+competitive bidding for rush orders, ordinary horse-trading, mundane "supply problems", and
+so on.
+
+China is a serious contender in AI, and they're already beating us in key parts of the AI supply
+chain. They exclusively manufacture many of the prefabricated components and inputs to AI
+
+
+60 This is true if we put the superintelligence cluster in a single region. But if we tried to decentralize the
+
+cluster — by spreading it across multiple data center campuses in different states, for example —
+intelligence specialists have told us that the communication links between the campuses would be too
+vulnerable to be viable, even if they involved dedicated point-to-point connections over dark fiber.
+
+61 The investment was 1T yuan which is equivalent to about $275B when measured in PPP terms, which
+
+is the right comparison for a project that’s acquiring equipment and talent in-country. While the official
+USD to CNY conversion rate was about 7.3 CNY per USD, in PPP terms it’s estimated closer to 3.64 CNY
+per USD — so this investment is more than twice as big as it looks.
+
+62 There are other reasons to believe the CCP is making superintelligence a national priority. Most
+recently, DeepSeek reportedly required certain employees to hand in their passports to prevent them
+from travelling abroad, because their work made them, “privy to confidential information that could
+constitute trade secrets or even state secrets”. Headhunters who have tried to poach DeepSeek
+employees have also reportedly received calls from local governments telling them to stop, and
+investors looking to make pitches to DeepSeek have been told to reach out to Zhejiang Province’s
+Communist Party committee to be screened first – a particularly noteworthy requirement given that
+China is otherwise trying to reverse a collapse in foreign direct investment.
+
+
+                                                                                                        51 of 62
+data centers in the U.S., and they have far more grid capacity available for advanced AI training
+and inference. Chinese companies have genuinely world-class engineering teams,63 and they’re
+making meaningful progress despite American export controls.
+
+This means that a U.S.-led superintelligence project has to be grounded from the beginning in
+the unforgiving reality of a global AI race between superpowers. And because we and our
+adversaries will be racing for what could be a decisive strategic advantage, this race could
+escalate without limit across all warfighting domains. That potentially could include kinetic
+conflict or even nuclear war, but it’s more likely to be a game of sabotaging and disrupting
+each others’ competing AI projects to stop the other side from making too much progress.64 Of
+course, this kind of sabotage is just as likely if we continue to leave development of frontier AI
+completely in the hands of private companies instead of kicking off a national project.
+
+In a race like this, the only way we can succeed is for the United States to establish and
+maintain a substantial lead over its adversaries — particularly China — as we build ever more
+powerful AI systems on the path to ASI. That lead is critical whether your main concern is the
+weaponization of advanced AI, the potential for loss of control over a superintelligence, or the
+risk of unchecked centralization of power.
+
+Let’s walk through these one after the other:
+
+    ●   This is obviously true for weaponization. In the hands of a nation that’s able and willing
+        to deploy it, a controlled superintelligence is an insurmountable strategic advantage.
+        The consequences of arriving second in this race could be dire — and adversaries will
+        be thinking this too.
+
+
+    ●   If your main concern is that we might lose control over superintelligent systems, then
+        maximizing lead time is just as critical. The longer our lead time is, the wider our
+        window will be to develop the technical tools we’ll need to reliably control a
+        superintelligence. Although if we get very close to achieving superintelligence before
+        we’ve developed those tools, pushing forward could create more problems than it
+        solves. This is also a reason to ensure that a national project prioritizes developing the
+
+
+63 For example, when it launched in January 2025, DeepSeek R1 famously matched the performance of
+
+OpenAI’s o1 – OpenAI’s most advanced model then available to users – across a wide range of key
+benchmarks.
+
+64 This could lead to a new kind of (potentially unstable) equilibrium between major AI powers. Based on
+
+private correspondence with Dan Hendrycks. Aspects of this are discussed in the MAIM framework co-
+developed by Dan.
+
+
+                                                                                                 52 of 62
+        narrowest possible tools *** * ** **** *** *** *** * that will provide the United States a
+        lasting advantage over the CCP, unless and until we’re confident that we can solve the
+        control problems that come with building broad superintelligence.
+
+
+    ●   Finally, if you care most about concentration of power, then a CCP-controlled
+        superintelligence is the most dangerous possible scenario. A U.S.-led project is much
+        more likely to develop superintelligence in an environment with checks and balances,
+        public oversight, and controls to stop a single person or small group from seizing
+        power. Of course that means it’s our responsibility to build these features into the
+        project from the start. But a CCP-controlled superintelligence has no chance of having
+        any such controls.
+
+The CCP is a dictatorship and Xi Jinping is its dictator. That means a CCP-controlled
+superintelligence will end up being a Xi Jinping-controlled superintelligence, no matter how
+much the CCP or its surrogates may deny it. And a Xi Jinping-controlled superintelligence is
+likely also the worst outcome for the Chinese people themselves — which includes China’s
+political elite, up to and including the members of their Politburo — given that they might no
+longer have economic value to Xi Jinping personally.
+
+As superintelligence approaches and this reality begins to dawn on the highest levels of the
+Chinese political elite, it could lead to internal power struggles – maybe even coup attempts –
+within the CCP. As high-ranking officials begin to realize that their positions, influence, and
+even personal safety might be at risk, we should be on the lookout for signs of instability.
+America may find opportunities to exploit the CCP's internal power dynamics to disrupt their
+control over domestic AI development.65
+
+
+
+
+Strategies
+
+So the top priority of a U.S.-based superintelligence project is clear: we’ll have to establish and
+maintain a substantial lead over the CCP and all other adversaries. There are three things we’d
+need to do to accomplish this:
+
+    1. First, we’ll need to actively delay the CCP’s progress towards superintelligence. This
+        delaying effort will cover many domains and involve some of the most powerful
+
+
+65 The more credible our own claim to having legitimate democratic oversight over our AI project can
+
+be, the stronger our hand will be in taking advantage of these opportunities.
+
+
+                                                                                                53 of 62
+       capabilities that can be deployed by our national security agencies. Because we don’t
+       know how difficult it will be to control a superintelligence, we would need to sustain
+       and extend our lead by any means necessary; we can’t assume that just accelerating our
+       domestic AI development will give us the lead time we will need. *** *** **** *** ****
+       *** *** * ** * *** **** *** *** *** **** *** **** *** *** * ** * *** **** *** * *** *** **** ***
+       **** *** *** * ** * *** **** *** * *** *** **** *** **** *** *** * ** * *** **** *** **** ***
+       **** *** **** *** *** * ** * *** **** *** * *** *** **** *** **** *** *** * ** * *** **** ***
+       **** *** **** *** **** *** *** * ** * *** **** *** **** *** **** *** **** *** *** * ** * *** ****
+       *** **
+
+
+   2. Second, we need to secure our existing frontier AI R&D against theft by adversaries.
+       Until and unless we do this, we don’t have any real lead in the AI race over the CCP.
+       As we’ve already seen, our national security agencies aren’t free to spy on our domestic
+       companies, so it’s more likely that advances in American frontier AI labs translate into
+       CCP military AI capabilities before they translate into U.S. national security capabilities.
+       Even if we decide not to start a full scale national superintelligence project, we need to
+       put excellent security in place around our existing AI labs.
+
+
+   3. Third, we would need to make R&D progress towards controlled superintelligence —
+       but only after we have secured it. Without strong security, faster U.S. AI progress will
+       empower the CCP as much as, or more than, it will empower the United States. Only
+       after we have established a lead through strong security, can we hope to sustain and
+       extend that lead.
+
+A lot of people shrink from proposing options such as aggressively delaying our adversaries’
+progress, because it brings a risk of escalation, and it does. But whether the United States
+pursues a national superintelligence project or not, simply continuing along our current path of
+AI development already carries escalation risk. You can’t build what you claim is a de facto
+superweapon without drawing a response from nation state adversaries as you approach your
+goal. Right now, if an American frontier lab closes in on superintelligence, the odds are that
+they’ll have their model weights stolen and their training infrastructure sabotaged (possibly
+even without their knowledge) to prevent them from completing their project, leaving a U.S.
+adversary decisively ahead. In fact, some of the security specialists we spoke to, including
+former NSA officers currently specialized in frontier AI security, see this as the most likely
+default outcome of our current trajectory.
+
+Slowing down the CCP’s progress on AI is already a core pillar of U.S. strategy. And it will only
+become more important given that the CCP currently has structural advantages over the United
+
+
+                                                                                                 54 of 62
+States in power production,66 data center component production, and several relevant areas of
+infrastructure. According to the CEO of DeepSeek, the main current limitation to Chinese
+progress in AI are U.S. export controls on AI computing hardware — but Chinese champions
+like Huawei, SMIC, and CXMT appear to be making progress onshoring critical supply chain
+components. The CCP also has a greater ability to concentrate hardware and industrial activity
+in support of a Chinese government-backed project than the U.S. government does.
+
+The three lines of effort above will reinforce each other even if we don’t pursue a full-fledged
+national superintelligence project. As we develop more powerful models, ** * *** **** *** **
+*** ** *** ** * ** *** ******* ** ** *** **** **** * ** **** *** ** * *** **** *** ** *** ** *** ** * **
+*** ******* ** ** *** **** **** * ** **** *** ** * *** **** *** ** *** ** *** ** * ** *** ******* ** **
+*** **** **** * ** **** *** ** * *** **** *** ** *** ** *** ** * ** *** ******* ** ** *** **** **** * **
+**** *** ** * *** **** *** ** *** ** *** ** * ** *** ******* ** ** *** **** **** * ** **** *** ** * ***
+**** *** ** *** ** *** ** * ** *** ******* ** ** *** **** **** * ** **** *** ** * *** **** *** ** *** **
+*** ** * ** *** ******* ** ** *** **** **** * ** **** ***
+
+Whatever course we end up taking, improving our intelligence-gathering capabilities with
+respect to Chinese AI progress should be a top priority. This approach might provide us with a
+valuable option that currently doesn’t exist: the choice not to build superintelligence at all, if it
+seems unlikely that we’d be able to control it. **** ** **** *** *** **** * *** *** ***** **** ** ***
+*** *** ***** ** **** *** *** **** * *** *** ***** **** ** *** *** *** ***** ** **** *** *** **** * ***
+*** ***** **** ** *** *** *** ***** ** **** *** *** **** * *** *** ***** **** ** *** *** *** ***** **
+**** *** *** **** * *** *** ***** **** ** *** *** *** ***** ** **** *** *** **** * *** *** ***** **** **
+*** *** *** *
+
+Some people suggest cooperating with China or Russia in this area. Unfortunately, no national
+security professional we’ve spoken to takes this idea seriously today. The trust gap is just too
+great and spans too many areas. To give just two examples, Russia started to systematically
+violate the Intermediate-Range Nuclear Forces (INF) Treaty in the mid-2000s, to the point
+where it now has active battalions with medium-range nuclear forces. And China is building up
+a global nuclear arsenal that will soon rival America’s alongside "Beijing Military City", a
+massive underground continuity of govt complex big enough to house 10 Pentagons.
+According to several sources, China is unwilling to talk about or even acknowledge their
+nuclear buildup in diplomatic engagements. These countries need to do a lot more to earn
+America’s trust before there’s any chance of cooperating with them on a strategic issue like
+superintelligence.
+
+66 And under current conditions, this will only get worse. There are currently 29 nuclear power plants
+
+under construction in China, out of 65 total globally.
+
+
+                                                                                                   55 of 62
+Cooperation would have to involve technical solutions that allow us to verify that our
+adversaries are actually upholding their commitments to us. Tamper-proof on-chip monitoring
+and remote shut-down capabilities might qualify, but these capabilities are years away. Any
+arrangement that requires America to trust the CCP or other adversary regimes is a non-starter
+under current conditions. That said, the project could be used to support the development of
+trustless treaty enforcement solutions (including flexHEG-like technologies) that would provide
+options for creative “ASI diplomacy” down the line. While we should be looking for
+opportunities to use powerful forms of AI to de-escalate geostrategic tensions, we can’t lose
+sight of the fact that the CCP is a highly capable adversary that sees itself as being locked in a
+struggle with the United States, and which has been more than happy to take advantage of
+American goodwill and play dirty with diplomacy in the past.
+
+
+
+
+Project ownership
+
+If the U.S. government started a superintelligence project, which part of the government
+should own it?
+
+
+We spoke to officials from dozens of departments and agencies about this, and it’s become
+clear to us that if a national-scale project is going to be overseen by one department, it will
+probably have to be the Department of Energy.67 The DOE has limited experience with the
+kinds of supercomputers it takes to train modern AI, but they do have experience with
+supercomputers in general — and they have expertise in infrastructure, security,
+nonproliferation, along with energy.68 They also have a basic pipeline that allows them to
+prototype (via APRA-E) and scale new programs and technologies, and the capacity to sustain
+larger projects than, e.g. DAPRA.
+
+
+By and large though, most energy, defense, and national security specialists we talked to —
+including people within the government itself — didn’t think the government would do a good
+job operating a project like this day to day. Frontier AI is just way too fast-paced and
+unpredictable, and requires fast, high-conviction deployments of technical talent and capital
+that the government isn’t equipped for. A government department could play a leadership role
+
+
+67 With support from DARPA, CYBERCOM, the NSA, and CIA, among others.
+
+
+68 As one option, we could fund DOE to sponsor a consortium of FFRDCs that would oversee the
+
+project.
+
+
+                                                                                               56 of 62
+in a project like this, but its role should be carefully scoped, first to high-level supervision, and
+second to close monitoring of the key factors that aren’t related to AI capabilities: security,
+control, and the integrity of the project’s chain of command.
+
+
+Whether or not a government-coordinated national project goes forward, the government
+definitely needs trusted communication channels directly with technical AI researchers,
+especially the ones who are working on AI control. We hear repeatedly that some labs are
+carefully filtering the information they provide to the government about what’s really going on
+and what they intend to do. National security decision-makers need a way to bypass policy
+teams and lab executives and talk directly to the people who are doing the real work –
+including whistleblowers.
+
+
+Wherever it ends up, the project will need to collaborate closely with several other groups. At
+the very least it will need to be integrated closely with elements of the intelligence community
+for security, counterintelligence, and *** *** ****** * **** ** **** *. It will need organizations
+with specialized expertise in AI auditing, evaluations and control, and research institutions like
+universities. And realistically, a project like this will have to be set up as a public-private
+partnership. That means collaborating closely with the frontier AI labs that have the technical
+expertise to build superintelligence, if that’s possible in the near future.
+
+
+
+Project funding
+
+This will be a big project. Who will pay for it? It’d be hard for the government to pay for the
+whole thing. Hyperscalers are expected to spend $300 billion a year on infrastructure in 2025,
+with most of that being AI related. That’s already almost 20% of federal discretionary spending.
+If you add the security, control, and governance needs that a project like this will have, we
+should expect it to cost significantly more than that per year. What’s more, a superintelligence
+project that starts today will have to use resources, companies, and talent that already exists.
+Those resources have already been funded by investors who expect a return. And private
+sector incentives have done a great job so far at incentivizing AI capabilities development
+anyway.69
+
+
+
+69 Congress could appropriate an unprecedented amount of funds for a project like this. But in order for
+
+that to become a politically realistic scenario, we’d probably need warning shots of AI capabilities so
+obviously WMD-like that the window of opportunity to kick off a project with reasonable security will
+have closed.
+
+
+                                                                                                    57 of 62
+The best strategy we’ve heard to solve this problem is to allow investors to receive returns from
+some of the outputs of a project like this to keep them incentivized to fund increases in AI
+capabilities.70 For example, if the project develops a next-generation AI model that it knows
+can be sold securely, then it can distribute the profits from the model’s use back to the original
+private sector investors.71 We could also offer preferred tax treatment to AI investors to
+incentivize their continuing participation if the project needs more funding.
+
+At the same time, the government itself is going to need to directly fund the security, AI
+control, and oversight functions of the project that investors aren’t incentivized to support.
+Private sector incentives don’t get you good enough security — we hear stories time and time
+again from our contacts about how truly terrible the security at frontier AI labs is. Private sector
+incentives push companies to cut corners on AI control too, turning “alignment” into a product
+metric (or even worse, a metric associated with political goals, like tuning the political slant of
+their models) rather than investigating the growing evidence that we’re having trouble
+controlling the systems we’re building. And the kind of oversight we need to prevent a project
+like this from being corrupted needs to be much better thought out than the strategies we use
+to govern private companies.
+
+Of course, any major government funding for a project like this will need Congress’s buy-in.
+We’ll also need a special funding channel so that project resources are flexible enough to avoid
+the problems that our budget has every fiscal year.72
+
+
+
+Security, espionage, and counterintelligence
+
+In our conversations with special forces operators, as well as intel and national security
+specialists, one thing was emphasized over and over: you can’t expect to protect a national
+
+
+70 And to ensure those investments are concentrated in a single project.
+
+
+71 For example, you can imagine allocating revenue based on market cap at the time of a potential
+
+merger between labs. That brings a real risk of regulatory capture, but by that point, only the largest labs
+may be able to participate anyway.
+
+72 “No-year funding” is probably the best way to set this up. If you have no-year funding, that means the
+
+funds that you don’t spend in one fiscal year are still available in the next year, whereas with ordinary
+funding, you either use it or lose it. It tends to be hard to get no-year funding because Congress gives
+up some of its power (over your budget) by giving it to you. But a superintelligence project can’t afford
+to have its funding frozen with Continuing Resolutions every year — it’s bad enough already that we do
+that with our defense appropriations.
+
+
+                                                                                                    58 of 62
+superintelligence project with ordinary security alone. The only way to have even a chance of
+securing a project like this is to combine it with an offensive counterintelligence team that’s
+constantly seeking out external and internal threats — and actively operating against them,
+including with offensive operations.
+
+That means there’s no version of a national superintelligence project that isn’t integrated with
+active, offensive operations right from the beginning. It’s an uncomfortable fact, but there’s no
+path to success where we build a perfect fortress and develop superintelligence behind its
+walls — we need to be reaching out and touching our adversaries from day one.73 Every world
+class operator we spoke to agreed about this: until and unless you actually use a capability
+against an adversary in the real world, you don’t know if your capability is real or not. Acting is
+a big risk, but waiting is an even bigger risk. There’s no way out but through.
+
+A big part of this project involves actively degrading and disrupting CCP, and possibly other
+adversary AI capabilities and projects, and that introduces some escalation risk. On the other
+hand, developing superintelligence, whether we do it as part of a national scale project or a
+private project, is probably enough of a threat to those adversaries to provoke eventual
+retaliation in and of itself.74 Besides, if we take a hands-off approach and let a private company
+develop superintelligence without government support, we ought to expect that the CCP will
+wait until a U.S. company is close to achieving it, and then steal the company’s model and
+sabotage their training run and physical infrastructure, before finishing the superintelligence
+project themselves to deploy it against us. When we say that the United States does not have
+any real lead in the AI race until we secure our AI labs, that’s what we mean.
+
+On top of active counterintelligence, ordinary security for the project needs to be excellent and
+set up fast. There are some quick wins to be had here. We should localize data centers for the
+project at greenfield sites in geographically secure areas, for example in Middle America, and
+staff them with cleared contractors (or take measures to achieve equivalent levels of security).75
+The more space there is between the data center sites and urban areas, the harder it is for
+
+
+73 This is even more true to the extent that our adversaries are making significant, independent progress
+
+on algorithms and hardware design. DeepSeek’s V3 and R1 models make it clear that this is happening
+in China.
+
+74 What’s more, Russian and Chinese operations are engaged in significant, low-level industrial sabotage
+
+on U.S. soil already, as many national security professionals have highlighted to us privately.
+
+75 That doesn’t necessarily mean contractors that have actual security clearances: the security clearance
+
+process as implemented by the government takes way too long to be practical. You can do a better job
+with private sector background check solutions if you pick the right providers, and do it much faster.
+
+
+                                                                                                   59 of 62
+adversaries to observe or infiltrate, and the easier it is to secure. A data center for a
+superintelligence project will also become a magnet for sabotage and even kinetic attacks by
+adversaries, so the further it is from inhabited areas, the less collateral damage we’ll absorb if
+things go badly. There’s also an information security advantage to consider: leaky municipal
+record-keeping, FOIA requests, and other channels could easily reveal security-critical
+information.
+
+Even if you build your data center as an exquisite fortress that’s 100% impenetrable (which is
+already impossible), you still haven’t protected your model’s weights from theft. Among many
+other options, an adversary can simply take out your exquisite data center through sabotage.
+And if they do, you’re dead in the water and can’t make any further progress in the AI race —
+unless you transfer your work to a less secure data center. You’re then faced with a dilemma:
+allow your adversaries to pull ahead, or resume your work using infrastructure that wasn’t
+designed to withstand nation-state theft operations. In other words: if you’re in a race to
+superintelligence, there’s no way to protect your model weights from theft without also
+protecting your data center from destructive attacks.76
+
+There are a whole host of potential attacks that could accomplish this. For example, as we’ve
+already seen, there are straightforward attacks that can take down multi-billion dollar pieces of
+(relatively secure) infrastructure for six months on a $20,000 budget. It’s a fairly cheap fix at a
+cost of a few hundred thousand dollars. But fixes like those need to be implemented. Nothing’s
+perfect, but we should at least force our adversaries to dig deeper than $20k if they want to
+brick some of the biggest investments in our country’s history.
+
+But some critical fixes are much more expensive. If we’re serious about security, we’ll need to
+redesign data centers to resist TEMPEST attacks,77 which, among other things, involves
+physically separating servers from the inner and outer walls of the building — in other words, a
+fully redesigned campus footprint. We’ll also need to secure the supply chains for components
+
+
+76 But if you’re not in an AI race, this is no longer true. For example, if the United States and China are
+
+just trying to prevent each other from achieving superintelligence rather than pushing hard to achieve it
+themselves — possibly because they don’t believe they themselves understand how to control a
+superintelligent AI. Then a destructive attack on your data center might temporarily stop you from
+improving or even using your most advanced AI model, but won’t destroy the model itself. (It’s relatively
+easy to at least preserve a model’s weights securely.) Thanks to Dan Hendrycks for suggesting this point.
+
+77 This is where an attacker can read what a computer is doing from its electromagnetic emanations. The
+
+actual standards used to defend against TEMPEST attacks are classified and presumably rapidly evolving
+– another reason why a project like this would require close collaboration between intelligence agencies
+and data center design teams.
+
+
+                                                                                                      60 of 62
+that go into the data centers to the same degree that’s currently being done for warfighting
+platforms like fighter jets. Yet according to data center operators we spoke to, some of those
+components do not have non-Chinese suppliers. And if the superintelligence cluster needs to
+be distributed geographically, the fiber links between buildings need to be continuously
+monitored for physical access and compromise78 — according to experts we spoke to, *** * **
+*** *** *** ** * *** *** *** ** * **** * *** **** *** *** **** * * **. There are lots of other measures
+needed too but these are the most under-discussed.79
+
+We’re aware of several teams currently researching whether it’s possible to retrofit an existing
+data center to this level of security. Their preliminary conclusion is that it isn’t doable. That’s a
+big problem: we need this level of security or we immediately lose the game. So a project like
+this needs a new data center build, it needs security baked in from the ground up, and it needs
+to be integrated from the start into an offensive counterintelligence motion that disrupts similar
+projects by adversaries. As new capabilities come online that can buy America time, they need
+to be quickly and efficiently folded into offensive activities, while intelligence we collect from
+adversaries needs to inform the kinds of capabilities we seek to develop in real-time.
+
+We need a dedicated function to balance security, AI control and containment, and capabilities
+progress, informed by classified intelligence and a deep understanding of the risks of leaks and
+uncontrolled superintelligence. And there’s no way to accomplish that other than to put
+competent operators in charge, who have clear visibility into all the relevant factors.
+
+
+
+78 Even dark fiber used exclusively for this purpose are apparently vulnerable to these attacks. Encrypted
+
+fiber links could help here, but we suspect that either RSA encryption has been broken today, or that
+national security agencies anticipate that it could be broken imminently. This suspicion is based on
+recently observed public statements by facets of the U.S. government; we don’t have any private
+information about this particular topic.
+
+79 Some of the most prominent ones include screening of all devices entering data centers; auditing
+
+source code on all cluster devices (especially network cards and AI accelerators); dedicated protected
+storage for models and sensitive assets with monitorable external connections and flexible network
+isolation (allowing for offline operation); mandatory encryption of sensitive data at rest and in transit
+within the cluster; secure identity and integrity attestation for all connected devices; encrypting model
+weights at all times except when in use and in volatile memory only; defining network boundaries
+between sub-networks within the facility and between the facility and outside world, with pre-defined
+network baseline configurations for data flows at the boundaries and flags for anomalous traffic; and
+continuous monitoring of inter-data center connections (including underground cables). Hardware and
+compute security should include strong anti-tampering measures, confidential computing at the cluster
+level, protection against side-channel attacks, and hardware-level protection of monitoring logs. Physical
+access should be strictly limited to cleared personnel with high-end professional security services, regular
+sweeps for unauthorized devices, and full isolation of hardware.
+
+
+                                                                                                    61 of 62
+All of this can be done, and we’ve surfaced what we think are workable solutions to many of
+these problems throughout. But they’ll call upon us to do more than business as usual: to take
+the reins of history, aim high, and execute with extreme competence. Luckily, that’s exactly
+what America does best.
+
+
+
+
+                                                                                          62 of 62
+
