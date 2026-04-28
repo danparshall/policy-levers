@@ -26,7 +26,20 @@ Other things worth noting in the Exec Summary's framing: the Introduction explic
 #### Fact-sheet
 
 **Authoring body:** U.S.-China Economic and Security Review Commission (USCC), 12 commissioners, unanimous bipartisan vote.
-- Chair: Robin Cleveland · Vice Chair: Reva Price
+- Commissioners (12 total, listed verbatim from exec summary front matter):
+  - **Robin Cleveland — Chairman**
+  - **Reva Price — Vice Chair**
+  - Aaron Friedberg
+  - Kimberly T. Glas
+  - Hon. Carte P. Goodwin
+  - Jacob Helberg
+  - Michael Kuiken
+  - Leland R. Miller
+  - Hon. Randall Schriver
+  - Cliff Sims
+  - Hon. Jonathan N. Stivers
+  - Michael R. Wessel
+- Per statute (22 U.S.C. § 7002), commissioners are appointed by the four congressional leaders (Senate Majority/Minority Leaders, House Speaker/Minority Leader), 3 each, with terms structured to ensure bipartisan composition. Specific appointing-authority assignments per commissioner are listed in the report's Appendix I.
 - Statutory mandate: Floyd D. Spence NDAA 2001, Pub. L. No. 106–398 (22 U.S.C. § 7002), as amended through 2022.
 - Transmitted: November 19, 2024 · current as of October 11, 2024.
 - Recipients: Senate President Pro Tempore Patty Murray, House Speaker Mike Johnson.
