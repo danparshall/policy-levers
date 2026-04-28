@@ -1,0 +1,344 @@
+AI model developer security
+
+
+Frontier AI models are trained and deployed on data center hardware. But the algorithmic
+insights, data collection and preparation procedures, and other critical conceptual
+breakthroughs that make those AI models more powerful are developed and honed inside the
+frontier AI labs themselves. These AI labs are tempting targets for nation state espionage. Most
+of them are also very poorly secured.
+
+
+The conceptual insights that frontier AI labs are developing today will be used in the AI training
+runs of the 2026 era and beyond. Current and former frontier lab researchers we interviewed
+generally believe that some individual algorithmic insights could allow adversaries to train
+frontier AI models ten times more efficiently — potentially unlocking billions of dollars of
+efficiencies for very large models39 — and that those insights can be communicated in a ten-
+minute conversation between experts.40
+
+
+As with the physical supply chain for frontier AI we discussed earlier, the decisions we make
+about AI model developer security today will shape our adversaries’ capabilities in 2026 and
+beyond. But right now, frontier labs can’t make the right decisions about security because they
+aren’t receiving regular threat intelligence updates from the national security and intelligence
+communities.
+
+
+Recommendation: As a first step, the U.S. government should share threat intelligence
+updates with frontier AI labs on a regular basis. It should also develop a mechanism to
+quickly declassify information that could contribute to labs’ security postures. Right now, the
+U.S. government lacks situational awareness about the true extent of labs’ frontier capabilities,
+but frontier labs also aren’t read in on the full range of threats they currently face.
+
+
+
+39 Especially if you include the capex cost of building a large AI training cluster in the first place. If using
+
+open-source algorithms lets you train an o3-level model for $10 billion including capex, then stolen
+proprietary insights could let an adversary train it for $1 billion. (The numbers are hypothetical.)
+
+40 Aschenbrenner claims the same thing in Situational Awareness, but it’s now also obvious from
+
+advances like DeepSeek-V3. DeepSeek implemented three new but conceptually simple techniques
+(DeepSeekMOE, multi-head latent attention, multi-token prediction) and those boosted their compute
+efficiency by >10x. These are exactly the kinds of advantages that American AI labs develop internally.
+It’s great that DeepSeek open sourced those techniques for us – but if we want an enduring lead, we
+shouldn't return the favor.
+
+
+                                                                                                         30 of 62
+On the other hand, security measures can stifle progress and reduce R&D velocity. Falling
+behind the CCP is just as bad whether it’s because our labs’ security is so poor that their
+proprietary advances can be stolen, or because we hamstring our own researchers with security
+protocols that weigh them down unnecessarily. We’ll need to invest in convenience tooling
+for ultra-high-security AI development that minimizes the work ow disruptions introduced
+by new layers of cyber and hardware-level security that we’ll have to introduce to the
+advanced AI R&D stack. This work should be led by the private sector, but supported – and
+potentially subsidized – by the U.S. government. We won’t go into details here, but there are
+mechanisms through which this could be done efficiently, and quickly enough to get workable
+prototypes online within the next 12 months. We’re happy to brief these in person if requested.
+
+
+
+Personnel security
+
+Personnel security at the frontier labs is a major challenge. The Chinese Ministry of State
+Security (MSS) targets ethnic Chinese as a matter of highest-level national policy,41 and
+routinely exploits them as a source of intelligence. It does this by applying systematic pressure
+to individuals via their family, financial, and other ties to the mainland, to encourage them to
+collect and report commercial and other intelligence. This is of direct concern to U.S.-based
+frontier AI research and development: according to a senior researcher at a leading U.S.-based
+frontier AI lab, “In terms of percent [of frontier lab researchers] that’s foreign born, it’s well over
+50%. [...] A pretty high portion of lab employees are [specifically] Chinese nationals.”
+
+
+CCP espionage activity and penetration in the United States — particularly that target Chinese
+nationals — is extensive and highly systematized. For example, a former senior national
+security executive shared the following story: “While I was at *** ***** there was a power
+outage up in Oakland that affected Berkeley. There was a dorm that lost power and most of the
+campus lost internet connection. And the RA of the dorm ended up talking to one of our CI
+activities and all of the Chinese students were freaking the hell out because they had an
+obligation to do a time-based check-in, and if they didn’t check in, like, maybe your mom’s
+insulin medicine doesn’t show up, maybe your brother’s travel approval [doesn’t come
+through]. [...] The fidelity with which they control their operatives is super high.” The impact of
+
+
+41 While public sources have tended to emphasize Chinese nationality over ethnicity in terms of MSS
+
+targeting, several former defense and intelligence officers we spoke to were very clear that Chinese
+ethnicity was being prioritized. This is also consistent with some of Xi Jinping’s recent statements.
+
+
+                                                                                                   31 of 62
+                                                         fl
+this kind of activity on AI is direct. A former senior intelligence official we spoke to told us that
+there are non-public cases in which unpublished Google research has been acquired by the
+Chinese, and made widely accessible to university students in China, for example.
+
+
+According to intelligence professionals with direct experience countering these activities, the
+CCP applies pressure through a well tested escalation playbook: from what we’ve been able to
+gather, this typically starts with minor punishments such as limiting healthcare or career
+opportunities to relatives on the mainland, and ratchets up systematically to confiscation of
+personal assets, imprisonment or disappearance of relatives in China, and physical intimidation
+on U.S. soil using infrastructure they’ve established for that purpose. The uncomfortable truth is
+that the CCP applies this pressure not just to their own citizens, but also to ethnic Chinese
+abroad – including some U.S. citizens of Chinese origin – particularly if they have family or
+financial ties to the Chinese mainland. Of course, Chinese researchers have been invaluable to
+American tech for generations, and to frontier AI in particular today — and their contributions
+will continue to help America compete with the CCP. But any American superintelligence
+project must be designed in a way that recognizes the immense leverage that the CCP can
+exert over researchers whose loved ones or assets are located within China’s sphere of
+influence.
+
+
+The United States will face significant challenges in addressing insider threats from the CCP
+and other well-resourced actors. These will include constitutional roadblocks, and the fact that
+some of the most technically capable talent employed by U.S. firms may itself be
+compromised. That forces a direct trade-off between security and technical bench depth at all
+levels of the AI supply chain. We will need to put in place stringent security and
+counterintelligence measures if we’re going to stand a chance of limiting critical IP leaks to the
+CCP and other adversaries. These measures will probably reduce development velocity, and
+their impact will be felt most acutely within frontier AI labs themselves.
+
+Frontier labs face strong incentives to prioritize speed over security. This is where Silicon
+Valley’s edge has come from, historically: competitive pressure and rapid, open iteration has
+propelled American tech forward in an environment with capped downside risks (at worst, a
+company folds), and near-unlimited upside potential. In that setting, even labs and researchers
+who consider themselves security-conscious relative to their peers can significantly
+underestimate the CCP’s motivation and capability to extract sensitive IP.
+
+The result of all this is a deeply rooted culture of bad personnel security. Real personnel
+security for a project developing potential WMD capabilities looks like intense vetting scrutiny,
+including detailed inquiries about family locations and extensive travel histories, all rigorously
+
+
+                                                                                                32 of 62
+cross-validated. It looks like continuous monitoring of personnel and their communications,
+employee atmospherics and trends, up to and including handing over personal phones and
+laptops for review. It calls for insider threat programs, active surveillance, and other privacy-
+violating activities. These things slow down research and frustrate researchers. But they are
+some of the basic personnel security procedures that would apply to any government-backed
+project expected to produce WMD capabilities.
+
+These security measures are all the more critical in Silicon Valley’s AGI scene, where naive
+researchers recommend and hire based on (often publicly legible) social networks and with
+little to no accounting for national security factors. The social fabric and culture of Silicon
+Valley’s leading AI labs makes them particularly vulnerable to CCP infiltration and HUMINT
+gathering. We’ve seen firsthand how freely sensitive information flows in these circles: our team
+— at the time, independent researchers — were receiving updates on proprietary frontier AI
+training runs as far back as 2020. Leaks remain extremely common.
+
+Recommendation: A national superintelligence project will have to make hard choices about
+who to include in its security umbrella, and about what to do with AI researchers and engineers
+who don’t pass the security bar. There are executive authorities and other tools that can help
+with this, *** ** ** * *** ** * *** ** * ** **** ** * ** *** ** *** **** *** * * **** ** ** *** *** *** ***
+* * * (we can provide in-person briefings if requested).
+
+
+A large fraction of the world’s best AI researchers come from abroad, so we’ll have to find a
+way to vet, clear, and hire top talent from other countries. Aggressively expanding the Limited
+Access Authorization program – which helps U.S. national laboratories hire foreign talent –
+could be a way to do this.
+
+
+We’ll also need a security clearance process that’s better than the U.S. government’s
+ordinary clearance process. Multiple national security and intelligence professionals have told
+us that the existing process for Top Secret clearances is too slow and in any case fails to
+leverage all the information it should — even failing to use unclassified information from
+OSINT, ADINT, and commercially available sensors.42 The key question then becomes how the
+government can certify these private sector clearances and link them to access and
+participation in the project. This is probably doable through an executive order, which should
+
+42 The existing clearance process doesn’t use dark web data, phone number analysis, ad IDs (“ADINT”),
+
+native language checks using foreign sources, or even much publicly available OSINT. It also doesn’t
+necessarily use all the data that’s available to the government internally. As one expert in background
+check systems told us, “a criminal record in one county may be completely unknown if the individual
+moves across the country.”
+
+
+                                                                                                    33 of 62
+also authorize frontier labs to hire and let go of employees on the basis of these background
+checks (to avoid wrongful termination lawsuits).
+
+
+The personnel risk here isn’t just about securing model weights from theft, or even protecting
+data center facilities from sabotage. As we mentioned above, there are algorithmic trade
+secrets that can be conveyed in a ten minute conversation between experts, and that if
+implemented can save billions of dollars and months of experimentation on the path to
+superintelligence.
+
+
+We already know from dozens of sources that the current state of security at frontier labs is not
+up to these challenges. But a former defense official with extensive counterintelligence
+experience shared his assessment with us that all these labs are almost certainly severely
+penetrated by the CCP. He added that if legislators fully understood the potential for
+compromise of these labs by foreign nationals, there would immediately be a much stronger
+push for tighter controls. In our assessment, we should assume that the Chinese government
+knows all the algorithmic secrets that all U.S. AI labs know today — those secrets clearly aren’t
+hard for them to steal under current conditions — and that those secrets have been
+disseminated to their own national AI champions.43 But that’s a bad reason to keep leaking all
+the algorithmic insights that we’ll develop in the future too. We’ll have to clear any personnel
+working on the project, and turn to a combination of public and private solutions to improve
+that clearing process, as discussed above.
+
+
+
+Cybersecurity
+
+Cybersecurity is another core challenge for a superintelligence project. The software libraries
+leading AI labs use have been compromised in the past, and frontier AI researchers depend
+heavily on insecure open-source software to move as fast as they do. Software development
+tools, including the coding assistants researchers use and the data they’re trained on, are
+potential attack vectors as well.
+
+
+During our investigation, we spoke to one former OpenAI researcher who claimed to have
+been aware of several critical security vulnerabilities, including one that allowed users to
+
+
+43 We have no specific information regarding which companies these would be, but they likely include
+
+Huawei, Alibaba, Baidu, Tencent, and ByteDance and probably also some smaller companies like
+DeepSeek and 01.ai.
+
+
+                                                                                               34 of 62
+perform ***** ** ** ****** **** **** **** * ** **** ***** * ** **** ******* ** ** **, such as
+granting access to the weights of the lab’s most valuable AI model — their crown jewels. The
+researcher was later also made aware of an additional vulnerability discovered by red teamers
+that had been logged in the lab’s internal documentation and Slack channels, but left
+unaddressed. By his assessment, this second vulnerability would have allowed any employee to
+exfiltrate model weights from the lab’s servers undetected. Together, these two vulnerabilities
+made it possible to (1) access; and (2) extract some of OpenAI’s most sensitive IP, worth billions
+of dollars. He told us that these issues had been flagged for security teams and management,
+but that they went unaddressed for months.44 To this day, he has no idea whether a fix has
+been implemented.
+
+According to several researchers we spoke to, security at frontier AI labs has improved
+somewhat in the past year, but it remains completely inadequate to withstand nation state
+attacks. According to former insiders, poor controls at many frontier AI labs originally stem
+from a cultural bias towards speed over security. This is a major challenge we’ll face in securing
+AI labs for a superintelligence project. Most AI labs have a deep cultural aversion to anything
+more than token personnel or cyber security measures – an aversion that’s sometimes seeded
+and reinforced by commitments to transhumanist or other ideologies.
+
+It’s worth underlining what happens when an adversary steals cutting-edge AI model weights. If
+an adversary steals the weights of a model you’re developing, any lead you had in base model
+pretraining45 instantly goes to zero — or even negative, if they have the benefit of your
+discoveries in addition to their own.46 (Code and training techniques can be just as critical, at
+least until AI systems are doing most of our AI R&D work themselves.)
+
+Recommendation: The NSA should be working directly with all frontier labs to accelerate
+their software and cyber security, alongside private sector red teams. This should include
+very robust pentesting activities. Ideally, it would also involve support from private security
+firms with experience securing sensitive national security sites.
+
+44 And of course, if news of these specific vulnerabilities worked its way to us, then adversaries like the
+
+CCP were likely aware of them as well.
+
+45 Thanks to inference-time scaling, we could still retain an overall lead in AI capabilities if we have a
+
+larger stockpile of inference compute than our adversaries. But if the infrastructure we use to perform
+inference on national security-critical models is compromised, adversaries could monitor what we’re
+using those models for, and potentially interfere with their behavior. Having a larger inference-time
+compute stockpile is good, but securing that infrastructure is still essential.
+
+46 Your lead is also negative in another sense: after they’ve stolen your model, they still have their full
+
+opex budget available to spend on augmenting or supplementing the model’s capabilities.
+
+
+                                                                                                       35 of 62
+People have already started working on determining what it would take to stop high-capability
+adversaries from stealing model weights. We won’t rehash the details here, other than to say
+that while these efforts are commendable, they focus mostly on preventing theft and not denial
+attacks47 (like drone strikes, missile strikes, physical sabotage, or certain cyberattacks). And so
+far, the IC and broader national security community haven’t taken a leading role on this; that
+will have to change quickly. The most significant vulnerabilities that data centers and other
+critical AI infrastructure have to nation state-level attacks can only be identified and mitigated
+by intelligence, defense, and national security agencies with access to sensitive data, as well as
+deep domain expertise and experience carrying out and defending against adversary
+operations.
+
+
+If we only recognize the need for a superintelligence project relatively soon before
+superintelligent AI is achieved, then we’ll have no choice but to urgently retrofit key facilities to
+higher levels of security. In that scenario, we’ll need especially deep and ongoing integration
+between U.S. national security agencies and the teams involved in the retrofitting process,
+because a lot of the tradeoffs between speed and security are extremely context dependent. If
+we have to make those trade-offs, we should make them deliberately, and they should be
+made by people who have full access to informed assessments of the strategic implications of
+various security and infrastructure design choices.
+
+
+Finally, if our adversaries do manage to steal the weights of superintelligence-grade models,
+we’ll want to make sure that we maintain a decisive lead on centralized inference-time compute
+capacity. Even if adversaries exfiltrate critical model weights, we may still be able to achieve
+better performance than they can from the same model if we can dedicate more FLOPs to
+inference than they can.
+
+
+
+Emissions security
+
+In a context where multi-billion dollar technical secrets can be leaked in a five-minute
+conversation, IP security becomes a critical problem. Parabolic and laser microphones,
+piezoelectric sensors, and other surveillance technology can be used to eavesdrop on sensitive
+
+
+47 Note also that denial attacks can be the first step of an IP extraction attack: if an adversary destroys
+
+our secure R&D facilities, we may be forced to relocate critical work to less secure facilities that are more
+vulnerable to IP theft.
+
+
+                                                                                                       36 of 62
+conversations easily. This is particularly true when espionage targets are in offices in densely
+populated urban areas, because adversaries can hide their surveillance operations in the city
+noise and disguise them as legitimate business or urban activity. A U.S. government-backed
+superintelligence project would have to move its R&D work — including algorithm
+development — to facilities that we can secure against sophisticated adversary information
+collection operations like these, and against the TEMPEST threats we mentioned earlier.
+
+
+Recommendation: According to former special operations and intelligence professionals we
+interviewed, the most straightforward way to achieve good emissions security is to build new
+facilities in green eld locations far from densely populated urban areas. But this introduces
+yet another trade-off for project efficiency and recruitment. Frontier AI researchers are used to
+the conveniences of life in e.g. downtown San Francisco, so some may not be inclined to join a
+project that requires them to relocate to remote locations and be subjected to close
+surveillance by national security entities. Having said this, many frontier AI researchers consider
+their work on superintelligence to be a calling rather than a job — and we suspect many of the
+best will choose to work even in an inconvenient, highly secure environment rather than be left
+behind. The AI labs and their researchers believe themselves to be at the center of a unique
+historical inflection, and that’s worth a lot of annoyance, inconvenience, and even pain to many
+of them.
+
+
+
+
+                                                                                            37 of 62
+   fi
+
