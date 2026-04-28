@@ -1,0 +1,66 @@
+America’s Superintelligence Project
+                      April 2025
+
+
+
+
+            Jeremie Harris, Edouard Harris
+
+
+                  hello@gladstone.ai
+
+
+
+      Redacted text has had its length randomized.
+America’s Superintelligence Project                   1
+ Executive Summary                                     3
+
+ Introduction                                          6
+
+   Scope of the investigation                        10
+
+ Data center security                                12
+
+   Physical security                                 13
+
+   Hardware supply chain security                    15
+   Side-channel security                             19
+
+   Software supply chain security                    22
+
+   Energy security                                   23
+
+   Export controls                                   25
+
+   AI hardware security                              26
+
+ AI model developer security                         30
+
+   Personnel security                                31
+
+   Cybersecurity                                     34
+
+   Emissions security                                36
+
+ AI control                                          38
+
+   The current game plan                             41
+
+ The chain of command                                45
+
+ Conclusion                                          50
+
+   Objective of the project                          51
+
+   Strategies                                        53
+
+   Project ownership                                 56
+
+   Project funding                                   57
+
+   Security, espionage, and counterintelligence      58
+
+
+
+                                                  2 of 62
+
