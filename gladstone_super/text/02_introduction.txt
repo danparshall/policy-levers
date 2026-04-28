@@ -1,0 +1,257 @@
+Introduction
+
+
+America has a historic opportunity to build, secure, and control3 a world-defining technology:
+artificial superintelligence (ASI). The right kind of superintelligence project could give the
+United States a decisive – possibly permanent – advantage over our adversaries, and deliver
+unprecedented economic benefits globally. But right now, we aren’t building the right kind of
+superintelligence project. Research on the critical path to ASI is happening in badly secured
+private labs that are easy targets for CCP penetration, is not being strongly integrated with
+national security efforts, and is cutting corners on the critical technical problem of controlling
+these systems. All this can be fixed, and it will have to be.
+
+
+From 2022 to early 2024, our team conducted an investigation of the national security
+implications of frontier AI development. We shared the first-ever publicly reported statements
+from frontier lab whistleblowers who were concerned that their labs’ security posture was
+putting U.S. national security at risk. According to lab insiders, leading AI model weights –
+which are increasingly key U.S. national security assets – were being regularly stolen by nation-
+state actors. Critical lab IP was protected by flimsy security measures. And executives at some
+top labs were shutting down calls for heightened security coming from their own concerned
+researchers. In one case, a researcher told us about a running joke within their lab that they’re
+“the leading Chinese AI lab because probably all of our [stuff] is being spied on.”4
+
+
+A few months later, OpenAI fired Leopold Aschenbrenner – a researcher who had written an
+internal memo criticizing what he considered OpenAI’s poor security – allegedly for leaking
+sensitive information. *** ***** * ***** * ** *** ***** *** ****** *** ***** * ***** * ** *** ***** ***
+
+3 There are reasons to believe that artificial superintelligence — meaning AI systems that are significantly
+
+more capable than humans at all tasks — can’t be controlled in any meaningful way. Obviously, whether
+that turns out to be true should be a huge factor in determining our national security strategy for ASI.
+We’ll discuss this more later in the document.
+
+4 These concerns were justified. There have been many public reports since then of Chinese efforts –
+
+some successful – to spy on American hyperscalers and AI labs. For example, Chinese hacking group
+“Diplomatic Specter” has been spearphishing OpenAI employees; a former Google engineer stole AI-
+related trade secrets and siphoned them to Chinese firms; and Chinese state-backed hacking groups
+were able to obtain a cryptographic key from Microsoft that gave them full access to encrypted sensitive
+data from cloud servers. The scale of China's state-backed hacking program is "larger than that of every
+other major nation, combined", and has included infiltration of major U.S. broadband providers, and
+theft of private data used to train AI models.
+
+
+                                                                                                      6 of 62
+****** *** ***** * ***** * ** *** ***** *** ****** *** ***** * ***** * ** *** ***** *** ****** *** *****
+* ***** * ** *** ***** *** ****** *** ***** * ***** * ** *** ***** *** ****** *** ***** * ***** * ** ***
+***** *** ****** According to one former researcher, “The government doesn’t really know
+what’s going on in the labs, and they’re not even allowed to talk to people at the labs [...] Labs
+are trying to crack down on [technical researchers] that they suspect of potentially talking to the
+government.”
+
+
+As a result, the U.S. government lacks situational awareness regarding the capabilities of
+frontier models trained on American soil – increasingly critical national security assets. And
+unlike the U.S. government and its intelligence agencies, the CCP is free to spy on American
+companies: at any given time, the CCP may have a better idea of what OpenAI’s frontier
+advances look like than the U.S. government does.
+
+
+Most U.S. frontier labs have improved their security measures somewhat since we published
+our report. But as we’ll see, these improvements are not enough to keep them ahead of current
+or future CCP operations.
+
+
+Soon after his departure from OpenAI, Aschenbrenner published Situational Awareness, an
+influential manifesto that argued that the current explosive growth in AI capabilities, measured
+on a scale of “effective compute,” suggests that superintelligence may very well be developed
+before the end of the decade.
+
+
+AI scaling curves show that as AI models have been trained using ever larger quantities of
+compute and data, their capabilities have increased steadily and predictably across many
+orders of magnitude. As AI system training and inference is scaled on larger and larger
+superclusters, it’s likely that the capabilities of frontier systems will continue to increase.
+
+
+Those capability increases could happen surprisingly fast: AI is already augmenting important
+parts of the AI research process itself, and that will only accelerate.5 Soon, AI research will be
+mostly or entirely automated, with millions of AI agents pushing the field forward at computer
+speeds rather than human speeds, and getting faster with every exponential increase in
+computing power. On the way there, we might get warning shots – if we’re lucky, shocking
+demos; if we’re unlucky, high-consequence attacks or accidents – that will fully awaken national
+security agencies to the stakes of superintelligence. At that point, Aschenbrenner argued,
+
+
+
+5 Frontier lab insiders we spoke to have told us that as of February 2025, as much as 50% of their lab’s
+
+codebase is already written by AI. They expect this number to reach 75% by the end of 2025.
+
+
+                                                                                                    7 of 62
+everything will change. Proposals that seem outrageous today will slide across the Resolute
+Desk — from locking down the labs to outright nationalization of ASI research.
+
+
+Leopold isn’t alone in predicting that we’re on course for superintelligence, or that more
+government involvement in AI is inevitable. Our team has spent the last four years working
+closely with a network of insiders at top AI labs and U.S. national security agencies to
+understand what the march to ASI will actually look like — and what it will call upon us to do, if
+we want the U.S. to come out ahead of the CCP, and the cause of liberty to win through. In that
+time, the views of many of our contacts in the AI labs have sharpened: as we approach
+superintelligence, it’s become clearer to them that AI is turning into a national security
+technology first and foremost. To quote a former cyber intelligence operator we interviewed
+during our investigation, “Dual-use is a nice way to [describe superintelligence], but actually it’ll
+be a weapon for all intents and purposes.”
+
+
+A small number of people in the frontier AI world saw this coming, and they weren’t just
+employees at leading labs. As early as 2020, a technical background and some discussions with
+the right friends at OpenAI were enough to convince us to dive head-first into AI national
+security. Even then, it was clear that we’d end up with an industry-wide race to build AI
+infrastructure, and that the national security implications of AI development were soon going to
+be impossible to ignore.
+
+
+To this day, if you know the right people, the Silicon Valley gossip mill is a surprisingly reliable
+source of information if you want to anticipate the next beat in frontier AI – and that’s a
+problem. You can’t have your most critical national security technology built in labs that are
+almost certainly CCP-penetrated, some of which have a history of shutting down
+whistleblowers with security concerns. As a former DIU executive told us, “if legislators knew
+how compromised [redacted AI lab] might be, there would be a significant appetite to shut this
+all down.”6 Despite deepening partnerships with national security agencies, frontier AI
+development is leaky: most lab executives aren’t pricing in how effective nation-state
+
+
+
+
+6 He didn’t mean to shut down the frontier AI labs, but rather to move the development of high-stakes
+
+AI R&D out of highly penetrated companies with huge security vulnerabilities.
+
+
+                                                                                                 8 of 62
+espionage can be.7 Shoring up lab security to the point where we aren’t giving away the crown
+jewels of American technological superiority to the CCP will require fundamental changes to
+the culture, management, and operations of frontier AI labs.
+
+
+Right now, the greatest danger is not that the U.S. will fall behind China in the race to
+superintelligence. Until we’ve secured the labs, there is no lead for us to lose. Just the
+opposite: as we’ve seen, U.S. national security agencies don’t constitutionally spy on American
+companies or access their technology illicitly, but the CCP has no such scruples. Under the
+status quo, therefore, advances at private U.S. labs may lead to advances in CCP capabilities
+before they lead to advances in U.S. national security capabilities.8
+
+
+Apart from security, there’s also the question of what chain of command should apply to future
+superintelligent systems. We’re already seeing AI models with meaningful bioweapon design,
+cyber, autonomy, and even persuasion capabilities. Superintelligence will go beyond that: it will
+be the national security technology. It will deliver a decisive, and possibly permanent strategic
+advantage to whoever builds and controls it first – and it may not be easy to control. It must be
+built by, secured in, and controlled from America. And it must be operated in a way that serves
+the interests of the American people.
+
+
+
+
+7 One former OpenAI researcher pushed back on this framing as applied to OpenAI, and we’re including
+
+his perspective here for completeness even though it’s not a universally held view. As he put it, “It's not
+that [OpenAI] aren't pricing this in. It's that they don't care. They know they are going to get away with
+it; it's not like they are going to get fired for having bad security, whereas if they were to beef up their
+security and thereby fall behind in the race to AGI, they would lose all their power and chance at glory
+etc. My guess at least, is that they cynically calculate that the U.S. government will at most slap them on
+the wrist for having bad security. tbc this is just my guess, I don't have direct knowledge of what they are
+thinking. But they aren't idiots, they know the CCP has probably penetrated them and could easily do so
+in the future.”
+
+8 In fact, according to national security professionals we interviewed – many of whom had experience in
+
+the IC – under today’s conditions, a very real possibility is that 1) A U.S. frontier lab gets noticeably close
+to building superintelligence; 2) the CCP observes this progress and exfiltrates what it needs to
+reproduce it domestically; 3) the CCP begins to sabotage the lab’s further development efforts, likely in
+an obfuscated or deniable way; and 4) the CCP hands over the stolen technology to its national
+champions to finish the work themselves. In other words, while some U.S. frontier labs believe internally
+that they can achieve superintelligence first by pushing AI capabilities as fast as possible, that belief is
+quite possibly deluded — in reality, they’re more likely to be beaten at the last minute by unscrupulous
+actors with access to nation-state resources.
+
+
+                                                                                                         9 of 62
+If we end up launching a national project, the need for that project will be recognized abruptly,
+and when it is, we’ll wish we’d had more time to think through how to pull it off. For the past
+year, we’ve been working to answer exactly that question: how might a U.S. government-
+backed superintelligence project work? We interviewed dozens of frontier AI researchers,
+energy specialists, AI hardware engineers, national security executives and action officers, and
+constitutional lawyers. We visited hyperscaler data centers with former Tier 1 special forces
+operators to assess the state of the art of data center security. We spoke to dozens of
+Congressional offices to understand where the Overton window is today, and how far it will
+have to move to catch up to the decade of superintelligence.
+
+
+This might seem premature. But if progress simply continues on its current path, we could
+suddenly find ourselves in a technological and geostrategic crisis – maybe even a hot war –
+over AI. And if that happens, we’ll wish we’d had more time9 to anticipate contingencies, figure
+out how to design a CCP-proof project, find out whether it can do what we want it to do – and
+decide how to run it.
+
+
+
+Scope of the investigation
+
+AI is already a dual-use technology. But as we get closer to superintelligence, it will be seen
+more and more as an enabler and driver of weapon of mass destruction (WMD) capabilities, if
+not as a WMD in and of itself. Direct calls for a “Manhattan Project for AGI” are already
+starting.
+
+
+But it’s still not obvious how exactly the U.S. government could or should partner with frontier
+AI labs on a superintelligence program. Should frontier labs be nationalized outright?10 Should
+they be put on contract to support U.S. government research activities? Or should the
+
+
+
+9 Many of the security measures we’ll need to pull off a successful superintelligence project – especially
+
+those that require technical R&D – will take months to years to implement.
+
+10 As part of the research that informed our March 2024 report, we spoke to frontier lab insiders and
+
+whistleblowers, many of whom were concerned that their labs were brushing off their increasingly critical
+security concerns. During a lab tour, a researcher discreetly took Jeremie aside. Referring to our eventual
+recommendations to the U.S. government, he told him that, “I would urge you to be more ambitious,”
+and asked us to recommend that frontier AI research be nationalized. That would have been an extreme
+measure, particularly at the time. But he wasn’t the only one calling for it even then, almost a year before
+the Situational Awareness memo brought the idea into the mainstream national security conversation.
+
+
+                                                                                                    10 of 62
+relationship between the government and the labs be at arm’s length, with the government
+offering incentives – such as funding or infrastructure – to shape frontier AI research?
+
+
+There’s already been some informed speculation about the answers to these questions, but our
+goal here isn’t to get bogged down in debates about the specific configuration of a
+government-backed superintelligence project. Instead, we’re going to focus on identifying the
+implementation-level problems that a public-private partnership on superintelligence would
+have to solve in order for it to achieve critical U.S. national security objectives.
+
+
+There are many ways that a government-backed ASI project could be set up, but few that will
+lead to a lasting American advantage without inadvertently handing our most important
+national security technologies to our adversaries. We’ll be going after a very small target while
+wielding a very large industrial and national security machine.
+
+
+We’ll start by introducing some of the main considerations that our investigation has surfaced,
+sketching out a path to a U.S.-backed superintelligence program.
+
+
+
+
+                                                                                           11 of 62
+
