@@ -12,7 +12,7 @@
 
 ## Advocacy & Position Documents
 
-Primary sources on AI-policy lawmaker engagement and the worldview behind it. Two distinct orgs bundled here.
+Primary sources on AI-policy lawmaker engagement and the worldviews behind it. Two distinct orgs (ControlAI, CAIP) plus independent position essays.
 
 ### ControlAI (UK-based, US-expanding; superintelligence-prohibition ask)
 
@@ -38,3 +38,10 @@ Jason Green-Lowe's 7-post "Activist View of AI Governance" sequence — case for
 | Green-Lowe (2025, 5/7) | "Orphaned policies": good AI-safety policy ideas die on contact with legislation because no one is staffed to move them | `GreenLowe_2025__caip_5_orphaned_policies.pdf` |
 | Green-Lowe (2025, 6/7) | X-risk funders are staffed with academics; need in-house political experts with grant-evaluation authority | `GreenLowe_2025__caip_6_funding_expertise.pdf` |
 | Green-Lowe (2025, 7/7) | AI-safety grantmaking should adopt mainstream philanthropic best practices (RFPs, scoring rubrics, external review) | `GreenLowe_2025__caip_7_mainstream_grantmaking.pdf` |
+
+### Independent position essays
+
+| Document | Description | File |
+|----------|-------------|------|
+| Aschenbrenner (2024) | "Situational Awareness: The Decade Ahead" — 165pp manifesto: AGI by 2027 via "Counting the OOMs", intelligence explosion, "Free World must prevail" framing, predicted national-security takeover ("The Project"). Most-cited AGI-trajectory document in current Hill discourse; load-bearing for the "we must race" framing staffers cite to oppose pre-deployment evaluation. Author runs Situational Awareness LP, a $1.5B+ AGI-thesis hedge fund — disclose when citing. | `Aschenbrenner_2024__situational_awareness.pdf` |
+
