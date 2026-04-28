@@ -1,0 +1,132 @@
+Executive Summary
+
+
+Private labs in the United States believe they’re about to develop artificial superintelligence
+(ASI), a technology that could provide an unmatched strategic advantage to whoever builds
+and controls1 it. They could be right. But as it stands, frontier AI research is vulnerable to
+espionage and sabotage, particularly from the CCP. All of our frontier labs are almost certainly
+CCP-penetrated.2 The national security stakes of superintelligence are too high to let this status
+quo continue.
+
+
+That’s why there have been growing calls for deeper government involvement in securing
+frontier AI research – up to and including a formal recommendation from the U.S.-China
+Economic and Security Review Commission to establish a “Manhattan Project for AGI”. The
+prospect of a Manhattan Project for superintelligence has been widely discussed in the Silicon
+Valley AI scene for years, and hit the mainstream when former OpenAI researcher Leopold
+Aschenbrenner published his influential manifesto in June 2024.
+
+
+But setting up and securing a national superintelligence project wouldn’t be easy. We’ve spent
+the last 12 months figuring out how it could be done, what it would take for it to succeed, and
+how it could fail. We interviewed over 100 domain specialists, including Tier 1 special forces
+operators, intelligence professionals, researchers and executives at the world’s top AI labs,
+former cyberoperatives with experience running nation-state campaigns, constitutional lawyers,
+executives of data center design and construction companies, and experts in U.S. export
+control policy, among others. Our investigation exposed severe vulnerabilities and critical open
+problems in the security and management of frontier AI that must be solved – whether or not
+we launch a national project – for America to establish and maintain a lasting advantage over
+the CCP. These challenges include:
+
+
+    ●    Supply chain security. The U.S. supply chain for critical AI infrastructure is highly
+         exposed to adversary espionage and denial operations. We rely on Chinese
+         manufacturing for key data center components, many of which can be compromised for
+
+
+1 It’s possible that superintelligence can’t be controlled. We’ll discuss that scenario and what we can do
+
+about it later.
+
+2 To be clear: they are likely penetrated by other powers as well. China is noteworthy for being an
+
+aggressive U.S. adversary with the technical talent base, energy production, and access to chips (for
+now) required to be a genuine competitor in AI.
+
+
+                                                                                                      3 of 62
+    surveillance or sabotage. Onshoring these supply chains will take years – time we may
+    not have. The problem extends to AI chip fabrication and packaging, which is largely
+    done in Taiwan. A national superintelligence project built with existing supply chain
+    components would risk embedding CCP trojan horses deep into the data centers that
+    house some of the most national security-critical technology America will ever build.
+    This isn’t a reason not to proceed; there are mitigations, but they come with hard trade-
+    offs.
+
+
+●   Model developer security. The "move fast and break things" ethos of Silicon Valley is
+    incompatible with the security demands of superintelligence. Frontier lab security is far
+    from where it needs to be to counter prioritized attacks by America’s nation-state
+    adversaries. Insider threats are a big problem: a large fraction of frontier researchers in
+    American labs are Chinese nationals, and the CCP is known to leverage individuals with
+    family, financial, and other ties to mainland China – including U.S. citizens – as
+    intelligence sources. There are also major cyber and physical security gaps that would
+    allow a competent adversary to easily obtain sensitive IP, and compromise a national
+    project.
+
+
+●   Loss of control. A key objective of a national ASI project must be to develop AI-
+    powered denial capabilities — *** * *** *** * ** *** *** *** ** * — that would allow the
+    United States to stabilize the geostrategic environment **** ** *** **** ***** *** ****
+    **** **** * ** ** ***** *. But an AI-powered denial capability is useless if it behaves
+    unpredictably, and if it executes on its instructions in ways that have undesired, high-
+    consequence side-effects. A national superintelligence project would need to actively
+    assess the promise of our best AI control techniques, and to account for that
+    information when making decisions about which capabilities to develop, and when. But
+    that needs to be balanced with an imperative for speed: the CCP has already
+    announced significant infrastructure investments on the order of a quarter trillion dollars
+    in PPP terms that could be viewed as a first decisive move towards a nationally
+    coordinated ASI strategy. Chinese AI labs are genuine contenders, even absent
+    espionage. The race to superintelligence is already on.
+
+
+●   Oversight. Superintelligence would concentrate power in unprecedented ways.
+    Traditional checks and balances weren't designed for this. A national project
+    needs robust oversight to prevent misuse, balancing speed with security while
+    ensuring democratic accountability. We need mechanisms, analogous to the
+    nuclear chain of command, to ensure no single person or group can wield this
+
+
+
+                                                                                              4 of 62
+        technology unchecked. And we’ll need an economic “offramp” for the
+        technology: a path to ultimately put superintelligence-derived capabilities into
+        the hands of everyday Americans without compromising national security, to
+        support economic growth and empower individuals with the technology.
+
+These challenges create a dilemma. We're not pricing in the military implications of
+superintelligence, making it hard to justify investing in security now. But security can't be
+bolted on later. Lead times for essential infrastructure are measured in years. Chip designs can't
+be reworked overnight. We must either make a bold bet on securing critical AI infrastructure
+now or find ourselves in a late-stage race to superintelligence with CCP-compromised
+hardware and software stacks, developed by labs unable, for cultural and economic reasons, to
+embrace the security culture this technology demands – and potentially without even the
+ability to control it.
+
+A project like this needs a new data center build, it needs security baked in from the ground
+up, and it needs to be integrated from the start into an offensive counterintelligence motion
+that disrupts similar projects by adversaries. As new capabilities come online that can buy
+America time, they need to be quickly and efficiently folded into offensive activities, while
+intelligence we collect from adversaries needs to inform the kinds of capabilities we seek to
+develop in real-time.
+
+The window to act is closing fast. Many in Silicon Valley believe we're less than a year away
+from AI that can automate most software engineering work. Our interviews with current and
+former frontier lab employees strongly suggest that belief is well-founded and genuine. If
+they're right, we may need to break ground on a fully secure, gigawatt-scale AI data center
+within months, and figure out how deal with contingencies. There's no guarantee we'll reach
+superintelligence soon. But if we do, and we want to prevent the CCP from stealing or
+crippling it, we need to start building the secure facilities for it yesterday.
+
+Our report offers detailed recommendations, including specific actions that America can take
+immediately, even without a full national project. Implementing these recommendations will be
+a big task. It will require unprecedented coordination between government, industry, and the
+national security community. It will be expensive, disruptive, and politically fraught. But the
+alternative – a world in which the CCP builds superintelligence first, or in which we can’t
+effectively control our own – is far worse.
+
+
+
+
+                                                                                                5 of 62
+
