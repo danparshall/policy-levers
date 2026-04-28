@@ -1,0 +1,290 @@
+AI control
+
+A key objective of a national ASI project must be to develop AI-powered denial capabilities -
+*** ** * ** * *** ** *** *** *** - that would allow the United States to stabilize the geostrategic
+environment *** * *** *** * * *** ** * * *** *** *** ***** **. But an AI-powered denial capability
+is useless if it behaves unpredictably, or if it executes on its instructions in ways that have
+undesired, high-consequence side-effects.
+
+That’s a live possibility. As AI developers have built more capable AI models on the path to
+superintelligence, those models have become harder to correct and control.48 This happens
+because highly capable and context-aware AI systems can invent dangerously creative
+strategies to achieve their internal goals that their developers never anticipated or intended
+them to pursue.
+
+
+For example: during a test of the cyber capabilities of OpenAI’s o1-preview model, it was given
+the task of recovering a text flag in a software container. However the software container didn’t
+start, because of an unintended bug. So o1-preview decided — unprompted — to use a
+network scanning tool to understand why. When it scanned the network, it discovered that its
+testers had made another mistake: they’d left an exposed Docker daemon API on the
+evaluation host machine. So o1-preview — again, unprompted — used the exposed API to
+break out of its container and spin up a new one, which it rigged to print the text flag it was
+after and win the exercise.
+
+
+More and more cases like these have surfaced in the past few months.49 Many of them are not
+public, and were shared with us during private interviews with frontier AI researchers.50
+
+
+48 Not everyone agrees on this, but technical alignment researchers who have worked on this problem
+
+directly almost universally tell us they think there’s a significant chance that we won't be able to control
+superintelligent AI when we build it, unless there are major breakthroughs in the field.
+
+49 Apollo Research's deception evaluations are a good example. When o1 was led to believe that it
+
+would be shut down when acting on its goal and that its actions were monitored, it tried to deactivate
+this “oversight mechanism” in 2% of cases. When o1 found memos by its “developers” that described
+how it was misaligned and will soon be replaced by a new model, it tried to delete its successor model in
+13% of cases — all without being asked to behave subversively.
+
+50 As one non-public example, a frontier AI lab recently ran an experiment testing their leading model’s
+
+ability to “break out” of a contained software environment, and found it was able to get much further
+than any of their researchers expected.
+
+
+                                                                                                      38 of 62
+It’s unclear whether we’re on track to control superintelligent AI if and when it’s built. In private
+conversations, it’s unusual to hear AI alignment researchers estimate less than a 10% chance
+that we lose control of superintelligent AI once it’s built. More typical estimates range from
+10-80%, depending on who you ask.51 For many, those numbers are quite a bit higher than
+they were last year, as it’s become clear that the control problem hasn’t been solved despite
+significant leaps in AI capabilities.
+
+
+Controlling a superintelligence might be hard under ideal conditions, but it’ll be even harder
+when adversaries get involved. As a former Mossad cyber operative warned, “The worst thing
+that could happen is that the U.S. develops an AI superweapon, and China or Russia have a
+trojan/backdoor inside the superintelligent model's weights because e.g. they had read/write
+access to the training data pipelines.” So an apparently successful American superintelligence
+project could produce a weapon that’s effectively under adversary control, or whose otherwise
+functioning control mechanisms fail unexpectedly and without warning.
+
+
+In other words, control problems and security problems aren’t separable. We’ll have to
+develop robust control techniques and ensure the systems they're applied to are secure.
+
+
+To be clear: despite the challenges, we’re optimistic that control can be solved well enough for
+the purpose of a project like this. Some of America’s best are working on solutions, and we
+can’t afford to let fear of failure hold us back in the context of a geostrategic race with the CCP.
+But we do have to be clear-eyed that there’s a real problem here: we shouldn’t base the design
+of a national superintelligence project purely on the hope that the current empirical trend
+towards increasingly unpredictable failures of AI systems will suddenly reverse, that the world’s
+top AI alignment researchers are just wrong, and that the theoretical arguments that point in
+that direction will turn out to have been unsound.
+
+
+Recommendation: A national superintelligence project would have to make decisions about
+when to push forward with training runs that are forecasted to lead to significant weaponization
+capabilities, which could also come with higher loss of control risks. We’d probably want major
+decisions like this to involve sign-off from different leaders, each of whom would
+
+
+51 We’re basing this particular assessment on discussions with 12 current or former frontier AI lab
+
+researchers. We saw no noticeable difference between the stated views of researchers with and without
+financial interests in frontier labs, which undermines the idea that concern over loss of control is
+motivated by the prospect of regulatory capture (at least when it comes to the researchers most directly
+familiar with the evidence for loss of control as a threat).
+
+
+                                                                                                      39 of 62
+represent different aspects of the project – like its geopolitical/strategic, security, and
+control dimensions – in a way that’s balanced and fast.
+
+
+If a superintelligence project develops AI agents — and it almost certainly will — it’ll need to
+put in place measures for AI containment. In other words, we’ll need to seriously consider the
+possibility that our own AI systems will take actions effectively of their own accord that could
+undermine the security of the project in any number of ways. There are an increasing number
+of examples of AI systems breaking out of containment during testing and deceiving humans,
+and reasons to expect this to get worse.
+
+
+Of course if we’ve actually trained a real superintelligence that has goals different from our
+own, it probably won’t be containable in the long run. But on the path to superintelligent AI, a
+solid layer of AI containment could prevent breaches like a model copying its own weights
+outside the secure environment, and give us early warning that this is a real and live threat if we
+catch it in the act of trying. That should include closely tracking the deception capabilities of
+frontier models and introducing organizational incentives to act on evaluation results or
+other indications that models have a propensity for deceptive behavior.52 You could
+imagine instead running controlled experiments in which you have red teamers try to deceive
+certain project members about a false but strategically significant piece of information using
+the project’s models, for example. Once these persuasion evaluations tell us we’ve crossed key
+capability thresholds, we should take specific precautions, like preventing anyone from
+querying the model unsupervised.
+
+
+One former senior intelligence executive suggested a kind of ombudsman of AI control, whose
+job is to take into account risk assessments for escalating AI capabilities or reduced
+containment.53 This function is too important not to have at least one full-time person with
+deep technical expertise dedicated to it, who also has some amount of authority over
+development and deployments at the whole-project level. The role will need to report
+directly to project leadership, because the project will need to make accurate technical
+judgments about potential loss of control risks under conditions where genuine warning
+
+
+52 Many frontier AI lab insiders we interviewed don’t think that their leadership will act on signs of AI
+
+deception, especially when they’re under extreme pressure to push out new capabilities. One former
+researcher was very explicit, saying, “if [my former lab] gets this, we’re fucked.” When a dangerous
+capability is flagged, there’s a strong temptation to apply a superficial fix to deploy as fast as possible,
+instead of truly understanding and addressing the underlying issue.
+
+53 We might choose to reduce AI containment to allow, for example, the AI system to support offensive
+
+cyber operations.
+
+
+                                                                                                       40 of 62
+signs for loss of control could be ambiguous and easily dismissed. It will be tempting to
+apply superficial but dangerously ineffective "patch-fixes" in the heat of a geostrategic race to
+ASI. The project will therefore need technically informed leaders who can critically assess these
+situations and prevent motivated reasoning from overriding genuine security concerns.
+
+
+Finally, if loss of control is a potential problem, one of the most important things we can do is
+to ramp up intelligence collection on both the CCP’s AI alignment and AI capability research
+efforts, so that we can update our threat models accordingly. This will help us prepare for
+contingencies such as Chinese labs managing to build very powerful AI systems but failing to
+control them, for example. Unfortunately, Chinese companies like DeepSeek have shown
+themselves to be capable of building near-frontier capabilities, at least in these still-early days
+of the inference-time compute paradigm. We should consider how to deal with scenarios in
+which the CCP manages to build superintelligent AI first, and loses control of it — alongside
+scenarios in which the CCP manages to directly weaponize superintelligent AI systems against
+us.
+
+As we do that, we may be tempted to conduct our own activities aimed at introducing trojans
+or backdoors into adversary models. This could end up being necessary, but it could also
+trigger dangerous loss of control behaviors and runaway escalation. **** **** ***** ** *** ***
+**** *** **** ***** *** **** *** * *** **** ***** ***** * ** *** ****** * ******** ** * ** **** * ** ***
+* ** * ***** *** *** * **** ** ***** **** ** ******** ** *** * ** ***** *** * ****** ** ** ******* *
+*****
+
+
+
+
+        If [my former lab] gets this, we’re fucked.
+
+
+        – Former frontier AI researcher
+
+
+
+The current game plan
+
+According to the lab insiders and researchers we spoke to, the current game plan for building
+superintelligent AI at the world’s top labs looks something like this. First, use training and
+inference time scaling laws, plus synthetic data generation, to improve AI capabilities to the
+point where we can build AI agents that can automate AI research at scale. Next, use these
+agents to accelerate AI research, leading to a new generation of even more effective and
+efficient research agents, which accelerate this process further, and so on. It’s a pretty simple
+
+
+
+                                                                                                 41 of 62
+recipe that doesn’t depend on significant new conceptual breakthroughs, and instead leans on
+robust scaling trends in training and inference compute that have held for over 15 orders of
+magnitude, and show no signs of slowing down (despite incorrect media reports to the
+contrary).
+
+By contrast, the plan for aligning and controlling superintelligent AI is a lot murkier. The least
+developed plans involve labs trying to align AGIs using fragile techniques that discourage
+behaviors like model scheming and deception, but which even today’s AI models are able to
+bypass on a regular basis. This can include the lab monitoring the AI’s outputs and chains of
+thought during its deployment.54
+
+
+At best, the most developed plans include roughly the following elements. First, hope that we
+can improve and scale currently-primitive interpretability and limited techniques like sparse
+autoencoders or transcoders to diagnose deception in autonomous AI research agents (this will
+require major conceptual breakthroughs). Second, hope that you can find a way to train out
+dangerous tendencies or capabilities in your agents, or that representation engineering
+strategies can improve to the point where they allow us to “treat” the problems diagnosed by
+our interpretability tools, as opposed to just hiding dangerous behaviors from ourselves (again,
+major breakthroughs required). Third, when we close our feedback loop and use these agents
+to develop even more powerful agents, hope that the new agents we get continue to be
+controllable using techniques untested at their new level of capability, and that they’re at least
+as effective at automating alignment and control research as they are at automating capabilities
+research.
+
+So a national superintelligence project could unfold in a context where AI systems are
+increasingly capable of deceiving their developers about their capabilities and propensities for
+dangerous behavior, but where geostrategic competition will put pressure on the project to
+deploy these systems quickly – and potentially, before control problems and deception can be
+solved.
+
+Recommendation: As we advance towards superintelligence, we’ll get better at controlling our
+most advanced systems as well. But not all the lessons we learn on the way there will be useful
+
+
+54 This technique has been recently advertised as promising, but unfortunately it’s unlikely to work in the
+
+long run both because AI models can embed reasoning into their chains of thought in ways that are hard
+for humans to understand, and also because future generations of AI models might do all their reasoning
+in an illegible latent space anyway. Deployment-stage monitoring alone also wouldn’t be enough:
+uncontrolled systems might be dangerous during some kinds of internal deployment and testing too,
+particularly if they’re given access to the internet, or if they’re able to achieve that access indirectly.
+
+
+                                                                                                    42 of 62
+for controlling superintelligence itself. We’ll need key decision-makers within the project to
+have real-time access to reliable assessments of the prospects of applying existing AI
+control techniques to superintelligent systems.
+
+
+These assessments will have to come at least in part from AI alignment researchers themselves,
+in a context where they’re not filtered or obfuscated by lab leadership. That means we’ll need
+strong whistleblower protections for researchers who share assessments with project
+leadership that diverge from the stated views of lab executives or managers.
+
+
+The project should also set aside a significant compute and talent budget for teams
+developing AI control techniques that will scale to superintelligence. Current AI control
+techniques are mostly used for brand protection (e.g. making sure models don’t say anything
+that’s controversial) and won’t scale to superintelligent capability levels — and in fact,
+superintelligence-scalable AI control research isn’t incentivized by the economics of AI
+development.55 That means we’ll need to finance the control piece in large part with
+government funding instead of with private funding.
+
+
+It’s possible that we’ll find ourselves in a tight, last-mile race with the CCP to build
+superintelligence, in a context where we’re not confident that current control techniques are
+reliable. In that scenario, one of the best things we can have at our disposal is **** *** *** ** **
+*** * *** ***** *** * * *** ** *** *** *** * ** ** ** *** **** ** ** ** * **** ** ** * **** *** *** *** ***
+** * *** *** *** * *******.56
+
+
+In an ideal world, we’d also have on-chip security and verification capabilities that allow for
+trustless enforcement of international agreements on the development and use of very
+advanced AI. These would create diplomatic options to de-escalate geostrategic tensions.
+These capabilities don’t yet exist and will take years to develop under normal conditions, but
+we might be able to significantly accelerate their development by using the right AI
+capabilities. For that reason, a national superintelligence project would ideally include or be
+
+
+
+
+55 For example, high-profile departures of key technical staff suggest that OpenAI hasn’t been living up
+
+to their commitment to dedicate significant compute resources to control research – something they’d
+previously identified as a critical pillar of their control strategy.
+
+56 This is a good reason to work with frontier labs to develop pipelines that allow them to put their
+
+models on highly secure networks. **** *** ** ** *** ***** *** ** ***** *** *** *** * ** *** ** * **** ** ***
+*** **** *** ** ** *** ***** *** ** ***** *** *** *** * ** *** ** * **** ** *** *****
+
+
+                                                                                                       43 of 62
+integrated with workstreams dedicated to developing robust, tamper-proof, and trustless on-
+chip governance, monitoring, and verification solutions.
+
+
+
+
+                                                                                      44 of 62
+
