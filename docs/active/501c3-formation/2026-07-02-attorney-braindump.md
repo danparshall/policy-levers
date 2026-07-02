@@ -16,7 +16,7 @@ The picture has shifted since our call: I'm pursuing paid positions in the AI po
 
 **Questions.**
 
-1. **Which form?** Given the funding picture above, is a good-faith 1023-EZ projection defensible, or does operating this close to the education/lobbying line argue for the full 1023 and its narrative? One fact that may decide it: the likeliest early grants are in-kind compute (cloud/API credits), possibly $50K+ at face value. Do those count toward the EZ gross-receipts ceiling? If I outgrow the EZ later I'll consider that an excellent problem to have; I just want to know the shape of the cleanup in advance.
+1. **Which form?** Given the funding picture above, is a good-faith 1023-EZ projection defensible, or does operating this close to the education/lobbying line argue for the full 1023 and its narrative? One wrinkle: the likeliest early grants are in-kind compute (cloud/API credits). I don't expect them to be large, but do they count toward the EZ gross-receipts ceiling when I build the projection? If I outgrow the EZ later I'll consider that an excellent problem to have; I just want to know the shape of the cleanup in advance.
 
 2. **Drafting assistance.** The most useful thing a small shop can offer a Congressional office is reduced workload: draft language, hearing questions, a Dear Colleague letter they can circulate. My reading is that an unsolicited Dear Colleague draft urging action on a bill is direct lobbying even though a staffer sends it, and that the technical-advice exception covers only written requests from a committee or legislative body. If that's right, what documentation keeps requested work distinguishable from unsolicited work?
 
