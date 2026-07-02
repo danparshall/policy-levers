@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-04-15
+Last updated: 2026-07-02
 
 ## Current Focus
 
@@ -10,6 +10,7 @@ Research library scaffolding (papers/, PAPER_INDEX, summaries) and policy-outrea
 
 ## Recent Sessions
 
+- **2026-07-02** — Opened `501c3-formation` research line. Drafted the belated background memo to the formation attorney (`docs/active/501c3-formation/2026-07-02-attorney-braindump.md`): 10 questions covering micro (1023-EZ) vs. full 1023, 501(h) mechanics, Dear Colleague drafting classification, board/related-party carryovers, and outside-employment separation now that Dan expects paid work elsewhere. Also extracted the r/neoliberal Congress-series text (`reddit_advice/`) and corrected the origin-story misreading (post never advises forming a nonprofit; postcard = thank-you card).
 - **2026-04-15 (PM)** — STATUS update + email drafts + Feb 27 reconciliation. Drafted follow-up emails for Joel Burke (Rounds, AI Policy Advisor) and Ateshi Bhatt (Alsobrooks, MD constituent angle) — the two follow-ups due 2026-04-16. Migrated Feb 27 root-level docs into `crm/visits/2026-02-27-hill-day/`.
 - **2026-04-15 (during/post-Hill day)** — 20 Senate offices visited, 21 named contacts captured, 1 House referral (Samantha at Foster's office, via Heinrich). Built `crm/` scaffolding: README, contacts.yaml, senators.yaml, bills.yaml, visits structure. See `crm/visits/2026-04-15-hill-day/summary.md` for office-by-office trail and `followups.yaml` for the action queue (20 items, dated through 2026-04-30).
 - **2026-04-14 (PM)** — Deep-dive on S.2938 (AIRE Act) status: stalled in Commerce under Cruz, no markup since Sept 2025 introduction. Drafted leave-behind under `docs/active/hill-visit-2026-04/`. Email-draft session for Sen. Moody surfaced Glenn + Herrera as prior contacts.
@@ -26,6 +27,7 @@ Research library scaffolding (papers/, PAPER_INDEX, summaries) and policy-outrea
 | AIRE Act (S.2938) advocacy | Bill stalled in Commerce; outreach to Cruz (gatekeeper) and Young (cmte member) is the lever | Cruz won't allocate hearing slot |
 | Agency profiles | Drafted in chat 2026-03-02; not yet migrated to repo | Migration not yet scoped |
 | CRM tooling | Manual YAML; scripts in TODO (email queue, stale-contact surfacing) | Lower priority than current outreach push |
+| 501(c)(3) formation | Braindump memo drafted 7/2; on branch `501c3-formation` | Attorney answers to Q1 (micro vs. full) |
 
 ## Open Backfills (user input needed)
 
