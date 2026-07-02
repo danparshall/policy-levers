@@ -32,6 +32,10 @@ MAPPING: dict[str, str] = {
         "congress-102-senate-intro.md",
     "Congress 103_ The Filibuster _ r_neoliberal.pdf":
         "congress-103-filibuster.md",
+    "Congress 201_ An Introduction to Committees _ r_neoliberal.pdf":
+        "congress-201-committees.md",
+    "Congress 202_ Washington, D.C. - by Fire Distinguishers.pdf":
+        "congress-202-washington-dc.md",
     "Congress 408_ Seminar - Senate Office Structure _ r_neoliberal.pdf":
         "congress-408-senate-office-structure.md",
     "Congress 409_ Seminar - Lobbying 1 _ r_neoliberal.pdf":
@@ -75,8 +79,10 @@ CHROME_PATTERNS = [
 # Truncate at the first occurrence of any of these — everything after is
 # comments / related posts / "top posts" clutter.
 TRUNCATE_MARKERS = [
-    "Join the conversation",
-    "Sort by: Best",
+    "Join the conversation",             # Reddit
+    "Sort by: Best",                      # Reddit (fallback)
+    "Subscribe to Congress Confidential", # Substack CTA — cuts before the footer
+    "Discussion about this post",         # Substack (fallback)
 ]
 
 
