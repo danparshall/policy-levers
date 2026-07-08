@@ -10,6 +10,8 @@
 | METR (2025) | 50%-task-completion time horizon benchmark; doubling every ~7 months | `METR_2025__long_tasks_frontier.pdf` |
 | Parshall & Lopez-Luzuriaga (2026) | Task exposure framework (author's working paper) | `Parshall_Lopez-Luzuriaga_TaskExposure_2026.pdf` |
 | Zhou, Hernández-Orallo et al. (2025) | Psychometrics-inspired AI evaluation: 18 continuous demand scales replace aggregate benchmark accuracy; interpretable per-instance success predictor beats black-box baselines OOD; explicit sandbagging/overestimation/underestimation warnings for regulators | `ZhouL_Hernandez-OralloJ__2025--general_scales_ai_evaluation.pdf` |
+| Bengio et al. / IAISR (2025) | First International AI Safety Report (DSIT 2025/001; arXiv:2501.17805). 30-nation consensus. LOC decomposition in §2.2.3 / Figure 2.5 (active{intentional,unintentional} vs passive), p.~102 | `Bengio_Mindermann__2025--international_ai_safety_report.pdf` |
+| Bengio et al. / IAISR (2026) | Second International AI Safety Report (DSIT 2026/001; arXiv:2602.21012), Feb 2026. Narrower scope than 2025; LOC moves to §2.2.2. Includes o3 situational-awareness-in-CoT / sandbagging figure (Extended Summary Fig 9) | `Bengio_Mindermann__2026--international_ai_safety_report.pdf` |
 
 ## Advocacy & Position Documents
 
