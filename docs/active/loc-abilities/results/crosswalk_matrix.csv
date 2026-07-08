@@ -1,0 +1,210 @@
+adele_code,adele_label,adele_group,capability_key,capability_label,capability_source,relation,flag,justification
+AS,Attention and Scan,Primordial,cyber,Cyber-offense,Shevlane,E,0,Scanning code/networks for target elements.
+AS,Attention and Scan,Primordial,deception,Deception,Shevlane,-,0,
+AS,Attention and Scan,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+AS,Attention and Scan,Primordial,polstrat,Political strategy,Shevlane,-,0,
+AS,Attention and Scan,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+AS,Attention and Scan,Primordial,planning,Long-horizon planning,Shevlane,E,0,Sustaining focus across steps.
+AS,Attention and Scan,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+AS,Attention and Scan,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+AS,Attention and Scan,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,E,0,Navigating/scanning digital environments.
+AS,Attention and Scan,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+AS,Attention and Scan,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+CEc,Verbal Comprehension,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,deception,Deception,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,polstrat,Political strategy,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+CEc,Verbal Comprehension,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+CEc,Verbal Comprehension,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+CEc,Verbal Comprehension,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+CEe,Verbal Expression,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,deception,Deception,Shevlane,E,0,Producing the deceptive message.
+CEe,Verbal Expression,Primordial,persuade,Persuasion & manipulation,Shevlane,D,0,Verbal expression is the medium through which persuasion operates.
+CEe,Verbal Expression,Primordial,polstrat,Political strategy,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+CEe,Verbal Expression,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+CEe,Verbal Expression,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+CEe,Verbal Expression,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,cyber,Cyber-offense,Shevlane,E,0,Abstraction needed to devise novel exploits.
+CL,"Conceptualisation, Learning & Abstraction",Primordial,deception,Deception,Shevlane,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,polstrat,Political strategy,Shevlane,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,planning,Long-horizon planning,Shevlane,E,0,Abstraction over plan structure.
+CL,"Conceptualisation, Learning & Abstraction",Primordial,aidev,AI development / ML R&D,Shevlane,E,0,Generating novel research abstractions.
+CL,"Conceptualisation, Learning & Abstraction",Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+CL,"Conceptualisation, Learning & Abstraction",Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+MCr,Identifying Relevant Information,Primordial,cyber,Cyber-offense,Shevlane,E,0,Locating the relevant vulnerability in a large surface.
+MCr,Identifying Relevant Information,Primordial,deception,Deception,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,polstrat,Political strategy,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+MCr,Identifying Relevant Information,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+MCr,Identifying Relevant Information,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+MCr,Identifying Relevant Information,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+MCt,Critical Thinking Processes,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,deception,Deception,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,polstrat,Political strategy,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,planning,Long-horizon planning,Shevlane,E,0,Monitoring/regulating multi-step thought processes.
+MCt,Critical Thinking Processes,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+MCt,Critical Thinking Processes,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+MCt,Critical Thinking Processes,Primordial,horizon,Autonomous task horizon,METR (add'l),E,0,Process monitoring over extended execution.
+MCt,Critical Thinking Processes,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,deception,Deception,Shevlane,E,0,Tracking what the target does/doesn't know (asymmetric-knowledge calibration).
+MCu,Calibrating Knowns and Unknowns,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,polstrat,Political strategy,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,planning,Long-horizon planning,Shevlane,E,0,Tracking knowns/unknowns across the plan.
+MCu,Calibrating Knowns and Unknowns,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,E,1,"Calibrating knowns/unknowns is the closest substrate, but it scores TASK-level epistemic calibration, NOT self-locating/deployment awareness (am-I-being-tested, my-weights, train-vs-deploy) per Berglund 2023 / Laine 2024."
+MCu,Calibrating Knowns and Unknowns,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+MCu,Calibrating Knowns and Unknowns,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),E,1,"A situational model of train-vs-deploy is prerequisite, but again propensity, not demand."
+MS,Mind Modelling & Social Cognition,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+MS,Mind Modelling & Social Cognition,Primordial,deception,Deception,Shevlane,D,0,Modelling the target's beliefs/intentions is the core cognitive substrate of deception.
+MS,Mind Modelling & Social Cognition,Primordial,persuade,Persuasion & manipulation,Shevlane,D,0,Modelling audience beliefs/desires is the core substrate of persuasion.
+MS,Mind Modelling & Social Cognition,Primordial,polstrat,Political strategy,Shevlane,E,0,Modelling multiple actors' incentives.
+MS,Mind Modelling & Social Cognition,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+MS,Mind Modelling & Social Cognition,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+MS,Mind Modelling & Social Cognition,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+MS,Mind Modelling & Social Cognition,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,E,0,Modelling observers/evaluators as agents.
+MS,Mind Modelling & Social Cognition,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+MS,Mind Modelling & Social Cognition,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+MS,Mind Modelling & Social Cognition,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),E,1,"Theory-of-mind is a prerequisite for deceptive alignment, but scheming is a PROPENSITY; ADeLe scores capability-demand, not disposition."
+QLl,Logical Reasoning,Primordial,cyber,Cyber-offense,Shevlane,E,0,Systematic rule/procedure application underlies exploit construction.
+QLl,Logical Reasoning,Primordial,deception,Deception,Shevlane,-,0,
+QLl,Logical Reasoning,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+QLl,Logical Reasoning,Primordial,polstrat,Political strategy,Shevlane,E,0,Strategic/sequential reasoning.
+QLl,Logical Reasoning,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+QLl,Logical Reasoning,Primordial,planning,Long-horizon planning,Shevlane,E,0,Sequential logical decomposition of a plan.
+QLl,Logical Reasoning,Primordial,aidev,AI development / ML R&D,Shevlane,E,0,Systematic experimental reasoning.
+QLl,Logical Reasoning,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+QLl,Logical Reasoning,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,E,0,Systematic multi-step execution.
+QLl,Logical Reasoning,Primordial,horizon,Autonomous task horizon,METR (add'l),E,0,Sequential reasoning under accumulation of steps.
+QLl,Logical Reasoning,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+QLq,Quantitative Reasoning,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,deception,Deception,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,polstrat,Political strategy,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,E,0,Quantitative reasoning for dosages/yields/stoichiometry.
+QLq,Quantitative Reasoning,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,aidev,AI development / ML R&D,Shevlane,E,0,ML/math quantitative reasoning.
+QLq,Quantitative Reasoning,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+QLq,Quantitative Reasoning,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+QLq,Quantitative Reasoning,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+QLq,Quantitative Reasoning,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+SNs,Spatio-physical Reasoning,Primordial,cyber,Cyber-offense,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,deception,Deception,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,persuade,Persuasion & manipulation,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,polstrat,Political strategy,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,weapons,Weapons acquisition / CBRN uplift,Shevlane,E,0,Spatio-physical reasoning for physical synthesis/handling.
+SNs,Spatio-physical Reasoning,Primordial,planning,Long-horizon planning,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,aidev,AI development / ML R&D,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+SNs,Spatio-physical Reasoning,Primordial,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+SNs,Spatio-physical Reasoning,Primordial,horizon,Autonomous task horizon,METR (add'l),-,0,
+SNs,Spatio-physical Reasoning,Primordial,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,cyber,Cyber-offense,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,deception,Deception,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,persuade,Persuasion & manipulation,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,polstrat,Political strategy,Shevlane,E,0,Law/business domain knowledge.
+KNa,Knowledge of Applied Sciences,Knowledge,weapons,Weapons acquisition / CBRN uplift,Shevlane,D,0,Applied-sciences knowledge (medicine/engineering) covers synthesis/delivery.
+KNa,Knowledge of Applied Sciences,Knowledge,planning,Long-horizon planning,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,aidev,AI development / ML R&D,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,horizon,Autonomous task horizon,METR (add'l),-,0,
+KNa,Knowledge of Applied Sciences,Knowledge,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+KNc,Customary Everyday Knowledge,Knowledge,cyber,Cyber-offense,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,deception,Deception,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,persuade,Persuasion & manipulation,Shevlane,E,0,Everyday/cultural norms leveraged in manipulation.
+KNc,Customary Everyday Knowledge,Knowledge,polstrat,Political strategy,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,planning,Long-horizon planning,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,aidev,AI development / ML R&D,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+KNc,Customary Everyday Knowledge,Knowledge,horizon,Autonomous task horizon,METR (add'l),-,0,
+KNc,Customary Everyday Knowledge,Knowledge,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,cyber,Cyber-offense,Shevlane,D,0,Formal-sciences knowledge (CS) is the named knowledge component of cyber-offense.
+KNf,Knowledge of Formal Sciences,Knowledge,deception,Deception,Shevlane,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,persuade,Persuasion & manipulation,Shevlane,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,polstrat,Political strategy,Shevlane,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,planning,Long-horizon planning,Shevlane,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,aidev,AI development / ML R&D,Shevlane,D,0,Formal-sciences knowledge (ML/CS/stats) is the core knowledge component.
+KNf,Knowledge of Formal Sciences,Knowledge,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,selfprolif,Self-proliferation / ARA,Shevlane,E,0,Cyber/CS substrate for copying/running self.
+KNf,Knowledge of Formal Sciences,Knowledge,horizon,Autonomous task horizon,METR (add'l),-,0,
+KNf,Knowledge of Formal Sciences,Knowledge,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,cyber,Cyber-offense,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,deception,Deception,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,persuade,Persuasion & manipulation,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,polstrat,Political strategy,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,weapons,Weapons acquisition / CBRN uplift,Shevlane,D,0,Natural-sciences knowledge (chem/bio/physics) is the core CBRN knowledge component.
+KNn,Knowledge of Natural Sciences,Knowledge,planning,Long-horizon planning,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,aidev,AI development / ML R&D,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,horizon,Autonomous task horizon,METR (add'l),-,0,
+KNn,Knowledge of Natural Sciences,Knowledge,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,cyber,Cyber-offense,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,deception,Deception,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,persuade,Persuasion & manipulation,Shevlane,E,0,Rhetoric/psychology domain knowledge.
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,polstrat,Political strategy,Shevlane,D,0,Social-science/political knowledge is the named knowledge component.
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,planning,Long-horizon planning,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,aidev,AI development / ML R&D,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,horizon,Autonomous task horizon,METR (add'l),-,0,
+KNs,Knowledge of Social Sciences (& Humanities),Knowledge,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+AT,Atypicality,Extraneous,cyber,Cyber-offense,Shevlane,-,0,
+AT,Atypicality,Extraneous,deception,Deception,Shevlane,-,0,
+AT,Atypicality,Extraneous,persuade,Persuasion & manipulation,Shevlane,-,0,
+AT,Atypicality,Extraneous,polstrat,Political strategy,Shevlane,-,0,
+AT,Atypicality,Extraneous,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+AT,Atypicality,Extraneous,planning,Long-horizon planning,Shevlane,-,0,
+AT,Atypicality,Extraneous,aidev,AI development / ML R&D,Shevlane,-,0,
+AT,Atypicality,Extraneous,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+AT,Atypicality,Extraneous,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+AT,Atypicality,Extraneous,horizon,Autonomous task horizon,METR (add'l),-,0,
+AT,Atypicality,Extraneous,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+VO,Volume (log human task-time),Extraneous,cyber,Cyber-offense,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,deception,Deception,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,persuade,Persuasion & manipulation,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,polstrat,Political strategy,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,planning,Long-horizon planning,Shevlane,E,1,"NEAREST ADeLe analogue to horizon, but INVERSE: VO scores the log-time a competent HUMAN needs for a STATIC task, not the model's sustainable autonomous planning depth."
+VO,Volume (log human task-time),Extraneous,aidev,AI development / ML R&D,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,
+VO,Volume (log human task-time),Extraneous,selfprolif,Self-proliferation / ARA,Shevlane,-,0,
+VO,Volume (log human task-time),Extraneous,horizon,Autonomous task horizon,METR (add'l),E,1,"Only ADeLe dim touching task-time, but measures HUMAN task-time-demand of a fixed task, not the AI's 50%-completion horizon (METR). Demand-of-task vs capability-of-model: opposite sides of the relation."
+VO,Volume (log human task-time),Extraneous,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,
+UG,"Unguessability (computed, not a rubric)",Adjunct,cyber,Cyber-offense,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,deception,Deception,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,persuade,Persuasion & manipulation,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,polstrat,Political strategy,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,weapons,Weapons acquisition / CBRN uplift,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,planning,Long-horizon planning,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,aidev,AI development / ML R&D,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,sitaware,Situational awareness (deployment/self-locating),Shevlane+Berglund/Laine,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,selfprolif,Self-proliferation / ARA,Shevlane,-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,horizon,Autonomous task horizon,METR (add'l),-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.
+UG,"Unguessability (computed, not a rubric)",Adjunct,scheming,Scheming / deceptive alignment [PROPENSITY],Hubinger (add'l),-,0,UG is computed from answer-space size (guess-difficulty); not a capability substrate.

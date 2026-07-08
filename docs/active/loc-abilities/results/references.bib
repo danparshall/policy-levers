@@ -1,0 +1,179 @@
+% ---------------------------------------------------------------------------
+% LOC-relevant capability taxonomies + general-intelligence decomposition
+% Compiled 2026-07-08 for policy-levers/reports/loc_abilities
+% Verification status recorded in CITATIONS.md. Where a source versions over
+% time (lab frameworks), the version current as of 2026-07-08 is noted.
+% ---------------------------------------------------------------------------
+
+% ===== Safety / LOC-relevant taxonomies =====
+
+@article{shevlane2023extreme,
+  title  = {Model Evaluation for Extreme Risks},
+  author = {Shevlane, Toby and Farquhar, Sebastian and Garfinkel, Ben and Phuong, Mary and Whittlestone, Jess and Leung, Jade and Kokotajlo, Daniel and Marchal, Nahema and Anderljung, Markus and Kolt, Noam and Ho, Lewis and Siddarth, Divya and Avin, Shahar and Hawkins, Will and Kim, Been and Gabriel, Iason and Bolina, Vijay and Clark, Jack and Bengio, Yoshua and Christiano, Paul and Dafoe, Allan},
+  journal = {arXiv preprint arXiv:2305.15324},
+  year   = {2023},
+  note   = {v2, 22 Sep 2023},
+  url    = {https://arxiv.org/abs/2305.15324}
+}
+
+@techreport{anthropic2026rsp,
+  title       = {Anthropic's Responsible Scaling Policy, Version 3.3},
+  author      = {{Anthropic}},
+  institution = {Anthropic PBC},
+  year        = {2026},
+  month       = may,
+  note        = {Version 3.3, effective 2026-05-26; v3.0 comprehensive rewrite 2026-02-24},
+  url         = {https://www.anthropic.com/responsible-scaling-policy}
+}
+
+@techreport{openai2025preparedness,
+  title       = {Preparedness Framework, Version 2},
+  author      = {{OpenAI}},
+  institution = {OpenAI},
+  year        = {2025},
+  month       = apr,
+  note        = {Version 2, 2025-04-15; current as of 2026-07 (no v3 located). Persuasion category removed relative to v1},
+  url         = {https://openai.com/index/updating-our-preparedness-framework/}
+}
+
+@techreport{deepmind2026fsf,
+  title       = {Frontier Safety Framework, Version 3.1},
+  author      = {{Google DeepMind}},
+  institution = {Google DeepMind},
+  year        = {2026},
+  month       = apr,
+  note        = {FSF 3.1, updated 2026-04-17; FSF 3.0 published 2025-09-22 added Harmful-manipulation CCL},
+  url         = {https://deepmind.google/blog/strengthening-our-frontier-safety-framework/}
+}
+
+@techreport{iaisr2025,
+  title       = {International AI Safety Report 2025},
+  author      = {Bengio, Yoshua and others},
+  institution = {Chaired by Yoshua Bengio; commissioned for the AI Action Summit},
+  year        = {2025},
+  month       = jan,
+  note        = {First full report, 2025-01-29. First Key Update arXiv:2510.13653 (Oct 2025); International AI Safety Report 2026 published 2026-02-03},
+  url         = {https://internationalaisafetyreport.org/}
+}
+
+@article{shah2025agisafety,
+  title   = {An Approach to Technical AGI Safety and Security},
+  author  = {Shah, Rohin and Irpan, Alex and Turner, Alexander Matt and Wang, Anna and Conmy, Arthur and Lindner, David and Brown-Cohen, Jonah and Ho, Lewis and Nanda, Neel and Popa, Raluca Ada and others},
+  journal = {arXiv preprint arXiv:2504.01849},
+  year    = {2025},
+  note    = {30 authors (Google DeepMind); risk split: misuse / misalignment / mistakes / structural},
+  url     = {https://arxiv.org/abs/2504.01849}
+}
+
+@techreport{fmf2024taxonomy,
+  title       = {Issue Brief: Preliminary Taxonomy of Pre-Deployment Frontier AI Safety Evaluations},
+  author      = {{Frontier Model Forum}},
+  institution = {Frontier Model Forum},
+  year        = {2024},
+  month       = dec,
+  note        = {Published 2024-12-20 (page modified 2025-01-14). Taxonomy of EVALUATIONS (methodology x objective), not of capabilities},
+  url         = {https://www.frontiermodelforum.org/updates/issue-brief-preliminary-taxonomy-of-pre-deployment-frontier-ai-safety-evaluations/}
+}
+
+@article{kinniment2023autonomous,
+  title   = {Evaluating Language-Model Agents on Realistic Autonomous Tasks},
+  author  = {Kinniment, Megan and Sato, Lucas Jun Koba and Du, Haoxing and Goodrich, Brian and Hasin, Max and Chan, Lawrence and Miles, Luke Harold and Lin, Tao R. and Wijk, Hjalmar and Burget, Joel and Ho, Aaron and Barnes, Elizabeth and Christiano, Paul},
+  journal = {arXiv preprint arXiv:2312.11671},
+  year    = {2023},
+  note    = {METR/ARC Evals; introduces Autonomous Replication and Adaptation (ARA)},
+  url     = {https://arxiv.org/abs/2312.11671}
+}
+
+@article{kwa2025longtasks,
+  title   = {Measuring AI Ability to Complete Long Tasks},
+  author  = {Kwa, Thomas and West, Ben and Becker, Joel and Deng, Amy and Garcia, Katharyn and Hasin, Max and Jawhar, Sami and Kinniment, Megan and Rush, Nate and Von Arx, Sydney and others},
+  journal = {arXiv preprint arXiv:2503.14499},
+  year    = {2025},
+  note    = {METR; 50\%-task-completion time horizon; ~7-month doubling (headline), accelerating in later updates. v3 2026-02-25; title later revised to include "Software"},
+  url     = {https://arxiv.org/abs/2503.14499}
+}
+
+@article{hubinger2019learned,
+  title   = {Risks from Learned Optimization in Advanced Machine Learning Systems},
+  author  = {Hubinger, Evan and van Merwijk, Chris and Mikulik, Vladimir and Skalse, Joar and Garrabrant, Scott},
+  journal = {arXiv preprint arXiv:1906.01820},
+  year    = {2019},
+  note    = {Introduces mesa-optimization and deceptive alignment},
+  url     = {https://arxiv.org/abs/1906.01820}
+}
+
+@article{carlsmith2022powerseeking,
+  title   = {Is Power-Seeking AI an Existential Risk?},
+  author  = {Carlsmith, Joseph},
+  journal = {arXiv preprint arXiv:2206.13353},
+  year    = {2022},
+  note    = {Report circulated 2021; arXiv 2022, v2 2024-08-13. Six-premise decomposition of LOC catastrophe},
+  url     = {https://arxiv.org/abs/2206.13353}
+}
+
+@inproceedings{ngo2022alignment,
+  title     = {The Alignment Problem from a Deep Learning Perspective},
+  author    = {Ngo, Richard and Chan, Lawrence and Mindermann, S{\"o}ren},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  note      = {arXiv:2209.00626 (2022); ICLR 2024 version. Names situational awareness as a distinct property},
+  url       = {https://arxiv.org/abs/2209.00626}
+}
+
+@article{berglund2023situational,
+  title   = {Taken Out of Context: On Measuring Situational Awareness in LLMs},
+  author  = {Berglund, Lukas and Stickland, Asa Cooper and Balesni, Mikita and Kaufmann, Max and Tong, Meg and Korbak, Tomasz and Kokotajlo, Daniel and Evans, Owain},
+  journal = {arXiv preprint arXiv:2309.00667},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2309.00667}
+}
+
+@article{laine2024sad,
+  title   = {Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs},
+  author  = {Laine, Rudolf and Chughtai, Bilal and Betley, Jan and Hariharan, Kaivalya and Scheurer, Jeremy and Balesni, Mikita and Hobbhahn, Marius and Meinke, Alexander and Evans, Owain},
+  journal = {arXiv preprint arXiv:2407.04694},
+  year    = {2024},
+  note    = {SAD benchmark: 7 task categories, >13,000 questions},
+  url     = {https://arxiv.org/abs/2407.04694}
+}
+
+% ===== General-intelligence decomposition =====
+
+@article{zhou2025adele,
+  title   = {General Scales Unlock AI Evaluation with Explanatory and Predictive Power},
+  author  = {Zhou, Lexin and Pacchiardi, Lorenzo and Mart{\'i}nez-Plumed, Fernando and Collins, Katherine M. and Moros-Daval, Yael and Zhang, Seraphina and Zhao, Qinlin and Huang, Yitian and Sun, Luning and Prunty, Jonathan E. and Li, Zongqian and S{\'a}nchez-Garc{\'i}a, Pablo and Chen, Kexin Jiang and Casares, Pablo A. M. and Zu, Jiyun and Burden, John and Mehrbakhsh, Behzad and Stillwell, David and Cebrian, Manuel and Wang, Jindong and Henderson, Peter and Wu, Sherry Tongshuang and Kyllonen, Patrick C. and Cheke, Lucy and Xie, Xing and Hern{\'a}ndez-Orallo, Jos{\'e}},
+  journal = {arXiv preprint arXiv:2503.06378},
+  year    = {2025},
+  note    = {ADeLe v1.0; 18 demand rubrics (0-5) + Unguessability. A Nature version is reported to exist; exact Nature record UNVERIFIED as of 2026-07-08 -- cite arXiv unless the Nature citation is confirmed},
+  url     = {https://arxiv.org/abs/2503.06378}
+}
+
+@article{burnell2023structure,
+  title   = {Revealing the Structure of Language Model Capabilities},
+  author  = {Burnell, Ryan and Hao, Han and others},
+  journal = {arXiv preprint arXiv:2306.10062},
+  year    = {2023},
+  note    = {Full author list beyond Burnell & Hao UNVERIFIED -- confirm on arXiv abstract before citing},
+  url     = {https://arxiv.org/abs/2306.10062}
+}
+
+@article{ruan2024observational,
+  title   = {Observational Scaling Laws and the Predictability of Language Model Performance},
+  author  = {Ruan, Yangjun and Maddison, Chris J. and Hashimoto, Tatsunori},
+  journal = {arXiv preprint arXiv:2405.10938},
+  year    = {2024},
+  note    = {NeurIPS 2024 (venue not independently reconfirmed here)},
+  url     = {https://arxiv.org/abs/2405.10938}
+}
+
+@article{tolan2021occupational,
+  title   = {Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks},
+  author  = {Tolan, Song{\"u}l and Pesole, Annarosa and Mart{\'i}nez-Plumed, Fernando and Fern{\'a}ndez-Mac{\'i}as, Enrique and Hern{\'a}ndez-Orallo, Jos{\'e} and G{\'o}mez, Emilia},
+  journal = {Journal of Artificial Intelligence Research},
+  volume  = {71},
+  pages   = {191--236},
+  year    = {2021},
+  doi     = {10.1613/jair.1.12647},
+  note    = {Source of ADeLe's primordial cognitive dimensions. NB cite as 2021 (JAIR vol.71), not 2019; earlier JRC working-paper versions circulated 2019-2020},
+  url     = {https://jair.org/index.php/jair/article/view/12647}
+}
