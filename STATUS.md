@@ -14,6 +14,7 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 
 | Topic | Started | Purpose |
 |-------|---------|---------|
+| 501c3-formation | 2026-07-02 | Incorporate Canary Institute as a Maryland nonstock corporation with federal 501(c)(3) exemption. |
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
 
 ## Recent Sessions
