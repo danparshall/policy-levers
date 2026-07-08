@@ -9,7 +9,7 @@
 | Mertens, Thompson et al. (2026) | MIT FutureTech large-scale O*NET task evaluations; "rising tide" vs METR's "crashing wave" | `Mertens_2026__crashing_waves_rising_tides_AI_automation.pdf` |
 | METR (2025) | 50%-task-completion time horizon benchmark; doubling every ~7 months | `METR_2025__long_tasks_frontier.pdf` |
 | Parshall & Lopez-Luzuriaga (2026) | Task exposure framework (author's working paper) | `Parshall_Lopez-Luzuriaga_TaskExposure_2026.pdf` |
-| Zhou, Hernández-Orallo et al. (2025) | Psychometrics-inspired AI evaluation: 18 continuous demand scales replace aggregate benchmark accuracy; interpretable per-instance success predictor beats black-box baselines OOD; explicit sandbagging/overestimation/underestimation warnings for regulators | `ZhouL_Hernandez-OralloJ__2025--general_scales_ai_evaluation.pdf` |
+| Zhou, Hernández-Orallo et al. (2025) | Psychometrics-inspired AI evaluation: 18 continuous demand scales replace aggregate benchmark accuracy; interpretable per-instance success predictor beats black-box baselines OOD; explicit sandbagging/overestimation/underestimation warnings for regulators | `ZhouL_Hernandez-Orallo__2025--general_scales_ai_evaluation.pdf` |
 
 ## Advocacy & Position Documents
 
