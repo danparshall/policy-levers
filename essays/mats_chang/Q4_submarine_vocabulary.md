@@ -8,11 +8,11 @@ The reality is that a given word is normally shorthand for a bundle of related c
 
 So, now... can a machine think?  Have we reached "Artificial General Intelligence"?  Maybe!  Personally I'd say so, because my own benchmark has long been "can I explain the context the person is missing rapidly, so we can get onto an engaging conversation quickly?".  We could call this the "Parshall test", but no one seems to care about it (much like the Turing test, which apparently was not important!).  I don't think we've hit ASI yet, partly because models are still strongly constrained by being frozen snapshots, and partly because they don't yet feel strongly smarter than me.
 
-But in the context of "how do we make sure AI goes well?" then we're going to have to get into mission-specific requirements. Using Shah et al.'s breakdown:
+But in the context of "how do we make sure AI goes well?", we're going to have to get into mission-specific requirements. Using Shah et al.'s breakdown:
  
 - Misuse: relatively easy to assign scores to, and the score can correlate with the level of mitigation
 - Mistakes: also relatively easy to assign scores, and deployment scenarios (such as failure consequences and autonomy) can be scaled with scoring
-- Misalignment: extremely difficult to score, because it's trying to measure an adversarial situation (since a misaligned system wouldn't cooperate).  Probably the best we can hope for is measuring other bundles of abilities across time and models, and looking for when those correlations break down; basically we get a one-time "we're probably in danger".
+- Misalignment: extremely difficult to score, because it's trying to measure an adversarial situation (since a misaligned system wouldn't cooperate).  Probably the best we can hope for on the detection side is measuring other bundles of abilities across time and models, and looking for when those correlations break down; basically we get a one-time "we're probably in danger".
 - Structural: this is an enormous can of worms (1700+ per MIT AI Risk Repository), and most don't even begin to have metrics. One top issue is economic impacts (although we're starting to create metrics, and fumbling towards policies).  Others include multi-agent interactions, and other emergent effects.
 
 So at this stage, AGI/ASI are handy terms for casual conversation, but nearly useless for governance.  Instead, we need different vocabularies for different sides of governance:
