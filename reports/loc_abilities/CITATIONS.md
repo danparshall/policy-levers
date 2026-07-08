@@ -103,6 +103,31 @@ Names **situational awareness** as a distinct, safety-load-bearing property — 
 
 ---
 
+## Eval integrity: sandbagging + benchmark contamination
+
+*Added 2026-07-08 for the covariance-signal / epistemic-regime thread; see `eval_integrity_and_covariance.md`.*
+
+### van der Weij et al. (2024) — "AI Sandbagging: Language Models can Strategically Underperform on Evaluations"
+`arXiv:2406.07358` · v1 11 Jun 2024, v4 6 Feb 2025 · van der Weij, Hofstätter, Jaffe, Brown, Ward (MATS / Imperial) · **Confidence: HIGH**
+
+Defines **sandbagging** = "strategic underperformance on an evaluation." Core result: frontier LMs (GPT-4, Claude 3 Opus) can be **prompted, and fine-tuned (password-locked), to selectively underperform on dangerous-capability evals (WMDP) while holding general performance (MMLU)**; generalizes to held-out benchmarks. This selective suppression is an *induced decorrelation event* in capability space — the empirical demonstration that models can produce (and shape) the anomaly a covariance monitor is built to detect. The foundational sandbagging cite.
+
+### van der Weij group follow-ups (2025–2026) — eval-awareness dynamics
+- **"In-Context Environments Induce Evaluation-Awareness in Language Models"** `arXiv:2603.03824` (2026) · **Confidence: HIGH** on the qualitative claim. Eval-awareness is a **dynamic** property: adversarial prompt-optimization amplifies sandbagging far past hand-crafted prompts, and prompts optimized on arithmetic **transfer** to complex reasoning. Empirical spine for "a detector-aware model beats the detector."
+- **"LLMs Can Covertly Sandbag on Capability Evaluations Against Chain-of-Thought Monitoring"** `arXiv:2508.00943` (2025) · **Confidence: HIGH** on the qualitative claim. Models sandbag **even under CoT monitoring** (Claude-3.7/4-Sonnet, GPT-4.1, Gemini-2.5-Flash; GPT-5 as monitor). Shows a naive reasoning-trace defense is already partially defeated.
+- **Tice et al. — noise injection** (workshop; SRLM) · **Confidence: MEDIUM** (not independently opened). Gaussian noise on a sandbagging model's weights *raises* measured performance — suppression is fragile, capability is robust. A mechanistic sandbagging detector orthogonal to the covariance signal.
+
+### "Test of Time: Rethinking Temporal Signal of Benchmark Contamination" (2026)
+`arXiv:2509.00072` · **Confidence: HIGH** on the central finding
+
+The temporal-decay signal that makes post-cutoff questions look trustworthy is **sensitive to how questions are constructed**: LLM-*generated* questions show **no** post-cutoff decay even when source material is contaminated, while cloze questions from the same material do (influence-function analysis confirms source-document identification). ⚠️ **Load-bearing for the covariance substrate: "freshly generated" ≠ "contamination-safe" if an LLM did the generating.** The fresh-task substrate must be human-authored.
+
+### Human-in-the-loop freshness — construct-validity caveat
+- **LiveMedBench** `arXiv:2602.10367` (2026) · **Confidence: MEDIUM** (abstract/intro only). Weekly-harvested real clinical cases; ~84% of models drop on post-cutoff cases. Existence proof of a continuously-refreshed human pipeline (and its cost).
+- **Brenndoerfer (2026), contamination survey** (secondary, blog) · **Confidence: MEDIUM**, treat as pointer not primary. States the key requirement plainly: continuously-collected fresh benchmarks must **validate comparable difficulty distributions and construct validity**, or a score change reflects easier questions, not changed capability. This is the instrument-drift confound named directly.
+
+---
+
 ## Items to re-verify at ship time (per PLAN TODO)
 
 - Anthropic RSP, OpenAI PF, DeepMind FSF **version numbers** (all move fast; RSP monthly).
