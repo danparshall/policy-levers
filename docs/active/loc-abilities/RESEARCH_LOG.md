@@ -34,6 +34,24 @@ Open for next session:
 - Decide bundle-by-capability vs bundle-by-capability×wielder (cyber and AI-R&D appear in both bundles depending on who wields).
 - Essay §"principal concerns": write the three-concern list so the *heterogeneity* (a measurable quantity, a control-relationship, a propensity) is visible, not flattened into three spec-sheet dimensions.
 
+### Addendum (later same day) — papers ingested + essay structure locked
+
+IAISR Fig 2.5 gap **closed**: both editions now in `papers/` (2025 = arXiv:2501.17805, 2026 = arXiv:2602.21012). Read Fig 2.5 directly from the 2025 PDF (p.~102) — it is a **tree**, not a flat triad: Loss of control → {Active, Passive}; Active → {Intentional active, Unintentional active}. Shah's triad uses IAISR's verbatim *leaf* labels but flattens the two-axis tree. Note in `CITATIONS.md` tightened accordingly.
+
+Structural-tier sources ingested for the essay's §4 (structural) argument:
+- **TASRA** (Critch & Russell 2023, arXiv:2306.06924) — canonical societal-scale taxonomy, six types on an **accountability** axis. Third distinct organizing principle (vs Shah's mitigation axis, IAISR's active/passive) → itself evidence no canonical taxonomy exists.
+- **AI Risk Repository** (Slattery et al., *Patterns* 2026, doi:10.1016/j.patter.2026.101517; preprint arXiv:2408.12622) — **1,725 risks / 74 frameworks / 7 domains / 24 subdomains**; economic tier = domain 6 "Socioeconomic & Environmental." Its stated motivation (inconsistent AI-risk terminology) *is* the essay's thesis — usable in the opener, not just the structural bullet. Use "over 1,700 risks" in the draft (not "1,600+ structural"; most of the 1,725 aren't structural).
+
+**Essay structure locked (MATS Chang-track, terminology prompt).** Spine: AGI/ASI fine for conversation, useless for governance, because a scalar presupposes the measure→action map is a *function*, and past deployment-aware agency it's an adversarial *game*. Uses Shah's four categories as the tier structure with the **gateability asymmetry** made explicit:
+- Misuse → capability-score-gateable (thermostat; uplift → ceiling; propensity stipulated).
+- Mistakes → reliability-score-gateable on a *different* axis (QA/deployment-fitness; tolerable error rate *falls* as autonomy rises); a footnote, not a pillar.
+- Misalignment → **not** score-gateable (smoke alarm; one-directional, never an all-clear). The covariance-across-time signal is the best available instrument, near-term only. **1-and-3, NOT 2-and-2** — only misuse is capability-gateable; an earlier "two are gateable" phrasing was wrong and would concede the thesis.
+- Structural → mostly unmeasured (TASRA + AI Risk Repository as cites); economics + multi-agent/emergent + epistemic erosion + passive-LOC, with gradual disempowerment (Kulveit) as the cross-cutting dynamic.
+Close = four-vocabulary proposal (capability/uplift · autonomy/reliability · control · systemic-risk), tied to which tiers have technical vs policy vs no solutions; submarine callback (spec sheet works because sub has no goals + built to mission requirements). Anti-unification IS the proposal — do not end on a single unified metric.
+Shah verified to **exclude economics by design** (structural risks explicitly out of scope, §2.1) → don't use Shah as the frame for the economic tier; use IAISR's systemic-risk category there.
+
+Files touched this addendum: `papers/` (+4 PDFs across both sub-sessions: IAISR 2025/2026, TASRA, AI Risk Repository), `PAPER_INDEX.md`, `references.bib` (+2 here), `CITATIONS.md`.
+
 ## 2026-07-08 — Citations + first-pass ADeLe crosswalk (convo: citations-and-adele-crosswalk)
 
 Delivered the two items requested: (1) a verified citation set for the LOC-taxonomy sources, (2) a first-pass ADeLe×LOC crosswalk. Output in `reports/loc_abilities/`: `CITATIONS.md`, `references.bib`, `adele_crosswalk.md`, `crosswalk_matrix.csv`.
