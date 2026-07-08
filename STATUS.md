@@ -1,12 +1,20 @@
 # STATUS — policy_levers
 
-Last updated: 2026-04-15
+Last updated: 2026-07-07
 
 ## Current Focus
 
 Hill outreach is now the active workstream. Two visits completed; CRM scaffolding built and populated. Next phase is converting today's contacts into substantive relationships via follow-up email sequence.
 
 Research library scaffolding (papers/, PAPER_INDEX, summaries) and policy-outreach code remain in parallel but are not the bottleneck.
+
+## Active Research Lines
+
+Lines currently in flight; see `docs/active/<topic>/` for material.
+
+| Topic | Started | Purpose |
+|-------|---------|---------|
+| loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
 
 ## Recent Sessions
 
