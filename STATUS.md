@@ -19,6 +19,7 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 
 ## Recent Sessions
 
+- **2026-07-08** — Maintenance: renamed Zhou/ADeLe paper (dropped `OralloJ` → `Orallo` per naming spec) in `policy-levers` + `general-ai-abilities`; confirmed IAISR reports live only on `origin/loc-abilities` branch (not main); Shah 2025 AGI-safety paper not yet in any repo (arXiv 2504.01849). See `docs/active/main/convos/20260708_zhou_adele_rename_and_paper_locations.md`.
 - **2026-04-15 (PM)** — STATUS update + email drafts + Feb 27 reconciliation. Drafted follow-up emails for Joel Burke (Rounds, AI Policy Advisor) and Ateshi Bhatt (Alsobrooks, MD constituent angle) — the two follow-ups due 2026-04-16. Migrated Feb 27 root-level docs into `crm/visits/2026-02-27-hill-day/`.
 - **2026-04-15 (during/post-Hill day)** — 20 Senate offices visited, 21 named contacts captured, 1 House referral (Samantha at Foster's office, via Heinrich). Built `crm/` scaffolding: README, contacts.yaml, senators.yaml, bills.yaml, visits structure. See `crm/visits/2026-04-15-hill-day/summary.md` for office-by-office trail and `followups.yaml` for the action queue (20 items, dated through 2026-04-30).
 - **2026-04-14 (PM)** — Deep-dive on S.2938 (AIRE Act) status: stalled in Commerce under Cruz, no markup since Sept 2025 introduction. Drafted leave-behind under `docs/active/hill-visit-2026-04/`. Email-draft session for Sen. Moody surfaced Glenn + Herrera as prior contacts.
