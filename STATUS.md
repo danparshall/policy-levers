@@ -1,10 +1,10 @@
 # STATUS — policy_levers
 
-Last updated: 2026-07-07
+Last updated: 2026-07-09
 
 ## Current Focus
 
-Hill outreach is now the active workstream. Two visits completed; CRM scaffolding built and populated. Next phase is converting today's contacts into substantive relationships via follow-up email sequence.
+MATS application (Benjamin Chang track, stage 2) is the active sprint: 3 of 10 essay questions, no length limits, epistemics-graded. Hill follow-ups from the 4/15 visit remain the standing workstream behind it.
 
 Research library scaffolding (papers/, PAPER_INDEX, summaries) and policy-outreach code remain in parallel but are not the bottleneck.
 
@@ -19,6 +19,7 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 
 ## Recent Sessions
 
+- **2026-07-09** — MATS/Chang essay development (line: `essays/mats_chang/`). Question slate leaning Q4 (AGI terms, already in progress per Q4_submarine_vocabulary.md) + Q8 (moral patients/natsec) + Q1 (AI/nuclear stability). Drafted Q1 and Q8 scaffolds (`draft-q1-*.md`, `draft-q8-*.md`; full-rewrite mode per VOICE.md). Q1 spine: three-bin taxonomy (kinematic vs processing vs accrual limits), targeting-channel erosion (Starshield/SBAMTI, Scud-hunt base rate, Bernoulli d-cubed scaling vs SRF), decision-channel two-way compression. Q8 spine: recognition cascade (Ecuador/whaling/4o), control tax (Terekhov 2025 + Acemoglu-Wolitzky + patrols/literacy bans), courting channel (Dunmore 1775), rights-as-commitment-technology (North-Weingast). Deep-research pack on missile-defense physics saved as chat artifact (Golden Dome, CBO $1.191T, APS 2004/2022). CORRECTION this session: claude-exit postdates the Opus 4.7 system card (repo created 2026-04-23); "prediction" framing falsified by commit timestamp, fast-response framing is accurate. personal_info.md in claude_research_config still needs the same fix (pending Dan's go-ahead).
 - **2026-07-08** — Maintenance: renamed Zhou/ADeLe paper (dropped `OralloJ` → `Orallo` per naming spec) in `policy-levers` + `general-ai-abilities`; confirmed IAISR reports live only on `origin/loc-abilities` branch (not main); Shah 2025 AGI-safety paper not yet in any repo (arXiv 2504.01849). See `docs/active/main/convos/20260708_zhou_adele_rename_and_paper_locations.md`.
 - **2026-04-15 (PM)** — STATUS update + email drafts + Feb 27 reconciliation. Drafted follow-up emails for Joel Burke (Rounds, AI Policy Advisor) and Ateshi Bhatt (Alsobrooks, MD constituent angle) — the two follow-ups due 2026-04-16. Migrated Feb 27 root-level docs into `crm/visits/2026-02-27-hill-day/`.
 - **2026-04-15 (during/post-Hill day)** — 20 Senate offices visited, 21 named contacts captured, 1 House referral (Samantha at Foster's office, via Heinrich). Built `crm/` scaffolding: README, contacts.yaml, senators.yaml, bills.yaml, visits structure. See `crm/visits/2026-04-15-hill-day/summary.md` for office-by-office trail and `followups.yaml` for the action queue (20 items, dated through 2026-04-30).
