@@ -1,5 +1,10 @@
 # Q1 outline, fresh pass (2026-07-09 thread)
 
+###
+> Assume AI progress continues. What is a good taxonomy of all the different scenarios under which load-bearing assumptions for nuclear stability might conceivably break down, counterfactually resulting in nuclear war? You should discuss the US-China nuclear balance at a minimum... For a less-worried take on MAD durability, see e.g. this Foreign Affairs article. To what degree do the logics of this article apply "in the limit"? And what limits are those, exactly?
+###
+
+
 Working skeleton from the 7/09 convo. Built WITHOUT reading `draft-q1-ai-nuclear-stability.md`, per Dan's instruction; reconciliation with that draft is a later, separate step. Dan fills slots marked [DAN]; open factual checks live in the queue at bottom. Jargon provenance table near the end tells you which phrases are citable terms of art vs. coinages of ours.
 
 ## 0. Framing
