@@ -1,4 +1,4 @@
-# Q1 Outline — Opus 4.7 independent pass
+# Q1 Outline: Opus 4.7 independent pass
 
 Written 2026-07-10 before the FA article was read in full and independent of Fable's prior drafts and Chang lookups. Purpose: fix the argument structure so the draft has something to hang on, name the load-bearing claims and where they get pressure-tested, and mark spots where Schelling-style commitment-machinery language should land.
 
