@@ -60,11 +60,7 @@ China's visible response also confirms the reading.  A country that spent decade
 
 AGI plausibly is worth the risk, or is believed to be worth the risk in Beijing and in Washington, which is analytically the same thing. That is the argument the authors do not have.  If we are on a path to artificial superintelligence, the first-mover gains are potentially enormous and the second-mover penalty may be permanent.  That reintroduces preventive-war logic (Copeland 2000) on a visible clock.
 
-The narrower version runs through Taiwan.  The "silicon shield" held because Taiwan's fabs were an asset both sides needed intact.  Two developments are 
---dissolving that.  
-
-US export controls made cutting-edge training chips almost completely unavailable to China, which spurred Beijing to build domestic production capacity.  That capacity is coming online.  Meanwhile, the US, worried about the security of supply from TSMC, began its own domestic fab production.  Both sides are reshoring, which 
---sounds stabilizing until you watch the sign flip.
+The narrower version runs through Taiwan.  The "silicon shield" held because Taiwan's fabs were an asset both sides needed intact.  Two developments are causing that to shift.  US export controls made cutting-edge training chips almost completely unavailable to China, which spurred Beijing to build domestic production capacity.  That capacity is coming online.  Meanwhile, the US, worried about the security of supply from TSMC, began its own domestic fab production.  The combination weakens Taiwan's independence, and destabilizes the region.
 
 Once China has domestic leading-edge fab, Taiwan's semiconductor infrastructure stops being China's liability to lose and becomes an access-denial lever against the US, especially in the window where American domestic fabs are not yet at volume.  A rational Beijing becomes MORE cavalier about damaging Taiwan's fabs, not less, because the destruction is now mostly denial against Washington rather than a cost to Beijing.  The "broken nest" deterrent (McKinney and Harris 2021) inverts: the nest stops being something China avoids breaking and starts being something China might prefer to break.  Reshoring, meant to stabilize, destabilizes on the way to stabilizing.  The timing of the two national build-outs is the whole game, and a Taiwan crisis is the mechanism by which AI-as-prize reaches the nuclear layer, because a full-scale China-Taiwan conflict draws in American carrier groups, anti-ship missiles that are dual-use conventional/nuclear, and entanglement does the rest.
 
@@ -73,33 +69,18 @@ The broader version is the AI race generally.  Compute, energy, and talent leade
 
 ## Humans out, AI in
 
+The second omission is the replacement of the human in the loop by an AI in the loop, and it is where deterrence logic and safety logic collide head-on. Schelling saw the shape of this in 1960: he argued that it can be rational to give up control of your own response, because a threat you cannot climb down from is more credible than one you can, and he grounded it in the observation that rationality is assembled from external parts, including "the rationality of one's agents." 
 
-**AI in the loop.** The second omission is the replacement of the human in the loop by an AI in the loop, and it is where deterrence logic and safety logic collide head-on. Schelling saw the shape of this in 1960: he argued that it can be rational to give up control of your own response, because a threat you cannot climb down from is more credible than one you can, and he grounded it in the observation that rationality is assembled from external parts, including "the rationality of one's agents." 
-
-
-The deepest entry in the taxonomy, and the one the FA article doesn't see at all, is what happens when AI replaces humans in the nuclear decision loop.
-
-Schelling (1960) makes an argument that reads, in 2026, like it was written about AI.  His claim is that it can be rational to make yourself not fully rational: to give up control over your own future response, because a threat you cannot climb down from is more credible than one you can.  
-
--- Crucially, he grounds this in the observation that rationality is not inalienable.  It is assembled from external parts: "such things as one's hearing aid, the reliability of the mails, the legal system, and the rationality of one's agents and partners."  Delegate your response to an agent, and you have altered your own rationality by choosing the agent.  That is a description of AI-in-the-loop, written sixty-six years ago.
 
 Two things follow.  First, AI satisfies Schelling's condition of being "manifestly somewhat beyond our comprehension and control" for free.  Schelling noted that governments can't easily advertise their own fallibility.  But AI's unreliability is common knowledge: published benchmarks, jailbreaks, interpretability failures.  An AI-in-the-loop deterrent manufactures Schelling's uncontrolled risk without any need for authentication, because the world already agrees these systems are erratic in the tail.
 
-Second, this means deterrence places a positive bid on incorrigibility.  Every alignment desideratum (corrigibility, interruptibility, a reliable off-switch, human-in-the-loop, predictability) is ANTI-COMMITMENT.  The military wants an agent that is docile at baseline but uncontrollable if an adversary crosses a line.  This is Feaver's (1992) always/never dilemma rewritten as an alignment problem.  Operators historically bias toward "always"; SAC reportedly ran PAL codes of 00000000 for years (Blair 1993).  Posture designers who want maximum credibility will spec systems that safety engineers are trying to make impossible.  And ML cannot certify conditional behavior in unprecedented states, so "calibrated risk keyed to provocation" gets delivered as "unknown risk," and 
--- the gap between the two is where the accident lives.
-
-One last thing this removes.  Human delegated agents were always unreliably committed; they have a survival instinct, they can refuse, they can mutiny.  Arkhipov on B-59 was that unreliability functioning as a safety catch: the human veto nobody designed in.  A deterrence AI built without a refusal capability is the first delegated agent with no Arkhipov floor.  The incentive structure of deterrence is trying to engineer out the very affordance that AI safety is trying to engineer in.
-
-[DAN: consider whether the claude-exit resonance is worth a sentence here or too inside-baseball for Chang.]
+Second, this means deterrence places a positive bid on incorrigibility.  Every alignment desideratum (corrigibility, interruptibility, a reliable off-switch, human-in-the-loop, predictability) is ANTI-COMMITMENT.  The military wants an agent that is docile at baseline but uncontrollable if an adversary crosses a line.  This is Feaver's (1992) always/never dilemma rewritten as an alignment problem.  Operators historically bias toward "always"; SAC reportedly ran PAL codes of 00000000 for years (Blair 1993).  Posture designers who want maximum credibility will spec systems that safety engineers are trying to make impossible.  And ML cannot certify conditional behavior in unprecedented states, so "calibrated risk keyed to provocation" gets delivered as "unknown risk", something the world can ill-afford.
 
 
 ## In the limit
 
-The FA article is a study of the physics, and on the physics they are mostly right: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the 
---load-bearing assumptions 
-for nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves every one of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else, the limit is posture, 
-
--- and posture is a choice.
+The FA article is a study of the physics, and on the physics they are mostly right: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the foundations of nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves every one of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else, the limit is posture, 
+COMPLETE SENTENCE HERE
 
 
 ## References
