@@ -26,10 +26,9 @@ I've done sensor-fusion work, both in physics (Parshall et al. 2014) and in avia
 
 The civilian proof of scale is almost comic. Uber reconstructed the road-surface condition of essentially every fifty-meter segment of American road network out of nothing but the accelerometers in drivers' phones.  The military doubtless has more sensors at its disposal.
 
-The sea is a different story.  Seawater is opaque to everything a satellite carries, so the surface is the only observable, and the surface expression of a submerged hull falls off with the cube of depth.  An Ohio-class boat at 5 knots makes tens of centimeters of swell near periscope depth, about a centimeter at 100 meters, a millimeter at 200... all under meters of wind-wave noise.  Deep and slow wins in open ocean.
+The sea is a different story.  Seawater is opaque to everything a satellite carries, so the surface is the only observable, and the surface expression of a submerged hull falls off sharply with depth.  Sudharsun et al. (2022) model an Akula-class boat at 5 knots making ~19 cm of swell at 10m depth — comfortably within the 2 cm vertical resolution of modern altimeters — dropping to sub-centimeter by 40m and sub-millimeter by 75m, all under meters of wind-wave noise.  Deep and slow wins in open ocean.
 
-But not every sub fleet is hiding the same.  American SSBNs patrol tens of millions of square kilometers of deep Pacific.  Chinese Type 094s operate from a Hainan bastion with constrained, already-sensored approaches, and they are noisier.  The ocean goes translucent asymmetrically, and on this side of the looking-glass, that may make things worse, because to Beijing that looks like American 
-FILL IN SENTENCE HERE
+But not every sub fleet is hiding the same.  American SSBNs patrol tens of millions of square kilometers of deep Pacific.  Chinese Type 094s operate from a Hainan bastion whose transit corridors are constrained: shelf water on egress from Yulin, then the Bashi Channel on any push toward the open Pacific.  Both are already-sensored, and the 094s are noisier to begin with.  The ocean goes translucent asymmetrically, and on this side of the looking-glass, that may make things worse, because to Beijing that looks like American counterforce readiness against the leg of their deterrent that isn't hardening on the same timeline.
 
 
 ## The C3 channel
@@ -96,5 +95,6 @@ Lieber, K. A., & Press, D. G. (2017). The New Era of Counterforce. *Internationa
 MacDonald, T. (2025). Tracking Mobile Missiles. *Journal of Strategic Studies*, 48(2), 297-333.
 McKinney, J., & Harris, J. (2021). Broken Nest: Deterring China from Invading Taiwan. *Parameters*.
 Schelling, T. C. (1960). *The Strategy of Conflict*. Harvard University Press.
+Sudharsun, G., Ali, A., Mitra, A., Jaiswal, A., Naresh, P., & Warrior, H. V. (2022). Free surface features of submarines moving underwater: Study of Bernoulli Hump. *Ocean Engineering*, 249, 110792.
 Winter-Levy, S., & Lalwani, N. (2025). The End of Mutual Assured Destruction? *Foreign Affairs*, August 7.
 Parshall, D., Heid, R., Niedziela, J. L., Wolf, Th., Stone, M. B., Abernathy, D. L., & Reznik, D. (2014). Phonon spectrum of SrFe₂As₂ determined using multizone phonon refinement. *Physical Review B*, 89(6), 064310.
