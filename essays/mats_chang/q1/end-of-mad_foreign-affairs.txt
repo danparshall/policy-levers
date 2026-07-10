@@ -1,22 +1,13 @@
 ===== page 1 =====
-
-archive.todaywebpage capture
-Saved fromhttps://www.foreignaffairs.com/united-states/artificial-intelligence-end-mutual-
-history← priornext →
-search 27 Aug 2025 19:21:06 UTC
-Redirected fromhttps://www.foreignaffairs.com/united-states/artificial-intelligence-end-mutual-
-history← priornext →All snapshotsfrom host www.foreignaffairs.com
-share download .zipreport bug or abuseBuy me a coffee
-WebpageScreenshot
-Skip to content
-Current Issue Subscribe Log In Menu
 The End of Mutual AssuredDestruction?
 What AI Will Mean for Nuclear Deterrence
 Sam Winter-Levy and Nikita Lalwani
 August 7, 2025
+
 A Russian intercontinental ballistic missile system in Moscow, May 2025 Yulia Morozova / Reuters
 SAM WINTER-LEVY is a Fellow in Technology and International Affairs at the Carnegie Endowment for International Peace.
 NIKITA LALWANI is a Nonresident Scholar at the Carnegie Endowment for International Peace. She served as Director forTechnology and National Security at the National Security Council and as Senior Adviser to the Director of the CHIPS ProgramOffice at the U.S. Department of Commerce during the Biden administration.
+
 7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
 https://archive.is/dFEzU#selection-1531.140-1531.143 1/9
 
@@ -24,156 +15,35 @@ https://archive.is/dFEzU#selection-1531.140-1531.143 1/9
 
 More by Sam Winter-Levy 
 More by Nikita Lalwani 
-Listen Share &Download Print Save
+
 The rapid development of artificial intelligence in recent years has led many analysts to suggest that it willupend international politics and the military balance of power. Some have gone so far as to claim, in the wordsof the technologists Dan Hendrycks, Eric Schmidt, and Alexandr Wang, that advanced AI systems could“establish one state’s complete dominance and control, leaving the fate of rivals subject to its will.”
 AI is no doubt a transformative technology, one that will strengthen the economic, political, and militaryfoundations of state power. But the winner of the AI race will not necessarily enjoy unchallenged dominanceover its major competitors. The power of nuclear weapons, the most significant invention of the last century,remains a major impediment to the bulldozing change brought by AI. As long as systems of nuclear deterrenceremain in place, the economic and military advantages produced by AI will not allow states to fully imposetheir political preferences on one another. Consider that the economy of the United States is almost 15 times aslarge as that of Russia, and almost 1,000 times as large as that of North Korea, yet Washington struggles to getMoscow or Pyongyang to do what it wants, in large part because of their nuclear arsenals.
 Some analysts have suggested that AI advances could challenge this dynamic. To undermine nuclear deterrence,AI would need to knock down its central pillar: a state’s capacity to respond to a nuclear attack with adevastating nuclear strike of its own, what is known as second-strike capability. AI technology could plausiblymake it easier for a state to destroy a rival’s entire nuclear arsenal in one “splendid first strike” by pinpointingthe locations of nuclear submarines and mobile launchers. It could also prevent a rival from launching aretaliatory strike by disabling command-and-control networks. And it could strengthen missile defenses suchthat a rival could no longer credibly threaten retaliation. If AI could in this way help a state escape the prospectof mutual assured destruction, the technology would make that state unrivaled in its capacity to threaten andcoerce adversaries—an outcome in line with increasingly popular visions of AI-enabled dominance.
-But undermining the nuclear balance of power will not be easy. Emerging technologies still face very realconstraints in the nuclear domain. Even the most sophisticated AI-powered targeting and sensor systems maystruggle to locate a mobile nuclear launcher hidden under a bridge, isolate the signatures of a nuclear-armedsubmarine from the background noise of the ocean, and orchestrate the simultaneous destruction of hundredsof targets on land, air, and sea—with zero room for error. And competitors will respond to their adversaries’ useof new technology with moves of their own to defend their systems, as they have at every turn since the dawnof the atomic age.
-Subscribe to Foreign Affairs This Week
-Our editors’ top picks, delivered free to your inbox every Friday.
-Enter your email here. Sign Up 
-T
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 2/9
-
-===== page 3 =====
-
-* Note that when you provide your email address, the Foreign Affairs Privacy Policy and Terms of Use will apply to your newsletter subscription.
+But undermining the nuclear balance of power will not be easy. Emerging technologies still face very realconstraints in the nuclear domain. Even the most sophisticated AI-powered targeting and sensor systems maystruggle to locate a mobile nuclear launcher hidden under a bridge, isolate the signatures of a nuclear-armedsubmarine from the background noise of the ocean, and orchestrate the simultaneous destruction of hundredsof targets on land, air, and sea—with zero room for error. And competitors will respond to their adversaries’ useof new technology with moves of their own to defend their systems, as they have at every turn since the dawn of the atomic age.
 Yet even if it does not challenge nuclear deterrence, AI may encourage mistrust and dangerous actions amongnuclear-armed states. Many of the steps that governments could take to protect and toughen their second-strike capabilities risk alarming rivals, potentially spurring expensive and dangerous arms races. It also remainspossible that AI systems could cross a crucial threshold and exhibit extremely rapid improvements incapabilities. Were that to happen, their advantages to the country that possesses them could become morepronounced and difficult for rivals to contend with. Policymakers should monitor for such a scenario andfacilitate regular communication between AI and nuclear experts. At the same time, they should take steps toreduce the probability of accidents and escalation, including assessing nuclear systems for AI-relatedvulnerabilities and maintaining channels of communication between nuclear powers. Such steps will helpensure that nuclear stability—and not just nuclear deterrence—endures in the age of AI.
+
 FIRST STRIKE
 Nuclear deterrence depends, most fundamentally, on states’ possessing the ability to retaliate after absorbing anuclear attack: as long as two nuclear powers credibly maintain a second-strike capability that can inflictunacceptable damage on their adversary, a first strike is suicidal. This understanding has for decades sustained arelatively stable equilibrium. But second-strike capabilities are not invulnerable. States can eliminate deliveryplatforms, such as road-mobile missile launchers and nuclear submarines, provided that they can find them. Thedifficulty of finding and disabling these platforms is one of the central obstacles to launching a splendid firststrike. The sheer size of China, Russia, the United States, the Atlantic Ocean, and the Pacific Ocean—the mostimportant domains for nuclear competition today—makes such a strike hard to accomplish.
 The emergence of powerful AI systems, however, could solve that problem. Capable of processing and analyzingvast amounts of data, a military equipped with such technologies could better target the nuclear assets of itsrivals. Consider ground-launched mobile missiles, one of the platforms that underpin Russian and Chinesesecond-strike capabilities. These missiles, which are carried on vehicles that can hide under camouflage netting,bridges, or tunnels and drive from one concealed location to another, are probably the most difficult element ofRussian and Chinese nuclear forces to eliminate. (Silo-based ballistic missiles, by contrast, are much morevulnerable to attack.) The improved speed and scale of AI-empowered intelligence processing may make iteasier to conduct operations against these vehicles. AI systems can scour and integrate huge amounts of datafrom satellites, reconnaissance aircraft, signals intelligence intercepts, stealth drones, ground-based sensors, andhuman intelligence to more effectively find and track mobile nuclear forces.
 When it comes to the sea, the potential convergence of AI with sensing technologies might make the oceans“transparent,” allowing governments to track ballistic missile submarines in real time. That is a particularconcern for the United States, which keeps a much higher percentage of its warheads on submarines thanRussia or China does. AI could make it easier to track submarines by automating pattern recognition frommultiple types of sensors across massive ocean areas and over long durations. It could also help a state hack intothe systems its adversaries use to track their own weapons.
 Yet even with the assistance of AI, states will not be absolutely sure that a splendid first strike can knock out a
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 3/9
-
-===== page 4 =====
-
 rival’s capacity to retaliate. On land, for instance, China and Russia could respond to improvements in U.S.tracking systems with their own countermeasures. They could invest in antisatellite weapons and jammingcapabilities. They could adopt old-fashioned low-tech solutions, such as covering roads with netting orconstructing decoys, to increase the number of targets an attacker would need to strike. They could order theirlaunchers to emit fewer signals, making it harder for the United States to track them. They could modify thelaunchers to move faster, widening the target area U.S. strikes would have to hit. They could even use their ownAI systems to inject false information into channels monitored by the U.S. intelligence community.
 In the maritime domain, too, AI is unlikely to make the sea fully transparent. Any system will struggle tocontinuously identify, track, and monitor multiple targets over long ranges and amid ocean background noise,especially as submarines get quieter and oceans noisier. Submarines remain extraordinarily difficult to detectwhen submerged at depth and operating at low speeds, because of how sound moves underwater, shifting oceanconditions, and the inherent noisiness of the marine environment. In the seas, false alarms are frequent; reliablecontact is rare. And at sea, as on land, major powers can tip the scales in their favor through variouscountermeasures: they can jam signals, manipulate sensor data, use undersea sensors and uncrewed vehicles todetect adversary assets, and operate their own submarines in protected bastions close to their home shores.Detection will thus remain a matter of probability, even with the introduction of AI—and states are unlikely towant to risk a splendid first strike on anything less than a safe bet.
+
 COMMAND AND CONTROL
 Beyond making it easier to find and destroy an adversary’s nuclear weapons, AI could plausibly threaten thenuclear command-and-control systems that would be needed to launch a retaliatory strike. Command-and-control systems are responsible for detecting attacks, reporting them to the relevant authority, and transmittingretaliation orders to nuclear forces. These systems must be able to identify a wide array of missiles; assessdamage on the ground; send short messages over thousands of miles, including deep underwater; and protectthe leaders responsible for nuclear decision-making. States seeking to disable a command-and-control systemmust proceed with caution, as overt moves to knock out a rival’s system may be seen as the prelude to a nuclearattack, potentially justifying preemptive retaliation. Like most elements of a splendid first strike, disarming acommand-and-control system requires, in the words of the scholar James Acton, destroying “as much of eachcomponent as possible with as little warning as possible.”
 Many parts of a nuclear command-and-control system are already vulnerable to attack and will becomeincreasingly so with new technological breakthroughs. Nuclear and conventional strikes can already destroyfixed equipment, such as radars and high-frequency transmitters. With improvements in AI, meanwhile, it maybecome easier to track mobile command posts on land as well as more precisely target airborne ones. Satellitesthat provide early warning of incoming nuclear attacks may become increasingly vulnerable to AI-enhancedantisatellite weapons. And sophisticated cyber-operations supercharged by AI might allow states to penetrate arival’s command-and-control networks, disable early warning systems, and disrupt the transmission of orders—a risk that may grow as states modernize their systems, moving away from analog and hardwired capabilitiestoward digital ones.
 But taking out an entire command-and-control system in one fell swoop will never be straightforward, evenwith advanced technology. States have gone to great lengths to make their systems resilient, incorporating
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 4/9
-
-===== page 5 =====
-
 redundancy and elaborate countermeasures. On land, some command bunkers in China, Russia, and the UnitedStates are buried at least 700 meters underground in hard rock, deep enough to survive even a direct hit from alarge nuclear weapon. In space, every major nuclear power has either sent hundreds or thousands of satellitesinto orbit or is close to doing so, making it difficult to destroy all of a country’s advance warning andcommunications systems. In the air, the curvature of the earth limits the distance at which surveillance radarcan track airborne command posts. And in cyberspace, the ability to launch a disarming strike will requirepersistent access to an adversary’s systems, risking detection and possible retaliation. States will also expendenormous effort trying to prevent such intrusions, most likely with the aid of their own AI defenses, whileoperating multiple redundant networks. As a result of these challenges, it seems unlikely that AI will crediblythreaten the elimination of command-and-control systems.
+
 DEFENSE, DEFENSE
 A final fear is that AI could weaken nuclear deterrence by improving missile defenses, thereby minimizing thepossibility of a successful second strike and making first strikes more tempting. Establishing strong defensesagainst nuclear missile attacks has always been an exceptionally challenging task. Russia and China have fewsuch capabilities, and U.S. defense systems are error-prone, spread thin, and unable to fully prevent an attackfrom a major nuclear power. These systems must do the nearly impossible: detect a launch, track hundreds ofmissiles traveling through space at 20 times the speed of sound, estimate their future trajectories, and destroythem with interceptors—all in less than 30 minutes, the rough flight time for most land-based missilestraveling between the United States and Russia or China. National security officials have likened this process totrying to shoot a bullet with another bullet. And they must be able to do all this economically and at scale, sothat an attacker cannot overwhelm a defensive system with many cheaper missiles.
 AI could improve some of these capabilities. Machine-learning algorithms might, for example, rapidly analyzedata from multiple sensors to distinguish actual warheads from sophisticated decoys and speed up decision-making once an adversary launches its missiles. Software advances can make it easier to predict a missile’strajectory. In addition, through advancements in materials science, AI might help produce lighter, more agileinterceptors, making the weapons cheaper and more maneuverable in flight.
 But none of these developments will take place overnight: defensive architectures take years to develop, andU.S. adversaries will not stand by and watch. Attackers maintain significant advantages: they can launch fromunexpected directions, overwhelm defenses with coordinated salvo attacks using large numbers of decoys, ordirectly target key defense systems. In the highly unlikely event that missile defense becomes so strong that it isinsurmountable, states could resort to more creative delivery methods, such as smuggling and pre-positioningsmall nuclear devices in enemy territory. An AI-hardened system of missile defense would depend on machinelearning algorithms that are trained on large, reliable data sets regarding decoy measures and missile systems—data that U.S. adversaries have every incentive to obscure. Indeed, U.S. rivals could try to confuse AI algorithmsby manipulating missile tests. In short, even AI-enhanced defenses face physical and economic constraints thatsophisticated nuclear powers can exploit.
+
 NOTHING FOR GRANTED
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 5/9
-
-===== page 6 =====
-
 Even in the face of AI-driven technological change, nuclear deterrence should remain strong. This does notmean, however, that AI poses no risks to global nuclear stability. Even if predictions of AI power overestimatethe technology’s actual capabilities, states may perceive greater threats and take potentially destabilizing actions.If a state believes that an AI-powered rival can more easily discover its missiles, for example, it may decide tobuild more warheads, house more of its weapons on harder-to-detect mobile vehicles, direct those vehicles tomove faster, and delegate more launch authority to vehicle drivers to reduce the need for long-distancecommunication that could be intercepted. If states believe their command-and-control systems are vulnerableto AI-enabled attacks, they may wish to reduce the number of steps required to launch a counterattack. Theseare all moves that increase the probability of escalation and accidental launches, especially with respect to stateswith fewer resources and less experience in managing nuclear weapons, such as India and Pakistan.
 Beyond such destabilizing uncertainty, it remains possible that countries will develop significantly morepowerful AI systems that could threaten methods of nuclear deterrence in ways that cannot yet be anticipated,especially if—as some experts suggest is possible—AI R&D becomes fully automated, spurring a suddentakeoff in capabilities. National security experts should not dismiss this eventuality, and they shouldcontinuously monitor for evidence of rapid takeoffs in AI capabilities among rivals.
 But even if intelligence is a powerful asset, it isn’t magic, andstates seeking to use AI to disarm their adversaries willconfront real physical, practical, and institutional limits. Astate empowered by transformative AI systems will still haveto solve an enormous number of extremely difficult problems before it can contemplate decapitating a nuclearcompetitor: it will need to integrate advanced AI into large-scale military bureaucracies, no easy task, and figureout how to test these systems in advance—a tall order given the need both to avoid triggering a preemptiveresponse and to rehearse thousands of steps with little room for error. No matter how intelligent they are,powerful AI systems will not be able to evade the laws of physics. And no tool or capability guarantees that astate can impose its preferences on another: the United States, after all, possessed overwhelming military andeconomic power over the Taliban in Afghanistan yet suffered an unambiguous defeat after two decades of war.
 None of this should encourage complacency. Even if nuclear deterrence persists, AI will still transform nationalsecurity in many ways, including by helping states develop new autonomous weapons and by strengtheningoffensive and defensive cyber-capabilities. These developments will have significant consequences, even if theydo not give any state the ability to impose its will on nuclear-armed adversaries. AI may also democratize accessto dangerous capabilities, lowering the barriers for nonstate actors and individuals to build and deploydevastating biological, chemical, and radiological weapons. These are just a few of the problems thatpolicymakers will have to grapple with as AI continues to improve.
-In the nuclear domain, U.S. officials should not wait to see what advances AI brings. They should ensure thatpolicy processes include AI experts alongside nuclear ones, encouraging a dialogue that has thus far beenlacking in the national security community. They should conduct rigorous reviews of nuclear systems to checkfor vulnerabilities that could be exploited by advanced AI, especially in cyberspace, and deepen the ranks of AIexperts within the U.S. government. They should carefully calibrate any statements about the need to race toartificial general intelligence, or the importance of being the first to develop a decisive wonder weapon, lest theyexacerbate risky and costly nuclear competition. And through arms control dialogues, they should work tostrengthen the significant ethical, political, and legal constraints on a state’s ability to launch a splendid first
-AI may encourage mistrustamong nuclear-armed states.
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 6/9
-
-===== page 7 =====
-
-Topics & Regions: United States  China  Russia  Science & Technology  Security  Defense & Military  Nuclear Weapons &Proliferation  Artificial Intelligence  Automation
-Recommended
-America Isn’t Ready for the Warsof the Future
-And They’re Already Here
-Mark A. Milley and Eric Schmidt
-China Is Winning the Cyberwar
-America Needs a New Strategy ofDeterrence
-Anne Neuberger
-The Dawn of Automated Warfare
-Artificial Intelligence Will Be the Key toVictory in Ukraine—and Elsewhere
-Eric Schmidt and Greg Grant
-China’s Overlooked AI Strategy
-Beijing Is Using Soft Power to GainGlobal Dominance
-Owen J. Daniels and Hanna Dohmen
-America Should Assume theWorst About AI
-How to Plan for a Tech-DrivenGeopolitical Crisis
-Matan Chorev and Joel Predd
-Most Read
-America’s Coming Crash
-Will Washington’s Debt Addiction Sparkthe Next Global Crisis?
-Kenneth S. Rogoff
-Putin’s Play for Time
-How Trump’s Performative DiplomacyStrengthens Russia’s Hand
-Alexander Gabuev
-The New Economic Geography
-Who Profits in a Post-American World?
-Adam S. Posen
-Putin’s New Cyber Empire
-How the Kremlin Is Embedding RussianTechnology Around the World
-Andrei Soldatov and Irina Borogan
-The New Hamas Insurgency
-How the Embattled Group Is DrawingIsrael Further Into an Unwinnable War
-Leila Seurat
-strike or to take other escalatory steps. The system of nuclear deterrence that has been in place since the end ofWorld War II cannot be taken for granted. As political rivalries and the growing competition for AI supremacyheat up between the world’s great powers, it is more important than ever to maintain channels ofcommunication and pathways to reduce the risk of inadvertent escalation and calamity.
-You are reading a free article
-Subscribe to Foreign Affairs to get unlimited access.Paywall-free reading of new articles and over a century of archivesSix issues a year in print and online, plus audio articlesUnlock access to the Foreign Affairs app for reading on the go
-Subscribe Already a subscriber? Sign In 
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 7/9
-
-===== page 8 =====
-
-The Real AI Race
-America Needs More Than Innovationto Compete With China
-Colin H. Kahl and Jim Mitre
-Published by The Council on Foreign Relations, Inc.
-© 2025. All Rights Reserved.
-Privacy Policy Terms of Use
-About
-About Us
-Events
-Work at Foreign Affairs
-Podcast
-Staff
-Download the iOS App
-Download the Android App
-Graduate School Forum
-Contact
-Frequently Asked Questions
-Account Management
-Submissions
-Permissions
-Advertise
-Leave Us Feedback
-Explore by Topic
-Authoritarianism
-Vladimir Putin
-Benjamin Netanyahu
-Xi Jinping
-Globalization
-Diplomacy
-U.S. Politics
-Economics
-Explore by Region
-United States
-Russia
-China
-Israel
-Europe
-Middle East
-Latin America
-Africa
-From the publishers of  Foreign Affairs
-The Quest for Palestinian Statehood:
-What to Know
-South Korean President at White HouseA Lesson from Iraq About Genocide
-Accusations
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 8/9
-
-===== page 9 =====
-
-7/6/26, 7:05 PM The End of Mutual Assured Destruction? | Foreign Affairs
-https://archive.is/dFEzU#selection-1531.140-1531.143 9/9
+In the nuclear domain, U.S. officials should not wait to see what advances AI brings. They should ensure thatpolicy processes include AI experts alongside nuclear ones, encouraging a dialogue that has thus far beenlacking in the national security community. They should conduct rigorous reviews of nuclear systems to checkfor vulnerabilities that could be exploited by advanced AI, especially in cyberspace, and deepen the ranks of AIexperts within the U.S. government. They should carefully calibrate any statements about the need to race toartificial general intelligence, or the importance of being the first to develop a decisive wonder weapon, lest theyexacerbate risky and costly nuclear competition. And through arms control dialogues, they should work tostrengthen the significant ethical, political, and legal constraints on a state’s ability to launch a splendid first strike or to take other escalatory steps. The system of nuclear deterrence that has been in place since the end ofWorld War II cannot be taken for granted. As political rivalries and the growing competition for AI supremacyheat up between the world’s great powers, it is more important than ever to maintain channels ofcommunication and pathways to reduce the risk of inadvertent escalation and calamity.
