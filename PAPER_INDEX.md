@@ -10,6 +10,8 @@
 | METR (2025) | 50%-task-completion time horizon benchmark; doubling every ~7 months | `METR_2025__long_tasks_frontier.pdf` |
 | Parshall & Lopez-Luzuriaga (2026) | Task exposure framework (author's working paper) | `Parshall_Lopez-Luzuriaga_TaskExposure_2026.pdf` |
 | Zhou, Hernández-Orallo et al. (2025) | Psychometrics-inspired AI evaluation: 18 continuous demand scales replace aggregate benchmark accuracy; interpretable per-instance success predictor beats black-box baselines OOD; explicit sandbagging/overestimation/underestimation warnings for regulators | `ZhouL_Hernandez-Orallo__2025--general_scales_ai_evaluation.pdf` |
+| MacDonald (2021) | MIT NSE thesis "Hide and Seek": quantitative model of space-based-radar tracking of TELs; coverage-gap search area grows ~(vt)²; finds evasive operation + countermeasures defeat near-term tracking. Superset of the JSS article, incl. radar-physics chapter | `MacDonaldT__2021--hide_and_seek_remote_sensing_strategic_stability.pdf` |
+| MacDonald (2025) | "Tracking Mobile Missiles," J. Strategic Studies 48(2) 297-333: article version of the thesis; space radar necessary but current gaps (tens of min) preclude custody; dozens of dedicated radar sats required; commercial-sensor conglomeration unlikely to matter. Counterpoint to Lieber & Press 2017 | PDF Cloudflare-blocked; DOI: [10.1080/01402390.2024.2435961](https://www.tandfonline.com/doi/full/10.1080/01402390.2024.2435961) (open access) |
 
 ## Advocacy & Position Documents
 
