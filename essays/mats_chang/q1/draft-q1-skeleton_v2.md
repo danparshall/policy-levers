@@ -6,9 +6,9 @@
 
 "A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, offense is pointless, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
 
-Winter-Levy and Lalwani (2025) make the case in Foreign Affairs that AI, whatever else it does, does not dismantle the three pieces of MAD that make it work: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. 
+Winter-Levy and Lalwani (2025) raise four key points in Foreign Affairs. Three concern MAD's core assumptions: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. Their fourth is a concession that even where capabilities don't materialize, perceptions of AI progress can drive destabilizing postural adjustments.
 
-On each of these I think the authors are too sanguine, and furthermore that they dramatically underestimate two further developments: AI as a strategic prize in its own right, and the replacement of humans in the nuclear decision loop by AI, which pushes the development of AI itself in a direction that should alarm anyone who cares about safety.
+On the first three I have substantive pushback; on the perception concession I agree, but the effect runs further than they acknowledge. They also dramatically underestimate two further developments: AI as a strategic prize in its own right, and the replacement of humans in the nuclear decision loop by AI, which pushes the development of AI itself in a direction that should alarm anyone who cares about safety.
 
 
 ## The targeting channel
@@ -34,7 +34,7 @@ FILL IN SENTENCE HERE
 
 ## The C3 channel
 
-Their second claim, that command and control is too resilient to decapitate, is right about decapitation and wrong about what actually breaks C3.  The danger is not primarily about the bunker going dark.  It is the commander who believes it is about to.
+The claim that command and control is too resilient to decapitate is right about decapitation and wrong about what actually breaks C3.  The danger is not primarily about the bunker going dark.  It is the commander who believes it is about to.
 
 Read the Stuxnet lesson from the target's side.  Stuxnet proved that air-gapped, idiosyncratic industrial control systems are reachable.  The lesson every nuclear state drew was: harden everything, assume compromise, and if you detect an intrusion during a crisis, launch while you still can.  AI accelerates the offensive side of this spiral, better tooling for novel zero-days, faster lateral movement, more plausible social engineering, while the defensive side is stuck protecting legacy systems built in the 1970s.
 
@@ -52,13 +52,13 @@ I mostly agree with the FA authors here.  The APS study (Barton et al. 2004; rev
 
 On perception, the authors and I agree: the mere prospect of AI progress can change default postures whether or not the underlying capabilities materialize. Improved algorithms (nearly certain if AGI arrives), improved sensor architectures (certainly possible), and improved cyber tooling (well underway) all lower the technical threshold for launch-on-warning. And LOW becomes ADOPTABLE by second-tier nuclear states that could not previously execute it. Pakistan and DPRK do not have the C3 infrastructure to run a genuine LOW posture with acceptable false-alarm discipline. AI-drafted response templates and AI-assisted early warning bring it in reach. The second-tier states move first because they have the fewest resources to adapt any other way, and they are also the states with the thinnest assessment pipelines.
 
-China's visible response also confirms the reading.  A country that spent decades in the most relaxed nuclear posture of any major power, a few hundred warheads, no-first-use, warheads de-mated from missiles, is now building 300-plus new silos, expanding its early-warning satellite constellation, and reportedly moving toward *yujing fanji*, which is launch-on-warning by another name.  Pillar-one erosion is driving LOW adoption in the arsenal least able to absorb a false positive.
+China's visible response also confirms the reading.  A country that spent decades in the most relaxed nuclear posture of any major power, a few hundred warheads, no-first-use, warheads de-mated from missiles, is now building 300-plus new silos, expanding its early-warning satellite constellation, and reportedly moving toward *yujing fanji*, which is launch-on-warning by another name.  Erosion of survivability is driving LOW adoption in the arsenal least able to absorb a false positive.
 
 
 
 ## AI as the prize
 
-AGI plausibly is worth the risk, or is believed to be worth the risk in Beijing and in Washington, which is analytically the same thing. That is the argument the authors do not have.  If we are on a path to artificial superintelligence, the first-mover gains are potentially enormous and the second-mover penalty may be permanent.  That reintroduces preventive-war logic (Copeland 2000) on a visible clock.
+AGI plausibly is worth the risk, or is believed to be worth the risk in Beijing and in Washington, which is analytically the same thing. That is the argument the authors do not have.  If we are on a path to artificial superintelligence, the first-mover gains are potentially enormous and the second-mover penalty may be permanent.  That introduces preventive-war logic (Copeland 2000) on a visible clock.
 
 The narrower version runs through Taiwan.  The "silicon shield" held because Taiwan's fabs were an asset both sides needed intact.  Two developments are causing that to shift.  US export controls made cutting-edge training chips almost completely unavailable to China, which spurred Beijing to build domestic production capacity.  That capacity is coming online.  Meanwhile, the US, worried about the security of supply from TSMC, began its own domestic fab production.  The combination weakens Taiwan's independence, and destabilizes the region.
 
