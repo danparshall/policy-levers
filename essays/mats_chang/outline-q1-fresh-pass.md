@@ -114,6 +114,6 @@ Ours, do not cite as standard: the four-cluster/twelve-pillar inventory; the thr
 
 - Acoustic-ML ASW section: REQUIRED before the SSBN claims ship; currently the outline's biggest hole.
 - FA article engagement: read PDF, answer "in the limit" directly.
-- Reconciliation with draft-q1-ai-nuclear-stability.md: Dan converges later; do not read from this thread.
+- ISOLATION PROTOCOL (Dan, 7/09): do not read draft-q1-ai-nuclear-stability.md, and do not read Chang's own work (dissertation, Constellation report, papers) in this thread or its successors. Goal: develop the argument isolated from his thought, then write an appendix of the form "updates after reading Chang." Known contamination to disclose in that appendix: the 7/06 session's grader recon (dissertation topic in one line, the "explosives on international affairs" complaint, wargaming background), which is in the convo split and informed question selection but not the object-level argument.
 - NK / South Asia / Russia-specific arsenal detail: one transfer paragraph, not sections.
 - Word budget: taxonomy overhead argues for the ~2,500 ceiling flagged earlier; every branch that can't state its chain-to-war in two sentences gets cut.
