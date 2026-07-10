@@ -37,6 +37,7 @@ Format per pillar: canonical anchor | AI mechanism(s) | sign | chain-to-war stub
 
 4. NC3 integrity, always/never dilemma (Feaver's term; cite him).
    - AI mechanisms: entanglement (Acton) as the big one; DF-26 warhead ambiguity as entanglement in hardware; AI-enabled cyber vs. NC3; crypto solves authentication, not availability or upstream sensor integrity.
+   - Cyber channel now developed in full in draft-q1-cyber-nc3-node.md (parallel thread, 7/10): reclassifies cyber out of the physics bins into Cluster B; single-peaked danger (peaks at maximum uncertainty-about-efficacy, and the unverified regime is the only occupiable one); chain-to-war = internal decision-loop compression. Its "cheap to frighten, expensive to reassure" asymmetry is the same shape as the commitment-machinery verification failures (3.x) and the assessment spiral; the essay should name that through-line once.
    - Chain: conventional counterforce campaign reads as disarming-strike preparation -> use-or-lose.
 5. Warning you can trust (near-miss record: 1979 NORAD tape, 1980 chip, Petrov 1983, 1995 Norwegian rocket).
    - AI mechanisms: better sensors and fusion (stabilizing, harder to spoof) vs. adversarially injectable classifiers in transparent bands; right-censoring caveat on the near-miss record.
