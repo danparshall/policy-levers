@@ -80,6 +80,8 @@ Second, this means deterrence places a positive bid on incorrigibility.  Every a
 
 The FA article is a study of the physics, and the physics is generally correct: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the foundations of nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves all of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else the limit is posture, which is being updated even now.
 
+Here's what would flip me.  Space-based GMTI failing to hit orbit by FY30 leaves the mobile-target erosion argument aspirational.  Chinese leading-edge fabs reaching volume yield inside 18 months accelerate the broken-nest inversion.  Slippage past 5 years narrows the Taiwan window to a reshoring race instead.  Public doctrine confirming *yujing fanji* moves erosion of survivability from belief to fact.  Published DoD RFPs describing provocation-conditional AI response systems move the alignment inversion from argument to procurement.  On midcourse discrimination the update goes the other way: consistent public test data against multi-decoy adversarial suites would move me toward the FA read.
+
 
 ## References
 
