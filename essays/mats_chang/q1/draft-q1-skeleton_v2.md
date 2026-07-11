@@ -26,7 +26,7 @@ I've done sensor-fusion work, both in physics (Parshall et al. 2014) and in avia
 
 The civilian proof of scale is almost comic. Uber reconstructed the road-surface condition of essentially every fifty-meter segment of American road network out of nothing but the accelerometers in drivers' phones.  The military doubtless has more sensors at its disposal.
 
-The sea is a different story.  Seawater is opaque to everything a satellite carries, so the surface is the only observable, and the surface expression of a submerged hull falls off sharply with depth.  Sudharsun et al. (2022) model an Akula-class boat at 5 knots making ~19 cm of swell at 10m depth — comfortably within the 2 cm vertical resolution of modern altimeters — dropping to sub-centimeter by 40m and sub-millimeter by 75m, all under meters of wind-wave noise.  Deep and slow wins in open ocean.
+The sea is a different story.  Seawater is opaque to everything a satellite carries, so the surface is the only observable, and the surface expression of a submerged hull falls off sharply with depth.  Sudharsun et al. (2022) model an Akula-class boat at 5 knots making ~19 cm of swell at 10m depth (comfortably within the 2 cm vertical resolution of modern altimeters), dropping to sub-centimeter by 40m and sub-millimeter by 75m, all under meters of wind-wave noise.  Deep and slow wins in open ocean.
 
 But not every sub fleet is hiding the same.  American SSBNs patrol tens of millions of square kilometers of deep Pacific.  Chinese Type 094s operate from a Hainan bastion whose transit corridors are constrained: shelf water on egress from Yulin, then the Bashi Channel on any push toward the open Pacific.  Both are already-sensored, and the 094s are noisier to begin with.  The ocean goes translucent asymmetrically, and on this side of the looking-glass, that may make things worse, because to Beijing that looks like American counterforce readiness against the leg of their deterrent that isn't hardening on the same timeline.
 
@@ -44,7 +44,7 @@ This gets worse through entanglement (Acton 2018).  Modern NC3 shares sensors, s
 
 ## Missile defense
 
-I mostly agree with the FA authors here.  The APS study (Barton et al. 2004; rev. 2025 [VERIFY: rev. year — 2022 or 2025?]) priced boost-phase intercept and the numbers haven't improved; CBO (2026) puts a national boost-phase layer at roughly $0.9T inside a $1.19T program [VERIFY: CBO 2026 report exists? These figures dwarf Golden Dome POR ~$185B — name the report scope explicitly or cut].  The wall is kinematic and it holds.  Where I'm less sure is midcourse discrimination: telling a real warhead from a decoy in the coast phase.  That is a processing problem, not a physics problem, and the inputs to the contest are changing fast enough that "decoys stay permanently ahead" is an assertion the FA authors don't examine at the level of actual inputs.  I don't claim the defense catches up.  I do claim the FA confidence is an assumption, not a conclusion.
+I mostly agree with the FA authors here.  The APS study (Barton et al. 2004; rev. 2025 [VERIFY: rev. year, 2022 or 2025?]) priced boost-phase intercept and the numbers haven't improved; CBO (2026) puts a national boost-phase layer at roughly $0.9T inside a $1.19T program [VERIFY: CBO 2026 report exists? These figures dwarf Golden Dome POR (~$185B); name the report scope explicitly or cut].  The wall is kinematic and it holds.  Where I'm less sure is midcourse discrimination: telling a real warhead from a decoy in the coast phase.  That is a processing problem, not a physics problem, and the inputs to the contest are changing fast enough that "decoys stay permanently ahead" is an assertion the FA authors don't examine at the level of actual inputs.  I don't claim the defense catches up.  I do claim the FA confidence is an assumption, not a conclusion.
 
 
 ## Perception and posture
@@ -78,14 +78,13 @@ Second, this means deterrence places a positive bid on incorrigibility.  Every a
 
 ## In the limit
 
-The FA article is a study of the physics, and on the physics they are mostly right: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the foundations of nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves every one of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else, the limit is posture, 
-COMPLETE SENTENCE HERE
+The FA article is a study of the physics, and the physics is generally correct: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the foundations of nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves all of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else the limit is posture, which is being updated even now.
 
 
 ## References
 
 Acton, J. M. (2018). Escalation through Entanglement. *International Security*, 43(1).
-APS / Barton, D. K., et al. (2004). Report of the APS Study Group on Boost-Phase Intercept Systems for National Missile Defense. *Reviews of Modern Physics*, 76(3).  Rev. 2025. [VERIFY: rev. year — Grego et al. 2022 is the follow-on I can confirm; 2025 revision may not exist]
+APS / Barton, D. K., et al. (2004). Report of the APS Study Group on Boost-Phase Intercept Systems for National Missile Defense. *Reviews of Modern Physics*, 76(3).  Rev. 2025. [VERIFY: rev. year; Grego et al. 2022 is the follow-on I can confirm, 2025 revision may not exist]
 Blair, B. G. (1993). *The Logic of Accidental Nuclear War*. Brookings. [VERIFY: if the PAL 00000000 anecdote is the specific claim, canonical cite is Blair 2004 "Keeping Presidents in the Nuclear Dark" (Center for Defense Information)]
 Congressional Budget Office (2026). *Costs of a National Missile Defense System*. [VERIFY: report existence and precise title; $0.9T boost / $1.19T total dwarfs Golden Dome POR (~$185B), reader will notice]
 Copeland, D. C. (2000). *The Origins of Major War*. Cornell University Press.
