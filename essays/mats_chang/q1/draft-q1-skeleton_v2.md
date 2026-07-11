@@ -44,7 +44,7 @@ This gets worse through entanglement (Acton 2018).  Modern NC3 shares sensors, s
 
 ## Missile defense
 
-I mostly agree with the FA authors here.  The APS study (Barton et al. 2004; rev. 2025 [VERIFY: rev. year, 2022 or 2025?]) priced boost-phase intercept and the numbers haven't improved; CBO (2026) puts a national boost-phase layer at roughly $0.9T inside a $1.19T program [VERIFY: CBO 2026 report exists? These figures dwarf Golden Dome POR (~$185B); name the report scope explicitly or cut].  The wall is kinematic and it holds.  Where I'm less sure is midcourse discrimination: telling a real warhead from a decoy in the coast phase.  That is a processing problem, not a physics problem, and the inputs to the contest are changing fast enough that "decoys stay permanently ahead" is an assertion the FA authors don't examine at the level of actual inputs.  I don't claim the defense catches up.  I do claim the FA confidence is an assumption, not a conclusion.
+I mostly agree with the FA authors here.  The APS boost-phase studies (Barton et al. 2004; APS 2025) price the intercept problem and the numbers haven't improved; CBO (2026) puts space-based interceptors at roughly $720B inside a $1.2T program over 20 years.  The wall is kinematic and it holds.  Where I'm less sure is midcourse discrimination: telling a real warhead from a decoy in the coast phase.  That is a processing problem, not a physics problem, and the inputs to the contest are changing fast enough that "decoys stay permanently ahead" is an assertion the FA authors don't examine at the level of actual inputs.  I don't claim the defense catches up.  I do claim the FA confidence is an assumption, not a conclusion.
 
 
 ## Perception and posture
@@ -73,7 +73,7 @@ The second omission is the replacement of the human in the loop by an AI in the 
 
 Two things follow.  First, AI satisfies Schelling's condition of being "manifestly somewhat beyond our comprehension and control" for free.  Schelling noted that governments can't easily advertise their own fallibility.  But AI's unreliability is common knowledge: published benchmarks, jailbreaks, interpretability failures.  An AI-in-the-loop deterrent manufactures Schelling's uncontrolled risk without any need for authentication, because the world already agrees these systems are erratic in the tail.
 
-Second, this means deterrence places a positive bid on incorrigibility.  Every alignment desideratum (corrigibility, interruptibility, a reliable off-switch, human-in-the-loop, predictability) is ANTI-COMMITMENT.  The military wants an agent that is docile at baseline but uncontrollable if an adversary crosses a line.  This is Feaver's (1992) always/never dilemma rewritten as an alignment problem.  Operators historically bias toward "always"; SAC reportedly ran PAL codes of 00000000 for years (Blair 1993 [VERIFY: canonical cite for the 00000000 anecdote is Blair 2004 "Keeping Presidents in the Nuclear Dark"; 1993 book covers broader accidental-launch logic]).  Posture designers who want maximum credibility will spec systems that safety engineers are trying to make impossible.  And ML cannot certify conditional behavior in unprecedented states, so "calibrated risk keyed to provocation" gets delivered as "unknown risk", something the world can ill-afford.
+Second, this means deterrence places a positive bid on incorrigibility.  Every alignment desideratum (corrigibility, interruptibility, a reliable off-switch, human-in-the-loop, predictability) is ANTI-COMMITMENT.  The military wants an agent that is docile at baseline but uncontrollable if an adversary crosses a line.  This is Feaver's (1992) always/never dilemma rewritten as an alignment problem.  Operators historically bias toward "always"; SAC reportedly ran PAL codes of 00000000 for years (Blair 2004).  Posture designers who want maximum credibility will spec systems that safety engineers are trying to make impossible.  And ML cannot certify conditional behavior in unprecedented states, so "calibrated risk keyed to provocation" gets delivered as "unknown risk", something the world can ill-afford.
 
 
 ## In the limit
@@ -88,9 +88,10 @@ If the diagnosis is right, NC3-AI integration is where arms control has to move 
 ## References
 
 Acton, J. M. (2018). Escalation through Entanglement. *International Security*, 43(1).
-APS / Barton, D. K., et al. (2004). Report of the APS Study Group on Boost-Phase Intercept Systems for National Missile Defense. *Reviews of Modern Physics*, 76(3).  Rev. 2025. [VERIFY: rev. year; Grego et al. 2022 is the follow-on I can confirm, 2025 revision may not exist]
-Blair, B. G. (1993). *The Logic of Accidental Nuclear War*. Brookings. [VERIFY: if the PAL 00000000 anecdote is the specific claim, canonical cite is Blair 2004 "Keeping Presidents in the Nuclear Dark" (Center for Defense Information)]
-Congressional Budget Office (2026). *Costs of a National Missile Defense System*. [VERIFY: report existence and precise title; $0.9T boost / $1.19T total dwarfs Golden Dome POR (~$185B), reader will notice]
+APS / Barton, D. K., et al. (2004). Report of the APS Study Group on Boost-Phase Intercept Systems for National Missile Defense. *Reviews of Modern Physics*, 76(3).
+APS Panel on Public Affairs (2025). *Ballistic Missile Defense: Threats and Challenges*.  American Physical Society.
+Blair, B. G. (2004). Keeping Presidents in the Nuclear Dark: The Case of the Missing "Permissive Action Links." *Center for Defense Information*, February 11.
+Congressional Budget Office (2026). *Potential Costs of a National Missile Defense System*.  May 12.
 Copeland, D. C. (2000). *The Origins of Major War*. Cornell University Press.
 Feaver, P. D. (1992). *Guarding the Guardians*. Cornell University Press.
 Keaney, T. A., & Cohen, E. A. (1993). *Gulf War Air Power Survey*.
