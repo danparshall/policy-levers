@@ -4,6 +4,8 @@
 
 ---
 
+# MAD about AI
+
 "A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, offense is pointless, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
 
 Winter-Levy and Lalwani (2025) raise four key points in Foreign Affairs. Three concern MAD's core assumptions: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. Their fourth is a concession that even where capabilities don't materialize, perceptions of AI progress can drive destabilizing postural adjustments.
@@ -13,7 +15,7 @@ On second-strike and C3 I have substantive pushback; on missile defense I agree;
 
 ## The targeting channel
 
-Second-strike forces survive by being hard to find inside a weapon's flight time.  The base rate for finding mobile missiles in 1991 was abysmally low: Iraq fired 88 modified Scuds during Desert Storm, the coalition flew roughly 1,500 dedicated sorties against the launchers, and the Gulf War Air Power Survey found ZERO confirmed mobile-launcher kills (Keaney and Cohen 1993).  The failure was pure arithmetic: a TEL's displacement time was shorter than the sensor-to-shooter time, so the response found nothing on arrival.
+Second-strike forces survive by being hard to find inside a weapon's flight time.  The base rate for finding mobile missiles in 1991 was abysmally low: Iraq fired 88 modified Scuds during Desert Storm, the coalition flew roughly 1,500 dedicated sorties against the launchers, and the Gulf War Air Power Survey found ZERO confirmed mobile-launcher kills (Keaney and Cohen 1993).  The failure was pure arithmetic: a TEL's displacement time was shorter than the sensor-to-shooter time, so the response arrived to bare dirt.
 
 But over 30 years, that arithmetic has changed by an order of magnitude.  The NRO's proliferated constellation went from first launch to roughly 200 satellites in about two years (a pace only affordable because launch cost has fallen off the table as the dominant constraint). The USA now operates on the order of 8,000 of the ~12,000 active satellites in orbit, mostly Starlink; that's not a sensing figure but a proof of launch industrial capacity, and NRO is spending that same capacity on sensing. The Space Force awarded $4.16B in May 2026 for space-based moving-target indication of airborne threats (SB-AMTI); ground-moving-target indication is the R&D sibling arriving behind it, with $1B in the FY27 request. The "hold custody of trucks" capability 1991 lacked is funded and moving.  
 
@@ -47,14 +49,11 @@ The authors and I agree that the mere prospect of AI progress can change default
 China's visible response supports this perspective.  A country that spent decades in the most relaxed nuclear posture of any major power, a few hundred warheads, no-first-use, warheads de-mated from missiles, is now building 300-plus new silos, expanding its early-warning satellite constellation, and reportedly moving toward *yujing fanji*, which is launch-on-warning by another name.  Erosion of survivability is driving LOW adoption in the arsenal least able to absorb a false positive.
 
 
-
 ## AI as the prize
 
 AGI plausibly is worth the risk, or is believed to be worth the risk in Beijing and in Washington, which is analytically the same thing. That is the argument the authors do not have.  If we are on a path to artificial superintelligence, the first-mover gains are potentially enormous and the second-mover penalty may be permanent.  That introduces preventive-war logic (Copeland 2000) on a visible clock.
 
 The narrower version runs through Taiwan.  The "silicon shield" held because Taiwan's fabs were an asset both sides needed intact.  Two developments are causing that to shift.  US export controls made cutting-edge training chips almost completely unavailable to China, which spurred Beijing to build domestic production capacity.  That capacity is coming online.  Meanwhile, the US, worried about the security of supply from TSMC, began its own domestic fab production.
-
-
 
 Once China has domestic leading-edge fabs, the "broken nest" deterrent (McKinney and Harris 2021) reverses: the nest stops being something China avoids breaking and starts being something China might prefer to break.  At that point, China might prefer to use the destruction of Taiwan's semiconductor infrastructure as an access-denial lever against the US, especially in the window where American domestic fabs are not yet at volume, and a rational Beijing could become MORE cavalier about damaging Taiwan's fabs, not less.  The timing of the two national build-outs is the whole game, and a Taiwan crisis is the mechanism by which AI-as-prize reaches the nuclear layer, because a full-scale China-Taiwan conflict draws in American carrier groups, anti-ship missiles that are dual-use conventional/nuclear, and entanglement does the rest.
 
