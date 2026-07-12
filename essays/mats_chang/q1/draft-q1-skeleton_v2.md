@@ -70,7 +70,7 @@ This has two implications.  First, AI satisfies Schelling's condition of being "
 
 Second, this means deterrence creates an incentive for instilling incorrigibility.  Every alignment desideratum (corrigibility, interruptibility, a reliable off-switch, human-in-the-loop, predictability) is ANTI-COMMITMENT.  The military wants an agent that is docile at baseline but absolutely inexorable once an adversary crosses the line.  This is Feaver's (1992) always/never dilemma, seen as an alignment problem.  Historically the military has come down firmly toward "always"; SAC reportedly ran PAL codes of 00000000 for years (Blair 2004).  Posture designers who want maximum credibility will spec systems that safety engineers are trying to make impossible.
 
-This needs research now, because the safety community largely assumes corrigibility is actively desirable, but to at least one important customer, a corrigible AI is a defective product.
+This needs research urgently, because the safety community largely assumes corrigibility is actively desirable, but to at least one important customer, a corrigible AI is a defective product.
 
 ## In the limit
 
@@ -98,7 +98,7 @@ Keaney, T. A., & Cohen, E. A. (1993). *Gulf War Air Power Survey*.
 Lieber, K. A., & Press, D. G. (2017). The New Era of Counterforce. *International Security*, 41(4).
 MacDonald, T. (2025). Tracking Mobile Missiles. *Journal of Strategic Studies*, 48(2), 297-333.
 McKinney, J., & Harris, J. (2021). Broken Nest: Deterring China from Invading Taiwan. *Parameters*.
+Parshall, D., Heid, R., Niedziela, J. L., Wolf, Th., Stone, M. B., Abernathy, D. L., & Reznik, D. (2014). Phonon spectrum of SrFe₂As₂ determined using multizone phonon refinement. *Physical Review B*, 89(6), 064310.
 Schelling, T. C. (1960). *The Strategy of Conflict*. Harvard University Press.
 Sudharsun, G., Ali, A., Mitra, A., Jaiswal, A., Naresh, P., & Warrior, H. V. (2022). Free surface features of submarines moving underwater: Study of Bernoulli Hump. *Ocean Engineering*, 249, 110792.
 Winter-Levy, S., & Lalwani, N. (2025). The End of Mutual Assured Destruction? *Foreign Affairs*, August 7.
-Parshall, D., Heid, R., Niedziela, J. L., Wolf, Th., Stone, M. B., Abernathy, D. L., & Reznik, D. (2014). Phonon spectrum of SrFe₂As₂ determined using multizone phonon refinement. *Physical Review B*, 89(6), 064310.
