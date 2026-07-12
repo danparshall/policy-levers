@@ -80,6 +80,9 @@ Here's what would update my position.  If space-based GMTI fails to hit orbit by
 
 If this diagnosis is right, NC3-AI integration is where arms control has to move next, and nobody is negotiating it.  That collision, technical and doctrinal and diplomatic at once, is where we should work.
 
+# Postscript for Chang
+I deliberately didn't read your dissertation or later works, to see what I could come up with independently.  After finishing, I did review your public 2021-era works with Opus4.8, and was pleased to find that I largely converged on your key points (although possibly Opus had already subsumed those points).  I do see you argue that one shouldn't make directions gestures (like mine at Taiwan) which upon reflection makes sense.  I do think that Mythos was a bigger, faster leap than anyone anticipated, and I think China is probably rightfully extremely worried about their IT security.
+
 
 ## References
 
