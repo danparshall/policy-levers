@@ -100,6 +100,62 @@ four years.
   undersea extension as the pivot. Longer = drifting toward ingratiation, which on an
   epistemics-graded essay is a cost.
 
+## Sourcing status (what we have, what we don't) — updated 2026-07-12
+
+Everything in this file's analysis is from the **2021 dissertation nuclear essay only**.
+No follow-up papers fed the synthesis above. Two additional facts about the source base
+that matter for a note addressed directly to Chang:
+
+- **The dissertation is 5 years old (June 2021).** His counterforce conclusions and his
+  "beyond conceptual gesture" methodological standard are from then. His current views
+  may have moved, especially anything shaped by OSTP service or by watching 2024–2026
+  frontier-model progress.
+- **The most current source — his Constellation "book-length report on national security
+  and advanced AI" — is UNPUBLISHED.** Described (matsprogram.org/stream/chang) as "just
+  finished drafting" and as the document that will "ground [the new] org's intellectual
+  vision," launching fall 2026. No public copy exists; could not retrieve. This is the
+  single best window into 2026-Chang and we don't have it. Any postscript claim about
+  what he "currently thinks" is therefore inference from 5-year-old text.
+
+Updated 2026 bio (relevant to how senior a reader he is): White House OSTP alum
+(Biden-Harris), adjunct political scientist at RAND, inaugural Andrew W. Marshall Fellow
+at CSET; also IARPA, Office of Net Assessment, Long Term Strategy Group. Co-founding a new
+AI strategy org with Eli Rose (ex-Coefficient Giving AI-safety grantmaking) for fall 2026.
+He's a working defense-establishment analyst now, not just a recent PhD.
+
+Sources held in this directory:
+- `Chang_Chang__2021--AI_US_China_balance_of_power_dissertation.pdf` (primary, read)
+- `Daniels_Chang__2021--national_power_after_AI.pdf` (CSET, co-authored w/ Matthew Daniels,
+  July 2021 — same vintage as the dissertation; broad "sources of national power after AI"
+  framing, NOT nuclear-specific; skimmed, not deep-read)
+
+Support available but NOT pulled into the essay (tangential to a note to Chang, but real):
+- 2026 House Select Committee on the CCP testimony documents Chinese distillation attacks
+  on frontier US models (DeepSeek et al.; Anthropic/OpenAI/Google all accusing Chinese
+  firms). This is current, documented evidence behind Dan's "China rightfully worried
+  about IT security" postscript point — i.e. that claim clears Chang's "beyond conceptual
+  gesture" bar with 2026 evidence, should he push on it.
+
+## Postscript decision (Dan, 2026-07-12)
+
+Dan is writing the postscript himself. Final shape agreed:
+- Header **"Postscript to Chang"**, placed after the essay body, immediately before
+  References. Essay body stays fully isolated (no Chang triangulation in the analysis).
+- Two beats: (1) wrote this deliberately before reading your dissertation, glad we
+  converged (independent corroboration); (2) engage his "don't make directional gestures
+  without evidence" standard — grant it applies to the Taiwan gesture (that's fair on
+  reflection), but hold ground that the Mythos leap was bigger/faster than the field
+  anticipated and that China's IT-security fear is well-founded. Concede the specific
+  point, don't let it cascade (per Dan's discourse register).
+- #2-as-I-originally-framed-it (undersea SNR floor + custody/detection as a *contribution
+  to Chang*) is DROPPED: Dan judged we didn't do enough rigorous undersea modeling to
+  claim it as an extension to him. Convergence stands on its own; no overclaimed
+  "extension."
+- Open risk flagged to Dan: the Mythos sentence is the riskiest line — a raw capability
+  claim is exactly what Chang's definitional apparatus bounces. The robust version is the
+  belief-channel framing (China needn't be actually pwned, only fear it, and fear moves
+  posture — which is his own medium-alert logic). Dan owns the drafting.
+
 ## Open items
 
 - Read his TEL-behavior + tracking mechanics (sections 4154–5053 region) to confirm the
