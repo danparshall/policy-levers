@@ -11,7 +11,7 @@ On second-strike and C3 I have substantive pushback; on missile defense I agree;
 
 ## The targeting channel
 
-Second-strike forces survive by being hard to find inside a weapon's flight time.  The base rate for finding mobile missiles in 1991 was abysmally low: Iraq fired 88 modified Scuds during Desert Storm, the coalition flew roughly 1,500 dedicated sorties against the launchers, and the Gulf War Air Power Survey found ZERO confirmed mobile-launcher kills (Keaney and Cohen 1993).  The failure was pure arithmetic: a TEL's displacement time was shorter than the sensor-to-shooter time, so the response arrived to bare dirt.
+Second-strike forces survive by being hard to find inside a weapon's flight time (the survivability premise whose erosion Lieber and Press (2017) traced for fixed and hardened targets).  The base rate for finding mobile missiles in 1991 was abysmally low: Iraq fired 88 modified Scuds during Desert Storm, the coalition flew roughly 1,500 dedicated sorties against the launchers, and the Gulf War Air Power Survey found ZERO confirmed mobile-launcher kills (Keaney and Cohen 1993).  The failure was pure arithmetic: a TEL's displacement time was shorter than the sensor-to-shooter time, so the response arrived to bare dirt.
 
 But over 30 years, that arithmetic has changed by an order of magnitude.  The NRO's proliferated constellation went from first launch to roughly 200 satellites in about two years (a pace only affordable because launch cost has fallen off the table as the dominant constraint). The USA now operates on the order of 8,000 of the ~12,000 active satellites in orbit, mostly Starlink; that's not a sensing figure but a proof of launch industrial capacity, and NRO is spending that same capacity on sensing. The Space Force awarded $4.16B in May 2026 for space-based moving-target indication of airborne threats (SB-AMTI); ground-moving-target indication is the R&D sibling arriving behind it, with $1B in the FY27 request. The "hold custody of trucks" capability 1991 lacked is funded and moving.  
 
@@ -91,6 +91,7 @@ Copeland, D. C. (2000). *The Origins of Major War*. Cornell University Press.
 Feaver, P. D. (1992). *Guarding the Guardians*. Cornell University Press.
 Kavka, G. S. (1978). Some Paradoxes of Deterrence. The Journal of Philosophy, 75(6), 285-302.
 Keaney, T. A., & Cohen, E. A. (1993). *Gulf War Air Power Survey*.
+Lieber, K. A., & Press, D. G. (2017). The New Era of Counterforce. *International Security*, 41(4).
 MacDonald, T. (2025). Tracking Mobile Missiles. *Journal of Strategic Studies*, 48(2), 297-333.
 McKinney, J., & Harris, J. (2021). Broken Nest: Deterring China from Invading Taiwan. *Parameters*.
 Parshall, D., Heid, R., Niedziela, J. L., Wolf, Th., Stone, M. B., Abernathy, D. L., & Reznik, D. (2014). Phonon spectrum of SrFe₂As₂ determined using multizone phonon refinement. *Physical Review B*, 89(6), 064310.
