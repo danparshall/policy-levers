@@ -8,7 +8,7 @@
 
 Winter-Levy and Lalwani (2025) raise four key points in Foreign Affairs. Three concern MAD's core assumptions: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. Their fourth is a concession that even where capabilities don't materialize, perceptions of AI progress can drive destabilizing postural adjustments.
 
-On the first three I have substantive pushback; on the perception concession I agree, but the effect runs further than they acknowledge. They also dramatically underestimate two further developments: AI as a strategic prize in its own right, and the replacement of humans in the nuclear decision loop by AI, which pushes the development of AI itself in a direction that should alarm anyone who cares about safety.
+On second-strike and C3 I have substantive pushback; on missile defense I agree; on the perception concession I agree while extending the argument. They also dramatically underestimate two further developments: AI as a strategic prize in its own right, and the replacement of humans in the nuclear decision loop by AI, which pushes the development of AI itself in a direction that should alarm anyone who cares about safety.
 
 
 ## The targeting channel
@@ -44,7 +44,7 @@ This gets worse through entanglement (Acton 2018).  Modern NC3 shares sensors, s
 
 ## Missile defense
 
-I mostly agree with the FA authors here.  The APS boost-phase studies (Barton et al. 2004; APS 2025) price the intercept problem and the numbers haven't improved; CBO (2026) puts space-based interceptors at roughly $720B inside a $1.2T program over 20 years.  The wall is kinematic and it holds.  Where I'm less sure is midcourse discrimination: telling a real warhead from a decoy in the coast phase.  That is a processing problem, not a physics problem, and the inputs to the contest are changing fast enough that "decoys stay permanently ahead" is an assertion the FA authors don't examine at the level of actual inputs.  I don't claim the defense catches up.  I do claim the FA confidence is an assumption, not a conclusion.
+I agree with the FA authors here.  The APS boost-phase studies (Barton et al. 2004; APS 2025) price the intercept problem and the numbers haven't improved; CBO (2026) puts space-based interceptors at roughly $720B inside a $1.2T program over 20 years.  The wall is kinematic and it holds.  The decoy/interceptor dynamics of midcourse discrimination seem unlikely to shift enough to matter.
 
 
 ## Perception and posture
@@ -80,7 +80,7 @@ Second, this means deterrence places a positive bid on incorrigibility.  Every a
 
 The FA article is a study of the physics, and the physics is generally correct: defense stays walled, decapitation stays hard, and submarines in deep water stay hidden.  But the foundations of nuclear stability were never just physics.  They are beliefs about what the other side can see, beliefs about whether your own command chain will respond, beliefs about whether the prize justifies the risk, and choices about how much control to keep over your own response.  AI moves all of these, and it mostly moves them in the same direction: shorter loops, less human judgment, more reliance on systems whose behavior in novel situations nobody can certify.  The FA logic applies in the limit only where the limit is kinematic.  Everywhere else the limit is posture, which is being updated even now.
 
-Here's what would update my position.  If space-based GMTI fails to hit orbit by FY30, the mobile-target erosion argument remains hypothetical.  Chinese leading-edge fabs reaching volume yield inside 18 months would accelerate the broken-nest inversion, whereas slippage past 5 years would narrow the Taiwan window to a reshoring race.  Public doctrinal confirmation of *yujing fanji* would move Chinese LOW adoption from inferred posture to documented policy.  Published DoD RFPs for provocation-conditional AI response systems would confirm the incorrigibility bid as procurement strategy.  On midcourse discrimination the update goes the other way: serious public MDA engagement with classifier performance against realistic decoy suites, beyond the current we've-got-it-handled assertions, would move me toward the FA read.
+Here's what would update my position.  If space-based GMTI fails to hit orbit by FY30, the mobile-target erosion argument remains hypothetical.  Chinese leading-edge fabs reaching volume yield inside 18 months would accelerate the broken-nest inversion, whereas slippage past 5 years would narrow the Taiwan window to a reshoring race.  Public doctrinal confirmation of *yujing fanji* would move Chinese LOW adoption from inferred posture to documented policy.  Published DoD RFPs for provocation-conditional AI response systems would confirm the incorrigibility bid as procurement strategy.
 
 If the diagnosis is right, NC3-AI integration is where arms control has to move next, and nobody is negotiating it.  That collision, technical and doctrinal and diplomatic at once, is where we should work.
 
