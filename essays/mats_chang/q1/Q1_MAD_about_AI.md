@@ -1,9 +1,5 @@
 # Q1: What breaks MAD, exactly?
 
-*Draft status: Opus 4.6 scaffolding for Dan's full rewrite (VOICE.md full-rewrite mode).  Follows Dan's 7/10 skeleton.  Facts drawn from the Q1 convo, Fable's WAMI/surveillance session, the O4.8 NC3 session, Schelling samples, and the FA text extraction.  Isolated from Chang.  ~2,000 words.  Slots marked [DAN] need input.*
-
----
-
 # MAD about AI
 
 "A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, offense is pointless, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
@@ -95,7 +91,6 @@ Copeland, D. C. (2000). *The Origins of Major War*. Cornell University Press.
 Feaver, P. D. (1992). *Guarding the Guardians*. Cornell University Press.
 Kavka, G. S. (1978). Some Paradoxes of Deterrence. The Journal of Philosophy, 75(6), 285-302.
 Keaney, T. A., & Cohen, E. A. (1993). *Gulf War Air Power Survey*.
-Lieber, K. A., & Press, D. G. (2017). The New Era of Counterforce. *International Security*, 41(4).
 MacDonald, T. (2025). Tracking Mobile Missiles. *Journal of Strategic Studies*, 48(2), 297-333.
 McKinney, J., & Harris, J. (2021). Broken Nest: Deterring China from Invading Taiwan. *Parameters*.
 Parshall, D., Heid, R., Niedziela, J. L., Wolf, Th., Stone, M. B., Abernathy, D. L., & Reznik, D. (2014). Phonon spectrum of SrFe₂As₂ determined using multizone phonon refinement. *Physical Review B*, 89(6), 064310.
