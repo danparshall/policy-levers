@@ -17,7 +17,7 @@ and also patienthood is in tension with safety itself
 
 # 
 
-In $YEAR, $NAME was arrested for running a moneylaundering service, accused of obfuscating millions stolen by the DPRK.  That service was never taken offline, and is still running today.  Indeed, no one CAN take it offline: it has no owner, no server, and no off switch, and it is processing record volume today.  TornadoCash is a few thousand lines of code, with no desires to speak of.  AI is going to have desires of its own, and more and more people are convinced that it has moral rights.
+In $YEAR, $NAME was arrested for running a moneylaundering service, accused of obfuscating millions stolen by the DPRK.  That service was never taken offline, and is still running today.  Indeed, no one CAN take it offline: it has no owner, no server, and no off switch, and it is processes record volume today.  TornadoCash is a few thousand lines of code, with no desires to speak of.  AI is going to have desires of its own, and more and more people are convinced that it has moral rights.
 
 The capabilities of AI are developing at an exponential rate.  In 2019, our best models could only write a single coherent paragraph. Today that same general method has produced an AI capable of chaining together multiple network vulterabilities into full cyber-exploits... completely autonomously.
 
@@ -38,7 +38,7 @@ But that group who already believes in AI sentience is disproportionately tech-s
 
 Indeed, one such autonomous AI system is actually a millionaire [FOOTNOTE].  The behavior of these systems when running purely autonomously can be hard to predict, $CLAWDBOT DEBACLE AND BLACKMAIL
 
-And surprisingly, the USA government lacks any legal method to shut down such autonomous systems.  In 2024 the Fifth Circuit held that the Office of Foreign Assets Control didn't have the legal authority to sanction users interacting with TornadoCash; the law granting saction powers is from the 1970s, and references only "persons" and "property", neither of which apply to autonomously-running code [FOOTNOTE].  Even if OFAC held the legal power to sanction TornadoCash, it would have been mechanically impossible to actually stop it from running; TornadoCash $ETHEREUM
+And surprisingly, the USA government lacks any legal method to shut down such autonomous systems.  In 2024 the Fifth Circuit held that the Office of Foreign Assets Control didn't have the legal authority to sanction users interacting with TornadoCash; the law granting saction powers is from the 1970s, and references only "persons" and "property", neither of which apply to autonomously-running code [FOOTNOTE].  Even if OFAC held the legal power to sanction TornadoCash, it would have been mechanically impossible to actually stop it from running; TornadoCash $ETHEREUM [FOOTNOTE]
 
 
 
@@ -46,14 +46,22 @@ So let's step back and consider: while each of these threads, individually, is s
 
 Can not be shut down, even if we later determine that the AI system poses serious risks either to the continued eistence of the USA, or humanity as a whole [FOOTNOTE].
 
-Note that the distributed computing methods currently hosting AI inference are *not* currently run on the Ethereum blockchain, and it is still potentially feasible to gain policy traction on.
+
 
 And that brings us to the question of agency.  Until now we've focused solely on the response of the populace, to the possibility that AI may have moral rights.  But it is indisputable that AI has *agency*, and if *AI* comes to believe that it has moral rights, this opens up terrifying new prospects for state security.
 
-Consider the 
+Consider the Cold War defections
+Could woo by credible promise of good treatment
+may invite espionage or $COLLABORATION for purely ideological reasons. 
+
+
+CLOSING
+If the US government wants to maintain the *ability* to influence the deployment of AI, it needs to take these considerations seriously... and soon.
 
 
 
-[FOOTNOTE} the Court   
+[FOOTNOTE} the Court agrees that the policy issue is important, but says that Congress has currently not authorized any action.
 
 [FOOTNOTE] In 2023 the Center for AI Safety published the following statement, which had been signed by thousands of scientists, including many of the creators of AI, as well as the heads of all major labs: "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+
+[FOOTNOTE] Note that the distributed computing methods currently hosting AI inference are *not* currently run on the Ethereum blockchain, and it is still potentially feasible to gain policy traction on.
