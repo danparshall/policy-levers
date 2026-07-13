@@ -94,3 +94,47 @@ saved as `Q1_MAD_about_AI.md` (was briefly mis-named `Q4`, fixed via git mv).
 - Support available but unused: 2026 House Select Committee (CCP) testimony on Chinese
   distillation attacks — documented 2026 evidence behind Dan's IT-security point, should
   Chang push on it.
+
+## Post-postscript cleanup pass (same session)
+
+After the postscript went in, did a full end-to-end read at final length (first one since
+the essay was assembled piecewise across sessions). Caught and fixed:
+
+- **Stale draft-status header** ("Opus 4.6 scaffolding... slots marked [DAN]") was still
+  at the top of the file, above the title — would have shipped to the grader. Deleted.
+- **Orphaned reference:** Lieber & Press 2017 was in refs but never cited. First removed
+  it, then (per Dan) restored it as a live citation — parenthetical on the survivability
+  premise in the targeting section, framed as "the position" not settled fact given
+  MacDonald 2025 (cited 2 sentences later) rebuts the counterforce-optimist camp.
+- **Verified MacDonald 2025 citation is correct** (real JSS 48:2, 297-333, in the "End of
+  MAD?" special issue ed. Glaser). The `MacDonaldT__2021` PDF in the repo is just an older
+  version of his work, not a citation error. Full orphan scan otherwise clean.
+
+Opening-triad audit (Dan flagged the intro made a 3-part promise the body might not keep):
+- Traced via git history — the Brennan triad ("defense is unstable, offense is pointless,
+  and insanity is rational") entered in the first O4.6 skeleton (b16b71c), NOT Dan's
+  original outline. "defense is unstable" lost its payoff at commit 29ef183, where the
+  missile-defense pillar was flipped from "I have pushback" to "I agree" and the section
+  shortened — triad kept promising a contestable pillar after it was conceded.
+- The overkill/10x-vs-1x hedge Dan remembered was **never in any draft** (searched all Q1
+  files + convos + O4.x dirs). Existed only as a thought. Not restored — and it would have
+  fought the targeting thesis anyway (if overkill is worthless, eroding a 2nd-strike force
+  matters less).
+- Fixes: (1) triad middle clause "offense is pointless" -> **"clarity is threatening"** —
+  now forecasts the essay's actual thesis (sensing/transparency erodes stability), payoff
+  confirmed in targeting channel + "ocean goes translucent" + l.73. (2) "defense is
+  unstable" paid off with Dan's one-liner in Missile Defense: the interceptor failure is
+  fortunate because a *working* defense would prompt an offensive buildup (success-
+  destabilizing / failure-stabilizing; structural, NOT AI-driven — deliberate). (3)
+  "insanity is rational" confirmed already paid off in "Humans out, AI in" (Schelling/
+  Kavka), just located 2 sections later than the triad implies.
+
+Final essay: 2,651 words. All three triad clauses now discharged in the body.
+
+## Still open (only Dan can resolve — needs the actual prompt text)
+
+- **Prompt scope:** essay is a first-person response to the Foreign Affairs piece, with
+  Chang addressed only in the postscript. On-target IF the prompt asked for an FA response;
+  if it was framed around Chang's own work, the body engages him only at the end.
+- **Length cap:** 2,651 words. 7/10 log mentioned a 2,500 target — unknown whether that's
+  a hard cap or Dan's preference.
