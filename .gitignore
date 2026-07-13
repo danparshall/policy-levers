@@ -38,6 +38,9 @@ data/processed/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Rendered essay PDFs (regenerate with scripts/render_q{1,4,8}.py)
+essays/mats_chang/*/rendered/
+
 # VS Code workspace (user-specific)
 *.code-workspace
 
