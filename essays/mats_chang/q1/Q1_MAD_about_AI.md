@@ -2,7 +2,7 @@
 
 # MAD about AI
 
-"A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, clarity is threatening, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
+"A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, clarity is threatening, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and adding "AI" into the mix just adds to the vertigo.
 
 Winter-Levy and Lalwani (2025) raise four key points in Foreign Affairs. Three concern MAD's core assumptions: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. Their fourth is a concession that even where capabilities don't materialize, perceptions of AI progress can drive destabilizing postural adjustments.
 
