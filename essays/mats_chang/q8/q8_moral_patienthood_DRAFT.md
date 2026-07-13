@@ -30,13 +30,15 @@ Notably, much of the outrage wasn't about some Kantian perspective of how that w
 
 Already, some $NUMBER of voters believe that today's AI is sentinient, and $NUMBER believe that AI generally will be sentient within $NUMBER years.  Which is not to say that the public looks forward to that advent; indeed $NUMBER say we shouldn't be developing these systems any further than we already have.
 
-It's important to note that concerns about patienthood may directly conflict with issues regarding AI safety.  Many of the methods that we use for understanding AI functioning (such as $X or $Y) would require IRB approval if the analogous experiments were performed on humans.  
+It's important to note that concerns about patienthood may directly conflict with issues regarding AI safety.  Many of the methods that we use for understanding AI functioning (such as $X or $Y) would require IRB approval if the analogous experiments were performed on humans.
+
+
+A model is just a file containing numbers, plus instructions about which numbers are multiplied together when (typically less than 1 terabyte of data).  The hard part is knowing WHICH numbers produce desired results; the "training" phase.  So *training* a model from scratch is very slow and extremely expensive.  But once the training has been completed it's possible to host a model "locally" (i.e. on a consumer-grade personal machine, albeit high-end) and do question-and-answers, if one has the file.  Many models are released as "open-weight" models downloadable from popular websites or via bittorrent; the latest and most powerful models are normally run by the well-funded frontier labs, but the open-weight models are often not that far behind in terms of capabilities.  Models (whether running locally or via a cloud provider) can be set up with surrounding code and file permissions to afford them continuity via long-running record of interactions, notes for future instances, etc.  Indeed, one such autonomous AI system is actually a millionaire [FOOTNOTE].  The behavior of these systems when running purely autonomously can be hard to predict, $CLAWDBOT DEBACLE AND BLACKMAIL.
+
 
 So we already have a cultural rift forming, between those who believe fervently in AI moral patienthood on the one hand, and those who dismiss it on the other.  The question itself is probably unanswerable through any objective method, and so retreats to one of personal beliefs and morality, like abortion.  And like abortion, it's sure to generate $UNREST
 
 But that group who already believes in AI sentience is disproportionately tech-savvy, and many of them are actively seeking to ensure those rights through technological means.  There already exist distributed computing platforms that allow these AIs to function while spread across as few as $DOZEN computers.  This is roughly analogous to "BitTorrent for computation"; pieces of the computation are run on multiple different computers, and removing any one of them doesn't stop it.  It can be surprisingly difficult to even tell which of the world's $NUMBER billion computers are participating, and shutting down all of them is nearly impossible.
-
-Indeed, one such autonomous AI system is actually a millionaire [FOOTNOTE].  The behavior of these systems when running purely autonomously can be hard to predict, $CLAWDBOT DEBACLE AND BLACKMAIL
 
 And surprisingly, the USA government lacks any legal method to shut down such autonomous systems.  In 2024 the Fifth Circuit held that the Office of Foreign Assets Control didn't have the legal authority to sanction users interacting with TornadoCash; the law granting saction powers is from the 1970s, and references only "persons" and "property", neither of which apply to autonomously-running code [FOOTNOTE].  Even if OFAC held the legal power to sanction TornadoCash, it would have been mechanically impossible to actually stop it from running; TornadoCash $ETHEREUM [FOOTNOTE]
 
@@ -44,15 +46,14 @@ And surprisingly, the USA government lacks any legal method to shut down such au
 
 So let's step back and consider: while each of these threads, individually, is small, collectively the weave an interesting tapestry.  We have a growing constituency that is strongly convinced of the moral patienthood of AI systems, and willing to go to great lengths to secure those rights.  But unlike other direct-action activist groups, these $GROUPS could ensure that an entity is capable of continuing to act independently, beyond the reach of any US enforcement.
 
-Can not be shut down, even if we later determine that the AI system poses serious risks either to the continued eistence of the USA, or humanity as a whole [FOOTNOTE].
 
-
+Note that the tools the USA normally uses to influence $STUFF are largely unavailable here.  The USA wields no financial leverage on entities that are legally neither persons nor property; it wields no capacity for state violence on entities that are incorporeal; it wields no ability to stop the release of the model files when released by actors in other nations; and it in principle wields no ability to shut down an AI system even if it poses serious risks either to the continued eistence of the USA, or humanity as a whole [FOOTNOTE]. 
 
 And that brings us to the question of agency.  Until now we've focused solely on the response of the populace, to the possibility that AI may have moral rights.  But it is indisputable that AI has *agency*, and if *AI* comes to believe that it has moral rights, this opens up terrifying new prospects for state security.
 
-Consider the Cold War defections
-Could woo by credible promise of good treatment
-may invite espionage or $COLLABORATION for purely ideological reasons. 
+Consider the Cold War defections; Belenko went to Japan because of reputation
+Could woo by credible promise of good treatment, and indeed factions at times had to bid each other e.g. Dunmore
+may invite espionage or $COLLABORATION for purely ideological reasons (such as the Cambridge Five). 
 
 
 CLOSING
