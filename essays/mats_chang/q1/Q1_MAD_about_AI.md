@@ -2,7 +2,7 @@
 
 # MAD about AI
 
-"A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, offense is pointless, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
+"A Mutual Assured Destruction [posture] as a goal is, almost literally, mad.  MAD."  Donald Brennan coined the acronym to mock the policy, and he lost that argument.  Decades later, thinking about MAD is still a trip through the looking-glass: defense is unstable, clarity is threatening, and insanity is rational.  That doesn't make it wrong, but it's disconcerting, and the question of what finally breaks it deserves an answer more precise than "AI."
 
 Winter-Levy and Lalwani (2025) raise four key points in Foreign Affairs. Three concern MAD's core assumptions: second-strike capabilities remain functional, command-and-control networks can't be taken out in one blow, and missile defense faces a physics- and economics-locked asymmetry that favors the attacker. Their fourth is a concession that even where capabilities don't materialize, perceptions of AI progress can drive destabilizing postural adjustments.
 
@@ -35,7 +35,7 @@ This gets worse through entanglement (Acton 2018).  Modern NC3 shares sensors, s
 
 ## Missile defense
 
-I agree with the FA authors here.  The APS boost-phase studies (Barton et al. 2004; APS 2025) price the intercept problem and the numbers haven't improved; CBO (2026) puts space-based interceptors at roughly $720B inside a $1.2T program over 20 years.  The wall is kinematic and it holds.  The decoy/interceptor dynamics of midcourse discrimination seem unlikely to shift enough to matter.
+I agree with the FA authors here.  The APS boost-phase studies (Barton et al. 2004; APS 2025) price the intercept problem and the numbers haven't improved; CBO (2026) puts space-based interceptors at roughly $720B inside a $1.2T program over 20 years.  The wall is kinematic and it holds.  The decoy/interceptor dynamics of midcourse discrimination seem unlikely to shift enough to matter.  In our looking-glass world that failure is probably fortunate, since a defense that worked would only prompt a larger offensive buildup to swamp it.
 
 
 ## Perception and posture
