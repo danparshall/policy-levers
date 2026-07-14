@@ -4,7 +4,7 @@ Can an airplane fly? Can a submarine swim? And most important of all: can a mach
 
 Compared to true biological swimming exhibited by whales, submarines have quite "jagged" abilities. While they excel on some metrics (such as submerged duration and sustained speed), on others (such as turning radius and maximum depth) they fall almost laughably short of their cetacean counterparts. But naval architects don't debate "Artificial General Swimming"; instead they use spec sheets to talk about submarine abilities. Critically, those specs are determined by the mission-specific requirements.
 
-But the goal of measurement is generally to allow better decision-making. And at this point, the most important thing about AI is "making sure it goes well", so our mission-specific requirements should serve that end (so we can make better decisions as we get progress). One useful framework is by Shah et al. [1], because their division is focused on which kinds of interventions are possible. Under that breakdown:
+But the goal of measurement is generally to allow better decision-making. And at this point, the most important thing about AI is "making sure it goes well", so our mission-specific requirements should serve that end (so we can make better decisions as we make progress). One useful framework is by Shah et al. [1], because their division is focused on which kinds of interventions are possible. Under that breakdown:
  
 - Misuse: relatively easy to assign scores to, and the score can correlate with the level of mitigation
 - Mistakes: also relatively easy to assign scores, and deployment scenarios (such as failure consequences and autonomy) can be scaled with scoring
