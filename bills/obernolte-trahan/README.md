@@ -18,6 +18,7 @@
 | `press_release_2026-06-04.txt` | Trahan press release announcing the draft. |
 | `sections/` | One markdown file per SEC. header found in the bill body. See `SECTION_MANIFEST.md` for the index. |
 | `SECTION_MANIFEST.md` | Auto-generated index of the section files (line ranges, titles). |
+| `OVERVIEW.md` | Canary descriptive overview of the whole bill: definitions architecture, per-title mechanics, structural facts. Descriptive only; analysis goes to `docs/active/`. |
 | `summaries/` | Per-section summaries produced by this repo (Canary Institute analysis, not Trahan's office). Created incrementally alongside the sections. |
 
 ## Structure of the bill
