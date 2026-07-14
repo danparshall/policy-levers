@@ -1,3 +1,5 @@
+<!-- Generated during: convos/20260714_distributed_training_survey.md -->
+
 # New methods in distributed training (as of July 2026)
 
 Prepared 2026-07-14. Scope: methods for training LLMs across hardware that is not co-located or not tightly interconnected, plus the demonstration runs that prove them out and the governance-relevant consequences. "Distributed" here means multi-site training by a single coordinating party; "decentralised" means community compute pools without a central coordinator. Krys et al. (arXiv 2507.07765) argue the policy community should keep those terms separate, and the distinction does real work: the methods are shared, the governance implications are not.

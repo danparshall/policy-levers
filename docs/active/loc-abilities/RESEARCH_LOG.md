@@ -9,11 +9,13 @@ Purpose: Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio I
 
 ## 2026-07-14 — Distributed-training methods survey + Rahman 2026 ingest
 
-DP requested a survey of new distributed-training methods; filed as `results/distributed_training_methods_2026.md`. Four threads: DiLoCo family maturation (scaling laws 2503.09799; Streaming; Decoupled DiLoCo 2604.21428 breaking synchrony itself, DeepMind production), compression (DisTrO 1-bit, SparseLoCo), decentralised proof-of-scale runs (INTELLECT-1/2/3, Consilience 40B at 20T tokens over internet, Covenant-72B trustless peers), and async-RL systems (AReaL, DORA, ProRL Agent) whose loose coupling makes post-training the easy-to-decentralise phase.
+Convo: `convos/20260714_distributed_training_survey.md`. DP requested a survey of new distributed-training methods; filed as `results/20260714_distributed_training_methods.md`. Four threads: DiLoCo family maturation (scaling laws 2503.09799; Streaming; Decoupled DiLoCo 2604.21428 breaking synchrony itself, DeepMind production), compression (DisTrO 1-bit, SparseLoCo), decentralised proof-of-scale runs (INTELLECT-1/2/3, Consilience 40B at 20T tokens over internet, Covenant-72B trustless peers), and async-RL systems (AReaL, DORA, ProRL Agent) whose loose coupling makes post-training the easy-to-decentralise phase.
 
 Rahman (2026, arXiv 2605.29359) ingested to the main paper library (commit f7a78bd on `main`; full Protocol A summary in root `PAPER_SUMMARIES.md`). Headline: Scher/EU-AI-Act/SB-53 thresholds evadable for $1.6M/$31M/$3.8B of sub-monitoring hardware at ~3x cost premium; effective countermeasures are chip tracking + whistleblowing (Stop Stealing Our Chips Act hook), NOT bandwidth caps or traffic monitoring.
 
 Standing correction for this line: the network-fingerprint detection idea from earlier conversations should be treated as undercut. Replica divergence, not communication, is the binding efficiency penalty, and 1-bit compressed sub-hourly syncs no longer present a distinctive traffic signature. Rahman rates traffic monitoring ineffective outright. LOC-relevant angle: distributed training erodes detectability and shutdownability (Krys 2507.07765), i.e. the infrastructure assumptions behind capability-threshold governance, which is the same gap-coverage question this line studies on the taxonomy side.
+
+Next steps: verify SparseLoCo figures before any external use of the survey; consider ingesting Krys 2507.07765; decide whether the taxonomy crosswalk needs a detectability axis; DP to check whether Robi Rahman is still DC-local before assuming correspondence-only.
 
 ## 2026-07-08 (PM) — Verification pass + epistemic-regime / covariance thread
 
