@@ -1,0 +1,105 @@
+                            Frequently Asked Questions
+                        Great American AI Act (discussion draft)
+
+
+What safety requirements does this framework impose on frontier AI companies?
+
+Transparency, auditing, and whistleblower anti-retaliation requirements. GAAIA would
+elevate leading state-level transparency, auditing, and whistleblower anti-retaliation laws to
+nationwide standards. Under GAAIA, large frontier AI developers would be required to publish
+and follow plans to address catastrophic risks, report safety incidents to federal and state
+regulators, submit to third-party audits, and face civil penalties and injunctions if they fail to
+comply. The Secretary of Commerce would be authorized to promulgate rules setting minimum
+quality standards and updating key statutory definitions. Moreover, frontier AI companies would
+be prohibited from retaliating against whistleblowers who expose wrongdoing.
+
+Licensed independent verification organizations that assess catastrophic risk mitigation.
+GAAIA would require every large frontier developer to retain one or more CAISI-licensed
+independent verification organizations (IVOs) to perform ongoing assessments of whether
+developers’ AI frameworks achieve acceptable levels of catastrophic risk mitigation
+(cybersecurity, biosecurity, CBRN uplift, and loss-of-control). As private organizations, IVOs
+are inherently more agile than a federal regulator and can therefore leverage the same innovative
+capacities and technologies that are characteristic of the frontier labs.
+
+Cooperative federalism (federal / state joint enforcement). GAAIA’s regulatory regime
+manifests cooperative federalism, an approach embodied in laws like COPPA and the Clean Air
+Act. State AGs have the ability to opt into receiving all non-public information from the
+transparency, auditing, and verification provisions. State AGs would share enforcement authority
+with the federal Attorney General. The result is a single standard backed by multiple enforcers,
+so the federal government isn't a single point of failure.
+
+
+
+
+        PREPARED BY THE OFFICE OF CONGRESSWOMAN LORI TRAHAN
+Which federal agency would administer the framework’s AI safety regime?
+
+The Center for AI Standards & Innovation (CAISI), housed within the Department of
+Commerce, would be the lead administrator of the framework's AI safety regime. GAAIA would
+formally establish CAISI under a Secretary-appointed Director and charge it with developing
+voluntary guidelines, best practices, and standards for the AI industry; testing and evaluating
+frontier AI systems; and administering the auditing and verification regime. To support this role,
+GAAIA would authorize CAISI at $100M/year—an order of magnitude above its current $15M
+appropriation—and would grant it special authorities to hire critical technical experts at pay
+levels above the GS scale.
+
+CAISI will collaborate with the Department of Commerce and its National Institute of Standards
+and Technology (NIST), Department of Justice, White House Office of Science and Technology
+Policy (OSTP), Department of Energy, Department of Defense, Department of Homeland
+Security and its Cybersecurity & Infrastructure Security Agency (CISA), intelligence community
+components, and other federal agencies and departments as appropriate.
+
+
+
+
+What state laws would the framework federalize?
+
+GAAIA would federalize leading frontier safety laws including California’s SB-53, New York’s
+RAISE Act, and Illinois’ SB315. This will create important transparency, auditing, and
+whistleblower protection standards that belong and can be better implemented at the federal
+level. State AGs would retain authorities to enforce these standards.
+
+
+
+
+What state laws would the framework preempt?
+
+GAAIA would preempt laws that specifically regulate AI model development, including
+California’s AB 2013 and SB 942 (partial).
+
+   ● CA AB 2013 — Training data summaries. Requires model developers to publicly post
+     high-level summaries of their training data. The law does not threshold on size, meaning
+     open-source developers, startups and frontier labs alike have to comply. GAAIA would
+     concentrate transparency reporting at the frontier level, exempting open source-
+     developers, startups, and lower resourced organizations.
+
+   ● CA SB 942 — AI watermarking (partial). Requires AI companies with more than 1M
+     monthly users to "watermark" AI-generated image, audio, and video content. GAAIA
+     tasks NIST with developing voluntary standards in lieu of government-mandated content
+     provenance requirements.
+
+        PREPARED BY THE OFFICE OF CONGRESSWOMAN LORI TRAHAN
+What state laws would the framework preserve?
+
+GAAIA would preserve state laws and regulations that regulate activities which occur upon or
+after the deployment of an artificial intelligence model, including the implementation,
+deployment, distribution, offering, or use of AI systems or products that incorporate artificial
+intelligence models. Additionally, GAAIA would preserve remedies available under the common
+law, including product liability claims, as well as laws that apply generally such as those
+covering civil rights, labor and workplace protections, copyright, child sexual abuse material
+(CSAM), and consumer privacy.
+
+
+
+
+Does the preemption sunset?
+
+Yes. GAAIA’s preemption would sunset three years post-enactment, forcing Congress to remain
+engaged on this issue and requiring them to maintain a seat at the table when evaluating relevant
+case law, changes in the technology landscape, and related matters.
+
+
+
+
+        PREPARED BY THE OFFICE OF CONGRESSWOMAN LORI TRAHAN
+

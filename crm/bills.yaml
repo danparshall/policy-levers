@@ -70,6 +70,99 @@ bills:
           federal data on AI labor displacement; AIRE generates it.
           Frame the two as a coherent legislative package.
 
+  gaaia_draft_2026_06:
+    number: (discussion draft — no H.R. number)
+    congress: 119
+    title: Great American Artificial Intelligence Act
+    short_name: GAAIA
+    released: 2026-06-04
+    sponsor: obernolte
+    co_leads:
+      - trahan
+    co_releasers:
+      - subramanyam
+      - franklin
+      - peters
+      - houchin
+    referred_to: house-energy-commerce  # anticipated on formal introduction
+    status: discussion_draft
+    text_url: https://trahan.house.gov/uploadedfiles/the_great_american_ai_act_discussion_draft.pdf
+    section_by_section_url: https://trahan.house.gov/uploadedfiles/gaaia_discussion_draft_section-by-section.pdf
+    faq_url: https://trahan.house.gov/uploadedfiles/2026.06.03_trahan_obernolte_ai_framework_faq.pdf
+    press_release_url: https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3783
+    feedback_email: GAAIA@mail.house.gov
+
+    local_copy: bills/obernolte-trahan/
+
+    summary: |
+      269-page bipartisan discussion draft creating a federal AI governance
+      framework. Four titles: (I) Frontier AI governance — establishes CAISI
+      at Commerce, requires transparency reports and safety-incident
+      disclosure from large frontier developers (>$500M revenue), licenses
+      independent verification organizations (IVOs) to audit compliance,
+      federalizes AI model-development regulation preempting state laws,
+      protects whistleblowers, adds AI-specific fraud penalties. (II)
+      Workforce — NSF-driven AI literacy grants, K–12/CC/HBCU capacity
+      building, Labor Department AI Workforce Research Hub, WARN Act
+      disclosures when AI is substantial factor in mass layoffs,
+      forecasting requirements for AI-sensitive occupations. (III)
+      Cybersecurity — reauthorizes Cybersecurity Act of 2015 to 2035,
+      CISA grants for critical OSS maintainers, GAO report on model
+      weight/data center/OSS security. (IV) R&D — DOE/NIST/NSF testbed
+      program, international standards coalitions (China excluded absent
+      USTR WTO certification), formal codification of NAIRR, liquid
+      cooling review.
+
+    key_features:
+      - CAISI established at Commerce, $100M/yr FY27-29 + fee authority
+      - Frontier AI framework + pre-deployment transparency report required for large developers (>$500M revenue)
+      - Critical-safety-incident disclosure (15 days; 24 hours if imminent risk)
+      - Fines up to $1M/day for violations; state AG opt-in for incident/audit reports
+      - IVO licensing regime for independent auditors of large frontier developers
+      - Federal preemption of state AI model-development laws (3-year sunset)
+      - Whistleblower protections including 2x back pay + fees
+      - WARN Act amended to require AI-substantial-factor disclosure in mass layoffs
+      - NSF-driven AI education pipeline (K-12 through fellowships)
+      - Labor Department AI Workforce Research Hub with BLS/Census/BEA
+      - CISA grants for critical OSS maintainers; frontier developers must provide model access
+      - NAIRR formally codified in statute
+      - International standards coalitions with WTO-compatible members; China excluded absent USTR certification
+
+    framing_assets:
+      - Bipartisan sponsorship + House AI Task Force lineage — pre-empts partisan-capture criticism
+      - Discussion-draft-with-comment-period design — signals collaborative posture, invites input from stakeholders
+      - Anti-patchwork framing (Houchin) — echoes industry preference for federal preemption over state laws
+      - "Clear rules of the road" (Franklin) — Republican-palatable innovation framing
+      - Frontier-developer revenue threshold ($500M) — spares startups from compliance burden
+      - Whistleblower protection — echoes CAIS/CAIP long-standing ask
+
+    common_pushbacks:
+      - pushback: "Preemption strips state AI laws"
+        response: "3-year sunset. Preempts only model-development laws; laws of general applicability, common law remedies, and use/deployment laws all preserved."
+      - pushback: "$500M threshold too high — misses fast-scaling small labs"
+        response: "Section-by-section notes 'large frontier developer' is defined in § 101; threshold can be revised in formal-introduction version. Public comment window is open."
+      - pushback: "Voluntary CAISI standards have no teeth"
+        response: "Voluntary CAISI standards + mandatory transparency + IVO audits + $1M/day fines; the enforcement is layered, not just voluntary."
+      - pushback: "IVOs replicate FAA-Boeing self-certification problem"
+        response: "IVOs licensed by CAISI, revocable for material independence failures; CAISI + state AGs receive all audit reports. Not analogous to DER model."
+      - pushback: "China exclusion in international coalitions is provocative"
+        response: "USTR-WTO-certification carve-out preserves conditional inclusion; language is exclusion-unless-compliant, not blanket exclusion."
+
+    open_questions:
+      - "Does § 234 (National STEM Teacher Corps) exist? Section-by-section describes it; bill body has no such section."
+      - "How does the $500M revenue threshold interact with compute-based thresholds (10^25/10^26 FLOP) that most other frameworks use?"
+      - "Preemption sunset (3 years) — mechanism if federal framework doesn't stand up in time?"
+
+    related_bills:
+      - number: S.2938
+        title: AI Risk Evaluation Act
+        sponsors: [hawley, blumenthal]
+        relationship: |
+          Complementary. GAAIA does the framework/transparency architecture;
+          AIRE does the DOE pre-deployment disclosure. GAAIA is
+          House/E&C-shaped; AIRE is Senate/Commerce-shaped. Not obviously
+          in conflict.
+
   caissstatement:
     type: external_reference
     title: Statement on AI Risk

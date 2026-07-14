@@ -1,0 +1,276 @@
+                              Section-by-Section Summary
+            Great American Artificial Intelligence Act (Discussion Draft)
+
+Section 1. Short title; table of contents.
+Establishes the short title of the bill as the Great American Artificial Intelligence Act and
+provides the table of contents.
+
+ TITLE I — FRONTIER ARTIFICIAL INTELLIGENCE GOVERNANCE
+
+          Subtitle A — Definitions and the Center for AI Standards and Innovation
+Sec. 101. Definitions.
+Defines key terms used throughout the Act, including acceptable levels of catastrophic risk
+mitigation, artificial intelligence, artificial intelligence models, catastrophic risk, critical safety
+incident, foundation model, frontier AI framework, frontier developer, frontier model,
+independent verification organization (IVO), large frontier developer, material modification,
+model weight, and substantial modification.
+
+Sec. 102. Center for AI Standards and Innovation (CAISI).
+Formally establishes CAISI within the Department of Commerce, directed by a Secretary
+appointed Director. CAISI will develop voluntary guidelines, best practices, and standards for AI
+security (adversarial robustness, interpretability, supply chain threats, model tampering, etc.),
+evaluate AI systems and monitor AI progress, support synthetic content detection tools, and
+administer the IVO licensing regime. $100 million per year authorized for 2027–2029, with
+additional fee authority from IVOs and large frontier developers. Grants special authorities for
+CAISI to hire critical technical experts and fix their pay at levels above the GS scale.
+
+   Subtitle B — Transparency, Independent Verification, and Whistleblower Protections
+Sec. 111. Transparency in Frontier Artificial Intelligence.
+Large frontier developers (>$500M in revenue) must write, implement, comply with, and
+publicly post a frontier AI framework covering risk thresholds and assessment procedures for
+catastrophic risk, model weight cybersecurity, and both internal and external deployment
+decisions. Before, or concurrently with, deploying any new frontier model, frontier developers
+must publish a report disclosing the release date, supported languages, output modalities,
+intended use, restrictions, risk assessments, and mitigation steps. Redactions are permitted to
+protect trade secrets, cybersecurity, public safety, or national security. Additionally, developers
+must file a report with CAISI within 15 days of a critical safety incident or within 24 hours if the
+incident poses an imminent risk of death or serious injury. State attorneys general may also opt
+to receive such reports. Violations can result in fines of up to $1M per day, and the federal and
+state AGs can seek injunctions.
+Sec. 112. Independent Verification Organization (IVO) Audits and Assessments.
+CAISI licenses IVOs to audit large frontier developers' compliance with Secs. 111 and to assess
+whether developers' AI frameworks achieve acceptable levels of catastrophic risk mitigation.
+Licenses may be revoked for material failures of independence, obsolete methods, or non-
+compliance. Large frontier developers must retain a licensed IVO to verify compliance with their
+framework and to ensure the adequacy of the framework and procedures. These IVOs must be
+granted sufficient access to company materials, and report their audits to CAISI. IVOs are
+immune from claims of loss from an AI model they have audited. State AGs may opt into
+receiving all audit and assessment reports from IVOs. IVOs may refer violations of this section
+to the AG, or to state AGs who have opted into receiving such referrals.
+
+Sec. 113. Anti-Retaliation Protection for AI Whistleblowers.
+Prohibits AI companies from discriminating or retaliating in any way against employees or
+independent contractors for lawfully reporting a violation of federal AI law. If violated,
+employees are entitled to reinstatement, two times back pay with interest, compensatory
+damages, litigation costs, and attorney's fees.
+
+                     Subtitle C — Federalization and Federal Resources
+Sec. 121. Federalization of State Laws Regulating AI Model Development.
+Preempts any state or local law or regulation specifically targeting the development of AI
+models. Expressly does not preempt laws of general applicability, common law remedies, or
+laws regulating AI use or deployment. Sunsets three years post-enactment.
+
+Sec. 122. GAO Report on Regulatory Impediments to AI Innovation.
+Requires the Comptroller General to submit a report identifying federal statutes and regulations
+that directly affect AI innovation or unduly burden AI infrastructure (including energy),
+evaluating federal AI adoption progress, and providing legislative and administrative
+recommendations.
+
+Sec. 123. Resources for AI Model Documentation.
+NIST must establish a pilot program to create a template for documenting AI models and
+associated data (covering model name, developer identity, release date, training data cutoff,
+supported languages, terms of service, etc.), with technical guidelines and objective performance
+metrics.
+
+                              Subtitle D — AI Fraud Deterrence
+Sec. 131. Financial Crimes and Artificial Intelligence.
+Amends the federal mail fraud, wire fraud, bank fraud, and money laundering statutes to increase
+maximum fines from $1 million to $2 million and increase penalties when AI is used.
+
+Sec. 132. AI Impersonation of Federal Officials.
+Adds penalties when AI is used to impersonate government officials.
+
+                                   Subtitle E — Free Speech
+Sec. 141. Preventing Censorship and Protecting Free Speech.
+Directs the Secretary of Commerce to conduct a study examining how the government
+encourages or pressures AI companies with respect to content moderation or limiting of
+expression. The report must include recommendations for legislation providing individuals
+redress against unlawful government censorship of AI platforms, including transparency
+requirements and oversight mechanisms.
+
+                                 TITLE II — WORKFORCE
+
+                     Subtitle A — AI Education and Capacity Building
+Sec. 201. AI Literacy Efforts of the AI Task Force. Directs the NSF Director to support the
+National STEM Teacher Corps pilot and Computer Science for All programs, consistent with
+recommendations of the House AI Task Force.
+
+Sec. 211. Preparing K–12 Educators and Students for an AI-Literate Future. Authorizes
+NSF to make competitive grants to universities and nonprofits for research on AI literacy
+curriculum, educator professional development, and evaluation tools for K–12 AI literacy.
+
+Sec. 221. Expanding Capacity in Artificial Intelligence Science. Directs NSF to establish a
+grant program for institutions not among the top 100 in federal R&D expenditures to broaden
+participation in AI research, education, and workforce development.
+
+Sec. 231. Scholarships and Fellowships in Artificial Intelligence. Authorizes the NSF to
+award scholarships and fellowships for students in AI-related programs.
+
+Sec. 232. Community College and Area Career and Technical Education Centers of AI
+Excellence. Directs NSF to designate up to 8 regionally diverse "Centers of AI Excellence" at
+community colleges and career technical education schools. Centers must integrate AI into
+teaching and workforce development, develop best practices, identify career pathways, and
+facilitate private sector partnerships.
+
+Sec. 233. Awards for Research on Artificial Intelligence in Education. Authorizes NSF to
+award grants to research AI teaching tools, materials, and integration into K–12 classrooms, with
+emphasis on low-income, rural, and Tribal student populations. Also establishes a Rural and
+Low-Income Areas AI Collaborative to create regional peer-support networks for educators.
+
+Sec. 234. National STEM Teacher Corps. Adds AI skills development to the National STEM
+Teacher Corps pilot program and directs consideration of developing AI best practices for high
+school teachers.
+               Subtitle B — Labor Market Data and AI Workforce Research
+Sec. 241. Information Collection and Discussion. The Secretary of Labor must publish a
+request for public comment on implementing the Act's data collection, forecasting, and
+workforce tools. Additionally, the Secretary must convene an initial expert workshop;
+subsequent annual workshops are required. The workshop must include economists, AI technical
+experts, industry representatives, labor organizations, and government officials with diverse
+viewpoints, and must critically evaluate BLS assumptions about AI's workforce impact.
+
+Sec. 242. Attracting Highly Qualified AI Experts. Authorizes the Secretary of Labor to
+appoint up to 20 AI experts to excepted service positions with GS-15 pay.
+
+Sec. 243. Artificial Intelligence Workforce Research Hub. Requires the Secretary of Labor to
+establish an AI Workforce Research Hub, in collaboration with the Census Bureau, Bureau of
+Economic Analysis, and Bureau of Labor Statistics. The Hub conducts recurring analyses of AI's
+workforce impact, conducts scenario planning, and generates actionable policy insights.
+
+Sec. 244. Modernizing Access to AI-Related Labor Market Data. Establishes a pilot program
+producing statistics on job-to-job worker flows for at least 15 AI-sensitive occupations
+designated by the Secretary of Labor.
+
+Sec. 245. Support for Evaluation of AI Automation. NIST must launch at least one prize
+competition to develop reproducible benchmarks for measuring AI's ability to automate or
+augment tasks/occupations. NIST may also award companion grants for benchmark design and
+validation.
+
+Sec. 246. Voluntary AI Adoption and Use Reporting. Requires BLS to establish a voluntary
+program for AI developers and deployers to share anonymized data on AI adoption in the
+workforce.
+
+Sec. 247. AI Questions in Federal Surveys. Within one year, the Census Bureau and BLS must
+revise specified federal surveys (including the Annual Business Survey, Current Population
+Survey, Occupational Requirements Survey, and American Time Use Survey) to incorporate or
+improve questions on AI adoption and use, focusing on types of AI, occupational impacts, skill
+changes, and work outcomes.
+
+Sec. 248. Data Elements and Production. Directs the Secretary of Labor to identify
+standardized data elements for workforce reporting under the Act, report to Congress within 12
+months, and lead a voluntary consensus effort to develop federal (and state/local) standards for
+producing trusted AI-related data.
+
+                Subtitle C — Worker Protections and Adjustment Assistance
+Sec. 251. WARN Act Disclosures for AI-Related Layoffs. Amends the Worker Adjustment
+and Retraining Notification (WARN) Act to require that whenever AI is a "substantial factor" in
+a qualifying mass layoff, employers' 60-day advance notices must include a statement specifying
+that AI contributed to the layoff, describing the type and usage of AI involved, estimating the
+percentage of job losses attributable to AI, and detailing any pre-layoff upskilling or retraining
+efforts.
+
+Sec. 252. Detailed Employment Forecasts for AI-Sensitive Occupations. Requires the
+Secretary of Labor to designate at least 15 AI-sensitive occupations every two years and publish
+annual prediction-interval employment forecasts (2-, 4-, and 8-year horizons) for those
+occupations, covering the 20th–80th percentile range of projected employment. Forecasts must
+be accompanied by benchmark comparisons, transparency on methods and data gaps, and
+periodic accuracy evaluations. A public, machine-readable archive of all forecasts and scores
+must be maintained.
+
+Sec. 253. Forecasting Prize Competition. Directs NSF to establish a recurring prize
+competition (every 6 months) for accurate short-horizon forecasts and informative rationales on
+AI labor-market questions (e.g., model benchmark performance, AI adoption rates, occupation-
+level employment changes).
+
+Sec. 254. Report on Use of Research Tools in Grant Recipient Selection. Within 2 years, the
+Secretary of Labor must report to Congress on how AI-related data, benchmarks, and forecasts
+developed under the Act will be incorporated into selection and performance measurement
+criteria for WIOA grants, apprenticeship programs, and other Labor Department grant programs.
+
+Sec. 255. Study on Rapid AI Adjustment Assistance Program. Within 12 months, the
+Secretary of Labor must complete a study (directly or by grant) examining design options for a
+Rapid AI Adjustment Assistance Program for workers displaced by AI, drawing on trade
+adjustment assistance precedents. The study must address eligibility determination, types of
+assistance, program costs, evidence collection, and interoperability with existing law.
+
+Sec. 256. Update of State In-Demand Occupation Lists. For five years after enactment, states
+and local workforce boards receiving WIOA Title I-B funds must consider AI-related forecasts
+and data produced under Subtitle B when updating their in-demand industry and occupation lists.
+The Secretary must provide technical assistance.
+
+Sec. 257. AI Workforce Policy Options Report. The AI Workforce Research Hub, in
+consultation with BLS, must publish a public report inventorying existing federal authorities for
+technology-driven workforce disruption, identifying gaps relative to AI disruption's pace,
+assessing economic and tax policy mechanisms (unemployment insurance, portable benefits, tax
+code provisions), and presenting a range of policy options drawn from domestic and international
+precedents.
+                              TITLE III — CYBERSECURITY
+Sec. 301. Reauthorization of the Cybersecurity Act of 2015. Extends the Cybersecurity Act of
+2015 from 2025 to 2035, allowing cybersecurity information to be shared between companies
+without anti-trust concerns.
+
+Sec. 311. Support for Designated Critical Open-Source Software Maintainers. Authorizes
+CISA (in consultation with CAISI) to award grants to eligible maintainers of widely used,
+critical open-source software for security improvements (patching, maintenance, security audits).
+Large frontier developers must also provide AI model access to eligible maintainers for
+cybersecurity purposes.
+
+Sec. 321. Report on Model Weight, Data Center, and Open-Source Security. Requires GAO
+to report on: security protocols protecting AI model weights, whether existing protections are
+sufficient, and the security situation of the open-source software ecosystem (resource adequacy
+of maintainers, infrastructure stability, and supply chain vulnerability).
+
+         TITLE IV — RESEARCH, DEVELOPMENT, AND INTERNATIONAL
+                              COOPERATION
+
+                    Subtitle A — Testbeds and Interagency Coordination
+Sec. 401. AI Testbed Program. The Secretary of Energy and the NIST Under Secretary, in
+coordination with NSF, must establish a testbed program to facilitate collaboration between
+National Labs, federal labs, NIST, NAIRR, and public and private sector entities for testing,
+evaluating, and assessing AI systems. Activities include developing automated and reproducible
+evaluations, prioritizing security vulnerability assessments, and organizing hackathons.
+
+Sec. 402. Coordination, Reimbursement, and Savings Provisions. Requires the Secretary of
+Commerce to prevent duplication between Subtitle A activities and existing DOE and private
+sector work. National Lab resources used under the program must be provided on a reimbursable
+basis, unless waived by the Secretary of Commerce.
+
+                           Subtitle B — International Cooperation
+Sec. 411. International AI Standards Coalitions. Requires the Secretary of Energy and NIST
+Under Secretary to jointly lead federal engagement in international AI technical standards
+development and form coalitions with like-minded governments to promote private sector-led
+standards adoption, advocate for U.S.-developed AI standards internationally, counter foreign
+adversary influence, facilitate cross-border AI R&D collaboration, and share cybersecurity best
+practices. Criteria for coalition membership include high scientific and technological
+advancement and adherence to WTO-compatible standards principles. China is expressly
+excluded from coalition eligibility unless USTR certifies WTO compliance.
+                         Subtitle C — AI Research and Development
+Sec. 421. Public Data for AI Systems. Amends the NAII Act to direct OSTP to develop a
+prioritized list of federal data and datasets for public release to support AI training and
+evaluation, with a focus on publicly funded research data, data advancing novel AI systems in
+the public interest, and datasets unlikely to be created without federal investment.
+
+Sec. 422. Federal Grand Challenges in Artificial Intelligence. Amends the NAII Act to
+establish a prize competition program administered by OSTP for AI research and development
+challenges across priority areas, including chip design, AI interpretability and explainability,
+advanced manufacturing, border security, AI for science, cybersecurity, energy efficiency, and
+modernizing federal legacy code.
+
+Sec. 423. National Artificial Intelligence Research Resource (NAIRR). Formally establishes
+the NAIRR in statute. NAIRR would procure and provide resources such as datasets, training
+programs, and computational resources for AI development. These would be available to
+researchers, institutions, government entities, and small private sector entities.
+
+Sec. 424. Liquid Cooling Development and Scalability. Requires GAO to conduct a
+comprehensive review of liquid cooling for AI data centers with input from an advisory
+committee of industry, national labs, and academic experts.
+
+                                Subtitle D — Research Security
+Sec. 431. Research Security. All activities under the Act must comply with the research security
+requirements of the Research and Development, Competition, and Innovation Act and the
+NDAA.
+
+Sec. 432. Certifications and Audits of Temporary Fellows. Before any non-federal temporary
+fellow (contractor, consultant, or fellow) performs AI-related work for an agency, both the
+fellow and the agency head must sign a certification that the fellow will not perform inherently
+governmental functions.
+
