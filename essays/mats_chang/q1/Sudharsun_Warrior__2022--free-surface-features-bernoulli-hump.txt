@@ -1,0 +1,1198 @@
+===== page 1 =====
+
+1 
+ 
+Free surface features of submarines moving underwater: Study of Bernoulli Hump  
+ 
+Sudharsun G1, Azhar Ali1, Arindam Mitra2,Ashish Jaiswal1, Praveen Naresh3 and H.V.Warrior1 
+1Department of Ocean Engineering and Naval Architecture, 
+Indian Institute of Technology Kharagpur, 
+Kharagpur, West Bengal, India, 721302 
+2L&T Defence 
+Mumbai, Maharashtra, India 
+3 Naval Physical Oceanography Laboratory, 
+DRDO, Kochi, India. 
+Contact: Prof. H Warrior:warrior@naval.iitkgp.ernet.in 
+ABSTRACT- Submarines are known to produce certain surface manifestations, primary among 
+them being a feature known as Berno ulli Hump (BH). BH is a rise and fall of sea surface height 
+above the submarine, when the vessel cruises close to surface. This feature has been noted by 
+many researchers but scant information is publically available on the same due to the classified 
+nature of the data.  A major part of the Wide Area Surveillance program for submarines of the 
+world navies uses the detection of this BH . In this work, our objecti ve is to detect and establis h 
+the presence of BH characteristics. After calibrating a known CFD code using experimental data, 
+we make model simulations which clearly depict the BH and its features. We then show the path 
+ahead for submarine detection using BH  from observations of sea surface heights. Value  of BH 
+height for a submarine at 10m depth moving at 5 knots is about 20cm which falls within the 2 cm 
+vertical resolution of altimeters. Though most of the  studies were for calm waters, an 
+introduction to the presence of regular wind waves is given at the end.   
+ 
+KEYWORDS: WAS, SAR, CFD, submarines and wake signature. 
+NOMENCLATURE 
+ 
+WAS Wide Area Surveillance 
+SAR Synthetic Aperture Radar
+
+===== page 2 =====
+
+2 
+ 
+CFD Computational Fluid Dynamics 
+FFT Fast Fourier Transform 
+RANS Reynolds Averaged Navier Stokes  
+VOF Volume of Fluid 
+SIMPLE 
+ 
+ADV 
+Semi-implicit method for pressure linked 
+equation 
+Acoustic Doppler Velocimeter 
+L Length of submarine 
+B Beam of submarine 
+D Depth of operation 
+k Turbulence kinetic energy 
+ε Dissipation rate of turbulence kinetic energy 
+V Submarine forward velocity 
+G Gravitational acceleration
+
+===== page 3 =====
+
+3 
+ 
+1. INTRODUCTION   
+WAS is now adays a term inology rotuninely used for national security. WAS indicates the 
+surveillance of l arge swaths of area using Synthetic Aperture Radar (SAR)  images from air -
+borne/space borne  satellites ( Kanjir et al., 2018) . Western nations have been using this 
+technology to detect unwarranted moving of targets in land and water. Most of this air -
+surveillance was done by Army to keep up with the transport and movement of trucks and other 
+heavy enemy vehicles on land. Then later, this technolo gy made its foray into the marine 
+surveillance whereby SAR images  are used to track ships/unauthorized vessels at sea (Deng et 
+al., 2018).  
+Similar technique can also be used to track submarines. When a submarine moves at 40 m 
+depth or less, it leaves  a trail in the surface above . Very little work is done on this s urface 
+manifestation, the biggest contribution came from  the work of Tunaley, 20 15. He has used a 
+Rankine ovoid method and by describing the submarine as a collection of sources and sinks, 
+predicted the presence of Bernoulli Hump. But after that, literature is scant on this area, probably 
+due to the sensitive nature of the data. Inspite of the fact that the submarine itself can be detected 
+directly, there are two main reasons why it is a better idea to detect the vessel’s wake and not the 
+vessel itself: the wake pattern is longer and clearer than the submarine itself in the image, and it 
+can yield a better estimate of the submarine’s actual position and velocity(Chen et al., 2008). 
+From the historical perspective, the trail left by ducks/boats when they sail through water has 
+fascinated man because of the beau tiful wake signature behind it (Thomson W, 1887) . It was 
+Lord Kelvin, who put scientific rigor  to the phenomenon by demonstrating  that the angle made 
+by the wake of any object moving in water is the same, irrespective of the object itself.   This 
+wake now called as Kelvin wake is a combination of two wave fields - transverse waves and 
+divergent waves. This wave  system is found to converge at an angle of 39o (Raboud et al., 2013) 
+at the position of ship.    
+Synthetic Aperture Radar ( SAR) images of ship wakes  show a wake in the form of dark and 
+bright streaks (Tunaley et al., 1991) . Dark streaks represent the Kelvin wake and bright streaks 
+represent turbulent wake (Fig 1).
+
+===== page 4 =====
+
+4 
+ 
+ 
+Fig. 1. Ship wake signature 
+Initially considered as a feat ure of beauty, it was later recognised  that a wake signature is a 
+source of hidden inform ation, helping detection of ship ’s particulars  (Peregrine et al 1971) . 
+Detection by extracting the information from Kelvin wake first was investigated by Newman, 
+1991. This was followed up by Griffins (Griffins et al., 1996) . While Newman deals with 
+estimates of the ship hull cross-section parameters (not the length),  in Griffins only the estimates 
+of the ship length are examined. An algebraic expansion for the width of the turbulent wake aft a 
+cargo ship with zero axial net momentum was predicted in ( Birkhoff et al, 1957), but only after 
+quite some time it has been verified for other vessels (Peltzer etal.,1991 ). Unfortunately, the 
+simple formula give n in (Birkhoff et al, 1957)  for the width of the turbulent wake aft a ship is 
+purely asymptotic, i.e., it does not have a length-scale and, therefore, cannot be used for 
+estimating the ship particulars . By  invoking (Birkhoff et al, 1957) hypothesis, (Zilman et al., 
+1999, Zilman et al., 2004) derived a functional relation between the ship breadth and the width of 
+its turbulent wake.  
+On the other hand, a  lot of study on underwater vessels center around AUVs.  Numerous 
+authors have studied underwater bodies for understanding the hydrodynamic forces and moments 
+on it  (Jagadeesh et al., 2009;  Saeidinezhad et al., 2015). Jagadeesh et al., 2009  has made 
+experimental studies of hydrodynamic derivatives and other coefficients of an AUV hull 
+form. Saeidinezhad et al. (2015)  has studied the pitching of AUVs and drawn out the 
+hydrodynamic coefficients associated with it . A lot of recent studies have been using CFD high 
+fidelity simulations to capture the fl ow around the hull.  The accuracy of turbulence model, the 
+discretization of the equations and meshing  thus play a vital role here (Sakthivel et al. 2011).
+
+===== page 5 =====
+
+5 
+ 
+Most of the studies on submarines have been done for maneuvering and measurements of 
+hydrodynamic derivatives. This is mostly because of the importance of proper maneuvering 
+characteristics for submarines ( Feldman, 1987, Quick et al., 2014, Dubbioso et al 2016). People 
+have done captive model tests, PMM tests and rotating  arm tests to measure these coefficients. 
+Recently, there has been a surge in the application of CFD simulations in these tests.  Tyagi and 
+Sen, 2006  employed a RANS solver to study the horizontal hydrodynamic coefficients of an 
+AUV.  Wu et al.,2005  used a SUBOFF model to simulate a steady line motion with and without 
+an angle of attack . The near -bottom effects on the hydrodynamic characteristics  were 
+investigated. Hu et al. 2007 used the CFX software to simulate the maneuvering tests  by using 
+the k-ε model to simulate the hydrodynamic derivatives. 
+Broglia et al.2007,  used CFD simulations to study the sway characteristics of a KVLCC 
+tanker with free surface effects.  The motion of the vessel was simulated using an overlapping 
+mesh method with 8 blocks  for a fixed background and 20 fitted blocks moving with the hull. 
+The computed lateral force and the yaw moment agreed well with the experimental data with a 
+relative error less than 5.5% and 20%, respectively. Yang et al. , 2011 investigated a similar 
+phenomenon without considering free surface effects. 
+This paper aims to study a possible detection  technique using CFD software. It may be 
+possible to detect a submarine using accurate measurements of the ocean surface height or by 
+imaging the water surface. The major physical feature will be the wake developed by the 
+underwater body in motion. Three different phenomena are caused either directly or indirectly by 
+surface wakes: internal waves and turbulence, Kelvin wake and Bernoulli’s Hump. In thi s study 
+Bernoulli’s hump is the main area of focus. Some of the original works made by (Hershey, 1966) 
+is based on Rankine ovoid model, which is also called “Doublet” based on single source and 
+sink. The same meth odology is applied by (Stefanick, 1987) in which he pre pared a table for 
+various size of Bernoulli’s hump created by various submarine type s. Later (Daly, 1994) 
+produced this table in his study of submarine detectability.  
+Computational Fluid Dynamics (CFD) is a vast area of research that was traditionally in the 
+Mechanical Engineering discipline. But in the last few decades, there has been a massive 
+breakthrough in practical applications of CFD towards ship hydrodynamics (Z hang et al., 2010; 
+Kundu et al., 2019) . CFD can play a valuable role in the investigation and prediction of ship 
+performance. Model testing, which has always been the traditional technique for accurate
+
+===== page 6 =====
+
+6 
+ 
+prediction of any ship flow, is more costly and time -consuming as compared to computational 
+analysis. In the present day, many researchers are using CFD as a tool for better predictions of 
+almost all ship motions including man euverability (Kundu et al., 2019)  and propulsion . In 
+Barman et al. 2018, a RANS code  was used to make predictions of ship wakes and a large 
+database of high fidelity wake data was prepared for reference.  In that paper, a numerical 
+investigation into detecting the ship velocity was also car ried out. Ship’s velocity prediction is 
+based on the fact that the transverse wave prod uced by ship moves at the veloc ity of the ship 
+itself (Tunaley et al., 2003) . In the current work, we use CFD for investigating the movement of 
+underwater vessels and study the sensitivity of Bernoulli Hump to depth of  operation and 
+submarine velocity. Then we investigate this predictability in the presence of wind waves. 
+For validation and verification of the numerical simulation results, experiments were 
+conducted to get submarine wake signature,as in Cimbala et al, 2013. Experimental setup was 
+arranged in our departmental hydrodynamic laboratory. A particular vessel of a cylinder -like 
+shape was used to calibrate a STARCCM+ model  (a commercial code owned by Siemens 
+version 2019.3) . Then numerical analysis was performed using that calibrated model to simulate 
+various test cases of depth of operation and velocity of submarine models.
+
+===== page 7 =====
+
+7 
+ 
+2. MATERIALS AND METHODS 
+2.1 Background 
+The prescribed method of detecting underwater bodies is by two techniques: direct and 
+indirect techniques. In direct technique, the vessel itself is detected; whereas in indirect 
+method, any physical or environmental disturbance caused by the vessel is det ected as a 
+proxy for the vessel itself. 
+Direct Detection: In this case, the light reflected from the submerged vessel is used to detect 
+the vessel. Usually the blue -green (450- 550nm) band of the spectrum is used, as it is less 
+absorbed by ocean itself. 
+Indirect Detection : All other methods of detection are by indirect means. These are 
+classified into: physical surface effects, optical effects and thermal effects.  
+Physical Surface Effects: The major physical surface effect is to detect the wake due to the 
+vessel. The wake can be classified into Kelvin wake, Bernoulli Hump and internal waves. 
+The Bernoulli Hump:  When the submarine travels underwater, it produces a vivid rise and 
+fall of sea surface height above it. This feature is known as Bernoulli Hump and  it is a 
+function of velocity, depth of operation and dimensions of the vessel. The height of the hump 
+can vary from tens of centimeters near the surface to a few mm at a depth of about 50 m  
+(Stephanick et al. 1988). 
+ Kelvin Waves :  These  waves were discu ssed in detail in the introduction section and we 
+donot elaborate it here again. 
+2.2 Equations 
+The RANS equations are classical time-averaged forms of Navier-Stokes equations  
+(Wilcox, 1993)The Navier-Stokes equation for fluid motion is given as, 
+21ii i
+ji
+j i jj
+uu upuFt x x xx υρ
+∂∂ ∂∂+ = − ++∂ ∂ ∂ ∂∂
+     (1).  
+moreover, the incompressible continuity equation is
+
+===== page 8 =====
+
+8 
+ 
+  0=∂
+∂
+i
+i
+x
+u          (2) 
+Where ( ),u xt is the velocity component in thi the direction at a definite point in space x and 
+time t,  p  is the static pressure, ρis the density of fluid, υ is the kinematic viscosity and iF  is 
+an external force in the thi  direction. To see how turbulence coexists with mean flow , it is 
+convenient to analyze  the flow in two parts, a mean (or average) component and a fluctuating 
+component. The equations are therefore rewritten to remove all fluctuatio ns arising from 
+turbulence. Thus, the instantaneous velocity, pressure and stresses can be written as: 
+'
+i iiuuu= + '
+ij ij ijσσσ= +        (3) 
+Introducing the above to the earlier equations and averaging, we obtain the RANS equations (for 
+incompressible fluid) as, 
+    
+j
+ij
+i
+i
+ji
+j
+ji
+j
+i
+xFx
+Puuxuuxt
+u
+∂
+∂++∂
+∂−=∂
+∂+∂
+∂+∂
+∂ σ
+ρρ
+11)''()(    (4) 
+Or, 
+   
+)(11)( ijij
+j
+i
+i
+ji
+j
+i RxFx
+Puuxt
+u +∂
+∂++∂
+∂−=∂
+∂+∂
+∂ σρρ      (5) 
+Where ''
+ij i jR uu ρ=−  
+This is interpreted as additional stress known as Reynolds stress. The RANS equations in 
+three spatial dimensions and a mass continuity equation give four independent equations with ten 
+unknown variables. The presence of Reynolds stresses ( )
+''
+ijuuρ makes closing the turbulence 
+problem difficult. Calculation of ijR  requires a turbulence modeling and in our simulations we 
+adopt k-ε model.  Equations 1-5 are referenced from Wilcox, 1993.
+
+===== page 9 =====
+
+9 
+ 
+Numerical simulations were performed for these equations using STARCCM+ to study the 
+wake formation on the surface of the water when submarine moves underneath . These RANS 
+simulations employ Volume of Fluid method for multiphase flows, to capture the distur bance at 
+interface of air and water, accurately. The STARCCM+ software is used with the k- ε turbulence 
+model to solve the transport equations for turbulent  kinetic energy and the rate of dissipation of 
+turbulent kinetic energy. Semi-implicit method for pressure linked equation scheme(SIMPLE) is 
+used to solve the discretized equations.  
+Numerical simulations were performed on bare hull, for investigation of submarine signatures 
+at a velocity of 5 and 10 knots (2.5 and 5 m/s). The time step size for convergence of the solution 
+has been taken 0.01 sec. Once numerical solution s converged, disturbance caused by moving 
+vessel was captured in the imagery . These images helped in developing the complete picture of 
+the Bernoulli Hump. 
+ 
+2.3 Models used for testing: 
+ 
+Though for calibration, we used a particular model (shown in Fig 4), for testing t wo different 
+models were used for the major part of the study. The profiles of both the tested models are 
+similar, with a cylindrical body having a hemispherical front end and a conical tail. The first 
+model is a full- scale model absorbing the basic dimensions of length and beam from the Akula 
+class submarines (113.3 m long and 13.6 m beam) of the Indian Navy  (Fig 3), while the second 
+model has the dimensions from the Sindhughosh class submarines (72.6m long and 9.9m beam).
+
+===== page 10 =====
+
+10 
+ 
+ 
+Fig 2: Model with dimensions of Akula class submarine drawn at 1:2 scale. 
+ 
+Meshing is done in such a way that cells are carefully distributed in the region surrounding the 
+submarine. The complete analysis is done in full -scale. The base size of the grid is set at L/50, 
+where L is the length of the submarine. The mesh size has been fixed after a series of mesh 
+convergence iterations performed. This mesh size is as recommended by the ITTC standards (see 
+Fig 2b). Trimmed cell mesher is a volume mesher and is primarily used to discretize the domain. 
+Prism Layers are used around the submarine body in order to capture the boundary layer that is 
+formed submarine, by the virtue o f viscosity. The free surface is also discretized into smaller 
+cells to capture the free surface elevation distinctly. For different depths of operations, the 
+refinement regions and submarine model are translated downwards. Refined meshes are provided 
+along the pressure points of the submarine to capture the flow variations induced by the 
+submarine. Sufficient damping factors are provided from the boundaries until the refined mesh 
+spaces so as to dampen any unnecessary wave reflections. Thus, we have a total of about 2 to 2.5 
+million cells, varying based on the different models employed and different operating conditions. 
+Number of meshing element s and number of nodes were 2.6×10
+6 and 5.0×105 respectively.  
+The values of y+ for these simulations are given in Table 2a. Under mesh quality, we have tried 
+to keep  element quality, aspect ratio, orthogonality and skewness  within acceptable range for 
+better predictions. Table 1 details the mesh quality.
+
+===== page 11 =====
+
+11 
+ 
+ 
+ 
+Table 1. Meshing parameters 
+Mesh quality  submarine 
+Orthogonal  0.76 
+Skewness  0.22 
+Aspect ratio  1.87 
+Element quality  0.82 
+ 
+Testing of grid for numerical accuracy was done through grid- independence test.  This test 
+has been done for three different cases of mesh qua lity (coarse, medium and fine). Meshing 
+elements and nodes are mentioned in Table 2a. 
+Numerical simulations were  performed for the three different mesh sizes for checking grid 
+independence. The grid convergence study was perform ed for detected (backward calculation 
+from surface pressure) velocities of the submarine moving underneath. The numerical velocity of  
+the model was set from 0.5 to  5 m/s with the submarine surfaced.  From the pressure profile 
+(using elevations) the velocity can be detected through a method given in Barman et al., 2018  
+(from freesruface pressure distribution). So indirectly, we can say that we are using the values of 
+freesurface pressure distribution to do the grid convergence.  Numerical solution for fine me sh 
+gives the most accurate detected trend of forward velocity with less than  10 percentage error 
+(Table 2a).  
+Table 2a. Grid independence test for coarse, medium and fine mesh at v=5m/s 
+Parameters Coarse 
+(h1) 
+Medium 
+(h2) 
+Fine (h3) 
+Number of elements 710927 946273 1286928 
+Number of nodes 
+y+ 
+150499 
+98.4 
+183045 
+60.2 
+248661 
+     38.6 
+Detected forward 
+velocity 
+4.552 m/s 
+(=φ1) 
+4.570 m/s 
+(=φ2) 
+4.590 m/s 
+ (=φ3)
+
+===== page 12 =====
+
+12 
+ 
+For grid independence analysis, we see that the derived velocities of the submarine varies 
+only varies less than 1% between the coarse and fine meshes (Table 2a.). Thus the coarse 
+resolution is sufficient for numerical accuracy. 
+The grid dependency analysis was also performed as per the method suggested by  Celik 
+et al. 2008 . The method is mainly based on Richardson extrapolation and is a well -established 
+practice. The purpose of this check is to ensure that the result obtained from the chosen grid lies 
+in the asymptotic range of convergence.  Typically, the mesh resolution used for the study is 
+slightly coarse. In these simulations, only the velocity (given and derived when the submarine is 
+surfaced) is used to calculate the grid convergence. 
+For the analysis, the grid refinement is performed in all x, y and z axis, maintaining same 
+refinement ratio , about 2 . The order of accuracy, p and Grid Convergence Index (GCI) are 
+predicted using the following equations, 
+
+
+
+
+
+
+−
+−+
+
+
+
+
+=
+)(
+)(lnlnln
+1
+32
+21
+31
+32
+21 sr
+sr
+rp p
+p
+ε
+ε
+        (6) 
+GCIfine
+21=1.25ea
+21/(r21
+p−1)         (7) 
+In the equations, s = ±1, depending on the sign of the convergence. Parameters are given in Table 
+2b. 
+R=GCI23/ GCI12rp(≈1in the asymptotic region) (Eq. 6,7 referenced from ASME V&V 20, 2009) 
+As was seen from the analysis, the results showed both monotonous and oscillatory convergence. 
+This is contributed to the very low mesh resolution used for the coarse mesh cases. Moreover, 
+the target for the simulations was to properly capture the static pressure/elevations and velocities. 
+The uncertainty (GCI) is low for velocity predictions. Overall, the applied coarse resolution was 
+sufficient to attain reliable results with low uncertainty.   
+Table 2b: Uncertainty analysis for grids 
+Item Velocity 
+(m/s) 
+5 
+Refinement ratio r21 = h2/h1 1.33 
+r32 = h3/h2 1.35
+
+===== page 13 =====
+
+13 
+ 
+Convergence ε21/ε32 0.9 
+Order of 
+accuracy 
+P 0.28 
+Grid convergence 
+index (GCI) 
+GCIfine
+21 0.017 
+GCIfine
+32 0.015 
+ 
+           
+           
+           
+          
+ 
+ 
+All numerical simulations were done in order of 10 6 Reynolds’s number. Different turbulence 
+models were tested in simulations to better capture submarine wake signature. Tests were done 
+with the k- ε turbulence model (Realizable and Standard condition) and k- ω turbulence model 
+(SST and standard SST) for our present study. Since the results were identical for various 
+models, the k-ε turbulence model was selected for numerical simulations. 
+The STARCCM+ numerical calculations were conducted  in a single node Intel(R) Core i5 
+CPU with 7 cores, clock speed 2.27 GHz and 16  GB of physical memory. The  average time step 
+used was 0.01 s and the model was run till steady state conditions which was about 35 seconds. 
+This took about 24 hours of clock time.
+
+===== page 14 =====
+
+14 
+ 
+ 
+Fig 2b: Mesh for the submarine simulations 
+ 
+2.4 Experimental setup for calibration: 
+  
+All experiments mentioned here were conducted in the recirculating water tank of IIT 
+Kharagpur.  The construction is of concrete with the side walls are made of glass for viewing the 
+experiment (Mitra et al.  2019). The schematic of the setup with the position of grids and 
+underwater vessel is shown in Fig 3a . The water is pumped by an electronic motor. We kept  the 
+model at a depth of 0.8 m where a mean flow velocity up to  1m/s is achievable. The water tank 
+has width 2 m and depth 1.5 m. The experimental setup is shown in 3b.
+
+===== page 15 =====
+
+15 
+ 
+ 
+Fig. 3 . Experimental setup for the current work . The schema tic diagram is reproduced 
+from Panda et al., 2018. 
+     (c) Submarine model 
+     (b) Grid setup in the tank 
+     (a) Schematic of the recirculating tank
+
+===== page 16 =====
+
+16 
+ 
+Fig 3b shows the grid setup for generating turbulence by using PVC pipes. Size of the mesh is M 
+=0.1m and the diameter of the pipes is 0.025 m. Details can be found in Panda et al., 2018. 
+ 
+2.4.1 Model used for experiments and STARCCM+ calibration 
+ 
+The model is placed at a distance of 0.4m from the grid in the recirculating  tank. A schematic of 
+the setup for the experiment  of the physical flow problem is shown in Fig 4. Direction of flow in 
+Fig 4 is given by arrows.  The underwater vessel hull is of cylindrical shape  with hemispherical 
+ends as shown in Fig 4. The length and diameter of the vessel are 0.5 and 0.1 m respectively. The  
+radius of the hemi spheres is equal to the radius  of the cylinder.  Hull shape is as described in 
+Mansoorzadeh et al., 2014. Since the main aim was to study turbulent flow around an underwater 
+vessel, we just assu me the hull of the submarine and not control surfaces.  More detailed study 
+should include the propeller effects, sail, rudder surfaces and hydroplanes. 
+ 
+Fig. 4. Schematic of the problem setup. Arrows indicate direction of flow. 
+x,y,z represent the streamwise, transverse and vertical  directions respectively. U,V and W are 
+the longitudinal, transverse and vertical mean velocities in x, y and z directions respectively. 
+An ADV (Acoustic Doppler Velocimeter) is used for calculating the instantaneous vel ocities of 
+the flow in all directions. The sampling frequency was set at 200 Hz.  The ADV was mounted on 
+a pulley and stayed at one point for measurements for about 5 minutes  (Voulgariset al., 1998). A 
+spatial and temporal resolution of  1cm3 and 200Hz respectively is achievable through the ADV 
+in these experiments.
+
+===== page 17 =====
+
+17 
+ 
+An ADV measures the velocities based on the principle of Doppler shift by sampling at high 
+frequency rates. The main elements of the ADV are a signal processing electronic module , 
+acoustic receivers and acoustic transmitter. The schematic of the ADV is shown in Fig 5. 
+ 
+ 
+Fig. 5. Schematic diagram of ADV  and conditioning module, reproduced from   Panda et 
+al.2018. 
+The errors associated with the measurement and sampling have been quantified (Benedict 
+et al., 1996). Primary sources of error in the system are due to the placement of the probe, 
+presence of fluid properties like dust and dirt in water and error in sampling frequencies. 
+The mean velocities in ADV are sampled with less than 1% error (Voulgaris et al., 1998). 
+We ran the ADV at the sampling frequency of 200 Hz where an accuracy of 0.5% with a 
+value ±1 mm/s  were achieved.  
+The ADV measures the velocity data at different points downstream of the grid. These data 
+are then decomposed into mean and fluctuating velocities as 
+                                                 iiiuuu ′= +                                                       (8)                                                            
+iu  and 'iu  can be calculated using the following formula: 
+                                     ∑
+=
+=
+n
+i
+ii unu
+1
+/1                                                    (9)
+
+===== page 18 =====
+
+18 
+ 
+                         ∑
+=
+−=
+n
+i
+iii uunu
+1
+2)(/1'                                          (10) 
+(Equations 8-10 are referenced from Wilcox 1993).   
+ 
+2.4.2 Experimental uncertainty analysis 
+ 
+To predict the uncertainty of any experimental variable related to its component uncertainty, 
+experimental uncertainty analyses need be performed. It is also known as a propagation of 
+uncertainty (Cimbala et al., 2013).  
+In the present work of experimental  uncertainty analysis, we have experimental variable 
+Reynolds stress (RS) which is the function of veocity ‘u’’ and ‘v’’. The main objective of the 
+experimental uncertainty analysis is to calculate the uncertainty of ‘RS’ caused due to the 
+uncertainty of u’ and v’. Once the uncertainty analysis has been done, RS can be written as a RS 
+= RS ± ΔRS wh ere ‘ ΔRS’  will  b e th e ex peri m en tal  un certai n ty  of  RS. F or th e i nv es ti gati on of  
+experimental uncertainty, we used Root of the Sum of the Square uncertainty ( RSS) uncertainty. 
+It has a 95% uncertainty level for each of the uncertainties. 
+ 
+RS= 
+v'u'    ̃ urms. vrms 
+dRS=
+rms
+rms
+rms
+rms
+v
+RSvu
+RSu ∂
+∂∆+∂
+∂∆
+'
+ = 
+rms
+v
+rms
+ur
+v
+RS
+u
+RS
+rmsms
+∂
+∂+∂
+∂ σσ      (7) 
+   
+(Cimbala 2013), where dRS , 
+rmsuσ ,
+rmsvσ  are uncertainties in Reynolds stress, u’ (taken as urms) 
+and v’ (taken as vrms ) respectively. 
+ We did the experiments at three different velocity magnitudes of 0.6, 0.8, and 1.0 m/s (Table 
+2c). Relative uncertainty, also known as fractional uncertainty and its magnitude showed 
+minimal effects on Reynolds stress (see table 2c). 0.33% is the maximum RSS uncertainity in RS 
+which is negligible.
+
+===== page 19 =====
+
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 2c.  Experimental uncertainty analysis for three flow velocities (m/s) 
+velocity ‘U’ (m/s) 0.6 0.8 1.0 
+             σurms (measured) 0.001 0.001 0.001 
+σvrms (measured) 0.001 0.001 0.001 
+Uncertainty in RS  0.0012 0.0016 0.002 
+Expected Uncertainty 
+‘RSex’ 
+0.36 
+±0.0012 
+0.64 
+±0.0016 
+1.0  
+±0.002 
+Relative RSS uncertainty        
+(ΔRSrel=1-RS/RSex) (%) 
+0.33 0.025 0.2 
+ 
+3. RESULTS 
+3.1 STARCCM+ Calibration 
+The primary prob lem of detecting  the very faint Bernoulli Hump in the laboratory forced us  to 
+adopt the following method. We prepared the model of an underwater vessel as described in last 
+section and tested it. We measured the variation of turbulent kinetic energy and normal and 
+tangential Reynolds stresses. Then a STARCCM+ model was calibrated to those results (shown 
+below).  After this, we scaled up the numerical model to f ull-scale submarine dime nsions and 
+test-simulated it for various conditions. The Bernoulli Hump was noticed in the simulations 
+above the position of the submarine. The model was tested for various depths of operation and 
+velocities of operation. We present these results.  Fig 6a -d shows the comparison of turbulent 
+kinetic energy between model results and experimental values. The circles represent the 
+experiment values whereas the curves represent STARCCM+ results (with and without wal l 
+reflection terms). As can be seen, the values are matching to high degee of accuracy.  The x axis 
+represents the non-dimensionalized (with radius of vessel) distance along the hull (readings just 
+near the hull).
+
+===== page 20 =====
+
+20 
+ 
+Model was calibrated for this experiment b y using the STARCCM+ software . The numerical 
+model was calibrated with a linear pressure strain model, for slow pressure strain correlations. 
+Two cases were investigated, the presence of slow and rapid pressure strain and one more with 
+the presence of wall  reflection term. Fig 6a- d show the values of non- dimensionalized TKE and 
+normal and tangential Reynolds stresses  from both numerical and experimental methods . It was 
+clear that including the wall reflection term improved the results  (Gibson and Launder, 1978). 
+Fig 6b shows how the energy transfer occurs between the stream -wise and transverse 
+components of flow.  So for all our submarine simulations also, we considered the wall reflection 
+term near the surface. 
+The model was thus calibrated for domain of simulation, grids (meshes), turbulence  
+model and boundary conditions, and then we chose to run for the two full-scale submarines. 
+ 
+3.1.1 Boundary conditions for CFD 
+ 
+While simulating in full scale, more number of cells are required to capture the Bernoulli 
+hump. Since the submarine is symmetric about centreline, it is reasonable to assume that flow is 
+symmetric. Hence only one half of the fluid domain is modeled. This reduces the number of cells 
+resulting in reduced computational time. The domain and boundary conditions of full -scale 
+simulation are shown in figure5.1.  
+The volume mesh consists of hexahedrons in an unstructured grid. The mesh is generated 
+using the trimmer-mesh function in STAR -CCM+. Prism layer mesh is used on the hull surface 
+in order to make a reasonable estimation of the shear stresses on the hull. Free- Surface is also 
+refined to capture the Bernoulli hump. 
+Table 2d: Boundary conditions 
+Boundary Boundary Condition Domain Size 
+Inlet  Velocity Inlet 3.0 × L distance from the origin 
+Outlet  Pressure Outlet 4.0 × L distance from the origin 
+Side Wall Velocity Inlet 2.0 × L distance from the origin 
+Top  Velocity Inlet 0.6 × L distance from the origin 
+Bottom  Velocity Inlet 2.5 × L distance from the origin 
+Symmetric side wall Symmetry Not Applicable
+
+===== page 21 =====
+
+21 
+ 
+• L - Length of the model 
+• Origin is along the free surface 
+The boundary conditions provided to the different boundaries of the domain are shown in 
+figure 5.1. 
+ 
+Figure 5.1:  Domain considered in full-scale 
+3.1.2 Time step 
+A steady-state solver is used for solving the simulation model. A first -order discretization is 
+employed. The time step is determined based on the ITTC guidelines as given below: 
+∆𝑡 <  1
+200 �𝐿
+𝑈� 
+The guideline mentioned above is applied and the time step of 0.01s is used for 10 knots 
+simulations and 0.02s is used for 5 knots simulations. The number of inner iterations has been set 
+to 10. 
+The under-relaxation factors are also set accordingly. A value of 0.7 is set for velocity, 
+0.4 for pressure, 0.8 for the k-epsilon turbulence, 1.0 for k-epsilon turbulent viscosity and 0.8 for 
+segregated VOF.
+
+===== page 22 =====
+
+22 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig 6a-d: Plot of the simulated and experimental values of kinetic energy and Reynolds stresses. 
+The circles represent experimental values, the dashed lines (without wall reflection) and solid 
+(with wall reflection) of STARCCM+ results. 
+(b) 
+(a) 
+(d) 
+(c)
+
+===== page 23 =====
+
+23 
+ 
+ 
+Fig 7: Experimental (circles) and STARCCM+ modeling results. Dashed line is for vessel 
+without grid, dash-dotted curve is grid only and solid lines for (vessel + grid) case. 
+ 
+3.2 Testing: 
+ 
+After calibrating the model domain, grids, turbulence model and boundary conditions, we 
+ have chosen to run for the model submarines. A full scale model was chosen for the simulations. 
+An Akula submarine and Sindhughosh submarine were prepared as in Fig 2. These models were 
+run for velocities of 5, 10 and 15 knots cruising speed. The models were placed 10,20,30,40,50 
+m below the free surface.  
+ Table  3 shows the Akula submarine at a speed of 5 knots. As is expected, the BH height 
+decreases as the depth of operation increases. At 10 m depth, the BH height is 19 cm while it 
+reduces to 3 cm by 20 m depth of operation .  It is a little dubious if the height of 3 cm could be 
+detected. But with the high resolution altimeters with vertical resolutions of 2 cm or less, it might 
+be possible. A very thorough filtering of the ocean surface is necessary to make this observation. 
+But table 4 shows that at 10 knots speed, a submarine at a depth of even 40m might be 
+detectable. 
+Table 5 shows similar results for the Sindhughosh submarines. At a speed of 5 knots, the  
+submarine is visible at only 10 m depth. Beyond that BH goes into mm which is not detectable.
+
+===== page 24 =====
+
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 3: Akula class submarines at 5 knots speed 
+Submarine Length 113.3 m 
+Froude Number 
+0.8 
+Submarine Beam 13.6 m 
+ 
+Sl. 
+No 
+Velocity 
+Knots(m/s) 
+Depth 
+(m) 
+Bernoulli Hump 
+height (cm) 
+1 5 (2.57) 10 19.29 
+2 5 (2.57) 20 3.68 
+3 5 (2.57) 30 1.58 
+4 5 (2.57) 40 0.93 
+5 5 (2.57) 50 0.66 
+6 5 (2.57) 75 0.31 
+7 5 (2.57) 100 0.26
+
+===== page 25 =====
+
+25 
+ 
+0
+5
+10
+15
+20
+25
+0 20 40 60 80 100 120
+Fr = 0.08 
+0
+50
+100
+150
+200
+0 50 100 150
+Fr = 0.15 
+Bernoulli Hump height (cm) 
+a) 
+ b) 
+c) 
+ 
+e) 
+ f) 
+d) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig 8a-f: BH (cm) for Akula class submarines at 5 knots (a,c,e) and 10knots (b,d,f)  speed.
+ 
+   
+    
+   
+    
+Depth of operation (m) 
+Longitudinal distance (m) 
+Longitudinal distance (m) 
+Sea level height (m) 
+Sea level height (m) 
+Depth of operation (m)
+
+===== page 26 =====
+
+26 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 4:Akula class submarines at 10 knots speed 
+Submarine Length 113.3 m 
+Froude Number 
+0.15 
+Submarine Beam 13.6 m  
+Sl. No 
+Velocity 
+Knots(m/s) 
+Depth 
+(m) 
+Bernoulli Hump 
+height (cm) 
+1 10(5.14) 10 162.88 
+2 10(5.14) 20 18.23 
+3 10(5.14) 30 7.52 
+4 10(5.14) 40 4.02 
+5 10(5.14) 50 2.74 
+6 10(5.14) 75 1.25 
+7 10(5.14) 100 0.59
+
+===== page 27 =====
+
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 5: Sindhughosh class submarines at 5 knots 
+Submarine Length 72.6 m 
+Froude Number 
+0.09 
+Submarine Beam 9.9 m 
+ 
+Sl. No 
+Velocity 
+Knots(m/s) 
+Depth 
+(m) 
+Bernoulli Hump 
+height (cm) 
+1 5 (2.57) 10 10.14 
+2 5 (2.57) 20 1.97 
+3 5 (2.57) 30 0.97 
+4 5 (2.57) 40 0.58 
+5 5 (2.57) 50 0.37 
+6 5 (2.57) 75 0.08 
+7 5 (2.57) 100 0.06
+
+===== page 28 =====
+
+28 
+ 
+0
+2
+4
+6
+8
+10
+12
+0 20 40 60 80 100 120
+Fr = 0.09 
+a)  
+c) 
+b) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Fig 9a-c: BH (cm) for Sindhughosh class submarines at 5 knots  speed 
+BH height (cm) 
+Depth of operation (m) 
+Sea level height (m) 
+Longitudinal distance (m)
+
+===== page 29 =====
+
+29 
+ 
+4. Discussion: 
+4.1  Way ahead for detection of submarines: 
+As the previous sections show, submarine leave s barely perceptible signatures on the ocean 
+surface. When the vessel is travelling at 10 knots speed and about 20 m below water, it produces 
+a small (about 15 cm) but measurable Bernoulli Hump. This is measurable by the current 
+altimeter resolutions. This rise and fallof sea surface height is shown in Fig 10  below. The ocean 
+surface as viewed from above (like from a SAR on an airplane) has been recreated in that figure. 
+We can see a perceptible feature at the surface for 20m depth of operation with a BH of 10- 15 
+cm. Beyond that, the chances of detection are low. Over and above this, i f sea is rough, these 
+features wouldn’t be vis ible at all. So our work is for calm waters only. For rougher seas, the 
+SAR image wil have to be filtered out to remove the wind waves for the BH to be visible. This is 
+discussed in 
+ 
+ 
+Fig 10: Surface elevation plots for Akula submarine at 10 knots for different depths
+
+===== page 30 =====
+
+30 
+ 
+short in the next section.  This could be compared with an actual SAR image of a submarine 
+surfacing (Fig 11). This is when the submarine is at periscopic depth. As can be seen, there is a 
+very prominent Kelvin wake (a transverse and divergent set of waves making a Kelvin wave 
+angle of 39o). And within it there is a Bernoulli Hump. 
+ 
+Fig 11: SAR image of submarine at periscopic depth. 
+4.2 BH in presence of regular waves: 
+It is a known fact that ocean can never be in a totally calm state without environmental waves. 
+Such waves can be imposed on a submarine wake thus, totally obscuring the BH. To detect and 
+bring to use the properties of BH  in such cases, we need to filter out these environmenta l waves. 
+Ocean exists as a spectrum of waves (like JONSWAP, Pierson -Moskowich or Bretschneider 
+spectrum).  Conventionally, t he significant wave heights and periods are forecasted f rom the 
+wind information on the basis of the wind –wave relationship. However, the error may become 
+large due to many uncertainties in the wind generation prediction and wind–wave relationship..
+
+===== page 31 =====
+
+31 
+ 
+This paper is mainly focused on calm -wave conditions and we have only made a foray into the 
+presence of environmental waves. Quite a bit of work is already completed, but mainly in terms 
+of regular waves. Regular waves can easily be filtered out by using a filter on FFT analysis.Thus 
+the periodic waves are removed b y FFT filtering. The purpose of doing filtering is to get the BH 
+in calm water, which can then be used for reverse calculation of submarine particulars  (work 
+under progress). This, we include in the paper.  
+Here, the waves and Bernoulli hump exist  merged in the space domain. Wavenumber 
+distribution of the space domain is found by Fast Fourier Transform (FFT). By using the Band -
+stop filter of appropriate range, filtering is done on the wavenumber domain. Then, Inverse FFT 
+is applied to the filtered wavenumber domain, to get the wave subtracted free surface in which 
+only BH is present. If there is more than one wave, the same procedure of applying Band -stop 
+filters to the wavenumber domain can be followed.  Thus, for these regular waves, FFT is 
+employed on  the sea surface elevations. To do FFT, the freesurface should be uniform grid 
+spacings, which it is (Fig 2b). Currently we have done it only for regular waves at the surface. 
+Figure below shows the wave cut at the centerline of the submarine in the fr ee-surface with a 
+simulated Bernoulli H ump of submarine moving at 5.144 m/s at the water depth of 10 m with 
+waves of wavelength 80 m and wave amplitude 0.1 m.  Filtering was done using the 2D FFT 
+routine of Matlab. 
+ The final goal of these studies is to reverse-calculate the details of the submarine from the 
+features of Bernoulli Hump (its depth variation and and length). For this, it is enough if we study 
+a longitudinal cut along the length of the submarine at the free surface above the centerline. We 
+measure the BH parameters along that line which can then be fed into reverse- calculation 
+algorithms. So we show the Fig 12 for that wave -cut only. But this can easily be extended to the 
+whole surface. 
+Procedure 
+1. Obtain the free surface elevations of ocean wav es along the wave cut  where the wave 
+subtraction has to be done (Fig 12). 
+2. Apply Fast Fourier Transforms on the free surface and plot  wave number distribution of 
+waves in it.
+
+===== page 32 =====
+
+32 
+ 
+3. By using the appropriate Filter, filter out the waves of particular wave numbers. 
+4. Apply Inverse Fast Fourier Transforms on the filtered wavenumber distribution, to 
+retrieve the final free surface elevation (Fig 13). 
+ 
+ 
+  
+ 
+Fig 12: Wave elevation plot above the position of submarine. BH can be seen at the position of 
+100 m.
+
+===== page 33 =====
+
+33 
+ 
+Fig 13: Matlab simulation of FFT filtering. 
+5. CONCLUSIONS 
+In this paper, we use an indirect method of detecting submarines by processing the 
+environmental anomalies produced while the vessel is near the surface. Numerical and 
+experimental investigations were performed sucessfully and it is concluded that: 
+• Both experimental and numerical analysis  converged towards accuracy and shows that 
+the detection of submarines using these techniques is robust and stable. 
+• In the numercal simulations, two submarines of Indi an Navy (Akula class submarine and 
+the Sindhughosh class submarine) have been taken for study. These two submarines have 
+been simulated for near-surface motion at 5 knots and 10 knots respectively.  At 10 knots 
+speed, the Akula submarine shows a BH of 162 cm which can easily be detected by SAR. 
+By the time it goes to 20 m depth, the BH height is only about 15-18 cm.  
+• BH can also be seen in the presence of environmental waves. The wind waves need to be 
+filtered out by FFT filtering using Matlab toolbox. 
+• A false image of sea surface elevations has been created for Akula class submarine for 
+various dept hs of oper ation. This is what we would see from SAR images. Image 
+processing of the SAR images can therefore be a method of detection of the submarine.  
+• Reverse calculation schemes are currently underway to study the submarine particulars 
+from the above SAR images. 
+ACKNOWLEDGMENTS 
+The authors would like to thank Dr. Maheswaran and Dr. Hareesh Kumar of Naval Physical 
+Oceanography, Laboratory, DRDO and also Prof. O P Sha  and Prof.Krishnankutty  for the 
+endless support they extended to our work. 
+The authors also thank the Naval Research Board, DRDO for their funding for the research. 
+All experiments have conducted at the Department of Ocean Engineering & Naval  Architecture, 
+IIT Kharagpur.
+
+===== page 34 =====
+
+34 
+ 
+REFERENCES 
+ASME V&V20, 2006, Standard for Verification and Validation in Computational Fluid 
+Dynamics and Heat Transfer, ASME. 
+Barman, J., Kumar, A., Warrior, H.V., Maheswaran, P.A. and Kumar, H. Wide area surveillance 
+using ship wakes. CURRENT SCIENCE, 114(8), pp.1606-1607, 2018. 
+Benedict L, R. Gould, Towards better uncertainty estimates for turbulence statistics Exp. 
+Fluid, 22 (2) (1996), pp. 129-136 
+Birkhoff, G and E. H. Zarantonello. Jets, wakes, and cavities New York: Academic, 1957. 
+Broglia R, Mascio A. D., Amati G. A. parallel unsteady RANS code for the numerical 
+simulations of free surface flows[C]. 2nd international Conference on Marine Research and 
+Transportation. Naples, Italy, 2007. 
+Celik I.B., U. Ghia, P.J. Roache, C.J. Freitas, H. Coleman, P.E. Raad,  Procedure for estimation 
+and reporting of uncertainty due to discretization in CFD applications,  J. Fluid Eng. Trans. 
+ASME, 130 (2008), pp. 078001-078004 
+Chen J, B. Chen and J. Yang, "The Turbulent Wake Detection and Beam Estimation of a Ship in 
+SAR Images,"  2008 International Workshop on Education Technology and Training & 2008 
+International Workshop on Geoscience and Remote Sensing , 2008, pp. 230- 233, doi: 
+10.1109/ETTandGRS.2008.157. 
+Cimbala, J.M. Experimental uncertainty analysis. Online Edition, pp.1-4, 2013. 
+Deng Y, H. Wang, S. Liu, M. Sun, X. Li , Analysis of the ship target detection in high-resolution 
+SAR images based on information theory and Harris corner detection, EURASIP J. Wirel. 
+Commun. Netw., 2018 (2018), p. 291 
+Daly D.G, “A limited analysis of some non -acoustic antisubmarine warfare systems”, M.Sc. 
+Thesis, Naval Postgraduate School, Monterey, California, March 1994. 
+Dubbioso G, R Broglia, S Zaghi, CFD analysis of turning abilities of a submarine model, Ocean 
+Engineering (2016) 129, 459-479. 
+ Feldman J,  Straightline and Rotating Arm Captive-model Experiments to Investigate the 
+Stability and Control Characteristics of Submarines and Other Submerged Vehicles 
+David Taylor Research Center, Bethesda MD, Ship Hydromechanics Department (1987) 
+M. Gibson, B. Launder, Ground effects on pressure fluctuations in the atmospheric boundary 
+layer, J. Fluid Mech., 86 (3) (1978), pp. 491-511
+
+===== page 35 =====
+
+35 
+ 
+Griffin, O.M., Wang, H.T. and Meadows, G.A. Ship hull characteristics from surface wake 
+synthetic aperture radar (SAR) imagery. Ocean engineering, 23(5), pp.363-383, 1996. 
+Hershey A V, “Measured versus computed wave trains of a Rankine ovoid”, U.S. Naval 
+Weapons Laboratory, Dahlgren, Virginia Technical Report, AD 641888, 1966. 
+HU Zhi-qiang, Yang LIN, Haitao GU,  On Numerical computation of viscous hydrodynamics of 
+unmanned underwater vehicle[J], Robot, 29 (2) (2007), pp. 145-150, (in Chinese). 
+Jagadeesh P, K. Murali, V. Idichandy. Experimental investigation of hydrodynamic force 
+coefficients over auv hull form  Ocean Eng., 36 (1) (2009), pp. 113-118 
+Kanjir U,  H. Greidanus, K. Oštir, Vessel detection and classification from spaceborne optical 
+images: a literature survey, Remote Sens. Environ., 207 (2018), pp. 1-26 
+Kundu, P., Sarkar, A. and Nagarajan, V. Improvement of performance of S1210 hydrofoil with 
+vortex generators and modified trailing edge. Renewable Energy, 142, pp.643-657, 2019. 
+Mansoorzadeh S,  E. Javanmard, An investigation of free surface effects on drag and lift 
+coefficients of an autonomous underwater v ehicle (auv) using computational and experimental 
+fluid dynamics methods, J. Fluid Struct., 51 (2014), pp. 161-171 
+Mitra A, J. Panda, H. Warrior, The effects of free stream turbulence on the hydrodynamic 
+characteristics of an auv hull form, Ocean Eng., 174 (2019), pp. 148-158 
+Munk Walter Heinrich, P. Scully - Power  and F. Zachariasen, The Bakerian Lecture, 1986 Ships 
+from space, Proceedings of the Royal society of London, A, Mathematical  and Physical sciences 
+(1987), vol 412, Issue 1843 
+Newman, J.N. The inverse ship -wave problem. In Sixth International workshop on water waves 
+and floating Bodies (pp. 193-197), April, 1991. 
+Panda J, A. Mitra, A. Joshi, H. Warrior, Experimental and numerical analysis of grid generated 
+turbulence with and without mean strain Exp. Therm. Fluid Sci., 98 (11) (2018), pp. 594-603 
+Peltzer  R, J. H. Milgram, R. Skop, J. Kaiser, O. Griffin and W. Barger, "Hydrodynamics of ship 
+wake surfactant films" in Proc. 18th Symp. Naval Hydrodynamics, Washington, DC:Nat. Acad. 
+Press, pp. 533-552, 1991. 
+Peregrine, D.H. A ship's waves and its wake.  Journal of Fluid Mechanics , 49(2), pp.353- 360, 
+1971.
+
+===== page 36 =====
+
+36 
+ 
+Quick H, R. Widjaja, B. Anderson, B. Woodyatt, A.D. Snowden, S. Lam, Phase II Experimental 
+Testing of a Generic Submarine Model in the DSTO Low Speed Wind Tunnel, DSTO Technical 
+Note, DSTO-TN-1274 (2014) 
+Rabaud M and Frederic Moisy, ShipWakes: Kelvin or Mach Angle?, Physical Review Letters, 
+PRL 110, 214503. 
+Sakthivel R, S. Vengadesan, S. Bhattacharyya,  Application of non-linear κ-ε turbulence model 
+in flow simulation over underwater axisymmetric hull at higher angle of attack , J. Nav. 
+Architect. Mar. Eng., 8 (2) (2011), pp. 149-163 
+Saeidinezhad A, A. Dehghan, M.D. Manshadi, Experimental investigation of hydrodynamic 
+characteristics of a submersible vehicle model with a non-axisymmetric nose in pitch maneuver,  
+Ocean Eng., 100 (2015), pp. 26-34 
+Stefanik, T., The Nonacoustic Detection of Submarines, Scientific American, March 1988, p.29. 
+Scully-Power, P. and Stevenson, R.E., Swallowing the Transparency Pill, Proceedings/ 
+December 1987, p.151 
+Thomson, W. On ship waves.  Proceedings of the Institutio n of Mechanical Engineers , 38(1), 
+pp.409-434, 1887. 
+Tunaley,  The Bernoulli Hump Generated by a Submarine , March 2015, 
+DOI:10.13140/RG.2.1.3278.0322, Report number: LRDC 2015- 03-001, Affiliation: London 
+Research and Developmemt Corporation. 
+Tunaley, J.K. The estimation of ship velocity from SAR imagery. In  IGARSS 2003. 2003 IEEE 
+International Geoscience and Remote Sensing Symposium. Proceedings (IEEE Cat. No. 
+03CH37477) (Vol. 1, pp. 191-193). IEEE, July, 2003. 
+Tunaley, J.K., Buller, E.H., Wu, K.H. and Rey, M.T. The simulation of the SAR image of a ship 
+wake. IEEE transactions on geoscience and remote sensing, 29(1), pp.149-156, 1991. 
+Tyagi A, D. Sen, Calculation of transverse hydro-dynamic coefficients using computational fluid 
+dynamic approach[J]  Ocean Engineering, 33 (5–6) (2006), pp. 798-809 
+Voulgaris G, J.H. Trowbridge,  Evaluation of the acoustic Doppler velocimeter (adv) for 
+turbulence measurements,  J. Atmos. Ocean. Technol., 15 (1) (1998), pp. 272-289 
+WILCOX, D. C. (1993). Turbulence modeling for CFD. La Cãnada, CA, DCW Industries, Inc
+
+===== page 37 =====
+
+37 
+ 
+ WU Ban-shan , Fu XING, Xiao-feng KUANG, et al. Investigation of hydrodynamic 
+characteristics of submarine moving close to the sea bottom with CFD methods[J], Journal of 
+Ship Mechanics, 9 (3) (2005), pp. 19-28 
+YAN Yong, G, Zao-jian ZOU, Chen-xi ZHANG, Calculation of hydrodynamic forces on a 
+KVLCC hull in sway motion in deep and shallow water[J], Chinese Journal of 
+Hydrodynamics, 26 (1) (2011), pp. 85-93 
+Zhang, Z.R. Verification and validation for RANS simulation of KCS container ship 
+without/with propeller. Journal of Hydrodynamics, 22(1), pp.889-896, 2010. 
+Zilman, G., Zapolski, A. and Marom, M. The speed and beam of a ship from its wake's SAR 
+images. IEEE Transactions on Geoscience and Remote Sensing, 42(10), pp.2335-2343, 2004. 
+Zilman, G. and Shemer, L. An exact analytic representation of a regular or  interferometric SAR 
+image of ocean swell.  IEEE transactions on geoscience and remote sensing,  37(2), pp.1015-
+1022, 1999.
