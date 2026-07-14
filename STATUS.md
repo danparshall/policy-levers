@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-07-11
+Last updated: 2026-07-14
 
 ## Current Focus
 
@@ -18,6 +18,8 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
 
 ## Recent Sessions
+
+- **2026-07-14** — Distributed-training survey (line: `loc-abilities`). Survey of new methods filed at `docs/active/loc-abilities/results/20260714_distributed_training_methods.md` (DiLoCo family through Decoupled DiLoCo 2604.21428; DisTrO/SparseLoCo compression; INTELLECT/Consilience/Covenant-72B decentralised runs; async-RL wave). Rahman 2026 (arXiv 2605.29359, "Does Distributed Training Undermine Compute Governance?") ingested to root library (f7a78bd): Scher/EU/SB-53 thresholds evadable for $1.6M/$31M/$3.8B at ~3x premium; chip tracking + whistleblowing effective, traffic monitoring not. Standing correction logged: network-fingerprint detection idea undercut by the 2026 stack. Convo: `docs/active/loc-abilities/convos/20260714_distributed_training_survey.md`.
 
 - **2026-07-12** — MATS/Chang Q1 (line: `essays/mats_chang/q1/`). Read Chang's *actual* primary sources for the first time (essay was drafted isolated-from-Chang across prior sessions) and appended a postscript. Pulled his 2021 MIT dissertation via DSpace REST API (legacy bitstream URLs 405) — read the nuclear essay in full ("Artificially Assured Destruction?", w/ Torin Rudeen) — plus the contemporaneous 2021 CSET report (Daniels & Chang, "National Power After AI"). His current Constellation report is UNPUBLISHED, so 2026-Chang is unreadable to us; postscript claims rest on 5yr-old text. Key correction: Chang is NOT a MAD-survives sanguinist — his Python sim already reaches our targeting conclusion (1–2 orders counterforce-area reduction; first strike enabled at low/med alert) and already owns the Scud-disanalogy, proliferated-constellation, and ASAT/cyber moves; high-alert unworkable w/ or w/o AI via irreducible latency (his own physics floor on the timing axis). Genuine gaps: undersea SNR (he brackets as future work) + detection-vs-custody (unverified against unread TEL-mechanics section). Resolved fork → labeled "Postscript for Chang" after body, before References; essay body stays isolated. Dan wrote the postscript (2 beats: independent-corroboration; grant "no directional gestures without strong support" re Taiwan, hold Mythos-leap + China IT-security-fear). Mythos stated as flat capability claim per Dan (declined the belief-channel hedge). Final essay `Q1_MAD_about_AI.md` (fixed from mis-typed `Q4`). Sources + synthesis in `chang_sources/`; convo: `essays/mats_chang/q1/20260712_chang_primary_sources_and_postscript.md`.
 
