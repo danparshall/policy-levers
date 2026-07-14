@@ -16,6 +16,7 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 |-------|---------|---------|
 | 501c3-formation | 2026-07-02 | Incorporate Canary Institute as a Maryland nonstock corporation with federal 501(c)(3) exemption. |
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
+| gaaia-analysis | 2026-07-14 | Analytical layer on top of `bills/obernolte-trahan/` — drafting bugs to flag to `GAAIA@mail.house.gov`, cross-section structural findings, positive-teeth inventory, potential Canary asks for the discussion-draft comment window. |
 
 ## Recent Sessions
 
