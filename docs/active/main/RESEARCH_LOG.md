@@ -13,6 +13,10 @@
 ### Results
 - `essays/canary/mad-about-ai.md`, `essays/canary/patients-property-power.md`, `essays/lesswrong/patients-property-power-lw.md`, `docs/reference/llm-writing-tics.md`
 
+### Addendum 2026-07-17
+- Four pieces imported to canary-drafts @ `020fc81` (now the publication working copies)
+- Process error logged: duplicate clone made at `~/code/canary-drafts` (repo already cloned elsewhere on machine); removed after push; other agent reconciling
+
 ### Next Steps
 - Dan: decide blog-vs-LW differentiation for Q8; defeat/defect call; VOICE.md delta; reviewer on "pwn"
 - At publication: add news links for in-world 2026 events; consider soft attribution for the Q1 "reassuring story" foil
