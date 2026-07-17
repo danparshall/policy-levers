@@ -411,7 +411,51 @@ contacts:
       in Congress (ex-Fermilab). Samantha is the natural peer contact
       for Dan. Reach out within 48 hrs while Heinrich is fresh as
       the referrer.
+      2026-07-17: front-desk call routed AI portfolio to Edwin Kindler
+      (see kindler-e-foster); Samantha may still exist as physics peer,
+      identity unresolved.
     followup_by: 2026-04-17
+
+  # ===== GAAIA HOUSE OUTREACH (2026-07-17 call pass) =====
+  - id: burns-w-obernolte
+    name: William Burns
+    title: (TBD — covers AI/tech per front desk)
+    senator: obernolte-house
+    chamber: house
+    district: CA-23
+    office: 2433 RHOB
+    email: william.burns@mail.house.gov
+    phone: null
+    cell: null
+    first_met: 2026-07-17
+    source: Front-desk call, (202) 225-5861
+    priority: top
+    context: |
+      THE office: Obernolte is GAAIA lead sponsor AND H.R. 9363 sponsor,
+      owns both CAISIs. Payload: full technical menu — two-CAISIs
+      accommodation question, Tier 1 bugs annex, inseverability,
+      zero-revenue gap, weight notice, provenance.
+    followup_by: 2026-07-21
+
+  - id: kindler-e-foster
+    name: Edwin Kindler
+    title: AI specialist (per front desk)
+    senator: foster-house
+    chamber: house
+    district: IL-11
+    office: 2366 RHOB
+    email: edwin.kindler@mail.house.gov
+    phone: null
+    cell: null
+    first_met: 2026-07-17
+    source: Front-desk call, (202) 225-3515
+    priority: top
+    context: |
+      Foster is the House physicist (ex-Fermilab); Science Cmte.
+      Payload: measurement layer — § 245 reproducibility, § 252 scoring
+      rules, provenance DAG as chain-of-custody. Note: this supersedes
+      the samantha-foster referral path unless she resurfaces.
+    followup_by: 2026-07-21
 
 
 # ===== Front-desk warm contacts (no cards but logged) =====
