@@ -21,7 +21,7 @@ This is absolutely a "visibility" bill, not a "control" bill; since currently we
 
 
 ## The bug that makes AI fraud cheaper
-First, the small stuff, as a taste of what a 269-page draft inevitably contains. Section 131 raises the maximum fine for mail and wire fraud from $1M to $2M, and adds an enhancement clause for fraud "committed with the assistance of artificial intelligence"... but the AI clause maxes out at $1M. Read literally, using AI to commit wire fraud LOWERS your maximum fine (presumably the AI clause was an earlier addition, and nobody reconciled this).  Elsewhere, a cross-reference points to the definitions section instead of the section it plainly means, and a statutory citation points at an executive order that was rescinded in January 2025. None of this is scandalous. It's what discussion drafts are for, and it's why the sponsors opened an inbox (gaaia@house.mail.gov, if you'd care to comment on your own). Canary is compiling a technical corrections annex and will file it there.
+First, the small stuff, as a taste of what a 269-page draft inevitably contains. Section 131 raises the maximum fine for mail and wire fraud from $1M to $2M, and adds an enhancement clause for fraud "committed with the assistance of artificial intelligence"... but the AI clause maxes out at $1M. Read literally, using AI to commit wire fraud LOWERS your maximum fine (presumably the AI clause was an earlier addition, and nobody reconciled this).  Elsewhere, a cross-reference points to the definitions section instead of the section it plainly means, and a statutory citation points at an executive order that was rescinded in January 2025. None of this is scandalous. It's what discussion drafts are for, and it's why the sponsors opened an inbox (GAAIA@mail.house.gov, if you'd care to comment on your own). Canary is compiling a technical corrections annex and will file it there.
 
 ## The clause that isn't there
 
@@ -37,13 +37,17 @@ Under this regime there are basically 2 categories with required reporting:
 - "frontier developers" are labs that trained 10^26 operations (total training, including fine-tuning) _and_ $50M in prior-year annual revenue.
 - "large frontier developers" are labs with the same compute _and_ $500M in prior-year revenue; these have a heavier framework
 
-The "large frontier developers" are where most of the action happens.  Thy need to have published safety frameworks, semi-annual IVO audits, etc.  The smaller developers only need to publish transparency reports concurrent with a release, file critical-safety incidents within 15 days of discovery, and have liability for knowingly false statements.  Not that it matters at this point, basically everyone is either a "large" or nothing.  This actually seems fairly prudent: we don't want to set the threshold too high for the full audit experience, but we want SOME visibility before then.
+The "large frontier developers" are where most of the action happens.  They need to have published safety frameworks, semi-annual IVO audits, etc.  The smaller developers only need to publish transparency reports concurrent with a release, file critical-safety incidents within 15 days of discovery, and have liability for knowingly false statements.  Not that it matters at this point, basically everyone is either a "large" or nothing.  This actually seems fairly prudent: we don't want to set the threshold too high for the full audit experience, but we want SOME visibility before then.
 
-So this provides a nice easy off-ramp for folks who are small potatoes.  But notice that it *also* allows a nice off-ramp for folks who are BIG potatoes, but don't have any revenue at all yet... I'm lookin' right at Ilya Sutskever's "Safe Superintelligence", which at a XYZ of funding could easily have produced a model over that 10^26 threshold, and wouldn't have to tell a soul.  So Ilya, what *are* you up to?
+So this provides a nice easy off-ramp for folks who are small potatoes.  But notice that it *also* allows a nice off-ramp for folks who are BIG potatoes, but don't have any revenue at all yet... I'm lookin' right at Ilya Sutskever's "Safe Superintelligence", which with over $3 billion of funding could easily have produced a model over that 10^26 threshold, and wouldn't have to tell a soul.  So Ilya, what *are* you up to?
 
-For either size, violation is a fine of up to $1M/day, which may not sting if you're pulling in $30B/year, because at that point it's only 0.1% of annual revenue.  Maybe it should be "greater of $1M/day or 1% of annual revenue".  Otherwise labs could completely ignore this and just call it "cost of doing business".
+For either size, violation is a fine of up to $1M/day, which may not sting if you're pulling in $30B/year: even a full year of stonewalling runs $365M, barely 1% of revenue.  Maybe it should be "greater of $1M or 0.1% of annual revenue, per day".  Otherwise labs could completely ignore this and just call it "cost of doing business".
 
-> Want a section about the IVO itself, how based on SOX they can define a plan but have to follow it
+## The audit is SOX for AI
+
+The bill doesn't tell developers what their safety practices must be. It requires large frontier developers to write their own "frontier AI framework", publish it (redactions allowed), and then submit to semi-annual audits where the IVO's job is twofold: assess whether the developer actually follows its own plan, and assess whether the plan itself is adequate. Add the required assessment of internal controls and designated senior compliance personnel, and anyone who has lived through Sarbanes-Oxley will recognize the architecture: management defines the controls, the auditor attests to design and operating effectiveness. Same deal here, with catastrophic risk in place of financial reporting.
+
+The structure has real virtues. It doesn't freeze 2026 safety practice into statute, and it scales with whatever labs actually do. It also inherits SOX's known failure mode: adequacy assessments drift toward checkbox unless the standard they certify against has a floor. Here the standard is "acceptable levels of catastrophic risk mitigation", which the bill defines as mitigation adequate to ensure the model's anticipated benefits outweigh its catastrophic risks. That's a cost-benefit judgment, keyed to the developer's own anticipations, with no floor beneath it. The auditor certifies a balancing test, and the developer holds the scale.
 
 
 ## Weights, one-way doors, and paperwork due after the fact
@@ -52,9 +56,9 @@ Two findings concern open-weight releases and model identity, and they connect t
 
 Releasing model weights is a one-way door: once the files are public no injunction claws them back. GAAIA handles this with a report due "before or concurrent with" deployment.  Technically a lab could release the weights on the same day they release the report, and there's no problem. The natural fix borrows from antitrust: Hart-Scott-Rodino requires merging parties to notify the government and wait a fixed 30-day period before closing, so that if there *is* a potential impact, relevant government agencies have a chance to respond.
 
-The second gap is less obvious. Nothing in the bill establishes that the model an auditor evaluated is the model actually deployed. 
-> There's no checks or verification required - CONFIRM THIS?
-The fix is obvious and cheap; register a fingerprint of the evaluated weights, have the auditor certify the artifact hashes match, and require automated, tamper-evident derivation records linking each production serving artifact back to a registered parent. This is pretty standard compliance stuff, and the same provenance stack the government already requires of its software vendors post-SolarWinds; the records are emitted by build systems automatically, so the marginal burden is effectively. A frontier serving pipeline that CANNOT produce artifact provenance is a security finding all by itself.
+The second gap is less obvious. Nothing in the bill establishes that the model anyone's findings describe is the model actually deployed. I went through sections 111 and 112 carefully to confirm this. The IVO doesn't evaluate models; it audits the framework and the developer's compliance with it, while the model-level risk assessments are the developer's own, self-published. The machinery even contemplates findings that "a frontier model is in conformance with its published frontier AI framework", but a model is identified only by its release date, languages, modalities, and intended use; the post-audit report requires the auditor's phone number and no model identifier of any kind. The bill polices *lying* about the model (false-statement liability, whistleblower protections), but it never *identifies* the model. It's a testimony-based regime where a verification-based one costs nothing extra.
+
+The fix is obvious and cheap; register a fingerprint of the evaluated weights, have the auditor certify the artifact hashes match, and require automated, tamper-evident derivation records linking each production serving artifact back to a registered parent. This is pretty standard compliance stuff, and the same provenance stack the government already requires of its software vendors post-SolarWinds; the records are emitted by build systems automatically, so the marginal burden is effectively zero. A frontier serving pipeline that CANNOT produce artifact provenance is a security finding all by itself. (Bonus coherence check: the bill lets the Director order ad hoc audits to "reproduce or validate" prior findings. You can't reproduce a finding about an artifact you can't identify.)
 
 
 
@@ -74,13 +78,8 @@ The sponsors say they released it to hear what's wrong with it. I'm taking them 
 
 
 
-## Response
+## The response so far
 
-[Lawfare has already argued](https://www.lawfaremedia.org/article/congress-should-do-something--the-case-for-(fixing)-the-great-american-ai-act) that the preemption makes the package net-negative as written; the [House Democratic AI commission opposed it](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/) within hours of release.  
+[Lawfare has argued](https://www.lawfaremedia.org/article/congress-should-do-something--the-case-for-(fixing)-the-great-american-ai-act) the preemption makes the package net-negative as written. The [House Democratic AI commission opposed it](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/) within hours, saying it "does not meet the enormity of the moment". Worth knowing: the commission is drafting its own framework to hand Leader Jeffries for a hoped-for Democratic majority in 2027, so this is partly a rival product talking. Labor went further (the AFL-CIO and AFT's response was, verbatim, "hard no"), the ACLU and Americans for Responsible Innovation opposed the preemption, and the Alliance for Secure AI's Brendan Steinhauser gave the line I expect to stick: a national standard "should protect at least as much as it preempts". Meanwhile, Majority Leader Scalise says he'll look to Energy and Commerce for AI legislation rather than to Obernolte. Squeezed from both leaderships, the draft is unlikely to move as written this year.
 
-
-
-
-note that the reset means we'll getan agreement next time
-provides beginning of regulatory regime
-
+Two things temper my pessimism. The three-year sunset means non-renewal is the default: whichever side likes the deal less in 2029 just lets it lapse, and the renegotiation happens with three years of audit reports and incident data on the table instead of vibes. And even a lapsed GAAIA leaves institutional residue: a funded CAISI, a licensed auditor ecosystem, reporting rails that exist. Regulatory regimes rarely spring fully formed; they accrete. This is what the beginning of one looks like.
