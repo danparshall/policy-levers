@@ -4,6 +4,24 @@ Claude draft rewritten against dotfiles/VOICE.md + docs/reference/llm-writing-ti
 (contrast-scaffold cluster thinned 6->2, triads broken, labeled devices cut,
 provenance claim corrected to "gone through").  Dan still owns seams.
 Crosspost: LessWrong (NB: LW AI-writing policy), BlueDot.
+2026-07-18 corrections pass (per results/20260717_hr9363_memo_adversarial_review.md):
+"exact inverse" retired (GAAIA 102(d)(2)(B) is the identical clause); repeal-and-replace
+softened to political-not-textual cost; immunity claw-back downgraded to fair-notice +
+optics; 5002 double-amendment collision added as new para; sunset-vs-confidentiality +
+6yr-appropriations added to parenthetical. DeepSeek tidbit VERIFIED against 101 text
+(no US nexus in "deploy"/"frontier developer"; all "United States" hits are boilerplate).
+New paras are Claude-drafted in Dan's register — Dan should seam-check before publish.
+2026-07-18 later: Two-CAISIs section REWRITTEN around a thesis (Dan: "what exactly is
+the point?"). Spine: hedge vs substitute stated explicitly; substitute is intent-agnostic
+(ratchet: passage-without-GAAIA converts floor into finish line); reconcile-or-not as the
+falsifiable tell. Use-immunity confession para CUT (nuance now one descriptive clause);
+all review-refuted claims stay retired. Claude-drafted; seam-check especially here.
+2026-07-18 final: Two-CAISIs cut to TWO paragraphs per Dan's direction — clean sequencing
+story ("doing what can be done now, awaiting future fixes"). Spine: para 1 = movable
+module (sole referral verified in ih print; suspension = no-amendment fast lane; ASRS-
+before-there's-an-FAA); para 2 = the upgrade needs a second act + two cheap annex fixes
+(5002/5304 collision; sunset-unseals-the-archive w/ year-one chilling). Two-stories
+structure, tell/receipt framing, and TOC-poetry parenthetical all CUT (annex keeps them).
 -->
 
 # The Best AI Bill Congress Hasn't Introduced Yet
@@ -65,13 +83,9 @@ The fix is obvious and cheap; register a fingerprint of the evaluated weights, h
 
 
 ## Two CAISIs, five times apart
-Also noteworthy is that while GAAIA sat in draft, the House Science Committee [reported out](https://science.house.gov/2026/6/full-committee-markup-of-h-r-9341-9363-2385-5351-5584-6461-8893-9333-9334-and-9372) a separate bill, [H.R. 9363](https://www.aip.org/fyi/federal-science-bill-tracker/119th/house-of-representatives-9363), authorizing a CAISI at $20M per year with a hiring cap, focused on measurement and voluntary standards. GAAIA's CAISI is authorized at $100M per year, uncapped, with regulatory duties. Both bills are Obernolte's. 
+While GAAIA sat in draft, the House Science Committee [reported out](https://science.house.gov/2026/6/full-committee-markup-of-h-r-9341-9363-2385-5351-5584-6461-8893-9333-9334-and-9372) a separate Obernolte bill: [H.R. 9363](https://www.aip.org/fyi/federal-science-bill-tracker/119th/house-of-representatives-9363) authorizes a Center for AI Security and Innovation at $20M per year, voluntary top to bottom. The Director gets no regulatory, rulemaking, or enforcement authority, the thresholds for who counts as frontier are whatever the Director says they are, information labs share can't be used to regulate them, and the whole center sunsets in five years. GAAIA's CAISI is authorized at $100M per year with regulatory duties, and the two bills draft their centers into the *same statutory section* of the National AI Initiative Act. The clean way to read the pair is sequencing, not rivalry: 9363 is the module that can move now. It lives entirely inside Obernolte's own committee (sole referral, reported 29 to 0, likely headed for the suspension calendar, the House's no-amendment fast lane for consensus bills), while the compelled-transparency half of the program waits on Energy and Commerce, where Majority Leader Scalise says AI legislation belongs. In aviation terms: this stands up the confidential reporting desk and the measurement labs before there is an FAA behind them. What it buys is instruments and an institution. The visibility is the part still waiting. 
 
-The 5x funding delta is the difference between a measurement shop and a regulator, stated in dollars. But I pulled 9363's text, and the difference isn't really the money. The two bills draft their centers into the *same statutory section*: each adds a new section 5304 to the National AI Initiative Act. GAAIA's 5304 is the "Center for AI Standards and Innovation", which receives mandatory incident reports and licenses and disciplines the auditors. 9363's 5304 is the "Center for AI Security and Innovation", and its text says the quiet part in statute: the Director gets no regulatory, rulemaking, or enforcement authority; nothing in the section confers regulatory authority on any government; and any information a lab shares with the Center may not be used by any government, federal or state, to regulate that lab. That last one is a statutory use-immunity, the exact inverse of GAAIA's machinery.
-
-So if 9363 passes first (it cleared committee 29 to 0 and is likely headed for the suspension calendar), the section number is occupied by a center whose enabling text prohibits what GAAIA's center must do. GAAIA stops being "create an oversight body" and becomes "repeal and replace the body Congress created last month", including clawing back an immunity that labs will have shared information in reliance on. There is a designed escape hatch: 9363 lets the Secretary study upgrading the Center, with recommendations to Congress on additional authority and funding. Growth is contemplated; it just requires a second act of Congress, and second acts are exactly what preemption opponents doubt will ever come.
-
-(One small poetry: 9363's own table-of-contents amendment still calls it the Center for AI *Standards* and Innovation. The body renamed it to Security; the table of contents didn't get the memo. Even the 15-page bill needs a technical corrections annex.)
+The waiting is where my concern sits. 9363 contemplates its own upgrade (the Secretary may study growing the Center and send Congress recommendations for more authority and funding), but the upgrade takes a second act of Congress, and GAAIA's reception so far shows what second acts are up against. A voluntary measurement shop is a fine floor and a lousy finish line, and nothing in either text decides which this becomes; the votes that haven't happened decide. Two cheap fixes would keep the upgrade path real, and both are in the technical corrections annex Canary is filing. First, the bills currently collide instead of composing: same section number, incompatible edits to the same definitions section, so whichever passes second, its amendment instructions misfire. Reconciling them is minutes of Legislative Counsel work. Second, 9363's five-year sunset terminates the whole section, confidentiality protections included; on a plain reading, every good-faith disclosure in the files unseals at year five, and no lab's general counsel will miss that, which chills the voluntary channel in year one rather than year six. A one-sentence grandfather clause fixes it. Doing what can be done now is a reasonable way to legislate. The annex just asks that "now" be drafted so that "later" stays possible.
 
 
 ## What we're doing about it

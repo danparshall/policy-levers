@@ -3,6 +3,7 @@
 - Date: 2026-07-17
 - Line: gaaia-analysis
 - Inputs: NOTES.md (11/11/9), crm/, web research this session (roster: clerk.house.gov SY00; 9363: congress.gov + AIP tracker; landscape: Roll Call, Lawfare, FedScoop, DLA Piper, WEDI)
+- Correction 2026-07-18: Franklin district FL-15 → FL-18 (redistricted 2023; caught in `20260718_staffer_name_hunt.md`).
 - Design constraint (Dan): every email is educational — "thanks for taking this seriously, available for technical briefings to you, your staff, or your colleagues" + "further points you may not have considered" with no stated direction. No calls to action on specific legislation ⇒ stays outside 501(h) lobbying caps.
 
 ## Headline structural finding
@@ -21,13 +22,13 @@
 
 | Member | Party/State | Committee seats (relevant) | Role | Payload emphasis |
 |---|---|---|---|---|
-| Jay Obernolte | R-CA-23 | Science; E&C (verify); GOP Policy Cmte Chair | GAAIA lead; 9363 sponsor | Full technical menu. Two-CAISIs accommodation question. Tier 1 bugs annex (his drafting team fixes them). Tier 3.1 zero-revenue gap, 3.7 weight notice, 3.8 provenance. Inseverability (2.8) — protects his preemption side of the trade. |
+| Jay Obernolte | R-CA-23 | Science; E&C (verify); GOP Policy Cmte Chair | GAAIA lead; 9363 sponsor | Full technical menu. Two-CAISIs accommodation question. **Revised narrow ask (per 9363 adversarial review): before floor action, reconcile the §5304 slot AND the §5002 redesignation schemes (whichever enacts second misfires), and clarify (e)(2)(B) interplay with any successor mandatory-reporting regime — technical-corrections framing, education-side.** Tier 1 bugs annex (his drafting team fixes them; add §112(q)(3) "section 111" mis-anchor). Tier 3.1 zero-revenue gap, 3.7 weight notice, 3.8 provenance. Inseverability (2.8) — protects his preemption side of the trade. |
 | Lori Trahan | D-MA-3 | E&C | GAAIA co-lead | Same full menu, safety-side asks foregrounded: 3.1, 3.7, 3.8, coup-note gaps (3.2/3.3). Inseverability — protects her transparency side of the trade. |
 | Suhas Subramanyam | D-VA-10 | Science | GAAIA co-releaser; sponsor H.R. 9372 (data-center energy measurement) | Science-lane material + § 321 data-center bullet gap (Tier 1.11) is literally his issue. |
-| Scott Franklin | R-FL-15 | Science | GAAIA co-releaser | Science-lane + Tier 1 annex; measurement-into-decisions (3.6). |
+| Scott Franklin | R-FL-18 | Science | GAAIA co-releaser | Science-lane + Tier 1 annex; measurement-into-decisions (3.6). |
 | Erin Houchin | R-IN-9 | E&C | GAAIA co-releaser | E&C-lane: core trade, inseverability, sunset integrity. |
 | Scott Peters | D-CA-50 | E&C | GAAIA co-releaser | E&C-lane: same as Houchin, Dem framing; his statement stressed "first step" — reauthorization wiring (3.9, sunset-as-forcing-function) fits. |
-| Valerie Foushee | D-NC-4 | Science | 9363 Democratic lead | 9363 lane only: two-CAISIs delta, foreclose-vs-accommodate, hiring-cap implications. |
+| Valerie Foushee | D-NC-4 | Science | 9363 Democratic lead | 9363 lane only: two-CAISIs delta, foreclose-vs-accommodate, hiring-cap implications. **Add (per 9363 adversarial review): §5002/§5304 reconciliation as technical corrections; 9363's own sunset-vs-confidentiality + FY2032-auth-vs-5yr-sunset mismatches (her bill's bugs, valence-neutral).** |
 
 ## Tier B — House Science sweep (full committee, 21R + 1 vacancy / 18D)
 

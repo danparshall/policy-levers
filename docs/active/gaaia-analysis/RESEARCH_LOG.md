@@ -1,4 +1,44 @@
 ---
+## Session: 2026-07-18 — 20260718_matrix_and_blog_corrections
+
+### Topics Explored
+- Applied the accumulated correction queue: Franklin FL-15→FL-18 in the contact
+  matrix (+ dated correction note; revised Obernolte/Foushee narrow asks per the
+  9363 adversarial review); blog corrections per the review's "defensible framing"
+  list ("exact inverse" retired, repeal-and-replace → political-not-textual,
+  §5002 collision + sunset mismatches added).
+- Two-CAISIs section then rewritten twice on Dan's challenge ("what exactly is
+  the point?"): thesis version (hedge vs. substitute, intent-agnostic ratchet),
+  then final two-paragraph cut per Dan — clean sequencing story ("doing what can
+  be done now, awaiting future fixes"; ASRS-before-there's-an-FAA).
+
+### Provisional Findings
+- 9363: sole referral to House Science (verified from ih print; no other House
+  gate remains — suspension is the no-amendment consensus fast lane; Senate is
+  the real filter). Introduction cosponsors: Foushee, Babin, Mann, Franklin
+  (partially resolves matrix cosponsor open item; Mann new).
+- DeepSeek/extraterritoriality tidbit VERIFIED (no US nexus in §101(8)/(12);
+  all "United States" full-text hits are boilerplate) — blog unchanged there.
+- **Sunset unseals the archive:** 9363 (k) terminates the section with no
+  grandfather clause ⇒ plain reading strips (e)(1)/(e)(2) protections from
+  already-shared info at year five; FOIA Ex. 4 partial backstop on disclosure,
+  none on government-use (Landgraf retroactivity = colorable counter). Chills
+  the voluntary channel in year one. Fix = one-sentence grandfather clause ⇒
+  **new annex ask**, valence-neutral, natural for the Foushee email.
+
+### Results
+- Edits in place: `results/20260717_contact_matrix.md`,
+  `essays/canary/gaaia-visibility-not-control_DAN.md` (header changelog logs all
+  three passes). Convo: `convos/20260718_matrix_and_blog_corrections.md`.
+
+### Next Steps
+- Dan seam-check of the two-paragraph Two-CAISIs section; his transitions +
+  501(h) call remain the publish blockers.
+- Add the (e)-grandfather-clause ask to NOTES.md tiers.
+- Then the standing queue: Schrage pilot email, front-desk verification pass,
+  Burns/Kindler follow-ups 7/21, rh-text reconcile when GPO posts.
+
+---
 ## Session: 2026-07-18 — staffer name-hunt pass (11 offices)
 
 ### Topics Explored
