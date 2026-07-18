@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-07-17
+Last updated: 2026-07-18
 
 ## Current Focus
 
@@ -16,9 +16,11 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 |-------|---------|---------|
 | 501c3-formation | 2026-07-02 | Incorporate Canary Institute as a Maryland nonstock corporation with federal 501(c)(3) exemption. |
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
-| gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). NEXT: staffer name-hunt (11 offices) + Burns/Kindler emails; blog publish + crossposts; fold 9363 adversarial-review results into Science-sweep content; assemble comment letter. |
+| gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). Contact matrix + call sheet built (7/17); Burns/Kindler + 11 more Tier A/B staffers captured in `crm/contacts.yaml` (name-hunt pass, `results/20260718_staffer_name_hunt.md`). NEXT: Franklin FL-15→FL-18 matrix correction; pilot email to Schrage (Houchin, highest-confidence hit); front-desk verification pass (~11 calls); Burns/Kindler follow-ups 7/21; blog publish + crossposts; fold 9363 adversarial-review results into Science-sweep content; assemble comment letter. |
 
 ## Recent Sessions
+
+- **2026-07-18** — Staffer name-hunt pass for 11 uncaptured priority House offices (line: `gaaia-analysis`, on main). 11 parallel research subagents (LegiStorm free tier + LinkedIn + press releases + AASLH LD PDF + AARST disbursement scrape + Legisletter/RocketReach/ZoomInfo). **11/11 routable staffers identified**; 11 new entries in `crm/contacts.yaml` under "GAAIA HOUSE OUTREACH (2026-07-18 name-hunt pass)" (contacts 25→36); Burns/Kindler/samantha-foster untouched per handoff. **Standout hit: Niel Schrage (Houchin)** — Sr Policy Adviser, CS background, MIT senior-Hill-only AI seminar invitee, email header-verified via disbursement scrape ⇒ pilot-email candidate. **Weakest coverage: Babin (Science Chair)** — AI portfolio runs through committee majority staff (Janushkowsky/Smith), personal-office LD slot vacant (Tucker → Blue Origin Nov 2025). **District correction: Franklin is FL-18 not FL-15** (redistricted 2023); update matrix + payload map. No dedicated "AI LA" title surfaced in free tier at any office — route via LD or Sr Policy Adviser. Two D-side offices flagged for tone (Foushee 2026-primary AI-PAC involvement; Stevens 2026 Senate run). Full report + per-office notes + methods + source-ranking: `results/20260718_staffer_name_hunt.md`. Next: FL-15→FL-18 matrix correction; pilot email to Schrage; front-desk verification pass on ~11 offices.
 
 - **2026-07-17→18 (parallel terminal)** — Audit-deployment linkage verification (line: `gaaia-analysis`, on main). Opus adversarial pass refuted the blanket "no provision joins audited to deployed" claim (§111(c)+§101(20)+§112(b)+§112(g)(1)(B)); grep kernel verified exact; checkpoint-substitution framing controls (`results/20260717_audit_deployment_linkage_review.md` — this is the review cited in the full-day session's Issue-#1 erratum). NOTES Tier 3.8 reworded. Git reconciliation ×2 incl. essay stash-conflict resolution (v3 SOX section kept, placeholder dropped, DeepSeek tidbit added — tidbit needs text check before publish). Convo: `docs/active/gaaia-analysis/convos/20260717_audit_deployment_linkage_verification.md`.
 

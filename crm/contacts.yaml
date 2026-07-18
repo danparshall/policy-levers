@@ -457,6 +457,431 @@ contacts:
       the samantha-foster referral path unless she resurfaces.
     followup_by: 2026-07-21
 
+  # ===== GAAIA HOUSE OUTREACH (2026-07-18 name-hunt pass) =====
+  # LD / AI-tech LA hunts for 11 uncaptured priority offices per
+  # docs/active/gaaia-analysis/results/20260717_contact_matrix.md:
+  # Tier A minus Obernolte (Trahan, Subramanyam, Franklin, Houchin,
+  # Peters, Foushee) + front-of-queue Science sweep (Babin, Lofgren,
+  # Stevens) + McClain Delaney (MD constituent) + Whitesides (technical).
+  # Emails constructed from firstname.lastname@mail.house.gov House
+  # convention; NOT header-verified unless noted. Sources: LegiStorm
+  # free tier, LinkedIn, member press releases, AASLH LD contact list,
+  # various House staff aggregators. See RESEARCH_LOG entry 2026-07-18.
+
+  # --- Trahan (D-MA-3), Tier A, GAAIA co-lead ---
+  - id: weinrich-j-trahan
+    name: Jackie Weinrich (Jacqueline F. Weinrich)
+    title: Legislative Director (2026-)
+    senator: trahan-house
+    chamber: house
+    district: MA-3
+    office: 2233 RHOB
+    email: jackie.weinrich@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/422685/Jacqueline_F_Weinrich.html
+      LinkedIn: https://www.linkedin.com/in/jacqueline-weinrich/
+      Email format confirmed in Matsui-era E&C Dem staff roster:
+      https://lutheranservices.org/wp-content/uploads/2025/05/EC-staffers.pdf
+    priority: top
+    context: |
+      GAAIA co-lead's office. Weinrich = current LD (moved from Matsui;
+      health-policy background, not AI SME) — route through her to the
+      E&C/tech LA. Alt if bounce: Alexandra Karabatsos (prior LD)
+      alexandra.karabatsos@mail.house.gov.
+      Fallback: webform https://trahan.house.gov/contact/ ; front desk
+      (202) 225-3411 → ask for LD or E&C/tech LA.
+      Confidence: medium-high on LD identity; dedicated AI LA not surfaced.
+    followup_by: null
+
+  # --- Babin (R-TX-36), Tier B, Science Chair ---
+  # AI portfolio runs through House Science majority committee staff
+  # (both ex-Babin personal office), not a personal-office LA.
+  - id: janushkowsky-s-babin
+    name: Steve Janushkowsky (Stephen Alexander Janushkowsky)
+    title: "Staff Director, Strategy & Operations, House Science Committee (Jan 2025-); former Babin Chief of Staff"
+    senator: babin-house
+    chamber: house
+    district: TX-36
+    office: 2236 RHOB (personal)
+    email: steve.janushkowsky@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/227820/Stephen_Alexander_Janushkowsky.html
+      RocketReach: https://rocketreach.co/steve-janushkowsky-email_34943227
+    priority: tier1
+    context: |
+      SCIENCE CHAIR: AI portfolio flows through committee majority staff,
+      not a personal-office LA. Janushkowsky is the routing target for
+      H.R. 9363 work.
+      Alts:
+      - Danny Smith | Sr Adviser / Member Services Dir, House Sci Cmte
+        (ex-Babin LD) | danny.smith@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/271032/Daniel_A_Smith.html
+      - Lauren Ziegler | Chief of Staff, personal office (Dec 2024-;
+        ex-NASA Kennedy leg. affairs) | lauren.ziegler@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/256864/Lauren_Madeline_Ziegler.html
+      Personal LD slot appears vacant (Will Tucker → Blue Origin Nov 2025).
+      Fallback: webform https://babin.house.gov/contact/ ;
+      personal FD (202) 225-1555; cmte FD (202) 225-6371.
+      Confidence: medium.
+    followup_by: null
+
+  # --- Lofgren (D-CA-18), Tier B, Science Ranking Member ---
+  - id: powell-c-lofgren
+    name: Chad Powell
+    title: Policy Adviser (April 2023-)
+    senator: lofgren-house
+    chamber: house
+    district: CA-18
+    office: 1401 LHOB
+    email: chad.powell@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/265556/Chad_E_Powell.html
+      Email format from Legisletter:
+      https://legisletter.org/legislator/zoe-lofgren-L000397/contact
+    priority: tier1
+    context: |
+      Science RM. Powell is best inference for tech portfolio (no staffer
+      with explicit AI/tech title surfaced in free tier; office is
+      Silicon Valley-adjacent). Confirm via front desk before cold email.
+      Alts:
+      - Arlet Abrahamian | Senior Legislative Counsel (likely Judiciary
+        AI/IP portfolio, given Lofgren's seat on Cts/IP/AI/Internet subc)
+        arlet.abrahamian@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/203700/Arlet_E_Abrahamian.html
+      - Ricky Le | Chief of Staff (June 2025-, ex-Deputy CoS/Counsel)
+        ricky.le@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/46107/Ricky_Xuan_Le.html
+      No named personal-office LD found. Lofgren was urged to retire fall
+      2025 → office may be in slower-hire posture. DO NOT use LinkedIn
+      DM (two active profiles → impersonation risk).
+      Fallback: webform https://lofgren.house.gov/contact ;
+      front desk (202) 225-3072 → ask for "LA covering AI and Science
+      Committee portfolio."
+      Confidence: medium (Powell's AI portfolio is inferred).
+    followup_by: null
+
+  # --- Foushee (D-NC-4), Tier A, H.R. 9363 Democratic lead ---
+  - id: spencer-h-foushee
+    name: Harden Spencer (Lester Harden Spencer III)
+    title: Legislative Director (May 2024-)
+    senator: foushee-house
+    chamber: house
+    district: NC-4
+    office: 2452 RHOB
+    email: harden.spencer@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/319935/Lester_Harden_Spencer_III.html
+      ZoomInfo: https://www.zoominfo.com/p/Harden-Spencer/2881367657
+      Legisletter: https://legisletter.org/legislator/valerie-foushee-F000477/contact
+    priority: top
+    context: |
+      9363 D-lead's office. Spencer = LD (two-source confirm), oversees
+      full policy portfolio incl. Science Cmte work.
+      Alt (likely-tech Senior Policy Adviser, unconfirmed portfolio):
+      - Arturo Reyes | Sr Policy Adviser (March 2026-; hired right before
+        H.R. 9363 ramp) | arturo.reyes@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/321077/Arturo_M_Reyes.html
+      CoS context: Elizabeth Adkins | elizabeth.adkins@mail.house.gov
+      Fallback: webform https://foushee.house.gov/contact ;
+      front desk (202) 225-1784 → ask for "LA covering Science Committee /
+      H.R. 9363."
+      Confidence: HIGH on Spencer as LD; medium on Reyes carrying AI.
+      Caveat: Foushee in competitive 2026 primary with heavy AI-PAC
+      involvement on both sides — office may filter AI-industry-adjacent
+      outreach carefully; lead with Canary's non-industry framing.
+    followup_by: null
+
+  # --- Stevens (D-MI-11), Tier B, Research & Tech Subc RM ---
+  - id: steadman-l-stevens
+    name: Liam Steadman (Liam Robert Steadman)
+    title: Deputy Chief of Staff / Legislative Director (Sept 2023-)
+    senator: stevens-house
+    chamber: house
+    district: MI-11
+    office: 2411 RHOB
+    email: liam.steadman@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/213147/Liam_Robert_Steadman.html
+      Legisletter: https://legisletter.org/legislator/haley-stevens-S001215/contact
+    priority: tier1
+    context: |
+      R&T Subc RM (CAISI's subcommittee jurisdiction). Steadman = DCoS/LD,
+      confirmed by three independent free sources.
+      Alts:
+      - Casey Denoyer | Legislative Assistant (MI native, UMich+GWU MPA;
+        auto-industry background — likely tech-adjacent, unconfirmed AI)
+        casey.denoyer@mail.house.gov
+      - Justin German | Chief of Staff (ex-DCoS/LD to Rep. Ann Kuster)
+        justin.german@mail.house.gov
+      - Sanjay Reddy | LC (ex-health-tech data scientist)
+        sanjay.reddy@mail.house.gov
+      - Brendan Greenlee | Staff Asst (data-analytics/AI background)
+        brendan.greenlee@mail.house.gov
+      Source for alts: https://stevens.house.gov/media/press-releases/rep-stevens-announces-congressional-staff
+      Caveat: Stevens announced 2026 Senate run in April 2025 → House
+      office staff turnover / attention shift likely; verify Steadman
+      still in role before pitch. If he punts, ask for "Democratic staff
+      director, Science Committee, Research & Tech Subc" (sits under
+      Lofgren's full-cmte minority staff).
+      Fallback: https://stevens.house.gov/connect-rep-haley-stevens ;
+      front desk (202) 225-8171.
+      Confidence: medium.
+    followup_by: null
+
+  # --- Subramanyam (D-VA-10), Tier A, GAAIA co-releaser + HR 9372 sponsor ---
+  - id: bagwell-s-subramanyam
+    name: Shaefer Bagwell (Shaefer Lewis Bagwell)
+    title: Legislative Director (March 2026-, moved from Rep. Whitesides D-CA-27)
+    senator: subramanyam-house
+    chamber: house
+    district: VA-10
+    office: 1009 LHOB
+    email: shaefer.bagwell@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/243403/Shaefer_Lewis_Bagwell.html
+      LinkedIn: https://www.linkedin.com/in/shaefer-bagwell-5670a342/
+    priority: top
+    context: |
+      Co-releaser of GAAIA + H.R. 9372 (data-center energy) sponsor.
+      Subramanyam personally has deep AI-policy chops (Obama OSTP AI
+      advisor), so tech portfolio likely sits with Member + LD, not a
+      dedicated LA. No named AI LA surfaced.
+      Alts:
+      - Chris Katson | prior LD (from Jan 2025 announcement, ex-Wexton
+        LD) — may still be in office | chris.katson@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/250961/Christopher_S_Katson.html
+      - Gabriela Garcia-Ugalde | Communications Director (useful for
+        GAAIA/9372 press-side follow-up) | gabriela.garcia-ugalde@mail.house.gov
+        or generic Suhas.Press@mail.house.gov
+      - Abby Carter | Chief of Staff | abby.carter@mail.house.gov
+      Source for alts: https://subramanyam.house.gov/media/press-releases/congressman-suhas-subramanyam-announces-key-hires-his-congressional-staff
+      Caveat: Bagwell is March-2026 hire; LegiStorm salary shows
+      overlapping March-2026 payments from Whitesides and Subramanyam
+      (mid-month transition) — if email bounces, may not be fully cut over.
+      Fallback: webform https://subramanyam.house.gov/contact ;
+      front desk (202) 225-5136.
+      Confidence: medium (LD identity well-verified via salary records).
+    followup_by: null
+
+  # --- Franklin (R-FL-18), Tier A, GAAIA co-releaser Science ---
+  # DISTRICT CORRECTION: Franklin represents FL-18 since 2023 redistricting,
+  # NOT FL-15 as listed in the 2026-07-17 contact matrix. Update matrix +
+  # payload map at next pass.
+  - id: mosley-l-franklin
+    name: Lindsey Mosley (Lindsey Taylor Mosley)
+    title: Legislative Director (May 2025-)
+    senator: franklin-house
+    chamber: house
+    district: FL-18
+    office: 2301 RHOB
+    email: lindsey.mosley@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/404926/Lindsey_Taylor_Mosley.html
+      Franklin staff-transition (May 2025):
+      https://floridapolitics.com/archives/738693-scott-franklin-announces-staff-changes-promotions-within-congressional-office/
+      LinkedIn: https://www.linkedin.com/in/lindsey-mosley-9649b0119/
+    priority: top
+    context: |
+      GAAIA co-releaser. Mosley's portfolio = nat sec / approps / veterans
+      (not AI-specific, but owns full leg portfolio; no dedicated AI/tech
+      LA surfaced).
+      Alt: Melissa Kelly | Chief of Staff | melissa.kelly@mail.house.gov
+      LinkedIn: https://www.linkedin.com/in/melissa-kelly-8283b07/
+      DISTRICT: FL-18 (correct current district; was FL-15 in 2021-22).
+      Bioguide F000472. Same person: Clifford Scott Franklin, ex-Navy
+      captain, House Science, AI Task Force.
+      DO NOT EMAIL (stale names in older sources):
+      - Charlie Truxal (former LD → Rep. Kat Cammack CoS March 2025)
+      - Will Sitton (LD 2023-May 2025 → Invariant LLC)
+      Fallback: webform https://franklin.house.gov/contact/ ;
+      front desk (202) 225-1252 → ask for LA on Science Cmte / AI Task
+      Force portfolio.
+      Confidence: medium-high on Mosley as LD (3 sources).
+    followup_by: null
+
+  # --- Houchin (R-IN-9), Tier A, GAAIA co-releaser E&C ---
+  # STRONGEST AI-PORTFOLIO HIT OF THE PASS.
+  - id: schrage-n-houchin
+    name: Niel Schrage
+    title: Senior Policy Adviser (Jan 2026-)
+    senator: houchin-house
+    chamber: house
+    district: IN-9
+    office: 342 CHOB
+    email: niel.schrage@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/541087/Niel_Schrage.html
+      LinkedIn: https://www.linkedin.com/in/nschrage/
+      Email VERIFIED via scraped House disbursement list:
+      https://aarst.org/wp-content/uploads/2025/06/Congress-Members-with-Staff-Office-Contacts.xlsx
+      MIT "Future of AI" seminar invite (Mar 31-Apr 2 2026; restricted
+      to senior Hill staff working on AI policy):
+      https://disclosures-clerk.house.gov/gtimages/ST/2026/500033799.pdf
+    priority: top
+    context: |
+      GAAIA co-releaser E&C. STRONGEST AI-portfolio hit of the 07-18
+      pass: Schrage has CS background (Harvard), prior tech-and-competition
+      work at Invariant, and was invited to a senior-Hill-staff-only MIT
+      AI seminar in spring 2026. Email header-verified via the AARST
+      disbursement scrape.
+      Alts:
+      - Caroline Bender | Chief of Staff (Nov 2025-; prior LD/Sr LA)
+        caroline.bender@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/309635/Caroline_K_Bender.html
+      - Parker Armstrong | Communications Director (press angle on GAAIA)
+        parker.armstrong@mail.house.gov
+      Personal-office LD slot: Jon Van Buren departed Oct 2025; no public
+      successor. Bender (CoS) is the practical escalation.
+      Fallback: webform https://houchin.house.gov/contact ;
+      front desk (202) 225-5315 → ask for "Niel Schrage, Senior Policy
+      Adviser, re: AI policy / GAAIA discussion draft."
+      Confidence: HIGH on Schrage as AI target.
+    followup_by: null
+
+  # --- Peters (D-CA-50), Tier A, GAAIA co-releaser E&C ---
+  - id: cooke-d-peters
+    name: Dillon Cooke (Dillon K. Cooke)
+    title: Legislative Director (May 2025-)
+    senator: peters-house
+    chamber: house
+    district: CA-50
+    office: 2369 RHOB
+    email: dillon.cooke@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/341986/Dillon_K_Cooke.html
+      Peters DC-staff-changes announcement:
+      https://scottpeters.house.gov/press-releases/rep-peters-announces-changes-to-washington-dc-staff-0
+    priority: top
+    context: |
+      GAAIA co-releaser E&C. NB: this is Rep. Scott Peters (D-CA-50,
+      bioguide P000608, House), NOT Sen. Gary Peters (D-MI). Cooke = LD.
+      Alts:
+      - Adam Taylor | DC Chief of Staff (May 2025-; formerly LD)
+        adam.taylor@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/248928/Adam_L_Taylor.html
+      - Ziyan Adisa Sears | Sr LA, Energy Policy (Jan 2026-; closest
+        confirmed E&C staffer, covers other E&C portfolio)
+        ziyan.sears@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/372548/Ziyan_Adisa_Sears.html
+      - Lena Jacobson | Comms Director (press only)
+        lena.jacobson@mail.house.gov
+      No dedicated AI/tech LA surfaced (portfolios split by subject —
+      Health, Energy). LD is correct fallback to route AI internally.
+      Fallback: webform https://scottpeters.house.gov/email-me ;
+      front desk (202) 225-0508 → ask for LA covering E&C Comms & Tech / AI.
+      Confidence: medium.
+    followup_by: null
+
+  # --- McClain Delaney (D-MD-6), Tier B + MD CONSTITUENT bonus ---
+  # Canary is a Maryland org → constituent-adjacent hook.
+  - id: donlon-a-mcclaindelaney
+    name: Andrew Donlon (Andrew Steven Donlon)
+    title: Legislative Director / Counsel (LD Jan 2026-; Leg Counsel from Jan 2025)
+    senator: mcclaindelaney-house
+    chamber: house
+    district: MD-6
+    office: 1130 LHOB
+    email: andrew.donlon@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm (current): https://www.legistorm.com/person/bio/278500/Andrew_Steven_Donlon.html
+      LinkedIn: https://www.linkedin.com/in/andrew-donlon-1a00a745/
+    priority: top
+    context: |
+      MD CONSTITUENT-ADJACENT (Canary = MD org). Freshman office → small
+      legislative shop; tech policy likely sits directly with Donlon
+      (LD/Counsel) given member's own NTIA/Common Sense Media background.
+      Alts (CoS context — two names in play):
+      - Kaylee Robinson | Chief of Staff (Jan 2026-; prev LD Rep. Cartwright)
+        kaylee.robinson@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/332995/Kaylee_M_Robinson.html
+      - Sonny Holding | listed as CoS in Jan 2025 Maryland Matters piece;
+        may have moved/reshuffled
+        https://marylandmatters.org/2025/01/06/congressional-newbies-fill-out-staffs-fundraisers-snowed-under-more-personnel-news/
+      Email domain renders as `mcclaindelaney` (no hyphen) per house.gov
+      URL; format not header-verified — treat as best-guess.
+      Fallback: webform https://mcclaindelaney.house.gov/contact ;
+      front desk (202) 225-2721 → ask "who handles Science Cmte / AI
+      portfolio," confirm Donlon.
+      Confidence: HIGH on Donlon as LD/Counsel; medium on email format.
+    followup_by: null
+
+  # --- Whitesides (D-CA-27), Tier B, ex-NASA CoS / technical uptake ---
+  - id: verma-k-whitesides
+    name: Kara Verma
+    title: Legislative Director (April 2026-)
+    senator: whitesides-house
+    chamber: house
+    district: CA-27
+    office: 1504 LHOB
+    email: kara.verma@mail.house.gov
+    phone: null
+    cell: null
+    first_met: null
+    source: |
+      Name-hunt 2026-07-18.
+      LegiStorm: https://www.legistorm.com/person/bio/361312/Kara_Verma.html
+    priority: tier1
+    context: |
+      Science Cmte, ex-NASA CoS / ex-Virgin Galactic CEO — technical
+      uptake candidate. Prior LD (Shaefer Bagwell) left for Subramanyam
+      in March 2026; Verma is ~3 months in. No dedicated AI/tech LA
+      surfaced; AI likely rolls up to LD directly.
+      Alts:
+      - Jennifer Goedke | Chief of Staff | jennifer.goedke@mail.house.gov
+        Legisletter: https://legisletter.org/legislator/george-whitesides-W000830/contact
+      - Gabriel Harrison | LA (climate/nat resources; Climate Crossroads
+        Fellow 2025-26 — not AI, but tech-adjacent staffer worth noting)
+        gabriel.harrison@mail.house.gov
+        LegiStorm: https://www.legistorm.com/person/bio/534519/Gabriel_R_Harrison.html
+      Caveat: Verma's prior background (Harder, McDonald Rivet, Jackson
+      Lee; CyberHouston intern) shows no strong AI-policy footprint —
+      brief from first principles rather than assuming context.
+      Aggregators (Legisletter etc.) still list Bagwell as LD — stale.
+      Fallback: webform https://whitesides.house.gov/contact/ ;
+      front desk (202) 225-1956.
+      Confidence: medium-high on LD identity (single-source; recent turnover).
+    followup_by: null
+
 
 # ===== Front-desk warm contacts (no cards but logged) =====
 # These open doors on return visits; worth a personal note when back

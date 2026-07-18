@@ -1,4 +1,89 @@
 ---
+## Session: 2026-07-18 — staffer name-hunt pass (11 offices)
+
+### Topics Explored
+- Name-hunt for LD / AI-tech LA at 11 uncaptured priority offices from
+  `results/20260717_contact_matrix.md` mechanics item #1: Tier A minus
+  Obernolte (Trahan, Subramanyam, Franklin, Houchin, Peters, Foushee) +
+  front-of-queue Science sweep (Babin, Lofgren, Stevens) + McClain Delaney
+  (MD constituent lane) + Whitesides (technical uptake candidate).
+- 11 parallel research subagents; sources hit: LegiStorm free tier,
+  LinkedIn, member press releases, AASLH LD contact PDF, various House
+  staff aggregators (Legisletter, RocketReach, ZoomInfo).
+
+### Provisional Findings
+- **Hit rate: 11/11 identified a routable staffer** (LD or Sr Policy Adviser).
+  Confidence ranges high → medium; no office fell back to pure webform.
+- **Best AI-portfolio hit: Niel Schrage (Houchin)** — CS background, MIT
+  senior-Hill-staff-only AI seminar attendance spring 2026, email
+  independently verified via AARST disbursement scrape. HIGH confidence.
+- **Weakest personal-office coverage: Babin (Science Chair)** — AI portfolio
+  runs through committee majority staff (Janushkowsky = Staff Director,
+  Danny Smith = Sr Adviser; both ex-Babin), not personal-office LA.
+  Personal-office LD slot appears vacant (Tucker → Blue Origin Nov 2025).
+- **No dedicated "AI LA" surfaced in free tier for any office** — LegiStorm
+  Pro paywalls the full staff roster. Route via LD or Sr Policy Adviser.
+- **Cross-office staff-mobility chain:** Shaefer Bagwell moved Whitesides →
+  Subramanyam as LD in March 2026 (LegiStorm salary shows overlapping
+  payment); Kara Verma is Whitesides's replacement LD (April 2026). Both
+  captured; Verma is ~3 months in as of 07-18.
+- **Emails: house.gov `firstname.lastname@mail.house.gov` convention** used
+  throughout; only Schrage's is header-verified (via disbursement list).
+  Treat rest as best-guess; front-desk confirmation recommended before
+  cold email at scale.
+
+### Notable Corrections & Flags
+- **Franklin district correction: FL-18, not FL-15** (redistricted 2023).
+  Bioguide F000472 = Clifford Scott Franklin, ex-Navy captain. The 07-17
+  contact matrix and payload-map table list him as FL-15 — outdated.
+  Update `results/20260717_contact_matrix.md` and any downstream tables
+  at next pass.
+- **Foushee 2026 primary caveat:** heavy AI-PAC involvement on both sides
+  (WRAL) → office may filter AI-industry-adjacent outreach carefully;
+  lead with Canary's non-industry framing.
+- **Stevens 2026 Senate run** (announced April 2025) → House office
+  turnover / attention shift likely; verify Steadman still in role before
+  pitch.
+- **Lofgren retirement pressure** (fall 2025 SF Inquirer piece) → slower-hire
+  posture; do NOT use LinkedIn DM (two active profiles, impersonation risk).
+- **Do-not-email list at Franklin:** Charlie Truxal (→ Cammack CoS March
+  2025), Will Sitton (→ Invariant LLC May 2025) — both stale LD names still
+  appearing in older sources.
+- **McClain Delaney email format:** house.gov URL renders as
+  `mcclaindelaney` (no hyphen); NOT header-verified.
+
+### Results
+- `results/20260718_staffer_name_hunt.md` — full report (summary table,
+  per-office notes, cross-cutting findings, corrections/flags,
+  methodology + source-of-truth ranking).
+- 11 new entries in `crm/contacts.yaml` under a new "GAAIA HOUSE OUTREACH
+  (2026-07-18 name-hunt pass)" section. Total contacts now 36 (was 25).
+- Burns/Kindler/samantha-foster left untouched per handoff constraint;
+  YAML validated (parses cleanly, front_desk section intact).
+- Each entry carries: primary staffer (id, title, email, source URLs),
+  1-3 alternatives with emails, front-desk fallback with the ask to make,
+  and a confidence rating.
+- Convo: `convos/20260718_staffer_name_hunt.md`.
+
+### Next Steps
+- **Correct Franklin FL-15→FL-18** in `results/20260717_contact_matrix.md`
+  Tier A table, payload-map table, and any other reference.
+- **Front-desk verification pass** before cold-emailing at scale — one call
+  per office (~11 calls) confirms staffer still in role and email is right.
+  Cheapest at Babin (need to identify current personal-office LD anyway),
+  Stevens (Senate-run turnover risk), Whitesides/Subramanyam (verify
+  Bagwell transition complete). Schrage can be first email — highest
+  confidence and clean disbursement-verified address.
+- **Second-pass name-hunt** for Tier B Science-sweep members NOT in this
+  batch (Weber, Baird, Webster, Fleischmann, Issa, Tenney, McCormick,
+  Collins, Fong, Rouzer, Self, Harrigan, Biggs, Hurd, Haridopolos, Kennedy,
+  Begich, Van Epps on the R side; Bonamici, Ross, Salinas, Sykes, Amo,
+  Rivas, McBride, Gillen, Friedman, Riley, Menefee on the D side) —
+  deferred until after 9363-lane emails land, per sequencing in matrix.
+- **Try to identify Babin's current personal-office LD** via front-desk
+  call — post-Tucker vacancy is a gap.
+
+---
 ## Session: 2026-07-17→18 — 20260717_audit_deployment_linkage_verification
 
 ### Topics Explored
