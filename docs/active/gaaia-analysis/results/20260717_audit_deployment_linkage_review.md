@@ -1,3 +1,4 @@
+<!-- Generated during: convos/20260717_audit_deployment_linkage_verification.md -->
 # Adversarial review: does GAAIA link the audited model to the deployed model?
 
 **Date:** 2026-07-17

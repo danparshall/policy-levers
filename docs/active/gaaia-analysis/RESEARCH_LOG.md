@@ -1,4 +1,20 @@
 ---
+## Session: 2026-07-17→18 — 20260717_audit_deployment_linkage_verification
+
+### Topics Explored
+- Opus adversarial review (parallel terminal) of the "no provision joins audited to deployed" claim against GAAIA full text; multi-session git reconciliation (two divergences, one essay stash conflict).
+
+### Provisional Findings
+- Blanket claim REFUTED (§111(c) per-deployment assessment, §101(20) retrigger, §112(b) §111-compliance verification, §112(g)(1)(B) out-of-cycle reports); grep kernel verified exact (0×hash/checksum/cryptographic/fingerprint, no identity clause, no officer certification, report-level-only recordkeeping). Defensible residual: checkpoint substitution (assess A, ship B), §111(d) knowing-falsity the only hook. Converged independently with the other session's close read (Issue #1 erratum).
+- Tier 3.8 provenance ask survives intact; motivating sentence reworded in NOTES.md.
+- New essay tidbit (DeepSeek/extraterritoriality) needs a §101/"deploy"-reach text check before publish.
+
+### Results
+- `results/20260717_audit_deployment_linkage_review.md` (refutation table w/ line citations + grep verification; named controlling in STATUS Issue-#1 erratum).
+
+### Next Steps
+- Verify the DeepSeek/extraterritoriality claim against bill text; decide whether to consolidate this review with the close-read memo.
+
 ## Session: 2026-07-17 (late) — 20260717_hr9363_adversarial_review
 
 ### Topics Explored
