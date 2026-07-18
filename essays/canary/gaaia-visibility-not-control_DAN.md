@@ -43,6 +43,8 @@ So this provides a nice easy off-ramp for folks who are small potatoes.  But not
 
 For either size, violation is a fine of up to $1M/day, which may not sting if you're pulling in $30B/year: even a full year of stonewalling runs $365M, barely 1% of revenue.  Maybe it should be "greater of $1M or 0.1% of annual revenue, per day".  Otherwise labs could completely ignore this and just call it "cost of doing business".
 
+One fun tidbit is that there's nothing in there saying anything about US creators, so I guess this applies to DeepSeek?  Or at least deploying within the USA?  We'll find out!
+
 ## The audit is SOX for AI
 
 The bill doesn't tell developers what their safety practices must be. It requires large frontier developers to write their own "frontier AI framework", publish it (redactions allowed), and then submit to semi-annual audits where the IVO's job is twofold: assess whether the developer actually follows its own plan, and assess whether the plan itself is adequate. Add the required assessment of internal controls and designated senior compliance personnel, and anyone who has lived through Sarbanes-Oxley will recognize the architecture: management defines the controls, the auditor attests to design and operating effectiveness. Same deal here, with catastrophic risk in place of financial reporting.
