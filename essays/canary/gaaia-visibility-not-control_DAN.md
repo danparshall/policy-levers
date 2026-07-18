@@ -37,12 +37,11 @@ Under this regime there are basically 2 categories with required reporting:
 - "frontier developers" are labs that trained 10^26 operations (total training, including fine-tuning) _and_ $50M in prior-year annual revenue.
 - "large frontier developers" are labs with the same compute _and_ $500M in prior-year revenue; these have a heavier framework
 
-The "large frontier developers" are where most of the action happens.  Thy need to have published safety frameworks, semi-annual IVO audits, etc.  The smaller developers only need to 
-> WHAT DO THEY DO?
+The "large frontier developers" are where most of the action happens.  Thy need to have published safety frameworks, semi-annual IVO audits, etc.  The smaller developers only need to publish transparency reports concurrent with a release, file critical-safety incidents within 15 days of discovery, and have liability for knowingly false statements.  Not that it matters at this point, basically everyone is either a "large" or nothing.  This actually seems fairly prudent: we don't want to set the threshold too high for the full audit experience, but we want SOME visibility before then.
 
 So this provides a nice easy off-ramp for folks who are small potatoes.  But notice that it *also* allows a nice off-ramp for folks who are BIG potatoes, but don't have any revenue at all yet... I'm lookin' right at Ilya Sutskever's "Safe Superintelligence", which at a XYZ of funding could easily have produced a model over that 10^26 threshold, and wouldn't have to tell a soul.  So Ilya, what *are* you up to?
 
-In any case, violation is a fine of up to $1M/day, which may not sting if your revenue is $30B/year, because at that point it's only 0.1% of annual revenue.  Maybe it should be "greater of $1M/day or 1% of annual revenue".  Otherwise labs could completely ignore this and just call it "cost of doing business".
+For either size, violation is a fine of up to $1M/day, which may not sting if you're pulling in $30B/year, because at that point it's only 0.1% of annual revenue.  Maybe it should be "greater of $1M/day or 1% of annual revenue".  Otherwise labs could completely ignore this and just call it "cost of doing business".
 
 > Want a section about the IVO itself, how based on SOX they can define a plan but have to follow it
 
