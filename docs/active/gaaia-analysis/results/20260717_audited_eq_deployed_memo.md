@@ -29,3 +29,13 @@ CONFIRMED: no provision requires that a deployed frontier model be the artifact 
 - Blog v3 provenance paragraph (reword: IVO audits the framework, not the model; testimony-vs-evidence framing).
 - Comment letter annex (reproduce-and-validate coherence argument; tier-term fix; applicability clause).
 - Issue #1: closed by this memo.
+
+---
+
+## ERRATUM (2026-07-17, later same evening)
+
+Superseded in part by `20260717_audit_deployment_linkage_review.md` (adversarial pass, Opus/Nori, requested by Dan). Corrections to this memo:
+- Acceptance criterion 2 verdict ("conformity duty: none") was WRONG as stated: § 111(c) attaches the assessment duty to "such model" (per-deployed-model), § 101(20) retriggers on substantial modification, § 112(b) makes deploy-without-assessment auditable. Obligation-level closure exists.
+- "Developer chooses what to show the IVO" overstated: § 112(d)(2) requires material access limitations to appear in the audit report.
+- § 112(f)(2) reproduce-and-validate coherence argument weakened: reproduced findings are compliance/adequacy findings, not artifact findings. Do not lead with it.
+- SURVIVING claim (use this framing everywhere): no provision binds assessed weights to served weights; checkpoint substitution (assess A, ship B) is undetectable as drafted and reachable only via § 111(d) knowing-falsity. Keyword absences confirmed by the review. Tier 3.8 layered ask unaffected.
