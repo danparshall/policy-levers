@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 ## Current Focus
 
@@ -16,9 +16,11 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 |-------|---------|---------|
 | 501c3-formation | 2026-07-02 | Incorporate Canary Institute as a Maryland nonstock corporation with federal 501(c)(3) exemption. |
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
-| gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). NEXT: "whom to contact" — targeting plan mapping asks → vehicles (GAAIA inbox vs H.R. 9363 staff vs Senate) → named offices. |
+| gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). NEXT: staffer name-hunt (11 offices) + Burns/Kindler emails; blog publish + crossposts; fold 9363 adversarial-review results into Science-sweep content; assemble comment letter. |
 
 ## Recent Sessions
+
+- **2026-07-17 (full day)** — Contact matrix, calls, blog v3, two close reads (line: `gaaia-analysis`, on main; stale branch reset to main). Matrix (`results/20260717_contact_matrix.md`): sponsor six + Foushee + full Science sweep (21R+18D) + Foster; **both CAISIs are Obernolte's** (he sponsors H.R. 9363 too) ⇒ his office is the top target. Call sheet built (`results/20260717_call_sheet.md`, Rayburn cluster for next week's walk); Dan's calls captured **Burns (Obernolte)** and **Kindler (Foster AI specialist)** into crm, followups 7/21. Blog to v3 (`essays/canary/gaaia-visibility-not-control_DAN.md`): SOX-for-AI (+ §101(1) benefits-outweigh-risks-no-floor finding), Response, Two-CAISIs sections landed; Dan transitions + 501(h) call on comment-invite aside PENDING. Tier correction: duties are two-tier ($50M frontier / $500M large-frontier; frameworks+audits at $500M only) — NOTES was right, blog compression was the error. **Issue #1 closed with erratum**: my "no linkage" close read refuted by Dan's adversarial Nori/Opus pass; controlling framing = checkpoint substitution (assess A, ship B) undetectable, §111(d) knowing-falsity the only hook (`results/20260717_audit_deployment_linkage_review.md` controls). **Issue #2 closed**: 9363 introduced text pulled (`bills/hr9363/`); §5304 slot collision (Standards vs Security), (i)/(l) locks, (e)(2)(B) use-immunity ⇒ ceiling-as-drafted verdict, PENDING its own adversarial review (Dan has prompt) + rh-text reconcile. New annex candidates: §112 tier-term inconsistency; no US-nexus clause (Mistral/DeepSeek ambiguity); §101(1) no-floor standard. Landscape: Dem AI Commission opposition is part rival-product (framework for Jeffries, 2027); Scalise routes AI to Guthrie ⇒ comment window is the leverage. Max Katz thread status still unanswered. Convo: `docs/active/gaaia-analysis/convos/20260717_gaaia_contact_matrix.md`.
 
 - **2026-07-17** — Addendum to 7/16 essay-adaptations session (line: main).  Four pieces imported to `danparshall/canary-drafts` @ `020fc81` (drafts/ + crossposts/ + docs/reference/), headers record source `policy-levers @ 95e33a9`; canary-drafts copies are now the publication working versions.  Process error logged in convo: duplicate clone created at `~/code/canary-drafts` (repo was already cloned elsewhere on machine), removed after verifying pushed; another agent reconciling — existing clone needs only `git pull`.  Convo: `docs/active/main/convos/20260716_canary_lw_essay_adaptations.md` (addendum section).
 
