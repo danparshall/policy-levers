@@ -1,3 +1,5 @@
+<!-- Generated during: convos/20260717_hr9363_adversarial_review.md -->
+
 # Adversarial review: 20260717_hr9363_comparison.md
 
 - Date: 2026-07-17 (late evening); reviewer instructed to REFUTE the memo's three central inferences.
