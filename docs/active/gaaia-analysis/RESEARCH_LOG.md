@@ -34,7 +34,9 @@
 ### Next Steps
 - Dan seam-check of the two-paragraph Two-CAISIs section; his transitions +
   501(h) call remain the publish blockers.
-- Add the (e)-grandfather-clause ask to NOTES.md tiers.
+- ~~Add the (e)-grandfather-clause ask to NOTES.md~~ DONE same session
+  (`1498e19`): new "H.R. 9363 asks (staff channel)" section, grandfather clause
+  lead + 5 sibling items; § 112(q)(3) added to Tier 1.
 - Then the standing queue: Schrage pilot email, front-desk verification pass,
   Burns/Kindler follow-ups 7/21, rh-text reconcile when GPO posts.
 

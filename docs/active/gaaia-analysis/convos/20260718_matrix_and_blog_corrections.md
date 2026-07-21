@@ -92,12 +92,21 @@ grandfather clause — new annex ask, valence-neutral, natural fit for the Foush
   - `essays/canary/gaaia-visibility-not-control_DAN.md` (header changelog documents
     all three passes)
 
+## Addendum (post-finish-convo, same session)
+
+Dan asked for the grandfather-clause ask to be added to NOTES.md. Resolution of the
+tier question: 9363 asks don't belong in the GAAIA-inbox tiers at all — they route
+through the Obernolte/Foushee staff channel. NOTES.md gained a new section, **"H.R.
+9363 asks (staff channel)"**, with the grandfather clause as lead item plus the five
+sibling review-validated items (§ 5002 collision, § 5304 slot, (e)(2)(B) clarification,
+sunset-vs-appropriations, TOC bug); GAAIA § 112(q)(3) mis-anchor added to Tier 1
+(now 12 bugs). Commit `1498e19`.
+
 ## Open Questions
 
 - Dan seam-check of the rewritten Two-CAISIs section (Claude-drafted in his register).
 - Dan's transitions + 501(h) call on the comment-invite aside — still the remaining
   publish blockers.
-- Grandfather-clause ask: add to NOTES.md (which tier — cheap ask, presumably 2.x?).
 - rh-text reconcile when GPO posts (standing).
 - Does the ASRS-without-an-FAA frame belong anywhere else in the outreach material
   (Science-sweep emails)? It compressed well in the blog.
