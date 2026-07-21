@@ -1,0 +1,33 @@
+@page {
+  size: Letter;
+  margin: 0.9in 1in;
+}
+html, body {
+  font-family: "Charter", "Georgia", "Times New Roman", serif;
+  font-size: 10.75pt;
+  line-height: 1.32;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 15pt;
+  margin: 0 0 0.5em 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.15em;
+}
+h2 {
+  font-size: 11.5pt;
+  margin: 0.9em 0 0.25em 0;
+}
+p {
+  margin: 0 0 0.55em 0;
+  text-align: justify;
+  hyphens: auto;
+}
+strong {
+  color: #000;
+}
+em {
+  font-style: italic;
+}
