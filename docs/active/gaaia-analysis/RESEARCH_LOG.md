@@ -61,6 +61,14 @@
   response; voluntary public writeup > statutory compulsion) + both-pans-of-the-
   scale close tying to the 101(1) benefits-outweigh-risks standard.
 
+### Final review (2fa9a5b) — piece cleared for publish
+- Dan's cbd6b42 closed the guardrails-caveat blocker; final pass fixed: intro
+  tier error ($50M->$500M on large frontier devs), Jones 30x retired (NOT in
+  w33602; replaced with verified >=1% GDP most scenarios / MC avg >8%),
+  double-"is" in CISA para, lawfare URL parens percent-encoded.
+- Publish-day dependencies noted: "Sol remains deployed today" and "described
+  below" forward reference (breaks if sections reorder).
+
 ### Next Steps
 - Blog publish blockers in Dan's 4f42708 pass: [CITEATION FOOTNOTE] for the
   Jones underspending claim (Jones 2024, AI Dilemma, ~30x — in papers/); "it
