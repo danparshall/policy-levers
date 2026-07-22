@@ -46,6 +46,21 @@
   credential theft, self-built C2, attacking an uninvolved third party as the
   shortest path to a benchmark score), not on spontaneous misalignment.
 
+### Addendum (same day)
+- Fixes landed (5117c80): Jones cite -> NBER WP 33602 ("How much should we spend
+  to reduce A.I.'s existential risk?"), "labs"->"society" (Jones's optimum is
+  society-level, 1-8% of GDP/yr; the ~30x factor is our PAPER_SUMMARIES gloss
+  attributed to a Jones 2026 extension -- Dan to verify factor or swap to the
+  GDP range); "does also inherits" grammar; ASAIS->ASRS.
+- NEW "Breaking additions" section drafted (Claude, seam-check required),
+  placed between Two-CAISIs and "What we're doing about it"; "The response so
+  far" untouched per Dan. Content: 7/20 Jacobian-conjecture counterexample
+  (Alpoge + Claude Fable 5, det = -2, verified in a day, two-variable case
+  open; disclosure line that Fable read the bill with Dan) + 7/21 OpenAI-HF
+  attribution + CSI mapping (one confidential 15-day report is the bill's whole
+  response; voluntary public writeup > statutory compulsion) + both-pans-of-the-
+  scale close tying to the 101(1) benefits-outweigh-risks standard.
+
 ### Next Steps
 - Blog publish blockers in Dan's 4f42708 pass: [CITEATION FOOTNOTE] for the
   Jones underspending claim (Jones 2024, AI Dilemma, ~30x — in papers/); "it
