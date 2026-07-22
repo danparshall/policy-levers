@@ -29,6 +29,10 @@ GDP"); "does also inherits" grammar; ASAIS->ASRS. NEW "Breaking additions" secti
 (Claude-drafted, seam-check REQUIRED): 7/20 Jacobian counterexample (Alpoge/Fable 5) +
 7/21 OpenAI-HF attribution, mapped to 101(7)/111(g) machinery. "Response so far"
 untouched per Dan.
+2026-07-22 (later): CISA-2015 deadline-engine paragraph added to "response so far"
+(Claude-drafted, seam-check): 301 = 10yr reauth to 2035; lapse-during-shutdown +
+funding-bill patches verified (Covington/DWT/CRS IF12959, Feb 2026 CAA patch to
+9/30/2026); engine-can-be-stolen caveat kept per orientation notes.
 -->
 
 # The Best AI Bill Congress Hasn't Introduced Yet
@@ -109,6 +113,8 @@ Canary is filing technical comments through the sponsors' feedback channel, and 
 [Lawfare has argued](https://www.lawfaremedia.org/article/congress-should-do-something--the-case-for-(fixing)-the-great-american-ai-act) the preemption makes the package net-negative as written. The [House Democratic AI commission opposed it](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/) within hours, saying it "does not meet the enormity of the moment". 
 
 Extremely relevant: the commission is drafting its own framework to hand Leader Jeffries for a hoped-for Democratic majority in 2027, so this is partly a rival product talking. Labor went further (the AFL-CIO and AFT's response was, verbatim, "hard no"), the ACLU and Americans for Responsible Innovation opposed the preemption, and the Alliance for Secure AI's Brendan Steinhauser gave the line I expect to stick: a national standard "should protect at least as much as it preempts". Meanwhile, Majority Leader Scalise says he'll look to Energy and Commerce for AI legislation rather than to Obernolte. Squeezed from both leaderships, the draft is unlikely to move as written this year (although given recent developments, perhaps the legislature will begin moving at a tech pace, instead of lawmaker pace).
+
+There is, however, one good argument for moving now rather than later.  GAAIA's Title III carries the ten-year reauthorization of the Cybersecurity Act of 2015, the liability and antitrust protections that let companies share cyber-threat intelligence with the government and with each other.  Those protections have been limping along on short-term patches tucked into funding bills (they actually lapsed during last year's shutdown), the current patch expires September 30, and both industry and the administration want a long-term fix; that gives this package a deadline engine that most AI bills never get.  The engine can be stolen, of course: strip out the reauthorization, pass it alone or patch it into the next funding bill, and the rest of GAAIA loses its ride.
 
 The three-year sunset means non-renewal is the default: whichever side likes the deal less in 2029 just lets it lapse, and the renegotiation will happen with three years of audit reports and incident data on the table instead of vibes. And even a lapsed GAAIA leaves some institutional framework: a funded CAISI, a licensed auditor ecosystem, reporting rails that exist. Regulatory regimes rarely spring fully formed; they accrete. This is what the beginning of one looks like.
 
