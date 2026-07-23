@@ -23,7 +23,11 @@
 
 7. **Gladstone attribution is precise.** The State Department commissioned the 2024 Action Plan. *America's Superintelligence Project* is separate and self-directed. Conflating them is the kind of error a national-security staffer catches.
 
-8. **One number per claim, source named in the same sentence.** Carried over from April. Staffers do not read footnotes.
+8. **Greenblatt's selection-effects argument is used unattributed on the page.** The reasoning (incidents that spill onto third parties are the ones that cannot be kept quiet, so the public record is biased toward late, externally-visible events) is the reason voluntary disclosure cannot be evaluated from outside. Ryan Greenblatt is high-credibility inside alignment and close to unknown on the Hill, and naming him reinforces the factional read we are trying to avoid. Named citation belongs in the comment letter, not here. Source tweet is X-blocked to automated fetch; verify before citing anywhere.
+
+9. **The bill's weakness on public disclosure is volunteered, not defended.** GAAIA would have gotten CAISI the information in 15 days under penalty; it would not have produced last week's public post-mortems. Conceding that is what makes the severity-distribution point read as a real fix rather than as generic more-regulation, and a staffer who watches you volunteer an inconvenient fact will believe the rest of the page.
+
+10. **One number per claim, source named in the same sentence.** Carried over from April. Staffers do not read footnotes.
 
 ---
 
@@ -91,7 +95,13 @@ Google DeepMind CEO Demis Hassabis proposed a FINRA-style Frontier AI Standards 
 
 A 30-day pre-release review is a snapshot at the deployment boundary. Both July incidents occurred before that boundary, and one involved a model that has still not been released.
 
-The Great American AI Act (Obernolte-Trahan) does better here than it is usually given credit for. Its § 111 safety-framework requirements explicitly reach internal use, including managing catastrophic risk from a model "circumventing an oversight mechanism," which is a description of what happened at OpenAI written a month before it happened. But the public transparency report is triggered by deployment, and the internal-use reporting channel runs confidentially to a Center for AI Standards and Innovation that carries its own three-year sunset.
+The Great American AI Act (Obernolte-Trahan) does better here than it is usually given credit for, and it is worth being precise about how.
+
+Under § 101(7), a critical safety incident includes a failure of a model's risk-mitigation measures and loss of control of a model. Under § 111(g)(1), the reporting clock starts when the developer DISCOVERS the incident, not when a model is deployed. Both July incidents would have been reportable to the Center for AI Standards and Innovation within 15 days, with civil penalties up to $1,000,000 per violation and each day counted separately. The § 111(a) framework requirements reach internal use directly, including managing catastrophic risk from a model "circumventing an oversight mechanism": a description of the OpenAI incident, drafted a month before it happened.
+
+What the bill would not have produced is the public account. The § 111 channel is confidential. Its public-facing output is an annual, anonymized, aggregated report to Congress and the President, first due no later than January 1, 2028, from a Center that carries a three-year sunset. On the narrow question of public disclosure, OpenAI and Hugging Face voluntarily did more last week than the bill would require.
+
+The gap that remains is not coverage. It is shape. The reports carry a date and a reason, and nothing orders them by severity. A regime built this way can tell Congress that incidents occurred. It cannot tell Congress how bad the worst one was, or how quickly severity drops off from there, which is the difference between a rough quarter and a curve that is bending.
 
 [SEAM: the "everyone agrees on SOMETHING" beat. Two lab CEOs, a national-security consultancy, an advocacy coalition, and an academic strategy paper have all published architectures. They disagree about the institution. They agree on the trigger conditions. None of it is in statute.]
 
@@ -120,7 +130,7 @@ Canary Institute · AI policy research for the public interest
 |---|---|---|
 | DGG peer-review status | Corroborated, extended to infinite family + computationally verified, NOT peer-reviewed. Language above already hedged. | Sun 7/26 |
 | Grok 4.5 independent DGG replication (~8 min) | Reported, weak sourcing (coverage garbles model names, Musk-amplified). NOT in draft. Add only if a clean source appears. | Sun 7/26 |
-| GAAIA § 111 tier thresholds | Confidential internal-use channel appears to bind LARGE frontier developers only ($500M). If so, narrow the claim. | Sun 7/26 |
+| GAAIA § 111 tier thresholds | RESOLVED 7/23. Incident reporting (f)(1)/(g) binds "frontier developer", $50M tier (§ 101(12)). Only § 111(a) frameworks and the § 111(f)(2) catastrophic-risk channel bind "large frontier developer", $500M (§ 101(15)). Draft reflects this. | done |
 | NSA/CIA director concerns | Second-hand via Leahy in *Fortune*. NOT in draft. Needs primary source. | Optional |
 
 ## Sources
