@@ -4,7 +4,11 @@ Last updated: 2026-07-24
 
 ## Current Focus
 
-MATS application (Benjamin Chang track, stage 2) is the active sprint: 3 of 10 essay questions, no length limits, epistemics-graded. Hill follow-ups from the 4/15 visit remain the standing workstream behind it.
+FRONTIER Act response is the active sprint: post is live (2026-07-24), comment letter and sponsor outreach are the open work. See `docs/active/gaaia-analysis/NOTES_FRONTIER.md` for the tiered ask list.
+
+MATS application (Benjamin Chang track, stage 2) is **submitted, awaiting response** as of 2026-07-24. No further work planned unless they come back with questions.
+
+Hill follow-ups from the 4/15 visit remain the standing workstream behind the FRONTIER push.
 
 Research library scaffolding (papers/, PAPER_INDEX, summaries) and policy-outreach code remain in parallel but are not the bottleneck.
 
