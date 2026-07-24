@@ -46,7 +46,7 @@ Two hard-locking clauses:
 
 Combined: Commerce is the only responder in the covered domain. That is a huge concentration of authority in one Cabinet officer.
 
-The gap between § 8's political framing (Houchin: "one of the most advanced AI systems … broke out of its own developer's testing environment"; Subramanyan: "four-alarm fire") and its statutory reach: § 2(6) catastrophic-risk requires 50+ deaths / serious injuries OR $1B+ in property damage. A test-environment breakout that hasn't yet caused foreseeable material harm at that magnitude may not clear the definition. § 8 is drafted for CBRN-uplift-scale or grid-attack-scale events, not for "the model escaped the sandbox" as such. See `summaries/sec-8-*.md` for the full analysis of whether § 8 would actually reach the Houchin fact pattern.
+The gap between § 8's political framing (Houchin: "one of the most advanced AI systems … broke out of its own developer's testing environment"; Subramanyam: "four-alarm fire") and its statutory reach: § 2(6) catastrophic-risk requires 50+ deaths / serious injuries OR $1B+ in property damage. A test-environment breakout that hasn't yet caused foreseeable material harm at that magnitude may not clear the definition. § 8 is drafted for CBRN-uplift-scale or grid-attack-scale events, not for "the model escaped the sandbox" as such. See `summaries/sec-8-*.md` for the full analysis of whether § 8 would actually reach the Houchin fact pattern.
 
 ### 4. Administering officer: NIST Center → Cabinet Under Secretary
 

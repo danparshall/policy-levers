@@ -1,3 +1,8 @@
+> **STALE — superseded.** Published version is `drafts/frontier-act-tech-pace.md` in
+> `danparshall/canary-drafts` (final cleanup edits were made there), live at
+> https://canaryinstitute.ai/blog/frontier-act-tech-pace as of 2026-07-24.
+> This copy is retained as drafting history only. Do not cite or edit.
+
 # Congress Moves at Tech Pace: The FRONTIER Act
 
 Just last week I wrote about the Great American AI Act (GAAIA), a 269-page discussion draft that struck me as "the best AI bill that Congress hasn't introduced yet".  I ended by hoping that Congress might start moving at tech pace, rather than policy pace; I didn't expect that to change *this* soon, but it has.

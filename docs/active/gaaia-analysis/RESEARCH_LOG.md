@@ -2,12 +2,12 @@
 ## Session: 2026-07-24 — 20260724_frontier_act_ingest
 
 ### Topics Explored
-- Formal introduction of the FRONTIER Act (Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting) on 2026-07-23 by same six sponsors as the GAAIA discussion draft (Obernolte-Trahan + Peters/Franklin/Subramanyan/Houchin).
+- Formal introduction of the FRONTIER Act (Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting) on 2026-07-23 by same six sponsors as the GAAIA discussion draft (Obernolte-Trahan + Peters/Franklin/Subramanyam/Houchin).
 - Whether FRONTIER is "GAAIA renamed" or something structurally different — answered: it's the frontier-oversight *slice* of GAAIA (roughly Title I) with substantive revision, extracted for formal introduction while workforce/cybersecurity/R&D titles are dropped from this vehicle.
 - Full-bill ingest to `bills/frontier-act/` parallel to `bills/obernolte-trahan/`: primary sources (PDFs + `pdftotext -layout` extractions + press release), 9 per-section files, 9 per-section summaries written by parallel subagents each explicitly noting drift vs GAAIA analogue, plus `OVERVIEW.md`, `FRONTIER_VS_GAAIA.md`, `README.md`, `SECTION_MANIFEST.md`.
 - Two verification passes against primary text: (a) sunset presence, (b) whistleblower/retaliation presence. Both grep'd against full body.
 - Reconstruction of the lost GAAIA splitter script (original `/tmp/split_gaaia.py` gone) — surfaced text-file drift (page footers stripped post-hoc, ~9217 → 8948 lines) that makes byte-equivalent reconstruction impossible without regenerating committed sections/. Splitter is functionally correct; documented in docstring.
-- Sponsor-on-record incident framing: Rep. Houchin's press-release quote directly cites the GPT-6/HuggingFace event ("Just this week, one of the most advanced AI systems in the country broke out of its own developer's testing environment, reaching systems it was never supposed to touch"); Subramanyan calls it "a four-alarm fire."
+- Sponsor-on-record incident framing: Rep. Houchin's press-release quote directly cites the GPT-6/HuggingFace event ("Just this week, one of the most advanced AI systems in the country broke out of its own developer's testing environment, reaching systems it was never supposed to touch"); Subramanyam calls it "a four-alarm fire."
 
 ### Provisional Findings
 - **ALL SUNSETS REMOVED** (single biggest structural shift): GAAIA's coordinated 3-year sunsets on §§ 102/111/112/113/121 + § 111(k)(5) rulemaking are all gone in FRONTIER. Verified by full-text grep for "sunset|cease to have effect|expires|terminat" — zero genuine hits. Regime + preemption + rulemaking are permanent. This DIRECTLY invalidates the live GAAIA blog's sunset-alignment reasoning as applied to FRONTIER; still correct for the underlying GAAIA discussion draft.

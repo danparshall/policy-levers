@@ -3,7 +3,7 @@
 **Status:** Introduced 2026-07-23 in the House. Bill-text draft dated 2026-07-22 (10:56 a.m.); the copy posted on Trahan's site still bears `H.R. ll` placeholder and blank committee referral, so the parliamentarian-assigned bill number and committee were not baked in at the moment of publication.
 **Full title:** Frontier **R**isk **O**versight, **N**ational **T**ransparency, **I**ndependent **E**valuation, and **R**eporting Act (FRONTIER Act).
 **Lead sponsors:** Rep. Jay Obernolte (R-CA-23) and Rep. Lori Trahan (D-MA-03).
-**Cosponsors:** Reps. Scott Peters (D-CA-50), Scott Franklin (R-FL-18), Suhas Subramanyan (D-VA-10) [press release spelling; the GAAIA discussion draft used "Subramanyam" — same person], Erin Houchin (R-IN-09).
+**Cosponsors:** Reps. Scott Peters (D-CA-50), Scott Franklin (R-FL-18), Suhas Subramanyam (D-VA-10) [press release spelling; the GAAIA discussion draft used "Subramanyam" — same person], Erin Houchin (R-IN-09).
 **Length:** 74 pages, 9 sections (§§ 1–9), flat structure (no titles/subtitles).
 
 ## Relationship to the Great American AI Act (GAAIA) discussion draft
@@ -27,7 +27,7 @@ See `FRONTIER_VS_GAAIA.md` for the structural changes writeup once it lands, and
 - **Obernolte (R):** "focuses oversight on the largest developers and most advanced models, requiring transparency, independent evaluation, and timely reporting of serious safety incidents."
 - **Peters (D):** "The window to get AI policy right is closing, and Congress can't afford to miss it. … targeted bill with clear, uniform transparency, and safety standards, instead of a fifty-state patchwork."
 - **Franklin (R):** "targeted approach … focusing only on the handful of companies developing the most powerful frontier AI models, not the startups and innovators driving America's AI ecosystem."
-- **Subramanyan (D):** "This is a four-alarm fire. We need to take action now. … not perfect, but … an important, bipartisan step in the right direction."
+- **Subramanyam (D):** "This is a four-alarm fire. We need to take action now. … not perfect, but … an important, bipartisan step in the right direction."
 - **Houchin (R):** "Just this week, one of the most advanced AI systems in the country broke out of its own developer's testing environment, reaching systems it was never supposed to touch. This is exactly the kind of incident that shouldn't stay behind closed doors."
 
 Houchin's quote is on-record identification of a specific concurrent incident as the motivating fact. Recording her language verbatim here because it will matter for outreach positioning.
