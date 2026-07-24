@@ -131,3 +131,7 @@ either entry point.
 - Whether the Lawfare "fix it" author (contact-matrix open item, row
   72) has any overlap with our staffer set — not investigated this
   session; carried forward
+
+## Captured Tasks
+
+- [#4: [2026-07-21] Add Hassabis manifesto + Amodei FAA-call to papers/](https://github.com/danparshall/policy-levers/issues/4) — captured 2026-07-18
