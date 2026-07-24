@@ -1,0 +1,105 @@
+                                  Section-by-Section Summary
+FRONTIER Act — Frontier Risk Oversight, National Transparency, Independent Evaluation,
+                                and Reporting Act
+Sec. 1. Short title.
+This section provides that the Act may be cited as the Frontier Risk Oversight, National
+Transparency, Independent Evaluation, and Reporting Act — the FRONTIER Act.
+Sec. 2. Definitions.
+This section defines the key terms used throughout the Act, including the following:
+Frontier model / frontier developer — The term "frontier model" means a foundation model
+trained using more than 10²⁶ operations, counting the original training run and any subsequent
+substantial modification. The term "frontier developer" means any entity operating in interstate
+or foreign commerce that has trained, or initiated training of, such a model.
+Large / very large frontier developer — These terms establish the higher coverage tiers, keyed
+to AI-related development expenditures and measured with affiliates over the preceding 36
+months: gross revenues above $50M plus at least $1B in such expenditures for the large tier, and
+gross revenues above $5B plus at least $10B in such expenditures for the very large tier. Each
+higher tier carries every lower tier's duties.
+Catastrophic risk — The term "catastrophic risk" means a foreseeable, material risk that a
+frontier model materially contributes to 50+ deaths or serious injuries, or $1B+ in property
+damage, in a single incident involving the model (i) providing assistance not otherwise publicly
+available in developing or releasing a CBRN or cyber weapon, (ii) engaging in conduct without
+meaningful human oversight that is a cyberattack or would constitute murder, assault, extortion,
+or theft, or (iii) evading the control of its developer or user. The definition excludes publicly
+accessible information, lawful federal activity, and harm to which the model did not materially
+contribute.
+Imminent catastrophic risk — The term "imminent catastrophic risk" means a present or
+impending catastrophic risk, and serves as the predicate for emergency orders and mandatory
+IVO referral.
+Acceptable levels of catastrophic risk mitigation — The term means risk mitigation adequate to
+ensure a model's anticipated benefits outweigh its catastrophic risk, and serves as the benchmark
+for IVO assessment.
+Critical safety incident — The term "critical safety incident" means unauthorized access to or
+exfiltration of model weights; harm from a materialized catastrophic risk; loss of control; or the
+model deceiving its developer to subvert controls, outside a designed evaluation, demonstrating
+materially increased catastrophic risk.
+Under Secretary of Commerce for AI Security — The term refers to a new officer, appointed by
+the Secretary of Commerce, who holds the Act's rulemaking authority, receives incident reports
+and registrations, and licenses and oversees IVOs.
+Sec. 3. Rulemaking.
+This section vests the Under Secretary with narrow notice-and-comment rulemaking authority to
+carry out the Act. It places three rulemakings on 180-day clocks: minimum requirements for
+frontier AI frameworks; IVO licensing and oversight; and criteria for substantial (model) and
+material (framework) modifications. It further authorizes the Under Secretary to increase, by
+rule, the compute, revenue, and expenditure coverage thresholds, calibrated to reach the
+developers whose activities present catastrophic risk.
+Sec. 4. Transparency and reporting.
+This section requires large frontier developers to write, implement, comply with, and publish a
+frontier AI framework — covering catastrophic-risk thresholds and assessment, model-weight
+cybersecurity, incident response, and deployment and internal-use decisions, incorporating
+widely-accepted national, international, and industry approaches, best practices, frameworks, and
+methods, and conforming to the Sec. 3 minimum requirements — and to undergo an annual
+independent compliance audit and register with the Under Secretary. It requires publication of
+the redacted audit report and its transmittal to the Under Secretary, the Attorney General, and
+opted-in State Attorneys General, and directs the Under Secretary to maintain the public registry
+of filed developers. It further requires all frontier developers to publish, before or when
+deploying a new or substantially modified frontier model, a transparency report on its
+capabilities, intended uses, restrictions, and risk assessments, with redactions permitted to protect
+trade secrets, risk-prevention mechanisms, cybersecurity, public safety, or national security. It
+requires reporting of critical safety incidents to the Under Secretary and requires large frontier
+developers to also report catastrophic risk arising from their models, including internal use. It
+permits State Attorneys General to opt in to receive reports, and it establishes a civil penalty of
+up to $1M per violation per day, enforceable by the Attorney General and opted-in State
+Attorneys General.
+Sec. 5. Independent verification.
+This section directs the Under Secretary to license and oversee IVOs. It requires each very large
+frontier developer to retain an IVO for ongoing assessment of whether its framework,
+governance, risk-monitoring, and mitigations achieve acceptable levels of catastrophic risk
+mitigation, with access to unredacted materials, records, and assessments at any time. It requires
+an IVO that determines a model poses an imminent catastrophic risk to refer the matter to the
+Secretary within 72 hours for consideration of a Sec. 8 emergency order. It permits IVOs to
+subcontract specialized portions of an assessment while remaining fully responsible, and it
+prohibits material misrepresentations in any report or opinion. It establishes a civil penalty for
+developer violations of up to $1M per violation per day, enforceable by the Attorney General and
+opted-in State Attorneys General.
+Sec. 6. Cumulative obligations.
+This section provides that, except as expressly provided, each higher tier complies with every
+requirement applicable to the tiers below it.
+Sec. 7. GAO report on the IVO market.
+This section directs the Comptroller General to report annually to House Energy & Commerce
+and Senate Commerce on the state of the IVO market, IVOs' independence from the AI industry,
+and recommendations to preserve that independence.
+Sec. 8. Emergency orders addressing imminent catastrophic risk.
+This section authorizes the Secretary of Commerce to suspend or restrict a frontier developer's
+development, deployment, or internal use of a frontier model upon a written finding that it
+presents an imminent catastrophic risk. A provisional order may issue on a preliminary
+determination — with notice and an opportunity to cure unless the imminence of the risk
+forecloses them — and expires after 45 days; a final order requires the written finding, expires
+after 90 days, and may be renewed only on a fresh finding. Each order must state its basis, the
+restrictions imposed, and the conditions for rescission, and the Secretary must rescind the order
+once those conditions are met or the risk has passed. The developer may seek an expedited
+administrative hearing at which the Secretary bears the burden of justifying the order, with
+exclusive judicial review in the D.D.C. and appeal to the D.C. Circuit. Congress receives each
+order and semiannual reports on the use of the authority. This section is the exclusive means by
+which any federal actor may restrict a frontier model on imminent-catastrophic-risk grounds.
+Violations carry a civil penalty of up to $10M per violation per day, and willful violations are
+criminal.
+Sec. 9. Relationship to State laws.
+This section matches preemption to the governance functions the Act occupies: it prohibits any
+State or political subdivision from imposing new substantive obligations on AI developers as to
+frontier AI catastrophic-risk transparency, third-party auditing and independent verification, or
+incident reporting. It includes a rule of construction preserving generally applicable laws, use-
+and deployment-based regulation of deployers and users, laws protecting minors, and State
+procurement and use rules. The clause is aimed at closely related State frontier-safety statutes
+(e.g., CA SB-53, NY RAISE, IL SB-315).
+
