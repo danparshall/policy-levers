@@ -48,9 +48,7 @@ Meanwhile, everything with actual teeth (the emergency authority, the standard a
 
 Visibility is also especially valuable right now.  Today's misaligned models are loud: they cheat, they don't hide it well, and they don't seem to care much about getting caught. That's a property of how they're trained, not a law of nature, and training against *detected* misbehavior (which is the only kind you *can* train against) mostly selects for *quieter* misbehavior (this, incidentally, is the alignment problem in a nutshell).  That signal is cheap today, but it won't stay cheap.
 
-## Two things GAAIA had that FRONTIER doesn't
-
-My GAAIA post praised two features above everything else; the introduced bill dropped both.
+## Two things FRONTIER doesn't have
 
 First, there's still no severability language. Nothing ties the preemption to the federal duties, so if a court strikes the transparency sections (the NetChoice playbook writes itself), the preemption stands alone, permanently.  Nobody wants that outcome, including the sponsors. One sentence fixes it; I said that last week too. The preemption itself did get narrower: it's scoped to three functions (transparency, third-party audits, incident reporting), with carve-outs for general law, deployers, and protection of minors.  The sponsor's summary lists which existing state laws that would be overcome (California's SB-53, New York's RAISE Act, Illinois's SB-315). Displacing named state laws while your own duties might not survive review is, uh, a bold bet.
 
@@ -78,3 +76,16 @@ But the CSRB had no subpoena power and no statute behind it (it was an advisory 
 
 This week, our understanding happend backwards: first we got the victim's report from Hugging Face, and then the attacker's report five days later, and in the past few days journalists have been filling in the timeline.  A functioning incident regime turns that sequence around... but only if someone can ask the second question.
 
+
+## What we're doing about it
+
+Canary is preparing comments for the sponsors. There's a technical-corrections list, the two restorations, and a set of clarifications, e.g.:
+
+- define "loss of control" so the sandbox reading is locked in
+- make the incident-report-content rulemaking mandatory instead of optional
+- extend the registry down to the base tier
+- reverse the compute-threshold dial so it can be *lowered*, rather than increased
+
+I'm available for briefings to congressional staff on any of this machinery, same as last week. The offer stands because the sponsors keep demonstrating that they read what comes in.
+
+A discussion draft went out, people who read bills carefully sent in suggestions, and six weeks later an introduced bill had fixed a real chunk of it while adding teeth that are apparently on the table now.  I've spent a lot of time complaining about policy moving too slowly, so I want to doff my cap to the folks involved here, they really have done an awful lot, in a very short amount of time.  Not asleep at the wheel any longer, which is good... because things are only going to speed up.
