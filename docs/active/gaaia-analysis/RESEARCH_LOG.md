@@ -1,4 +1,74 @@
 ---
+## Session: 2026-07-22 (→ 2026-07-24 close-out) — 20260722_gaaia_blog_conflict_resolve_and_publish
+
+### Topics Explored
+- Pull-and-resolve on a file both sides had touched: upstream (5117c80 +
+  b6c6497) added grammar fixes + a new `## Breaking additions` section
+  placed before "What we're doing about it" and a matching RESEARCH_LOG
+  addendum; local was uncommitted paragraph rework in "The response so far"
+  plus a scratch `## Breaking additions` section at file-end under a `=====`
+  separator (agent analysis notes that had fed into the upstream commit).
+- Editorial pass on the Breaking-additions material for the Canary
+  general-audience register (Dan-authored) + Claude mechanical fixes.
+- Whistleblower-persistence-past-sunset question — full-file + full-history
+  search.
+
+### Provisional Findings
+- **Auto-merge left a semantic duplication git couldn't judge.** Stash →
+  fast-forward pull → stash pop produced a clean tree with two `## Breaking
+  additions` H2s (one polished from upstream, one scratch from local under
+  the `====` convention). No `<<<<<<<` markers; `grep -n "^## Breaking
+  additions"` catches it, `grep '<<<<<<'` misses it.
+- **Dan's editorial pass moved Breaking additions to the essay close** and
+  tightened both incident paragraphs for a general-audience register
+  (dropped polynomial-form detail on the Jacobian; dropped
+  zero-day-proxy / self-migrating-C2 jargon on the HF-OpenAI; dropped the
+  Fable co-reading disclosure; dropped "Two things temper my pessimism"
+  opener; added a bridge clause "although given recent developments,
+  perhaps the legislature will begin moving at a tech pace, instead of
+  lawmaker pace" to hand off from "response so far" to the new closer).
+- **Flagged to Dan, reserved by him:** the HF-eval safety-classifiers-off /
+  refusals-turned-down context was dropped in the tightening pass, which
+  cleans the emergent-subgoal argument but exposes the piece to a "you
+  removed the safeties and asked for a hacker, then acted surprised"
+  cheap-shot. Dan took ownership of the caveat.
+- **Whistleblower-past-sunset discussion is not in the file and never has
+  been.** Full git history search across all branches: nothing.  Adjacent
+  content that might blur into it — 9363's (k) confidentiality-sunset
+  concern (line 105 — different bill, different protection, and the
+  direction is protections *ending* at sunset, not persisting) and the
+  GAAIA-lapse-leaves-institutional-framework claim (line 121 —
+  infrastructure persistence, not individual whistleblower rights). If we
+  want the discussion, it's new content, not a restoration; and it needs
+  statutory grounding (§ 113 savings behavior + general savings-statute
+  doctrine on vested causes of action).
+
+### Later (2026-07-22, outside this session)
+- A CISA-2015 deadline-engine paragraph landed in "The response so far"
+  (301 = 10-yr reauth to 2035; lapse-during-shutdown + funding-bill patches
+  verified per Covington/DWT/CRS IF12959; current Feb 2026 CAA patch
+  expires 9/30/2026), with the OpenAI/HF joint investigation stitched in
+  as the live exhibit for why the 2015 definitions need updating. Per
+  header changelog; not this session's work.
+
+### Results
+- No new files under `results/`. Session artefact is the essay edit:
+  `essays/canary/gaaia-visibility-not-control_DAN.md` at `ef9e505`.
+  Canary-drafts copy placed as untracked during session; by close-out
+  superseded by canary-drafts PR #5 (`gaaia-corrections-0722` → merge
+  `f4d6cc4`), canonical now `drafts/gaaia-visibility-not-control.md`
+  (+ `.ci.md`), no `_DAN` suffix.
+
+### Publication
+- **Post is live on Canary** (per Dan's 2026-07-24 close-out).
+
+### Next Steps
+- Optional future paragraph: whistleblower-persistence-past-sunset, with
+  § 113 savings-behavior grounding.
+- Confirm the HF-eval safety-classifiers-off caveat Dan reserved to himself
+  has landed in the live post (or is deliberately still pending).
+
+---
 ## Session: 2026-07-22 — 20260722_hf_openai_incident_note
 
 ### Topics Explored
