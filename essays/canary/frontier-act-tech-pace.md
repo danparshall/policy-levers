@@ -20,11 +20,16 @@ There are now 3 coverage categories instead of 2.  With FRONTIER, *any* develope
 
 ## They fixed my favorite complaint
 
-In the GAAIA post I pointed out that the draft's revenue-only thresholds let a capital-rich, revenue-free lab train frontier models while owing nothing, which I thought of as the "Ilya loophole".  FRONTIER fixes this, so now the base tier has no revenue floor at all: train past the compute line and the transparency and incident-reporting duties apply from the first day that the threshold was crossed (not at the end of the fiscal year). A new "AI-related development expenditures" test (deliberately written to ignore accounting treatment, so spending counts whether it's expensed, capitalized, deducted, or amortized) catches labs with modest revenue and enormous spend at the heavier tiers.  This might change the registration requirements down to base tier, but even if they *don't*, I think we'll find out what Ilya's been up to.  [Last I heard](https://12gramsofcarbon.com/i/170425838/where-is-everyone-else) SSI was worth $32 B, and had ~320 words on the website, which is a cool $100M/word (Rudyard Kipling's shilling, eat your heart out).
+In the GAAIA post I pointed out that the draft's revenue-only thresholds let a capital-rich, revenue-free lab train frontier models while owing nothing, which I thought of as the "Ilya loophole".  FRONTIER fixes this, so now the base tier has no revenue floor at all: train past the compute line and the transparency and incident-reporting duties apply from the first day that the threshold was crossed (not at the end of the fiscal year). A new "AI-related development expenditures" test (deliberately written to ignore accounting treatment, so spending counts whether it's expensed, capitalized, deducted, or amortized) catches labs with modest revenue and enormous spend at the heavier tiers.  The might change the registration requirements down to base tier, but even if they *don't*, I think we'll find out what Ilya's been up to.  Last I heard
+[
+    https://12gramsofcarbon.com/i/170425838/where-is-everyone-else
+    link "Last I heard"
+]
+SSI was worth $32 B, and had ~320 words on the website, which is a cool $100M/word (Rudyard Kipling's shilling, eat your heart out).
 
 Along with that, they've sped up the incident-reporting clock, from 15 days under GAAIA to 72 hours under FRONTIER.  Given this week's roller-coaster, probably a good call.
 
-The bill also creates the first federal registry of frontier developers, which is public, and requires beneficial-ownership disclosure, so anyone can finally see who is operating at frontier scale and who owns them.  It also orders GAO to report annually on whether the audit industry remains independent of the target industry, so the lessons from finance haven't been forgotten.
+The bill also reates the first federal registry of frontier developers, which is public, and requires beneficial-ownership disclosure, so anyone can finally see who is operating at frontier scale and who owns them.  It also orders GAO to report annually on whether the audit industry remains independent of the target industry, so the lessons from finance haven't been forgotten.
 
 
 ## We can see a lot, but still only act on large events
