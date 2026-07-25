@@ -1,5 +1,28 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-07-25 — frontier_port_and_iosco_ingest
+### Topics Explored
+- Diff between `essays/canary/frontier-act-tech-pace.md` (tracked) and `frontier-act-tech-pace_DAN.md` (added at `8958dfd` after typo-fix commits `b3cf522`/`37e4c68`); reconciling the fork
+- IOSCO 2025 Consultation Report CR/01/2025 ingest — Cloudflare workaround, indexing, summary voice calibration
+
+### Provisional Findings
+- `_DAN.md` diff vs tracked was 13 lines, all regressions (unrendered SSI link stub + two typos: "The"→"This", "reates"→"creates"). Ported anyway per Dan's explicit direction after two rounds of flagging; commit `cebe179` documents the reversal in its message.
+- IOSCO risk taxonomy (AMCC-ranked): malicious use > model/data > concentration & third-party > human-AI interaction. Regulatory-approach inventory splits members between existing-frameworks-adapted (HKMA/ESMA/CSA/CFTC) and bespoke (EU AI Act, Greek 4961/2022, Japan AI Guidelines, Brazil 2.338/2023, Canada AIDA, Australia). Engagement stats: 15/27 guidance issued; 6/27 sandboxes; 0/27 waivers.
+- `iosco.org` is Cloudflare-fronted; direct curl returns block page regardless of User-Agent. Wayback Machine is the reliable fallback for IOSCO PDFs.
+- Convention: `_DAN.md` sibling files are personal working drafts — do not assume they supersede the tracked file when the diff shows regressions; verify direction of "port" before executing.
+
+### Results
+- `essays/canary/frontier-act-tech-pace.md` (regressed to match `_DAN.md`, commit `cebe179`, pushed)
+- `papers/IOSCO__2025--ai_in_capital_markets.pdf` (1.15 MB, from Wayback Machine)
+- `papers/text/IOSCO__2025--ai_in_capital_markets.txt` (3,801 lines)
+- Entries in `PAPER_INDEX.md` (Research Papers section) and `PAPER_SUMMARIES.md` (neutral paper-thrust register, no FRONTIER cross-references)
+
+### Next Steps
+- If Dan wants the two typo fixes and inline SSI link render re-applied on top of the ported text, that's a separate action
+- Watch for IOSCO Phase-2 output per IOSCOPD789 workplan (Phase-1 is deliberately consensus-mode)
+
+See convo: `convos/20260725_frontier_port_and_iosco_ingest.md`
+
 ## Session: 2026-07-16 — canary_lw_essay_adaptations
 ### Topics Explored
 - Q1 general-audience rewrite for Canary (generic foil, inline links, jargon glosses); register revert per Dan
