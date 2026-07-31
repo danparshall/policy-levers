@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-07-25
+Last updated: 2026-07-31
 
 ## Current Focus
 
@@ -23,6 +23,8 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 | gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). Contact matrix + call sheet built (7/17); Burns/Kindler + 11 more Tier A/B staffers captured in `crm/contacts.yaml` (name-hunt pass, `results/20260718_staffer_name_hunt.md`). NEXT: Dan seam-check of rewritten blog Two-CAISIs section + his transitions/501(h) call (publish blockers); pilot email to Schrage (Houchin, highest-confidence hit); front-desk verification pass (~11 calls); Burns/Kindler follow-ups 7/21; blog publish + crossposts; assemble comment letter. |
 
 ## Recent Sessions
+
+- **2026-07-31 (hackathon brainstorm)** — Morning-of project slate for FAI+IFP "Hacking the Think Tank" (line: main). Verdict: umbrella pitch "verification stack for the AI-era think tank" — bill pipeline (GAAIA/FRONTIER playbook, 7 pre-verified drafting bugs as garnish) + claim-audit (AI-memo + own-post demo targets only) + Kent-o-meter (estimative-phrase → Zonination perception distributions; rescued from Opus's dismissal). pat-helper identified as shared engine (~70% of pipeline for all modules). Comment-detection cut. Strategy: Dan pitches + recruits + circulates (employment goal); build handed to teammates + agents. Full pitch structure for slide generation: `docs/active/main/convos/20260731_hackathon_brainstorm.md`. Blocking: public hackathon repo + PAT from Dan.
 
 - **2026-07-25 (FRONTIER essay port + IOSCO ingest)** — Two unrelated tasks on main. (1) Reconciled the two FRONTIER-blog drafts: `frontier-act-tech-pace_DAN.md` (added at `8958dfd` fresh from Dan) was ported verbatim over the tracked `frontier-act-tech-pace.md`, regressing the two typo fixes (`b3cf522`) and the inline SSI-link render (`37e4c68`) per Dan's explicit call — commit `cebe179`, message documents the reversal. Rebased over concurrent `eeb39d0` (NOTES_FRONTIER cleanup, orthogonal file). (2) Ingested IOSCO Consultation Report CR/01/2025 *Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges* (March 2025, 80pp) to root library. `iosco.org` is Cloudflare-fronted and blocks direct curl regardless of User-Agent; Wayback Machine served the intact 1.15 MB PDF. Filed as `papers/IOSCO__2025--ai_in_capital_markets.pdf` with 3,801-line pdftotext extraction; entries in `PAPER_INDEX.md` (Research Papers section) and `PAPER_SUMMARIES.md`. Summary voice-calibrated: dropped an initial FRONTIER-tied "Relevance for policy-levers" section per Dan's ask, kept neutral paper-thrust register — four-category risk taxonomy (malicious use / model & data / concentration & third-party / human-AI interaction), cross-jurisdictional regulatory-response inventory (HKMA/ESMA/CSA/CFTC vs bespoke: EU AI Act, Greek 4961/2022, Japan AI Guidelines, Brazil 2.338/2023, Canada AIDA, Australia), engagement stats (15/27 guidance issued; 6/27 sandboxes; 0/27 waivers), three neutral caveats-when-citing. Convo: `docs/active/main/convos/20260725_frontier_port_and_iosco_ingest.md`.
 

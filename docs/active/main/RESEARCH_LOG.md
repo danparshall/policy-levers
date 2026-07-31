@@ -45,3 +45,24 @@ See convo: `convos/20260725_frontier_port_and_iosco_ingest.md`
 - At publication: add news links for in-world 2026 events; consider soft attribution for the Q1 "reassuring story" foil
 
 See convo: `convos/20260716_canary_lw_essay_adaptations.md`
+
+## Session: 2026-07-31 — 20260731_hackathon_brainstorm
+### Topics Explored
+- Project slate for FAI+IFP "Hacking the Think Tank" hackathon (today): 3 Opus ideas + 4 Fable ideas evaluated
+- Reframe: event is about AI moving *think tanks*, not AI policy; goal is employment networking, project is pretext
+- pat-helper recognized as the generic engine (~70% of claim-audit AND bill-lint)
+
+### Provisional Findings
+- Winning pitch: "verification stack for the AI-era think tank" — bill pipeline + claim-audit + Kent-o-meter on the pat-helper spine
+- Kent/Zonination calibration idea is demoable as a *language* tool (Opus dismissed the longitudinal version; the estimative-phrase mapper is a few hours)
+- Synthetic-comment detection cut (ground-truth problem)
+- Claim-audit demo must not target third-party think-tank products in that room (networking landmine); use AI-generated memo + Dan's own Canary post
+
+### Results
+- Full pitch structure in convo file (written for downstream slide-generating agent)
+
+### Next Steps
+- Dan: create public hackathon repo + write PAT (or tarball mode); confirm pat-helper-extract + hosts-in-corpus defaults; laptop keys
+- Fable: bill fetches, corpus, sanitized scaffold, README-as-pitch, zip export
+
+See convo: `convos/20260731_hackathon_brainstorm.md`
