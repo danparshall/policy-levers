@@ -43,3 +43,7 @@ Evaluated 7 candidate projects (3 from Opus, 4 from Fable). Key unlock: `pat-hel
 - Dan's laptop: pat-helper `.env` keys + `uv sync` + charger.
 - Confirm the two defaults above.
 - Team formation: which modules get handed to recruited technologists.
+
+## Tasks created
+
+- [#6 Write up staffer-routing methodology; publish as standalone shareable repo](https://github.com/danparshall/policy-levers/issues/6) — for local agent; gift to Jackson (pitch-to-lawmaker matching). Open-ended, no date prefix.
