@@ -1,0 +1,43 @@
+# The Vannevar Bush approach to AI Safety
+
+*Draft v1, Claude scaffolding for Dan rewrite. 2026-08-02.*
+
+Eighty-seven years ago today, Albert Einstein signed a letter to Franklin Roosevelt warning that uranium could be turned into "extremely powerful bombs of a new type."  Everyone knows this story.  The letter arrives, Roosevelt understands the stakes, and the Manhattan Project follows.  It's the founding myth of science advice to government, and it is mostly wrong.
+
+Here's what the letter actually produced: a committee.  The Advisory Committee on Uranium, chaired by Lyman Briggs of the Bureau of Standards, received $6,000 for graphite and neutron experiments and then spent a year and a half accomplishing very little.  Einstein's prestige bought attention; attention bought a committee; the committee bought almost nothing.  If the story had ended there, the bomb would have been built in Germany or not at all.
+
+What actually converted warning into program was Vannevar Bush, and the machinery he built is worth studying in detail, because the AI Policy community is currently living through its own Briggs Committee years.
+
+## What Bush did
+
+Bush was not a petitioner.  By 1940 he was president of the Carnegie Institution and chairman of NACA, already inside Washington, already trusted.  In June of that year he got fifteen minutes with Roosevelt, carrying a single sheet of paper proposing a National Defense Research Committee.  He walked out with "OK - FDR" scribbled in the margin.  Note the shape of the ask: not two billion dollars, not a crash program, just authority to organize.
+
+The organizing principle was the genuinely new part.  The NDRC, and the more powerful Office of Scientific Research and Development that superseded it in 1941, issued government contracts to universities and industrial labs.  Nobody drafted Fermi into uniform or relocated Lawrence to a government facility.  The money moved; the scientists stayed put, in their own labs, with their own students.  And Bush didn't recruit the scientists individually.  He recruited four peers, Conant at Harvard, Compton at MIT, Jewett at Bell Labs, Tolman at Caltech, and each of them recruited their own networks.  Bush hired four people and got a field.
+
+When the machinery proved too small, he upgraded it (OSRD got its own congressional budget, about $536 million over the war, and a direct line to the president).  He absorbed the moribund Briggs committee.  And when the bomb project outgrew research entirely, he handed it to the Army rather than trying to run a $1.9 billion industrial enterprise from a research office.
+
+So the playbook, compressed: pre-position before you ask.  Make the ask one page, through the right intermediary, for authority rather than money.  Move the money, not the scientists.  Recruit the Conants and let them cascade.  Upgrade when the machinery binds.
+
+## We already wrote the Einstein letter
+
+In May 2023, hundreds of the most prominent names in AI signed a one-sentence statement that mitigating extinction risk from AI should be a global priority.  It was, move for move, the Einstein letter: maximum prestige, minimum length, delivered straight into the headlines.  And it worked exactly as well as the original.  It got attention, and the attention got committees.  Summits, task forces, institutes with "safety" in the name and budgets that would have embarrassed Briggs.
+
+The question, three years on, is where the Bush layer is.  And the interesting answer is that it exists, fully built and humming, for exactly one adjacent discipline: economics.
+
+Look at what happened to economists.  In 2024 a workshop at Asilomar produced a research agenda; Brynjolfsson, Korinek, and Agrawal wrote it up as an NBER working paper laying out nine grand challenges, with Sloan Foundation and Bradley Foundation money behind it.  That agenda became a University of Chicago Press volume with sixteen studies, including Chad Jones asking, in the standard tools of growth theory, how much we should spend to reduce existential risk.  Korinek launched a dedicated initiative at UVA.  Stripe funds a fellowship whose design is almost comically well-aimed: baseline grants, extra money for data purchases, and buyouts of teaching units for grad students.  The two things a working economist needs are research assistance and data, and the fellowship is literally a menu of those two things.  Meanwhile the labs supply the data itself: Anthropic publishes its Economic Index and seats economists on an advisory council, OpenAI handed usage data to Brynjolfsson's team, ADP opened its payroll records.  Agenda, institution, fellowship, data pipeline.  Four layers.  That's what a Bush machine looks like in peacetime.
+
+## The hardware people got a manifesto
+
+Now look at the verification side, the cryptographers and FPGA engineers and photonics people whose work determines whether any international agreement on compute could ever be verified.  Intellectually, the field has already adopted them.  The standard threat model for treaty verification is now the "covert adversary" from a 2010 cryptography paper by Aumann and Lindell: an adversary willing to cheat, but not willing to be caught, formalized with an explicit detection-probability parameter.  That is the IAEA's "timely detection" goal, written as a theorem.  Recent verification papers open with it.  The Oxford Martin verification report, the hardware-enabled-guarantees work, the six-layer verification frameworks: all of it leans on ideas these people developed decades ago for entirely different reasons.
+
+And what has the community offered them?  A workshop, a roadmap, and an expression-of-interest form.  Early this year about forty people met to plan the field, and the resulting call for talent reads like a Bush recruiting memo: cryptographers, silicon photonics experts, hardware security specialists, arms control veterans.  It is a good list.  But it is a broadcast, and broadcasts are how you find volunteers, not how you build OSRD.  The funding that exists is pull-shaped: RFPs a professor would have to stumble across, seed programs they'd have to apply to.  As far as I can tell, nobody has walked into the office of a single one of the cryptographers whose primitives this whole enterprise depends on and said: here is a research agenda, here is a contract, stay exactly where you are and work on this.
+
+The gap gets sharper when you look at what the crypto literature already contains.  The successors to Aumann and Lindell built "publicly verifiable" covert security, where a cheating attempt doesn't just get detected, it produces a certificate you can hand to a third party.  For a treaty, that is the whole game: not "we caught them," but "here is proof we can show our allies, the UN, and our own legislature."  The people who invented transferable evidence of cheating are working on threshold wallets and privacy-preserving statistics, because those are the problems someone funded.
+
+## Why economists and not cryptographers
+
+It isn't that economists are more persuadable.  It's that economists have patrons with a century of practice: Sloan has been funding economics since 1934, NBER since 1920, and when the labs needed macroeconomic legitimacy they knew exactly which door to knock on.  Cryptography has no equivalent patron for policy-relevant work.  Its money comes from NSF theory programs, defense agencies with their own agendas, and lately blockchain companies, none of which has any reason to fund treaty verification.  The UK's ARIA is the closest thing to a candidate, and it's one program in one country.
+
+Which means the Bush role is open.  And here is the part that should make it attractive rather than daunting: Bush's hardest problem is already solved.  He had to invent the idea that government money could flow to scientists in their own institutions; that invention won so completely that we call it the NSF and consider it furniture.  A funder today doesn't need a war, emergency authority, or a new contracting instrument.  The modern version of the Bush move is just targeted commissioning: pick the four or five peer-credible people in each missing discipline, fund them where they stand, and let them recruit their own networks.  Philanthropy does harder things every year.
+
+Eighty-seven years ago today, the most famous scientist alive asked the most powerful man alive to fund the relevant academics in their own labs.  That was the letter's actual recommendation, item two, in plain language.  It got $6,000 and a committee.  The letter is remembered; the machinery that eventually answered it is not.  We have spent three years writing letters.  Perhaps this is the year somebody builds the machinery.
