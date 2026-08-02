@@ -7,7 +7,9 @@ Purpose: Map how AI Policy funders recruit (or fail to recruit) established adja
 
 (Sessions logged here, newest first)
 
-## 2026-08-02 — Landscape + Bush playbook (line start)
+## 2026-08-02 — Landscape + Bush playbook + essay to publish-ready (line start)
+
+**Session outcome:** essay "Industrializing a small field: Lessons from Vannevar" drafted to publish-ready in `essays/canary/vannevar-bush-approach_DAN.md` (Dan's prose, seams mode; footnoted, armored, negative claim verified by deep-research pass). Dan hands off to publishing pipeline. Claude's long-form scaffolding (`vannevar-bush-approach.md`) banks the economists-vs-hardware contrast for a possible part 2. Taxonomy refined: push-commissioning exists at org level (CG->FAI, SFF->Palisade) and junior level (MATS/PIBBSS/FASR); empty quadrant = senior individuals funded in place; ARIA Safeguarded AI the lone Bush-shaped programme. Full arc in convo addendum.
 
 Session started from Dan's question: has anyone in the AI safety community reached out to Aumann & Lindell (covert-adversary MPC, J. Cryptology 2010) with grant money for compute-treaty verification work, and how much is "actively recruit relevant academics" part of the ethos?
 
