@@ -1,3 +1,9 @@
+Industrializing a small field: Lessons from Vannevar, for the AI Safety field
+
+AI Safety needs to quickly transform from a "community" to an "industry"; the Manhattan Project is a good example!
+
+---
+
 Many folks know about the "Einstein letter" which was dated 87 years ago today.  As legend has it, this led to the formation of the Manhattan Project.  But actually this is only half the story: the original forays were plagued by institutional apathy, with multiple occasions when key scientific reports just didn't move.  
 
 In one famed instance, the Brits realized that the bomb would only require a few kilograms of uranium (instead of tons from earlier estimates), and sent a report to the head of the American uranium committee... who put it in his safe and didn't tell a soul.  Eventually Mark Oliphant realized "somebody has to, and no one else will", so he got on a military transport plane heading to the states, and started personally pounding on doors until the analysis got the attention it needed.
@@ -8,7 +14,7 @@ I bring this up because from what I've found, the AI Safety community hasn't don
 
 I suggest that folks worried about AI Safety should change from a "pull" mindset of "Fill out a grant application on our website", to a "push" mindset of "we know we need more of X, let's find folks working on closely-related Y and see what they need to pivot".  We do have RFPs, but it looks like there's a terrible lack of active recruitment.
 
-To their credit, it looks like Palisade has been doing great work in the past year with making AI timelines legible to policymakers (it now seems there's an Oliphant loose among the China hawks).  But we need folks doing the same thing on the academic side, and right now it looks like we're recruiting individual residents for small programs, instead of showing up with grants and getting entire CS research groups to change their focus.
+To their credit, it looks like Palisade has been doing great work in the past year with making AI timelines legible to policymakers (dare I say that there's an Oliphant loose among the China hawks?).  But we need folks doing the same thing on the academic side, and right now it looks like we're recruiting individual residents for small programs, instead of showing up with grants and getting entire CS research groups to change their focus.
 
 ---
 
