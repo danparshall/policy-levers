@@ -4,7 +4,7 @@ AI Safety needs to quickly transform from a "community" to an "industry"; the Ma
 
 ---
 
-Many folks know about the "Einstein letter" which was dated 87 years ago today.  As legend has it, this led to the formation of the Manhattan Project.  But actually this is only half the story: the original forays were plagued by institutional apathy, with multiple occasions when key scientific reports just didn't move.  
+Many folks know about the "Einstein letter"[^5] which was dated 87 years ago today.  As legend has it, this led to the formation of the Manhattan Project.  But actually this is only half the story: the original forays were plagued by institutional apathy, with multiple occasions when key scientific reports just didn't move.  
 
 In one famed instance, the Brits realized that the bomb would only require a few kilograms of uranium (instead of tons from earlier estimates), and sent a report to the head of the American uranium committee... who put it in his safe and didn't tell a soul.[^1]  Eventually Mark Oliphant realized "somebody has to, and no one else will", so he got on a military transport plane heading to the states, and started personally pounding on doors until the analysis got the attention it needed.
 
@@ -25,11 +25,11 @@ To their credit, it looks like Palisade has been doing great work in the past ye
 
 [^4]: The UK's [Alignment Project](https://alignmentproject.aisi.gov.uk/) does fund cryptographers (Vaikuntanathan, Zamir, Guruswami), but for watermarks, backdoors, and hardness results, not verification.
 
+[^5]: Full text at [Wikisource](https://en.wikisource.org/wiki/Albert_Einstein_to_Franklin_D._Roosevelt_-_August_2,_1939); scan of the original in the [FDR Presidential Library's documents collection](http://www.fdrlibrary.marist.edu/archives/pdfs/docsworldwar.pdf).  Largely drafted by Leo Szilard; August 2 is the date on the letter, and Alexander Sachs delivered it to Roosevelt on October 11, 1939 ([drafting history](https://www.dannen.com/ae-fdr.html)).
+
 ---
 
 ## Footnote candidates (Claude-compiled 2026-08-02; wire in and delete this header)
-
-**Einstein letter (dated Aug 2, 1939).** Full text: Wikisource, "Albert Einstein to Franklin D. Roosevelt - August 2, 1939" (en.wikisource.org/wiki/Albert_Einstein_to_Franklin_D._Roosevelt_-_August_2,_1939). Scan: FDR Presidential Library, fdrlibrary.marist.edu/archives/pdfs/docsworldwar.pdf. Drafting history (Aug 2 = date Szilard mailed drafts to Einstein; Sachs delivered to FDR Oct 11, 1939): dannen.com/ae-fdr.html.
 
 **Briggs committee + the $6,000.** Advisory Committee on Uranium established Oct 1939, absorbed into NDRC as the Committee on Uranium July 2, 1940, redesignated Section S-1 under OSRD 1941: AIP archives catalog, history.aip.org/history/catalog/icos/769.html. The $6,000 for graphite and the committee's slow pace: Atomic Heritage Foundation, "Early Government Support - 1939," ahf.nuclearmuseum.org/ahf/history/early-government-support-1939/; official account in the Smyth Report, ch. III, atomicarchive.com/resources/documents/smyth-report/smyth_iii.html.
 
