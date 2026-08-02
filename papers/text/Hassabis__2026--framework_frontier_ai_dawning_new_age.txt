@@ -1,0 +1,191 @@
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+A Framework for Frontier AI and the Dawning of
+New Age
+DEMIS HASSABIS
+JUL 14, 2026
+
+1,677
+
+364
+
+Sh
+
+This is a pivotal moment in human history. Artificial General Intelligence (AGI), a
+system that exhibits all the cognitive capabilities the brain has, is probably only a fe
+short years away. When we look back on this time in the decades to come, I think w
+will realise we were standing in the foothills of the singularity - nothing less than th
+dawning of a new age for humanity.
+I’ve spent my whole life working on AGI because I’ve always had a deep conviction
+that, if built and deployed responsibly, it would prove to be one of the most benefici
+
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+1/6
+
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+and transformative technologies ever invented. AGI cannot be compared to standar
+technological breakthroughs, not even ones as consequential as the internet or mob
+- it is much more akin to the discovery of electricity or fire. If you stop to think abou
+it, we’ve essentially found a way to make sand think. It’s miraculous.
+The magnitude of this technology’s impact will be unprecedented, perhaps 10x of th
+Industrial Revolution at 10x the speed. It will help us solve some of the biggest
+problems society faces from accelerating drug discovery to developing new clean
+energy sources to creating novel advanced materials. We could even reach a point
+where resources are no longer the limiting factor for human progress, leading to an
+amazing new era of abundance.
+
+The Challenges of the Frontier
+AI is already starting to deliver real-world benefits but to realise its immense prom
+we have to navigate this critical period of development thoughtfully and carefully.
+Urgent action is needed to address risks that might arise as we get closer to AGI.
+We’ve already seen the challenges frontier models pose for cybersecurity, and other
+threats including nuclear and bio risks may soon emerge as capabilities continue to
+advance. On the horizon, we will need robust safeguards to maintain control of
+increasingly agentic, recursively self-improving systems - and tackle unknown issue
+that will only become clearer over time.
+I’ve always believed in the power of human ingenuity and creativity to solve any
+problem. I’m confident that mitigating the technical risks related to AI is a challeng
+we can collectively address, but only if we give ourselves the time and space to get t
+next crucial step right. Currently, as a field and as a wider society, we aren’t doing t
+At the moment, we are locked in an extremely intense, multilayered commercial and
+geopolitical race. While these competitive dynamics fuel rapid progress and acceler
+the incredible upsides, advances on the frontier are outpacing our understanding of
+
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+2/6
+
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+the technology. Nobody in the world knows for sure what is going to happen from
+here, and even the experts disagree. When there is a large degree of uncertainty and
+the stakes are this high, proceeding with cautious optimism is the sensible and corr
+strategy. That calls for public policy that promotes innovation while also incentivis
+responsibility and security, fosters international collaboration on key safety issues,
+encourages careful consideration of how AI is deployed for the benefit of society.
+
+A Framework for a Frontier AI Standards Body
+The rapid progress we’re seeing in AI requires a new approach to testing frontier A
+model capabilities that is dynamic, adaptable, and rigorous. The US is well position
+given its economic and technical standing, to take the first step in developing such
+framework. It could establish a new Standards Body modelled on a federally oversee
+public-private partnership or self-regulatory organisation, much like the Financial
+Industry Regulatory Authority (FINRA), with a board that includes independent
+leading technical experts and open-source representatives. Funding would need to b
+substantial and likely mostly come from industry, in order to attract world-class
+technical talent and provide the necessary compute resources for large-scale testing
+The Standards Body would be responsible for developing assessment protocols and
+working with appropriate federal agencies and the US National Labs to conduct
+testing in areas relevant to national security. A model would qualify as ‘Frontier-cla
+if it meets certain thresholds on a set of benchmarks determined by the Standards
+Body and regularly updated to keep pace with evolving AI capabilities. Organisatio
+with ‘Frontier Models’ as defined by those benchmarks would be deemed ‘Frontier
+Labs’, and be encouraged to adopt best practices, such as publishing model cards w
+technical details, maintaining strong internal cybersecurity, vetting key personnel,
+providing sufficient resourcing for safety and security research, and more.
+Initially, Frontier Labs would voluntarily share models with the Standards Body for
+review up to 30 days before release. Once the assessment protocol is shown to be
+
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+3/6
+
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+effective and robust, formalisation could quickly follow, meaning that Frontier Mod
+would be required to pass it to be deployed in the US market. Labs would also work
+with the Standards Body to address any critical post-release vulnerabilities.
+Model assessments should include rigorous scientific evaluations of capabilities in
+cybersecurity, biological threats and other high-risk domains. Specific agentic AI te
+could look for attempts to bypass safety guardrails or signs of deception, and ensure
+best practices, such as digitally watermarking AI-generated images and generating
+human-readable output tokens to understand model reasoning.
+These evaluations would be regularly updated, perhaps quarterly to start, with
+outdated or saturated benchmarks being deprecated and replaced. Initially, they wo
+be developed in consultation with Frontier Labs, but eventually the Standards Body
+should build up the technical capacity to create its own held-out tests independent
+the Labs to prevent overfitting. Working with the US government, it could promote
+ecosystem of third-party auditors to help with the assessments and development of
+new benchmarks and evaluations.
+The strength of this approach is it would be technically focused, while at the same
+time supporting innovation and incentivising responsible behaviour. It is designed
+keep up with the field’s acceleration and adapt to the biggest risks as they are
+identified, and could be ratcheted up if the seriousness of the situation demands,
+including coordinating a slowdown in development among the Frontier Labs if
+deemed necessary. Being designated a Frontier Lab would carry significant prestige
+and be open to any organisation by building models that meet the benchmark criter
+The framework could apply to Frontier-class models no matter their country of orig
+or whether they are open or closed, but any non-frontier models, say from startups o
+academia, would be exempt from this process.
+This US-initiated effort would provide a strong starting point for creating shared
+international standards on Frontier AI. Since this technology is going to affect the
+entire planet, ideally this framework would spur the international community to rea
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+4/6
+
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+a consensus on how to manage the most serious risks while ensuring everyone has
+access to and can benefit from the opportunities that AI brings.
+
+The Future Is Not Yet Written
+AGI has the potential to be the ultimate tool for advancing science and medicine, a
+to drive enormous productivity gains and economic growth. But in order to achieve
+this, we need to get the technical foundations right by coordinating around a shared
+global framework, using the most rigorous scientific methods, and bringing the bes
+minds together to work on the challenges we face.
+Even if we solve these hard technical challenges, there will be further complex
+economic and philosophical questions to tackle: what sorts of new economic model
+will be needed to help everyone thrive in a post-scarcity world? What values do we
+want to live by, what will meaning and purpose be, and how might even the human
+condition itself change? Resolving these questions obviously cannot and should not
+left to technologists alone. It requires every part of society to come together to help
+define this new chapter.
+There is both huge excitement and uncertainty around AI, and both are warranted.
+the future is not yet written, we must use this precious window before AGI arrives t
+shape this technology for the benefit of all humanity. What we collectively do now w
+determine how the next phase of civilisation unfolds. By safely stewarding AGI into
+the world, we can enter a new golden age of scientific discovery and progress, and
+usher in a bright future of incredible human flourishing.
+Demis Hassabis
+Nobel Laureate | Co-Founder & CEO, Google DeepMind & Isomorphic Labs
+
+Subscribe to Demis Hassabis
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+5/6
+
+8/2/26, 12:42 PM
+
+A Framework for Frontier AI and the Dawning of a New Age
+
+Launched 19 days ago
+Type your email...
+
+Subscribe
+
+By subscribing, you agree Substack's Terms of Use, and
+acknowledge its Information Collection Notice and Privacy Policy.
+1,677 Likes ∙ 364 Restacks
+
+© 2026 Demis Hassabis · Privacy ∙ Terms ∙ Collection notice
+Substack is the home for great culture
+
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+6/6
+
+

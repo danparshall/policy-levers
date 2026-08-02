@@ -1,0 +1,2476 @@
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Dario Amodei
+
+Contents
+1. Regulation
+and public
+safety
+2.
+
+Policy
+on the AI
+Exponential
+
+Macroeconomics
+and tax policy
+3.
+Accelerating
+AI’s positive
+impact
+
+June 2026
+
+In one of the side plots to The Lord of the Rings,
+two of the Hobbits attempt to rouse Treebeard—a
+wise but ponderous sentient tree—to defend his
+forest from an army that is cutting it down. The
+
+4. The state
+
+problem is that Treebeard operates at a very
+
+and civil
+
+different speed than the Hobbits. It takes him a
+
+liberties
+
+full day simply to say hello to another tree, so
+
+5. Securing
+
+getting him and his peers to act fast enough is
+
+leadership by
+
+nearly impossible.
+
+democracies
+
+The intersection of AI and our political
+
+A window of
+
+institutions feels a bit like the Hobbits and
+
+opportunity
+
+Treebeard. AI is advancing at a lightning pace—in
+only four years, AI models have gone from barely
+being able to write a coherent line of code to
+writing most of the code at major AI companies.
+Similar gains have been made in biology, physics,
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+1/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+math, finance, law, translation, and many other
+fields. AI’s scaling laws, which predict an
+exponential increase in general cognitive
+capabilities with increasing computing power,
+
+Contents
+
+now have over a decade of empirical evidence
+behind them. If these scaling laws continue for
+
+1. Regulation
+
+only a year or two longer, we are likely to get what
+
+and public
+
+I’ve called Powerful AI, or “a country of geniuses
+
+safety
+
+in a datacenter”.
+
+2.
+Macroeconomics
+and tax policy
+
+By contrast, policy—and especially legislation—
+moves very slowly. Often this is for good reasons:
+governments have grave powers, and it’s usually
+
+3.
+
+for the best that they aren’t used too hastily. But
+
+Accelerating
+
+the mismatch in timescale is nevertheless very
+
+AI’s positive
+
+painful: in the several years that it can take
+
+impact
+
+Congress to act, AI can go from an amusing toy to
+
+4. The state
+
+the full country of geniuses.
+
+and civil
+liberties
+
+Over the last few years since AI has become a
+major commercial technology, those of us who
+
+5. Securing
+
+wanted to handle it responsibly have faced a
+
+leadership by
+
+dilemma. We could see clearly where the
+
+democracies
+
+exponential was going: we strongly suspected that
+
+A window of
+
+within a few years AI would be one of the rare
+
+opportunity
+
+technologies that fundamentally reshapes the
+entire policy landscape, in the same way that
+nuclear weapons reshaped geopolitics and the
+industrial revolution fundamentally reshaped
+every economic and social issue. But to those
+looking only at what AI could do at the time, it
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+2/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+looked like a much more mundane technology—
+similar perhaps to the latest consumer app or
+cryptocurrency. It was hard to convince most
+policymakers and companies that anything other
+
+Contents
+
+than a laissez faire attitude made sense. And to be
+fair, the fact that AI’s radical effects were not yet
+
+1. Regulation
+
+present, and that we didn’t know exactly what
+
+and public
+
+shape they might take, made it difficult to design
+
+safety
+
+the right policies even if there had been the will
+
+2.
+
+to act.
+
+Macroeconomics
+and tax policy
+
+Given the limits imposed by this situation, many
+safety advocates (including Anthropic) have so far
+
+3.
+
+been focused on advocating for policy actions
+
+Accelerating
+
+that preserve optionality, tee up a fast reaction in
+
+AI’s positive
+
+the future, or give the world better insight into
+
+impact
+
+what is coming down the pike – things like
+
+4. The state
+
+transparency legislation, export controls on chips,
+
+and civil
+
+and data collection on AI’s labor effects. These
+
+liberties
+
+are not enough, but they have felt like all that
+
+5. Securing
+
+was possible.
+
+leadership by
+
+In the last few months, however, the evidence of
+
+democracies
+
+AI’s incredible power, as well as its risks, has
+
+A window of
+
+become undeniable. Perhaps the most
+
+opportunity
+
+emblematic example is Claude Mythos Preview
+and the discovery that frontier models pose very
+real risks to cybersecurity, creating the potential
+for disruption of the financial sector, critical
+infrastructure, and national security. Mythos
+Preview scrambled the global cybersecurity
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+3/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+landscape. But its broader significance is that it
+proves beyond doubt that AI models are now
+tools of global and national strategic
+consequence. The cyber risks that Mythos-class
+
+Contents
+
+models present will not be the last that we must
+face. I believe that biological risks may soon
+
+1. Regulation
+
+follow, and that serious AI autonomy risks may
+
+and public
+
+not be far behind 1 .
+
+safety
+2.
+Macroeconomics
+and tax policy
+
+We now, globally and collectively, need to activate
+a slow and rickety policy apparatus to deal with
+risks and opportunities that are going to
+compound surprisingly quickly from here. Many
+
+3.
+
+policymakers are showing increased openness to
+
+Accelerating
+
+taking action, and it's been encouraging to see our
+
+AI’s positive
+
+peers come around to the same positions we've
+
+impact
+
+been advocating for over the past few years. This
+
+4. The state
+
+is good, but I worry that these early actions are at
+
+and civil
+
+least a year out of step with AI's rapid progress.
+
+liberties
+
+This essay is an attempt to close that gap: to lay
+
+5. Securing
+leadership by
+
+out where the exponential is now, and the
+collective action needed to meet the moment.
+
+democracies
+
+I will focus on five perennial policy areas that
+
+A window of
+
+need re-imagining in an AI world: regulation and
+
+opportunity
+
+public safety, macroeconomics and tax policy,
+scientific innovation, the balance of power
+between state and society, and geopolitics. I will
+speak primarily in terms of US policy since
+Anthropic is an American company, but most of
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+4/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+my recommendations are also relevant to the rest
+of the world.
+Along with this essay, Anthropic is releasing a
+
+Contents
+
+legislative proposal on frontier model testing and
+a policy framework for job displacement, for
+
+1. Regulation
+
+which we intend to provide substantial financial
+
+and public
+
+backing. We plan to do much more in the
+
+safety
+
+future, but we view these as first steps to signal
+
+2.
+
+our seriousness.
+
+Macroeconomics
+and tax policy
+3.
+
+1. Regulation
+and public safety
+
+Accelerating
+AI’s positive
+impact
+
+Every new technology or product has both
+beneficial and harmful uses, and therefore
+presents a dilemma between innovation and
+
+4. The state
+and civil
+liberties
+
+safety. Regulating products makes them less likely
+to cause harm and has played an important role
+in improving lives around the world, but it can
+
+5. Securing
+
+also directly reduce their benefits and indirectly
+
+leadership by
+
+disincentivize innovation. There is also the
+
+democracies
+
+Hayekian point that regulators often lack the
+
+A window of
+
+information needed to make the right decisions
+
+opportunity
+
+about complicated economic tradeoffs, so that
+regulation is often both ineffective and
+burdensome. A related idea is the Collingridge
+dilemma, which states that the impacts of a
+technology are often hard to anticipate until it is
+too late to easily manage them.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+5/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+These dynamics loomed large for AI in 20232024. It was clear to Anthropic that AI might in
+the future be capable of producing biological
+weapons that could threaten millions, or
+
+Contents
+
+autonomous misbehavior that in extreme cases
+could even threaten humanity itself. Less clear
+
+1. Regulation
+
+was the exact form in which the risks would
+
+and public
+
+appear, how best to test for them and mitigate
+
+safety
+
+them, and how they would play out in practice.
+
+2.
+
+There was therefore a high risk that legislation
+
+Macroeconomics written ahead of time would end up being
+and tax policy ineffective—creating pointless or low-value
+3.
+Accelerating
+
+compliance requirements while missing the most
+crucial sources of actual risk 2 .
+
+AI’s positive
+
+Ultimately, we concluded that the right approach
+
+impact
+
+at that time was transparency. Developers of AI
+
+4. The state
+
+models should have to disclose their safety
+
+and civil
+
+procedures and the tests that they run on their
+
+liberties
+
+models and report on any critical safety incidents,
+
+5. Securing
+leadership by
+democracies
+
+so that the public and the scientific community
+could gain better visibility into risks as they
+emerge. When and if risks become more definite
+and their shape is more clear, then the evidence
+
+A window of
+
+gained through transparency could be used to
+
+opportunity
+
+design smart legislation to precisely target the
+most concerning risks. Thus, in 2025, Anthropic
+supported transparency legislation, helping to
+pass SB 53 in California, RAISE in NY, SB 315 in
+Illinois (in early 2026), and advocating for a
+transparency standard at the federal level.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+6/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+However, now the risks are clearly here. It is time
+to go beyond transparency to more serious and
+binding regulation of AI. I believe the best
+analogy, at least at the current stage of the
+
+Contents
+
+exponential, is to cars, airplanes, or drugs—
+powerful technologies essential to the modern
+
+1. Regulation
+
+economy, but capable of killing large numbers of
+
+and public
+
+people if designed or operated poorly. I therefore
+
+safety
+
+believe we should model AI regulation on
+
+2.
+
+agencies like the Federal Aviation Administration
+
+Macroeconomics (FAA). Frontier AI models, like airplanes,
+and tax policy should be required to go through technical
+3.
+Accelerating
+AI’s positive
+impact
+
+testing and auditing, and their release should
+be blocked or reversed as a threat to public
+safety if they do not meet high standards of
+safety. I am grateful to see the Trump
+administration’s Executive Order move
+
+4. The state
+
+incrementally towards a greater role for
+
+and civil
+
+government in AI, though Anthropic’s proposal
+
+liberties
+
+recommends even further action. Our proposal
+
+5. Securing
+
+includes the following elements:
+
+leadership by
+democracies
+
+Models above a threshold of compute
+should undergo mandatory testing by a
+
+A window of
+
+qualified third party for their level of risk in
+
+opportunity
+
+four specific areas: cybersecurity, biological
+weapons, loss of control of AI systems, and
+automated R&D that could accelerate these
+other risks.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+7/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+The government should have the power to
+block or deter deployment of the model if it
+is determined, in light of third-party
+assessment, to present unacceptable risks.
+
+Contents
+
+This power must be scoped to the above four
+specific risks and there must be protective
+
+1. Regulation
+
+measures against political favoritism or
+
+and public
+
+arbitrary decisions.
+
+safety
+
+Third-party evaluation could be done by a
+
+2.
+
+government agency (similar to the FAA) or a
+
+Macroeconomics
+
+set of private organizations that are
+
+and tax policy
+
+authorized and inspected by the government
+
+3.
+Accelerating
+
+to evaluate models according to certain
+standards (a “regulatory markets” approach).
+
+AI’s positive
+
+AI companies that develop advanced AI
+
+impact
+
+models must have strong security standards
+
+4. The state
+and civil
+liberties
+5. Securing
+leadership by
+democracies
+
+that protect their model weights, should
+conduct regular red teaming and
+penetration testing, and should work with
+the government to defend against major
+threat actors.
+Safety incidents in the four critical areas
+must be reported promptly.
+
+A window of
+opportunity
+
+There may come a time, perhaps relatively soon,
+when we need to go beyond this, when the most
+powerful AI systems look less like airplanes or
+automobiles and more like weaponizable nuclear
+materials—a threat to humanity rather than “just”
+a threat to public safety. If that occurs, we may
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+8/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+need more aggressive regulatory measures than
+those I have laid out 3 . But just as it was difficult
+in 2024 to target and apply the measures I’m
+suggesting now, I don’t think we should get ahead
+
+Contents
+
+of ourselves. We should design policies for the
+dangers that are emerging today, while laying the
+
+1. Regulation
+
+foundations to ramp up our response even more
+
+and public
+
+quickly as new dangers appear.
+
+safety
+2.
+and tax policy
+
+2. Macroeconomics
+and tax policy
+
+3.
+
+Governments have long faced the problem of
+
+Accelerating
+
+how to encourage economic growth while also
+
+AI’s positive
+
+providing important public services and ensuring
+
+impact
+
+that the least fortunate are taken care of. An
+
+4. The state
+
+important (and generally correct) premise of
+
+Macroeconomics
+
+and civil
+liberties
+
+these debates has been that economic growth is
+fragile and difficult to achieve—that while reducing
+inequality might provide important benefits, it
+
+5. Securing
+leadership by
+
+has to be traded off against the economic drag of
+increased taxes or deficits.
+
+democracies
+A window of
+
+I suspect that powerful AI may scramble this
+
+opportunity
+
+assumption. If AI achieves the ability to do most
+cognitive tasks far better than humans, it stands
+to reason that it could result in extremely rapid
+and robust economic growth via the acceleration
+of science, technology, and operational efficiency.
+The iterative ability of AI to build even better AI
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+9/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+may supercharge that growth even further. But
+for exactly the same reasons, AI may also act as a
+more general economic substitute for human
+cognitive abilities than previous technologies
+
+Contents
+
+have, while also altering the economy far faster
+than previous technologies have. Thus, it’s
+
+1. Regulation
+
+reasonable to think that AI could produce much
+
+and public
+
+larger disruptions to the labor market than
+
+safety
+
+previous technologies, and, potentially, more
+
+2.
+
+enduring disruptions. We risk ending up in a
+
+Macroeconomics world where the economic tradeoff dial is stuck
+and tax policy on the hypergrowth, hyper-inequality setting, and
+3.
+Accelerating
+AI’s positive
+impact
+
+is potentially very hard to unstick from that
+setting. The key challenge in such a world won’t be
+incentivizing growth, but finding a way for everyone
+to share in the benefits.
+
+4. The state
+
+Of the topics discussed in this essay,
+
+and civil
+
+macroeconomics and enduring labor
+
+liberties
+
+displacement are arguably the ones that have
+
+5. Securing
+leadership by
+democracies
+
+attracted the most public attention and the most
+misunderstanding, so I want to be extremely clear
+on two points.
+
+A window of
+
+First, enduring job displacement is undesirable
+
+opportunity
+
+and dangerous, and we should do everything we
+can to minimize or prevent it, not to bring it
+about. I have warned about job displacement in
+interviews and essays because I want both
+policymakers and the private sector to have the
+best chance to adapt and respond, not because I
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+10/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+am trying to be a “prophet of doom”. As a
+company, Anthropic always does as much as it
+can to work with customers to find creative new
+use cases and new sources of revenue that allow
+
+Contents
+
+them to do more with their existing workforce,
+rather than focusing solely on cost savings (which
+
+1. Regulation
+
+often means reducing the workforce). We also
+
+and public
+
+constantly try to think of new interaction
+
+safety
+
+paradigms that allow humans to have as active a
+
+2.
+
+role as possible in collaborating with AI systems
+
+Macroeconomics as those systems advance. More broadly, it is
+and tax policy valuable for the whole world to experiment with
+3.
+Accelerating
+AI’s positive
+impact
+
+using AI in as many new ways as possible, as that
+is the way for society to discover new possible job
+configurations. I do think AI will enable a number
+of new economic opportunities. I’ve predicted
+that AI will enable single individuals to create
+
+4. The state
+
+billion-dollar companies, and we're already seeing
+
+and civil
+
+teams of only a few people build businesses with
+
+liberties
+
+hundreds of millions in revenue. But at the same
+
+5. Securing
+
+time we should recognize that there’s a decent
+
+leadership by
+
+possibility that, despite all our efforts, AI still
+
+democracies
+
+causes significant enduring job loss—and
+
+A window of
+opportunity
+
+that this may be an intrinsic property of the
+technology and the way it broadly replicates
+human cognition 4 .
+Second, any response to AI-driven job
+displacement needs to address both the need to
+provide for everyone economically, and the need
+for people to find meaning, purpose, and agency.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+11/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+The latter is ultimately more important, and it
+depends on deep questions about how society is
+organized, what people should strive for, and
+what constitutes the good life. I am actually very
+
+Contents
+
+optimistic that, even in a world with AI’s that are
+better than everyone at everything, humans can
+
+1. Regulation
+
+live lives of deep purpose and strive to build awe-
+
+and public
+
+inspiring and beautiful things 5 . But this is
+
+safety
+
+something to be collectively worked out by
+
+2.
+
+society as a whole, not something policy can
+
+Macroeconomics directly address. Policy can be most helpful in
+and tax policy buying us time to do that work, by slowing down
+3.
+Accelerating
+
+job loss and providing economically for those
+likely to be affected.
+
+AI’s positive
+
+In that spirit, some key policy interventions that
+
+impact
+
+are likely to be helpful include:
+
+4. The state
+and civil
+liberties
+
+Measurement and tracking. It’s easy to
+dismiss mere data collection and analysis as
+inadequate to the scale of the problem, but
+
+5. Securing
+
+we are unlikely to get good policy if we
+
+leadership by
+
+cannot accurately measure what is
+
+democracies
+
+happening on the ground. Anthropic has
+
+A window of
+
+been operating an Economic Index of how
+
+opportunity
+
+people use Claude for nearly a year and a
+half, but governments have access to types of
+data we do not, and could greatly expand
+their economic statistics to more carefully
+track AI job displacement.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+12/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Pro-employment incentives. A wide range
+of pro-employment policy incentives can
+help to slow or reduce job displacement,
+including: wage insurance policies that
+
+Contents
+
+compensate people when they have to take a
+lower-paying job 6 , retention tax incentives
+
+1. Regulation
+
+to encourage employers not to make layoffs,
+
+and public
+
+workforce training grants, or infrastructure
+
+safety
+
+to facilitate matching of employers to
+
+2.
+
+employees to speed the rate of labor market
+
+Macroeconomics
+
+adaptation. While the particulars of which
+
+and tax policy
+
+interventions are best will depend on what
+
+3.
+Accelerating
+AI’s positive
+impact
+4. The state
+and civil
+liberties
+
+kind of labor displacement AI brings, we
+should readily accept the costs and market
+inefficiencies that these policies could entail,
+particularly as they are likely to be offset by
+AI-driven productivity gains.
+Long-term macroeconomic support. If AIdriven labor displacement ends up being
+large in magnitude and permanently drives
+
+5. Securing
+
+down the demand for labor, it will likely be
+
+leadership by
+
+necessary to go beyond mere incentive
+
+democracies
+
+programs to long-term income support for a
+
+A window of
+
+significant fraction of the labor force.
+
+opportunity
+
+Mechanisms such as universal basic income
+could be financed through taxes on relevant
+companies or raising the capital gains tax.
+Universal capital accounts offer another
+vehicle. Broadly speaking, fast economic
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+13/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+growth should create the tax base for
+shared prosperity.
+A common focus of economic concern about AI
+
+Contents
+
+that I haven’t mentioned has been datacenters
+and particularly their potential to raise energy
+
+1. Regulation
+
+prices. My view is that AI companies should pay
+
+and public
+
+to absorb rate increases—and Anthropic has
+
+safety
+
+already made a pledge to do so—but I see public
+
+2.
+Macroeconomics
+and tax policy
+
+hostility to datacenters as largely a symbol or
+outlet for broader economic anxieties about AI. It
+is important we have a direct societal
+conversation about these wider economic issues
+
+3.
+
+and truly have compelling solutions for them, or
+
+Accelerating
+
+else they are likely to manifest indirectly, as they
+
+AI’s positive
+
+have with datacenters.
+
+impact
+4. The state
+liberties
+
+3. Accelerating AI’s
+positive impact
+
+5. Securing
+
+Just as we must grapple with the balance between
+
+leadership by
+
+innovation and safety for AI itself, we must
+
+democracies
+
+grapple with the same balance for technologies
+
+A window of
+
+that are likely to be accelerated by AI, such as
+
+opportunity
+
+biomedicine, energy, or materials science. But
+
+and civil
+
+while AI itself is likely to present novel challenges
+that emerge very quickly and that we have no
+prior experience in handling, other fields
+accelerated by AI are likely to encounter a very
+different problem: regulatory systems that were
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+14/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+designed for a slower pace of innovation and are
+not prepared to handle the deluge of new
+products and advances that AI will bring. AI may
+also make these downstream technologies safer
+
+Contents
+
+and more predictable in a way that violates the
+skeptical assumptions of regulatory agencies like
+
+1. Regulation
+
+the Food and Drug Administration (FDA).
+
+and public
+safety
+2.
+Macroeconomics
+and tax policy
+
+Thus, for downstream applications of AI—in
+contrast to AI itself—I am more worried about the
+regulatory apparatus slowing down progress
+(because it can’t handle the increased pace of
+change) than I am about it failing to address
+
+3.
+
+important risks. The last thing we want is for the
+
+Accelerating
+
+benefits of AI to be slowed while its risks loom
+
+AI’s positive
+
+large, so it’s important to take action on this
+
+impact
+
+problem as soon as possible.
+
+4. The state
+and civil
+liberties
+
+The problem and its solutions will manifest
+differently in each area of science, commerce, and
+technology, so I’ll focus on one illustrative area:
+
+5. Securing
+
+biomedical innovation. This is both because it
+
+leadership by
+
+will likely be the source of AI’s biggest
+
+democracies
+
+humanitarian benefits and because it is an area
+
+A window of
+
+where regulation is especially complex. We don’t
+
+opportunity
+
+know exactly how AI will accelerate biomedical
+innovation, but it seems likely to:
+Greatly increase the rate at which new drug
+candidates enter the regulatory pipeline;
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+15/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Increase the effect sizes and improve the
+safety profiles of new drugs, because of
+better optimization and perhaps better
+understanding of their underlying biology;
+
+Contents
+
+Develop drug candidates for diseases that
+have never been successfully treated before;
+
+1. Regulation
+and public
+safety
+2.
+
+Rapidly create entire new forms of therapies,
+similar to how antibodies, peptides, and cell
+therapies have become new categories of
+treatment over the last few decades.
+
+Macroeconomics
+and tax policy
+3.
+Accelerating
+AI’s positive
+impact
+
+Some of these advances will naturally accelerate
+regulatory timelines without need for structural
+change. Drugs with larger effect sizes can lead to
+smaller, less expensive clinical trials, and activate
+mechanisms for accelerated approval. But the
+regulatory system is currently designed to apply a
+
+4. The state
+
+high level of scrutiny and many stages of testing,
+
+and civil
+
+under the assumption that drug candidates often
+
+liberties
+
+don’t work and often have serious safety
+
+5. Securing
+
+problems even when they do. With both the FDA
+
+leadership by
+
+and the European Medicines Agency (EMA), the
+
+democracies
+
+typical time for a drug candidate to pass through
+
+A window of
+opportunity
+
+the regulatory pipeline is 7-8 years, in part due to
+these pessimistic assumptions. Without reforms,
+AI will simply jam or overload this system.
+Obviously, we don’t want to change things in a
+way that leads to a crop of snake-oil drugs or
+widespread safety incidents. But some relatively
+simple reforms could make the FDA, EMA, and
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+16/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+similar agencies more adaptable to a rapid AIdriven scientific acceleration if one were to occur.
+Many of the steps in the clinical process that
+
+Contents
+
+previously required expensive and slow
+experiments may soon be done via AI simulation
+
+1. Regulation
+
+or analysis. Regulatory agencies should consider
+
+and public
+
+developing standards now for what it would take
+
+safety
+
+to accept such methods. This would mean they
+
+2.
+Macroeconomics
+and tax policy
+
+can be adopted quickly once they work, rather
+than there being an extended period during
+which unnecessary tests continue to be required.
+Areas where this could apply include:
+
+3.
+Accelerating
+
+AI-based pharmacodynamics and
+
+AI’s positive
+
+pharmacokinetics (PD/PK) modeling;
+
+impact
+
+Prediction of toxicology to avoid the need
+
+4. The state
+
+for multiple species animal toxicology;
+
+and civil
+
+More accurate dose selection, to reduce to
+
+liberties
+
+the need for large dose ranges in trials;
+
+5. Securing
+leadership by
+democracies
+A window of
+opportunity
+
+Biomarker validation via analysis of
+large datasets;
+Synthetic control arms in clinical trials, to
+reduce the need to recruit more participants;
+Developing surrogate endpoints (particularly
+important in aging and neurodegeneration).
+Beyond these specific examples, agencies should
+also consider more radical and flexible
+mechanisms for accelerated approval. If my
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+17/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+predictions about AI are correct, there will soon
+be many instances of interventions that work
+really well out of the blue, and the regulatory
+system should be prepared to take them seriously
+
+Contents
+
+and not adopt a posture of excessive skepticism.
+
+1. Regulation
+
+Biomedical acceleration should substantially
+
+and public
+
+increase AI’s benefits, but it’s worth noting that it
+
+safety
+
+may also help to reduce AI’s risks. Reforming
+
+2.
+Macroeconomics
+and tax policy
+
+biomedical approvals may help with biodefense,
+and AI-driven biomedical progress may also
+improve mental health, which could have a
+stabilizing effect on society.
+
+3.
+Accelerating
+AI’s positive
+impact
+
+4. The state and civil liberties
+Every system of government has to confront the
+
+4. The state
+
+question of the state’s power and its limits. The
+
+and civil
+
+state has a legitimate, often existential, interest in
+
+liberties
+
+protecting its population from internal and
+
+5. Securing
+
+external threats. But granting it too much power
+
+leadership by
+
+is the road to tyranny. Modern democracies have
+
+democracies
+
+largely managed this balance successfully, but it is
+
+A window of
+opportunity
+
+an uneasy one at the best of times. Enforcing it
+has required a great deal of legal and
+constitutional machinery built up over centuries—
+for example in the United States the First, Fourth,
+and Fifth amendments, the Posse Comitatus Act,
+FISA, and so on.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+18/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+AI threatens to upset this balance while also
+dramatically raising its stakes. But if we react
+quickly and meet the moment, we can use AI to
+create a world that has more robust and durable
+
+Contents
+
+guarantees of liberty and better defense against
+threats, than we have ever had before.
+
+1. Regulation
+and public
+
+Powerful AI in the wrong hands could be the
+
+safety
+
+ultimate tool of autocracy, and our existing legal
+
+2.
+Macroeconomics
+and tax policy
+
+and constitutional protections are not fully
+equipped to counter this threat. Fundamentally,
+the enormous returns to intelligence in terms of
+power in the world, combined with the rapid
+
+3.
+
+pace of AI’s progress, creates a perfect storm
+
+Accelerating
+
+for a surprise seizure of power by a range of
+
+AI’s positive
+
+dangerous actors 7 .
+
+impact
+4. The state
+and civil
+liberties
+
+The danger could take a variety of specific
+technological or operational forms, but what they
+all have in common is the idea that AI could
+suddenly confer enormous power while routing
+
+5. Securing
+
+around existing mechanisms of democratic
+
+leadership by
+
+oversight. A fully automated drone army that
+
+democracies
+
+sounds like science fiction today could, in the
+
+A window of
+
+future, obey unlawful orders and allow
+
+opportunity
+
+governments to unilaterally entrench their power;
+professionally-trained humans are more likely to
+object to such illegal direction. A surveillancefocused AI could analyze widely available
+information at massive scale and use it to infer
+the innermost details of every citizen’s life—a
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+19/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+technological ability not contemplated by current
+civil liberties law. All of this could happen very
+quickly, or in secret, so it is important to
+proactively fortify democracies’ commitment to
+
+Contents
+
+freedom and civil liberties.
+
+1. Regulation
+
+The following are some policy ideas we
+
+and public
+
+should consider:
+
+safety
+
+Create reliable accountability rules for
+
+2.
+
+fully autonomous weapons. Autonomous
+
+Macroeconomics
+
+weapons, and especially any autonomous
+
+and tax policy
+
+systems that coordinate or direct them,
+
+3.
+
+should be required to respond to
+
+Accelerating
+
+mechanisms of constitutional and command
+
+AI’s positive
+
+accountability (e.g. court orders, legislation,
+
+impact
+
+and accountability to senior human
+
+4. The state
+and civil
+liberties
+
+overseers) rather than blindly following
+orders. This could mean that a suitablydesigned legal review panel or the judicial
+branch have their finger on an “off switch”,
+
+5. Securing
+
+that the systems themselves are intrinsically
+
+leadership by
+
+trained to seek out and respond to legitimate
+
+democracies
+
+oversight authority, or both.
+
+A window of
+opportunity
+
+Ban the domestic use of fully autonomous
+weapons. While there is a legitimate case for
+the necessity of fully autonomous weapons
+to defend against foreign adversaries (such as
+Russia invading Ukraine), there is no
+justification for their use against Americans.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+20/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+The military already has some limits on its
+ability to operate domestically, but ideally
+these weapons should be banned in law
+enforcement as well.
+
+Contents
+
+Close the bulk collection / data broker
+loophole. Under current law, data that
+
+1. Regulation
+
+Americans share with private companies
+
+and public
+
+(such as internet providers) can be purchased
+
+safety
+
+and used for bulk analysis in domestic
+
+2.
+
+surveillance and law enforcement. This gap
+
+Macroeconomics
+
+in privacy protections predates AI, but AI
+
+and tax policy
+
+will raise the stakes considerably by making
+
+3.
+Accelerating
+AI’s positive
+impact
+4. The state
+and civil
+liberties
+
+mass analysis of such data far more revealing
+and useful than it has been in the past. This
+loophole should be closed.
+Public rights to AI advice during adverse
+government action. As a general principle,
+it seems important that any person or
+organization that is the subject of adverse
+government action (e.g. regulatory or legal
+
+5. Securing
+
+action) has access to AI that is at least as
+
+leadership by
+
+capable as whatever the government is
+
+democracies
+
+allowed to use in that particular action. This
+
+A window of
+
+would mean not giving the government an
+
+opportunity
+
+unfair advantage, effectively undermining
+citizens’ legal rights. This could be added as
+an extension or interpretation of the
+Administrative Procedure Act, due process
+protections, or the Sixth Amendment right
+to legal representation.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+21/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Finally, it is worth noting that governments are
+not the only entities that we should beware of
+when it comes to AI-driven seizure of power. At
+various times in history (such as the Gilded Age in
+
+Contents
+
+the United States or the East India Company in
+the UK), companies have become powerful
+
+1. Regulation
+
+enough that they capture the state or adopt quasi-
+
+and public
+
+state characteristics. AI will soon become so
+
+safety
+
+capable that I worry it cannot safely be fully
+
+2.
+
+entrusted to either governments or companies,
+
+Macroeconomics and there must be checks and balances on each.
+and tax policy
+
+Regulation is one answer on how to rein in
+
+3.
+
+companies (and my ideas for that are in Section
+
+Accelerating
+
+1), but it’s also important that AI companies have
+
+AI’s positive
+
+more separation of power and accountability
+
+impact
+
+than is typical for private entities. Anthropic’s
+
+4. The state
+
+Long-Term Benefit Trust (an independent
+
+and civil
+
+governance body designed to hold the company
+
+liberties
+
+to its mission) is one such structure, and the
+
+5. Securing
+leadership by
+democracies
+
+industry should continue to explore mechanisms
+that go further. Getting the balance right—so that
+both companies and the government have
+meaningful checks on their powers—is essential.
+
+A window of
+opportunity
+
+5. Securing leadership
+by democracies
+It has become a common instinct, perhaps
+developed from recent experience with the
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+22/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+internet and telecommunications, to regard new
+technologies geopolitically as instruments of
+trade policy, with the aim being to “diffuse our
+technology stack around the world”. But it is my
+
+Contents
+
+very strong belief that AI is something much
+more profound, something that resets the whole
+
+1. Regulation
+
+game board and around which all future
+
+and public
+
+geopolitical strategy must be shaped—like nuclear
+
+safety
+
+weapons, but potentially even more so.
+
+2.
+Macroeconomics
+and tax policy
+
+If AI really will soon be “a country of geniuses in
+a datacenter”, or anything remotely close to it,
+then AI is likely to be the dominant source of
+
+3.
+
+military and economic power for any nation. In
+
+Accelerating
+
+a virtual country of 100 million geniuses, 10
+
+AI’s positive
+
+million could be applied to military strategy, 10
+
+impact
+
+million to drone manufacture, 10 million to
+
+4. The state
+
+weapons R&D, 10 million to intelligence
+
+and civil
+
+collection and analysis, 10 million to general
+
+liberties
+
+scientific advancement, and so on. A nation that
+
+5. Securing
+leadership by
+democracies
+A window of
+
+possesses powerful AI facing one without it—or
+even facing one that is behind in AI by 3
+years—could be the equivalent of an army
+of World War II Marines facing an army of
+medieval swordsmen.
+
+opportunity
+In addition, if powerful AI enables deeper and
+potentially permanent forms of autocratic
+repression (see Section 4), this makes it all the
+more important that the world’s most powerful
+nations are democracies—or at least that strong
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+23/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+protections exist against AI-driven repression. It
+also increases the urgency of a focused
+geopolitical strategy.
+
+Contents
+
+Democracies should seek to form a global
+coalition centered on building AI according to
+
+1. Regulation
+
+their common values, iteratively trying to draw in
+
+and public
+
+the rest of the world by making it more and more
+
+safety
+
+attractive to be part of the coalition and less and
+
+2.
+Macroeconomics
+and tax policy
+
+less attractive to be outside it. The coalition
+should be a coordinated internationalization of
+the AI policy ideas discussed in Section 1 through
+4, plus an effort to lock down the supply chain
+
+3.
+
+critical to building AI by sharing it within the
+
+Accelerating
+
+coalition and denying it to those outside it. Some
+
+AI’s positive
+
+principles and operating goals might include:
+
+impact
+4. The state
+and civil
+liberties
+
+Managing the AI supply chain. Members
+of the trusted coalition should freely share
+chips and semiconductor manufacturing
+equipment (SME) with each other, while
+
+5. Securing
+
+working together to deny it to adversaries.
+
+leadership by
+
+US export controls on frontier chips and
+
+democracies
+
+SME to China have been a major
+
+A window of
+
+contributor to the US’s overall lead in AI,
+
+opportunity
+
+and these policies need to be expanded,
+tightened, and coordinated with other
+likeminded states. Pending legislation like
+MATCH and OVERWATCH is a good first
+step here, and allied democracies need to
+consider similar measures.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+24/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Coordinate to address AI’s risks. The
+policies to address biological, cybersecurity,
+and autonomy risks described in Section 1
+will be more effective (as well as less
+
+Contents
+
+burdensome to industry) if they are
+coordinated internationally. This would
+
+1. Regulation
+
+mean companies can comply with
+
+and public
+
+compatible standards and regulators can
+
+safety
+
+learn from each other how to best measure
+
+2.
+
+and mitigate these risks. Law enforcement
+
+Macroeconomics
+
+and intelligence agencies should also work
+
+and tax policy
+
+more closely together on tracking and
+
+3.
+Accelerating
+AI’s positive
+impact
+
+disrupting threats of misuse, such as efforts
+by terrorists to build biological weapons
+with AI.
+Share AI’s benefits. Trade and regulatory
+policy can be used to facilitate a more rapid
+
+4. The state
+and civil
+liberties
+
+diffusion of AI’s economic benefits within
+the coalition, sharing lessons on how to
+accelerate innovation. Coordinating
+
+5. Securing
+
+approaches to beneficial deployment could
+
+leadership by
+
+help bring the benefits of AI to developing
+
+democracies
+
+countries. For example, harmonization of
+
+A window of
+
+medical approval regimes could lead to
+
+opportunity
+
+faster and better testing and approval of
+AI-enabled drugs (as discussed in Section
+3 above).
+Mutual defense. Countries in the coalition
+should work together to defend each other
+with AI and from adversaries’ AI. The
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+25/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+coalition should collectively ensure sufficient
+production of AI-led cyberdefenses, AIpowered drones, AI-driven manufacturing,
+classified AI compute, AI-driven R&D, and
+
+Contents
+
+sharing of AI-driven intelligence collection.
+Rejection of AI-powered repression.
+
+1. Regulation
+
+Coalition members should have to reject the
+
+and public
+
+high-tech, ultra-repressive, AI-powered
+
+safety
+
+tyranny that I warned about in The
+
+2.
+
+Adolescence of Technology, and must have
+
+Macroeconomics
+
+safeguards similar to those I described in
+
+and tax policy
+
+Section 4 above.
+
+3.
+
+Macroeconomic cooperation. Crises of
+
+Accelerating
+
+employment or job stability, like any other
+
+AI’s positive
+
+economic crisis, can be contagious across
+
+impact
+
+borders. Countries therefore have a mutual
+
+4. The state
+and civil
+liberties
+
+interest in working together to coordinate
+macroeconomic support and stabilization
+policies, like those described in Section 2, to
+counter any employment effects.
+
+5. Securing
+leadership by
+
+The goal should be to make membership in the
+
+democracies
+
+coalition as attractive as possible—and the costs of
+
+A window of
+opportunity
+
+remaining outside it clear. The coalition would
+rest on coordination among sovereign states, with
+each nation retaining full authority over its own
+affairs. It could grow iteratively, starting with
+ideologically aligned democracies (which will be
+naturally amenable to joining) and progressively
+welcoming countries that are less naturally
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+26/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+aligned but prepared to meet the coalition's
+standards in exchange for the enormous benefits
+of membership. Ideally, the entire world would
+eventually join. But even if that isn't possible,
+
+Contents
+
+building the coalition puts democracies in the
+strongest position to contain and outcompete the
+
+1. Regulation
+
+regimes that remain committed to repression.
+
+and public
+safety
+2.
+
+A window of opportunity
+
+Macroeconomics AI’s exponential progress has created an urgency
+and tax policy
+
+and a pace of change that the policymaking
+
+3.
+
+process is ordinarily ill-equipped to handle. But it
+
+Accelerating
+
+has also created a unique window of opportunity.
+
+AI’s positive
+
+The confluence of clear and present evidence of
+
+impact
+
+AI’s risks, an early taste of the AI’s potential for
+
+4. The state
+and civil
+liberties
+
+both economic value creation and economic
+disruption, and a remarkable public backlash
+against unregulated approaches to AI have
+created a situation where policymakers are
+
+5. Securing
+
+unusually open to forward-looking actions.
+
+leadership by
+
+Treebeard and his forest are waking up.
+
+democracies
+A window of
+opportunity
+
+It’s become popular in AI industry circles to view
+this as a PR problem: to say that AI needs “better
+marketing”. I reject this framing completely.
+People are worried about AI because they correctly
+perceive that its risks are real, not because AI
+CEOs have been insufficiently Panglossian. I
+believe it is my duty as an AI leader to continue to
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+27/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+be transparent about these risks, and public
+concern in response to this transparency
+constitutes democratic accountability working as
+it should. The key challenge is focusing this
+
+Contents
+
+concern into constructive solutions and not
+allowing it to descend into formless anger
+
+1. Regulation
+
+and violence.
+
+and public
+safety
+2.
+Macroeconomics
+and tax policy
+
+I am optimistic about finding solutions because
+many of these issues—from addressing job
+displacement, to pre-release testing of models, to
+export controls on chips, to other AI related
+policy issues such as energy use—have a common-
+
+3.
+
+sense appeal across the political spectrum. There
+
+Accelerating
+
+is an aspirational but realistic future world in
+
+AI’s positive
+
+which a broad nonpartisan coalition, driven by
+
+impact
+
+direct recognition of the challenges posed by AI,
+
+4. The state
+
+leads to sane and forward-looking policies being
+
+and civil
+
+adopted much faster than usual. The sooner we
+
+liberties
+
+do this, the sooner we can all share in AI’s
+
+5. Securing
+
+incredible benefits.
+
+leadership by
+
+⁂
+
+democracies
+A window of
+opportunity
+
+I would like to thank Allan Dafoe, MarianoFlorentino Cuéllar, Richard Fontaine, Buddy
+Shah, Vas Narasimhan, Matt Yglesias, Nick
+Beckstead, Jason Matheny, Brad Carson and
+many of the staff at Anthropic for their
+comments and feedback on drafts of this essay.
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+28/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+Footnotes
+1
+
+I discuss biological and autonomy risks, among
+
+others, in my essay The Adolescence of Technology.
+
+Contents
+
+The Anthropic Institute has also released some
+initial internal data in When AI Builds Itself about
+
+1. Regulation
+
+the possibility of recursive self-improvement, or
+
+and public
+
+models that are autonomously capable of
+
+safety
+
+building better models. ↩
+
+2.
+
+2
+
+This phenomenon is not theoretical: we’ve
+
+Macroeconomics observed it multiple times in our own voluntary
+and tax policy
+
+governance frameworks like our Responsible
+
+3.
+
+Scaling Policy. If we give ourselves a fixed or rigid
+
+Accelerating
+
+list of safety requirements for future AI models, a
+
+AI’s positive
+
+very likely outcome is that requirements which
+
+impact
+
+turn out to matter very little end up consuming
+
+4. The state
+and civil
+liberties
+
+95% of our compliance efforts, while at the same
+time we discover that some of the biggest sources
+of risk weren’t anticipated in our list at all.
+Voluntary frameworks can be changed and
+
+5. Securing
+leadership by
+democracies
+
+adapted, but this is much harder with legislation.
+My attempts to wrestle with this dilemma can be
+seen in my two public letters about SB 1047, a
+
+A window of
+
+2024 California law that attempted to address
+
+opportunity
+
+catastrophic risks and about which I had mixed
+feelings for the reasons above. ↩
+3
+
+For example, truly severe biological risks may be
+
+much more difficult to manage than cyber risks,
+because attackers have a strong advantage relative
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+29/30
+
+8/2/26, 12:43 PM
+
+Dario Amodei — Policy on the AI Exponential
+
+to defenders and the severity of a catastrophe
+may be much greater. ↩
+4 See The Adolescence of Technology for a more
+
+Contents
+
+detailed analysis why the logic that has led to
+rapid job market recovery and a lack of enduring
+
+1. Regulation
+
+labor displacement in other technologies may not
+
+and public
+
+apply to AI, and in particular why the usual
+
+safety
+
+adaptive mechanisms like Jevon’s paradox or
+
+2.
+Macroeconomics
+and tax policy
+
+comparative advantage may be overwhelmed by
+the pace of the technology. ↩
+5 As an example, people still devote their lives to
+
+3.
+
+playing Chess, or Go, or climbing mountains, and
+
+Accelerating
+
+are still revered for these activities, even though
+
+AI’s positive
+impact
+
+all can be done better by machines. ↩
+6 This essentially gives people an extra incentive
+
+4. The state
+
+to migrate to a new job and start training for a
+
+and civil
+
+new career ladder, even when it may be painful in
+
+liberties
+
+the short run, by paying them the difference
+
+5. Securing
+
+between their new and old salaries, if the new one
+
+leadership by
+democracies
+A window of
+
+is lower. ↩
+7 See The Adolescence of Technology for more on
+
+this topic. ↩
+
+opportunity
+Back to top
+
+Privacy policy
+
+https://darioamodei.com/post/policy-on-the-ai-exponential
+
+30/30
+
+
