@@ -1,4 +1,4 @@
-Industrializing a small field: Lessons from Vannevar, for the AI Safety field
+Industrializing a small field: Lessons from Vannevar
 
 AI Safety needs to quickly transform from a "community" to an "industry"; the Manhattan Project is a good example!
 
