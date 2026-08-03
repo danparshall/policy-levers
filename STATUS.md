@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-08-02
+Last updated: 2026-08-03
 
 ## Current Focus
 
@@ -24,6 +24,8 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 | academic-recruitment | 2026-08-02 | Map how AI Policy funders recruit (or fail to recruit) established adjacent-field academics (cryptographers, economists), using the Vannevar Bush / OSRD playbook as the pitch frame. |
 
 ## Recent Sessions
+
+- **2026-08-03 (Vannevar publication note)** — Essay went live at [canaryinstitute.ai/blog/lessons-from-vannevar](https://canaryinstitute.ai/blog/lessons-from-vannevar) 2026-08-02 under "AI Governance" (title on site: "Industrializing a small field: Lessons from Vannevar"). Committed a `states`→`USA` copyedit on `essays/canary/vannevar-bush-approach_DAN.md` that presumably matches the shipped copy. Untracked `essays/canary/lessons_from_vannevar.md` (early rough draft with typos, filename matches URL slug) left in place — origin uncertain, no action taken. Issue #5 (FRONTIER outreach reminder, fired 9d ago) left open.
 
 - **2026-08-02 (academic-recruitment landscape)** — New line `academic-recruitment` started (on main). Landscape: covert-adversary model (Aumann-Lindell 2010) fully adopted by AI-governance verification (Cankaya 2606.00279; Baker/Harack/Scher-Thiergart/Wasil canon) but zero visible engagement with the authors; funding is pull-shaped (Coefficient TAS RFP, ARIA seeds, FLI workshop EOI), push-commissioning of established cryptographers absent; PVC (publicly verifiable covert security) flagged as the better treaty primitive and its authors as targets. Economist contrast shows the mature pipeline (Sloan/NBER agenda, EconTAI, Stripe fellowship funding RA buyouts + data, lab data partnerships) — patrons are mainstream, not safety-native. Bush/OSRD playbook distilled (6 moves) + Einstein-Szilard letter links captured (its own ask #2 was "fund the academics in place"; produced only the $6k Briggs committee) for a two-panel pitch: CAIS statement = Einstein letter, Bush layer missing, activity = "pick the Conants". **Essay shipped to publish-ready**: "Industrializing a small field: Lessons from Vannevar" (`essays/canary/vannevar-bush-approach_DAN.md`; Dan prose/seams mode, 4 footnotes, negative claim deep-research-verified, UK-AISI pre-empt) -> Dan to publishing pipeline. Papers agent landed Hassabis manifesto + Amodei trilogy (`d9f1e57`, reminder #4 closed). Econ-contrast material banked for part 2. Convo: `docs/active/academic-recruitment/convos/20260802_academic_recruitment_landscape.md`.
 

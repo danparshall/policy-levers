@@ -6,7 +6,7 @@ AI Safety needs to quickly transform from a "community" to an "industry"; the Ma
 
 Many folks know about the "Einstein letter"[^5] which was dated 87 years ago today.  As legend has it, this led to the formation of the Manhattan Project.  But actually this is only half the story: the original forays were plagued by institutional apathy, with multiple occasions when key scientific reports just didn't move.  
 
-In one famed instance, the Brits realized that the bomb would only require a few kilograms of uranium (instead of tons from earlier estimates), and sent a report to the head of the American uranium committee... who put it in his safe and didn't tell a soul.[^1]  Eventually Mark Oliphant realized "somebody has to, and no one else will", so he got on a military transport plane heading to the states, and started personally pounding on doors until the analysis got the attention it needed.
+In one famed instance, the Brits realized that the bomb would only require a few kilograms of uranium (instead of tons from earlier estimates), and sent a report to the head of the American uranium committee... who put it in his safe and didn't tell a soul.[^1]  Eventually Mark Oliphant realized "somebody has to, and no one else will", so he got on a military transport plane heading to the USA, and started personally pounding on doors until the analysis got the attention it needed.
 
 What probably was the biggest unlocking of the whole wartime research effort was Vannevar Bush walking into FDR's office to gain the institutional authority (and money), and then personally recruiting a handful of academics[^2] to mobilize the rest of the physicists into working on key problems (of which the Manhattan Project was ultimately the most significant).
 
