@@ -43,9 +43,11 @@ NOTE: I will write *all* tests before I add any implementation behavior.
 Item: uid, source, chamber ("house"|"senate"|"joint"), kind ("bill_intro"|"bill_action"|"press"|"hearing"|"markup"|"floor"), title, url, date (ISO event date), body_excerpt (≤500 chars, may be ""), matched_bills (filled by scorer)
 ```
 
-UID rules: congress_api → `"{bill_id}-{action_code_or_intro}-{action_date}"`; feed/press/structured → `sha1(url + "|" + title)[:16]`. Content-derived, never fetch-timestamps.
+UID rules: congress_api → `"{bill_id}-{action_code_or_intro}-{action_date}"`; docs.house.gov meeting items → derived from the feed `guid`/EventID (stable across title edits); feed/press/floor → `sha1(url + "|" + title)[:16]`. Content-derived, never fetch-timestamps.
 
-State file `data/watcher-state/state.json` (gitignored): per-source `last_run`, `seen_uids`, `snapshot` (parsed entries: title/url/date — never raw HTML), `consecutive_failures`; top-level `schema_version: 1`.
+State file `data/watcher-state/state.json` (gitignored): per-source `last_run`, `seen_uids`, `consecutive_failures`; top-level `schema_version: 1`. (No page snapshots: seen-UIDs are the novelty mechanism, and the adapters' zero-entries `SourceError` is the selector-drift tripwire — simplified 2026-08-04 during RED-phase authoring.)
+
+Scoring/triage rules pinned by the test suite (2026-08-04): event kinds (`markup`/`floor`/`hearing`) bypass the score threshold into Time-critical — meeting feeds are already curated by source selection, and a zero-keyword "Full Committee Markup" must still surface. Tracked-bill matching fires on aliases in title/body AND on the bill id embedded in a congress_api uid (official long titles rarely contain "H.R. NNNN").
 
 ---
 

@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "congress": 119,
+    "latestAction": {
+      "actionDate": "2026-06-25",
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 22 - 16."
+    },
+    "number": "9363",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To redesignate the National Institute of Standards and Technology's AI Safety Institute as the Center for AI Standards and Innovation, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2026-06-26T06:09:12Z"
+  },
+  "request": {
+    "billNumber": "9363",
+    "billType": "hr",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

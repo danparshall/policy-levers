@@ -1,0 +1,40 @@
+{
+  "bills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-28",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": "9901",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Artificial Intelligence Workforce Readiness Act",
+      "type": "HR",
+      "updateDate": "2026-07-29T06:15:03Z",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9901?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-07-28",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": "9902",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Rural Broadband Extension Act of 2026",
+      "type": "HR",
+      "updateDate": "2026-07-29T06:15:03Z",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9902?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}
