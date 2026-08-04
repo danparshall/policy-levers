@@ -38,6 +38,9 @@ data/processed/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Legislative watcher runtime state (src/watcher — see docs/active/leg-watcher/)
+data/watcher-state/**
+
 # Rendered essay PDFs (regenerate with scripts/render_q{1,4,8}.py)
 essays/mats_chang/*/rendered/
 
