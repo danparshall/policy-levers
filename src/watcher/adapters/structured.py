@@ -18,7 +18,7 @@ import feedparser
 from bs4 import BeautifulSoup
 
 from watcher.adapters.html_diff import _extract
-from watcher.models import Item, SourceError, make_hash_uid
+from watcher.models import Item, SourceError
 
 _MEETING_DATE_RE = re.compile(
     r"Meeting Date:\s*[A-Za-z]+,\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})"
@@ -42,7 +42,8 @@ def _event_date(description: str) -> str:
     m = _MEETING_DATE_RE.search(description)
     if not m:
         raise SourceError(f"could not find 'Meeting Date:' in description: {description[:120]!r}")
-    return datetime.strptime(m.group(1), "%B %d, %Y").date().isoformat()
+    # date-only parse — timezone is irrelevant
+    return datetime.strptime(m.group(1), "%B %d, %Y").date().isoformat()  # noqa: DTZ007
 
 
 def _committee_line(description: str) -> str:

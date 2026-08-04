@@ -7,7 +7,7 @@ to today but is flagged in the excerpt so silent date-drift never masquerades as
 
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import date
 
 import feedparser
 
@@ -25,8 +25,8 @@ def _entry_date(entry, today: str) -> tuple[str, bool]:
 
 
 def parse_feed(raw: bytes | str, *, source_id: str, chamber: str, today: str) -> list[Item]:
-    # sanity-check today is well-formed early — fail loud before catching junk feeds
-    datetime.strptime(today, "%Y-%m-%d")
+    # sanity-check `today` is a well-formed ISO date early — fail loud before catching junk feeds
+    date.fromisoformat(today)
 
     feed = feedparser.parse(raw)
     entries = feed.get("entries") or []

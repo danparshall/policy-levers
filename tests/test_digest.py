@@ -3,9 +3,8 @@ deterministic output, append-not-overwrite (plan Phase 5)."""
 
 from datetime import UTC
 
-from watcher.digest import render, write_digest
-
 from tests.conftest import make_item
+from watcher.digest import render, write_digest
 
 
 def sample_sections():

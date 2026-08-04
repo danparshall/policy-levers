@@ -9,8 +9,8 @@ matches raises SourceError, so silence is never indistinguishable from a quiet w
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 from datetime import datetime
-from typing import Iterable
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -24,7 +24,8 @@ def _iso_date(raw: str) -> str:
     text = (raw or "").strip()
     for fmt in DATE_FORMATS:
         try:
-            return datetime.strptime(text, fmt).date().isoformat()
+            # date-only parse — timezone is irrelevant
+            return datetime.strptime(text, fmt).date().isoformat()  # noqa: DTZ007
         except ValueError:
             continue
     raise SourceError(f"could not parse date {raw!r}")

@@ -42,5 +42,5 @@ def make_bill_uid(bill_id: str, action_code: str, action_date: str) -> str:
 
 def make_hash_uid(url: str, title: str) -> str:
     """UID for feed/press/floor items — content-derived, stable across runs."""
-    digest = hashlib.sha1(f"{url}|{title}".encode("utf-8")).hexdigest()
+    digest = hashlib.sha1(f"{url}|{title}".encode()).hexdigest()
     return digest[:16]
