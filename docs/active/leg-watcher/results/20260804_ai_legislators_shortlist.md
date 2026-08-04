@@ -1,3 +1,5 @@
+<!-- Generated during: convos/20260804_ai_legislator_research.md -->
+
 # AI-policy legislators & committees shortlist — 119th Congress, Aug 2026
 
 **Purpose:** Ground the `config/sources.yaml` Senate-member rows and committee picks in Phase 8 of the leg-watcher build. Delivered as research; final source-registry rows are Dan's call.
