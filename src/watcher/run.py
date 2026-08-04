@@ -84,7 +84,87 @@ def run_watcher(
     return digest_path
 
 
-def main() -> None:  # pragma: no cover — CLI entry, Phase 8 wires the real sources
-    raise NotImplementedError(
-        "Live source wiring lands in Phase 8; the tests here use fake sources."
+def main() -> None:  # pragma: no cover — thin CLI over run_watcher
+    """CLI entry: `uv run watcher [--include-backlog N] [--sources id1,id2] [--dry-run]`.
+
+    Loads config from ./config/{sources,keywords}.yaml (relative to CWD), pulls
+    CONGRESS_API_KEY from .env.local, wires live sources, and writes today's digest
+    to ./digests/YYYYMMDD.md. Everything upstream of that is unit-tested with fakes.
+    """
+    import argparse
+    import os
+    from datetime import date as _date
+    from pathlib import Path
+
+    from dotenv import load_dotenv
+
+    from watcher.config import load_keywords, load_sources
+    from watcher.sources import build_sources
+
+    parser = argparse.ArgumentParser(prog="watcher", description=__doc__)
+    parser.add_argument(
+        "--include-backlog", type=int, default=1, metavar="N",
+        help="On a source's first run, surface items dated within the last N days "
+             "(default 1 — daily cron mode). Bump for smoke runs.",
     )
+    parser.add_argument(
+        "--sources", type=str, default="",
+        help="Comma-separated source ids to include (default: all enabled).",
+    )
+    parser.add_argument(
+        "--config-dir", type=Path, default=Path("config"),
+        help="Directory containing sources.yaml and keywords.yaml (default: ./config).",
+    )
+    parser.add_argument(
+        "--state-path", type=Path, default=Path("data/watcher-state/state.json"),
+        help="State file location (default: ./data/watcher-state/state.json).",
+    )
+    parser.add_argument(
+        "--digest-dir", type=Path, default=Path("digests"),
+        help="Where to write daily digest files (default: ./digests).",
+    )
+    parser.add_argument(
+        "--today", type=str, default=None,
+        help="Override today's date (ISO YYYY-MM-DD); useful for backtest runs.",
+    )
+    args = parser.parse_args()
+
+    # .env.local is Dan's convention (see plan Prerequisites #1). Fall back to .env
+    # for CI or other environments.
+    load_dotenv(".env.local")
+    load_dotenv(".env")
+    api_key = os.environ.get("CONGRESS_API_KEY", "")
+
+    source_cfgs = load_sources(args.config_dir / "sources.yaml")
+    keywords = load_keywords(args.config_dir / "keywords.yaml")
+
+    today = args.today or _date.today().isoformat()  # noqa: DTZ011 — US-Eastern-day is fine
+    if args.sources:
+        wanted = {s.strip() for s in args.sources.split(",") if s.strip()}
+        source_cfgs = [c for c in source_cfgs if c.id in wanted]
+        if not source_cfgs:
+            parser.error(f"--sources filter matched nothing: {sorted(wanted)!r}")
+
+    if not api_key and any(c.type == "congress_api" and c.enabled for c in source_cfgs):
+        parser.error(
+            "CONGRESS_API_KEY not set (checked .env.local, .env, environment). "
+            "Either add the key or pass --sources to exclude congress_api rows."
+        )
+
+    sources = build_sources(
+        source_cfgs,
+        keywords=keywords,
+        api_key=api_key,
+        today=today,
+        backlog_days=args.include_backlog,
+    )
+
+    digest_path = run_watcher(
+        sources=sources,
+        state_path=args.state_path,
+        digest_dir=args.digest_dir,
+        keywords=keywords,
+        today=today,
+        include_backlog_days=args.include_backlog,
+    )
+    print(f"wrote {digest_path}")

@@ -6,10 +6,10 @@ item pubDate (pubDate is publication time; advance notice lives in the differenc
 """
 
 import pytest
-from watcher.adapters.structured import parse_floor_lookahead, parse_meeting_feed
-from watcher.models import SourceError
 
 from tests.conftest import load_fixture
+from watcher.adapters.structured import parse_floor_lookahead, parse_meeting_feed
+from watcher.models import SourceError
 
 
 def meeting_items():
@@ -46,6 +46,17 @@ def test_malformed_meeting_feed_raises_source_error():
     with pytest.raises(SourceError):
         parse_meeting_feed(b"<html>not the meeting feed</html>",
                            source_id="docs-house-sy00", chamber="house")
+
+
+def test_empty_stub_items_are_skipped():
+    """docs.house.gov emits placeholder <item> stubs with guid=0 and empty
+    title/description. Real bug hit on the 2026-08-04 smoke run: the adapter
+    was raising SourceError on the empty description instead of skipping.
+    The stub is a docs.house.gov quirk, not a parse failure."""
+    items = meeting_items()
+    # Fixture: 2 real items + 1 empty stub → 2 real items produced.
+    assert len(items) == 2
+    assert all(i.title for i in items)
 
 
 def test_floor_lookahead_entries_become_floor_items():

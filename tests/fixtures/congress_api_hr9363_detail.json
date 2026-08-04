@@ -1,16 +1,61 @@
 {
   "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/committees?format=json"
+    },
     "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 103 (Thursday, June 18, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. OBERNOLTE:\nH.R. 9363.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8\n[Page H4127]\n</pre>",
+    "cosponsors": {
+      "count": 7,
+      "countIncludingWithdrawnCosponsors": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/cosponsors?format=json"
+    },
+    "introducedDate": "2026-06-18",
     "latestAction": {
       "actionDate": "2026-06-25",
-      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 22 - 16."
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0."
     },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
     "number": "9363",
     "originChamber": "House",
     "originChamberCode": "H",
-    "title": "To redesignate the National Institute of Standards and Technology's AI Safety Institute as the Center for AI Standards and Innovation, and for other purposes.",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "O000019",
+        "district": 23,
+        "firstName": "Jay",
+        "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+        "isByRequest": "N",
+        "lastName": "Obernolte",
+        "party": "R",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/O000019?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/text?format=json"
+    },
+    "title": "AI Security and Innovation Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363/titles?format=json"
+    },
     "type": "HR",
-    "updateDate": "2026-06-26T06:09:12Z"
+    "updateDate": "2026-07-15T08:07:34Z",
+    "updateDateIncludingText": "2026-07-15T08:07:34Z"
   },
   "request": {
     "billNumber": "9363",

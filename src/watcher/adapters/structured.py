@@ -31,13 +31,6 @@ def _description_text(entry) -> str:
     return BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
 
 
-def _guid(entry) -> str:
-    guid = entry.get("id") or entry.get("guid") or ""
-    if not guid:
-        raise SourceError(f"meeting item missing guid: {entry.get('title')!r}")
-    return str(guid).strip()
-
-
 def _event_date(description: str) -> str:
     m = _MEETING_DATE_RE.search(description)
     if not m:
@@ -57,6 +50,13 @@ def _kind(title: str) -> str:
     return "markup" if "Markup" in title else "hearing"
 
 
+def _is_stub(title: str, guid: str, description: str) -> bool:
+    """docs.house.gov emits placeholder <item> stubs with guid=0 and empty
+    title/description as section separators. Real docs.house.gov quirk observed
+    2026-08-04 in the SY00 feed. Skip them cleanly — not a parse failure."""
+    return guid == "0" and not title and not description
+
+
 def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> list[Item]:
     feed = feedparser.parse(raw)
     entries = feed.get("entries") or []
@@ -68,8 +68,12 @@ def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> lis
         title = (entry.get("title") or "").strip()
         url = (entry.get("link") or "").strip()
         description = _description_text(entry)
+        guid = str(entry.get("id") or entry.get("guid") or "").strip()
+        if _is_stub(title, guid, description):
+            continue
+        if not guid:
+            raise SourceError(f"meeting item missing guid: {title!r}")
         committee = _committee_line(description)
-        guid = _guid(entry)
         items.append(Item(
             uid=f"{source_id}-{guid}",
             source=source_id,

@@ -43,13 +43,17 @@ def _bill_to_item(row: dict, source_id: str, kind: str, action_code: str) -> Ite
         raise SourceError(f"bill row missing latestAction.actionDate: {row!r}")
     bill_id = _bill_id(row)
     uid = make_bill_uid(bill_id, action_code, action_date)
+    # /v3/bill/{congress} list rows use `url` (api.congress.gov endpoint);
+    # /v3/bill/{congress}/{type}/{number} detail returns `legislationUrl`
+    # (congress.gov human-facing). Prefer the human-facing URL when available.
+    url = (row.get("legislationUrl") or row.get("url") or "").strip()
     return Item(
         uid=uid,
         source=source_id,
         chamber=_chamber(row),
         kind=kind,
         title=(row.get("title") or "").strip(),
-        url=(row.get("url") or "").strip(),
+        url=url,
         date=action_date,
         body_excerpt=action_text,
     )
@@ -61,7 +65,15 @@ def parse_bill_list(payload: dict, *, source_id: str) -> list[Item]:
     bills = payload.get("bills") or []
     if not isinstance(bills, list):
         raise SourceError(f"'bills' must be a list, got {type(bills).__name__}")
-    return [_bill_to_item(row, source_id, "bill_intro", "intro") for row in bills]
+    items: list[Item] = []
+    for row in bills:
+        # Reserved-for-the-Speaker placeholder bills carry `latestAction: null` and
+        # have no real content — real quirk observed 2026-08-04 in /v3/bill/119 output.
+        # Skip cleanly, not a parse failure.
+        if not row.get("latestAction"):
+            continue
+        items.append(_bill_to_item(row, source_id, "bill_intro", "intro"))
+    return items
 
 
 def parse_bill_detail(payload: dict, *, source_id: str) -> Item:

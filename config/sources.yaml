@@ -1,0 +1,276 @@
+# Legislative watcher — source registry
+#
+# Each source normalizes to Items via one of four adapters (see src/watcher/adapters/).
+# Config knobs, per plan Phase 1:
+#   id         unique short slug (also the state-file key)
+#   type       congress_api | rss | html_diff | structured
+#   chamber    house | senate | joint
+#   url        endpoint for RSS / html_diff / structured; base for congress_api
+#   params     adapter-specific dict:
+#              - congress_api: {mode: poller|tracked, congress: 119, [type, number]}
+#              - structured:   {subtype: meeting_feed|floor_lookahead}
+#   selectors  html_diff / floor_lookahead: {entry, title, link, date}
+#   enabled    default true; set false with a comment when a page resists diffing
+#
+# Sources that need live selector-hunting are shipped with `enabled: false` and a
+# TODO comment — the plan explicitly says disable-with-comment rather than burning
+# the smoke run on markup-drift. Populate/enable them one at a time in follow-ups.
+#
+# Watch-list rationale: docs/active/leg-watcher/results/20260804_ai_legislators_shortlist.md.
+
+congress: 119
+
+sources:
+  # ─────────────────────────────────────────────────────────────────────────
+  # Bill-level: congress.gov API (needs CONGRESS_API_KEY in .env.local)
+  # ─────────────────────────────────────────────────────────────────────────
+
+  # Broad new-bills poller — every bill introduced in the last N days across BOTH
+  # chambers; the scorer filters to AI-relevant ones client-side. This is the
+  # primary catch for named-bill introductions like H.R. 9363.
+  - id: congress-api-poller
+    type: congress_api
+    chamber: joint
+    url: https://api.congress.gov
+    params:
+      mode: poller
+      congress: 119
+      limit: 250
+
+  # Tracked-bill latest-action watcher — one detail call per tracked bill listed
+  # in keywords.yaml. Runs even after introduction so we see markups, floor
+  # actions, and reported-out events on the bills we're already following.
+  - id: congress-api-tracked
+    type: congress_api
+    chamber: joint
+    url: https://api.congress.gov
+    params:
+      mode: tracked
+      congress: 119
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # House committees — docs.house.gov meeting-feed XML (RSS-shaped)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Live-verified schema in tests/fixtures/docshouse_sy00_live.xml (2026-08-04).
+
+  - id: docs-house-sy00
+    type: structured
+    chamber: house
+    url: https://docs.house.gov/Committee/RSS.ashx?Code=SY00
+    params: {subtype: meeting_feed}   # Full Committee on Science
+
+  - id: docs-house-if00
+    type: structured
+    chamber: house
+    url: https://docs.house.gov/Committee/RSS.ashx?Code=IF00
+    params: {subtype: meeting_feed}   # Full Committee on Energy & Commerce
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # Chamber-wide floor lookaheads
+  # ─────────────────────────────────────────────────────────────────────────
+  # DISABLED at v1 boot: selectors need one live-page verification pass.
+  # The pages exist and are curl-friendly (verified 2026-08-04); what's not
+  # settled yet is a stable entry/title/link/date CSS grouping for each. Enable
+  # after populating .selectors from a live page inspection.
+
+  - id: majority-leader-lookahead
+    type: structured
+    chamber: house
+    url: https://www.majorityleader.gov/content/weekly-house-schedule
+    params: {subtype: floor_lookahead}
+    selectors: {entry: "div.schedule-item", title: "h3", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify selectors against the live page before enabling.
+
+  - id: senate-daily-schedule
+    type: structured
+    chamber: senate
+    url: https://www.senate.gov/legislative/schedule/floor_schedule.htm
+    params: {subtype: floor_lookahead}
+    selectors: {entry: "div.floor-item", title: "h3", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify selectors (page is table-heavy, may need restructure).
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # Senate committees — press releases (RSS where offered)
+  # ─────────────────────────────────────────────────────────────────────────
+  # High-tier per shortlist: Commerce (Cruz), Judiciary (Grassley), HSGAC (Paul).
+  # Press URLs are the shortlist rationale; RSS endpoints are best-guess and
+  # need one live check — shipped disabled until confirmed.
+
+  - id: senate-commerce-majority
+    type: rss
+    chamber: senate
+    url: https://www.commerce.senate.gov/services/majority-rss.aspx
+    enabled: false   # TODO: confirm RSS endpoint (page uses ASP.NET, RSS URL may differ).
+
+  - id: senate-commerce-minority
+    type: rss
+    chamber: senate
+    url: https://www.commerce.senate.gov/services/minority-rss.aspx
+    enabled: false   # TODO: confirm.
+
+  - id: senate-judiciary
+    type: rss
+    chamber: senate
+    url: https://www.judiciary.senate.gov/press/feed
+    enabled: false   # TODO: confirm feed URL.
+
+  - id: senate-hsgac
+    type: rss
+    chamber: senate
+    url: https://www.hsgac.senate.gov/feed/
+    enabled: false   # TODO: confirm.
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # House committees — press feeds (RSS where offered)
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: house-science-majority
+    type: rss
+    chamber: house
+    url: https://science.house.gov/rss/press-releases.xml
+    enabled: false   # TODO: confirm feed URL; SY00 meeting feed above covers markups already.
+
+  - id: house-energy-commerce-majority
+    type: rss
+    chamber: house
+    url: https://energycommerce.house.gov/rss/press-releases.xml
+    enabled: false   # TODO: confirm.
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # Senate member press pages — the "shortlist" (2026-08-04)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Ranked 1–8 in results/20260804_ai_legislators_shortlist.md. Each senator's
+  # office publishes AI material through the press-page listing at the URL below;
+  # discussion drafts (the GAAIA failure mode) land here before congress.gov.
+  #
+  # DISABLED at v1 boot: Senate .senate.gov press-listing pages vary widely in
+  # markup (some ASP.NET, some Drupal, some JS-rendered) so per-site selectors
+  # need a live pass. Enable one at a time as selectors are captured.
+  # The URLs below are the ones the shortlist verified.
+
+  - id: sen-warner-press
+    type: html_diff
+    chamber: senate
+    url: https://www.warner.senate.gov/newsroom/press-releases
+    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
+    enabled: false   # TODO: verify selectors (highest-yield source — do first).
+
+  - id: sen-blackburn-press
+    type: html_diff
+    chamber: senate
+    url: https://www.blackburn.senate.gov/press-releases
+    selectors: {entry: "article.press-release", title: "h2", link: "a", date: "time"}
+    enabled: false   # TODO: verify (TRUMP AMERICA AI Act discussion-draft workflow — do second).
+
+  - id: sen-cruz-press
+    type: html_diff
+    chamber: senate
+    url: https://www.cruz.senate.gov/newsroom/press-releases
+    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
+    enabled: false   # TODO: verify (gatekeeper — Commerce chair, markup announcements).
+
+  - id: sen-curtis-press
+    type: html_diff
+    chamber: senate
+    url: https://www.curtis.senate.gov/press-releases/
+    selectors: {entry: "article", title: "h2", link: "a", date: "time"}
+    enabled: false   # TODO: verify (freshman AI-signature-issue senator).
+
+  - id: sen-hawley-press
+    type: html_diff
+    chamber: senate
+    url: https://www.hawley.senate.gov/press-releases/
+    selectors: {entry: "article", title: "h2", link: "a", date: "time"}
+    enabled: false   # TODO: verify (high-volume AI press page).
+
+  - id: sen-rounds-press
+    type: html_diff
+    chamber: senate
+    url: https://www.rounds.senate.gov/newsroom/press-releases
+    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
+    enabled: false   # TODO: verify (Working Group original, Armed Services cyber/AI).
+
+  - id: sen-schumer-press
+    type: html_diff
+    chamber: senate
+    url: https://www.democrats.senate.gov/newsroom
+    selectors: {entry: "article", title: "h3", link: "a", date: "time"}
+    enabled: false   # TODO: verify (Minority Leader; floor-scheduling signal).
+
+  - id: sen-peters-mi-press
+    type: html_diff
+    chamber: senate
+    url: https://www.peters.senate.gov/newsroom/press-releases
+    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
+    enabled: false   # TODO: verify (Gary Peters D-MI, HSGAC ranking; lower priority).
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # House member press pages (the FRONTIER-Act and GAAIA sponsor cluster)
+  # ─────────────────────────────────────────────────────────────────────────
+  # Rep. Scott Peters (D-CA-50) is the "Peters" on FRONTIER / GAAIA cosponsorship —
+  # distinct from Gary Peters (D-MI) above. Added per shortlist verification.
+  # Most .house.gov press listings are JS-rendered (member_press.html fixture note);
+  # shipped disabled with selectors as best-guess placeholders.
+
+  - id: rep-obernolte-press
+    type: html_diff
+    chamber: house
+    url: https://obernolte.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (GAAIA + FRONTIER lead sponsor, House Science R&T sub-chair).
+
+  - id: rep-trahan-press
+    type: html_diff
+    chamber: house
+    url: https://trahan.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (GAAIA + FRONTIER Dem lead; Trahan release layer — GAAIA catcher).
+
+  - id: rep-scott-peters-ca-press
+    type: html_diff
+    chamber: house
+    url: https://scottpeters.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (Rep. Scott Peters D-CA-50, FRONTIER/GAAIA cosponsor).
+
+  - id: rep-franklin-press
+    type: html_diff
+    chamber: house
+    url: https://franklin.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (FRONTIER/GAAIA cosponsor R-FL-18).
+
+  - id: rep-subramanyam-press
+    type: html_diff
+    chamber: house
+    url: https://subramanyam.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (FRONTIER/GAAIA cosponsor D-VA-10; "four-alarm fire" quote).
+
+  - id: rep-houchin-press
+    type: html_diff
+    chamber: house
+    url: https://houchin.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (FRONTIER/GAAIA cosponsor R-IN-09; Schrage staffer).
+
+  - id: rep-lofgren-press
+    type: html_diff
+    chamber: house
+    url: https://lofgren.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (House Science ranking member).
+
+  - id: rep-foushee-press
+    type: html_diff
+    chamber: house
+    url: https://foushee.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (Science subcommittee ranking member).
+
+  - id: rep-stevens-press
+    type: html_diff
+    chamber: house
+    url: https://stevens.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # TODO: verify (Science AI ally; 2026 Senate run — tone-flag).
