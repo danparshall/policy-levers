@@ -20,8 +20,11 @@ Goal: the next GAAIA costs a day, not a month. GAAIA was a discussion draft (nev
 - Full detail: `convos/20260804_leg_watcher_brainstorm.md`
 
 ### Results
-- Implementation plan: `plans/20260804_leg_watcher_v1_plan.md` (for execution by a fresh agent)
+- Implementation plan: `plans/20260804_leg_watcher_v1_plan.md` (amended in place after RED-phase review)
+- Phase 0 scaffolding (commit `500b09f`): Python 3.12 + uv + `watcher` package skeleton
+- RED test suite (commit `86482cf`): 60 failing tests incl. the June-2026 backtest; fixtures with provenance README (1 real docs.house.gov capture, 8 constructed/flagged)
+- New contracts pinned by review: event kinds bypass score threshold; tracked matching via bill-id-in-uid; state = seen-UIDs + failure counts (no snapshots)
 
 ### Next Steps
-- Fresh agent executes the plan on this worktree (TDD; June-2026 backtest is the finish line)
-- Dan: sign up for congress.gov API key if not already held; pick the 4–6 senator feeds
+- Fresh agent: GREEN phases 1–8 in this worktree against the committed RED suite (backtest = finish line)
+- Dan: congress.gov API key; pick the 4–6 senator press feeds (Phase 8 blockers only)

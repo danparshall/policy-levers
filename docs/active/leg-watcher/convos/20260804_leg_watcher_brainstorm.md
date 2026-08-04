@@ -39,6 +39,37 @@ Outcome: implementation plan written for execution by a fresh agent (Dan: "creat
 
 - None (design session; the plan doc is the artifact)
 
+## Session continuation: RED phase (same day)
+
+After plan approval, Dan asked this session to write the tests ("fresh agent will execute"
+became "fresh agent executes GREEN"). Completed per the TDD skill:
+
+- **Phase 0 shipped** (commit `500b09f`): `.python-version` (3.12), `pyproject.toml` (uv,
+  hatchling, `watcher` CLI entry point), venv, package skeleton, harness test green.
+- **RED suite shipped** (commit `86482cf`): 60 failing tests across
+  models/config/state/scoring/digest/orchestrator/adapters + `test_backtest_june2026.py`
+  (the issue-#3 acceptance criterion). Fixtures: 1 real capture
+  (docs.house.gov SY00 meeting feed — schema authority, includes a genuine markup item),
+  8 constructed + provenance-flagged in `tests/fixtures/README.md`.
+- **Quality-review subagent finding (important):** the scoring tests and backtest were
+  jointly unsatisfiable — a zero-keyword "Full Committee Markup" would have been
+  threshold-suppressed. Resolution pinned as new contract: event kinds
+  (markup/floor/hearing) bypass the score threshold. Also added: tracked-bill matching
+  via bill-id-in-uid, `{"bill":{...}}` detail-endpoint parse path, malformed-input
+  tests for all four adapters, digest wall-clock leak guard.
+- **Plan amended in place** to match pinned contracts (guid-derived uids for meeting items,
+  state simplified to seen-UIDs + failure counts [no snapshots], triage rules).
+- **RED verified:** pytest fails on `ModuleNotFoundError: watcher.models` (the missing
+  feature); ruff + byte-compile clean, so failures are not test defects.
+- Fixture-capture recon: house.gov member/committee press pages serve JS shells to curl —
+  live selector capture requires a browser-grade fetch at Phase 8; docs.house.gov
+  `RSS.ashx?Code=SY00`/`IF00` works headlessly and is the reliable structured surface.
+
+**Handoff to the executing agent:** work in `~/code/policy-levers-leg-watcher` (do NOT
+create a new worktree); follow `docs/active/leg-watcher/plans/20260804_leg_watcher_v1_plan.md`
+from Phase 1, making the committed RED suite pass phase by phase; the June-2026 backtest
+is the finish line. Blockers only at Phase 8: congress.gov API key + Dan's senator list.
+
 ## Open Questions
 
 - Which 4–6 senator press feeds seed the targeted list (Rounds, Heinrich, Young, Alsobrooks are candidates from Hill-day contacts; not yet chosen)
