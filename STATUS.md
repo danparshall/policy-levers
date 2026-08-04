@@ -22,6 +22,7 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 | loc-abilities | 2026-07-07 | Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio IAISR) against general-intelligence decomposition (ADeLe) to identify coverage gaps for LOC risk. |
 | gaaia-analysis | 2026-07-17 | Analytical layer on top of `bills/obernolte-trahan/`. `NOTES.md` = tiered comment-window list (11 bugs / 11 cheap asks / 9 substantive asks). Contact matrix + call sheet built (7/17); Burns/Kindler + 11 more Tier A/B staffers captured in `crm/contacts.yaml` (name-hunt pass, `results/20260718_staffer_name_hunt.md`). NEXT: Dan seam-check of rewritten blog Two-CAISIs section + his transitions/501(h) call (publish blockers); pilot email to Schrage (Houchin, highest-confidence hit); front-desk verification pass (~11 calls); Burns/Kindler follow-ups 7/21; blog publish + crossposts; assemble comment letter. |
 | academic-recruitment | 2026-08-02 | Map how AI Policy funders recruit (or fail to recruit) established adjacent-field academics (cryptographers, economists), using the Vannevar Bush / OSRD playbook as the pitch frame. |
+| leg-watcher | 2026-08-04 | Build the legislative watcher (issue #3): congress.gov poller + press feeds + markup notices + floor lookahead + digest emitter, so the next GAAIA is discovered on release day instead of a month late. |
 
 ## Recent Sessions
 
