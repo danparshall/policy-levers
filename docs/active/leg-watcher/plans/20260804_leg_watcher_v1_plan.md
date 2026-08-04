@@ -18,7 +18,7 @@
 
 ## Prerequisites / blockers
 
-1. **congress.gov API key** — free, from https://api.congress.gov/sign-up/. Goes in `.env` as `CONGRESS_API_KEY` (confirm `.env` is gitignored; add if not). All tests use fixtures and run without the key; only the live smoke run (Phase 8) needs it. **If Dan hasn't provided a key by Phase 8, stop and ask — do not sign up on his behalf.**
+1. **congress.gov API key** — free, from https://api.congress.gov/sign-up/. Goes in `.env.local` as `CONGRESS_API_KEY` (Dan's convention: canonical file in the main worktree at `~/code/policy-levers/.env.local`, symlinked into worktrees, mirrored to `~/xfer/envs/policy-levers/.env.local` via `~/xfer/envs/collect_envs.py`; `.env` and `.env.local` are both gitignored). All tests use fixtures and run without the key; only the live smoke run (Phase 8) needs it. **If Dan hasn't provided a key by Phase 8, stop and ask — do not sign up on his behalf.**
 2. Network access for fixture capture (Phases 4 and 7).
 3. The repo has no `pyproject.toml` or `.python-version` yet (verified 2026-08-04); Phase 0 creates them per the Python policy in `~/code/dotfiles/python_environment_policy.md`.
 
@@ -55,7 +55,7 @@ Scoring/triage rules pinned by the test suite (2026-08-04): event kinds (`markup
 
 1. Write `.python-version` containing `3.12`.
 2. Write `pyproject.toml`: project `policy-levers`, deps above, dev-deps `pytest` + `ruff`, and `[project.scripts] watcher = "watcher.run:main"`. Package dir: `src/watcher/` (note: `src/` already contains `data/`, `profiles/`, `prioritization/` — do not touch them).
-3. Run `uv venv` then `uv sync`; add `.venv/` to `.gitignore` if absent; confirm `.env` and `data/watcher-state/` gitignore coverage (extend `.gitignore` with `data/watcher-state/**` — the existing patterns only cover `data/raw`/`data/processed`).
+3. Run `uv venv` then `uv sync`; add `.venv/` to `.gitignore` if absent; confirm `.env`/`.env.local` and `data/watcher-state/` gitignore coverage (extend `.gitignore` with `data/watcher-state/**` — the existing patterns only cover `data/raw`/`data/processed`).
 4. Create empty package skeleton (`src/watcher/__init__.py`, `adapters/__init__.py`) and `tests/` with a trivial import test; run `uv run pytest` to prove the harness works. Commit.
 
 ## Phase 1 — Models and config loading
