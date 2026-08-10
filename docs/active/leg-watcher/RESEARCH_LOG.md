@@ -7,6 +7,33 @@ Goal: the next GAAIA costs a day, not a month. GAAIA was a discussion draft (nev
 
 ## Sessions (newest first)
 
+## Session: 2026-08-04 — leg_watcher_phase8_execution
+
+### Topics Explored
+- Executed Phase 8 against the 2026-08-04 shortlist picks: populated `config/{sources,keywords}.yaml`, wrote `src/watcher/sources.py` with 6 Source classes + HTTP helper, wired `run.py:main()` (argparse CLI + dotenv loading), shipped `src/watcher/README.md`.
+- Live smoke run (`uv run watcher --include-backlog 14`) exposed two real production quirks the constructed fixtures never exercised — fixed both with TDD.
+- Replaced two constructed fixtures with real congress.gov API captures; also captured a fresh SY00 XML including a real empty-stub item.
+- Wayback CDX search for the Trahan press page 2026 snapshots — nothing archived, documented as terminal (not fetchable).
+
+### Provisional Findings
+- `docs.house.gov` meeting feeds emit `<item><guid>0</guid><title></title>...</item>` section-separator stubs. `parse_meeting_feed` was raising `SourceError` on the empty description, killing the whole SY00 fetch. New `_is_stub()` guard skips them. Pinned by `test_empty_stub_items_are_skipped`.
+- `/v3/bill/{congress}` returns "Reserved for the Speaker." placeholder rows with `latestAction: null`. `parse_bill_list` was raising `SourceError` on the whole fetch. Now skips. Pinned by `test_reserved_for_speaker_placeholder_bills_are_skipped`.
+- `_bill_to_item` now falls back to `legislationUrl` (human-facing, detail-endpoint only) when `url` (API-endpoint, list-only) is empty — tracked-bills digest lines now render real `congress.gov/bill/...` URLs instead of empty parens.
+- H.R. 9363's real title is "AI Security and Innovation Act" (constructed fixture had a placeholder). Existing test assertions on date + body_excerpt keyword survived the real-fixture swap without rewrite.
+- Smoke digest pins H.R. 9925 (FRONTIER Act) via bill-id-in-uid match, surfaces four Science + E&C markups/hearings, and scores K-12 AI Literacy and Readiness Act at 8. Idempotence-check second run predicts keyword noise from broad "workforce"/"innovation" tokens (30 items surfaced from labor/healthcare bills) — expected per plan; retune YAML after a real week.
+
+### Results
+- Commit `b20a034` on `leg-watcher` (14 files, +1090/-50): `config/sources.yaml` (new), `config/keywords.yaml` (new), `src/watcher/sources.py` (new), `src/watcher/README.md` (new), `src/watcher/run.py` (real `main()`), 2 adapter fixes, 3 fixture updates + 2 new tests, `.gitignore` adds `digests/`. 77/77 tests pass, ruff clean, pushed.
+- Convo: `convos/20260804_leg_watcher_phase8_execution.md`
+
+### Next Steps
+- Enable disabled Senate press-page rows one at a time. Priority order (from shortlist): Warner (framework rollouts), Blackburn (TRUMP AMERICA AI Act discussion-draft workflow — direct GAAIA failure mode), Cruz (Commerce chair markup notices). Each is a separate selector-hunting session against the live page.
+- After ~1 week of real runs: keyword retune pass. Candidates: drop "workforce" from medium tier OR bump threshold 3 → 4. Decide against real noise data, not up-front.
+- Consider a "seen-nonempty-before" state flag so `parse_meeting_feed`'s zero-entries `SourceError` distinguishes selector drift from recess-week silence.
+- Reminder #5 (FRONTIER outreach) still open — skipped this session, not Phase 8's scope.
+- Doc-hygiene cleanup at merge: Obernolte subcommittee-vs-full-committee framing; unqualified "Peters" in GAAIA-cosponsor context.
+- Issue #3 (leg-watcher build) is functionally satisfied by Phase 8 shipping — awaiting Dan's decision to close at merge time.
+
 ## Session: 2026-08-04 — ai_legislator_research
 
 ### Topics Explored
