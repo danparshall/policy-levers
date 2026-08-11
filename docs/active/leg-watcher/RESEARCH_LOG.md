@@ -7,6 +7,28 @@ Goal: the next GAAIA costs a day, not a month. GAAIA was a discussion draft (nev
 
 ## Sessions (newest first)
 
+## Session: 2026-08-11 — leg_watcher_finish_dev_branch
+
+### Topics Explored
+- Pre-merge review pass on the leg-watcher branch (Dan's call after prior session left the merge decision with him). Ran the `finishing-a-development-branch` skill: pytest, ruff format, ruff check, `nori-code-reviewer` + test-hygiene agent, then triage and PR.
+
+### Provisional Findings
+- **`ruff format` had never been run on this branch** — prior sessions ran `ruff check` (lint) only. Applying `ruff format` produced 15 mechanical Black-style reflows, no behavior change. Now committed and clean.
+- Three real bugs the tests didn't catch, all narrow: (a) broken f-string in `build_sources` bad-mode error (`sources.py:274-275`); (b) `resp.json()` unwrapped in `CongressApiTrackedSource.fetch` (`sources.py:151-165`) — one non-JSON detail response would kill the whole tracked-bills fetch; (c) dead keyword `"third-party evaluat"` in `keywords.yaml:77` (`\b` anchors can't fire mid-word). All fixed and pinned by regression tests in `tests/test_sources.py`.
+- Larger reliability + coverage gaps found (per-item failures killing sources, HTTP retry/rate-limit discipline, unbounded `seen_uids`, atomic digest write, sources.py HTTP-layer untested, corrupted-state.json untested, `parse_bill_detail` malformed-payload untested, etc.) — real but scope-heavy; filed as issue #9 for a v1.3 pass.
+
+### Results
+- 96/96 tests pass (was 93 → +3 regression tests), `ruff check` + `ruff format --check` both clean.
+- Commits: `440fa1a` (format sweep) → `2e93d43` (three bug fixes + tests). This finish-convo commit follows.
+- Follow-up: **issue #9** batches the un-landed review findings.
+- Convo: `convos/20260811_leg_watcher_finish_dev_branch.md`
+
+### Next Steps
+- PR to main (this session).
+- **Issue #3 close** — the v1.1 delivered on what #3 asked for; this merge is the landing. Closing with a link to the merged PR is the natural move, Dan's call.
+- **docs/active/leg-watcher/ archive** — deferred; this was the dev-branch flow, not the research-branch flow. Separate `git mv` when Dan is ready.
+- **Doc-hygiene cleanup carried again** — Obernolte subcommittee-vs-full-committee framing; unqualified "Peters" in STATUS.md.
+
 ## Session: 2026-08-11 — leg_watcher_v11_press_enable_execution
 
 ### Topics Explored
