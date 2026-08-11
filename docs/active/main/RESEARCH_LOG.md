@@ -1,5 +1,28 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-08-11 — policy_actor_map
+### Topics Explored
+- Whether a "Group X works on Problem Y via Approach Z" page already exists for AI policy; what a good one would need
+- ControlAI's published UK parliamentary-outreach learnings (Dan recalled them as "500 MPs")
+
+### Provisional Findings
+- Target schema appears unoccupied, but every partial map drops a different axis: AISafety.com/map (group + area), Mapping AI / aimapping.org (group + stance, ~1,800 entries, launched ~May 2026 — the live incumbent), AGORA/CSET+MIT (documents + risk taxonomy, 1,000+ docs), IAPS arXiv 2409.07878 (problem + approach + group, but 3 labs and a Jul 2024 cutoff — closest precedent, and the one that demonstrates the gap-finding payoff).
+- Two objections raised at full strength: (1) the "approach" axis has no consensus vocabulary — IAPS synthesized 7+ prior taxonomies into 11 categories and practitioners still disputed the labels; (2) maintenance is the actual project and its failure mode is silent, since a stale map launders obsolete info as current. Survivors have institutional funding or a community with a recruiting function; Canary has neither yet.
+- Design forks on consumer (Hill staffer / funder / Canary coalition-building) — unanswered. Claude's read: the coalition framing argues for inverting the schema to index on problem and lever with groups as leaves.
+- ControlAI: two LW posts by Leticia García Martínez ("70+", May 2025, `Xwrajm92fdjd7cqnN`; "140+", Feb 2026, `A7BtBD9BAfK2kKSEr`) plus a Torchbearer/EA Forum evaluation (June 2026). Dan's "500" doesn't match anything published — UK campaign is ~150-160 meetings; 200+ is the cross-jurisdiction total (UK/US/Canada/Germany). **Conversion-rate discrepancy to watch:** ControlAI says 1-in-3 briefed lawmakers take a public stance; Torchbearer computes ~48.5% restricted to prior non-supporters. Different denominators; the higher figure needs its caveat attached before it enters a Canary document.
+
+### Results
+- `results/20260811_actor_map_prior_art.md`
+
+### Next Steps
+- Answer the consumer question before any build; the artifact differs completely across the three
+- Decide whether to park until the FRONTIER comment window closes
+- If it proceeds, cut its own research line rather than continuing on `main`
+- Decide whether/where the ControlAI posts get filed (advocacy writeups, not research papers — `add-paper` may be the wrong home)
+- Verify the possible third ControlAI post (ambiguous April 2026 entry on their blog index)
+
+See convo: `convos/20260811_policy_actor_map.md`
+
 ## Session: 2026-07-25 — frontier_port_and_iosco_ingest
 ### Topics Explored
 - Diff between `essays/canary/frontier-act-tech-pace.md` (tracked) and `frontier-act-tech-pace_DAN.md` (added at `8958dfd` after typo-fix commits `b3cf522`/`37e4c68`); reconciling the fork
