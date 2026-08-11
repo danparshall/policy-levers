@@ -76,18 +76,18 @@ sources:
   - id: majority-leader-lookahead
     type: structured
     chamber: house
-    url: https://www.majorityleader.gov/content/weekly-house-schedule
+    url: https://www.majorityleader.gov/schedule/weekly-schedule.htm
     params: {subtype: floor_lookahead}
     selectors: {entry: "div.schedule-item", title: "h3", link: "a", date: "span.date"}
-    enabled: false   # TODO: verify selectors against the live page before enabling.
+    enabled: false   # Needs bespoke prose parser (v1.2): page is a Telerik paste — <u>WEEK OF JULY 20</u> headings, day names WITHOUT years, no per-item containers/links (verified 2026-08-11; old /content/weekly-house-schedule URL now 404s — URL updated here). Suspension-calendar signal partially covered by docs.house.gov meeting feeds.
 
   - id: senate-daily-schedule
     type: structured
     chamber: senate
     url: https://www.senate.gov/legislative/schedule/floor_schedule.htm
     params: {subtype: floor_lookahead}
-    selectors: {entry: "div.floor-item", title: "h3", link: "a", date: "span.date"}
-    enabled: false   # TODO: verify selectors (page is table-heavy, may need restructure).
+    selectors: {entry: "article#proceedings_schedule", title: "span.floor-schedule", link: "a", date: "h3"}
+    # Server-rendered article pair; entry selector targets ONLY #proceedings_schedule (next meeting) — the second article is "Previous Meeting" and must not match. Verified against real capture 2026-08-11 (fixture senate-daily-schedule.html).
 
   # ─────────────────────────────────────────────────────────────────────────
   # Senate committees — press releases (RSS where offered)

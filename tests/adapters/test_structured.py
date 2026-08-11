@@ -70,3 +70,25 @@ def test_floor_lookahead_entries_become_floor_items():
     hr9363 = next(i for i in items if "9363" in i.title)
     assert hr9363.kind == "floor"
     assert hr9363.date == "2026-06-24"
+
+
+def test_senate_schedule_real_page_next_meeting_becomes_floor_item():
+    """Real capture of senate.gov/legislative/schedule/floor_schedule.htm (2026-08-11).
+
+    Entry selector targets #proceedings_schedule only — the second <article> is
+    'Previous Meeting' (heading is not a date) and must NOT be picked up. Dates
+    carry a weekday prefix ('Thursday, Aug 13, 2026')."""
+    items = parse_floor_lookahead(
+        load_fixture("senate-daily-schedule.html").decode(),
+        selectors={"entry": "article#proceedings_schedule",
+                   "title": "span.floor-schedule", "link": "a", "date": "h3"},
+        source_id="senate-daily-schedule", chamber="senate",
+        base_url="https://www.senate.gov/legislative/schedule/floor_schedule.htm",
+    )
+    assert len(items) == 1
+    nxt = items[0]
+    assert nxt.kind == "floor"
+    assert nxt.chamber == "senate"
+    assert nxt.date == "2026-08-13"
+    assert "pro forma session" in nxt.title
+    assert nxt.url == "https://www.senate.gov/legislative/floor_activity_pail.htm"

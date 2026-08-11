@@ -24,6 +24,7 @@
 | `sen-cruz-press.html` | **REAL** entry nodes from `https://www.cruz.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/10–8/7), excerpts stripped, synthetic wrapper. Exercises dotted `%m.%d.%Y` dates | No |
 | `sen-rounds-press.html` | **REAL** entry nodes from `https://www.rounds.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/10–8/6), excerpts stripped, synthetic wrapper | No |
 | `sen-peters-mi-press.html` | **REAL** entry nodes from `https://www.peters.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/6–8/3), excerpts stripped, synthetic wrapper | No |
+| `senate-daily-schedule.html` | **REAL** full capture of `https://www.senate.gov/legislative/schedule/floor_schedule.htm`, 2026-08-11, uncut (1.7 KB — server-rendered article pair: next meeting 8/13 pro forma + previous meeting). Exercises `%A, %b %d, %Y` dates and the entry-selector-must-skip-Previous-Meeting contract | No |
 
 Rules (from the plan): fixtures are trimmed, committed, each well under 50 KB. When a constructed
 fixture is replaced with a real capture, keep assertions on *behavior* (items produced), updating
