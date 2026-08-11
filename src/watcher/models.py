@@ -23,10 +23,10 @@ class Item:
     uid: str
     source: str
     chamber: str  # "house" | "senate" | "joint"
-    kind: str     # "bill_intro" | "bill_action" | "press" | "hearing" | "markup" | "floor"
+    kind: str  # "bill_intro" | "bill_action" | "press" | "hearing" | "markup" | "floor"
     title: str
     url: str
-    date: str     # ISO event date (YYYY-MM-DD)
+    date: str  # ISO event date (YYYY-MM-DD)
     body_excerpt: str = ""
     matched_bills: list[str] = field(default_factory=list)
 

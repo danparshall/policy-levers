@@ -13,8 +13,9 @@ from watcher.models import SourceError
 
 
 def meeting_items():
-    return parse_meeting_feed(load_fixture("docshouse_sy00_live.xml"),
-                              source_id="docs-house-sy00", chamber="house")
+    return parse_meeting_feed(
+        load_fixture("docshouse_sy00_live.xml"), source_id="docs-house-sy00", chamber="house"
+    )
 
 
 def test_markup_titles_get_markup_kind():
@@ -44,8 +45,9 @@ def test_committee_name_lands_in_body_excerpt():
 
 def test_malformed_meeting_feed_raises_source_error():
     with pytest.raises(SourceError):
-        parse_meeting_feed(b"<html>not the meeting feed</html>",
-                           source_id="docs-house-sy00", chamber="house")
+        parse_meeting_feed(
+            b"<html>not the meeting feed</html>", source_id="docs-house-sy00", chamber="house"
+        )
 
 
 def test_empty_stub_items_are_skipped():
@@ -63,7 +65,8 @@ def test_floor_lookahead_entries_become_floor_items():
     items = parse_floor_lookahead(
         load_fixture("floor_lookahead.html").decode(),
         selectors={"entry": "li.floor-item", "title": "a", "link": "a", "date": "span.floor-date"},
-        source_id="house-floor", chamber="house",
+        source_id="house-floor",
+        chamber="house",
         base_url="https://www.majorityleader.gov",
     )
     assert len(items) == 2
@@ -80,9 +83,14 @@ def test_senate_schedule_real_page_next_meeting_becomes_floor_item():
     carry a weekday prefix ('Thursday, Aug 13, 2026')."""
     items = parse_floor_lookahead(
         load_fixture("senate-daily-schedule.html").decode(),
-        selectors={"entry": "article#proceedings_schedule",
-                   "title": "span.floor-schedule", "link": "a", "date": "h3"},
-        source_id="senate-daily-schedule", chamber="senate",
+        selectors={
+            "entry": "article#proceedings_schedule",
+            "title": "span.floor-schedule",
+            "link": "a",
+            "date": "h3",
+        },
+        source_id="senate-daily-schedule",
+        chamber="senate",
         base_url="https://www.senate.gov/legislative/schedule/floor_schedule.htm",
     )
     assert len(items) == 1

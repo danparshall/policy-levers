@@ -53,9 +53,14 @@ def run_watcher(
             health.append((source.id, failures))
             continue
         good_fetches.append((source, items))
-        all_new.extend(state.new_items(
-            source.id, items, today=today, include_backlog_days=include_backlog_days,
-        ))
+        all_new.extend(
+            state.new_items(
+                source.id,
+                items,
+                today=today,
+                include_backlog_days=include_backlog_days,
+            )
+        )
 
     triaged = triage(all_new, keywords)
 
@@ -103,28 +108,41 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
 
     parser = argparse.ArgumentParser(prog="watcher", description=__doc__)
     parser.add_argument(
-        "--include-backlog", type=int, default=1, metavar="N",
+        "--include-backlog",
+        type=int,
+        default=1,
+        metavar="N",
         help="On a source's first run, surface items dated within the last N days "
-             "(default 1 — daily cron mode). Bump for smoke runs.",
+        "(default 1 — daily cron mode). Bump for smoke runs.",
     )
     parser.add_argument(
-        "--sources", type=str, default="",
+        "--sources",
+        type=str,
+        default="",
         help="Comma-separated source ids to include (default: all enabled).",
     )
     parser.add_argument(
-        "--config-dir", type=Path, default=Path("config"),
+        "--config-dir",
+        type=Path,
+        default=Path("config"),
         help="Directory containing sources.yaml and keywords.yaml (default: ./config).",
     )
     parser.add_argument(
-        "--state-path", type=Path, default=Path("data/watcher-state/state.json"),
+        "--state-path",
+        type=Path,
+        default=Path("data/watcher-state/state.json"),
         help="State file location (default: ./data/watcher-state/state.json).",
     )
     parser.add_argument(
-        "--digest-dir", type=Path, default=Path("digests"),
+        "--digest-dir",
+        type=Path,
+        default=Path("digests"),
         help="Where to write daily digest files (default: ./digests).",
     )
     parser.add_argument(
-        "--today", type=str, default=None,
+        "--today",
+        type=str,
+        default=None,
         help="Override today's date (ISO YYYY-MM-DD); useful for backtest runs.",
     )
     args = parser.parse_args()

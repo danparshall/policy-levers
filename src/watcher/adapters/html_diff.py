@@ -21,8 +21,15 @@ from watcher.models import Item, SourceError, make_hash_uid
 # %m/%d/%Y covers Blackburn's "08/5/2026" (strptime accepts non-zero-padded fields);
 # %m.%d.%Y covers the Senate PageList CMS's "08.10.2026" (Cruz, Rounds, Peters-MI);
 # the %A-prefixed pair covers senate.gov's floor schedule ("Thursday, Aug 13, 2026")
-DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%m/%d/%Y", "%m.%d.%Y",
-                "%A, %b %d, %Y", "%A, %B %d, %Y")
+DATE_FORMATS = (
+    "%B %d, %Y",
+    "%b %d, %Y",
+    "%Y-%m-%d",
+    "%m/%d/%Y",
+    "%m.%d.%Y",
+    "%A, %b %d, %Y",
+    "%A, %B %d, %Y",
+)
 
 # Warner (WP/Elementor) renders "August 7th, 2026" — strip ordinal suffixes
 _ORDINAL_RE = re.compile(r"(\d{1,2})(st|nd|rd|th)\b")
@@ -79,20 +86,23 @@ def _extract(
         title = _pick_text(entry, selectors["title"], "title")
         url = _pick_url(entry, selectors["link"], base_url)
         iso_date = _iso_date(_pick_text(entry, selectors["date"], "date"))
-        items.append(Item(
-            uid=make_hash_uid(url, title),
-            source=source_id,
-            chamber=chamber,
-            kind=kind,
-            title=title,
-            url=url,
-            date=iso_date,
-        ))
+        items.append(
+            Item(
+                uid=make_hash_uid(url, title),
+                source=source_id,
+                chamber=chamber,
+                kind=kind,
+                title=title,
+                url=url,
+                date=iso_date,
+            )
+        )
     return items
 
 
 def extract_entries(
     html: str, selectors: dict, *, source_id: str, chamber: str, base_url: str
 ) -> list[Item]:
-    return _extract(html, selectors, source_id=source_id, chamber=chamber,
-                    base_url=base_url, kind="press")
+    return _extract(
+        html, selectors, source_id=source_id, chamber=chamber, base_url=base_url, kind="press"
+    )

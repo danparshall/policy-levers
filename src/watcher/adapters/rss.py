@@ -40,14 +40,16 @@ def parse_feed(raw: bytes | str, *, source_id: str, chamber: str, today: str) ->
         description = (entry.get("summary") or entry.get("description") or "").strip()
         iso_date, was_fallback = _entry_date(entry, today)
         excerpt = f"{description} [pubdate missing]" if was_fallback else description
-        items.append(Item(
-            uid=make_hash_uid(url, title),
-            source=source_id,
-            chamber=chamber,
-            kind="press",
-            title=title,
-            url=url,
-            date=iso_date,
-            body_excerpt=excerpt,
-        ))
+        items.append(
+            Item(
+                uid=make_hash_uid(url, title),
+                source=source_id,
+                chamber=chamber,
+                kind="press",
+                title=title,
+                url=url,
+                date=iso_date,
+                body_excerpt=excerpt,
+            )
+        )
     return items

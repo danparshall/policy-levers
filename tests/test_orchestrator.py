@@ -3,10 +3,10 @@
 run_watcher itself, not the adapters."""
 
 import pytest
-from watcher.models import SourceError
-from watcher.run import run_watcher
 
 from tests.conftest import make_item
+from watcher.models import SourceError
+from watcher.run import run_watcher
 
 
 class FakeSource:
@@ -22,10 +22,18 @@ class FakeSource:
 
 
 def good_source(source_id="good", uid="g1", date="2026-08-03"):
-    return FakeSource(source_id, items=[
-        make_item(uid=uid, source=source_id, title="AI frontier model markup scheduled",
-                  kind="markup", date=date)
-    ])
+    return FakeSource(
+        source_id,
+        items=[
+            make_item(
+                uid=uid,
+                source=source_id,
+                title="AI frontier model markup scheduled",
+                kind="markup",
+                date=date,
+            )
+        ],
+    )
 
 
 def run(sources, tmp_path, keywords, today="2026-08-04", **kw):

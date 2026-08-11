@@ -20,9 +20,7 @@ from bs4 import BeautifulSoup
 from watcher.adapters.html_diff import _extract
 from watcher.models import Item, SourceError
 
-_MEETING_DATE_RE = re.compile(
-    r"Meeting Date:\s*[A-Za-z]+,\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})"
-)
+_MEETING_DATE_RE = re.compile(r"Meeting Date:\s*[A-Za-z]+,\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})")
 
 
 def _description_text(entry) -> str:
@@ -74,21 +72,24 @@ def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> lis
         if not guid:
             raise SourceError(f"meeting item missing guid: {title!r}")
         committee = _committee_line(description)
-        items.append(Item(
-            uid=f"{source_id}-{guid}",
-            source=source_id,
-            chamber=chamber,
-            kind=_kind(title),
-            title=title,
-            url=url,
-            date=_event_date(description),
-            body_excerpt=committee,
-        ))
+        items.append(
+            Item(
+                uid=f"{source_id}-{guid}",
+                source=source_id,
+                chamber=chamber,
+                kind=_kind(title),
+                title=title,
+                url=url,
+                date=_event_date(description),
+                body_excerpt=committee,
+            )
+        )
     return items
 
 
 def parse_floor_lookahead(
     html: str, *, selectors: dict, source_id: str, chamber: str, base_url: str
 ) -> list[Item]:
-    return _extract(html, selectors, source_id=source_id, chamber=chamber,
-                    base_url=base_url, kind="floor")
+    return _extract(
+        html, selectors, source_id=source_id, chamber=chamber, base_url=base_url, kind="floor"
+    )

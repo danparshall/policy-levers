@@ -53,12 +53,24 @@ def test_reserved_for_speaker_placeholder_bills_are_skipped():
     was raising SourceError on the whole fetch instead of skipping the placeholder."""
     payload = {
         "bills": [
-            {"congress": 119, "latestAction": None, "number": "6", "originChamberCode": "H",
-             "title": "Reserved for the Speaker.", "type": "HR",
-             "url": "https://api.congress.gov/v3/bill/119/hr/6?format=json"},
-            {"congress": 119, "latestAction": {"actionDate": "2026-07-28", "text": "Referred to committee."},
-             "number": "999", "originChamberCode": "H", "title": "Real Bill Act",
-             "type": "HR", "url": "https://api.congress.gov/v3/bill/119/hr/999?format=json"},
+            {
+                "congress": 119,
+                "latestAction": None,
+                "number": "6",
+                "originChamberCode": "H",
+                "title": "Reserved for the Speaker.",
+                "type": "HR",
+                "url": "https://api.congress.gov/v3/bill/119/hr/6?format=json",
+            },
+            {
+                "congress": 119,
+                "latestAction": {"actionDate": "2026-07-28", "text": "Referred to committee."},
+                "number": "999",
+                "originChamberCode": "H",
+                "title": "Real Bill Act",
+                "type": "HR",
+                "url": "https://api.congress.gov/v3/bill/119/hr/999?format=json",
+            },
         ],
     }
     items = parse_bill_list(payload, source_id="congress-api")

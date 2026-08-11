@@ -8,8 +8,12 @@ from watcher.models import SourceError
 
 
 def test_feed_entries_become_press_items():
-    items = parse_feed(load_fixture("committee_rss.xml"), source_id="example-committee",
-                       chamber="senate", today="2026-08-04")
+    items = parse_feed(
+        load_fixture("committee_rss.xml"),
+        source_id="example-committee",
+        chamber="senate",
+        today="2026-08-04",
+    )
     assert len(items) == 2
     first = items[0]
     assert first.kind == "press"
@@ -20,14 +24,22 @@ def test_feed_entries_become_press_items():
 
 
 def test_description_feeds_body_excerpt():
-    items = parse_feed(load_fixture("committee_rss.xml"), source_id="example-committee",
-                       chamber="senate", today="2026-08-04")
+    items = parse_feed(
+        load_fixture("committee_rss.xml"),
+        source_id="example-committee",
+        chamber="senate",
+        today="2026-08-04",
+    )
     assert "compute thresholds" in items[0].body_excerpt
 
 
 def test_missing_pubdate_falls_back_to_today_and_flags_it():
-    items = parse_feed(load_fixture("committee_rss.xml"), source_id="example-committee",
-                       chamber="senate", today="2026-08-04")
+    items = parse_feed(
+        load_fixture("committee_rss.xml"),
+        source_id="example-committee",
+        chamber="senate",
+        today="2026-08-04",
+    )
     undated = next(i for i in items if "Nominations" in i.title)
     assert undated.date == "2026-08-04"
     assert "pubdate" in undated.body_excerpt.lower()  # fallback must be visible, not silent
@@ -37,8 +49,12 @@ def test_unparseable_or_empty_feed_raises_source_error():
     """Feed-drift tripwire: a press feed always has entries; zero parsed entries means
     the feed moved or broke — silence must not masquerade as a quiet week."""
     with pytest.raises(SourceError):
-        parse_feed(b"<html>this is not a feed</html>", source_id="example-committee",
-                   chamber="senate", today="2026-08-04")
+        parse_feed(
+            b"<html>this is not a feed</html>",
+            source_id="example-committee",
+            chamber="senate",
+            today="2026-08-04",
+        )
 
 
 def test_trahan_real_feed_normalizes_to_press_items():
@@ -46,8 +62,12 @@ def test_trahan_real_feed_normalizes_to_press_items():
 
     Fireside/ASP.NET CMS feed: escaped-HTML descriptions, DocumentID links, GMT pubDates.
     """
-    items = parse_feed(load_fixture("rep-trahan-press.xml"), source_id="rep-trahan-press",
-                       chamber="house", today="2026-08-11")
+    items = parse_feed(
+        load_fixture("rep-trahan-press.xml"),
+        source_id="rep-trahan-press",
+        chamber="house",
+        today="2026-08-11",
+    )
     assert len(items) == 2
     coalition, intro = items
     assert coalition.kind == "press"
@@ -64,8 +84,12 @@ def test_trahan_real_feed_normalizes_to_press_items():
 def test_franklin_real_feed_normalizes_to_press_items():
     """Real capture of franklin.house.gov/news/rss.aspx (2026-08-11) — Fireside CMS,
     same shape as Trahan; FRONTIER cosponsor release workflow."""
-    items = parse_feed(load_fixture("rep-franklin-press.xml"), source_id="rep-franklin-press",
-                       chamber="house", today="2026-08-11")
+    items = parse_feed(
+        load_fixture("rep-franklin-press.xml"),
+        source_id="rep-franklin-press",
+        chamber="house",
+        today="2026-08-11",
+    )
     assert len(items) == 2
     first, second = items
     assert first.kind == "press"
@@ -82,8 +106,12 @@ def test_franklin_real_feed_normalizes_to_press_items():
 def test_hawley_real_feed_normalizes_to_press_items():
     """Real capture of hawley.senate.gov/rss/ (2026-08-11) — WordPress feed,
     slug-URL links, content:encoded stripped in fixture."""
-    items = parse_feed(load_fixture("sen-hawley-press.xml"), source_id="sen-hawley-press",
-                       chamber="senate", today="2026-08-11")
+    items = parse_feed(
+        load_fixture("sen-hawley-press.xml"),
+        source_id="sen-hawley-press",
+        chamber="senate",
+        today="2026-08-11",
+    )
     assert len(items) == 2
     first = items[0]
     assert first.kind == "press"
@@ -96,8 +124,12 @@ def test_hawley_real_feed_normalizes_to_press_items():
 def test_schumer_caucus_real_feed_normalizes_to_press_items():
     """Real capture of democrats.senate.gov/feed/ (2026-08-11) — Senate Dem caucus
     WordPress feed; carries floor wrap-ups and schedule notices (the floor signal)."""
-    items = parse_feed(load_fixture("sen-schumer-press.xml"), source_id="sen-schumer-press",
-                       chamber="senate", today="2026-08-11")
+    items = parse_feed(
+        load_fixture("sen-schumer-press.xml"),
+        source_id="sen-schumer-press",
+        chamber="senate",
+        today="2026-08-11",
+    )
     assert len(items) == 2
     first, second = items
     assert first.kind == "press"
@@ -112,8 +144,10 @@ def test_schumer_caucus_real_feed_normalizes_to_press_items():
 
 
 def test_uids_stable_across_reparse():
-    a = parse_feed(load_fixture("committee_rss.xml"), source_id="x", chamber="senate",
-                   today="2026-08-04")
-    b = parse_feed(load_fixture("committee_rss.xml"), source_id="x", chamber="senate",
-                   today="2026-08-05")  # different day, same content
+    a = parse_feed(
+        load_fixture("committee_rss.xml"), source_id="x", chamber="senate", today="2026-08-04"
+    )
+    b = parse_feed(
+        load_fixture("committee_rss.xml"), source_id="x", chamber="senate", today="2026-08-05"
+    )  # different day, same content
     assert [i.uid for i in a] == [i.uid for i in b]

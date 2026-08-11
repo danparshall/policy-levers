@@ -159,9 +159,7 @@ class CongressApiTrackedSource:
                 errors.append(f"{bill_type}{number}: {exc}")
                 continue
         if not items and errors:
-            raise SourceError(
-                f"{self.id}: every tracked bill lookup failed ({'; '.join(errors)})"
-            )
+            raise SourceError(f"{self.id}: every tracked bill lookup failed ({'; '.join(errors)})")
         return items
 
 
@@ -255,13 +253,22 @@ def build_sources(
         if cfg.type == "congress_api":
             mode = cfg.params.get("mode")
             if mode == "poller":
-                sources.append(CongressApiPollerSource(
-                    cfg, api_key=api_key, today=today, backlog_days=backlog_days,
-                ))
+                sources.append(
+                    CongressApiPollerSource(
+                        cfg,
+                        api_key=api_key,
+                        today=today,
+                        backlog_days=backlog_days,
+                    )
+                )
             elif mode == "tracked":
-                sources.append(CongressApiTrackedSource(
-                    cfg, api_key=api_key, keywords=keywords,
-                ))
+                sources.append(
+                    CongressApiTrackedSource(
+                        cfg,
+                        api_key=api_key,
+                        keywords=keywords,
+                    )
+                )
             else:
                 raise ValueError(
                     f"congress_api source {cfg.id!r} needs params.mode in "

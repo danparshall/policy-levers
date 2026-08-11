@@ -12,12 +12,11 @@ June fixtures; only network fetch is bypassed. Fixture provenance: tests/fixture
 
 import json
 
+from tests.conftest import load_fixture
 from watcher.adapters.congress_api import parse_bill_list
 from watcher.adapters.html_diff import extract_entries
 from watcher.adapters.structured import parse_meeting_feed
 from watcher.run import run_watcher
-
-from tests.conftest import load_fixture
 
 TODAY = "2026-06-23"
 
@@ -37,15 +36,30 @@ class FixtureSource:
 
 def june_sources():
     return [
-        FixtureSource("trahan-press", lambda: extract_entries(
-            load_fixture("trahan_press_june2026.html").decode(), TRAHAN_SELECTORS,
-            source_id="trahan-press", chamber="house", base_url="https://trahan.house.gov")),
-        FixtureSource("congress-api", lambda: parse_bill_list(
-            json.loads(load_fixture("congress_api_hr9363_intro.json")),
-            source_id="congress-api")),
-        FixtureSource("docs-house-sy00", lambda: parse_meeting_feed(
-            load_fixture("docshouse_sy00_june2026.xml"),
-            source_id="docs-house-sy00", chamber="house")),
+        FixtureSource(
+            "trahan-press",
+            lambda: extract_entries(
+                load_fixture("trahan_press_june2026.html").decode(),
+                TRAHAN_SELECTORS,
+                source_id="trahan-press",
+                chamber="house",
+                base_url="https://trahan.house.gov",
+            ),
+        ),
+        FixtureSource(
+            "congress-api",
+            lambda: parse_bill_list(
+                json.loads(load_fixture("congress_api_hr9363_intro.json")), source_id="congress-api"
+            ),
+        ),
+        FixtureSource(
+            "docs-house-sy00",
+            lambda: parse_meeting_feed(
+                load_fixture("docshouse_sy00_june2026.xml"),
+                source_id="docs-house-sy00",
+                chamber="house",
+            ),
+        ),
     ]
 
 
@@ -74,8 +88,7 @@ def test_backtest_b_hr9363_surfaced_at_introduction(tmp_path, keywords):
 
 def test_backtest_c_markup_surfaced_in_advance(tmp_path, keywords):
     text = run_june(tmp_path, keywords).read_text()
-    markup_line = next(ln for ln in text.splitlines()
-                       if "Markup" in ln and "docs-house-sy00" in ln)
+    markup_line = next(ln for ln in text.splitlines() if "Markup" in ln and "docs-house-sy00" in ln)
     assert "2026-06-25" in markup_line  # event date is AFTER today (06-23): advance notice
 
 

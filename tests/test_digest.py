@@ -8,20 +8,37 @@ from watcher.digest import render, write_digest
 
 
 def sample_sections():
-    pinned = [make_item(uid="p", title="Markup of H.R. 9363 scheduled", kind="markup",
-                        date="2026-08-06", matched_bills=["hr9363"])]
+    pinned = [
+        make_item(
+            uid="p",
+            title="Markup of H.R. 9363 scheduled",
+            kind="markup",
+            date="2026-08-06",
+            matched_bills=["hr9363"],
+        )
+    ]
     scored = [
         (make_item(uid="m1", title="Full Committee Markup", kind="markup", date="2026-08-07"), 6),
         (make_item(uid="m2", title="AI hearing announced", kind="hearing", date="2026-08-05"), 5),
-        (make_item(uid="n1", title="Frontier model press statement", kind="press", date="2026-08-03"), 7),
+        (
+            make_item(
+                uid="n1", title="Frontier model press statement", kind="press", date="2026-08-03"
+            ),
+            7,
+        ),
     ]
     return pinned, scored
 
 
 def test_sections_appear_in_canonical_order():
     pinned, scored = sample_sections()
-    text = render(date="2026-08-04", pinned=pinned, scored=scored,
-                  health=[("dead-source", 3)], suppressed_count=12)
+    text = render(
+        date="2026-08-04",
+        pinned=pinned,
+        scored=scored,
+        health=[("dead-source", 3)],
+        suppressed_count=12,
+    )
     i_tracked = text.index("Tracked bills")
     i_time = text.index("Time-critical")
     i_new = text.index("New & notable")
@@ -57,8 +74,14 @@ def test_empty_sections_omitted():
 
 
 def test_item_line_contains_score_date_source_title_url():
-    item = make_item(uid="x", title="AI hearing", kind="press", date="2026-08-02",
-                     source="senate-commerce-press", url="https://example.gov/x")
+    item = make_item(
+        uid="x",
+        title="AI hearing",
+        kind="press",
+        date="2026-08-02",
+        source="senate-commerce-press",
+        url="https://example.gov/x",
+    )
     text = render(date="2026-08-04", pinned=[], scored=[(item, 5)], health=[], suppressed_count=0)
     line = next(ln for ln in text.splitlines() if "AI hearing" in ln)
     for token in ("5", "2026-08-02", "senate-commerce-press", "https://example.gov/x"):
@@ -71,8 +94,13 @@ def test_suppressed_count_footer_present():
 
 
 def test_health_escalates_to_stale_at_three_failures():
-    text = render(date="2026-08-04", pinned=[], scored=[],
-                  health=[("flaky", 1), ("dead", 3)], suppressed_count=0)
+    text = render(
+        date="2026-08-04",
+        pinned=[],
+        scored=[],
+        health=[("flaky", 1), ("dead", 3)],
+        suppressed_count=0,
+    )
     assert "flaky" in text
     assert "STALE" in text
     stale_line = next(ln for ln in text.splitlines() if "STALE" in ln)
@@ -81,8 +109,13 @@ def test_health_escalates_to_stale_at_three_failures():
 
 def test_render_is_deterministic():
     pinned, scored = sample_sections()
-    args = {"date": "2026-08-04", "pinned": pinned, "scored": scored,
-            "health": [], "suppressed_count": 2}
+    args = {
+        "date": "2026-08-04",
+        "pinned": pinned,
+        "scored": scored,
+        "health": [],
+        "suppressed_count": 2,
+    }
     assert render(**args) == render(**args)
 
 

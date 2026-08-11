@@ -2,11 +2,11 @@
 (plan Phase 3). Word-boundary matching is mandatory — substring 'ai' would flood
 the digest ('said', 'aid', 'brain')."""
 
+from tests.conftest import make_item
 from watcher.scoring import match_tracked, score_item, triage
 
-from tests.conftest import make_item
-
 # --- keyword matching rules ---
+
 
 def test_short_allcaps_term_requires_word_boundary(keywords):
     hit = make_item(title="The AI Accountability Act")
@@ -28,9 +28,12 @@ def test_phrases_match_case_insensitively(keywords):
 
 # --- weighting ---
 
+
 def test_title_hits_weigh_double_vs_body(keywords):
     in_title = make_item(title="AI oversight", body_excerpt="", kind="press")
-    in_body = make_item(title="Committee update", body_excerpt="discusses AI oversight", kind="press")
+    in_body = make_item(
+        title="Committee update", body_excerpt="discusses AI oversight", kind="press"
+    )
     assert score_item(in_title, keywords) > score_item(in_body, keywords)
 
 
@@ -50,6 +53,7 @@ def test_kind_boost_applied(keywords):
 
 # --- tracked bills ---
 
+
 def test_tracked_alias_fills_matched_bills(keywords):
     item = make_item(title="Committee schedules markup of H.R. 9363")
     assert match_tracked(item, keywords) == ["hr9363"]
@@ -68,6 +72,7 @@ def test_tracked_match_in_body_counts(keywords):
 
 # --- triage ---
 
+
 def test_triage_pins_tracked_regardless_of_score(keywords):
     dull_but_tracked = make_item(uid="t1", title="Technical corrections to H.R. 9363", kind="press")
     result = triage([dull_but_tracked], keywords)
@@ -83,7 +88,7 @@ def test_triage_splits_on_threshold(keywords):
 
 
 def test_triage_sorts_listed_by_score_desc(keywords):
-    a = make_item(uid="a", title="NIST update", kind="press")           # medium
+    a = make_item(uid="a", title="NIST update", kind="press")  # medium
     b = make_item(uid="b", title="AI frontier model markup", kind="markup")  # high, boosted
     result = triage([a, b], keywords)
     scores = [s for _, s in result.listed]
@@ -105,9 +110,11 @@ def test_tracked_matches_bill_id_from_uid(keywords):
     """congress_api items carry the bill id in their uid; tracked matching must fire
     on it even when no alias appears in the title (official long titles rarely
     contain 'H.R. NNNN')."""
-    intro = make_item(uid="hr9363-intro-2026-06-18",
-                      title="To redesignate the AI Safety Institute, and for other purposes.",
-                      kind="bill_intro")
+    intro = make_item(
+        uid="hr9363-intro-2026-06-18",
+        title="To redesignate the AI Safety Institute, and for other purposes.",
+        kind="bill_intro",
+    )
     assert "hr9363" in match_tracked(intro, keywords)
 
 
