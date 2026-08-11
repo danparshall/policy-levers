@@ -1,4 +1,13 @@
 ---
+## Session: 2026-08-11 — late finish-convo for 20260722_hf_openai_incident_note
+
+Sandbox reset before wrap on 7/22; convo doc written today. One finding was
+never recorded anywhere until now: OpenAI's 7/20 long-horizon disclosure (the
+Erdős-model pause → trajectory monitoring → redeploy-weeks-before-disclosure
+lifecycle, residuals incl. SSH probes of other employees' pods). Recorded in
+the convo doc; flagged as reusable exhibit for the FRONTIER comment letter.
+
+---
 ## Session: 2026-07-24 — 20260724_frontier_act_ingest
 
 ### Topics Explored
