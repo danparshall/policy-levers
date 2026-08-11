@@ -170,16 +170,17 @@ sources:
     enabled: false   # TODO: verify (gatekeeper — Commerce chair, markup announcements).
 
   - id: sen-curtis-press
-    type: rss
+    type: html_diff
     chamber: senate
-    url: https://www.curtis.senate.gov/rss/
-    enabled: false   # RSS confirmed live 2026-08-11 (probe; only 1 entry — verify feed depth at Phase 2). Freshman AI-signature-issue senator.
+    url: https://www.curtis.senate.gov/press-releases/
+    selectors: {entry: "article", title: "h2", link: "a", date: "time"}
+    enabled: false   # /rss/ exists but contains only a 2022 lorem-ipsum "Test Post" (capture 2026-08-11) — dead feed. Phase 3 html_diff candidate. Freshman AI-signature-issue senator.
 
   - id: sen-hawley-press
     type: rss
     chamber: senate
     url: https://www.hawley.senate.gov/rss/
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). High-volume AI press page. Enable in Phase 2.
+    enabled: false   # Real WP press feed confirmed by capture 2026-08-11 (current, 10 entries). High-volume AI press page. Enable in Phase 2.
 
   - id: sen-rounds-press
     type: html_diff
@@ -206,15 +207,19 @@ sources:
   # ─────────────────────────────────────────────────────────────────────────
   # Rep. Scott Peters (D-CA-50) is the "Peters" on FRONTIER / GAAIA cosponsorship —
   # distinct from Gary Peters (D-MI) above. Added per shortlist verification.
-  # Probe 2026-08-11 overturned the JS-rendering pessimism: 8/9 offices publish
-  # RSS (Fireside CMS at /news/rss.aspx, or /rss.xml on the other CMS cluster).
-  # Only Foushee has no feed (410s + empty /rss/) — she stays html_diff.
+  # Probe history 2026-08-11: two CMS clusters. Fireside sites (Trahan, Franklin)
+  # publish real press RSS at /news/rss.aspx — enabled. The evo-Drupal cluster
+  # (Obernolte, Scott Peters, Subramanyam, Houchin, Lofgren, Stevens) serves a
+  # sitewide /rss.xml that is featured-content/media, NOT press releases (stale
+  # 2023-2025 items), and a secondary probe found no press-specific feed
+  # (/media/press-releases/feed etc. all 404) — those stay html_diff for Phase 3.
 
   - id: rep-obernolte-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://obernolte.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 5 entries). GAAIA + FRONTIER lead sponsor, House Science R&T sub-chair. Enable in Phase 2.
+    url: https://obernolte.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is featured-content (2023-24 items), no press feed found (probe 2026-08-11). GAAIA + FRONTIER lead sponsor. Phase 3 html_diff — do FIRST.
 
   - id: rep-trahan-press
     type: rss
@@ -223,10 +228,11 @@ sources:
     # RSS confirmed live 2026-08-11; real fixture rep-trahan-press.xml. GAAIA + FRONTIER Dem lead — the literal GAAIA-catcher.
 
   - id: rep-scott-peters-ca-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://scottpeters.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). Rep. Scott Peters D-CA-50, FRONTIER/GAAIA cosponsor. Enable in Phase 2.
+    url: https://scottpeters.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is a stale videos feed (Mar 2026), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor. Phase 3 html_diff candidate.
 
   - id: rep-franklin-press
     type: rss
@@ -235,22 +241,25 @@ sources:
     enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). FRONTIER/GAAIA cosponsor R-FL-18. Enable in Phase 2.
 
   - id: rep-subramanyam-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://subramanyam.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). FRONTIER/GAAIA cosponsor D-VA-10; "four-alarm fire" quote. Enable in Phase 2.
+    url: https://subramanyam.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is a photo-caption feed (2025 items), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor; "four-alarm fire" quote. Phase 3 html_diff candidate.
 
   - id: rep-houchin-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://houchin.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 5 entries). FRONTIER/GAAIA cosponsor R-IN-09; Schrage staffer. Enable in Phase 2.
+    url: https://houchin.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is featured-content (2023 items), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor; Schrage staffer. Phase 3 html_diff candidate.
 
   - id: rep-lofgren-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://lofgren.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 4 entries). House Science ranking member. Enable in Phase 2.
+    url: https://lofgren.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is featured-content (2023 items), no press feed found (probe 2026-08-11). House Science ranking member. Phase 3 html_diff candidate.
 
   - id: rep-foushee-press
     type: html_diff
@@ -260,7 +269,8 @@ sources:
     enabled: false   # No RSS (probe 2026-08-11: 410s + empty /rss/). Science subcommittee ranking member. Phase 3 html_diff candidate.
 
   - id: rep-stevens-press
-    type: rss
+    type: html_diff
     chamber: house
-    url: https://stevens.house.gov/rss.xml
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). Science AI ally; 2026 Senate run — tone-flag. Enable in Phase 2.
+    url: https://stevens.house.gov/media/press-releases
+    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
+    enabled: false   # /rss.xml is a "Manufacturing Mondays" feed, not press (probe 2026-08-11). Science AI ally; 2026 Senate run — tone-flag. Phase 3 html_diff candidate.
