@@ -1,0 +1,42 @@
+{
+  "bills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-03-17",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": "7968",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Small AI Innovators Empowerment Act",
+      "type": "HR",
+      "updateDate": "2026-07-01",
+      "updateDateIncludingText": "2026-07-01",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7968?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-11",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "9285",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Heat Emergency Assessment and Tracking using AI Act",
+      "type": "HR",
+      "updateDate": "2026-07-01",
+      "updateDateIncludingText": "2026-07-01",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9285?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 2
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CONSTRUCTED FIXTURE: RSS 2.0 press feed in the standard house.gov/senate.gov shape.
+     Second item deliberately omits pubDate (real feeds do this) to exercise the fallback path.
+     Replace with a live committee-feed capture at plan Phase 8. -->
+<rss version="2.0">
+  <channel>
+    <title>Committee Press Releases</title>
+    <link>https://example.senate.gov/newsroom</link>
+    <description>Press releases</description>
+    <item>
+      <title>Chair Announces Hearing on Artificial Intelligence Oversight</title>
+      <link>https://example.senate.gov/newsroom/press/ai-oversight-hearing</link>
+      <description>The Committee will convene a hearing on AI oversight and compute thresholds.</description>
+      <pubDate>Tue, 28 Jul 2026 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Committee Advances Nominations Package</title>
+      <link>https://example.senate.gov/newsroom/press/nominations-package</link>
+      <description>The Committee favorably reported eleven nominations.</description>
+    </item>
+  </channel>
+</rss>

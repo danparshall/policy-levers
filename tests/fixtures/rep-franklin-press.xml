@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Franklin, Scott RSS Articles</title>
+    <description>Franklin, Scott RSS Articles</description>
+    <link>http://franklin.house.gov/</link>
+    <lastBuildDate>Mon, 27 Jul 2026 04:00:00 GMT</lastBuildDate>
+    <docs>http://backend.userland.com/rss</docs>
+    <generator>RSS.NET: http://www.rssdotnet.com/</generator>
+    <item>
+      <title>Obernolte, Franklin offer bipartisan bill to set national rules for advanced AI</title>
+      <description>&lt;p&gt;U.S. Reps. Jay Obernolte (R-CA) and Scott Franklin (R-FL) on July 23 proposed a bipartisan bill that would establish a national framework for regulating the development and deployment of the most advanced artificial intelligence (AI) models.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting (FRONTIER) Act, H.R. 9925, would create a risk-based system with oversight requirements that vary based on the size of AI developers.&lt;/p&gt;
+&lt;p&gt;The bill also would set uniform national standards for transparency, independent audits, incident reporting, and assessments of catastrophic risk to avoid a patchwork of state regulations, according to a bill summary provided by the lawmakers.&lt;/p&gt; [fixture-trimmed]</description>
+      <link>http://franklin.house.gov/news/documentsingle.aspx?DocumentID=1923</link>
+      <guid>http://franklin.house.gov/news/documentsingle.aspx?DocumentID=1923</guid>
+      <pubDate>Mon, 27 Jul 2026 04:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Franklin Celebrates Introduction Of Frontier Act To Advance American AI Leadership</title>
+      <description>&lt;p&gt;Congressman Scott Franklin (FL-18) today celebrated the introduction of the FRONTIER Act, bipartisan legislation introduced by Congressman Jay Obernolte (CA-23), which Franklin joined as an original cosponsor. The bill establishes a targeted federal framework for the nation's most advanced artificial intelligence systems while preserving the ability of startups and smaller innovators to compete without unnecessary federal regulation.&lt;/p&gt;
+&lt;p&gt;The bill builds on recommendations developed by the bipartisan House AI Task Force and the discussion draft of the Great American AI Act. Franklin, a member of the House Committee on Science, Space and Technology and the bipartisan House AI Task Force, worked closely with Obernolte throughout the development of those recommendations, which informed the legislation.&lt;/p&gt; [fixture-trimmed]</description>
+      <link>http://franklin.house.gov/news/documentsingle.aspx?DocumentID=1922</link>
+      <guid>http://franklin.house.gov/news/documentsingle.aspx?DocumentID=1922</guid>
+      <pubDate>Thu, 23 Jul 2026 04:00:00 GMT</pubDate>
+    </item>
+    </channel>
+</rss>

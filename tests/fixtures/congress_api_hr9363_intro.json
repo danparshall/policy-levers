@@ -1,0 +1,26 @@
+{
+  "bills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2026-06-18",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "number": "9363",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To redesignate the National Institute of Standards and Technology's AI Safety Institute as the Center for AI Standards and Innovation, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2026-06-19T06:10:44Z",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9363?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 1
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+  <channel>
+    <title>Senate Democrats</title>
+    <ns0:link href="https://www.democrats.senate.gov/" rel="self" type="application/rss+xml" />
+    <link>https://www.democrats.senate.gov/</link>
+    <description>Official news and legislative information from Democrats in the U.S. Senate.</description>
+    <language>en-US</language>
+    <copyright>Copyright 2026</copyright>
+    <docs>https://www.democrats.senate.gov/feed/</docs>
+    <lastBuildDate>Tue, 11 Aug 2026 05:08:49 EST</lastBuildDate>
+    <ns1:updatePeriod>hourly</ns1:updatePeriod>
+    <ns1:updateFrequency>1</ns1:updateFrequency>
+    <ttl>1</ttl>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <skipHours>
+      <hour>1</hour>
+      <hour>2</hour>
+      <hour>3</hour>
+      <hour>4</hour>
+      <hour>5</hour>
+    </skipHours>
+    <ns0:link rel="hub" href="https://pubsubhubbub.appspot.com" />
+    <ns0:link rel="hub" href="https://pubsubhubbub.superfeedr.com" />
+      <item>
+        <title>Wrap Up for Friday, August 7 and Saturday, August 8, 2026</title>
+        <link>https://www.democrats.senate.gov/2026/08/08/wrap-up-for-friday-august-7-and-saturday-august-8-2026</link>
+        <pubDate>Sat, 08 Aug 2026 04:58:00 EST</pubDate>
+        <dc:creator>
+          The Senate Democratic Caucus
+        </dc:creator>
+        <category>
+          Wrap Up
+        </category>
+        <guid isPermaLink="false">https://www.democrats.senate.gov/2026/08/08/wrap-up-for-friday-august-7-and-saturday-august-8-2026</guid>
+        <description>
+          &lt;p&gt;&lt;b&gt;&lt;u&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Wrap Up
+for Friday, August 7 and Saturday, August 8, 2026&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Roll Call
+Votes&lt;u&gt;&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol style="margin-top:0in"&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Paul
+     amendment #6715 to Graham-Blumenthal #6711; not agreed to: 32-64.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;H.R.5334,
+     as amended, Sanctions legislation [60 vote threshold]; passed: 86-11.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Confirmation
+     of the 74 nominations en bloc as provided for in Executive Calendar #6,
+     S.Res.817; confirmed: 51-47.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Motion
+     to invoke cloture on Collins substitute #6732 to Cal. #320 H.R.6500,
+     vehicle for Continuing Resolution; agreed to: 91-6 with 1 voting present.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Motion
+     to table Budd amendment #6747 (Hemp); tabled: 61-32.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Passage
+     of H.R.6500, CR, as amended (60 vote threshold); passed: 90-6 with 1
+     voting present.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Motion
+     to invoke cloture on Executive Calendar #914 Todd Blanche, of Florida, to
+     be Attorney General; invoked: 50-49.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Confirmation
+     of Executive Calendar #914 Todd Blanche, of Florida, to be Attorney
+     General; confirmed: 50-49.&lt;/span&gt;&lt;/li&gt;
+ &lt;li style="margin-left:0in;"&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif;"&gt;Motion
+     to invoke cloture on the motion to proceed to Cal. #547 S.5271 To amend
+     the Help America Vote Act of 2002; not agreed to: 52-46.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;b&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt; [fixture-trimmed]</description>
+      </item>
+      <item>
+        <title>Schedule for Pro Forma Sessions and Monday September 14, 2026</title>
+        <link>https://www.democrats.senate.gov/2026/08/08/schedule-for-pro-forma-sessions-and-monday-september-14-2026</link>
+        <pubDate>Sat, 08 Aug 2026 04:58:00 EST</pubDate>
+        <dc:creator>
+          The Senate Democratic Caucus
+        </dc:creator>
+        <category>
+          Senate Schedule
+        </category>
+        <guid isPermaLink="false">https://www.democrats.senate.gov/2026/08/08/schedule-for-pro-forma-sessions-and-monday-september-14-2026</guid>
+        <description>
+          &lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;The Senate
+stands adjourned to convene for Pro Forma sessions only on the following dates
+and times:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Monday,
+August 10&lt;sup&gt;th&lt;/sup&gt; at 10:00am&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Thursday,
+August 13&lt;sup&gt;th&lt;/sup&gt; at 8:00am&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Monday,
+August 17&lt;sup&gt;th&lt;/sup&gt; at 1:30pm&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family:&amp;quot;Calibri&amp;quot;,sans-serif"&gt;Thursday,
+August 20&lt;sup&gt;th&lt;/sup&gt; at 11:30am&lt;/span&gt;&lt;/p&gt; [fixture-trimmed]</description>
+      </item>
+      </channel>
+</rss>

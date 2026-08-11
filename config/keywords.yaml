@@ -1,0 +1,113 @@
+# Legislative watcher — keyword and tracked-bill registry
+#
+# The scorer (src/watcher/scoring.py) uses:
+#   * word-boundary matching for every term (so "AI" ≠ "said" / "aid" / "brain");
+#   * case-sensitive for all-caps tokens (AI, CAISI, GAAIA, NIST); case-insensitive otherwise;
+#   * title hits × 2, high/medium/low = 3/2/1, then + kind_boost IF any keyword hit fired
+#     (a road-renaming press release stays at 0 regardless of kind).
+#
+# Tracked bills bypass the score threshold and get pinned to the digest — via alias hits
+# in title/body, OR via the bill id appearing as a token in the item uid (congress_api
+# items encode the bill id there, so official long titles rarely mention "H.R. NNNN").
+#
+# Retune YAML rather than code when the first live week is noisy — this file plus
+# `threshold` is the whole tuning surface.
+
+tracked_bills:
+  # Obernolte / Trahan work on frontier AI oversight — the two bills the tool was
+  # explicitly built to have caught earlier (GAAIA discussion draft) and to keep
+  # catching (FRONTIER Act = H.R. 9925, formal successor introduced 2026-07-23).
+  - id: hr9925
+    aliases:
+      - "H.R. 9925"
+      - "H.R.9925"
+      - "HR 9925"
+      - "FRONTIER Act"
+      - "Foundational Regulation of Novel Technology for Innovation and Emerging Risks"
+  - id: hr9363
+    aliases:
+      - "H.R. 9363"
+      - "H.R.9363"
+      - "HR 9363"
+      - "CAISI"
+      - "Center for AI Standards and Innovation"
+  - id: gaaia
+    aliases:
+      - "Great American AI Act"
+      - "GAAIA"
+  # AIRE Act — Cruz-gated Senate Commerce vehicle (STATUS 2026-04-14).
+  - id: s2938
+    aliases:
+      - "S. 2938"
+      - "S.2938"
+      - "AIRE Act"
+      - "Artificial Intelligence Research"
+
+keywords:
+  # High tier: unambiguous frontier-AI-policy vocabulary.
+  # `AI` is case-sensitive by the scorer's rule (no lowercase in the token),
+  # so "aid"/"said"/"brain" don't fire.
+  high:
+    - "AI"
+    - "artificial intelligence"
+    - "frontier model"
+    - "frontier AI"
+    - "foundation model"
+    - "AI safety"
+    - "AI governance"
+    - "compute governance"
+    - "AI Safety Institute"
+    - "CAISI"
+    - "AISI"
+    - "large language model"
+    - "generative AI"
+    - "deepfake"
+    - "autonomous weapon"
+
+  # Medium tier: relevant but not always AI-policy — needs context.
+  medium:
+    - "NIST"
+    - "algorithmic"
+    - "machine learning"
+    - "chatbot"
+    - "watermark"
+    - "model card"
+    - "red team"
+    - "red-team"
+    # `\b` anchors mean prefix matches don't fire; enumerate explicitly.
+    - "third-party evaluation"
+    - "third-party evaluations"
+    - "third-party evaluator"
+    - "third-party evaluators"
+    - "safety framework"
+    - "incident report"
+    - "export control"
+    - "chip export"
+    - "compute threshold"
+    - "training compute"
+    - "biosecurity"
+
+  # Low tier: prevalent, gets brought over the threshold only when it stacks
+  # with something else.
+  low:
+    - "innovation"
+    - "workforce"
+    - "cybersecurity"
+    - "national security"
+    - "critical infrastructure"
+
+# Event kinds bypass the threshold entirely (a "Full Committee Markup" surfaces
+# even with zero keyword hits — committee feeds are curated by source selection).
+# The boost below is an amplifier for kinds that DID also match keywords, so a
+# markup with AI language sorts above a hearing with the same language.
+kind_boost:
+  markup: 3
+  floor: 3
+  bill_intro: 2
+  bill_action: 2
+  hearing: 2
+  press: 1
+
+# Non-tracked, non-event items below this score are suppressed (counted in the
+# footer). 3 = one high-tier body hit or two low-tier hits.
+threshold: 3
