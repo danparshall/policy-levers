@@ -9,6 +9,7 @@ matches raises SourceError, so silence is never indistinguishable from a quiet w
 
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable
 from datetime import datetime
 from urllib.parse import urljoin
@@ -17,11 +18,15 @@ from bs4 import BeautifulSoup
 
 from watcher.models import Item, SourceError, make_hash_uid
 
-DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d")
+# %m/%d/%Y covers Blackburn's "08/5/2026" (strptime accepts non-zero-padded fields)
+DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%m/%d/%Y")
+
+# Warner (WP/Elementor) renders "August 7th, 2026" — strip ordinal suffixes
+_ORDINAL_RE = re.compile(r"(\d{1,2})(st|nd|rd|th)\b")
 
 
 def _iso_date(raw: str) -> str:
-    text = (raw or "").strip()
+    text = _ORDINAL_RE.sub(r"\1", (raw or "").strip())
     for fmt in DATE_FORMATS:
         try:
             # date-only parse — timezone is irrelevant

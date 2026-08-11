@@ -15,6 +15,9 @@
 | `rep-franklin-press.xml` | **REAL** capture of `https://franklin.house.gov/news/rss.aspx`, 2026-08-11, trimmed to 2 items (Obernolte-Franklin FRONTIER bill 7/27 + FRONTIER introduction celebration 7/23), same trim discipline | No |
 | `sen-hawley-press.xml` | **REAL** capture of `https://www.hawley.senate.gov/rss/`, 2026-08-11, trimmed to 2 items (both 8/6; WordPress feed, `content:encoded` stripped, descriptions truncated) | No |
 | `sen-schumer-press.xml` | **REAL** capture of `https://www.democrats.senate.gov/feed/` (Senate Dem caucus newsroom), 2026-08-11, trimmed to 2 items (8/8 floor wrap-up + Pro Forma schedule — the floor-signal content), `content:encoded` stripped | No |
+| `rep-obernolte-press.html` | **REAL** entry nodes from `https://obernolte.house.gov/media/press-releases`, 2026-08-11, first 3 `div.media-body` entries (incl. 7/23 FRONTIER introduction), press bodies + scripts stripped, synthetic wrapper | No |
+| `sen-blackburn-press.html` | **REAL** entry nodes from `https://www.blackburn.senate.gov/press-releases`, 2026-08-11, first 3 `div.element` entries (8/5 + 8/4 ×2), synthetic wrapper. Exercises `%m/%d/%Y` dates | No |
+| `sen-warner-press.html` | **REAL** entry nodes from `https://www.warner.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `div.ArticleBlock` entries (8/7–8/5), excerpts + scripts stripped, synthetic wrapper. Exercises ordinal-suffix dates | No |
 
 Rules (from the plan): fixtures are trimmed, committed, each well under 50 KB. When a constructed
 fixture is replaced with a real capture, keep assertions on *behavior* (items produced), updating

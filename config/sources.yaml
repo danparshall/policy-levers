@@ -152,15 +152,15 @@ sources:
     type: html_diff
     chamber: senate
     url: https://www.warner.senate.gov/newsroom/press-releases
-    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
-    enabled: false   # TODO: verify selectors (highest-yield source — do first).
+    selectors: {entry: "div.ArticleBlock", title: "h3.elementor-heading-title", link: "h3.elementor-heading-title a", date: "time"}
+    # WP/Elementor, static HTML; selectors verified against real capture 2026-08-11 (fixture sen-warner-press.html). Ordinal dates ("August 7th, 2026") handled by adapter.
 
   - id: sen-blackburn-press
     type: html_diff
     chamber: senate
     url: https://www.blackburn.senate.gov/press-releases
-    selectors: {entry: "article.press-release", title: "h2", link: "a", date: "time"}
-    enabled: false   # TODO: verify (TRUMP AMERICA AI Act discussion-draft workflow — do second).
+    selectors: {entry: "div.element", title: "div.element-title", link: "a", date: "span.element-datetime"}
+    # Static HTML; selectors verified against real capture 2026-08-11 (fixture sen-blackburn-press.html). m/d/Y dates ("08/5/2026") handled by adapter. TRUMP AMERICA AI Act discussion-draft workflow — the GAAIA analog.
 
   - id: sen-cruz-press
     type: html_diff
@@ -218,8 +218,8 @@ sources:
     type: html_diff
     chamber: house
     url: https://obernolte.house.gov/media/press-releases
-    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is featured-content (2023-24 items), no press feed found (probe 2026-08-11). GAAIA + FRONTIER lead sponsor. Phase 3 html_diff — do FIRST.
+    selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
+    # evo-Drupal listing, static HTML; selectors verified against real capture 2026-08-11 (fixture rep-obernolte-press.html — pins the FRONTIER introduction release). GAAIA + FRONTIER lead sponsor. (/rss.xml is featured-content, not press.)
 
   - id: rep-trahan-press
     type: rss
