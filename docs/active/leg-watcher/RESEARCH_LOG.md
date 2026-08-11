@@ -7,6 +7,30 @@ Goal: the next GAAIA costs a day, not a month. GAAIA was a discussion draft (nev
 
 ## Sessions (newest first)
 
+## Session: 2026-08-11 — leg_watcher_v11_press_enable_execution
+
+### Topics Explored
+- Executed v1.1 plan Phases 1–4 (`plans/20260811_leg_watcher_v11_press_page_enable.md`): RSS probe across all 22 disabled sources → RSS enables → html_diff selector hunts → floor lookahead. Dan called stop-at-Phase-4; Phases 5–6 deferred to issue #8.
+- Watcher went **4 → 18 enabled sources**; full-registry smoke from clean state surfaced Trahan's FRONTIER coalition release (tracked pin), Senate 8/13 pro forma (Time-critical), Hawley [13] / Warner [7] / Rounds [5] AI items, 70 suppressed, zero source-health warnings.
+
+### Provisional Findings
+- **Entry counts lie**: the probe scored 11 feeds live, but fixture capture showed 7 were wrong-content (evo-Drupal `/rss.xml` = featured-content/videos/photo-captions, not press; Curtis's feed = one 2022 lorem-ipsum "Test Post"). Only item-level review validates a press feed.
+- Six CMS shapes cover 15 of 18 enabled sources (evo-Drupal h3/h5, Senate PageList, Fireside RSS, WordPress RSS, WP/Elementor html, Blackburn bespoke-static); DATE_FORMATS grew 3 → 7 (+ ordinal stripping), all TDD'd on real fixtures.
+- Terminal verdicts with evidence in config comments: Scott Peters (JS shell), Curtis + Lofgren (no reliable listing dates), Foushee (flat siblings, no containers), majority-leader (Telerik prose paste; URL had also moved), committee RSS (none exist; HSGAC feed real but recess-empty).
+- Schumer caucus-feed floor wrap-ups score below keyword threshold — retune dependency, noted in issue #7.
+
+### Results
+- 6 commits `dc63b4c`→`75125f1`, all pushed. 93/93 tests, ruff clean. 11 new REAL fixtures with provenance rows.
+- Convo: `convos/20260811_leg_watcher_v11_press_enable_execution.md`
+- Issues opened: #7 `[2026-08-18]` keyword retune (Phase 7); #8 v1.2 source gaps + Phases 5–6 pointer.
+
+### Next Steps
+- Phase 7 keyword retune after a real week of digests (issue #7 fires 8/18).
+- Phases 5–6 (pagination + EmptyFeed) before daily-cron use; pagination becomes urgent when recess ends ~9/1 (issue #8).
+- Re-probe HSGAC `/feed/` when Congress returns.
+- **Merge decision (plan Q4)**: tool now does what issue #3 promised — close #3 + merge is Dan's call.
+- Doc-hygiene cleanup at merge (carried): Obernolte subcommittee framing; unqualified "Peters" in STATUS.md.
+
 ## Session: 2026-08-04 — leg_watcher_phase8_execution
 
 ### Topics Explored
