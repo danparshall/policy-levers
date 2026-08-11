@@ -74,7 +74,11 @@ keywords:
     - "model card"
     - "red team"
     - "red-team"
-    - "third-party evaluat"
+    # `\b` anchors mean prefix matches don't fire; enumerate explicitly.
+    - "third-party evaluation"
+    - "third-party evaluations"
+    - "third-party evaluator"
+    - "third-party evaluators"
     - "safety framework"
     - "incident report"
     - "export control"

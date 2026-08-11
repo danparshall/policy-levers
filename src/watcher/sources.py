@@ -150,7 +150,12 @@ class CongressApiTrackedSource:
             url = self._url.format(congress=self._congress, type=bill_type, number=number)
             try:
                 resp = http_get(url, params=params)
-                payload = resp.json()
+                try:
+                    payload = resp.json()
+                except ValueError as exc:
+                    raise SourceError(
+                        f"{self.id}: non-JSON response for {bill_type}{number}"
+                    ) from exc
                 items.append(parse_bill_detail(payload, source_id=self.id))
             except SourceError as exc:
                 # A tracked bill that doesn't exist yet (e.g. GAAIA discussion draft
@@ -272,7 +277,7 @@ def build_sources(
             else:
                 raise ValueError(
                     f"congress_api source {cfg.id!r} needs params.mode in "
-                    "('poller','tracked'), got {mode!r}"
+                    f"('poller','tracked'), got {mode!r}"
                 )
         elif cfg.type == "rss":
             sources.append(RssSource(cfg, today=today))
