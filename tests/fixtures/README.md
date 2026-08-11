@@ -12,6 +12,9 @@
 | `committee_rss.xml` | Constructed standard RSS 2.0; second item intentionally lacks `pubDate` | Phase 8+ — capture a real committee feed once one is confirmed to publish RSS |
 | `floor_lookahead.html` | Constructed simplified Majority Leader weekly schedule | Phase 8+ — capture real page + selectors when Majority Leader source is enabled |
 | `rep-trahan-press.xml` | **REAL** capture of `https://trahan.house.gov/news/rss.aspx`, 2026-08-11, trimmed to 2 items (FRONTIER coalition-praise 7/28 + FRONTIER Act introduction 7/23), descriptions truncated at paragraph boundary with `[fixture-trimmed]` marker | No |
+| `rep-franklin-press.xml` | **REAL** capture of `https://franklin.house.gov/news/rss.aspx`, 2026-08-11, trimmed to 2 items (Obernolte-Franklin FRONTIER bill 7/27 + FRONTIER introduction celebration 7/23), same trim discipline | No |
+| `sen-hawley-press.xml` | **REAL** capture of `https://www.hawley.senate.gov/rss/`, 2026-08-11, trimmed to 2 items (both 8/6; WordPress feed, `content:encoded` stripped, descriptions truncated) | No |
+| `sen-schumer-press.xml` | **REAL** capture of `https://www.democrats.senate.gov/feed/` (Senate Dem caucus newsroom), 2026-08-11, trimmed to 2 items (8/8 floor wrap-up + Pro Forma schedule — the floor-signal content), `content:encoded` stripped | No |
 
 Rules (from the plan): fixtures are trimmed, committed, each well under 50 KB. When a constructed
 fixture is replaced with a real capture, keep assertions on *behavior* (items produced), updating

@@ -61,6 +61,56 @@ def test_trahan_real_feed_normalizes_to_press_items():
     assert "risk-based framework" in intro.body_excerpt
 
 
+def test_franklin_real_feed_normalizes_to_press_items():
+    """Real capture of franklin.house.gov/news/rss.aspx (2026-08-11) — Fireside CMS,
+    same shape as Trahan; FRONTIER cosponsor release workflow."""
+    items = parse_feed(load_fixture("rep-franklin-press.xml"), source_id="rep-franklin-press",
+                       chamber="house", today="2026-08-11")
+    assert len(items) == 2
+    first, second = items
+    assert first.kind == "press"
+    assert first.chamber == "house"
+    assert first.date == "2026-07-27"
+    assert first.title == (
+        "Obernolte, Franklin offer bipartisan bill to set national rules for advanced AI"
+    )
+    assert first.url == "http://franklin.house.gov/news/documentsingle.aspx?DocumentID=1923"
+    assert second.date == "2026-07-23"
+    assert "Frontier Act" in second.title
+
+
+def test_hawley_real_feed_normalizes_to_press_items():
+    """Real capture of hawley.senate.gov/rss/ (2026-08-11) — WordPress feed,
+    slug-URL links, content:encoded stripped in fixture."""
+    items = parse_feed(load_fixture("sen-hawley-press.xml"), source_id="sen-hawley-press",
+                       chamber="senate", today="2026-08-11")
+    assert len(items) == 2
+    first = items[0]
+    assert first.kind == "press"
+    assert first.chamber == "senate"
+    assert first.date == "2026-08-06"
+    assert first.url.startswith("https://www.hawley.senate.gov/hawley-banks-tuberville")
+    assert "WASHINGTON" in first.body_excerpt
+
+
+def test_schumer_caucus_real_feed_normalizes_to_press_items():
+    """Real capture of democrats.senate.gov/feed/ (2026-08-11) — Senate Dem caucus
+    WordPress feed; carries floor wrap-ups and schedule notices (the floor signal)."""
+    items = parse_feed(load_fixture("sen-schumer-press.xml"), source_id="sen-schumer-press",
+                       chamber="senate", today="2026-08-11")
+    assert len(items) == 2
+    first, second = items
+    assert first.kind == "press"
+    assert first.chamber == "senate"
+    assert first.date == "2026-08-08"
+    assert first.title == "Wrap Up for Friday, August 7 and Saturday, August 8, 2026"
+    assert first.url == (
+        "https://www.democrats.senate.gov/2026/08/08/"
+        "wrap-up-for-friday-august-7-and-saturday-august-8-2026"
+    )
+    assert "Pro Forma" in second.title
+
+
 def test_uids_stable_across_reparse():
     a = parse_feed(load_fixture("committee_rss.xml"), source_id="x", chamber="senate",
                    today="2026-08-04")

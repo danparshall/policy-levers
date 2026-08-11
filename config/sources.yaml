@@ -180,7 +180,7 @@ sources:
     type: rss
     chamber: senate
     url: https://www.hawley.senate.gov/rss/
-    enabled: false   # Real WP press feed confirmed by capture 2026-08-11 (current, 10 entries). High-volume AI press page. Enable in Phase 2.
+    # Real WP press feed, capture 2026-08-11; fixture sen-hawley-press.xml. High-volume AI press page.
 
   - id: sen-rounds-press
     type: html_diff
@@ -193,7 +193,7 @@ sources:
     type: rss
     chamber: senate
     url: https://www.democrats.senate.gov/feed/
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 20 entries — Senate Dem caucus newsroom feed). Minority Leader; floor-scheduling signal. Enable in Phase 2.
+    # Senate Dem caucus newsroom feed, capture 2026-08-11; fixture sen-schumer-press.xml. Minority Leader; floor wrap-ups + schedule notices.
 
   - id: sen-peters-mi-press
     type: html_diff
@@ -238,7 +238,7 @@ sources:
     type: rss
     chamber: house
     url: https://franklin.house.gov/news/rss.aspx
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 10 entries). FRONTIER/GAAIA cosponsor R-FL-18. Enable in Phase 2.
+    # Fireside press RSS, capture 2026-08-11; fixture rep-franklin-press.xml. FRONTIER/GAAIA cosponsor R-FL-18.
 
   - id: rep-subramanyam-press
     type: html_diff
