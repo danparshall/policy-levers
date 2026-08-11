@@ -27,12 +27,10 @@ Goal: the next GAAIA costs a day, not a month. GAAIA was a discussion draft (nev
 - Convo: `convos/20260804_leg_watcher_phase8_execution.md`
 
 ### Next Steps
-- Enable disabled Senate press-page rows one at a time. Priority order (from shortlist): Warner (framework rollouts), Blackburn (TRUMP AMERICA AI Act discussion-draft workflow — direct GAAIA failure mode), Cruz (Commerce chair markup notices). Each is a separate selector-hunting session against the live page.
-- After ~1 week of real runs: keyword retune pass. Candidates: drop "workforce" from medium tier OR bump threshold 3 → 4. Decide against real noise data, not up-front.
-- Consider a "seen-nonempty-before" state flag so `parse_meeting_feed`'s zero-entries `SourceError` distinguishes selector drift from recess-week silence.
-- Reminder #5 (FRONTIER outreach) still open — skipped this session, not Phase 8's scope.
+- **Plan written 2026-08-11:** `plans/20260811_leg_watcher_v11_press_page_enable.md` — the "make it useful, not just functional" pass. Enables the ~22 disabled press-page rows, floor lookahead, plus two smoke-caught polish items. Live probe overturned the JS-rendering pessimism — Trahan has RSS, Warner + Blackburn are static HTML.
+- Reminder #5 (FRONTIER outreach) still open — separate workstream from the leg-watcher build.
 - Doc-hygiene cleanup at merge: Obernolte subcommittee-vs-full-committee framing; unqualified "Peters" in GAAIA-cosponsor context.
-- Issue #3 (leg-watcher build) is functionally satisfied by Phase 8 shipping — awaiting Dan's decision to close at merge time.
+- Issue #3 (leg-watcher build): Phase 8 satisfied the "build" clause literally; the v1.1 plan is what turns it into the GAAIA-catcher the ticket implied. Close after v1.1 Phase 4 lands.
 
 ## Session: 2026-08-04 — ai_legislator_research
 

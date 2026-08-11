@@ -150,6 +150,22 @@ Smoke-run digest (not committed — regenerable via `uv run watcher --include-ba
 _7 items suppressed below threshold._
 ```
 
+## Plan created (2026-08-11)
+
+At Dan's ask ("make it a useful tool, not functional but worthless"), wrote v1.1
+plan to enable the ~22 disabled press-page rows: `plans/20260811_leg_watcher_v11_press_page_enable.md`.
+
+Live probe against Trahan/Warner/Blackburn 2026-08-11 (before writing the plan)
+overturned the fixture-README pessimism about JS-rendering: Warner and Blackburn
+return real static HTML, Trahan uses the Fireside ASP.NET CMS and — decisively —
+has a working RSS feed at `/news/rss.aspx` (FRONTIER Act coalition-praise
+release 2026-07-28 present). Plan structured around RSS-first (Phase 1 probe →
+Phase 2 enable), then html_diff for the offices without RSS (Phase 3), plus
+floor lookahead (Phase 4) and two smoke-caught polish items (pagination when
+in-session; recess-week `EmptyFeed` distinction). Keyword retune is deferred
+to Phase 7, do-last after a real week of digests. Phase 4 is the "useful tool"
+line; 5-6 are for cron-readiness.
+
 ## Open Questions
 
 - **When to enable the disabled Senate press pages?** Each is a separate
