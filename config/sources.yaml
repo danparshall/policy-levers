@@ -220,7 +220,7 @@ sources:
     type: rss
     chamber: house
     url: https://trahan.house.gov/news/rss.aspx
-    enabled: false   # RSS confirmed live 2026-08-11 (probe, 11 entries). GAAIA + FRONTIER Dem lead — the literal GAAIA-catcher. Enable FIRST in Phase 2.
+    # RSS confirmed live 2026-08-11; real fixture rep-trahan-press.xml. GAAIA + FRONTIER Dem lead — the literal GAAIA-catcher.
 
   - id: rep-scott-peters-ca-press
     type: rss

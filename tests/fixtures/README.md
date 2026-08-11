@@ -11,6 +11,7 @@
 | `trahan_press_june2026.html` | Constructed; GAAIA release entry (2026-06-04) historically real, other entries invented, DOM structure generic. Wayback CDX search 2026-08-04 returned no 2026 captures of the deep press-releases page | No further work planned — no archived source available |
 | `committee_rss.xml` | Constructed standard RSS 2.0; second item intentionally lacks `pubDate` | Phase 8+ — capture a real committee feed once one is confirmed to publish RSS |
 | `floor_lookahead.html` | Constructed simplified Majority Leader weekly schedule | Phase 8+ — capture real page + selectors when Majority Leader source is enabled |
+| `rep-trahan-press.xml` | **REAL** capture of `https://trahan.house.gov/news/rss.aspx`, 2026-08-11, trimmed to 2 items (FRONTIER coalition-praise 7/28 + FRONTIER Act introduction 7/23), descriptions truncated at paragraph boundary with `[fixture-trimmed]` marker | No |
 
 Rules (from the plan): fixtures are trimmed, committed, each well under 50 KB. When a constructed
 fixture is replaced with a real capture, keep assertions on *behavior* (items produced), updating

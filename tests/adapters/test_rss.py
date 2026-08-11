@@ -1,10 +1,10 @@
 """RSS adapter: committee/member press feeds → press Items (plan Phase 4.2)."""
 
 import pytest
-from watcher.adapters.rss import parse_feed
-from watcher.models import SourceError
 
 from tests.conftest import load_fixture
+from watcher.adapters.rss import parse_feed
+from watcher.models import SourceError
 
 
 def test_feed_entries_become_press_items():
@@ -39,6 +39,26 @@ def test_unparseable_or_empty_feed_raises_source_error():
     with pytest.raises(SourceError):
         parse_feed(b"<html>this is not a feed</html>", source_id="example-committee",
                    chamber="senate", today="2026-08-04")
+
+
+def test_trahan_real_feed_normalizes_to_press_items():
+    """Real capture of trahan.house.gov/news/rss.aspx (2026-08-11) — the GAAIA-catcher.
+
+    Fireside/ASP.NET CMS feed: escaped-HTML descriptions, DocumentID links, GMT pubDates.
+    """
+    items = parse_feed(load_fixture("rep-trahan-press.xml"), source_id="rep-trahan-press",
+                       chamber="house", today="2026-08-11")
+    assert len(items) == 2
+    coalition, intro = items
+    assert coalition.kind == "press"
+    assert coalition.chamber == "house"
+    assert coalition.title == "What They’re Saying: Broad Coalition Lauds Bipartisan FRONTIER Act"
+    assert coalition.date == "2026-07-28"
+    assert coalition.url == "http://trahan.house.gov/news/documentsingle.aspx?DocumentID=3825"
+    assert "FRONTIER" in coalition.body_excerpt
+    assert intro.date == "2026-07-23"
+    assert intro.url == "http://trahan.house.gov/news/documentsingle.aspx?DocumentID=3823"
+    assert "risk-based framework" in intro.body_excerpt
 
 
 def test_uids_stable_across_reparse():
