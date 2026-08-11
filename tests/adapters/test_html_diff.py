@@ -99,6 +99,55 @@ def test_warner_real_page_ordinal_dates_normalize():
     assert items[2].date == "2026-08-05"
 
 
+EVO_H5_SELECTORS = {"entry": "div.evo-media-object", "title": "div.h5 a",
+                    "link": "div.h5 a", "date": "div.row div.col-auto"}
+PAGELIST_SELECTORS = {"entry": "li.PageList__item", "title": "h2.ArticleTitle",
+                      "link": "a", "date": "p.Heading"}
+
+
+@pytest.mark.parametrize(
+    ("fixture", "selectors", "chamber", "base_url", "first_date", "title_prefix"),
+    [
+        # evo-Drupal h3 variant (same CMS as Obernolte)
+        ("rep-houchin-press.html", OBERNOLTE_SELECTORS, "house",
+         "https://houchin.house.gov/media/press-releases",
+         "2026-08-04", "Houchin, McBath Introduce"),
+        ("rep-stevens-press.html", OBERNOLTE_SELECTORS, "house",
+         "https://stevens.house.gov/media/press-releases",
+         "2026-07-22", "STATEMENT: Rep. Haley Stevens"),
+        # evo-Drupal h5 variant
+        ("rep-subramanyam-press.html", EVO_H5_SELECTORS, "house",
+         "https://subramanyam.house.gov/media/press-releases",
+         "2026-08-07", "Subramanyam, Beyer, Walkinshaw"),
+        # Senate PageList CMS — dotted dates ('08.10.2026')
+        ("sen-cruz-press.html", PAGELIST_SELECTORS, "senate",
+         "https://www.cruz.senate.gov/newsroom/press-releases",
+         "2026-08-10", "Sens. Cruz, Gillibrand"),
+        ("sen-rounds-press.html", PAGELIST_SELECTORS, "senate",
+         "https://www.rounds.senate.gov/newsroom/press-releases",
+         "2026-08-10", "Rounds Introduces Bipartisan Bill"),
+        ("sen-peters-mi-press.html", PAGELIST_SELECTORS, "senate",
+         "https://www.peters.senate.gov/newsroom/press-releases",
+         "2026-08-06", "Peters Leads Resolution"),
+    ],
+)
+def test_real_page_fixtures_normalize_to_press_items(
+    fixture, selectors, chamber, base_url, first_date, title_prefix
+):
+    """Real captures 2026-08-11, one per enabled html_diff source (see
+    fixtures/README.md provenance). Pins each office's CMS shape."""
+    sid = fixture.removesuffix(".html")
+    items = extract_entries(load_fixture(fixture).decode(), selectors,
+                            source_id=sid, chamber=chamber, base_url=base_url)
+    assert len(items) == 3
+    first = items[0]
+    assert first.kind == "press"
+    assert first.chamber == chamber
+    assert first.date == first_date
+    assert first.title.startswith(title_prefix)
+    assert first.url.startswith("http")
+
+
 def test_real_page_selectors_missing_raise_source_error():
     """Adversarial: right entry container, wrong inner selectors → SourceError,
     never a silent empty field."""

@@ -18,6 +18,12 @@
 | `rep-obernolte-press.html` | **REAL** entry nodes from `https://obernolte.house.gov/media/press-releases`, 2026-08-11, first 3 `div.media-body` entries (incl. 7/23 FRONTIER introduction), press bodies + scripts stripped, synthetic wrapper | No |
 | `sen-blackburn-press.html` | **REAL** entry nodes from `https://www.blackburn.senate.gov/press-releases`, 2026-08-11, first 3 `div.element` entries (8/5 + 8/4 ×2), synthetic wrapper. Exercises `%m/%d/%Y` dates | No |
 | `sen-warner-press.html` | **REAL** entry nodes from `https://www.warner.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `div.ArticleBlock` entries (8/7–8/5), excerpts + scripts stripped, synthetic wrapper. Exercises ordinal-suffix dates | No |
+| `rep-houchin-press.html` | **REAL** entry nodes from `https://houchin.house.gov/media/press-releases`, 2026-08-11, first 3 `div.media-body` entries (8/4–7/29), bodies stripped, synthetic wrapper | No |
+| `rep-stevens-press.html` | **REAL** entry nodes from `https://stevens.house.gov/media/press-releases`, 2026-08-11, first 3 `div.media-body` entries (7/22–7/21), bodies stripped, synthetic wrapper | No |
+| `rep-subramanyam-press.html` | **REAL** entry nodes from `https://subramanyam.house.gov/media/press-releases`, 2026-08-11, first 3 `div.evo-media-object` entries (8/7–7/31), bodies stripped, synthetic wrapper. evo-Drupal h5 title variant | No |
+| `sen-cruz-press.html` | **REAL** entry nodes from `https://www.cruz.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/10–8/7), excerpts stripped, synthetic wrapper. Exercises dotted `%m.%d.%Y` dates | No |
+| `sen-rounds-press.html` | **REAL** entry nodes from `https://www.rounds.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/10–8/6), excerpts stripped, synthetic wrapper | No |
+| `sen-peters-mi-press.html` | **REAL** entry nodes from `https://www.peters.senate.gov/newsroom/press-releases`, 2026-08-11, first 3 `li.PageList__item` entries (8/6–8/3), excerpts stripped, synthetic wrapper | No |
 
 Rules (from the plan): fixtures are trimmed, committed, each well under 50 KB. When a constructed
 fixture is replaced with a real capture, keep assertions on *behavior* (items produced), updating

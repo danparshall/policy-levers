@@ -166,15 +166,15 @@ sources:
     type: html_diff
     chamber: senate
     url: https://www.cruz.senate.gov/newsroom/press-releases
-    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
-    enabled: false   # TODO: verify (gatekeeper — Commerce chair, markup announcements).
+    selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
+    # Senate PageList CMS; selectors verified against real capture 2026-08-11 (fixture sen-cruz-press.html). Dotted dates ("08.10.2026") handled by adapter. Commerce chair — markup announcements.
 
   - id: sen-curtis-press
     type: html_diff
     chamber: senate
     url: https://www.curtis.senate.gov/press-releases/
-    selectors: {entry: "article", title: "h2", link: "a", date: "time"}
-    enabled: false   # /rss/ exists but contains only a 2022 lorem-ipsum "Test Post" (capture 2026-08-11) — dead feed. Phase 3 html_diff candidate. Freshman AI-signature-issue senator.
+    selectors: {entry: "article.post", title: "h2.entry-title", link: "a", date: "time"}
+    enabled: false   # Listing page has NO per-entry dates (verified 2026-08-11); adapter requires a date. /rss/ is a dead 2022 test feed. Needs date-optional or detail-fetch support (v1.2). Freshman AI-signature-issue senator.
 
   - id: sen-hawley-press
     type: rss
@@ -186,8 +186,8 @@ sources:
     type: html_diff
     chamber: senate
     url: https://www.rounds.senate.gov/newsroom/press-releases
-    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
-    enabled: false   # TODO: verify (Working Group original, Armed Services cyber/AI).
+    selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
+    # Same PageList CMS as Cruz; verified against real capture 2026-08-11 (fixture sen-rounds-press.html). Working Group original, Armed Services cyber/AI.
 
   - id: sen-schumer-press
     type: rss
@@ -199,8 +199,8 @@ sources:
     type: html_diff
     chamber: senate
     url: https://www.peters.senate.gov/newsroom/press-releases
-    selectors: {entry: "article.press-release", title: "h3", link: "a", date: "time"}
-    enabled: false   # TODO: verify (Gary Peters D-MI, HSGAC ranking; lower priority).
+    selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
+    # Same PageList CMS as Cruz; verified against real capture 2026-08-11 (fixture sen-peters-mi-press.html). Gary Peters D-MI, HSGAC ranking.
 
   # ─────────────────────────────────────────────────────────────────────────
   # House member press pages (the FRONTIER-Act and GAAIA sponsor cluster)
@@ -232,7 +232,7 @@ sources:
     chamber: house
     url: https://scottpeters.house.gov/media/press-releases
     selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is a stale videos feed (Mar 2026), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor. Phase 3 html_diff candidate.
+    enabled: false   # JS-rendered — needs headless-browser adapter (v2). Listing HTML contains zero press links (verified 2026-08-11); /rss.xml is a stale videos feed. FRONTIER/GAAIA cosponsor.
 
   - id: rep-franklin-press
     type: rss
@@ -244,33 +244,33 @@ sources:
     type: html_diff
     chamber: house
     url: https://subramanyam.house.gov/media/press-releases
-    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is a photo-caption feed (2025 items), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor; "four-alarm fire" quote. Phase 3 html_diff candidate.
+    selectors: {entry: "div.evo-media-object", title: "div.h5 a", link: "div.h5 a", date: "div.row div.col-auto"}
+    # evo-Drupal h5 variant; verified against real capture 2026-08-11 (fixture rep-subramanyam-press.html). FRONTIER/GAAIA cosponsor; "four-alarm fire" quote.
 
   - id: rep-houchin-press
     type: html_diff
     chamber: house
     url: https://houchin.house.gov/media/press-releases
-    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is featured-content (2023 items), no press feed found (probe 2026-08-11). FRONTIER/GAAIA cosponsor; Schrage staffer. Phase 3 html_diff candidate.
+    selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
+    # evo-Drupal, same selectors as Obernolte; verified against real capture 2026-08-11 (fixture rep-houchin-press.html). FRONTIER/GAAIA cosponsor; Schrage staffer.
 
   - id: rep-lofgren-press
     type: html_diff
     chamber: house
     url: https://lofgren.house.gov/media/press-releases
-    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is featured-content (2023 items), no press feed found (probe 2026-08-11). House Science ranking member. Phase 3 html_diff candidate.
+    selectors: {entry: "div.views-row", title: "a.h4 div.h3", link: "a.h4", date: "time"}
+    enabled: false   # evo-card listing has no reliable per-entry dates (1 of 10 rows dated, verified 2026-08-11); /rss.xml is featured-content. Needs date-optional support (v1.2). House Science ranking member.
 
   - id: rep-foushee-press
     type: html_diff
     chamber: house
     url: https://foushee.house.gov/media/press-releases
     selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # No RSS (probe 2026-08-11: 410s + empty /rss/). Science subcommittee ranking member. Phase 3 html_diff candidate.
+    enabled: false   # Listing renders all 20 h2.title entries as flat siblings in one div — no per-entry containers for the selector model (verified 2026-08-11). No RSS either. Needs sibling-walk parsing (v1.2). Science subcommittee ranking member.
 
   - id: rep-stevens-press
     type: html_diff
     chamber: house
     url: https://stevens.house.gov/media/press-releases
-    selectors: {entry: "li.press-item", title: "a", link: "a", date: "span.date"}
-    enabled: false   # /rss.xml is a "Manufacturing Mondays" feed, not press (probe 2026-08-11). Science AI ally; 2026 Senate run — tone-flag. Phase 3 html_diff candidate.
+    selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
+    # evo-Drupal, same selectors as Obernolte; verified against real capture 2026-08-11 (fixture rep-stevens-press.html). Science AI ally; 2026 Senate run — tone-flag.

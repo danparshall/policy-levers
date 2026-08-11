@@ -18,8 +18,9 @@ from bs4 import BeautifulSoup
 
 from watcher.models import Item, SourceError, make_hash_uid
 
-# %m/%d/%Y covers Blackburn's "08/5/2026" (strptime accepts non-zero-padded fields)
-DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%m/%d/%Y")
+# %m/%d/%Y covers Blackburn's "08/5/2026" (strptime accepts non-zero-padded fields);
+# %m.%d.%Y covers the Senate PageList CMS's "08.10.2026" (Cruz, Rounds, Peters-MI)
+DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%m/%d/%Y", "%m.%d.%Y")
 
 # Warner (WP/Elementor) renders "August 7th, 2026" — strip ordinal suffixes
 _ORDINAL_RE = re.compile(r"(\d{1,2})(st|nd|rd|th)\b")
