@@ -1,6 +1,6 @@
 # Research Log — main (misc / cross-line sessions)
 
-## Session: 2026-08-11 — policy_actor_map
+## Session: 2026-07-30 — policy_actor_map
 ### Topics Explored
 - Whether a "Group X works on Problem Y via Approach Z" page already exists for AI policy; what a good one would need
 - ControlAI's published UK parliamentary-outreach learnings (Dan recalled them as "500 MPs")
@@ -12,7 +12,7 @@
 - ControlAI: two LW posts by Leticia García Martínez ("70+", May 2025, `Xwrajm92fdjd7cqnN`; "140+", Feb 2026, `A7BtBD9BAfK2kKSEr`) plus a Torchbearer/EA Forum evaluation (June 2026). Dan's "500" doesn't match anything published — UK campaign is ~150-160 meetings; 200+ is the cross-jurisdiction total (UK/US/Canada/Germany). **Conversion-rate discrepancy to watch:** ControlAI says 1-in-3 briefed lawmakers take a public stance; Torchbearer computes ~48.5% restricted to prior non-supporters. Different denominators; the higher figure needs its caveat attached before it enters a Canary document.
 
 ### Results
-- `results/20260811_actor_map_prior_art.md`
+- `results/20260730_actor_map_prior_art.md`
 
 ### Next Steps
 - Answer the consumer question before any build; the artifact differs completely across the three
@@ -21,7 +21,8 @@
 - Decide whether/where the ControlAI posts get filed (advocacy writeups, not research papers — `add-paper` may be the wrong home)
 - Verify the possible third ControlAI post (ambiguous April 2026 entry on their blog index)
 
-See convo: `convos/20260811_policy_actor_map.md`
+See convo: `convos/20260730_policy_actor_map.md` (wrapped late, 2026-08-11)
+
 ## Session: 20260730T1749 — 20260730_lw_karma_baseline
 *Substance took place 2026-07-30; session left open and wrapped 2026-08-12, so the commit date (`4f45fa6`, 08-12) trails the work by ~12 days. All karma/comment figures are a snapshot as of 2026-07-30 17:50 UTC.*
 

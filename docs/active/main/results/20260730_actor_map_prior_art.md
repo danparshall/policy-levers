@@ -1,8 +1,8 @@
-<!-- Generated during: convos/20260811_policy_actor_map.md -->
+<!-- Generated during: convos/20260730_policy_actor_map.md -->
 
 # Prior art: "Group X works on Problem Y via Approach Z" maps for AI policy
 
-Scan run 2026-08-11 in response to Dan's question of whether such a page already exists.
+Scan run 2026-07-30 in response to Dan's question of whether such a page already exists.
 Verdict: several partial maps, none in the Group x Problem x Approach shape. Each existing
 map drops one of the three axes.
 

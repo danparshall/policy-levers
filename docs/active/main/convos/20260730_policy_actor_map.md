@@ -1,6 +1,7 @@
 # Policy actor map — prior-art scan + ControlAI outreach writeups
 
-**Date:** 2026-08-11
+**Date:** 2026-07-30
+**Wrapped:** 2026-08-11 (late wrap)
 **Branch:** main
 **Surface:** claude.ai
 
@@ -86,9 +87,10 @@ the 200+ number is cross-jurisdiction lawmakers briefed across UK/US/Canada/Germ
   home may be more appropriate. Not done.
 - Possible third ControlAI post (their blog index shows an ambiguous April 2026 entry). Unverified.
 
-## Session note — clock discrepancy
+## Session note — late wrap
 
-At session start the sandbox `date` returned 2026-07-30 and Claude reported that to Dan; the
-platform context said 2026-08-11, and a later `date` call agreed with the platform. The earlier
-report was wrong. All artifacts from this session are dated 2026-08-11. Worth watching whether
-sandbox clock skew recurs, since the session-start `date` call is a standing instruction.
+The research happened 2026-07-30; Dan returned 2026-08-11 to run finish-convo on the same live
+session. Claude initially misread the two `date` readings as sandbox clock skew and dated the
+artifacts 2026-08-11; corrected here. Same shape as the `20260722_hf_openai_incident_note` late
+wrap. Note that the July 31 session (`20260731_hackathon_brainstorm`) was logged first despite
+happening later, so RESEARCH_LOG ordering is by session date, not by wrap order.
