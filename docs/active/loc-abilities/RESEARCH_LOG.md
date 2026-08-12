@@ -7,6 +7,27 @@ Purpose: Map safety-relevant capability taxonomies (Shevlane, lab RSPs, Bengio I
 
 (Sessions logged here, newest first)
 
+## 2026-07-29 — Habryka exchange: does datacenter visibility obviate hardware verification?
+
+Convo: `convos/distributed-training-habryka.md`. Retrieval + argument-testing session, no new research. Habryka argued on Twitter that verified chips are unnecessary because frontier runs are $10B+ operations with a footprint visible from space. Pulled Rahman 2026 (2605.29359) and the 7/14 survey to test it.
+
+### Provisional Findings
+
+- His claim holds for *frontier* runs today, and Heim & Pilz hold roughly his position in our own library. It does not hold for the legal thresholds actually on the books: EU AI Act's 10^25 is ~$31M and 10^26 is $3.8B across 4,706 nodes of ≤16 H100-equivalents, which is by construction not a visible facility.
+- The argument is self-undermining in a specific way — Rahman rates traffic monitoring ineffective and chip tracking effective, so relying on datacenter observability bets the regime on the co-location assumption that Decoupled DiLoCo is engineering away.
+- **New this session: tracking ≠ attestation.** Tracking is custody (evasion detection, export-control compliance); attestation is proving what executed on the device (audit provenance). The 7/14 material did not separate these, and the distinction matters for any public claim about what hardware measures buy. Ties to the §112 audited-artifact-provenance thread on `gaaia-analysis`.
+- Rahman's effective-countermeasure list is broader than chip tracking alone (also whistleblower programs, unregistered-hardware limits, conventional intelligence work). Don't overclaim chip tracking as the sole survivor.
+- Decoupled DiLoCo is DeepMind coordinating its own runs, so it is a trend-line citation, not evidence of clandestine capability. Covenant-72B (2603.08163) and Consilience are the over-the-open-internet citations.
+
+### Results
+
+- None. Two-tweet reply shipped; substance captured in the convo file.
+
+### Next Steps
+
+- Develop the compliant-vs-defector reframe (most governance value sits in the compliant case *because* the defector case is small and covered by intelligence work) — Habryka's most likely counter, and it generalises past this thread.
+- Decide whether the tracking/attestation split belongs in the 7/14 survey's governance section or in the `gaaia-analysis` §112 provenance material.
+
 ## 2026-07-14 — Distributed-training methods survey + Rahman 2026 ingest
 
 Convo: `convos/20260714_distributed_training_survey.md`. DP requested a survey of new distributed-training methods; filed as `results/20260714_distributed_training_methods.md`. Four threads: DiLoCo family maturation (scaling laws 2503.09799; Streaming; Decoupled DiLoCo 2604.21428 breaking synchrony itself, DeepMind production), compression (DisTrO 1-bit, SparseLoCo), decentralised proof-of-scale runs (INTELLECT-1/2/3, Consilience 40B at 20T tokens over internet, Covenant-72B trustless peers), and async-RL systems (AReaL, DORA, ProRL Agent) whose loose coupling makes post-training the easy-to-decentralise phase.
