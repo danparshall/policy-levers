@@ -23,6 +23,8 @@
 
 See convo: `convos/20260811_policy_actor_map.md`
 ## Session: 20260730T1749 — 20260730_lw_karma_baseline
+*Substance took place 2026-07-30; session left open and wrapped 2026-08-12, so the commit date (`4f45fa6`, 08-12) trails the work by ~12 days. All karma/comment figures are a snapshot as of 2026-07-30 17:50 UTC.*
+
 ### Topics Explored
 - Whether tools exist for LW posting-rate / karma-distribution reporting, and how scrapeable LW is
 - LW public GraphQL API (`https://www.lesswrong.com/graphql`) — query shape, field semantics, rate tolerance
