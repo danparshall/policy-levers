@@ -22,6 +22,41 @@
 - Verify the possible third ControlAI post (ambiguous April 2026 entry on their blog index)
 
 See convo: `convos/20260811_policy_actor_map.md`
+## Session: 20260730T1749 — 20260730_lw_karma_baseline
+### Topics Explored
+- Whether tools exist for LW posting-rate / karma-distribution reporting, and how scrapeable LW is
+- LW public GraphQL API (`https://www.lesswrong.com/graphql`) — query shape, field semantics, rate tolerance
+- 12-month baseline pull (2025-08-01→2026-07-30, n=7,429): posting rate, karma distribution, karma-vs-age, comment counts conditioned on karma
+- Dan's own 5 substantive posts ranked against those baselines; comment-thread detail on the April economists post
+
+### Provisional Findings
+- **No scraping needed.** LW runs ForumMagnum with a public unauthenticated GraphQL endpoint; ~500 records/request in <1s, ~52 requests for a 12-month pull, no rate limiting hit. No maintained public dashboard for these stats was found, so a tool would be new but thin.
+- **`filter: "all"` is mandatory** — the default `new` view silently drops ~10% of posts, mostly personal blogposts (107 vs 120 on a test week).
+- Posting rate 20.5/day (monthly 16.4–30.5). Karma median 15, p90 80, p99 264, 3.8% end ≤0. Frontpage median 20 vs personal 6 (~3x for promotion).
+- **`baseScore` is vote-weight-summed karma, not upvotes.** Dan's 11–30 karma posts have only 4–9 distinct voters.
+- **Median karma is flat past ~3 days** ⇒ retrospective single-pull analysis is valid for ordinary posts; no prospective snapshotting needed. Does NOT extend to the tail — viral posts keep accruing and that shape is unrecoverable after the fact.
+- **43% of mature LW posts get zero comments**; median is 1. Zero-comment rate ~50% at 10–15 karma, ~30% at 20–30.
+- **Dan is at the median, not top-half:** median post 14 karma = 48.0th percentile sitewide, 57.6th vs low-frequency authors. n=5 with single-digit voter counts, so noise swamps 40th-vs-60th.
+- **Economists post is the engagement outlier** (+4 comment residual; 5 comments where karma predicts 1). Two of three commenters engaged the same specific number ("less than a dozen economists"); one was academic economist Jakub Growiec. Hypothesis: a bounded contestable claim gives readers a flag to plant, accurate summaries don't. Heavily confounded (n=1, only post with a named foil, only one with a resident LW expert audience, 3 months older, frontpaged).
+- **Both bill posts were personal-blog, not frontpaged** — plausibly costing more reach than any content variable measured.
+
+### Corrections (Claude errors caught by Dan)
+- Switched maturity cutoffs between messages (≥30d, max 833 → ≥14d, max 1038) without flagging it; Dan caught it via the 1038-karma DeepMind post. Pull was not lossy; near-median percentiles are insensitive (48.0 vs 48.4). Always state the cutoff alongside a distribution figure.
+- Over-generalized a median result ("current score IS the two-week score") to a universal claim; false for the tail.
+- Called zero comments "worse news than the karma" before checking the baseline. 43% of LW posts get zero comments; only proof-of-retention (30 karma, 0 comments) is actually anomalous.
+
+### Results
+- `results/20260730_lw_karma_comment_baselines.md`
+- `results/20260730_lw_dan_post_performance.md`
+- `scripts/lw_pull.py`
+
+### Next Steps
+- Resolve what LW is FOR in the portfolio before building anything. If it's a citable artifact for staffers, karma/comments are the wrong metrics entirely (want referral traffic, inbound links, citations); if it's standing with the safety research community, engagement is the right target.
+- Tag-conditioned baseline (`ai-governance` / `ai-risk`) — offered, not run. This is the denominator that says whether bill analysis lands with people who read bill analysis.
+- Implement comment residual (observed minus karma-bucket median) as the headline engagement metric.
+- Check whether the bill posts were declined for frontpage or never submitted.
+- Standing objection Dan hasn't answered: accurate bill summaries commoditize fast; the judgment layer in this repo (which of the 31 tiered asks matter, what Obernolte's office accepts, severability/NetChoice) is largely absent from the posts.
+
 
 ## Session: 2026-07-25 — frontier_port_and_iosco_ingest
 ### Topics Explored
