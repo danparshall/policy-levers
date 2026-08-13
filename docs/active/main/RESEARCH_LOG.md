@@ -1,6 +1,43 @@
 # Research Log — main (misc / cross-line sessions)
 
+
+## Session: 2026-08-12 — ai_open_letters_inventory
+### Topics Explored
+- Which AI open letters exist beyond CAIS Global Statement + wemustactnow.ai + aitreaty.org (Dan's starting set); how many total; whether signatory documentation would be valuable for policymaker outreach
+- Cross-category scope (all types), 2023-present, full signatory analysis with cross-letter overlap
+
+### Provisional Findings
+- **30+ distinct letters** March 2023 → July 2026 clustering into 9 categories (x-risk, governance, ethics/faith, labor, copyright, open-source, military, child safety, direct action) and five waves tied to focusing events (GPT-4, Bletchley Summit, SB 1047, UNGA, 2026 layoffs).
+- **Super-signer spine**: Bengio, Hinton, Russell, Tegmark, Harari, Wozniak. Yann LeCun as the boundary marker — non-signer of x-risk letters, signer of We Must Act Now.
+- **Contradictions**: Musk (Pause + xAI incorporation March 9, 2023 — sharpest), Altman/Amodei/Hassabis (CAIS but not Superintelligence), Mistral (Stop the Clock + GPAI Code), Acemoglu/Autor (We Must Act Now reversal after years of downplaying displacement).
+- **Six flagship letters** for policymaker briefings: Pause (2023), CAIS Statement (2023), Right to Warn (2024), Global Call for AI Red Lines (2025), Statement on Superintelligence (2025), We Must Act Now (2026).
+- **Signatory counts drift by source and date**: Pause 27,565 → 30,000+; Superintelligence 700+ launch → 32,214 late Oct 2025; Newton-Rex 11,500 → 19,000 → 50,000+. Every count needs its observation date.
+- **Existing trackers close but not comprehensive**: AI Lab Watch open-letters list (best curated x-risk), FLI's own page (FLI-run only), Georgetown ETO AGORA (documents-focused, not letters). None is a cross-category signatory-level tracker — confirms the value of building one.
+- **Gap topics with no flagship letter**: healthcare/clinical AI, journalism (lawsuits but no unified letter), education, environment/datacenter energy, financial-systems/systemic risk, Chinese-language domestic letters.
+- **Red Lines near-term impact assessment** (Transformer News, Sept 2025): "unlikely to move the needle on concrete governance" due to US opposition (Cruz + Trump AI Action Plan). Caveat for Hill-facing use.
+
+### Process Note
+- Session-start protocol was **skipped** at the outset — deep-research task launched directly on Dan's ask without cloning policy-levers, reading RESEARCHER.md, STATUS.md, or personal_info.md. Recovered at finish-convo when Dan invoked task-create + finish-convo skills. Convo doc + results doc + RESEARCH_LOG entry backfilled at wrap. Lesson: a well-scoped research ask is not license to skip RESEARCHER.md. Reminder issue #11 was already filed via REST API (`[2026-08-19]` prefix) before the clone existed; back-link into the convo doc added on the same commit.
+
+### Results
+- `results/20260812_ai_open_letters_inventory.md`
+
+### Captured Tasks
+- [#11: Follow up on AI open letters tracker — re-scrape counts, check for new letters](https://github.com/danparshall/policy-levers/issues/11) — captured 2026-08-12
+
+### Next Steps
+- Re-scrape live signatory counts quarterly (Pause, Superintelligence, Red Lines, Newton-Rex, We Must Act Now all still open). Reminder #11 fires 2026-08-19.
+- Verify uncorroborated specifics before publication (ERLC 2019 ~65–70, We Must Act Now 1,649, Superintelligence totals beyond 32,214, March 2026 "Pro-Human AI" declaration).
+- Decide: own research line (branch, ongoing tracker) or landscape doc on main with periodic re-scrape?
+
+See convo: `convos/20260812_ai_open_letters_inventory.md`
+
+
+## Session: 2026-08-11 — policy_actor_map
+
+
 ## Session: 2026-07-30 — policy_actor_map
+
 ### Topics Explored
 - Whether a "Group X works on Problem Y via Approach Z" page already exists for AI policy; what a good one would need
 - ControlAI's published UK parliamentary-outreach learnings (Dan recalled them as "500 MPs")
