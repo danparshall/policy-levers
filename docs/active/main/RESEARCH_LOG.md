@@ -1,6 +1,5 @@
 # Research Log — main (misc / cross-line sessions)
 
-
 ## Session: 2026-08-12 — ai_open_letters_inventory
 ### Topics Explored
 - Which AI open letters exist beyond CAIS Global Statement + wemustactnow.ai + aitreaty.org (Dan's starting set); how many total; whether signatory documentation would be valuable for policymaker outreach
@@ -35,6 +34,28 @@ See convo: `convos/20260812_ai_open_letters_inventory.md`
 
 ## Session: 2026-08-11 — policy_actor_map
 
+
+## Session: 2026-07-31 — 20260731_hackathon_brainstorm
+### Topics Explored
+- Project slate for FAI+IFP "Hacking the Think Tank" hackathon (today): 3 Opus ideas + 4 Fable ideas evaluated
+- Reframe: event is about AI moving *think tanks*, not AI policy; goal is employment networking, project is pretext
+- pat-helper recognized as the generic engine (~70% of claim-audit AND bill-lint)
+
+### Provisional Findings
+- Winning pitch: "verification stack for the AI-era think tank" — bill pipeline + claim-audit + Kent-o-meter on the pat-helper spine
+- Kent/Zonination calibration idea is demoable as a *language* tool (Opus dismissed the longitudinal version; the estimative-phrase mapper is a few hours)
+- Synthetic-comment detection cut (ground-truth problem)
+- Claim-audit demo must not target third-party think-tank products in that room (networking landmine); use AI-generated memo + Dan's own Canary post
+
+### Results
+- Full pitch structure in convo file (written for downstream slide-generating agent)
+- `results/20260731_slopchecker_prior_art.md` — deep-research prior-art / landscape report for funder-side submission screening (Run 2, using actual team-doc contents; Run 1 targeted the wrong feature list)
+
+### Next Steps
+- Dan: create public hackathon repo + write PAT (or tarball mode); confirm pat-helper-extract + hosts-in-corpus defaults; laptop keys
+- Fable: bill fetches, corpus, sanitized scaffold, README-as-pitch, zip export
+
+See convo: `convos/20260731_hackathon_brainstorm.md`
 
 ## Session: 2026-07-30 — policy_actor_map
 
@@ -97,7 +118,6 @@ See convo: `convos/20260730_policy_actor_map.md` (wrapped late, 2026-08-11)
 - Check whether the bill posts were declined for frontpage or never submitted.
 - Standing objection Dan hasn't answered: accurate bill summaries commoditize fast; the judgment layer in this repo (which of the 31 tiered asks matter, what Obernolte's office accepts, severability/NetChoice) is largely absent from the posts.
 
-
 ## Session: 2026-07-25 — frontier_port_and_iosco_ingest
 ### Topics Explored
 - Diff between `essays/canary/frontier-act-tech-pace.md` (tracked) and `frontier-act-tech-pace_DAN.md` (added at `8958dfd` after typo-fix commits `b3cf522`/`37e4c68`); reconciling the fork
@@ -144,23 +164,16 @@ See convo: `convos/20260725_frontier_port_and_iosco_ingest.md`
 
 See convo: `convos/20260716_canary_lw_essay_adaptations.md`
 
-## Session: 2026-07-31 — 20260731_hackathon_brainstorm
+## Session: 2026-07-08 — zhou_adele_rename_and_paper_locations
 ### Topics Explored
-- Project slate for FAI+IFP "Hacking the Think Tank" hackathon (today): 3 Opus ideas + 4 Fable ideas evaluated
-- Reframe: event is about AI moving *think tanks*, not AI policy; goal is employment networking, project is pretext
-- pat-helper recognized as the generic engine (~70% of claim-audit AND bill-lint)
+- Paper naming maintenance: Zhou/ADeLe filename mismatch with naming spec (surname+initial required only where surname collisions likely; `OralloJ` was over-applied)
+- Cross-repo audit of where IAISR reports and Shah 2025 AGI-safety paper live
 
 ### Provisional Findings
-- Winning pitch: "verification stack for the AI-era think tank" — bill pipeline + claim-audit + Kent-o-meter on the pat-helper spine
-- Kent/Zonination calibration idea is demoable as a *language* tool (Opus dismissed the longitudinal version; the estimative-phrase mapper is a few hours)
-- Synthetic-comment detection cut (ground-truth problem)
-- Claim-audit demo must not target third-party think-tank products in that room (networking landmine); use AI-generated memo + Dan's own Canary post
-
-### Results
-- Full pitch structure in convo file (written for downstream slide-generating agent)
+- Renamed Zhou/ADeLe paper (`OralloJ` → `Orallo`) in both `policy-levers` and `general-ai-abilities`
+- IAISR reports confirmed live only on `general-ai-abilities` `origin/loc-abilities` branch (not main); Shah 2025 AGI-safety paper (arXiv 2504.01849) not yet in any repo
 
 ### Next Steps
-- Dan: create public hackathon repo + write PAT (or tarball mode); confirm pat-helper-extract + hosts-in-corpus defaults; laptop keys
-- Fable: bill fetches, corpus, sanitized scaffold, README-as-pitch, zip export
+- Backfill Shah 2025 into the appropriate repo when a session touches AGI-safety literature
 
-See convo: `convos/20260731_hackathon_brainstorm.md`
+See convo: `convos/20260708_zhou_adele_rename_and_paper_locations.md` — also cited in top-level `STATUS.md`.

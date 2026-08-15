@@ -1,3 +1,4 @@
+<!-- Generated during: convos/20260717_gaaia_contact_matrix.md -->
 # GAAIA call sheet — top-priority offices, 2026-07-17
 
 Front-desk-call method (same as the 4/15 Senate CRM build): call, ask who covers AI/tech for the member, get the staffer's name and email, offer a technical briefing, capture everything into crm/contacts.yaml afterward. Educational framing throughout; no bill asks on the phone.

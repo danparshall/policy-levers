@@ -358,3 +358,28 @@ the convo doc; flagged as reusable exhibit for the FRONTIER comment letter.
 
 ## Session: 2026-07-17 — 20260717_gaaia_contact_matrix
 2026-07-17: contact matrix + call sheet + blog v3 + audited==deployed close read (superseded in part by adversarial review; checkpoint-substitution framing controls) + H.R. 9363 pull/comparison (§5304 collision; ceiling verdict pending review). See convo 20260717_gaaia_contact_matrix.md.
+
+---
+## Session: 2026-07-14 → 07-17 — 20260714_gaaia_orientation (line start)
+
+### Topics Explored
+- Full-bill walkthrough with Dan of the Obernolte-Trahan GAAIA discussion draft, section by section across all four titles.
+- Coup-mitigation mapping (Dan's Forethought tie-in) — where §§ 111–113 covers mitigations vs. gaps (bloodless-coup harm gate, federal carve-out, secret loyalties).
+
+### Provisional Findings
+- Verdict logged: best-drafted federal AI bill to date; visibility-genre not control (no deployment gate anywhere; IVO failure ⇒ forbearance, not freeze).
+- **No severability clause** — inseverability ask linking §§ 111/112/121 (litigation can decouple the trade; NetChoice playbook ⇒ naked preemption).
+- **Open-weight remedial failure** — § 111(c) "before or concurrent" = zero lead time; penalties curable post-hoc; injunctions can't reach mirrored weights ⇒ "HSR for weights" notice ask, open 30d / floor ~14d, tripwire + queue-visibility framing.
+- **Audited==deployed provenance gap** — § 112 never cryptographically identifies its artifact ⇒ content-addressed derivation DAG w/ hashed intermediates + environment, deterministic pipelines REQUIRED per He 2025 (Dan's correction of Claude's nondeterminism caveat); attestation as § 111(d) liability hook only. Ties to canaryinstitute.ai/blog/reversibility-of-coma/.
+- § 111 enforcement corrected mid-session against the parallel YOLO session's summaries — opted-in state AGs CAN sue, § 111(i)(3).
+- Political state (searched 07-17): House Science reported 10 AI bills 6/25 incl. H.R. 9363 ($20M *measurement* CAISI vs GAAIA's $100M *regulatory* CAISI — salami-slicing risk; suspension calendar likely ⇒ staff channel now, no formal deadline exists); GAAIA inbox open, no deadline; CISA-2015 sunset 2026-09-30 is the vehicle engine.
+
+### Results
+- `bills/obernolte-trahan/OVERVIEW.md` (descriptive; § 111 enforcement corrected)
+- `NOTES.md` (tiered comment-window list: 11 drafting bugs / 11 cheap asks / 9 substantive asks / framing — evolved across the session)
+- `notes/20260714_coup_mitigation_mapping.md` (Dan's Forethought tie-in)
+
+### Next Steps
+- Whom to contact — contact matrix + sequenced outreach, asks mapped to vehicles and named offices (executed in 07-17 contact-matrix session).
+
+Convo: `convos/20260714_gaaia_orientation.md`. Also cited in top-level `STATUS.md`.

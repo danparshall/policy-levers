@@ -1,3 +1,4 @@
+<!-- Generated during: convos/20260717_gaaia_contact_matrix.md -->
 # GAAIA contact matrix — sponsor offices + House Science sweep
 
 - Date: 2026-07-17

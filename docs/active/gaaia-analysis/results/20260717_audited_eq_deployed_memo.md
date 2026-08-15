@@ -1,3 +1,4 @@
+<!-- Generated during: convos/20260717_gaaia_contact_matrix.md -->
 # Memo: audited == deployed — close read of GAAIA §§111–112
 
 - Date: 2026-07-17 (evening session)

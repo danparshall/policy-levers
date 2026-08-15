@@ -1,3 +1,4 @@
+<!-- Generated during: convos/20260731_hackathon_brainstorm.md -->
 # SlopChecker: Prior-Art & Landscape Report for Funder-Side Submission Screening
 
 **Date:** 2026-07-31
