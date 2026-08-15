@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.danparshall.policy-levers-watcher</string>
+
+    <!-- Run the legislative watcher directly via uv. WorkingDirectory puts
+         us in the repo root so run.py finds .env.local, config/, and writes
+         digests/ + data/watcher-state/ in the right place. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/uv</string>
+        <string>run</string>
+        <string>watcher</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/dan/code/policy-levers</string>
+
+    <!-- Daily at 7:03am local. Off-minute per house convention (see
+         dotfiles-export plist) so we don't pile onto :00. launchd fires
+         missed intervals on wake if the machine was asleep at 7:03. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>3</integer>
+    </dict>
+
+    <!-- Calendar schedule only; no kick on login. -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- data/ is git-ignored; launchd appends. -->
+    <key>StandardOutPath</key>
+    <string>/Users/dan/code/policy-levers/data/watcher-cron.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/dan/code/policy-levers/data/watcher-cron.log</string>
+</dict>
+</plist>

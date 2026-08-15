@@ -49,6 +49,27 @@ in `./data/watcher-state/state.json` (also git-ignored). Per-source failure
 counts accumulate across runs; three consecutive failures pin a "STALE SOURCE"
 warning to the top of the digest.
 
+## Scheduling (launchd)
+
+A launchd job runs the watcher daily at 7:03am local on Dan's MacBook Air
+(installed 2026-08-15). launchd is used instead of cron so runs missed while
+the laptop is asleep fire on wake. The plist is committed at
+`launchd/com.danparshall.policy-levers-watcher.plist`; it is NOT auto-installed
+by dotfiles (deliberate — one machine runs it; duplicating across machines
+would fork state). To install on a machine:
+
+```
+ln -sf "$PWD/launchd/com.danparshall.policy-levers-watcher.plist" \
+  ~/Library/LaunchAgents/com.danparshall.policy-levers-watcher.plist
+launchctl bootstrap "gui/$(id -u)" \
+  ~/Library/LaunchAgents/com.danparshall.policy-levers-watcher.plist
+```
+
+Run log: `data/watcher-cron.log` (git-ignored). Manual trigger:
+`launchctl kickstart "gui/$(id -u)/com.danparshall.policy-levers-watcher"`.
+Uninstall: `launchctl bootout "gui/$(id -u)/com.danparshall.policy-levers-watcher"`,
+then remove the symlink.
+
 ## Digest layout
 
 Sections in order (empty ones omitted):
