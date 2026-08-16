@@ -1,5 +1,31 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-08-16 — covert_adversaries_treaty_verification
+### Topics Explored
+- Aumann–Lindell 2010 *Security Against Covert Adversaries* (J. Cryptol. 23:281–343) — paper landed at repo root; parallel `add-paper` agent handled integration (rename, extract, index, summarize); this session did analytical work only.
+- Whether either author currently publishes on AI verification / treaty topics.
+- Structure and definitional variants of the covert-adversary security model.
+- Simulator-vs-adversary distinction in the ideal/real simulation paradigm (Dan asked directly).
+- Mapping the covert-adversary framework onto AI-treaty verification and what "the simulator cheating" means operationally.
+
+### Provisional Findings
+- **Neither Lindell nor Yonatan Aumann currently publishes on AI treaty verification.** Lindell (Coinbase Chief Cryptographer) is in pure MPC / VRF / VSS work. Yonatan Aumann (Bar-Ilan Multi-Agent AI Group) works on mechanism design, coalition games, LLMs instructing multi-agent systems — thematically adjacent, not on treaties by name.
+- **Yonatan Aumann is Robert Aumann's son.** Different person; the Aumann Agreement Theorem belongs to Robert. Worth flagging for citation hygiene.
+- **The covert-adversary framing is being re-derived, uncredited, in the current AI-verification-of-treaties literature** — MIRI's Nov 2024 mechanisms paper, Baker et al. six-layers, Scher et al. verification methods, hardware-governance taxonomy. All frame the threat model as "state actor willing to spend billions to cheat but sensitive to being caught" — which is Aumann–Lindell's ε-deterrent covert adversary. None cite the 2010 paper. **Citation gap worth flagging.**
+- **Definitional insight transfers cleanly; ideal/real machinery strains.** The "cheating detected with probability ≥ ε" frame + strong-explicit-cheat's "detection interrupts payoff" (Aumann–Lindell's *"less deterrence to not rob a bank if when you are caught you are allowed to keep the stolen money"*) map directly to escrow/kill-switch/forfeit treaty regimes. But F_treaty (ideal functionality) isn't well-specified in compute-trace terms; there are no "honest inputs" (treaty verification is unilateral observation, not joint computation); "cheating = not simulatable" needs relaxation for heterogeneous attestation + inspection + audit + intel stacks. Formalization gap → *paper-shaped*, not just brief-shaped.
+- **Reframe worth pushing on policymakers:** *"confirm they aren't training X"* is impossible; *"make undetected training expected-loss-negative"* is the frame that admits mathematical shape. IAEA doesn't prove nobody's enriching — they make undetected enrichment probabilistically expensive. Covert-adversary framework is the vocabulary for making that shift precise.
+
+### Results
+None saved to `results/` — outputs are analytical text in the convo doc + the parallel agent's `PAPER_SUMMARIES.md` entry.
+
+### Next Steps
+- Dan handing off to a web agent to walk through the paper in detail — convo doc + PAPER_SUMMARIES entry are the context anchors.
+- Consider: reach out to Yonatan Aumann? Multi-agent + mechanism-design + family game-theory pedigree = plausible collaborator on the formalization gap. Lindell is Coinbase-locked, lower leverage.
+- If the citation-gap observation becomes public writeup material, save at `results/YYYYMMDD_covert_adversary_treaty_citation_gap.md`.
+
+See convo: `convos/20260816_covert_adversaries_treaty_verification.md`
+
+
 ## Session: 2026-08-12 — ai_open_letters_inventory
 ### Topics Explored
 - Which AI open letters exist beyond CAIS Global Statement + wemustactnow.ai + aitreaty.org (Dan's starting set); how many total; whether signatory documentation would be valuable for policymaker outreach

@@ -1,6 +1,6 @@
 # STATUS — policy_levers
 
-Last updated: 2026-08-11
+Last updated: 2026-08-16
 
 ## Current Focus
 
@@ -24,6 +24,8 @@ Lines currently in flight; see `docs/active/<topic>/` for material.
 | academic-recruitment | 2026-08-02 | Map how AI Policy funders recruit (or fail to recruit) established adjacent-field academics (cryptographers, economists), using the Vannevar Bush / OSRD playbook as the pitch frame. |
 
 ## Recent Sessions
+
+- **2026-08-16 (main: covert_adversaries_treaty_verification)** — Aumann–Lindell 2010 *Security Against Covert Adversaries* dropped at repo root; parallel `add-paper` agent handled integration (paper now `papers/AumannY_LindellY__2007--security_against_covert_adversaries.pdf`, text extracted, in `PAPER_INDEX.md` and `PAPER_SUMMARIES.md`). This session's contribution: analytical only. Confirmed neither Yehuda Lindell (Coinbase, pure crypto) nor Yonatan Aumann (Bar-Ilan Multi-Agent AI Group — Robert Aumann's son, distinct from the Nobelist) currently publishes on AI treaty verification. **Central finding: the covert-adversary framework is being re-derived, uncredited, in the current AI-verification-of-treaties literature** (MIRI Nov 2024, Baker et al. six-layers arxiv 2507.15916, Scher et al. 2408.16074, hardware-governance 2604.04712 — all frame the threat model as ε-deterrent covert adversary without citing Aumann–Lindell). Definitional insight (ε-deterrent + "detection interrupts payoff" from strong-explicit-cheat variant) transfers cleanly to escrow/kill-switch treaty regimes; ideal/real simulation machinery strains (F_treaty underspecified, no "honest inputs" in unilateral-observation setting, protocol is heterogeneous attestation+inspection+audit stack not single crypto protocol) — paper-shaped formalization gap. Reframe worth pushing: "*confirm they aren't training X*" is impossible, "*make undetected training expected-loss-negative*" admits mathematical shape (IAEA analogy). Handoff: Dan running a web agent through the paper in detail; convo doc + PAPER_SUMMARIES entry are context anchors. Convo: `docs/active/main/convos/20260816_covert_adversaries_treaty_verification.md`.
 
 - **2026-08-11 (late finish-convo: 7/22 hf_openai_incident_note session)** — Sandbox reset before wrap on 7/22; convo doc written now (`docs/active/gaaia-analysis/convos/20260722_hf_openai_incident_note.md`). Recovers one never-logged finding: OpenAI's 7/20 long-horizon (Erdős-model) pause→monitor→redeploy-before-disclosure lifecycle — flagged as a second developer-holds-the-scale exhibit for the FRONTIER comment letter.
 
