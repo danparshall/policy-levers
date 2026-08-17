@@ -51,3 +51,9 @@ essays/mats_chang/*/rendered/
 
 # Project instructions (local only)
 _PROJECT_INSTRUCTIONS.md
+
+# Git worktrees (nested per using-git-worktrees skill)
+.worktrees/
+
+# Notification state (tracks which digests have been emailed — see src/watcher/notify.py)
+data/watcher-notified.json
