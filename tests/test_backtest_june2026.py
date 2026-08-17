@@ -64,6 +64,7 @@ def june_sources():
 
 
 def run_june(tmp_path, keywords):
+    """Backtest helper: run_watcher returns a RunResult; existing tests want the Path."""
     return run_watcher(
         sources=june_sources(),
         state_path=tmp_path / "state" / "state.json",
@@ -71,7 +72,7 @@ def run_june(tmp_path, keywords):
         keywords=keywords,
         today=TODAY,
         include_backlog_days=30,
-    )
+    ).digest_path
 
 
 def test_backtest_a_gaaia_surfaced_from_press_layer(tmp_path, keywords):
@@ -112,6 +113,6 @@ def test_backtest_next_day_run_is_quiet(tmp_path, keywords):
         keywords=keywords,
         today="2026-06-24",
         include_backlog_days=30,
-    )
+    ).digest_path
     assert second.name == "20260624.md"
     assert "Great American AI Act" not in second.read_text()

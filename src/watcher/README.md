@@ -12,9 +12,10 @@ we weren't watching. This tool closes both holes: an API poller for introduced
 bills, a `docs.house.gov` meeting feed for markups, and a press-page HTML-diff
 layer for the drafts that never make it to the API.
 
-**What it doesn't do** — no LLM triage, no email delivery, no cron scheduling.
-Every knob is a YAML edit; every run is a single command. Extend before
-generalizing.
+**What it doesn't do** — no LLM triage, no cron scheduling. Email delivery is
+opt-in (see "Email notifications" below); if you don't configure SMTP the
+watcher stops at writing `digests/YYYYMMDD.md`. Every knob is a YAML edit or
+env var; every run is a single command. Extend before generalizing.
 
 ## Setup
 
@@ -69,6 +70,39 @@ Run log: `data/watcher-cron.log` (git-ignored). Manual trigger:
 `launchctl kickstart "gui/$(id -u)/com.danparshall.policy-levers-watcher"`.
 Uninstall: `launchctl bootout "gui/$(id -u)/com.danparshall.policy-levers-watcher"`,
 then remove the symlink.
+
+## Email notifications
+
+Since a launchd-driven watcher writes files silently, an opt-in email push
+surfaces substantive digests. Configure five env vars in `.env.local` at the
+main-worktree root:
+
+```
+WATCHER_SMTP_HOST=smtp.gmail.com
+WATCHER_SMTP_PORT=587
+WATCHER_SMTP_USERNAME=you@gmail.com
+WATCHER_SMTP_PASSWORD=<16-char Gmail app password>
+WATCHER_NOTIFY_FROM=you@gmail.com
+WATCHER_NOTIFY_TO=you@gmail.com
+# Optional:
+# WATCHER_NOTIFY_SUBJECT_PREFIX=[leg-watcher]
+```
+
+For Gmail, generate an **app password** at
+<https://myaccount.google.com/apppasswords> (requires 2FA). Do NOT use your
+account password. If any of the five required vars is missing, notifications
+are silently disabled — the CLI logs `notify: skipped:no-config` and the
+digest still gets written.
+
+**When emails fire.** Only when the digest has at least one pinned/scored
+item or a source-health warning — empty recess-week runs never mail. Same
+day + same content = no duplicate email (idempotency keyed on
+`(digest_filename, sha256(digest_text))`, tracked in
+`data/watcher-notified.json`). A same-day re-run that *appends* new items
+(the "Later run" case) sends again with the full updated digest.
+
+Flags: `--no-notify` skips the email step regardless of env config (use for
+smoke runs); `--notified-state-path` overrides the bookkeeping-file location.
 
 ## Digest layout
 

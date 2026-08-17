@@ -13,7 +13,7 @@ adapter parse function with a fetch helper.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, NamedTuple
 
 from watcher.digest import render, write_digest
 from watcher.models import SourceError
@@ -22,6 +22,19 @@ from watcher.state import State
 
 if TYPE_CHECKING:
     from watcher.config import Keywords
+
+
+class RunResult(NamedTuple):
+    """Return value from run_watcher.
+
+    `has_new_content` tells downstream steps (notify) whether the digest write
+    surfaced anything actionable this run — True iff pinned, scored, or health
+    warnings were present. False = the digest is either brand-new-empty or
+    unchanged since the last write.
+    """
+
+    digest_path: Path
+    has_new_content: bool
 
 
 def _digest_filename(today: str) -> str:
@@ -36,7 +49,7 @@ def run_watcher(
     keywords: Keywords,
     today: str,
     include_backlog_days: int = 30,
-) -> Path:
+) -> RunResult:
     state = State.load(state_path)
 
     good_fetches: list[tuple[object, list]] = []
@@ -86,7 +99,7 @@ def run_watcher(
         state.record_success(source.id, items)
     state.save(state_path)
 
-    return digest_path
+    return RunResult(digest_path=digest_path, has_new_content=has_new_content)
 
 
 def main() -> None:  # pragma: no cover — thin CLI over run_watcher
@@ -140,6 +153,18 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         help="Where to write daily digest files (default: ./digests).",
     )
     parser.add_argument(
+        "--notified-state-path",
+        type=Path,
+        default=Path("data/watcher-notified.json"),
+        help="Notification bookkeeping (which digests we've emailed) "
+        "(default: ./data/watcher-notified.json).",
+    )
+    parser.add_argument(
+        "--no-notify",
+        action="store_true",
+        help="Skip the email step even if SMTP env vars are set. Useful for smoke runs.",
+    )
+    parser.add_argument(
         "--today",
         type=str,
         default=None,
@@ -177,7 +202,7 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         backlog_days=args.include_backlog,
     )
 
-    digest_path = run_watcher(
+    result = run_watcher(
         sources=sources,
         state_path=args.state_path,
         digest_dir=args.digest_dir,
@@ -185,4 +210,25 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         today=today,
         include_backlog_days=args.include_backlog,
     )
-    print(f"wrote {digest_path}")
+    print(f"wrote {result.digest_path}")
+
+    from watcher.notify import maybe_notify, smtp_sender_from_env
+
+    sender = None if args.no_notify else smtp_sender_from_env()
+    try:
+        status = maybe_notify(
+            digest_path=result.digest_path,
+            has_new_content=result.has_new_content,
+            notified_state_path=args.notified_state_path,
+            sender=sender,
+        )
+    except Exception as exc:  # noqa: BLE001 — never let SMTP failures kill the cron run
+        # A dead relay or auth glitch must not lose today's digest work. Log to
+        # the cron log via stderr; STATE was already saved (line above), so the
+        # next run will re-attempt notification with the same content-hash key
+        # (idempotency still protects duplicates).
+        import sys
+
+        print(f"notify: FAILED ({type(exc).__name__}: {exc})", file=sys.stderr)
+    else:
+        print(f"notify: {status}")

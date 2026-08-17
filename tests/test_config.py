@@ -1,6 +1,7 @@
 """Config loading behavior: sources.yaml and keywords.yaml (plan Phase 1)."""
 
 import pytest
+
 from watcher.config import load_keywords, load_sources
 
 SOURCES_YAML = """\

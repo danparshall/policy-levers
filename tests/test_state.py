@@ -1,9 +1,8 @@
 """State store behavior: novelty filtering, baseline runs, failure counting,
 explicit persistence (plan Phase 2)."""
 
-from watcher.state import State
-
 from tests.conftest import make_item
+from watcher.state import State
 
 
 def items(*uids, date="2026-08-01"):

@@ -8,6 +8,7 @@ before any implementation exists (RED phase).
 from pathlib import Path
 
 import pytest
+
 from watcher.models import Item
 
 FIXTURES = Path(__file__).parent / "fixtures"
