@@ -37,6 +37,7 @@ def good_source(source_id="good", uid="g1", date="2026-08-03"):
 
 
 def run(sources, tmp_path, keywords, today="2026-08-04", **kw):
+    """Test helper: run_watcher returns a RunResult; existing tests want the Path."""
     return run_watcher(
         sources=sources,
         state_path=tmp_path / "state" / "state.json",
@@ -44,7 +45,7 @@ def run(sources, tmp_path, keywords, today="2026-08-04", **kw):
         keywords=keywords,
         today=today,
         include_backlog_days=kw.pop("include_backlog_days", 30),
-    )
+    ).digest_path
 
 
 def test_happy_path_writes_digest_with_items(tmp_path, keywords):
