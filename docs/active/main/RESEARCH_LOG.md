@@ -1,5 +1,33 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-08-17 — watcher_notify
+### Topics Explored
+- Health check on the 2026-08-15/16/17 leg-watcher digests (18 sources, `consecutive_failures=0` across the board, 215 UIDs seen in the API poller; only 8/15 surfaced any items — the 8/17 pro forma notice, exactly what senate-daily-schedule was enabled for; 8/16 and 8/17 both empty).
+- Whether launchd → digest-file has any push component (it doesn't — tool is fundamentally pull-shaped for a use case that's push-shaped).
+- Notification transport tradeoffs (macOS Notification Center vs `open`-file vs email vs Slack vs GH Issue vs private-branch commit); Gmail SMTP won on reach × complexity × phone-accessibility.
+- Idempotency key design given `write_digest`'s "Later run" mid-day append behaviour (content-hash keyed on `(digest_filename, sha256(text))` beats date-only).
+
+### Provisional Findings
+- **Watcher is healthy but silent.** All 18 sources fetching cleanly, digests landing on disk; no signal path to Dan. Fixed in-session.
+- **Recess-week emptiness is real, not broken.** 8/15 correctly caught the 8/17 pro forma 2 days ahead. Real content signal defers to ~Sep 2 when Congress returns.
+- **Content-hash idempotency handles both cases correctly**: identical re-run = skip, appended new items via "Later run" = re-send with the full updated digest.
+- **Multi-machine problem persists.** launchd only on the Air; if the Air is closed no digest for that day. Deferred — notification path is orthogonal.
+
+### Results
+- **PR #12** — <https://github.com/danparshall/policy-levers/pull/12> — merged as `28b23ab` with `71c8699` underneath.
+- **New**: `src/watcher/notify.py` (166 LoC), `tests/test_notify.py` (12 tests). Total 108/108 green (was 96), ruff clean.
+- **CLI**: `--no-notify`, `--notified-state-path`; new "Email notifications" section in `src/watcher/README.md`.
+- **Follow-up**: `0a6db9c` chore(gitignore) — `.worktrees/` + `data/watcher-notified.json`.
+
+### Next Steps
+- Dan generates a Gmail app password (<https://myaccount.google.com/apppasswords>) and adds five `WATCHER_SMTP_*` / `WATCHER_NOTIFY_*` vars to `.env.local` to activate.
+- Real send smoke: `uv run watcher --include-backlog 30 --sources rep-trahan-press` → verify email arrives → re-run → verify `notify: skipped:same-hash`.
+- Snooze issue #7 (keyword retune, fires 2026-08-18) to ~2026-09-09 since we don't have a real week of digest signal yet.
+- Close/snooze fired reminder #5 (FRONTIER outreach).
+
+See convo: `convos/20260817_watcher_notify.md`
+
+
 ## Session: 2026-08-16 — covert_adversaries_treaty_verification
 ### Topics Explored
 - Aumann–Lindell 2010 *Security Against Covert Adversaries* (J. Cryptol. 23:281–343) — paper landed at repo root; parallel `add-paper` agent handled integration (rename, extract, index, summarize); this session did analytical work only.
