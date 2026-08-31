@@ -40,7 +40,7 @@ The LLM-tics research (subagent web sweep; anchors: WP:AITELLS and Kobak et al. 
 
 ## Addendum 2026-07-17 — canary-drafts import
 
-All four pieces copied into `danparshall/canary-drafts` (commit `020fc81`, pushed): `drafts/mad-about-ai.md`, `drafts/patients-property-power.md`, `crossposts/patients-property-power.lw.md` (renamed per that repo's `<slug>.lw.md` convention), `docs/reference/llm-writing-tics.md`.  Each copy's header records source `policy-levers @ 95e33a9`; canary-drafts STATUS notes the copies are now the working versions for publication, policy-levers keeps the originals.
+All four pieces copied into `danparshall/site-canary-institute-drafts` (commit `020fc81`, pushed): `drafts/mad-about-ai.md`, `drafts/patients-property-power.md`, `crossposts/patients-property-power.lw.md` (renamed per that repo's `<slug>.lw.md` convention), `docs/reference/llm-writing-tics.md`.  Each copy's header records source `policy-levers @ 95e33a9`; canary-drafts STATUS notes the copies are now the working versions for publication, policy-levers keeps the originals.
 
 PROCESS ERROR logged: canary-drafts was already cloned on this machine, but at a path other than `~/code/canary-drafts`; I checked only that path, concluded "not cloned," and made a fresh clone there.  The duplicate clone was removed after verifying clean/pushed state (Dan is having another agent reconcile; the existing clone only needs `git pull` to pick up `020fc81`).  Lesson: absence at the conventional path is not absence on the machine — search (`find`/`locate`, or ask) before cloning a repo Dan plausibly already has.
 

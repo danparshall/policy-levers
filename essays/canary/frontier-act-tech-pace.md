@@ -1,5 +1,5 @@
 > **STALE — superseded.** Published version is `drafts/frontier-act-tech-pace.md` in
-> `danparshall/canary-drafts` (final cleanup edits were made there), live at
+> `danparshall/site-canary-institute-drafts` (final cleanup edits were made there), live at
 > https://canaryinstitute.ai/blog/frontier-act-tech-pace as of 2026-07-24.
 > This copy is retained as drafting history only. Do not cite or edit.
 
