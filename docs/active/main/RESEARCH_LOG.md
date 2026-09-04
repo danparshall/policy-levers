@@ -94,20 +94,24 @@ See convo: `convos/20260812_ai_open_letters_inventory.md`
 - Project slate for FAI+IFP "Hacking the Think Tank" hackathon (today): 3 Opus ideas + 4 Fable ideas evaluated
 - Reframe: event is about AI moving *think tanks*, not AI policy; goal is employment networking, project is pretext
 - pat-helper recognized as the generic engine (~70% of claim-audit AND bill-lint)
+- Team-formation pitch deck build (afternoon, this repo): stand-up format, 4 slides, dark theme, "sensors before engines" hook
+- At-event pivot: joined SlopChecker team instead of pitching verification stack; Deep Research prior-art contribution
 
 ### Provisional Findings
-- Winning pitch: "verification stack for the AI-era think tank" — bill pipeline + claim-audit + Kent-o-meter on the pat-helper spine
+- Winning pitch (morning): "verification stack for the AI-era think tank" — bill pipeline + semantic bill diff + claim-audit + Kent-o-meter on the pat-helper spine
 - Kent/Zonination calibration idea is demoable as a *language* tool (Opus dismissed the longitudinal version; the estimative-phrase mapper is a few hours)
 - Synthetic-comment detection cut (ground-truth problem)
 - Claim-audit demo must not target third-party think-tank products in that room (networking landmine); use AI-generated memo + Dan's own Canary post
+- **Outcome:** Deck was not used at the event. Dan pivoted to the SlopChecker team; Deep Research Run 1 targeted the reconstructed verification-stack feature list (agent couldn't open the SlopChecker team doc), Run 2 used the actual doc contents and produced the delivered artifact.
 
 ### Results
-- Full pitch structure in convo file (written for downstream slide-generating agent)
+- Full pitch structure in convo file (verification stack, four modules, engine, cut list)
+- `results/20260731_team_formation_deck.md` — marker for the stand-up pitch deck at `hackathon/team-formation-pitch.html` (built morning, unused post-pivot)
 - `results/20260731_slopchecker_prior_art.md` — deep-research prior-art / landscape report for funder-side submission screening (Run 2, using actual team-doc contents; Run 1 targeted the wrong feature list)
 
 ### Next Steps
-- Dan: create public hackathon repo + write PAT (or tarball mode); confirm pat-helper-extract + hosts-in-corpus defaults; laptop keys
-- Fable: bill fetches, corpus, sanitized scaffold, README-as-pitch, zip export
+- Original "blocking" items (hackathon repo + PAT, pat-helper extraction defaults, Fable's bill fetches / corpus / scaffold / zip export) are moot under the pivot.
+- Task #6 opened: write up staffer-routing methodology as standalone shareable repo (gift to Jackson).
 
 See convo: `convos/20260731_hackathon_brainstorm.md`
 

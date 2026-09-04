@@ -44,6 +44,31 @@ Evaluated 7 candidate projects (3 from Opus, 4 from Fable). Key unlock: `pat-hel
 - Confirm the two defaults above.
 - Team formation: which modules get handed to recruited technologists.
 
+---
+
+## Session addendum: team-formation deck build (morning, pre-event)
+
+**Machine:** Dans-MacBook-Air
+
+Built the team-formation stand-up pitch deck at `hackathon/team-formation-pitch.html` (untracked at the time, committed 2026-09-04). Format decisions locked before writing:
+
+- **Deck target:** team-formation pitch (not end-of-day demo) — recruit 2–3 collaborators; employment-networking is the real product per morning brainstorm.
+- **Format:** stand-up pitch to whole room, ~60–90s, projected, 4 slides, high-contrast dark theme with green accents (fits "physicist walks into DC and demands error bars" tone).
+- **Hook:** "sensors before engines" (echoes organizers' self-driving triptych; ties to the umbrella pitch).
+- **Slide structure:**
+  1. Cover — big title, tagline, event kicker.
+  2. Four modules, one engine — 2×2 grid (Bill pipeline / Semantic bill diff / Claim-audit / Kent-o-meter) + engine badge (pat-helper, arXiv 2606.28277).
+  3. The receipt — "7 drafting bugs found solo, with AI in the loop, in two weeks" + 4 sample bugs (§ 131 fine inversion, § 4(h)(2) 24-hr routing survivor, § 421 stale EO 14110, § 253(f)(2) cross-ref) + punchline callout: *"I'm not speculating about the AI-native think tank. I operate one."*
+  4. Come find me — 3 role slots (Ingestion & retrieval / Frontend & viz / Domain reviewer, "nontechnical welcome" hedge) + dashed-border contact block. "Created with Nori Agentic" small-tag bottom-left per creating-slides skill.
+
+Design calls made without asking (recorded here for future context): punchline placed on slide 3 tied to the receipt (not slide 4); CTA is 3 specific role buckets, not open enthusiasm; FRONTIER samples pick funniest/most concrete 4 of the 7 bugs with fine inversion first for the laugh; "Domain reviewer — nontechnical welcome" hedges against a policy-heavy room.
+
+## Outcome (post-event)
+
+Deck was **not used**. At the event Dan pivoted from pitching the verification stack to joining the **SlopChecker** team (funder-side submission screening; part of the IFP internal tool set). Same day, Dan contributed a Deep Research prior-art report for that team's actual feature list — see `results/20260731_slopchecker_prior_art.md` (commit `2b26378`, 14:09 UTC). Deep Research Run 1 targeted the verification-stack list reconstructed from the morning brainstorm because the agent couldn't open the SlopChecker team doc; Run 2 used the actual doc contents.
+
+Deck preserved for design reference — dark-theme structure and stand-up 4-slide module-grid layout carry over to any future policy-tools pitch. Original "blocking" items in the Open Questions section (hackathon repo + PAT, pat-helper extraction defaults) are moot under the pivot.
+
 ## Tasks created
 
 - [#6 Write up staffer-routing methodology; publish as standalone shareable repo](https://github.com/danparshall/policy-levers/issues/6) — for local agent; gift to Jackson (pitch-to-lawmaker matching). Open-ended, no date prefix.
