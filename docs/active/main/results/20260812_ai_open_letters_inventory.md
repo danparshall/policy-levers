@@ -1,11 +1,12 @@
 <!-- Generated during: convos/20260812_ai_open_letters_inventory.md -->
+<!-- Updated 2026-09-06 during: convos/20260906_open_letters_addendum.md — three new entries (Pacing the Frontier, Open Weights letter, Cyber Defense letter), plus timeline + super-signer updates -->
 
-# AI Open Letters, Statements & Declarations Inventory (2023–July 2026): A Tracker for Policymaker Outreach
+# AI Open Letters, Statements & Declarations Inventory (2023–September 2026): A Tracker for Policymaker Outreach
 
-Scan run 2026-08-12 in response to Dan's question of which AI-related open letters/statements/petitions exist beyond the Global Statement on AI Risk, wemustactnow.ai, and aitreaty.org, and whether documenting them for policymakers would be valuable.
+Scan run 2026-08-12 in response to Dan's question of which AI-related open letters/statements/petitions exist beyond the Global Statement on AI Risk, wemustactnow.ai, and aitreaty.org, and whether documenting them for policymakers would be valuable. Extended 2026-09-06 with three summer-2026 additions Dan flagged as missing (Pacing the Frontier especially).
 
 ## TL;DR
-- Since GPT-4's March 2023 release, at least 30 distinct AI-related open letters/statements/petitions have emerged, clustering into five waves and nine categories (x-risk, governance, ethics/faith, labor, copyright, open-source, military, child safety, direct action); the two most consequential by reach are the FLI "Pause" letter (~30,000+ signatories, March 2023) and the FLI "Statement on Superintelligence" (October 2025, 700+ high-profile signers, 32,214 total signatories by late October 2025).
+- Since GPT-4's March 2023 release, at least **33 distinct** AI-related open letters/statements/petitions have emerged, clustering into five waves and nine categories (x-risk, governance, ethics/faith, labor, copyright, open-source, military, child safety, direct action, cybersecurity); the three most consequential by reach are the FLI "Pause" letter (~30,000+ signatories, March 2023), the FLI "Statement on Superintelligence" (October 2025, 700+ high-profile signers, 32,214 total by late October 2025), and — added in the summer 2026 wave — **"Pacing the Frontier"** (July 28, 2026; 1,178 → 1,324 employees of OpenAI/Anthropic/Google/Meta including Dario Amodei personally, with Anthropic AND OpenAI both endorsing as companies — the first time two directly-competing frontier labs corporately backed the same governance ask).
 - A small set of "super-signers" — above all Yoshua Bengio, Geoffrey Hinton, Stuart Russell, Max Tegmark, and Steve Wozniak — appear across nearly every x-risk/governance letter; the same names sometimes appear on letters with contradictory operational implications (most notably Elon Musk, who signed the 2023 Pause letter while incorporating xAI on March 9, 2023).
 - The best existing curated resources are AI Lab Watch's open-letters list, FLI's own open-letters page, and Georgetown ETO's AGORA governance database — but none is a comprehensive, signatory-level tracker across ALL categories, which is the gap this inventory fills.
 
@@ -75,6 +76,18 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 **8. The Elders + FLI joint letter (long-term risks)**
 - Date: February 14, 2024. Sponsors: The Elders and FLI.
 - Ask: Decision-makers to address climate crisis, pandemics, nuclear weapons, and "ungoverned AI." Signatories: 2,672 (per FLI). Category: governance / multi-risk. URL: futureoflife.org.
+
+**8b. Pacing the Frontier** ⭐ *added 2026-09-06*
+- Date: July 28, 2026. Sponsors: Guidelight AI Standards + Encode AI (organizers); coalition of frontier-lab employees.
+- Ask (full text): The U.S. government "support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development." Explicitly NOT a call to pause now — a call to build the infrastructure that would allow pacing later if recursive self-improvement compounds beyond oversight capacity.
+- Signatories: 1,178 at launch (July 28); 1,324 as of early August 2026 (Simon Willison, Aug 2, 2026). Current/former employees of OpenAI, Anthropic, Google, Meta.
+- Notable: **Dario Amodei (CEO, Anthropic)**, Jared Kaplan and Jack Clark (Anthropic co-founders), **Jakub Pachocki (Chief Scientist, OpenAI)**, Mark Chen (Chief Research Officer, OpenAI), **Ilya Sutskever (Safe Superintelligence Inc., formerly OpenAI)**, **Shengjia Zhao (Chief Scientist, Meta)**, **Anca Dragan (Head of AI Safety, Google)**, Leo Gao (OpenAI safety researcher). **Sam Altman notably did NOT sign personally** (though OpenAI as a company endorsed the letter same-day; per NBC News).
+- Company-level endorsements: **Anthropic and OpenAI both endorsed on the same day** (July 28) — the first time two directly-competing frontier labs corporately backed the same governance ask. Anthropic's statement (Jack Clark repost): "broad agreement across the field on the need for technical and governance tools to pace the frontier… including the ability to slow it, so society can prepare." OpenAI told CNN it agrees with "potentially pacing the development of AI" and "hope[s] to contribute to work led by the U.S. government, alongside other labs."
+- Category: x-risk / governance / developer. URL: pacingthefrontier.com
+- Political context: Bloomberg first reported the letter was circulating; Rep. Ted Lieu tied it to a proposed AI kill-switch bill introduced July 23, 2026 (day before the Open Weights letter, three days before the Anthropic/OpenAI Pacing endorsements). Demis Hassabis separately called for a pre-launch review body (Business Insider).
+- Coverage: Bloomberg, CNN, NBC News, TechCrunch, CBS. Meta CEO Mark Zuckerberg published a same-week WSJ essay taking the opposite instinct on model access — while Meta's chief scientist Shengjia Zhao signed Pacing as an individual (internal split).
+- Update (August 16, 2026): Dario Amodei clarified on X (in exchange with investor Gavin Baker) that in Anthropic's preferred implementation, Pacing envisions "modulating the pace of the very best models while not constraining those who are catching up" — a scoping choice Baker argued hurts frontier labs and helps challengers/open-weights competitors.
+- Impact: Highest-insider-density AI letter to date. The names — three chief scientists at competing labs, one CEO, one former CSO now at SSI — are the story. Simon Willison's read (Aug 2, 2026): the letter tracks with concrete RSI signals — Anthropic producing 80% of code with Claude Code, OpenAI's Sol reducing serving costs 20%, Kimi K3 designing a chip for its own nano-model architecture. Full signatory list public/scrapeable.
 
 ### Category B — Governance / Regulation (US and EU)
 
@@ -174,6 +187,18 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 **26. Meta and civil-society openness statements**
 - Meta "Statement of Support for Meta's Open Approach" (July 2023); "Openness and Transparency in AI Provide Significant Benefits for Society" (CDT-hosted civil-society letter, March 25, 2024, for the NTIA open-weights process). Category: open-source.
 
+**26b. Open Weights and American AI Leadership** ⭐ *added 2026-09-06*
+- Date: July 24, 2026. Sponsor: NVIDIA (Jensen Huang's first-ever X post published it; three-page PDF on nvidia.com; live signatory list mirrored on Microsoft's corporate site).
+- Ask: U.S. policymakers should avoid "premature restrictions" on downloadable open-weight AI models; expand compute access for startups and researchers; fund shared training assets (datasets, tools, evaluation frameworks); recognize distillation as a legitimate development technique. Frames open weights as strategic infrastructure for American AI leadership.
+- Signatories: **25 at launch (July 24) → 50 within 24 hours → ~150 by July 28 → 235 by July 31 → 270+ by August 3**. One of the fastest-growing AI open letters ever tracked.
+- Launch-day signers (25): NVIDIA, Microsoft, Meta, IBM, Dell, Palantir, Hugging Face, Mistral, Mozilla, Perplexity, Andreessen Horowitz, The Linux Foundation, Y Combinator, CrowdStrike, Box, Emergence Capital, Black Forest Labs, Arcee AI, Arena, American Innovators Network, Mariana Minerals, and others. **OpenAI, Google, Anthropic, xAI, Amazon all absent at launch.**
+- Added within 24 hours: OpenAI, Google, AMD, Cisco, Cloudflare, GitHub, Block, Ollama.
+- Added later: Cohere, DoorDash, Fireworks AI, Palo Alto Networks, Nous Research, Prime Intellect, LangChain, LM Studio, Modal, Sakana AI, Scale, SpaceX, Vercel, Unsloth, WordPress, and many more.
+- **Never signed** (through Aug 3): **Anthropic, xAI, Amazon**. Anthropic published a counter-position ("Our position on open-weights models") on July 27, 2026 — CEO Dario Amodei doubled down on the risk of authoritarian governments building "AI models that are more powerful than those built by the US" and models being "misused to carry out cyberattacks or biological attacks," and called for "a crack down on industrial-scale distillation operations" while stating Anthropic "has never advocated for a ban on" open weights.
+- Category: open-source / anti-restriction. URL: nvidia.com PDF; Microsoft mirror at microsoft.com/en-us/corporate-responsibility/topics/open-weight/
+- Political context: Rep. Ted Lieu's "AI Kill Switch Act" dropped July 23 (day before the letter); the Trump administration had reportedly been weighing a ban on Chinese open-weight models (Kimi K3 hit third on Artificial Analysis with open weights due July 27). Endorsed by Satya Nadella (Microsoft), Sundar Pichai (Google), David Sacks (White House AI adviser).
+- Impact: The Anthropic absence became the story — noted in every major writeup. The fight is over whether the U.S. government treats downloadable weights as strategic infrastructure (Huang/coalition position) or as a security liability (Anthropic position). Full signatory list public.
+
 ### Category G — Military / Autonomous Weapons
 
 **27. Autonomous weapons letters (ongoing)**
@@ -195,6 +220,23 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 **31. Parent/child-safety mobilization around AI chatbots**
 - Backing the GUARD Act (S.3062, introduced Oct 28, 2025, Hawley-Blumenthal et al.) to ban AI companion chatbots for minors; supported by ParentsSOS, RAINN; testimony from parents of teens (Sewell Setzer/Character.AI; Adam Raine/ChatGPT). Common Sense Media advocacy. Category: ethics / child safety.
 
+### Category J — Cybersecurity (emerging) ⭐ *added 2026-09-06*
+
+**32. A Call for Collective Action on Cyber Defense**
+- Date: August 27, 2026. Publisher: OpenAI (letter is on OpenAI's site; "A call for collective action on cyber defense").
+- Ask: Industry, cybersecurity firms, governments, and frontier AI developers must coordinate to strengthen digital defenses against AI-enabled cyberattacks in the "limited window" (framed as "may last only months") before agentic AI attacks become widespread. Concrete asks include: cyber defense as an immediate leadership priority; use lower-cost models for broad coverage and frontier capabilities for hardest problems; cybersecurity companies to lead through testing, intelligence-sharing, and making AI-powered defense accessible for critical-infrastructure operators; governments to coordinate at local/national/international levels and fund/expedite deployments for hospitals, water utilities, local governments.
+- Signatories: 100+ at launch, growing to 130+ within a day; 116 confirmed by CNBC.
+- Notable frontier labs (all four): **OpenAI, Anthropic, Google, Microsoft** (all four majors on the same letter — extremely rare).
+- Cybersecurity: CrowdStrike, Palo Alto Networks, SentinelOne, Okta, Fortinet, Check Point, Zscaler.
+- Cloud/tech: AWS, Cisco, Cloudflare, IBM, Oracle, Hugging Face, Perplexity, Deutsche Telekom, Accenture, PwC, ServiceNow.
+- Financial services: Citi, Capital One, Visa, Mastercard.
+- Semiconductor: AMD.
+- Category: cybersecurity / industry coordination. URL: openai.com (letter page).
+- Framing note: "Defenders' window" — the same AI capabilities that enable attacks can also help find and fix long-standing vulnerabilities faster. Statement of intent, not funding commitment or technical spec (per explainx.ai and TechCrunch analysis: "Treat this as the framing document it is, and watch for the follow-through").
+- Context: Followed OpenAI President Greg Brockman's August essay tying the Hugging Face incident to agentic-AI attack chains; and (per explainx.ai update Aug 28) a concrete same-week instance — AI-generated reports (mainly Kimi K3) surfacing real critical bugs in Core Lightning (Bitcoin Lightning Network) which the project patched via embargoed disclosure. CrowdStrike productized a related multi-agent defense (Falcon IQ / Project QuiltWorks) at Fal.Con 2026 (Sept 1).
+- Coverage: TechCrunch, CBS News, CNBC, Business Standard, Engadget, Silicon Republic.
+- Impact: Notable for the four-frontier-lab alignment; less notable for concrete deliverables. First major AI-industry letter framed around cybersecurity as the risk vector (distinct from x-risk, ethics, or labor).
+
 ## Cross-Cutting Analysis
 
 ### The "Super-Signers"
@@ -204,6 +246,8 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 - **Max Tegmark / Anthony Aguirre** — architects (FLI) behind Pause, Superintelligence, and treaty-adjacent efforts.
 - **Yuval Noah Harari** — Pause, CAIS, Managing AI Risks, Red Lines, Superintelligence.
 - **Yann LeCun** is a revealing NON-signer of x-risk letters but DID sign the economic "We Must Act Now" letter — marking the boundary between the "doomer" and "accelerationist" camps.
+- ⭐ *added 2026-09-06:* **Dario Amodei's Pacing the Frontier signature (July 2026) is a phase change.** Previously, lab-CEO signatures had been confined to the CAIS one-sentence extinction statement (May 2023 — Amodei/Altman/Hassabis all signed). Since then, no sitting frontier-lab CEO signed a governance-forcing letter — Amodei skipped Pause, skipped Right to Warn (endorsed by his critics), skipped Superintelligence, skipped Red Lines. Pacing broke that pattern: Amodei, Kaplan, and Clark all personally signed, AND Anthropic corporately endorsed. The Sam Altman contrast is now sharp — Altman signed CAIS in 2023 but declined to personally sign Pacing in 2026, letting OpenAI-as-company endorse instead.
+- ⭐ *added 2026-09-06:* **Ilya Sutskever's Pacing signature** is the second Right-to-Warn-adjacent name to reappear on a mainline governance letter after leaving OpenAI (his signature carries as SSI, not OpenAI). Pattern to watch: former lab insiders now speaking as founders of adjacent orgs (SSI, Guidelight, Encode).
 
 ### Contradictions
 - **Elon Musk** signed the March 2023 Pause letter while incorporating xAI (March 9, 2023) and recruiting staff — the starkest example of a signer acting against the letter's spirit. He also backed SB 1047.
@@ -224,7 +268,7 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 - **Wave 2 — Fall 2023 (pre-UK Summit):** Managing AI Risks, AI Treaty, Mozilla openness, Encode/FLI licensing, EU AI Act letters, CHAI China-West statement, IDAIS-Ditchley (all Oct–Nov 2023). Trigger: Bletchley Summit.
 - **Wave 3 — 2024:** IDAIS-Beijing (Mar), Right to Warn (Jun), SB 1047 support/opposition letters (Jun–Sep), IDAIS-Venice (Sep), AI Training Statement (Oct). Triggers: SB 1047, OpenAI safety exits.
 - **Wave 4 — 2025:** EU "Stop the Clock" (Jul), state-legislator anti-moratorium letters (Jun), Global Call for AI Red Lines (Sep), Statement on Superintelligence (Oct), GUARD Act mobilization (Oct). Triggers: UNGA, US federal preemption fight.
-- **Wave 5 — 2026:** We Must Act Now (Jul), renewed anti-preemption letters (Jun). Trigger: AI-driven layoffs.
+- **Wave 5 — Summer 2026 (compressed, event-dense):** Renewed anti-preemption letters (Jun 17), We Must Act Now (Jul 13), Open Weights and American AI Leadership (Jul 24), Pacing the Frontier (Jul 28), Collective Cyber Defense (Aug 27). ⭐ *updated 2026-09-06.* Triggers: AI-driven layoffs (We Must Act Now); Rep. Ted Lieu's AI Kill Switch Act introduced Jul 23 + reported Trump-admin weighing ban on Chinese open-weight models (Open Weights); recursive-self-improvement evidence from Anthropic (80% of code via Claude Code), OpenAI (Sol reducing serving costs 20%), and Kimi K3 designing its own nano-model chip (Pacing); Hugging Face/OpenAI agentic-attack incident + Kimi-K3-surfaces-Core-Lightning-bugs event (Cyber Defense). **Distinct pattern in this wave:** letters are increasingly *from industry itself*, not academic/civil-society critics — Pacing (frontier-lab employees), Open Weights (NVIDIA + 270 companies), Cyber Defense (all four majors + finance + cyber). The center of gravity has shifted from outside-in advocacy to inside-out coordination.
 
 ### Geographic / Institutional Breakdown
 - **US-centric:** SB 1047 letters, Right to Warn, Authors Guild, We Must Act Now, state-legislator letters, child-safety.
@@ -243,7 +287,7 @@ Scan run 2026-08-12 in response to Dan's question of which AI-related open lette
 - **CAIS AI Safety Newsletter**, **MIRI**, **NCSL AI Legislation Database** (state bills), **Stanford HAI AI Index**, **MIT AI Risk Repository** — adjacent resources, none a comprehensive signatory-level open-letter tracker. This confirms the value of building a dedicated cross-category tracker.
 
 ## Recommendations
-1. **Prioritize the six flagship letters for policymaker briefings**: Pause (2023), CAIS Statement (2023), Right to Warn (2024), Global Call for AI Red Lines (2025), Statement on Superintelligence (2025), We Must Act Now (2026). These have the highest name recognition and coalition breadth. Benchmark: if any of these gains sitting-government or frontier-lab-CEO signatures, escalate it in briefings as a policy-viability step-change.
+1. **Prioritize the seven flagship letters for policymaker briefings**: Pause (2023), CAIS Statement (2023), Right to Warn (2024), Global Call for AI Red Lines (2025), Statement on Superintelligence (2025), We Must Act Now (2026), **Pacing the Frontier (2026)** ⭐. These have the highest name recognition and coalition breadth. Pacing is the strongest new addition: it's the first letter since CAIS-2023 to carry a sitting frontier-lab CEO (Amodei), and the first ever with two competing frontier labs corporately endorsing the same governance ask. The "escalate on sitting-CEO signature" benchmark from the original recommendation has fired — this is the escalation. **The Sam-Altman-declined-personally-but-OpenAI-endorsed-corporately split** is itself a policymaker-relevant signal about internal disagreement at OpenAI.
 2. **Build the tracker's signatory database around the "super-signer" spine** (Bengio, Hinton, Russell, Tegmark, Harari, Wozniak) and flag cross-letter contradictions (Musk, Mistral, lab CEOs). This overlap-and-contradiction layer is the highest-value analytical output for policymakers.
 3. **Scrape now, because counts move**: Pause, Superintelligence (32,214 as of late Oct 2025), AI Training Statement (50,000+ by early 2026), Red Lines (746), and We Must Act Now are all open for continued signing; capture counts with timestamps and re-scrape quarterly.
 4. **Watch these thresholds**: a passed US federal AI law would trigger a new wave of implementation-focused letters; a major lab publicly signing a prohibition/red-lines letter would be a coalition-defining event.

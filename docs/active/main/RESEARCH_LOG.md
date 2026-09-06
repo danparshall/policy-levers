@@ -1,5 +1,32 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-09-06 — open_letters_addendum
+### Topics Explored
+- What AI open letters have appeared since the 2026-08-12 inventory; Dan flagged "Pacing the Frontier" by name (miss from prior session) and mentioned We Must Act Now for context
+- Three material additions surfaced: Pacing the Frontier (Jul 28, 2026), Open Weights and American AI Leadership (Jul 24, 2026), Call for Collective Action on Cyber Defense (Aug 27, 2026)
+
+### Provisional Findings
+- **Densest cluster of AI open letters since fall 2023**: three material entries in a 34-day window (Jul 24 → Aug 27). Every one has an unusual property.
+- **Pacing the Frontier is the biggest miss corrected**: first governance-forcing letter since CAIS-2023 to carry a sitting frontier-lab CEO (Dario Amodei). First ever with two competing frontier labs (Anthropic + OpenAI) corporately endorsing the same governance ask. 1,178 launch → 1,324 by early Aug. Amodei/Kaplan/Clark (Anthropic), Pachocki/Chen (OpenAI), Sutskever (SSI), Zhao (Meta CSO), Dragan (Google Head of AI Safety) all personally signed. **Sam Altman did NOT sign personally**, though OpenAI-as-company endorsed — internal-disagreement signal.
+- **Open Weights and American AI Leadership**: NVIDIA/Huang-fronted (his first-ever X post), 25 → 270+ signers in 10 days (one of the fastest-growing AI letters ever). Anthropic, xAI, Amazon never signed. Anthropic's counter-position published July 27. Frames downloadable weights as strategic infrastructure vs. security liability — the fight.
+- **Cyber Defense letter**: 130+ orgs, all four frontier labs plus CrowdStrike/Palo Alto/SentinelOne/AWS/Cisco/IBM plus banks (Citi, Capital One, Visa, Mastercard). "Limited window" framing. First cybersecurity-vector AI letter at industry scale — new coalition (finance + cyber enters).
+- **"Sitting-CEO signature" benchmark from prior recommendation FIRED** (Amodei/Pacing). Should shift how Pacing is presented to policymakers: "the inside-out signal," not "another open letter."
+- **Coalition-geometry shift**: Summer 2026 letters are inside-out (industry-originated), not outside-in (academic/civil-society). Center of gravity has moved.
+- **The Anthropic-on-Pacing / Anthropic-off-Open-Weights split** is the two-pole map of the current AI-policy fight. Worth a dedicated Hill-briefing writeup.
+
+### Results
+- `results/20260812_ai_open_letters_inventory.md` — updated in place (dated "⭐ *added 2026-09-06*" markers). 30 → 33 letters. New Category J (cybersecurity). Super-signer, timeline, and flagship-letters sections all updated.
+
+### Next Steps
+- Issue #11 (fires 2026-08-19, already past fire) — this sweep covers what it would have surfaced. Close or leave open for next quarterly cadence?
+- Dedicated writeup: Anthropic on Pacing / off Open Weights, as it maps onto FRONTIER Act positioning
+- Next re-scrape targets (Q4): Pacing (1,324 Aug 2), Open Weights (270+ Aug 3), Cyber Defense (130+ Aug 28) — all still open for signing
+- Emerging gap: no letter yet on Trump-admin export-control shifts (Anthropic Fable-5 redeployment context) — obvious next mobilization if it happens
+- Watch for Pacing follow-through: concrete tooling proposals or does it stay framing-only?
+
+See convo: `convos/20260906_open_letters_addendum.md`
+
+
 ## Session: 2026-08-17 — watcher_notify
 ### Topics Explored
 - Health check on the 2026-08-15/16/17 leg-watcher digests (18 sources, `consecutive_failures=0` across the board, 215 UIDs seen in the API poller; only 8/15 surfaced any items — the 8/17 pro forma notice, exactly what senate-daily-schedule was enabled for; 8/16 and 8/17 both empty).
