@@ -1,5 +1,25 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-09-06 — racing_precipice_model
+### Topics Explored
+- Realism of Armstrong/Bostrom/Shulman 2013; rebuilt with multiplicative score c(1−s), talent feedback λ, capability-dependent hazard γ; solved no-info/private numerically, public analytically; prior-art check vs Askell 2019 / Naudé-Dimitri 2020 / Han 2020.
+
+### Provisional Findings
+- Multiplicative form kills the µ lever and the private-info hazard (private = no-info); lead never unassailable; e and n only levers.
+- Exact no-info risk compensation: P(dis) = e(n−1)/(1+e(n−1)) for any hazard function. Does NOT hold under private info (≈ half the benefit survives). Continuous-choice phenomenon.
+- Talent feedback (relative safety attracts researchers) is a deviation tax, survives compensation, ~40% reduction at λ=1. Labor mobility + whistleblower protection = verification infrastructure.
+- Han et al. 2020 already has monitoring probability p_fo; nobody has continuous safety + multiplicative score. Compensation-vs-verification interaction is open.
+- ABS's public-info s_top = Δ/e is the "lead buys safety" argument; today's regime is ~public-info ⇒ leaders in close races are the risk.
+
+### Results
+- `results/20260906_race_models/` — README, `race_lib.py`, `mult_model.py`, plots B and C.
+
+### Next Steps
+- Private-info talent plot; treaty term (s_min, p, D) vs compensation; Dan's four queued factors (outcome uncertainty, laggard step size, second-place desperation, perceived-gap desperation); lognormal capabilities; cant-trust-then-verify post as content-verification observable.
+
+See convo: `convos/20260906_racing_precipice_model.md`
+
+
 ## Session: 2026-09-06 — open_letters_addendum
 ### Topics Explored
 - What AI open letters have appeared since the 2026-08-12 inventory; Dan flagged "Pacing the Frontier" by name (miss from prior session) and mentioned We Must Act Now for context
