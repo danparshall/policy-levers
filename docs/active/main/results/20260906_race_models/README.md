@@ -26,3 +26,9 @@ Information regimes: no-info (scalar s), private (s(c)), public (only solved ana
 - No-info compensation (any hazard multiplier H): D = (1−s)H̄, FOC (1−D)e(n−1) = D ⇒ D independent of H. Exact only because disaster is linear in s.
 
 Numerical caveats: N=20k–40k draws, safety grid 41 points, private-info grid 10–12 points; ±0.02 on probabilities.
+
+## Noisy-signal regime (n=2) — `noisy_lib.py`, `run_D.py`, `plot_D_noisy_signal.png`, `plot_D_data.json`
+Team i knows c_i, sees y = c_j + N(0,σ²); policy s(c_i, gap = y − c_i) on an 8×9 grid, S step 0.05.
+Desperation δ: win payoff × (1 + δ·max(0, gap)).
+**Convergence caveat:** best-response iteration does not settle at small σ (max|BR − s| ≈ 0.05–0.2 after 40 damped iterations at σ ≤ 0.1). Large-σ endpoints match the private analytic; σ=0 does NOT reproduce the public analytic (0.54 vs 0.50 at e=1; 0.46 vs 0.39 at e=0.5) because the simultaneous-move dynamic finds the laggard undercutting rather than the leader pre-committing (ABS's public solution is Stackelberg-like). Treat the σ < 0.3 region as indicative only.
+Observation: δ is a null at e=1 because scaling the win payoff by a constant doesn't change argmax when the not-win payoff is 0; in general (1+δg) on winning ≡ raising effective enmity to 1 − (1−e)/(1+δg). Desperation is state-dependent enmity.
