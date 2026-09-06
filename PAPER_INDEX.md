@@ -4,6 +4,7 @@
 
 | Paper | Description | File |
 |-------|-------------|------|
+| Armstrong, Bostrom & Shulman (2013) | FHI game-theoretic model of an AI arms race: n teams choose safety s vs capability c; team with highest (c−s) wins and survives with probability s. Nash-equilibrium disaster risk falls with capability-importance and rises with team count, enmity, and — counterintuitively — with more shared information about capabilities. Canonical statement of the "AI arms race" framing | `Armstrong_Shulman__2013--racing_to_precipice.pdf` |
 | Jones (2024) | Formal growth-vs-existential-risk model; argues society underinvests in AI safety by ~30x | `Jones_2024__AI_dilemma_growth_vs_risk.pdf` |
 | Kording & Marinescu (2025) | Nested-CES "intelligence saturation" model bridging AI-expert and economist growth forecasts | `Kording_2025__AI_saturation_future_of_work.pdf` |
 | Mertens, Thompson et al. (2026) | MIT FutureTech large-scale O*NET task evaluations; "rising tide" vs METR's "crashing wave" | `Mertens_2026__crashing_waves_rising_tides_AI_automation.pdf` |
