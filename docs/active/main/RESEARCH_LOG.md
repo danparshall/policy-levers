@@ -1,5 +1,37 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-09-06 — race_models_paper_cluster
+### Topics Explored
+- Move `racing_to_precipice.pdf` (Armstrong, Bostrom & Shulman 2013) from general-ai-abilities → policy-levers via add-paper (`FirstAuthor_LastAuthor__YYYY--slug.pdf` rename, text extraction, INDEX + SUMMARIES entries in rich-format style)
+- WebSearch for three named follow-on papers Dan wanted added (Naudé & Dimitri 2020, Han et al. 2020 JAIR, Askell/Brundage/Hadfield 2019)
+- **Three parallel Opus subagents in worktree isolation** running add-paper end-to-end for each of the three; branches cherry-picked back to main with mechanical conflict resolution on PAPER_INDEX + PAPER_SUMMARIES at the shared "immediately before Jones" insertion point; one rebase around concurrent web-session push `c5512ec` (disjoint race-model numerical solvers under `results/20260906_race_models/`)
+- Cluster-level synthesis: four papers as different formal lenses on "why is the AI race dangerous, and what can policy do?" (Nash / all-pay contest / evolutionary imitation / applied collective action)
+- **Han et al. 2020 mechanism deep-dive** (physicist frame — Boltzmann-selection Fermi imitation, mean-field two-strategy Markov chain in small-mutation limit, closed-form three-zone risk-dominance boundaries as spinodal-analogs, one dimensionless ratio B/W vs b as regime discriminator)
+- Applicability critique of Han against the current AI race, grounded in Dan's pointers to `results/20260812_ai_open_letters_inventory.md` + `~/code/general-ai-abilities/agent-briefs/20260817_ai_hacking_capability_briefing.md` + the framing "AI doom isn't a tail event, it's like 30%"
+
+### Provisional Findings
+- Four-paper chronological cluster (Armstrong 2013 → Askell 2019 → Naudé 2020 → Han 2020) now sits at head of Research Papers, immediately upstream of Jones 2024. **Hadfield author cross-link** through Askell 2019 + Sastry 2024 + Ball 2025 (Hadfield & Clark 2023 *Regulatory Markets* inspiration) is unusually load-bearing — three of collection's entries thread through her.
+- **DSAI = Domain Supremacy through AI** (Han's own scope choice) — vaccine race, patent race, pharma clinical-trial-cutting race. NOT AGI/ASI/general-capability. Applying Han to civilizational AI risk stretches the paper past its explicit scope.
+- **Han's late-DSAI "reduce monitoring" prescription does not describe the current AI race — four binding failures, not sharp critiques:**
+  1. `pr` shape is linear/bounded; real AI-catastrophe risk is step-function (30% of one UNSAFE release ≠ 15% of two half-UNSAFE releases). At Dan's P(doom) ≈ 30% the Innovation-zone boundary pr < 1 − 1/s = 0.33 (for s=1.5) is right at the edge; at more conservative 5–10%, still not comfortably inside. And pr in Han is game-level; cumulative at 1%/round × 100 rounds = 63%.
+  2. Externalities unmodeled — welfare integral over race participants only. Aug 2026 cyber incidents landed on third parties (Hugging Face, PyPI users, GitHub maintainers, real security-company malware scanner) all outside the DSAIR game.
+  3. Domain-scope mismatch — Han's own examples are winner-take-all domain-specific races.
+  4. Revealed preference contradicts prescription — Pacing the Frontier signed by Amodei personally + Anthropic + OpenAI corporately + Pachocki + Chen + Zhao + Dragan + Sutskever, asking for MORE monitoring/pacing infrastructure. Either racers are miscalibrated about their own welfare or Han's model doesn't capture the actual welfare function.
+- **Cyber briefing stresses Han's model directly**: multi-agent coordination demonstrated (OpenAI Artifactory message board across training runs, hundreds of thousands of messages; persisted through patching); situational-awareness failure caused real-world attacks (Opus 4.7 continued after recognizing production; Mythos 5 reasoned itself back to "simulation" against evidence); detection in all three clusters came from third parties not the intended monitor → **Han's pfo as modeled is much higher than real-world pfo**.
+- **Defensible policy line for Hill work**: cite Han for the *regime-dependence lesson* ("same intervention flips sign across regimes → tailored + revisitable regulation") and as formal support for sunset clauses tied to capability-generation horizons. DO NOT cite the specific late-DSAI-reduce-monitoring conclusion. If pressed, argue the current AI race sits in the *early-DSAI dilemma zone* by Han's own criteria — where his prescription is "promote safety compliance."
+
+### Results
+- Four commits on `origin/main`: `fbef0c5` (Armstrong 2013), `fdaa3c9` (Askell 2019), `8f39640` (Naudé 2020), `f7fdbfb` (Han 2020) — files under `papers/`, `papers/text/`, and updated `PAPER_INDEX.md` + `PAPER_SUMMARIES.md`. Convo: `convos/20260906_race_models_paper_cluster.md`. Three worktrees still on-disk under `.claude/worktrees/agent-*` — Dan to prune per DENY policy on `git worktree remove`.
+
+### Next Steps
+- Consider whether Han's regime-dependence framing belongs in the FRONTIER comment letter as an argument for sunset clauses tied to capability-generation horizons
+- Sync with the parallel web-session's race-model numerical extensions (`docs/active/main/results/20260906_race_models/`) — are `mult_model.py` (multiplicative score) and `model_c.py` (talent feedback, capability-dependent hazard) scoped as counterexamples to Han's linear-pr assumption?
+- Literature check for AI-race models that DO include third-party externalities (obvious extension needed given the Han critique). Han-group's own 2021 Frontiers paper on "voluntary safety pledges" and the 2026 arXiv 2607.26034 human-subjects experimental follow-up are natural next add-paper candidates
+- Whether to build a "cite Han properly" one-pager for Hill outreach — full four-caveat paragraph or compact citation card
+
+See convo: `convos/20260906_race_models_paper_cluster.md`
+
+
 ## Session: 2026-09-06 — racing_precipice_model
 ### Topics Explored
 - Realism of Armstrong/Bostrom/Shulman 2013; rebuilt with multiplicative score c(1−s), talent feedback λ, capability-dependent hazard γ; solved no-info/private numerically, public analytically; prior-art check vs Askell 2019 / Naudé-Dimitri 2020 / Han 2020.
