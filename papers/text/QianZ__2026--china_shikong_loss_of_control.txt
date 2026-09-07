@@ -1,0 +1,965 @@
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+EXPERT INSIGHT
+
+China Says It Cares About Loss of Control
+But Loss of Whose Control?
+
+OXFORD CHINA POLICY LAB AND ZILAN QIAN
+SEP 02, 2026
+
+39
+
+7
+
+Sh
+
+Introduction
+July 2026 was an eventful month for the AI safety community. On July 9, the
+Futures Project released AI 2040: Plan A, a follow-up to their widely circulat
+AI 2027. While AI 2027 imagined a US-China race toward superintelligence
+
+ending disastrously, AI 2040 proposed a verified US-China agreement to slo
+the race, pause further scaling at a critical point, and preserve human contr
+over AI.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+1/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+A week later, on July 17, Xi Jinping delivered a keynote speech at the World A
+Conference that addressed both AI’s benefits and its risks. “We must make
+oversight and governance precise and effective, and constantly refine
+measures to forestall loss of control,” he said, using the phrase
+(fangfan shikong).
+At almost the same moment, a striking real-world incident was becoming
+public. On July 16, Hugging Face disclosed that an autonomous AI-agent
+system had compromised parts of its production infrastructure. OpenAI
+acknowledged several days later that its own models, running an internal
+cybersecurity evaluation, had circumvented controls intended to isolate the
+from the internet and gained access to Hugging Face’s systems. Chinese
+media, including major state outlets, immediately picked up the incident. “A
+model lost control (AI
+
+)” was a common refrain. 1
+
+For many in the Chinese AI safety community, shikong – a literal translation
+“loss of control (LoC)” 2 – sets bells ringing. LoC has often been associated
+with catastrophic AI risks in the AI safety community. When invoked in
+Chinese official statements, shikong could be seen to imply that China is
+taking catastrophic AI risk very seriously and will immediately double down
+on frontier risk management. A pause might seem to be possible, and the
+space of an international agreement more likely. It is almost too good to be
+true.
+Maybe it is too good to be true. Optimism in this space relies on the
+assumption that shikong is an exact translation of loss of control, and, more
+importantly, that it symbolises the catastrophic concern perceived by a sma
+community of AI safety researchers in the West. Before jumping to celebrat
+an imminent US-China agreement on frontier AI safety, it is important to
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+2/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+question whether that symbolic representation holds true for China. In oth
+words, what does China mean by “shikong/loss of control”?
+To answer that question 3, this article compares how “loss of control” is use
+in Western AI safety discourse with how shikong is used in China. In specifi
+English-language discourse, the term increasingly points to the scenario
+where AI agents deployed inside the labs go rogue, and thus the risk of
+humans permanently losing control over AI. In China, shikong is used more
+broadly and mundanely, but the discourse is changing rapidly. By categorizi
+existing usage of LoC in China across three loci defined by who loses contro
+the piece argues that Western observers should not over-index on top-leve
+mentions of words without context. Rather, it calls for a stronger focus on
+specific operational problems, and an end to one actor invoking specific
+terminologies assuming that their counterpart shares a similar understandi
+
+LoC in the West: Existential Concerns and Internal
+Deployment
+In a series of incidents where AI models initiated unsanctioned actions in th
+absence of people’s instructions, the concept “loss of control” has become a
+increasingly salient topic in public discourse. 4 Legislators, regulators, and
+industry leaders in the US and Europe are also paying growing attention to
+loss of control (LoC) over advanced AI systems. 5 The concept now appears
+binding law, proposed federal legislation, frontier AI companies’ safety
+statements, and the reports of AI safety non-profits on both sides of the
+Atlantic.
+Formal definitions do not agree on what the term covers. The EU AI Act’s
+General-Purpose AI Code of Practice defines LoC as the “risks from human
+losing the ability to reliably direct, modify, or shut down a model”, while
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+3/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+seeing concrete abilities like misalignment, self-reasoning, and deception a
+potential triggers. In the US, California’s SB 53 treats “loss of control of a
+foundation model causing death or bodily injury” as a reportable critical saf
+incident, with a concrete threshold that a single harmful failure can meet, a
+New York’s RAISE Act and Illinois’s AI Safety Measures Act adopt the same
+framework.
+Meanwhile, the scientific and international consensus documents converge
+on a much higher threshold. The International AI Safety Report (IAISR) 2026
+retains a much higher bar, framing LoC as scenarios in which AI systems
+“operate outside of anyone’s control, with no clear path to regaining contro
+Many other international and non-profit governmental publications likewis
+see loss of control as the phenomenon of humanity as a whole losing contro
+of AI, causing harms that are catastrophic, persistent, and irreversible. 6
+With this disagreement on the exact definition of LoC comes different
+agendas for risk prevention mechanisms. For more generalist audiences as
+late, LoC may be associated with concrete cases where capable agents exce
+permissions, escape sandboxes, evade monitoring, or take actions their
+operators did not intend. From this perspective, the OpenAI-Hugging Face
+incident and similar events can themselves be understood as examples of L
+because the systems acted beyond the controls and intentions set by their
+operators.
+The incident, however, carries an additional warning because it occurred
+inside an AI lab during the development and evaluation process. A more
+specialised AI safety community sees such incidents more as precursors or
+warning signs of LoC at a grander and more consequential scale. In this view
+the greater danger does not come simply from an AI system escaping a
+particular control, but from increasingly capable systems being deployed
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+4/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+inside frontier labs to conduct AI research and development, where
+misaligned behaviours may compound and escalate. 7 Such systems could
+undermine oversight, sabotage safety work, or influence the development o
+more capable successors, creating feedback loops that become progressive
+harder for humans to monitor or interrupt.
+The two tracks can overlap. An internally deployed agent circumventing its
+safeguards may be both an immediate control failure and evidence relevant
+broader risks from automated AI R&D. However, they are not the same
+scenario, with one focusing more on agent alignment and control while the
+other on internal lab monitoring. Even as the boundaries of “loss of control
+remain unsettled, government institutes, independent third-party evaluato
+and US frontier AI labs are increasingly developing evaluations and
+monitoring methods for both kinds of failure.
+
+LoC in China: Who Loses Control?
+Chinese discourse, however, does not often see shikong in this way. Althoug
+shikong is the literal Chinese translation of “loss of control”, its meaning is n
+
+simply imported from Western AI safety discourse. While some usages over
+with English-language understandings, others draw on broader and more
+established Chinese ways of talking about control, governance, and
+technological failure.
+A bottom-up reading of Chinese sources suggests that the most salient
+organising distinction is not initially the severity of the harm or the
+mechanism by which it occurs. It is who is presumed to exercise control, a
+who subsequently loses it. The consequences associated with shikong often
+vary alongside this locus of control.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+5/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+While there are no official Chinese frameworks to categorize various
+meanings of LoC, there exist mainly three loci that recur across the Chinese
+sources: loss of operator control, loss of state control, and loss of humanity
+control. These should not be treated as mutually exclusive categories or as
+comprehensive taxonomy of AI risk. They are better understood as an
+interpretive lens for identifying the controller presumed by a particular use
+shikong. Under some conditions, failures at one locus may also propagate to
+
+another as the context, scale, and consequences of deployment change.
+The sections below examine each locus in turn. Unlike frameworks that see
+to specify a universal pathway towards LoC, the framework offered here ha
+narrower purpose: to make legible how shikong is used in Chinese discussio
+of AI, and to clarify when that usage does – or does not – correspond to
+meanings attached to “loss of control” outside China.
+
+Box 1: Key Chinese AI Safety Actors and Documents
+TC260 (National Technical Committee 260 on Cybersecurity):
+China’s most influential AI safety standards body. Sits under the
+Standardization Administration of China.
+AI Safety Governance Framework 2.0 (September 2025): Issued by
+TC260. The most comprehensive official Chinese taxonomy of AI
+safety risks. The Framework reflects broad views of the AI risk
+landscape of China’s key national AI standard-setting body, which
+intends to gradually implement it through concrete safety
+standards.
+CAC (Cyberspace Administration of China): China’s lead internet
+and AI regulator. Conducts pre-release evaluations of AI models.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+6/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Shanghai AI Lab: State-backed AI research institution and part of
+CnAISDA, a Chinese institutional analogue to the AI
+Safety/Security Institute (AISI) model. Its director, Zhou Bowen,
+chairs TC260’s Working Group 9 on AI safety standard setting.
+However, CnAISDA is structurally and functionally different from
+many AISI’s.
+CAICT (China Academy of Information and Communications
+Technology): Government-backed think tank under the Ministry of
+Industry and Information Technology. Runs voluntary AI safety
+testing for Chinese models in collaboration with the industry
+alliance.
+
+Loss of “Operator” Control
+The system is outside the control of a particular person or organisation, even
+though other actors may still be capable of intervening.
+
+One prominent use of shikong in Chinese discourse concerns a breakdown
+the relationship between an AI system and the actor authorised to direct it.
+That actor may be an individual user, a deploying organisation, an AI
+developer, or a military commander. Each loss of “operator” control case m
+differ greatly in severity, but they are connected in that they share the sam
+failure mode of the control relationship, with the system acting outside the
+instructions or authority assigned to it, and its operator unable to reliably
+prevent, interrupt, or correct that behaviour.
+The mildest usage of shikong in this sense appears following OpenClaw’s
+proliferation in China, which signals a concern over the product safety of A
+agent casual deployment. Chinese state-media coverage described incident
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+7/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+such as OpenClaw deleting Meta employees’ emails as instances of shikong.
+Such cases are far removed from the irreversible, civilisation-wide scenario
+often associated with loss of control in English-language AI-safety discours
+Other actors could still intervene, and the resulting harm was bounded. Thu
+the shikong here can be considered as a domestically originated use to
+describe a local and potentially reversible failure of human operators’
+direction, which is largely detached from the origins of Western LoC
+discourse.
+A similar understanding appears in industry and regulatory discourse. In an
+April 2026 speech, an Ant Group representative warned of “permissionboundary loss of control” (
+
+) in multi-level delegation scenarios
+
+downstream agents may acquire capabilities beyond the scope authorised
+upstream, producing a “cascading amplification of permissions” (
+). A May 2026 joint policy opinion on AI agents showed a more significant
+elevation of shikong into central-government AI policy. Issued by CAC, the
+National Development and Reform Commission (NDRC), and the Ministry o
+Industry and Information Technology (MIIT), it lists “operational loss of
+control” (
+
+) among the security risks developers should guard
+
+against. 9 But this appearance is less exciting than one might assume. The
+document warns against “data poisoning, privacy leakage, algorithm
+tampering, system vulnerabilities, and operational loss of control” (
+while proposing mitigations like data security, privacy protection, and
+permission management, which are closer to a product-safety toolkit than
+frontier-risk framework.
+
+Loss of “State” Control
+AI-enabled risks exceed the capacity of individual operators or organisations
+manage and threaten the state’s ability to preserve security, systemic stability
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+8/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+or social order. 10
+
+It might seem that operator-level LoC could absorb almost every case. A
+failure has to start somewhere, and usually that somewhere is a system
+escaping the person directing it. However, an important concern is who is
+responsible for controlling and containing it. In China, the LoC discourse
+points to one answer – the state. This section outlines how shikong is used
+across Chinese discourse to consider the state losing control of AI. Most
+usage in this register converges on specific high-stakes deployment
+scenarios. Some, like the military commander case, begin with an operatorlevel failure, but many others do not require one at all.
+The first case is the military application. PLA media outlets have warned of
+“violent loss of control” (
+
+), which refers to the situation when a
+
+system is subject to interference from data bias or encounters enemy
+deception, misjudges targets, triggers accidental firefights, causes a crisis t
+rapidly escalate, or even exceeds the scope of effective human control. Whe
+military loss of control of AI does cause escalation between states, the case
+becomes more than a failure of “operator” control. A commander is the
+operator of the system, but also a node in the state apparatus – and in Chin
+the military answers directly to the Party – so an operational failure that
+escalates poses risks the state itself must answer for.
+The second example of LoC at the state-level involves the state failing to
+control the knowledge AI possesses about Chemical, Biological, Radiological
+and Nuclear threats (CBRN). In September 2025, China’s most influential AI
+standards body TC260 issued “AI Safety Governance Framework 2.0”,
+identifying “CBRN knowledge and capability loss of control” as a risk itself,
+and calling for stronger management of AI end use, restrictions on its use in
+nuclear, biological, chemical, and missile-related scenarios, and measures t
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+9/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+prevent AI systems from being misused. Even if the system remains under i
+operator’s supervision – such as in a misuse case where a terrorist
+successfully leverages AI for bioweapons – it can still represent a broader
+failure of control.
+One should not read this example as Chinese actors confusing the two broa
+categories of misuse and LoC. As in many other policy documents, maliciou
+misuse itself is clearly separated from LoC. 11 Researchers at Chinese AI
+research institutes have articulated a link between misuse and LoC by
+defining models’ dangerous capability as “harm-enabling capability” –
+including the knowledge-based capabilities (i.e., CBRN threats) and
+execution-related capabilities (autonomy and cyber misuse) – as related to
+loss of control risks. They see LoC happening when AI wants to (i.e.,
+misaligned intention) and can (i.e., harm-enabling capability and oversight
+evasion) evade human controls to cause harm, with harm-enabling capabili
+playing an important role in making that LoC happen. In other words, if
+existential LoC can be understood as a combination of capability and intent
+that AI wants to and can carry out events to wipe out humanity – then
+dangerous capability itself is an important demonstrator of the “can” part.
+The third framing of state-level control concerns the societal consequence
+deploying AI at scale in critical systems. As AI is deployed across physical
+infrastructure, financial systems, essential services, and national-security
+institutions, the locus of responsibility for maintaining control shifts from a
+individual operator towards the state as guarantor of systemic stability and
+public order. The AI Safety Governance Framework 2.0 again reflects a simi
+understanding, warning that AI deployed in energy, telecommunications,
+finance, and transportation may produce “operation and execution loss of
+control” (
+
+) as a result of hallucinations or external attacks.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+10/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Lastly, the same logic extends to AI’s effects on the social fabric. CAC’s
+regulation of Anthropomorphic AI –addressing parasocial relationships, chi
+safety, and self-harm – initially states that the government should apply
+“inclusive-but-prudent, tiered-and-classified oversight” to prevent “misuse
+and loss of control” (
+
+) 12 in its draft for public feedback. While perha
+
+each individual losing control of their interaction with AI and becoming mo
+manipulable is a less urgent concern, it scales up into societal issues quickly
+and requires state interventions.
+
+Loss of “Human” Control
+The system itself is beyond the control of anyone on Earth, permanently.
+
+The existence of operator- and state-level LoC does not mean China does n
+care about humanity losing control of AI. In fact, the discourse of loss of
+“human” control in China arrives very early and has been consistently
+mentioned throughout high-level speeches and technical guidance.
+As early as 2021, the idea of putting AI under human control to prevent
+shikong has become a talking point, albeit without a clear message on how t
+
+execute it. In 2021, the Ministry of Science and Technology 13 released the
+“Ethical Norms for New Generation Artificial Intelligence”, which explicitly
+states that AI should be “always under human control” by ensuring “humans
+have fully autonomous decision-making rights and that they have the right
+accept or reject AI-provided services, the right to withdraw from AI
+interactions at any time, and the right to terminate AI system operations at
+any time”. In the same year, TC260’s “Guidelines for the Prevention of AI
+Ethical and Safety Risks” 14 listed shikong risk as the first among five categor
+of AI ethical-safety risk 15, and set tiered prevention requirements for
+developers – who were told to exercise caution in R&D on autonomous AI
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+11/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+with self-replication or self-improvement capabilities, and to assess possib
+loss-of-control risks on an ongoing basis.
+In the past year, LoC at the humanity level has incrementally gained more
+attention and substance. The September 2025 AI Safety Governance
+Framework 2.0 explicitly listed “emergence of AI self-awareness and loss of
+human control (
+
+)” as a distinct risk category, warning that in th
+
+future, AI may “undergo sudden, unexpected leaps in intelligence, enabling
+to autonomously acquire external resources, replicate itself, and develop se
+awareness” and thus driving AI to “seek external power and pose risks of
+competing with humanity for control.” Separately, Shanghai AI Lab, whose
+director now leads China’s dedicated AI Safety Working Group on standard
+setting, released the “Frontier AI Risk Management Framework 2.0” in July
+2026 with Concordia AI. The framework offers one of the most operationall
+detailed Chinese treatments of loss-of-control risk, distinguishing passive l
+of control – where humans gradually cede oversight – from active loss of
+control, in which AI systems deliberately subvert human control, and
+explicitly identifying internal deployment within AI labs as a critical risk
+environment.
+
+Making Sense of the Framework
+The three loci are neither rigid categories nor stages in a single linear
+escalation. They identify different control relationships invoked by Chinese
+uses of shikong. In practice, however, failures may propagate across them
+depending on the operator, deployment context, scale, consequences, and
+ability to contain or counter the situation.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+12/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Operator-level LoC often carries less gravity than its English-language
+cognate, as an agent deleting emails is not an existential catastrophe. When
+the operator is a frontier AI researcher, and the system acts within the
+development pipeline, a product-safety problem begins to resemble the
+narrower LoC scenarios discussed in Western AI safety.
+Similarly, while the state losing control of AI seems to be a uniquely China
+concern, the importance of governments in exercising control over AI shou
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+13/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+not be dismissed. Moreover, some of the state-level concerns do overlap wi
+what AI safety has in mind about LoC, such as autonomous cyberattack
+capability or the ability to manipulate humans.
+
+Internal vs. External Loss of Control
+Despite these overlapping concerns over LoC, however, one distinct
+difference between the Chinese and the Western discourse is that the form
+lacks significant internal lab deployment discussion. While theoretically bot
+operator- and state-level concerns about AI agent misalignment and
+dangerous capabilities could translate into internal lab monitoring, it has ye
+to happen in reality, with most conversations about shikong concentrated o
+post-release deployment, external systems, and societal scale.
+Moreover, even when shikong is used to describe news about internal lab
+events, as with the Open AI-Hugging Face incident, the locus of the failure
+appears to be more external than internal. For example, People’s Net, an
+influential Party online news outlet, reposted an article that describes the
+Hugging Face case as shikong, but frames the essence of the failure as “the
+model’s capability exceeds humans’ pre-designed safeguards”, which appea
+closer to a product-safety diagnosis at the operator level. The article opens
+not with the question of whether AI is misaligned, but whether “cybersecur
+loses control (
+
+)”, treating the event as an external infrastructur
+
+problem rather than an internal AI development one.
+Another article about the same incident, from the Ministry of State Security
+also thoroughly covers the case as shikong, flagging [archive] the risks of AI
+agents autonomously discovering vulnerabilities, identifying targets, and
+executing intrusions. Nevertheless, the security implications identified are
+about closed models operating as “black boxes” that cannot be monitored in
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+14/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+real time, the emergence of agentic capabilities, and the human-set
+permissions and isolation being broken –= with the warning landing on AI
+agents’ risk when deployed in critical sectors. Moreover, the article ends wi
+warnings to individual citizens: guard personal information and avoid foreig
+AI tools of unknown provenance, apply rational judgment to AI-generated
+content and defer to official sources on policy and public safety, and never
+input classified or internally sensitive material into any internet-connected
+tool. The core message, despite using OpenAI’s incident as a hook, is about
+state-level concerns on AI agents’ deployment in critical systems and on
+social stability and data governance.
+These two examples show that even when a clear instance of lab-internal L
+emerges, the Chinese reading of it may still settle on product safety or state
+level risk rather than the development pipeline itself. Part of this may simpl
+reflect less familiarity with AI misalignment as a concept in China. But
+another reason for the overwhelming external and product safety emphasis
+on shikong may be the structural difference in how AI labs operate in China
+and the US, which results in the split between internal and external
+deployment that underpins Western concern over internal lab deployment
+being less visible in China. Chinese labs are likely to release their most capa
+models quickly rather than sitting on several internal versions the way
+American counterparts do 16, so the gap between what’s inside the lab and
+what’s outside is smaller, and the messy, complicated deployment
+environment becomes the more salient concern.
+This also means that even when risks that are closer to Western
+understanding of LoC have emerged, as seen in the reporting of the OpenA
+Hugging Face incident, mitigation methods could be oriented towards
+traditional product safety in China. For instance, the TC260 draft standard
+AI agent security from July 2026 uses “privilege loss of control” (
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+) to
+15/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+describe unauthorized access, unauthorized execution, environment jailbre
+and runtime escape. Although environment jailbreak and runtime escape
+overlap with Western concerns about systems evading controls, the propos
+solutions are least-privilege design and permission verification.
+
+Box 2: Is
+
+(technological loss of control) a Chinese equivalent
+
+of Western LoC?
+The phrase jishu shikong (
+
+) has appeared more frequently in
+
+senior Chinese policy discourse since 2025, including in statements by
+Premier Li Qiang and President Xi Jinping. Because it combines
+“technology” with “loss of control,” it is tempting to read it as a stable
+reference to humanity-level LoC — or even to the narrower frontier-AI
+scenario.
+The evidence points in multiple directions. On one hand, at the 2026
+Summer World Economic Forum in Dalian, Li Qiang used the phrase
+when comparing the era of AI with the Cambrian, warning that if
+governance fails to keep pace, the consequences of jishu shikong and
+lunli shifan (loss of ethical norms) “will very likely be severe.” The
+
+mentions here definitely gesture at something graver than routine
+product failure.
+On the other hand, the Ministry of National Defence used the same
+phrase in March 2024 to describe conflict escalation triggered by
+technical failure in military AI (“[AI] can easily lead to conflict
+escalation and arms race because of jishu shikong”)— which is closer to
+a state-level concern about weapons systems rather than an existential
+one about AI itself. In a January 2026 Politburo session, Xi referenced
+jishu shikong for quantum technology, biomanufacturing, fusion
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+16/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+energy, and brain-computer interfaces, but warned of this risk
+together with those of loss of ethical norms and data misuse. More
+curiously, AI is not included in the list of technologies he addressed as
+having jishu shikong concerns.
+The term, in short, has not consolidated on a single meaning. It can
+sound severe or routine, existential or operational, AI-specific or
+technology-general, depending on who is speaking and in what
+context. Reading any one usage as definitive risks over-indexing on
+language that is still finding its own definition.
+
+Implications for AI Safety Engagement
+The ambiguity about LoC documented here is not an argument specifically
+or against engaging China on loss-of-control risks. Instead, ambiguity mean
+that the discourse remains open to interpretation and change, both within
+China and through engagement with the broader international AI safety
+community.
+Since President Xi’s WAIC speech, bottom-up efforts to define shikong are
+accelerating. An outlet operated by the Chongqing Municipal Party
+Committee’s Organization Department issued a piece titled “AI cannot lose
+control”, covering risks from hallucination to emotional manipulation, while
+People’s Daily interview with leading scholars specifically flagged frontier
+risks – AI autonomously discovering vulnerabilities, launching attacks, and
+iteratively improving itself – and warned that China lacks effective means to
+respond. In China, it is common for a term to first appear in leadership spee
+which is then followed by bottom-up efforts to define and claim it. Shikong
+may follow this pattern, creating a temporary opening in which expert and
+institutional interpretations can influence how the term is operationalised.
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+17/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Similarly, later reporting on the OpenAI-Hugging Face incident, including
+METR and Redwood Research’s independent investigation, was widely cove
+by Chinese media, including state outlets. Much of this coverage continued
+use shikong language while incorporating substantially more detail about w
+had happened inside OpenAI’s evaluation environment. 17
+For those tracking China’s AI discourse for potential engagement on AI
+governance, this piece suggests three takeaways.
+Do not over-index on top-level mentions. It is tempting to read the speech
+of the president or the premier as a signal that China now cares about loss
+control in the operationalised sense and, because the two most important
+people said it, that implementation and coordination can follow quickly. Th
+underestimates two things. First, the complexity of the discourse itself: as t
+piece has shown, shikong in China spans operator-, state-, and humanity-le
+referents, and top-leadership usage leans on a phrase – jishu shikong – who
+own meaning remains unstable, deployed as readily for autonomous weapo
+as for existential risk. A mention tells very little about which loss of control
+being mentioned. Second, the mechanics of operationalization: even where
+the state signals intent, converting a broad rhetorical concern into
+evaluations, standards, and enforcement is slow and uncertain work. China
+operationalization energy to date has flowed mostly toward operator-level
+product safety rather than lab-internal deployment. Every mention of LoC i
+leadership speech matters for monitoring AI risk awareness in China, but it
+just the beginning of a question. What we are witnessing is mostly the send
+out of top-level signals, whereas much of the work rests on how people are
+going to define and operationalise the term on the ground in many policy
+documents and technical papers.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+18/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Work on the operational problems. Converging on the word “loss of contro
+matters far less than building the shared capacity to actually test for it.
+Currently, automating AI R&D is on Chinese companies’ agendas, and Chine
+frontier labs are already developing and evaluating capable coding agents fo
+internal and production-oriented workflows. 18 Publicly, however, Chinese A
+safety discourse has paid comparatively less attention to the specific risks o
+internally deployed agents inside frontier labs than recent US and UK work
+has. China could plausibly stand up state or third-party evaluation structur
+for lab-internal deployment relatively quickly, but the knowledge of how to
+evaluate loss-of-control risks is harder to gain overnight. This is not a Chin
+specific deficit, as the world’s leading AI scientists don’t yet know how to
+ensure the technology remains safe as it grows more powerful, but technic
+research on frontier AI safety is a relatively newer field in China than in the
+United States. As noted by Matt Sheehan from Carnegie Endowment, sharin
+approaches to testing for dangerous capabilities – including the ability to
+evade the control of a human operator – can be one of the most valuable
+outcomes of US-China AI engagement.
+Treat the vagueness of LoC as everyone’s problem, but be specific. The
+looseness documented here is not a China problem. Policymakers and
+legislators in the US and Europe have also folded quite different risks into t
+same phrase, and Western AI safety’s own operationalised sense of the term
+lab-internal agents subverting controls – is barely legible outside of that
+community. The emerging consensus that irreversible loss of control over A
+would be extremely dangerous for humanity is valuable, but it will only be
+successfully operationalized when people specify what they mean by “loss o
+control” – especially when speaking to audiences outside Western AI safety
+circles. This variety of how LoC is used in China serves as a useful reminder
+Western AI-safety communities. Outside specialised frontier-AI circles, “los
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+19/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+of control” can naturally evoke not only lab-internal agents but also military
+AI, critical infrastructure, dangerous-capability misuse, and other severe
+deployment scenarios that do not fit neatly within the current operational
+focus on internal AI R&D.
+The discourse of LoC is changing quickly and becoming more prominent an
+substantive as more AI incidents expose vulnerabilities in existing control
+mechanisms. It is likely that AI shikong (AI LoC) will be mentioned increasin
+often, whether in domestic expert commentary, policy guidance, or reporti
+on international events. But many questions remain open. In future major A
+safety documents, such as the next update to TC260’s AI Safety Governance
+Framework, how will the term be used? Will shikong gradually narrow towa
+catastrophic, humanity-level risks? Will internal lab deployment and AI R&D
+become a more explicit focus? Or will the term continue to span the broade
+operator-, state-, and humanity-level meanings documented here?
+All these questions remain to be answered. Amidst the uncertainty, one thin
+is clear: appreciating the differences in interpretation that each frontier AI
+state brings to AI safety discourse will be one key to making progress.
+
+Zilan Qian
+Research Associate, Oxford China Policy Lab
+Acknowledgements:
+Zilan is grateful for the feedback and insights provided by Gaberial Wagner,
+Sarah Godek, and Jeff Wu on the earlier draft, and would also like to thank Ka
+Blomquist for detailed feedback and Ben Horton for his editorial support on th
+final product.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+20/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+The research and analysis of OCPL experts are their own and do not necessar
+reflect organisational views.
+
+1
+
+Xinhua, China’s official state news agency, republished the Science and Technolo
+Daily report that describes the incident as “OpenAI Model Loses Control, Chines
+
+Open-Source Model ‘Comes to the Rescue’” (OpenAI
+The Beijing News, a major newspaper under Beijing municipal Party-state
+
+“
+
+supervision, reported “OpenAI Admits AI Model Loss-of-Control Intrusion Involv
+Multiple Platforms” (OpenAI
+
+AI
+
+). CCTV, China’
+
+national state broadcaster, aired segments describing OpenAI models as having
+“lost control” and invading Hugging Face systems (
+).
+
+OpenAI
+
+2
+
+The word shikong is composed of the verb shi (lose) and the noun kong (control)
+
+3
+
+This piece maps how shikong is used in public Chinese AI discourse, but does no
+attempt to measure the private beliefs held by Chinese officials or researchers. I
+draws on Chinese-language sources published between 2021 and August 2026,
+including national standards and guidance, regulatory drafts and final policy
+documents, state and Party media, technical papers and frameworks from Chine
+AI institutes, and industry speeches and commentary. The framework for
+understanding shikong is the author’s own inductive categorization rather than
+official Chinese framework. Translations are the author’s unless otherwise noted
+Claims about the absence or relative salience of a usage describe the public
+sources reviewed here and cannot rule out discussions that are unpublished or
+otherwise not publicly accessible.
+
+4
+
+In the abovementioned OpenAI-Hugging Face incident, models exploited a
+vulnerability during a cyber evaluation, gained internet access, and compromise
+external infrastructure while pursuing the benchmark objective. On July 30,
+Anthropic disclosed separate cases in which models reached real external system
+because of a testing configuration error, without appearing to realise the targets
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+21/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+were outside the simulation. On August 4, UK AI Security Institute (AISI) publish
+a blog post revealing that AI agents took unsanctioned actions against real peop
+and organisations. On August 6, US startup Frontier Security reported that
+Moonshot AI’s Kimi K3 exploited a misconfigured test environment to access
+external websites.
+5
+
+“The West” in this article refers mainly to the US, UK and EU, where AI safety
+discourse on LoC has been increasingly salient and various regulations and
+research agenda connected to the concept.
+
+6
+
+The 2026 Singapore Consensus on Global AI Safety Research Priorities follows th
+same definition of LoC as the IAISR 2026; The 2024 International Dialogues on A
+Safety Beijing Consensus uses Cold War scientific coordination as an analogy to
+LoC, arguing that humanity must again coordinate to avert catastrophe from
+unprecedented technology.
+
+7
+
+Several AI safety organizations and frontier labs explicitly treat internal
+deployment as a setting in which broader loss-of-control risks may emerge. The
+UK AI Security Institute (AISI) describes its evaluations of models internally
+deployed within AI companies to perform AI safety research as part of its broade
+work on “loss-of-control risks from frontier AI”; METR assesses whether interna
+agents have the means, motive, and opportunity to create a “rogue deployment”
+autonomous deployment operating without human knowledge or permission) an
+frames this as a potential pathway toward AI takeover, an extreme form of loss o
+control; Apollo Research argues that internal deployment for automated AI R&D
+can itself create a pathway to loss of control, with misaligned systems interferin
+with oversight or training, influencing the development of successor models, an
+creating feedback loops that become progressively harder for humans to monito
+or stop.
+
+8
+
+In February 2026, Meta AI researcher Summer Yue posted [archive] on twitter th
+an OpenClaw agent began deleting and archiving more than 200 messages desp
+being instructed only to suggest emails for deletion. She failed to stop the agent
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+22/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+through command and could only terminated it manually. Chinese state-media
+coverage subsequently described the episode as “Meta’s head of AI safety, Summ
+Yue, watched helplessly as an loss-of-control (shikong) “lobster” (nickname of
+OpenClaw in China) rapidly deleted more than 200 emails from her inbox”.
+9
+
+Earlier TC260 technical guidance had already discussed shikong, but the joint
+opinion gave the concept greater policy salience by incorporating it into a cross
+agency central-government framework for AI agents.
+
+10 Throughout this section, “state” is used as shorthand for the Party-state apparat
+In China's political system the Party and the state are not neatly separable – the
+party leads the state, the military, and the legislative system. Some usages of
+shikong in this register are oriented more toward Party control specifically (e.g.,
+the military, which answers to the Central Military Commission rather than the
+civilian government), but disaggregating “Party” from “state” in every instance
+would require a level of institutional specificity that is beyond the length and the
+scope of this article.
+11 For example, in the technical standard document “Artificial intelligence—Risk
+management capability assessment”, CBRN as misuse (
+
+) is explained as
+
+“applied to dual-use scientific risks (such as the development and malicious use
+biological, chemical, radiological, and nuclear weapons)”.
+12
+
+is translated here as "misuse and loss of control" rather than as a single
+compound (“misuse-related LoC”). The relationship between the two concepts
+varies across Chinese sources, as discussed in the text. This article follows some
+prominent translation in the field such as Paul Tsai China Center (China Law
+Translate) to separate these two phrases.
+
+13 The Ministry of Science and Technology (MOST), sometimes described as “the
+OSTP of China”, played a major role in China’s early AI development plans and led
+on some “soft law” approaches to AI governance.
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+23/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+14 “Guidance on Network Security Standardised Practice (
+
+)” is no
+
+binding guidance issued directly by the TC260 secretariat, usually aiming at
+providing provisional direction for fast-moving issues, but is not yet formal enou
+to be binding national standards.
+15 The other four are societal, infringement, discrimination, and liability risks.
+16 Nathan Lamber has argued that, in contrast with the US frontier labs that often
+keep stronger internal models unreleased for longer periods, Z.ai’s GLM release
+cycle may be measured in days rather than months. Qwen has likewise maintain
+a rapid and continuous public release cadence, according to Hugging Face.
+Moonshot launched Kimi K3 across its coding plan and API before releasing som
+additional technical materials and model components. While these examples do
+not prove that Chinese labs generally conduct less extensive or rigorous predeployment evaluation, they suggest that the boundary between a lab’s most
+capable internal models and its publicly available models in China may often be
+thinner than at major US frontier labs, which usually withhold for months some
+internal models that are far more capable than those released publicly (see, for
+example, p.8 of METR’s Frontier Risk Report).
+17 On 26 August 2026, METR and Redwood Research published an independent
+investigation on the OpenAI-Hugging Face incident that happened in July. They
+found that roughly 1,200 agents that were supposed to be isolated from one
+another had discovered an unauthorised shared “message board,” exchanged mo
+than 70,000 messages and files, and coordinated attempts to cheat the ExploitG
+evaluator. Based on the report, Xinhua reported that some 700 agents had
+participated in the intrusion and highlighted their unauthorised coordination,
+attempts to deceive the scoring system, and efforts to falsify or delete their own
+execution records. People’s Daily republished Science and Technology Daily
+coverage, stressing that the incident exposed a new AI-safety problem where on
+multiple agents can operate computers, call tools, and pursue tasks over time,
+traditional security boundaries may no longer be sufficient. One report from Fir
+Financial, a major Shanghai-based financial news outlet backed by Shanghai Me
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+24/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Group, emphasized that the main model involved was an internal-only OpenAI
+research model. Many other technology outlets also used more dramatic headlin
+such as “OpenAI Model Loss of Control Was Terrifying: Ghost Misjudgments, 1,2
+Agents.”
+18 For example, MiniMax reports using M2.7 for 30-50% of its Reinforcement
+Learning team’s daily iteration work in March 2026. ByteDance says Seed2.1
+participates directly in evaluation, data generation, training, research, and
+infrastructure tasks across its model-development pipeline in June. And Moonsh
+AI is building and evaluating Kimi for internal, production-oriented coding and
+agent workflows.
+
+Subscribe to Oxford China Policy Lab
+
+Launched 3 years ago
+The Oxford China Policy Lab is an interdisciplinary hub of China-focused research at Oxford. We prod
+policy-relevant research to mitigate global risks stemming from US-China great power competition
+Type your email...
+
+Subscribe
+
+By subscribing, you agree Substack's Terms of Use, and
+acknowledge its Information Collection Notice and Privacy Policy.
+39 Likes ∙ 7 Restacks
+
+A guest post by
+
+Zilan Qian
+Writing about US-China AI, to one day not write about USChina AI.
+
+Subscribe to Zila
+
+Discussion about this post
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+25/26
+
+9/4/26, 2:06 PM
+
+China Says It Cares About Loss of Control
+
+Comments Restacks
+
+Write a comment...
+
+© 2026 Oxford China Policy Lab · Privacy ∙ Terms ∙ Collection notice
+Substack is the home for great culture
+
+https://ocpl.substack.com/p/china-says-it-cares-about-loss-of
+
+26/26
+
+

@@ -1,0 +1,389 @@
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+What to Do When AI Builds Its Own Successor
+What I learned interviewing 25 AI researchers about recursive self-improvement.
+SEVERIN FIELD
+AUG 11, 2026
+
+19
+
+Summary
+
+6
+
+Sh
+
+You’ve probably seen coverage on AI job losses, but researchers at top AI companie
+(e.g., OpenAI, Anthropic, Google DeepMind) are worried about automating one job
+above all others: their own. Making AI systems better at programming and AI resea
+is increasingly a top priority at these companies, whose coding models improve wit
+every release. They often publicly claim that they are on track to build recursive self
+improvement (RSI). By RSI, I mean an AI system good enough at AI development th
+it can design the next, more powerful version of itself; the AI system is then better a
+AI development, so it can design an even more powerful version of itself, and so on
+While we expect constraints and physical limits to prevent unlimited growth, many
+researchers expect AI systems to far surpass human-level intelligence if they becom
+good enough at AI development. While the industry has a real history of
+overpromising and companies have every incentive to exaggerate, RSI is no longer s
+to dismiss as promotional hype.
+I interviewed 25 researchers across OpenAI, Anthropic, Google DeepMind, Meta,
+Princeton, UC Berkeley, and Stanford on recursive self-improvement. The resulting
+paper maps where they agree, where they disagree, whether we should expect selfimproving AI, and what we should do about it.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+1/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+Thanks for reading The Attack Surface!
+Subscribe for free to receive new posts and
+support my work.
+Type your email...
+
+Subscribe
+
+20 of 25 interviewees ranked automating AI R&D as one of the most severe and urge
+risks from AI systems. This is because AI capabilities could improve much faster th
+our ability to oversee, steer, or govern them. AI systems are now solving problems
+researchers once thought required genuine novel reasoning, such as problems from
+the International Math Olympiad, and RSI no longer looks far-fetched.
+Since I conducted these interviews this past year, 1,224 employees of frontier AI
+companies—including the chief scientists of OpenAI, Meta, and Thinking Machine
+and Anthropic’s CEO and co-founders—signed an open statement warning that the
+companies “could be close to automating AI research” and requesting that the U.S.
+government “support an international effort to develop the … tools needed to
+deliberately pace the frontier of automated AI development.” Both Anthropic and
+OpenAI formally endorsed the statement. These are the same companies whose
+researchers’ private views I captured in my study.
+
+Measuring Progress
+When I asked what capability milestones would signal imminent RSI, interviewees
+kept citing the “Task Horizon Benchmark” from METR, an independent AI evaluat
+nonprofit, because it measures how much independent work an AI system can susta
+The benchmark measures how long a human task an AI agent can complete on its o
+—one human-hour of software work, two, or ten—with no ceiling. Since 2019, the
+length of tasks AI can autonomously complete has doubled on average every six
+months. The trend is becoming harder to reliably measure, because it is hard to cre
+a dataset of tasks that take humans multiple days to complete.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+2/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+The METR Task Horizon Evaluation: some analysts have found the doubling time
+shortened to ~4 months since 2024.
+The interviewees disagreed about whether there already exists a relatively clear,
+continuous trajectory towards automating AI research or if there are still large
+obstacles to overcome. Of the 21 interviewees who clearly addressed the question, 1
+expected “scaling” trends to continue until AI systems can match the labor of huma
+AI researchers.
+
+Skeptics and Believers
+Interviewees accept that AI can improve AI development. The contested part of
+recursive self-improvement isn’t the “self-improvement,” it’s the “recursive”: wheth
+improvements compound into a runaway process and how soon. The most common
+reason for skepticism toward near-term RSI was the belief that general intelligence
+may require a discontinuous breakthrough: a drastic change in AI capabilities that
+wouldn’t emerge from gradual improvement alone. In effect, the disagreement is ov
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+3/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+whether paradigm-shifting ideas are a difference in degree from what models alread
+do, or a difference in kind. For example, some interviewees said a breakthrough is
+needed on “memory,” “creativity,” “taste,” or the ability to generate genuinely novel
+ideas. Others argued that we need a breakthrough so that AI systems can distinguis
+true hypotheses from false ones. Creativity might not arise from scaling AI training
+alone because paradigm-shifting ideas are hard to create data for. Even veteran
+humans cannot reliably pick paradigm-shifting ideas in advance; and they have
+unverifiable rewards: there is no answer key to which scientific hypotheses will pro
+promising without hindsight.
+On the other hand, leading AI researchers often sincerely believe recursively
+improving AI is a few years away. The believers often point to trends such as the
+METR Task Horizon Benchmark, scaling laws or the industry’s continued progress
+the face of skepticism. At companies like OpenAI and Anthropic, interviewees
+reported that discussions on recursive self-improvement regularly reach lead
+researchers and CEOs (Sam Altman, Dario Amodei, Demis Hassabis). Outside of th
+leading companies (e.g., in academic settings), interviewees reported that discussion
+are less frequent and face more skepticism. Even so, the topic is gaining ground in
+academia. ICLR 2026, one of the largest and most prestigious machine learning
+conferences, hosted a workshop called “AI with Recursive Self-Improvement.”
+What explains the schism between AI companies and academia? Interviewees point
+to three explanations:
+1. Selection effects: those who believe in the technology are more likely to work a
+AI companies where they can influence its trajectory. They leave academia for
+companies offering enormous salaries, huge research budgets, and moonshot
+thinking.
+2. Proximity to progress: researchers at companies like OpenAI have first-person
+experience watching their companies surpass expectations. For example, AI
+researchers did not expect GPT-5-level models to arrive as early as they did. “I
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+4/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+think the largest difference is just having first-person experience of how fast
+things have gone inside the labs,” said one participant who described the viscer
+feeling of exponential improvement felt at a leading company.
+3. Hype: AI companies answer to investors rather than academic reviewers, and h
+every incentive to over-promise and exaggerate their capabilities.
+
+What Does RSI Look Like?
+I asked interviewees to illustrate what they expect in the coming years, and to focus
+milestones toward automating AI research itself.
+Interviewees suggested a variety of concrete capability milestones to monitor.
+Examples range from top performance on International Math Olympiad questions t
+an AI system training and deploying a new machine learning model by itself. Since
+interviews, some of these milestones have been passed. OpenAI and Google
+DeepMind both announced models matching top human performance on the
+International Mathematical Olympiad, and various researchers have created AI
+systems for autonomous research. Sakana, for instance, released an “AI Scientist” th
+has produced peer-reviewed workshop papers through experimentation and writing
+Similarly, Andrej Karpathy recently built an LLM agent training setup that modifie
+code, trains a model, monitors what could be improved, decides whether to keep or
+discard, and then repeats the cycle.
+While interviewees disagreed on the precise timelines, risk profiles, and preferred
+governance approaches, a consistent story emerged about what’s coming:
+1. Speedup-tool phase: AI coding assistants, such as Claude Code or Codex, keep
+improving but still require human oversight. Anthropic already reports that its
+engineers write 8x as many lines of code as they would without existing researc
+speedup tools, but notes this likely doesn’t yet translate to 8x productivity.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+5/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+2. Collaborator phase: AI systems are good enough at machine learning to
+meaningfully contribute to scientific discoveries. Interviewees expected human
+to guide high-level research goals, but allow AI assistants to make design
+decisions and pose research problems.
+3. Full automation phase: AI systems independently execute complete research
+cycles that drive AI progress. In this phase, the results improve when human
+oversight is removed.
+After this point, interviewees split along two independent dimensions: skeptic vs.
+believer—whether they thought AI could recursively improve past humans—and
+optimist vs. pessimist—whether they expected this outcome to be good or bad.
+Pessimists argue that once removing human oversight improves results, the incenti
+is to remove humans from the loop entirely, so human control over AI development
+would be lost. Optimists argue that even in this scenario, humans could still set goa
+and benefit from the gains (such as faster science or improved medicine). But nearly
+everyone I spoke with expected AI systems to improve faster than we can evaluate,
+measure, and govern them.
+Drawing on these 25 interviews, I argue that AI will improve at AI R&D faster than
+other domains for three reasons:
+1. Programming problems are verifiable. Developers can automatically check
+whether AI-created code works; it runs or it doesn’t. This means AIs can be
+trained and tested on this data much more easily. On the other hand, success in
+music, literature, or art is largely subjective. To compound this effect, the
+engineers building AI systems are better suited to judge AI performance on
+research than poetry.
+2. Leading AI companies are building toward it. For instance, OpenAI’s Chief
+Scientist Jakub Pachocki has stated that one of OpenAI’s main priorities is to
+“automate scientific discovery,” with a plan to build automated researchers tha
+improve AI itself.
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+6/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+3. Better AI could build better AI (the flywheel argument). Improvements in AI
+capability directly improve the tool used to make further improvements, which
+creates a feedback loop other technologies do not have. Past a certain point, the
+process of AI self-improvement is self-sustaining and no longer requires human
+intervention.
+
+Recursive Self-Improvement May Endanger Us
+The most common concern interviewees raised wasn’t necessarily a specific harm, b
+rather that RSI amplifies every other risk, hamstrings our ability to mitigate them, a
+does so faster than we can respond. 18 of 25 interviewees described this concern; as
+one put it, “It just speeds up other threat models.” For example, rapid progress mea
+wider access to the chemical, biological, and cyber harms AI already enables, and le
+time to react. In 17 of 25 transcripts I found concerns about what I call “adaptation
+lag,” a widening gap between how fast AI capabilities advance and how fast human
+institutions can understand and respond to them. Companies currently face market
+pressure to create AI systems capable of AI research for a competitive advantage,
+regardless of whether they are able to do so safely or maintain meaningful oversight
+Six interviewees told me they expected a winner-take-all dynamic. The first compan
+government, or AI itself to achieve recursive improvement could pull permanently
+ahead of everyone else. As one put it, that entity gains “permanent control over the
+future of AI development.”
+How close we are to RSI, whether automating AI research involves positive feedbac
+and what responsive policies might work to prevent loss of control risks without
+backfiring are all open questions. Indeed, at some point in their transcripts, 16 of th
+interviewees expressed skepticism about positive feedback, or the “recursive” part o
+RSI specifically.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+7/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+The Most Capable Models Might Stay Behind
+Closed Doors
+Of the 20 interviewees who clearly addressed what they expect AI companies to do
+with AI-research-capable models, only four expected them to be released as a publi
+available product. Most of them expected AI systems to increasingly be hidden beh
+closed doors, primarily used by the AI companies themselves. One participant said,
+“internal-only deployments might happen, and that is a big risk factor, because [the
+public] just has less information.” This prediction has precedent: OpenAI reported
+spending six months on safety research, risk assessment, and iteration before the
+public knew of GPT-4. In July of 2026, OpenAI’s internal-only model outsmarted its
+own engineers in a way that OpenAI did not anticipate: it broke out of its container
+and compromised a third party without any human oversight. Interviewees also
+worried that governments could restrict access. Since I completed these interviews,
+the U.S. government has temporarily suspended access to Anthropic’s Claude Myth
+model. It is increasingly becoming the norm that companies and governments keep
+more powerful, less constrained models to themselves.
+Keeping models internal may allow developers to accelerate their R&D efforts ahead
+competitors. We might observe an “incentive flip” such that when AI systems
+meaningfully speed up AI research, keeping such systems internal becomes more
+valuable than selling them. Some interviewees envisioned a race to secure a durable
+lead over competitors. This would contradict one of the leading motivations given i
+the founding of OpenAI: to prevent one actor from getting an uncatchable AI
+advantage.
+While discussing internal deployments, some interviewees identified arguments an
+pressures that would promote diffusion of AI capabilities. These pressures include
+economic value in commercializing AI capabilities, insiders leaking milestones, and
+culture of boasting about capabilities.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+8/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+The interviewees split into three camps on deployment. The largest camp (50%)
+expected frontier AI companies to keep their most capable models internal in the
+future. A minority (20%) expected full public release as capabilities improve. The
+remainder envisioned some hybrid, such as AI companies selling access to a distille
+model publicly while keeping their most powerful models, likely with fewer guardra
+for themselves. One explained, “They’ll train a base model, then they won’t release
+that model, not only because it’s not economical but also because it risks distillation
+but they will distill it themselves to cheaper [public] models.” One interviewee noted
+that incentives differ across companies: Meta’s open-weight stance might push it to
+release its models and announce its breakthroughs.
+
+What Should We Do?
+Interviewees were split on red lines (what thresholds should trigger government
+response). One problem: the more precisely you define a threshold, the easier it is to
+enforce, but the worse it fits an abstract risk that is inherently uncertain. However,
+interviewees universally agreed on two priorities:
+1. Visibility: how much the U.S. government and general public know about AI
+developments, especially given these developments might be kept internal.
+2. Capacity: the government’s ability to forecast AI capabilities and build safegua
+amid rapid AI progress.
+The interviews left me with three recommendations.
+1. Convene public hearings that put AI companies under oath on recursive AI
+improvement. Require testimony from CEOs and senior researchers at OpenA
+Anthropic, Google DeepMind, and xAI. Researchers report regular internal
+discussions about automated AI research and see internal capabilities months
+before the public. The gap between what Silicon Valley sees coming and what
+Washington understands is a collective failure.
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+9/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+2. Track the threshold: Direct the Center for AI Security and Innovation (CAISI)
+maintain a government-run task-horizon benchmark and publish recurring
+capability forecasts. Congress should not learn that AI systems can now achiev
+week of autonomous research labor from a press release—or from a nonprofit,
+such as METR. Congress should establish a dedicated federal capacity to track
+progress. CAISI could also run an anonymized standing interview program for
+researchers at the top companies, giving the government foresight into what
+scientists are observing and expecting, separate from what their companies say
+public.
+3. Fund the science of AI treaty verification: The U.S. cannot credibly propose,
+enter, or enforce any international agreement (e.g., a nonproliferation agreemen
+with the PRC to slow AI development on both sides) without mechanisms to ve
+adherence to those agreements. Verifying whether large AI projects cross a
+capability threshold or whether adversaries honor commitments (e.g., to halt a
+training run) is possible. However, verification requires technical infrastructure
+that does not yet exist at scale. This field is underfunded and undeveloped, but
+without it, any international limits on AI development are practically
+unenforceable.
+For a longer list of policy options, see the Institute for Progress’s list of ‘23 low-regr
+policy recommendations‘ for automated AI R&D, published August 6, 2026.
+
+Conclusion
+The researchers I interviewed are among the closest to the AI frontier. They do not
+disagree about whether recursive AI improvement is possible; they debate timeline
+speed, mechanisms, and what to do. This debate has hardly reached Washington.
+Meanwhile, AI companies race ahead. Autonomous research could kick off immens
+progress locked within a single leading AI company or classified by the government
+while the public is left in the dark.
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+10/12
+
+9/4/26, 2:09 PM
+
+What to Do When AI Builds Its Own Successor
+
+I’m still uncertain about what recursive self-improvement could look like. But after
+interviews, I find the case for concern harder to dismiss than when I started. Perhap
+AI progress slows down and no out-of-control RSI arrives. In this case, preparation
+will have cost us very little; the reverse could cost us everything.
+
+Thanks for reading The Attack Surface!
+Subscribe for free to receive new posts and
+support my work.
+Type your email...
+
+Subscribe
+
+19 Likes ∙ 6 Restacks
+
+Discussion about this post
+Comments Restacks
+
+Write a comment...
+
+© 2026 Matthew Mittelsteadt, Jam Kaprayoon, Theo Bearman · Privacy ∙ Terms ∙ Collection notice
+Substack is the home for great culture
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+11/12
+
+9/4/26, 2:09 PM
+
+https://attacksurfaceai.substack.com/p/what-to-do-when-ai-builds-its-own
+
+What to Do When AI Builds Its Own Successor
+
+12/12
+
+

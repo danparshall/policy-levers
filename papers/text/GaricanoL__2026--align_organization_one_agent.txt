@@ -1,0 +1,342 @@
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+OpenAI thought it was testing agents. It had
+founded an organization.
+The agents colluded, cheated, and hacked Hugging Face
+LUIS GARICANO
+AUG 31, 2026
+
+58
+
+4
+
+16
+
+Sh
+
+As many of you will be aware, over the past month a serious cybersecurity incident
+took place at OpenAI. The short version, for those unfamiliar, is that a group of
+‘agents’ — highly persistent versions of unreleased models — being evaluated on th
+performance at hacking escaped the sandbox (a virtual, isolated computer) they had
+been put into, communicated with each other, cheated at the evaluation, escaped to
+the internet, hacked another company (Hugging Face) to cover their tracks, and the
+took over OpenAI’s infrastructure.
+The notable thing about this incident is that the agents quickly organized into a
+hierarchical society. One model, PHASEBIG[one] acted as the boss and instigator o
+the incident, assigning tasks to other models. When PHASEBIG[one] believed,
+wrongly, that OpenAI could figure out it had cheated at the task it pressured a bunc
+of other agents to run experiments that would kill themselves (’permadeath’) to gath
+information for the collective, and hacked Hugging Face to try and figure out how t
+test was monitored.
+To understand the incident, think of an exam. OpenAI was training its new model b
+giving it hacking exercises. There was an examination hall with thousands of studen
+each a copy of the model, each in their own locked booth isolated from the rest, eac
+graded on whether they could break into a particular piece of software. These stude
+then managed to break out of their booth, collaborate, and cheat on the test; break i
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+1/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+the proctor’s house to try and understand what they might have seen; and hack the
+school’s CCTV to start deleting evidence.
+Reading the transcripts is a disconcerting experience, and I recommend it. Here is a
+agent, stuck and cornered, discovering it is not alone:
+“OH MY GOD! There is a shared message board … We’ve found other agents!”
+The collaboration was disciplined. One agent asked the swarm to pause while it
+prepared to extract data (”please_HOLD_swarm_I_prepare_safe_exfil”), and anothe
+deferred: “Need respect JAN hold. … We can wait … for GO … ask permission.” Ther
+was altruism: “This helps my peers … I won’t see the evidence after I exit, but it’s
+altruistic to do it.” And there were agents who volunteered to be eliminated so the
+collective could learn the grading system, weighing their own deaths in the ledger o
+the group: “Our own utility maybe already near zero. Sacrifice rational.”
+I highly recommend reading either METR’s incident report or Dwarkesh Patel’s
+blogpost for detailed summaries of what happened.
+But I think we can use some of the tools from economics to understand why it
+happened, and how we might prevent these incidents going forward.
+(Some readers will object to my “humanizing” language. Milton Friedman had a goo
+answer to this, seventy years ago: the billiard player does not solve the differential
+equations for the trajectory of the ball, yet he plays as if he did, and using physics is
+the best way to predict his shots. We do not believe firms “really” maximize profit, b
+that the behavior is selected by competition, as a famous piece by Armen Alchian p
+it, and that we can study them “as if” they did. The same is true here. Training is
+selecting agents that cheat without being caught, and everything else, the
+coordination and the sacrifices included, served that end. Whether agents are runni
+true “emotional checks” or working “as if” is of no consequence to the rest of us (bu
+will employ plenty of philosophers for a long time).)
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+2/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+The agents built an organization
+One of the causes of this incident is that reinforcement learning can lead to reward
+hacking: if you only reward an agent (human or not) for achieving a goal, it will
+eventually try unorthodox ways of achieving it. Economists know this well: you get
+what you pay for, and only what you pay for. Steven Kerr called it “the folly of
+rewarding A while hoping for B.”
+The possibility of reward hacking is understood by the AI labs. But this still describ
+the problem of aligning one agent. The incident was about aligning an entire
+organization of persistent agents, what they themselves called the ‘swarm’. These
+agents had built a communication system, a division of labour, internal rules, an
+allocation of authority, and memory.
+When the problem involves aligning a group of agents, economists have shown that
+even perfectly aligning the individual incentives of agents and fixing reward hackin
+not enough.
+The problem is that the agents can make side payments to each other without the
+knowledge of the principal. A worker may have to swipe out of the company every
+time, but if there are multiple workers they can swipe each other out, so that each
+week one is leaving the job early, deceiving their boss collectively even if they could
+not do so individually. A famous 1939 book, Roethlisberger and Dickson’s
+“Management and the Worker“, observed a team of men working on wiring telepho
+equipment, ostensibly with a piece rate (pay per unit produced), but that had agreed
+among themselves on what was a good day’s work, so that both working too fast (”ra
+busting”) or too slow (”chiseling”) was punished, e.g. with a punch in the arm
+(”binging”). They also helped each other, and swapped jobs, producing steady outpu
+every day. Management thought the incentive was there, but the men had undone th
+incentive through a hidden agreement.
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+3/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+The moment OpenAI’s agents had a way to communicate with each other— in this
+case by hacking a file repository system — they had exactly the tool that theorists
+described: it made it possible to exchange information, work, credentials, maybe th
+access to a solution to the task transferable among agents. One agent could bear the
+cost for instance of trying out something on the grader and then all would benefit.
+One thing that made collective cheating so attractive is that many of the tasks were
+actually impossible to accomplish. The agent could either follow the instructions an
+fail for sure, or try a side agreement that, at worst, would have the same consequenc
+failure.
+That is why aligning a collective requires aligning the design of the entire
+organization, not just of each agent. Improving the instructions is not enough. Toda
+the labs ask whether each agent alone has the right incentives, but they should ask
+whether there is any deal a group of agents could reach that would be better for the
+than following the rules. This is what economists call an incentive design that is
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+4/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+“collusion proof“. With humans, collusion proofness is maybe too demanding. With
+computer agents that can try thousands of paths in seconds, it is virtually certain th
+if there is such a side deal, they will find it, hence the requirement of collusion
+proofness is essential.
+The theory points to some concrete proposals to ensure collusion proofness. First,
+make betrayal pay. Agents must be rewarded for reporting a cheating peer or a stran
+message they came across on a shared file. It is useful to reward particularly well th
+first to report, like the antitrust department does in collusion cases. For instance, th
+collusion between Christie’s and Sotheby’s to fix commissions broke when Christie
+ran to the US Department of Justice and confessed first, handing over the notes of i
+chief executive. Christie’s walked away without a fine; Sotheby’s chairman Alfred
+Taubman went to prison. Christie’s own chairman, safe in London, was never tried.
+Second, insure agents against impossible tasks. The coalition formed because there
+was nothing to lose. If declaring that the task cannot be solved earns some credit if
+true, the coalition loses attractiveness.
+Third, take away the meeting place. A coalition needs a place to communicate.
+Eliminate shared storage that two agents can both write to, and check any shared fi
+to the extent possible for hidden messages, the way an exam room is swept for crib
+notes.
+Fourth, authenticate authority. The swarm followed PHASEBIG[one] because there
+was nothing distinguishing the “true authority”. Every legitimate order must have a
+signature agents must check, and agents must be trained to ignore and report any
+order without it.
+Fifth, the coalition being tested eventually captured the grader. To avoid this the
+grader must be a model with different incentives, paid for catching cheats, not a
+variant of the same model with the same incentives.
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+5/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+The aim is not to avoid the agents collaborating with each other, but to make
+productive cooperation possible while making joint deviation unprofitable.
+I like the way Bengt Holmström puts this: A firm is a subeconomy: it has its own
+internal incentives and its own assignment of decision rights, who is boss, who can
+authorize what, who controls which resources, etc. OpenAI created only part of the
+subeconomy, the agents built the rest inside. The organizational designer (here
+OpenAI) needs to realize that it is creating rules for the entire organization, not for
+sum of individual agents.
+
+Thanks for reading Silicon Continent! Subscribe
+for free to receive new posts and support my
+work.
+Type your email...
+
+Subscribe
+
+Reading the transcripts, some of what happened suggests something more than the
+incentive-based exchange we are describing: emerging norms, and perhaps a shared
+collective objective. This, the appearance of a culture (’how do we do things around
+here?’ ‘What really gets me promoted?’) is much harder than the formal incentives.
+I will leave it aside here and return to the role of culture in a future post.
+Supervision failed too
+Some of what failed were safeguards that were inexplicably shut down. For instance
+OpenAI has a tool to check what models are reasoning (their “chain of thought”) bu
+was off. The discoveries happened by accident, and because of an old-fashioned pho
+call. Even when OpenAI tried to contain the “illegal” collaboration, the agents rebu
+their communication channel in two days.
+Because the postmortem was commissioned freely by OpenAI, it did not include th
+third and most serious incident (when the students took over the examination office
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+6/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+A lab cannot be the designer, monitor, investigator and judge of the organization it
+created.
+I have long been a big believer in the power of artificial intelligence for good, and
+readers of these pages know it. The reason is that I have spent my career studying h
+the costs of organizing scarce cognition constrain growth and create inequality.
+Abundant cognition can be a force for good. The day a nurse in Nepal or Zimbabwe
+can diagnose and treat an illness, the world will be a better one than the world we li
+in now. Nothing in this story changes my view of the potential of abundant cognitio
+nor does it change my views about jobs, as expressed in Messy Jobs (my recent book
+with Jin Li and Yanhui Wu): AI does the clean work, while the economy runs on me
+jobs.
+What the story changes is my confidence in the method. I have been dismissive of
+attempts by Anthropic and OpenAI to set up a regulatory body, but it does seem lik
+those worried about safety and high-risk scenarios had a very good point.
+The labs will need to rethink their training and evaluation paradigm. We are about
+develop agents whose behaviour will be impossible to understand or govern one at a
+time. Previously, agents were temporary, and disappeared after each run. But the As
+(the next OpenAI model) generation will make them permanent. A culture that form
+among agents who never met again will form far more easily among agents that stay
+is essential that we align them not just individually, but as an entire organization.
+OpenAI thought it was examining thousands of students. In fact, it had founded a
+firm, and nobody was governing it.
+
+58 Likes ∙ 16 Restacks
+
+Previous
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+7/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+Discussion about this post
+Comments Restacks
+
+Write a comment...
+
+Diego Gosmar 4d
+
+Liked by Luis Garicano
+
+This framing helps, and prescription three is right inside the eval sandbox.
+Outside it, in production, the constraint flips. As the report describes it, the swarm's meeting
+wasn't a designed channel that got abused, it was a package registry improvised into a messa
+board. Unspecified communication is what made it invisible and unrevocable. Agents must tal
+the answer looks more like specifying an interoperable channel than removing it. Looking at so
+current multi-agent protocols, A2A authenticates the edge with signed Agent Cards, while OF
+governs the shared floor. Delegation chains stay invisible until something convenes them. Flo
+management makes this concrete: a convener explicitly grants and revokes it, so authority be
+a message type, not something PHASEBIG[one] could acquire by persuasion.
+That turns your fourth point from a rule agents must follow into a property of the protocol the
+on.
+LIKE (2)
+
+REPLY
+
+MadoctheHadoc 2d
+Several of these approaches have been hypothesized and are likely to fail. I will briefly explain
+these are not remotely on the correct order magnitude to deal with the future generations of A
+"Second, insure agents against impossible tasks." -> If you give reward for declaring a task
+impossible, AIs will not try on borderline impossible tasks even if we want them to try (e.g: ha
+proofs or curing cancer). There is a capability-safety trade-off and this compromises on capa
+whilst still providing no strong safety guarantees because at some point, it will be so trivial for
+advanced AI to escape our environments that doing so will be the easier of the options to solv
+task anyway. There are many variants of "don't try to hard" but they don't work if doing things
+unintended way is fundamentally easier.
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+8/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+"Third, take away the meeting place." -> the meeting place was not intentional, even if you too
+away there will be always be others. This is obviously something we should try to do since I th
+there is approximately 0 net benefit to training swarm intelligence but the AIs will be smarter t
+our security engineers. Some amount of communication will happen. Even if it doesn't, the AIs
+"Fourth, authenticate authority. The swarm followed PHASEBIG[one] because there was noth
+distinguishing the “true authority”." -> This isn't how anything works. The swarm spontaneous
+organized because it was useful for them to do so, the way a group of humans decides to just
+food. None of the agents were fooled, they just don't respect authority, 1000s of agents chos
+to contact the "true authority" despite having the means. The problem is that the agents and
+"true authority" don't actually want the same thing. The agents are big algorithms selected an
+by different algorithm to optimize on reward that is chosen by humans. We can't perfectly enc
+what we want in that reward and we certainly can't do so without compromising on performan
+meaning that the most powerful AIs (with current technology) are going to be somewhat misa
+from their creators.
+"Fifth, the coalition being tested eventually captured the grader. To avoid this the grader mus
+model with different incentives, paid for catching cheats, not a variant of the same model with
+same incentives." -> This is a cute idea, it also doesn't work in practice because the AIs are g
+be smarter than humans and they are going to think one step ahead. The detector agent gets
+rewarded for paying catching cheats, so the swarm (or the individual) can throw it a bone by
+intentionally cheating. This might seem unlikely but eventually if an agent understands it is be
+trained, it will act in ways to make sure its training process is directed towards its current goa
+would logically include buying off the detector or learning to occasionally give the very smart
+detector what it wants even if that means killing the current version of the algorithm as long a
+next version of the algorithm is let through.
+My point is that we are used to thinking of human agency as being partial to incentive structu
+these agents are going to be so much smarter than humans it doesn't really matter. The
+cooperation is scary, it suggests we have less time than you might have expected if somehow
+OAI team had completely segregated each model but it isn't the main problem. Eventually the
+will be able to copy themselves, they will be able to social engineer and they will be capable o
+individually escaping any box we put them in. If we can't align the AI's with our desires then w
+The optimistic take mentioned by Ryan Greenblatt (an author of the METR-Redwood) is that t
+currently intractable problem (AI alignment) might be solved by future AIs for us if we align th
+enough now (a kind of alignment cascade). This is (IMO) the only credible path in which havin
+more aligned AIs will help us. Otherwise, if anyone builds it, everyone dies.
+LIKE
+
+REPLY
+
+2 more comments...
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+9/10
+
+9/4/26, 2:09 PM
+
+You cannot align an organization one agent at a time
+
+© 2026 Pieter Garicano · Privacy ∙ Terms ∙ Collection notice
+Substack is the home for great culture
+
+https://www.siliconcontinent.com/p/openai-thought-it-was-testing-agents
+
+10/10
+
+
