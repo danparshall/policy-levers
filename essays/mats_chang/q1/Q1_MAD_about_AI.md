@@ -1,3 +1,5 @@
+> **Canonical copy:** `drafts/mad-about-ai/mad-about-ai.md` in `danparshall/site-canary-institute-drafts`. This is the last policy-levers version that was carried over there; further edits happen there.
+
 # Q1: What breaks MAD, exactly?
 
 # MAD about AI

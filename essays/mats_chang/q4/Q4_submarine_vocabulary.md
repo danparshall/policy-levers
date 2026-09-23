@@ -1,3 +1,5 @@
+> **Canonical copy:** `drafts/submarine-vocabulary/submarine-vocabulary.md` in `danparshall/site-canary-institute-drafts`. This is the last policy-levers version that was carried over there; further edits happen there.
+
 # On submarine vocabulary
 
 Can an airplane fly? Can a submarine swim? And most important of all: can a machine think?  This is the kind of question that starts fistfights at the NeurIPS wine-and-cheese reception, so let's not be too hasty in our response. All three questions are posed about a machine that does something akin to animals, but does it in a profoundly different way. The English word itself doesn't tell us very much about what's actually happening, so let's consider swimming more closely.

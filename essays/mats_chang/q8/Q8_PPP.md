@@ -1,3 +1,5 @@
+> **Canonical copy:** `drafts/patients-property-power/patients-property-power.md` in `danparshall/site-canary-institute-drafts`. This is the last policy-levers version that was carried over there; further edits happen there.
+
 # Patients, Property, and Power
 
 In 2022, Alexey Pertsev was arrested for running a money-laundering service, accused of obfuscating hundreds of millions stolen by the DPRK. That service was never taken offline. Indeed, no one CAN take it offline: it has no owner, no server, no off switch, and it processes record volume today.[^1] Tornado Cash is a few thousand lines of code, with no desires to speak of. AI is going to have desires of its own, and more and more people are convinced that it has moral rights.

@@ -1,3 +1,5 @@
+> **Canonical copy:** `essays/20260722_gaaia-visibility-not-control/gaaia-visibility-not-control.md` in `danparshall/site-canary-institute-drafts`. This is the last policy-levers version that was carried over there; further edits happen there.
+
 <!--
 Canary blog draft: GAAIA analysis summary.  2026-07-17, rev 2.
 Claude draft rewritten against dotfiles/VOICE.md + docs/reference/llm-writing-tics.md

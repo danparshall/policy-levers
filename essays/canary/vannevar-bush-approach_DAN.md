@@ -1,3 +1,5 @@
+> **Canonical copy:** `essays/20260802_lessons-from-vannevar/lessons-from-vannevar.md` in `danparshall/site-canary-institute-drafts`. This is the last policy-levers version that was carried over there; further edits happen there.
+
 Industrializing a small field: Lessons from Vannevar
 
 AI Safety needs to quickly transform from a "community" to an "industry"; the Manhattan Project is a good example!
