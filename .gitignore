@@ -32,11 +32,13 @@ Thumbs.db
 *.key
 *.pem
 
-# Data (large files - keep small reference data in data/reference/)
-data/raw/**
-data/processed/**
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Data — CDS-shaped layout. raw/interim/processed are symlinks into
+# ~/data/policy-levers/ (Syncthing-shared); reference/ stays real+tracked
+# for small reference files. Entries are anchored so both real dirs and
+# symlinks-into-store are covered; see check_repo_data.py in dotfiles.
+/data/raw
+/data/interim
+/data/processed
 
 # Legislative watcher runtime state + rendered digests (src/watcher — see docs/active/leg-watcher/)
 data/watcher-state/**
