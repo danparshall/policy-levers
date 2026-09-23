@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Liberation Sans", Arial, sans-serif; color: #1A2A28; font-size: 9.8pt; line-height: 1.28; }
+  .page { width: 8.5in; height: 11in; padding: 0.36in 0.5in 0.4in 0.5in; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  .hdr { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2.5px solid #1F6F6A; padding-bottom: 4px; margin-bottom: 6px; }
+  .hdr img { height: 0.52in; }
+  .hdr .who { text-align: right; font-size: 8.4pt; color: #444; line-height: 1.3; }
+  .hdr .who i { color: #666; }
+  h1 { font-size: 19pt; margin: 4px 0 2px 0; line-height: 1.15; }
+  .lede { font-size: 10.6pt; margin: 0 0 8px 0; color: #333; }
+  h2 { font-size: 12pt; color: #1F6F6A; margin: 9px 0 3px 0; }
+  p { margin: 0 0 6px 0; }
+  .two { display: flex; gap: 14px; margin-top: 4px; }
+  .two .fig { flex: 0 0 3.75in; }
+  .two .fig img { width: 100%; display: block; border: 1px solid #ddd; }
+  .two .fig .cap { font-size: 7.6pt; color: #555; margin-top: 2px; line-height: 1.25; }
+  .two .txt { flex: 1; }
+  .two.rev { flex-direction: row-reverse; }
+  .contacts { margin-top: 8px; border-top: 1px solid #bbb; padding-top: 6px; }
+  .contacts table { border-collapse: collapse; width: 100%; font-size: 9.4pt; }
+  .contacts td { padding: 2px 6px 2px 0; vertical-align: top; }
+  .contacts td.n { font-weight: bold; white-space: nowrap; width: 2.4in; }
+  .foot { position: absolute; bottom: 0.32in; left: 0.5in; right: 0.5in; border-top: 1px solid #bbb; padding-top: 5px; font-size: 8.2pt; color: #555; display: flex; justify-content: space-between; align-items: flex-end; }
+  .foot .qrs { display: flex; gap: 12px; }
+  .foot .qr { text-align: center; font-size: 6.8pt; }
+  .foot .qr img { width: 0.62in; display: block; margin: 0 auto 1px auto; }
+  .num { color: #1F6F6A; font-weight: bold; }
+  .ph { background: #fff3c4; }
+  .stat { font-size: 8.8pt; color: #333; background: #f1f6f5; border-left: 3px solid #1F6F6A; padding: 5px 8px; margin: 6px 0; }
+</style></head>
+<body>
+
+<!-- ===================== FRONT ===================== -->
+<div class="page">
+  <div class="hdr">
+    <img src="canary-logo-light.svg" alt="Canary Institute">
+    <div class="who"><i>A briefing from the Canary Institute</i><br>Daniel Parshall, Ph.D. &middot; dan@canaryinstitute.ai</div>
+  </div>
+
+  <h1>Compute verification: the missing piece that makes AI deals enforceable</h1>
+  <p class="lede">The field nobody has heard of, with about 25 people working on it full-time.</p>
+
+  <p>Any agreement about AI, whether between the US and China or between a government and a lab, is only worth anything if each side can check that the other is keeping it. We only <i>can</i> make a deal if we can <i>verify</i> that the deal is being kept. For nuclear weapons we solved this decades ago: American inspectors stood outside a Russian missile factory for twenty years, x-raying any container big enough to hold a banned missile, and Russian inspectors did the same in Utah. Precisely <i>because</i> we could verify, we were able to keep a treaty in the absence of trust.</p>
+
+  <p>"Compute verification" is the AI equivalent: confirming that a data center is doing what its owner says it is doing, without either side exposing its models or its data. It is what turns a "pacing" commitment from a press release into something you can hold someone to.</p>
+
+  <h2>1. The field is tiny.</h2>
+  <p>I dug through all of the research papers I could find on it, about 60 papers total, so you could read literally all accumulated knowledge of the field in a week or so. Depending on how you slice the numbers, there are about 72 researchers actively working on the problem, and most aren't full-time; my estimate of the global population working on it is around <span class="num">25 full-time equivalents</span>. <i>(Canary Institute survey, September 2026.)</i></p>
+
+  <h2>2. Much of the math already exists, in other fields.</h2>
+  <p>Much of the math which is needed already exists, from fields like nuclear safeguards and cryptography, but the people who created it aren't aware of AI risk, and the funders supporting AI risk aren't aware of the creators. The game theory for how often you need to inspect in order to catch a cheater was developed for nuclear arms control (Avenhaus and Krieger, Forschungszentrum J&uuml;lich). The "covert adversary" model that AI-treaty papers now use as their threat model was written by two cryptographers in 2007 (Aumann and Lindell). No one has shown up on their doorsteps asking them to port the work.</p>
+
+  <h2>3. The near-term pieces are engineering, not science.</h2>
+  <p>The field keeps its own to-do list: RAND's six-layer verification report, the Proofworks project list, and the AI-2040 verification plan all name concrete hardware tasks with person-year estimates attached. Passive optical taps that can see 800-gigabit traffic. Tamper-evident enclosures that retrofit onto existing racks (2&ndash;10 person-years). Provable memory wiping. A standing red team for the whole regime, which today does not exist anywhere. The cryptographic layer (proving what a chip computed without revealing it) is longer-term research, but a first-generation regime built on physical inspection doesn't need it. See reverse for one such design.</p>
+
+  <h2>4. Why now.</h2>
+  <p class="ph">[Dan: one or two sentences on the September 2026 developments &mdash; Anthropic's external-auditor commitment, OpenAI following, the UN statement. I can't verify these, so the wording is yours.]</p>
+
+  <div class="contacts">
+    <h2 style="margin-top:2px">For more information</h2>
+    <table>
+      <tr><td class="n">Mauricio Baker, RAND</td><td>Lead author, <i>Verifying International Agreements on AI: Six Layers of Verification</i> (RAND WR-A4077-1, 2025); the most detailed technical map of the field.</td></tr>
+      <tr><td class="n ph">Tim Fist, Institute for Progress / CNAS</td><td class="ph">Coauthor, <i>Secure, Governable Chips</i> (CNAS, 2024), on hardware-enabled mechanisms. [confirm]</td></tr>
+      <tr><td class="n">Dan Parshall, Canary Institute</td><td>dan@canaryinstitute.ai &middot; field survey and the problem list at canaryinstitute.ai/blog/most-important-problem</td></tr>
+    </table>
+  </div>
+
+  <div class="foot">
+    <div>Daniel Parshall, Ph.D. &middot; Canary Institute &middot; dan@canaryinstitute.ai<br>Former physicist (NIST) and data scientist. Canary Institute &middot; AI policy research for the public interest.</div>
+    <div class="qrs">
+      <div class="qr"><img src="qr_mip.png">THE FIELD</div>
+      <div class="qr"><img src="qr_rand.png">RAND REPORT</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== BACK ===================== -->
+<div class="page">
+  <div class="hdr">
+    <img src="canary-logo-light.svg" alt="Canary Institute">
+    <div class="who"><i>A briefing from the Canary Institute</i><br>Daniel Parshall, Ph.D. &middot; dan@canaryinstitute.ai</div>
+  </div>
+
+  <h1>How it could work: the "Glass Perimeter"</h1>
+  <p class="lede">A design for letting an adversary check what your data center is doing, without letting them steal anything.</p>
+
+  <p>Even over decades of arms-control talks between the USA and Russia, we never achieved an agreement on a chip design that both sides could trust; each side was too worried that the other's spy agency would sneak something in. But each side felt safe trusting its own domestic chips. So the Glass Perimeter (a proposal by Naci Cankaya, reframed here) is built on three principles: nobody wants to risk their models or data getting stolen; adversaries CAN agree to physical inspection; and mutually-trusted silicon is (likely) a non-starter.</p>
+
+  <p>The workaround is that anytime you want to share data, you use an optical splitter, which has no electronics and can't <i>do</i> anything to change the signal. To send, you use a pulsed LED; to receive, a photosensor. Your electronics never touch theirs. Because the boundary between the two parties is literally glass, I call it the Glass Perimeter.</p>
+
+  <div class="two">
+    <div class="fig"><img src="fig1_normal_operation.png"></div>
+    <div class="txt">
+            <p>The owner of the data center is the Operator; the adversarial counterparty is the Verifier. Each output file leaving the building runs through the optical splitter, and one copy goes to a computer owned by the Verifier (the "Hasher"), which calculates the hash of the output file. The Hasher is allowed to <i>see</i> everything exiting the building, but it is only allowed to <i>send</i> three things out: a counter identifying the output number, a hash of the output file, and a signature.</p>
+      <p>That outbound message passes back through the Operator, who can see the hash and signature, so they know that no secrets are being exfiltrated, and who can recompute the hash themselves to confirm the Verifier didn't sneak anything in either.</p>
+    </div>
+  </div>
+
+  <div class="two rev">
+    <div class="fig"><img src="fig2_audit.png"></div>
+    <div class="txt">
+            <p>Thousands of times each day, the Verifier's home base sends in a message saying "We want to audit Output #123, which had hash 0xD34DBE3F." It's always the Verifier who decides which outputs to audit. The Operator sends a copy of the data needed to reproduce the audited calculation (the original input, the model weights) into a dedicated "Audit Environment" inside the data center. Its only input and output lines are optical, which is what makes it safe for the Operator to share even very sensitive data. The Verifier's computer can do any analysis it wants at this point (e.g. confirming that there are no instructions for making bombs or novel viruses), but all that leaves the room is a signed message: this response was within-treaty, and the input files reproduced the output hash.</p>
+      <div class="stat">Fun statistics fact: the number of spot-checks needed doesn't depend on the number of racks, only on how much cheating you want to rule out. With zero failures in <i>n</i> random checks, you can be 95% sure that less than 3/<i>n</i> of the traffic is dirty. Three hundred checks a day bounds cheating below 1% of the workload; ten thousand gets you below 0.03%.</div>
+    </div>
+  </div>
+
+  <p>The Glass Perimeter is still in early development, but the remaining work mostly seems to be <i>engineering</i>: putting together existing technologies in a cost-effective manner, rather than anything relying on a <i>fundamental</i> breakthrough.</p>
+
+  <div class="foot">
+    <div>Daniel Parshall, Ph.D. &middot; Canary Institute &middot; dan@canaryinstitute.ai<br>Full write-up, with footnotes: canaryinstitute.ai/blog/cant-trust-then-verify</div>
+    <div class="qrs">
+      <div class="qr"><img src="qr_gp.png">FULL POST</div>
+    </div>
+  </div>
+</div>
+
+</body></html>
