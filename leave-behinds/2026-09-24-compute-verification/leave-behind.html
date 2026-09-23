@@ -41,30 +41,31 @@
     <div class="who"><i>A briefing from the Canary Institute</i><br>Daniel Parshall, Ph.D. &middot; dan@canaryinstitute.ai</div>
   </div>
 
-  <h1>Compute verification: the missing piece that makes AI deals enforceable</h1>
-  <p class="lede">The field nobody has heard of, with about 25 people working on it full-time.</p>
+  <h1>Compute verification: allows enforceable AI deals</h1>
+  <p class="lede">The field nobody has heard of, with only ~25 people working on it full-time.</p>
 
-  <p>Any agreement about AI, whether between the US and China or between a government and a lab, is only worth anything if each side can check that the other is keeping it. We only <i>can</i> make a deal if we can <i>verify</i> that the deal is being kept. For nuclear weapons we solved this decades ago: American inspectors stood outside a Russian missile factory for twenty years, x-raying any container big enough to hold a banned missile, and Russian inspectors did the same in Utah. Precisely <i>because</i> we could verify, we were able to keep a treaty in the absence of trust.</p>
+  <p>Any agreement about AI, whether between the US and China or between a government and a lab, is only worth anything if each side can check that the other is keeping it. We only <i>can</i> make a deal if we can <i>verify</i> that the deal is being kept. For nuclear weapons we solved this decades ago: American inspectors were outside a Russian missile factory for twenty years, x-raying any container big enough to hold a banned missile, and Russian inspectors did the same in Utah. Precisely <i>because</i> we could verify, we were able to keep a treaty in the absence of trust.</p>
 
-  <p>"Compute verification" is the AI equivalent: confirming that a data center is doing what its owner says it is doing, without either side exposing its models or its data. It is what turns a "pacing" commitment from a press release into something you can hold someone to.</p>
+  <p>"Compute verification" is the AI equivalent: confirming that a data center is doing what its owner says it is doing, without either side exposing its models or its data. It's what lets "pacing" go from a press release into an actual commitment.</p>
 
   <h2>1. The field is tiny.</h2>
-  <p>I dug through all of the research papers I could find on it, about 60 papers total, so you could read literally all accumulated knowledge of the field in a week or so. Depending on how you slice the numbers, there are about 72 researchers actively working on the problem, and most aren't full-time; my estimate of the global population working on it is around <span class="num">25 full-time equivalents</span>. <i>(Canary Institute survey, September 2026.)</i></p>
+  <p>I dug through all of the research papers I could find on it, about 60 papers total (few enough to read literally all accumulated knowledge of the field in a week or so). Depending on how you slice the numbers, there are about 72 researchers actively working on the problem, and most aren't full-time; my estimate of the global population working on it is around <span class="num">25 full-time equivalents</span>. <i>(Canary Institute survey, September 2026.)</i></p>[NEEDS LINK]
 
-  <h2>2. Much of the math already exists, in other fields.</h2>
-  <p>Much of the math which is needed already exists, from fields like nuclear safeguards and cryptography, but the people who created it aren't aware of AI risk, and the funders supporting AI risk aren't aware of the creators. The game theory for how often you need to inspect in order to catch a cheater was developed for nuclear arms control (Avenhaus and Krieger, Forschungszentrum J&uuml;lich). The "covert adversary" model that AI-treaty papers now use as their threat model was written by two cryptographers in 2007 (Aumann and Lindell). No one has shown up on their doorsteps asking them to port the work.</p>
+  <h2>2. Much of the work already exists, in other fields.</h2>
+  <p>Much of the work which is needed already exists, from fields like nuclear safeguards and cryptography, but the people who created it aren't aware of AI risk, and the funders supporting AI risk aren't aware of the creators. The game theory for how often you need to inspect in order to catch a cheater was developed for nuclear arms control (Avenhaus and Krieger). The "covert adversary" model that AI-treaty papers now use as their threat model was written by two cryptographers in 2007 (Aumann and Lindell). No one has shown up on their doorsteps asking them to port the work.</p>
 
   <h2>3. The near-term pieces are engineering, not science.</h2>
-  <p>The field keeps its own to-do list: RAND's six-layer verification report, the Proofworks project list, and the AI-2040 verification plan all name concrete hardware tasks with person-year estimates attached. Passive optical taps that can see 800-gigabit traffic. Tamper-evident enclosures that retrofit onto existing racks (2&ndash;10 person-years). Provable memory wiping. A standing red team for the whole regime, which today does not exist anywhere. The cryptographic layer (proving what a chip computed without revealing it) is longer-term research, but a first-generation regime built on physical inspection doesn't need it. See reverse for one such design.</p>
+  <p>The field keeps its own to-do list: RAND's six-layer verification report, the Proofworks project list, and the AI-2040 verification plan all identif concrete hardware tasks with person-year estimates attached. Passive optical taps that can see 800-gigabit traffic. Tamper-evident enclosures that retrofit onto existing racks (2&ndash;10 person-years). Provable memory wiping. A standing red team for the whole regime, which today does not exist anywhere. The cryptographic layer (proving what a chip computed without revealing it) is longer-term research, but a first-generation regime built on physical inspection doesn't need it. See reverse for one such design.</p>
 
   <h2>4. Why now.</h2>
-  <p class="ph">[Dan: one or two sentences on the September 2026 developments &mdash; Anthropic's external-auditor commitment, OpenAI following, the UN statement. I can't verify these, so the wording is yours.]</p>
+  <p class="ph">The public is growing increasingly concerned about risks from AI, both economic and existential.  Our current situation is akin to a stampede, in which no one can stop because no one else is stopping.  The technology to slow that stampede is *almost* within our grasp, we just need to direct research time and attention to it.
+  </p>
 
   <div class="contacts">
     <h2 style="margin-top:2px">For more information</h2>
     <table>
       <tr><td class="n">Mauricio Baker, RAND</td><td>Lead author, <i>Verifying International Agreements on AI: Six Layers of Verification</i> (RAND WR-A4077-1, 2025); the most detailed technical map of the field.</td></tr>
-      <tr><td class="n ph">Tim Fist, Institute for Progress / CNAS</td><td class="ph">Coauthor, <i>Secure, Governable Chips</i> (CNAS, 2024), on hardware-enabled mechanisms. [confirm]</td></tr>
+      <tr><td class="n ph">UNSURE, MAYBE: Tim Fist, Institute for Progress / CNAS</td><td class="ph">Coauthor, <i>Secure, Governable Chips</i> (CNAS, 2024), on hardware-enabled mechanisms. [confirm]</td></tr>
       <tr><td class="n">Dan Parshall, Canary Institute</td><td>dan@canaryinstitute.ai &middot; field survey and the problem list at canaryinstitute.ai/blog/most-important-problem</td></tr>
     </table>
   </div>
@@ -103,8 +104,9 @@
   <div class="two rev">
     <div class="fig"><img src="fig2_audit.png"></div>
     <div class="txt">
-            <p>Thousands of times each day, the Verifier's home base sends in a message saying "We want to audit Output #123, which had hash 0xD34DBE3F." It's always the Verifier who decides which outputs to audit. The Operator sends a copy of the data needed to reproduce the audited calculation (the original input, the model weights) into a dedicated "Audit Environment" inside the data center. Its only input and output lines are optical, which is what makes it safe for the Operator to share even very sensitive data. The Verifier's computer can do any analysis it wants at this point (e.g. confirming that there are no instructions for making bombs or novel viruses), but all that leaves the room is a signed message: this response was within-treaty, and the input files reproduced the output hash.</p>
-      <div class="stat">Fun statistics fact: the number of spot-checks needed doesn't depend on the number of racks, only on how much cheating you want to rule out. With zero failures in <i>n</i> random checks, you can be 95% sure that less than 3/<i>n</i> of the traffic is dirty. Three hundred checks a day bounds cheating below 1% of the workload; ten thousand gets you below 0.03%.</div>
+            <p>Thousands of times each day, the Verifier's home base sends in a message saying "We want to audit Output #123, which had hash 0xD34DBE3F" (it's always the Verifier who decides which outputs to audit). The Operator sends a copy of the data needed to reproduce the audited calculation (the original input, the model weights, etc.) into a dedicated "Audit Environment" inside the data center. Its only input and output lines are optical, which is what makes it safe for the Operator to share even very sensitive data. The Verifier's computer can do any analysis it wants at this point (e.g. confirming no instructions for CBRN dangers or recursive-self improvement), but all that leaves the room is a signed message providing yes/no answers for: Did the input files reproduce the hash? Was the response within treaty?
+            </p>
+      <div class="stat">The number of spot-checks needed doesn't depend on the volume of responses, only on how much cheating you want to rule out. With zero failures in <i>n</i> random checks, you can be very confident that less than 3/<i>n</i> of the traffic is dirty. Three hundred checks a day bounds cheating below 1% of the workload; ten thousand gets you below 0.03%.</div>
     </div>
   </div>
 
