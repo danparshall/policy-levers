@@ -84,18 +84,18 @@ floor, free movement around all sides. No dead-end sections found for Russell; t
 non-connecting memory may be Dirksen (E-shape). Full loop ≈ 1,400 ft ≈ 5 min.
 
 ### Actual sequence (from Dan, live; outcomes/names still to fill in)
-Morning leg (~10:30–12:55 ET), 14 confirmed dropoffs + 1 uncertain:
+Morning leg (~10:30–12:55 ET), 18 confirmed dropoffs + 1 uncertain:
 - Dirksen 1: Young SD-185, Tillis SD-113 (third touch).
 - Hart 1: Rick Scott SH-110 (third dropoff).
 - Hart 5 (first pass): Curtis SH-502 — met Dan's Utah contact.
 - Hart 7 (~11:46–12:30): Lankford SH-731, Van Hollen SH-730, Heinrich SH-709, Warner SH-703,
-  McCormick SH-702, Reed SH-728. Rounds SH-716 — UNCERTAIN, Dan to confirm.
+  McCormick SH-702, Reed SH-728, Peters SH-724, Sullivan SH-706, Rosen SH-713, Schatz SH-722
+  — the entire floor. Rounds SH-716 — UNCERTAIN, Dan to confirm.
 - Hart 5 (second pass, ~12:30–12:55): Blumenthal SH-503, Blunt Rochester SH-513, Kelly SH-516,
   Cantwell SH-511 — staff said no AI LA in the personal office; referred Dan to Commerce
   Committee minority staff at SH-428. Not yet visited (Dan at a congress.gov meeting at
   Madison/LOC ~13:00; plans to return to Hart for SH-428 later).
-- Not visited on 7: Peters 724, Sullivan 706, Rosen 713, Schatz 722 (unless Dan says otherwise).
-Pace: Hart 7 + Hart 5 + Cantwell referral ≈ 10–11 doors in ~71 min.
+Pace: Hart 7 (14 offices) + Hart 5 + Cantwell referral ≈ 14–15 doors in ~71 min.
 
 Afternoon plan (Russell): Kennedy 437 → Cotton 326 → Lee 363 (new; downwinders framing) →
 Alsobrooks 374 → Hawley 381 → Moody 387 → Paul 295 if time. Then SH-428 committee staff.
