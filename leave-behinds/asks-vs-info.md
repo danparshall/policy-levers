@@ -18,9 +18,11 @@ For each leave-behind / interaction, log:
 |------|---------|-----------|--------------------|----------------|--------------------|-------|
 | 2026-02-27 | Hill day — Pentagon/Anthropic crisis (10 offices) | 4 | 6 (situation, 4 "why this matters" subsections, pull-quote) | ~25% | **No** — pre-Canary, individual constituent | See `2026-02-27-pentagon-anthropic-one-pager-content.md` |
 | 2026-04-15 | Hill day — AIRE Act (20 offices) | 3 (oppose preemption, support S.2938, sign Dear Colleague to Cruz) | ~7 (polling, capability trajectory, economic reach, Brookings, chart, CEO statements, "grown not programmed") | ~12% | **No** — Canary not yet incorporated | See `2026-04-15-canary-leave-behind-content.md` |
+| 2026-09-24 | Hill day — compute verification (field awareness) | 0 | 5 (nuclear-verification framing, field size, math-exists-elsewhere, engineering to-do list, why-now) + full Glass Perimeter explainer on reverse | ~0% | **No** — no asks; educational | See `2026-09-24-compute-verification-leave-behind-content.md` |
 
 ## Trend / calibration notes
 
 - The Feb 27 one-pager was 25% asks by area — that's high. The April 15 two-pager dropped to ~12%. Intentional or not, the trajectory is moving in the right direction.
 - Once Canary is incorporated and 501(h) is elected, the cap applies to *expenditures*, not document area. The ratio above is a proxy: the more lobbying-coded a document is, the more its production/distribution costs count against the cap.
+- Sept 24 compute-verification sheet is 0 asks by design: purely field-awareness. Establishes that a Canary leave-behind can be entirely educational, which is the pattern to prefer when the goal is a relationship rather than a vote.
 - "A line or two on a larger doc" target → roughly 5-10% by area. April 15 is at the upper end; Feb 27 was over.
