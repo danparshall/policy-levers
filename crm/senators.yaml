@@ -301,9 +301,13 @@ senators:
       - banking
       - veterans
     ai_role: null
-    posture: cold_opportunistic
+    posture: warming_repeat_visit  # was cold_opportunistic; corrected 2026-09-24 — two prior touches
     framing: catastrophic_statutory
-    notes: NC tech corridor. Opportunistic add during Dirksen sweep.
+    notes: |
+      NC tech corridor. Not seeking reelection — freedom to speak; was the
+      only R office publicly on record pushing back (Feb 2026).
+      Contact history: 2026-02-27 spoke with Emily, got military LA card;
+      2026-04-15 card from Noah Bryant (contacts.yaml). Drop names on next visit.
 
   rickscott:
     name: Rick Scott
@@ -378,6 +382,98 @@ senators:
 
 
 # ===== House — referred contacts =====
+  # --- New-interest offices, added 2026-09-24 (post Sept-2026 Overton shift) ---
+  # Source for "expressed interest": agent-briefs/20260923_ai_risk_overton_window_briefing_detailed.md
+  # (Congress section is Politico/Zvi-sourced, not spot-checked — verify quotes before citing to staff)
+
+  curtis:
+    name: John Curtis
+    party: R
+    state: UT
+    office: SH-502
+    phone: "(202) 224-5251"
+    committees:
+      - commerce
+      - foreign-relations
+      - environment-public-works
+      - small-business
+    ai_role: "Called for immediate AI hearings w/ Blunt Rochester (Politico, 2026-09-21)"
+    posture: new_interest_sep2026
+    framing: direct
+    notes: |
+      Freshman (Romney seat). "Show that we're adults in the room." Bipartisan
+      by brand; China focus in own bio. Best fit in the new-interest group for
+      compute-verification sheet. First visit 2026-09-24.
+
+  blunt-rochester:
+    name: Lisa Blunt Rochester
+    party: D
+    state: DE
+    office: SH-513
+    phone: "(202) 224-2441"
+    committees:
+      - commerce
+    ai_role: "Called for immediate AI hearings w/ Curtis (Politico, 2026-09-21)"
+    posture: new_interest_sep2026
+    framing: direct
+    notes: |
+      Freshman. Curtis's partner on the hearings call — the bipartisan pair.
+      Same floor as Curtis. First visit 2026-09-24.
+
+  kelly:
+    name: Mark Kelly
+    party: D
+    state: AZ
+    office: SH-516
+    phone: "(202) 224-2235"
+    committees:
+      - armed-services
+      - intelligence
+      - environment-public-works
+    ai_role: "Commented on Coxon/Hubinger thread within 48h (briefing, secondary)"
+    posture: new_interest_sep2026
+    framing: direct
+    notes: |
+      Pragmatic-centrist brand; test pilot / astronaut — verification-instruments
+      pitch should land. Armed Services + Intel = squarely in lane. First visit 2026-09-24.
+
+  kennedy:
+    name: John Kennedy
+    party: R
+    state: LA
+    office: SR-416  # sources conflict: 416 (2025 LA delegation PDF) vs 437 (trackbill/legilist) — verify on lobby board
+    phone: "(202) 224-4623"
+    committees:
+      - appropriations
+      - banking
+      - budget
+      - judiciary
+    ai_role: "Sponsor, AI Emergency Button Act (kill switch); UC blocked by Paul 2026-09-16"
+    posture: new_interest_sep2026
+    framing: direct
+    notes: |
+      Already convinced and impatient ("the weenie way out"), not skeptical.
+      Verification is what makes his bill real — that's the pitch.
+
+  paul:
+    name: Rand Paul
+    party: R
+    state: KY
+    office: SR-295
+    phone: "(202) 224-4343"
+    committees:
+      - foreign-relations
+      - homeland-security  # ranking
+      - help
+      - small-business
+    ai_role: "Blocked Kennedy kill-switch UC 2026-09-16; wants 'as many facts as possible', proposed study panel"
+    posture: skeptical_open
+    framing: facts_first
+    notes: |
+      Literal "skeptical but open." Compute verification IS the facts-first
+      answer. Skipped 2026-09-24 for same-week optics; follow-up target,
+      not skip list.
+
 representatives:
 
   foster-house:

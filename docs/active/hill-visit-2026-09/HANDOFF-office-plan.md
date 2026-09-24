@@ -52,3 +52,37 @@ Skip today: Cruz SR-167 (gatekeeper; no ask, so nothing to gate), Schumer, Fette
 - Create `crm/visits/2026-09-24-hill-day/{summary.md,followups.yaml}` in the April format.
 - Update `posture` fields in senators.yaml where the reception moved.
 - Log the session on `main` (`docs/active/main/convos/`), one entry in RESEARCH_LOG.md.
+
+## Revision 2026-09-24 14:30 UTC (web session, after Overton-window briefing)
+
+Dan asked whether to prioritize offices that newly expressed interest during the 9–23 Sept
+shift (source: `agent-briefs/20260923_ai_risk_overton_window_briefing_detailed.md`; its
+Congress section is Politico/Zvi-sourced and not spot-checked). Answer: yes, and it barely
+costs route time — the new-interest offices cluster onto the existing floors.
+
+### Office numbers verified 2026-09-24
+- Curtis SH-502, Blunt Rochester SH-513, Kelly SH-516 → **Hart 5 is now a four-office cluster**
+  with Blumenthal SH-503.
+- Kennedy: Russell 4, sources conflict 416 vs 437 — check the lobby board.
+- Paul SR-295 (Russell 2). Foreign Relations + HSGAC ranking — more in-lane than his UC block suggests.
+- Young SD-185, Tillis SD-113 (Dirksen 1). Tillis was `cold_opportunistic` in senators.yaml but
+  had two prior touches (Feb + Apr) — corrected to `warming_repeat_visit`.
+
+### Revised route
+- Morning, Hart: 7 (Van Hollen first — constituent AND on the commenters list; Rounds; Heinrich;
+  Warner) → elevator to 5 (Curtis, Blunt Rochester, Kelly, Blumenthal). If cutting, cut Heinrich
+  before anyone on 5.
+- Afternoon, Russell: 4 (Kennedy) → 3 (Alsobrooks, Hawley, Cotton, Moody) → 2 (Paul, only if time).
+  Cotton SR-326 is next to the Caucus Room (rotunda side), likely a different side of the square
+  from the 370s–380s; ~2–3 min, sequence him first or last.
+- Skip: Schmitt (hostile to independent evaluation), Cruz (unchanged), Lee (SR-361A, no).
+
+### Russell connectivity (Dan's question)
+Couldn't retrieve a floor plan (senate.gov map is JS; AACAP PDF blocks fetch). AOC + NFB
+navigation guide: hollow rectangle since the 1933 First St. wing, one perimeter corridor per
+floor, free movement around all sides. No dead-end sections found for Russell; the
+non-connecting memory may be Dirksen (E-shape). Full loop ≈ 1,400 ft ≈ 5 min.
+
+### Actual sequence (fill in from Dan)
+- Dirksen, ~14:30 UTC: Young SD-185 done. Outcome: TBD.
+- Tillis SD-113: offered as add-on if time. TBD.
