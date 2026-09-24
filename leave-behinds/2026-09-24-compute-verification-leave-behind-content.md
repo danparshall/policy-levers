@@ -67,8 +67,8 @@ Dan Parshall, Canary Institute                   dan@canaryinstitute.ai · field
 
 Daniel Parshall, Ph.D. · Canary Institute · dan@canaryinstitute.ai
 Former physicist (NIST) and data scientist. Canary Institute · AI policy research for the public interest.                   THE FIELD    RAND REPORT
-                                                                                                               A briefing from the Canary Institute
-  CA NARY                                                                                           Daniel Parshall, Ph.D. · dan@canaryinstitute.ai
+                                                                                                         A briefing from the Canary Institute
+  CA NARY                                                                                     Daniel Parshall, Ph.D. · dan@canaryinstitute.ai
    I NSTITUTE
        FOR AI POLICY
 
@@ -77,49 +77,50 @@ Former physicist (NIST) and data scientist. Canary Institute · AI policy resear
 
 How it could work: the "Glass Perimeter"
 A design for letting an adversary check what your data center is doing, without letting them steal anything.
-Even over decades of arms-control talks between the USA and Russia, we never achieved an agreement on a chip design
-that both sides could trust; each side was too worried that the other's spy agency would sneak something in. But each side
-felt safe trusting its own domestic chips. So the Glass Perimeter (a proposal by Naci Cankaya, reframed here) is built on
-three principles: nobody wants to risk their models or data getting stolen; adversaries CAN agree to physical inspection; and
-mutually-trusted silicon is (likely) a non-starter.
+Even over decades of arms-control talks between the USA and Russia, we never achieved an agreement on a chip design that
+both sides could trust. But each side felt safe trusting its own domestic chips. So the Glass Perimeter is built on three principles:
+nobody wants to risk their models or data getting stolen; adversaries CAN agree to physical inspection; and mutually-trusted
+silicon is (likely) a non-starter.
 The workaround is that anytime you want to share data, you use an optical splitter, which has no electronics and can't do
-anything to change the signal. To send, you use a pulsed LED; to receive, a photosensor. Your electronics never touch
-theirs. Because the boundary between the two parties is literally glass, I call it the Glass Perimeter.
-                                                                                The owner of the data center is the Operator; the
-                                                                                adversarial counterparty is the Verifier. Each output file
-                                                                                leaving the building runs through the optical splitter, and
-                                                                                one copy goes to a computer owned by the Verifier (the
-                                                                                "Hasher"), which calculates the hash of the output file. The
-                                                                                Hasher is allowed to see everything exiting the building, but
-                                                                                it is only allowed to send three things out: a counter
-                                                                                identifying the output number, a hash of the output file, and
-                                                                                a signature.
-                                                                                That outbound message passes back through the Operator,
-                                                                                who can see the hash and signature, so they know that no
-                                                                                secrets are being exfiltrated, and who can recompute the
-                                                                                hash themselves to confirm the Verifier didn't sneak
-                                                                                anything in either.
+anything to change the signal. To send, you use a pulsed LED; to receive, a photosensor. Your electronics never touch theirs.
+Because the boundary between the two parties is literally glass, I call it the Glass Perimeter.
+                                                                                          The owner of the data center is the Operator;
+                                                                                          the adversarial counterparty is the Verifier.
+                                                                                          Each output file leaving the building runs
+                                                                                          through the optical splitter, and one copy
+                                                                                          goes to a computer owned by the Verifier
+                                                                                          (the "Hasher"), which calculates the hash of
+                                                                                          the output file. The Hasher is allowed to see
+                                                                                          everything exiting the building, but it is only
+                                                                                          allowed to send three things out: a counter
+                                                                                          identifying the output number, a hash of the
+                                                                                          output file, and a signature.
+                                                                                          That outbound message passes back
+                                                                                          through the Operator, who can see the hash
+                                                                                          and signature, so they know that no secrets
+                                                                                          are being exfiltrated, and who can recompute
+                                                                                          the hash themselves to confirm the Verifier
+                                                                                          didn't sneak anything in either.
 
-Thousands of times each day, the Verifier's home base
-sends in a message saying "We want to audit Output #123,
-which had hash 0xD34DBE3F" (it's always the Verifier who
-decides which outputs to audit). The Operator sends a copy
-of the data needed to reproduce the audited calculation (the
-original input, the model weights, etc.) into a dedicated
-"Audit Environment" inside the data center. Its only input
-and output lines are optical, which is what makes it safe for
-the Operator to share even very sensitive data. The
-Verifier's computer can do any analysis it wants at this point
-(e.g. confirming no instructions for CBRN dangers or
-recursive-self improvement), but all that leaves the room is
-a signed message providing yes/no answers for: Did the
-input files reproduce the hash? Was the response within
-treaty?
-The number of spot-checks needed doesn't depend on the
-volume of responses, only on how much cheating you want
-to rule out. With zero failures in three hundred random
-checks a day, you can be confident that less than 1% of the
-workload is dirty.
+Thousands of times each day, the Verifier's
+home base sends in a message saying "We
+want to audit Output #123" (it's always the
+Verifier who decides which outputs to audit).
+The Operator sends a copy of the data
+needed to reproduce the audited calculation
+(the original input, the model weights, etc.)
+into a dedicated "Audit Environment" inside
+the data center. The parties never have to
+share chips; they communicate only through
+optical links.
+
+The Verifier's computer can do any analysis it
+wants at this point (e.g. confirming no
+instructions for CBRN dangers or recursive-
+self improvement), but all that leaves the
+room is a signed message providing yes/no
+answers for: Did the input files reproduce the
+hash? Was the response within treaty?
 
   The Glass Perimeter is still in early development, but the remaining work mostly seems to be engineering: putting together existing
   technologies in a cost-effective manner, rather than anything relying on a fundamental breakthrough.
@@ -128,5 +129,5 @@ workload is dirty.
 
 
 Daniel Parshall, Ph.D. · Canary Institute · dan@canaryinstitute.ai
-Full write-up, with footnotes: canaryinstitute.ai/blog/cant-trust-then-verify                                                           FULL POST
+Full write-up, with footnotes: canaryinstitute.ai/blog/cant-trust-then-verify                                                     FULL POST
 ```
