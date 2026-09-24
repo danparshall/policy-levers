@@ -15,7 +15,7 @@
   h2 { font-size: 12pt; color: #1F6F6A; margin: 9px 0 3px 0; }
   p { margin: 0 0 6px 0; }
   .two { display: flex; gap: 14px; margin-top: 4px; }
-  .two .fig { flex: 0 0 3.75in; }
+  .two .fig { flex: 0 0 4.7in; }
   .two .fig img { width: 100%; display: block; border: 1px solid #ddd; }
   .two .fig .cap { font-size: 7.6pt; color: #555; margin-top: 2px; line-height: 1.25; }
   .two .txt { flex: 1; }
@@ -79,7 +79,7 @@
 </div>
 
 <!-- ===================== BACK ===================== -->
-<div class="page">
+<div class="page" style="font-size:9.2pt">
   <div class="hdr">
     <img src="canary-logo-light.svg" alt="Canary Institute">
     <div class="who"><i>A briefing from the Canary Institute</i><br>Daniel Parshall, Ph.D. &middot; dan@canaryinstitute.ai</div>
@@ -88,7 +88,7 @@
   <h1>How it could work: the "Glass Perimeter"</h1>
   <p class="lede">A design for letting an adversary check what your data center is doing, without letting them steal anything.</p>
 
-  <p>Even over decades of arms-control talks between the USA and Russia, we never achieved an agreement on a chip design that both sides could trust; each side was too worried that the other's spy agency would sneak something in. But each side felt safe trusting its own domestic chips. So the Glass Perimeter (a proposal by Naci Cankaya, reframed here) is built on three principles: nobody wants to risk their models or data getting stolen; adversaries CAN agree to physical inspection; and mutually-trusted silicon is (likely) a non-starter.</p>
+  <p>Even over decades of arms-control talks between the USA and Russia, we never achieved an agreement on a chip design that both sides could trust. But each side felt safe trusting its own domestic chips. So the Glass Perimeter is built on three principles: nobody wants to risk their models or data getting stolen; adversaries CAN agree to physical inspection; and mutually-trusted silicon is (likely) a non-starter.</p>
 
   <p>The workaround is that anytime you want to share data, you use an optical splitter, which has no electronics and can't <i>do</i> anything to change the signal. To send, you use a pulsed LED; to receive, a photosensor. Your electronics never touch theirs. Because the boundary between the two parties is literally glass, I call it the Glass Perimeter.</p>
 
@@ -105,7 +105,7 @@
     <div class="txt">
             <p>Thousands of times each day, the Verifier's home base sends in a message saying "We want to audit Output #123, which had hash 0xD34DBE3F" (it's always the Verifier who decides which outputs to audit). The Operator sends a copy of the data needed to reproduce the audited calculation (the original input, the model weights, etc.) into a dedicated "Audit Environment" inside the data center. Its only input and output lines are optical, which is what makes it safe for the Operator to share even very sensitive data. The Verifier's computer can do any analysis it wants at this point (e.g. confirming no instructions for CBRN dangers or recursive-self improvement), but all that leaves the room is a signed message providing yes/no answers for: Did the input files reproduce the hash? Was the response within treaty?
             </p>
-      <p>The number of spot-checks needed doesn't depend on the volume of responses, only on how much cheating you want to rule out. With zero failures in three hundred random checks a day, you can be confident that less than 1% of the workload is dirty.</p>
+      
     </div>
   </div>
 
