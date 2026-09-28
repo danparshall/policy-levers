@@ -1,5 +1,22 @@
 # Research Log — main (misc / cross-line sessions)
 
+## Session: 2026-09-23 — essay_pointers_and_housekeeping
+### Topics Explored
+- Sync for the web agent's compute-verification leave-behind; pushed Dan's HTML edit pass
+- Committed all essay drafts; the last version of each now points to its canonical copy in `site-canary-institute-drafts`
+- Stray `.claude/settings.local.json` → global ignore, and a trace of claude-exit's half-finished July uninstall
+
+### Provisional Findings
+- Six essays map to drafts-repo copies (full table in the convo); Horizon has none
+- The claude-exit project-local allows likely came from "always allow" clicks after the global allow was removed (unverified)
+
+### Results
+- None. Commits: `8add1a4` (essay pointers), `ad07c10` (leave-behind HTML); dotfiles `b56d0e9` (ignore), `eb53cd4` (claude-exit plan)
+
+### Next Steps
+- Another agent implements dotfiles `docs/active/claude-exit-reenable/plans/01_reenable_claude_exit.md`
+- Decide whether the Horizon essay needs a drafts-repo home
+
 ## Session: 2026-09-06 — race_models_paper_cluster
 ### Topics Explored
 - Move `racing_to_precipice.pdf` (Armstrong, Bostrom & Shulman 2013) from general-ai-abilities → policy-levers via add-paper (`FirstAuthor_LastAuthor__YYYY--slug.pdf` rename, text extraction, INDEX + SUMMARIES entries in rich-format style)
