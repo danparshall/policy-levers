@@ -8,6 +8,14 @@ The tool as built must have surfaced:
 Simulation: single run on 2026-06-23 against empty state with a 30-day backlog window
 (equivalent to having run daily since late May, compressed). Real adapters parse
 June fixtures; only network fetch is bypassed. Fixture provenance: tests/fixtures/README.md.
+
+Caveat on the acceptance claim: the three June fixtures are CONSTRUCTED, not
+captured — no Wayback snapshots existed for docs.house.gov RSS or the Trahan press
+page, and the congress.gov API only serves a bill's *current* latestAction. The
+historical facts in them (GAAIA 06-04, H.R. 9363 intro 06-18, SY00 markup 06-25)
+are real; the payload bytes are our reconstruction in each source's live-verified
+schema. So this test proves the pipeline handles those events in those schemas,
+not that the exact June wire bytes would have parsed.
 """
 
 import json

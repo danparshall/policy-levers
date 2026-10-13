@@ -16,6 +16,8 @@ Design invariants:
 
 from __future__ import annotations
 
+import logging
+import re
 import time
 from datetime import date, timedelta
 from typing import TYPE_CHECKING
@@ -36,6 +38,26 @@ USER_AGENT = (
     "(+https://github.com/danparshall/policy-levers; parshall.dan+leg-watcher@gmail.com)"
 )
 DEFAULT_TIMEOUT = 30  # seconds
+# Longest we'll honor a 429 Retry-After before giving up on the source for this run.
+# Congress.gov's hourly budget can advertise waits of an hour; a cron run must not
+# stall that long — the source just shows up in the health section instead.
+RETRY_AFTER_CAP = 60  # seconds
+RETRY_AFTER_DEFAULT = 5  # seconds, when a 429 carries no usable header
+
+# Bill-id slugs as tracked in keywords.yaml and as congress.gov spells its URL
+# segments: hr9925, s2938, hjres45, sconres7, ... Alias-only entries (an unnumbered
+# discussion draft) don't match and have no endpoint.
+_BILL_SLUG_RE = re.compile(r"^(hr|s|hjres|sjres|hres|sres|hconres|sconres)(\d+)$")
+
+log = logging.getLogger(__name__)
+
+
+def _retry_after_seconds(resp: requests.Response) -> float | None:
+    raw = (resp.headers.get("Retry-After") or "").strip()
+    try:
+        return float(raw)
+    except ValueError:
+        return None  # absent or HTTP-date form; treat as unknown
 
 
 def http_get(
@@ -60,7 +82,17 @@ def http_get(
                 continue
             raise SourceError(f"transport error fetching {url}: {exc}") from exc
         if resp.status_code >= 400:
-            # 4xx often means we're wrong (bad selectors, bad params); don't retry.
+            if resp.status_code == 429:
+                # Rate-limited (congress.gov's 5000/hr budget). Back off for the
+                # advertised interval once; beyond the cap, fail fast and say why.
+                header = resp.headers.get("Retry-After")
+                delay = _retry_after_seconds(resp)
+                wait = RETRY_AFTER_DEFAULT if delay is None else delay
+                if attempt == 1 and wait <= RETRY_AFTER_CAP:
+                    time.sleep(wait)
+                    continue
+                raise SourceError(f"rate-limited: HTTP 429 from {url} (Retry-After: {header!r})")
+            # Other 4xx usually means we're wrong (bad selectors, bad params); don't retry.
             if 400 <= resp.status_code < 500:
                 raise SourceError(f"HTTP {resp.status_code} from {url}")
             # 5xx: retry once, then give up
@@ -133,13 +165,15 @@ class CongressApiTrackedSource:
         endpoints: list[tuple[str, str]] = []
         for bill in self._keywords.tracked_bills:
             slug = bill.id.strip().lower()
-            # Split at the first digit: 'hr9925' -> ('hr', '9925'), 's2938' -> ('s', '2938')
-            for i, ch in enumerate(slug):
-                if ch.isdigit():
-                    prefix, number = slug[:i], slug[i:]
-                    if prefix and number:
-                        endpoints.append((prefix, number))
-                    break
+            m = _BILL_SLUG_RE.match(slug)
+            if m is None:
+                log.warning(
+                    "%s: tracked bill %r is not a congress.gov bill slug; skipping endpoint",
+                    self.id,
+                    bill.id,
+                )
+                continue
+            endpoints.append((m.group(1), m.group(2)))
         return endpoints
 
     def fetch(self) -> list[Item]:

@@ -50,6 +50,44 @@ def test_malformed_meeting_feed_raises_source_error():
         )
 
 
+def _meeting_feed(*items_xml: str) -> bytes:
+    body = "".join(items_xml)
+    return (
+        f'<?xml version="1.0"?><rss version="2.0"><channel><title>t</title>{body}</channel></rss>'
+    ).encode()
+
+
+def _meeting_item(guid: str, title: str, description: str) -> str:
+    return (
+        f"<item><title>{title}</title><link>https://docs.house.gov/{guid}</link>"
+        f"<guid>{guid}</guid><description>{description}</description></item>"
+    )
+
+
+def test_one_bad_meeting_entry_is_skipped_and_the_rest_still_surface():
+    """Issue #9: one entry without a parseable 'Meeting Date:' must not fail the
+    whole feed — skip it, keep the other events."""
+    raw = _meeting_feed(
+        _meeting_item(
+            "1", "Markup of H.R. 1", "Committee on X Meeting Date: Tuesday, July 21, 2026"
+        ),
+        _meeting_item("2", "Hearing: broken", "Committee on X (date TBD)"),
+        _meeting_item("3", "Hearing: AI", "Committee on X Meeting Date: Friday, July 24, 2026"),
+    )
+    items = parse_meeting_feed(raw, source_id="docs-house-sy00", chamber="house")
+    assert [i.date for i in items] == ["2026-07-21", "2026-07-24"]
+
+
+def test_every_meeting_entry_bad_raises_source_error():
+    """Skipping must not degrade into silence: if NO entry parses, that's drift."""
+    raw = _meeting_feed(
+        _meeting_item("1", "A", "no date here"),
+        _meeting_item("2", "B", "none here either"),
+    )
+    with pytest.raises(SourceError):
+        parse_meeting_feed(raw, source_id="docs-house-sy00", chamber="house")
+
+
 def test_empty_stub_items_are_skipped():
     """docs.house.gov emits placeholder <item> stubs with guid=0 and empty
     title/description. Real bug hit on the 2026-08-04 smoke run: the adapter

@@ -12,16 +12,33 @@ adapter parse function with a fetch helper.
 
 from __future__ import annotations
 
+import logging
 from pathlib import Path
 from typing import TYPE_CHECKING, NamedTuple
 
-from watcher.digest import render, write_digest
+from watcher.digest import STALE_THRESHOLD, render, write_digest
 from watcher.models import SourceError
 from watcher.scoring import triage
 from watcher.state import State
 
 if TYPE_CHECKING:
     from watcher.config import Keywords
+
+log = logging.getLogger(__name__)
+
+# src/watcher/run.py -> src/watcher -> src -> repo root. Env files are anchored
+# here rather than CWD so a scheduler invoking with a different working directory
+# still finds the API key instead of silently 401-ing every congress_api row.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def load_env_files(root: str | Path) -> None:
+    """Load `.env.local` then `.env` from `root` into os.environ (first wins)."""
+    from dotenv import load_dotenv
+
+    root = Path(root)
+    load_dotenv(root / ".env.local")
+    load_dotenv(root / ".env")
 
 
 class RunResult(NamedTuple):
@@ -31,10 +48,14 @@ class RunResult(NamedTuple):
     surfaced anything actionable this run — True iff pinned, scored, or health
     warnings were present. False = the digest is either brand-new-empty or
     unchanged since the last write.
+
+    `stale_sources` lists source ids at or past STALE_THRESHOLD consecutive
+    failures, so the CLI can escalate selector drift to the cron log / exit code.
     """
 
     digest_path: Path
     has_new_content: bool
+    stale_sources: list[str]
 
 
 def _digest_filename(today: str) -> str:
@@ -61,7 +82,15 @@ def run_watcher(
             continue
         try:
             items = source.fetch()
-        except SourceError:
+        except SourceError as exc:
+            log.warning("%s: fetch failed (%s)", source.id, exc)
+            failures = state.record_failure(source.id)
+            health.append((source.id, failures))
+            continue
+        except Exception:
+            # Belt over the SourceError braces: an adapter bug (KeyError, bs4 quirk)
+            # must degrade one source, not kill the digest for all of them.
+            log.exception("%s: adapter raised unexpectedly; treating as a failed fetch", source.id)
             failures = state.record_failure(source.id)
             health.append((source.id, failures))
             continue
@@ -99,7 +128,8 @@ def run_watcher(
         state.record_success(source.id, items)
     state.save(state_path)
 
-    return RunResult(digest_path=digest_path, has_new_content=has_new_content)
+    stale = [sid for sid, failures in health if failures >= STALE_THRESHOLD]
+    return RunResult(digest_path=digest_path, has_new_content=has_new_content, stale_sources=stale)
 
 
 def main() -> None:  # pragma: no cover — thin CLI over run_watcher
@@ -111,13 +141,16 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
     """
     import argparse
     import os
+    import sys
     from datetime import date as _date
     from pathlib import Path
 
-    from dotenv import load_dotenv
-
     from watcher.config import load_keywords, load_sources
     from watcher.sources import build_sources
+
+    # Adapter/orchestrator warnings (skipped entries, rate limits, unexpected
+    # exceptions) go to stderr so the cron log carries them.
+    logging.basicConfig(level=logging.WARNING, stream=sys.stderr, format="watcher: %(message)s")
 
     parser = argparse.ArgumentParser(prog="watcher", description=__doc__)
     parser.add_argument(
@@ -170,12 +203,23 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         default=None,
         help="Override today's date (ISO YYYY-MM-DD); useful for backtest runs.",
     )
+    parser.add_argument(
+        "--env-dir",
+        type=Path,
+        default=REPO_ROOT,
+        help="Directory holding .env.local / .env (default: the repo root, not CWD).",
+    )
+    parser.add_argument(
+        "--fail-if-stale",
+        action="store_true",
+        help="Exit 2 after the run if any source has reached the STALE failure threshold "
+        "(selector drift escalation for cron). The digest and notification still happen.",
+    )
     args = parser.parse_args()
 
     # .env.local is Dan's convention (see plan Prerequisites #1). Fall back to .env
     # for CI or other environments.
-    load_dotenv(".env.local")
-    load_dotenv(".env")
+    load_env_files(args.env_dir)
     api_key = os.environ.get("CONGRESS_API_KEY", "")
 
     source_cfgs = load_sources(args.config_dir / "sources.yaml")
@@ -211,6 +255,8 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         include_backlog_days=args.include_backlog,
     )
     print(f"wrote {result.digest_path}")
+    if result.stale_sources:
+        print(f"STALE sources: {', '.join(result.stale_sources)}", file=sys.stderr)
 
     from watcher.notify import maybe_notify, smtp_sender_from_env
 
@@ -227,8 +273,9 @@ def main() -> None:  # pragma: no cover — thin CLI over run_watcher
         # the cron log via stderr; STATE was already saved (line above), so the
         # next run will re-attempt notification with the same content-hash key
         # (idempotency still protects duplicates).
-        import sys
-
         print(f"notify: FAILED ({type(exc).__name__}: {exc})", file=sys.stderr)
     else:
         print(f"notify: {status}")
+
+    if args.fail_if_stale and result.stale_sources:
+        sys.exit(2)

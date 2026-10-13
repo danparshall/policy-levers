@@ -50,6 +50,7 @@ def parse_feed(raw: bytes | str, *, source_id: str, chamber: str, today: str) ->
                 url=url,
                 date=iso_date,
                 body_excerpt=excerpt,
+                date_was_fallback=was_fallback,
             )
         )
     return items

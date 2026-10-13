@@ -18,6 +18,11 @@ class SourceError(Exception):
     """
 
 
+# Kinds whose date is a scheduled event, not a publication: they bypass the score
+# threshold in triage and sort soonest-first in the digest's Time-critical section.
+EVENT_KINDS = frozenset({"markup", "hearing", "floor"})
+
+
 @dataclass
 class Item:
     uid: str
@@ -29,6 +34,8 @@ class Item:
     date: str  # ISO event date (YYYY-MM-DD)
     body_excerpt: str = ""
     matched_bills: list[str] = field(default_factory=list)
+    # True when the adapter could not find a date and substituted `today`.
+    date_was_fallback: bool = False
 
 
 def make_bill_uid(bill_id: str, action_code: str, action_date: str) -> str:

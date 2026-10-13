@@ -42,7 +42,9 @@ def test_missing_pubdate_falls_back_to_today_and_flags_it():
     )
     undated = next(i for i in items if "Nominations" in i.title)
     assert undated.date == "2026-08-04"
-    assert "pubdate" in undated.body_excerpt.lower()  # fallback must be visible, not silent
+    assert undated.date_was_fallback is True  # fallback must be visible, not silent
+    dated = next(i for i in items if "Oversight" in i.title)
+    assert dated.date_was_fallback is False
 
 
 def test_unparseable_or_empty_feed_raises_source_error():

@@ -1,7 +1,10 @@
 """Digest rendering behavior: section order, pinning, sorting, health warnings,
 deterministic output, append-not-overwrite (plan Phase 5)."""
 
+import contextlib
 from datetime import UTC
+
+import pytest
 
 from tests.conftest import make_item
 from watcher.digest import render, write_digest
@@ -121,12 +124,53 @@ def test_render_is_deterministic():
 
 def test_render_contains_no_wall_clock_timestamp():
     """The digest body must be a pure function of its inputs — rendering a past date
-    today must not leak today's date (or any now-timestamp) into the output."""
+    today must not leak today's date (or any now-timestamp) into the output.
+
+    Two guards (issue #9, M4): every date-shaped token in the output must be one of
+    the input dates, and a wall-clock sentinel planted on the module must not
+    appear. The first catches any ISO leak regardless of its source; the second
+    catches non-ISO formatting of a `now()` read."""
+    import re
     from datetime import datetime
 
-    scored = [(make_item(uid="old", title="Old item", kind="press", date="2025-01-01"), 5)]
-    text = render(date="2025-01-02", pinned=[], scored=scored, health=[], suppressed_count=0)
+    import watcher.digest as digest_module
+
+    sentinel = "SENTINEL-NOW-1999-12-31T23:59:59"
+
+    class _FrozenClock:
+        @staticmethod
+        def now(*_, **__):
+            return sentinel
+
+        @staticmethod
+        def today(*_, **__):
+            return sentinel
+
+    with contextlib.ExitStack() as stack:
+        for name in ("datetime", "date", "time"):
+            stack.enter_context(_patched(digest_module, name, _FrozenClock))
+        scored = [(make_item(uid="old", title="Old item", kind="press", date="2025-01-01"), 5)]
+        text = render(date="2025-01-02", pinned=[], scored=scored, health=[], suppressed_count=0)
+
+    assert sentinel not in text
     assert datetime.now(tz=UTC).date().isoformat() not in text
+    found = set(re.findall(r"\d{4}-\d{2}-\d{2}", text))
+    assert found == {"2025-01-01", "2025-01-02"}, f"unexpected date tokens: {found}"
+
+
+@contextlib.contextmanager
+def _patched(module, name, value):
+    """setattr a (possibly absent) module attribute for the duration of the block."""
+    missing = object()
+    old = getattr(module, name, missing)
+    setattr(module, name, value)
+    try:
+        yield
+    finally:
+        if old is missing:
+            delattr(module, name)
+        else:
+            setattr(module, name, old)
 
 
 def test_write_digest_appends_later_run_instead_of_overwriting(tmp_path):
@@ -137,3 +181,23 @@ def test_write_digest_appends_later_run_instead_of_overwriting(tmp_path):
     assert "first run content" in text
     assert "second run content" in text
     assert "Later run" in text
+
+
+def test_write_digest_append_failure_leaves_existing_digest_intact(tmp_path, monkeypatch):
+    """Issue #9: the append path used truncate-then-write, so a crash mid-append lost
+    the morning's digest. The write must be atomic — if the final commit step fails,
+    the original file is untouched."""
+    import os
+
+    path = tmp_path / "20260804.md"
+    original = "# Digest 2026-08-04\n\nfirst run content\n"
+    write_digest(path, original)
+
+    def refuse_replace(*_args, **_kwargs):
+        raise OSError("simulated crash at commit")
+
+    monkeypatch.setattr(os, "replace", refuse_replace)
+    with pytest.raises(OSError):
+        write_digest(path, "second run content\n")
+
+    assert path.read_text() == original

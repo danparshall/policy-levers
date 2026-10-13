@@ -78,6 +78,53 @@ def test_reserved_for_speaker_placeholder_bills_are_skipped():
     assert items[0].title == "Real Bill Act"
 
 
+@pytest.mark.parametrize(
+    "bad",
+    [
+        {"unexpected": "shape"},
+        {"bill": {"type": "HR", "number": "9363", "title": "no latestAction"}},
+        {"bill": {"latestAction": {"actionDate": "2026-06-25"}, "title": "no type/number"}},
+    ],
+    ids=["wrong-top-level-key", "missing-latestAction", "missing-type-number"],
+)
+def test_bill_detail_malformed_payload_raises_source_error(bad):
+    """Issue #9 (H3): the tracked-bill path is what fires when a watched bill moves;
+    a malformed detail payload must be a SourceError, not a KeyError/TypeError."""
+    with pytest.raises(SourceError):
+        parse_bill_detail(bad, source_id="congress-api")
+
+
+def _row(**overrides) -> dict:
+    row = {
+        "type": "HR",
+        "number": "1",
+        "title": "x",
+        "url": "https://api.congress.gov/v3/bill/119/hr/1",
+        "latestAction": {"actionDate": "2026-06-25", "text": "Referred."},
+    }
+    row.update(overrides)
+    return row
+
+
+@pytest.mark.parametrize(
+    ("row", "expected"),
+    [
+        (_row(originChamberCode="H"), "house"),
+        (_row(originChamberCode="S"), "senate"),
+        (_row(originChamber="House of Representatives"), "house"),
+        (_row(originChamber="Senate"), "senate"),
+        (_row(), "joint"),
+        (_row(originChamberCode="", originChamber=""), "joint"),
+    ],
+    ids=["code-H", "code-S", "name-house", "name-senate", "absent", "empty"],
+)
+def test_chamber_resolution_including_joint_fallback(row, expected):
+    """Issue #9 (L9): chamber comes from originChamberCode, then originChamber,
+    and falls back to 'joint' when neither is present."""
+    (item,) = parse_bill_list({"bills": [row]}, source_id="congress-api")
+    assert item.chamber == expected
+
+
 def test_bill_detail_normalizes_latest_action_to_bill_action_item():
     """Tracked-bill mode (b): the /v3/bill/119/hr/9363 detail endpoint returns
     {"bill": {...}}, not {"bills": [...]} — a different parse path."""

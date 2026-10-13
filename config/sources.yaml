@@ -10,7 +10,13 @@
 #              - congress_api: {mode: poller|tracked, congress: 119, [type, number]}
 #              - structured:   {subtype: meeting_feed|floor_lookahead}
 #   selectors  html_diff / floor_lookahead: {entry, title, link, date}
-#   enabled    default true; set false with a comment when a page resists diffing
+#   enabled    ALWAYS written explicitly (true/false) so `grep -c 'enabled: true'`
+#              is the live-source count; set false with a comment when a page
+#              resists diffing
+#   disposition  optional. `probed-dead` marks rows whose endpoint was probed
+#              and found not to exist — they will never flip to enabled and
+#              should not be re-probed in selector-hunting passes. Kept for the
+#              record of what was tried.
 #
 # Sources that need live selector-hunting are shipped with `enabled: false` and a
 # TODO comment — the plan explicitly says disable-with-comment rather than burning
@@ -31,6 +37,7 @@ sources:
   - id: congress-api-poller
     type: congress_api
     chamber: joint
+    enabled: true
     url: https://api.congress.gov
     params:
       mode: poller
@@ -43,6 +50,7 @@ sources:
   - id: congress-api-tracked
     type: congress_api
     chamber: joint
+    enabled: true
     url: https://api.congress.gov
     params:
       mode: tracked
@@ -56,12 +64,14 @@ sources:
   - id: docs-house-sy00
     type: structured
     chamber: house
+    enabled: true
     url: https://docs.house.gov/Committee/RSS.ashx?Code=SY00
     params: {subtype: meeting_feed}   # Full Committee on Science
 
   - id: docs-house-if00
     type: structured
     chamber: house
+    enabled: true
     url: https://docs.house.gov/Committee/RSS.ashx?Code=IF00
     params: {subtype: meeting_feed}   # Full Committee on Energy & Commerce
 
@@ -84,6 +94,7 @@ sources:
   - id: senate-daily-schedule
     type: structured
     chamber: senate
+    enabled: true
     url: https://www.senate.gov/legislative/schedule/floor_schedule.htm
     params: {subtype: floor_lookahead}
     selectors: {entry: "article#proceedings_schedule", title: "span.floor-schedule", link: "a", date: "h3"}
@@ -101,18 +112,21 @@ sources:
     chamber: senate
     url: https://www.commerce.senate.gov/services/majority-rss.aspx
     enabled: false   # No RSS found (probe 2026-08-11: majority-rss.aspx, /rss/feeds/, /feed/ all 404/redirect-loop). Permanent-disabled.
+    disposition: probed-dead
 
   - id: senate-commerce-minority
     type: rss
     chamber: senate
     url: https://www.commerce.senate.gov/services/minority-rss.aspx
     enabled: false   # No RSS found (probe 2026-08-11: 404). Permanent-disabled.
+    disposition: probed-dead
 
   - id: senate-judiciary
     type: rss
     chamber: senate
     url: https://www.judiciary.senate.gov/press/feed
     enabled: false   # No RSS found (probe 2026-08-11: /press/feed, /feed/, /rss/feeds/ all 404). Permanent-disabled.
+    disposition: probed-dead
 
   - id: senate-hsgac
     type: rss
@@ -129,12 +143,14 @@ sources:
     chamber: house
     url: https://science.house.gov/rss/press-releases.xml
     enabled: false   # No RSS found (probe 2026-08-11: /rss/press-releases.xml, /news/rss.aspx, /rss.xml all 404). Permanent-disabled; SY00 meeting feed above covers markups.
+    disposition: probed-dead
 
   - id: house-energy-commerce-majority
     type: rss
     chamber: house
     url: https://energycommerce.house.gov/rss/press-releases.xml
     enabled: false   # No RSS found (probe 2026-08-11: rss.aspx returns bare "/news" soft-redirect, others 404). Permanent-disabled; IF00 meeting feed above covers markups.
+    disposition: probed-dead
 
   # ─────────────────────────────────────────────────────────────────────────
   # Senate member press pages — the "shortlist" (2026-08-04)
@@ -151,6 +167,7 @@ sources:
   - id: sen-warner-press
     type: html_diff
     chamber: senate
+    enabled: true
     url: https://www.warner.senate.gov/newsroom/press-releases
     selectors: {entry: "div.ArticleBlock", title: "h3.elementor-heading-title", link: "h3.elementor-heading-title a", date: "time"}
     # WP/Elementor, static HTML; selectors verified against real capture 2026-08-11 (fixture sen-warner-press.html). Ordinal dates ("August 7th, 2026") handled by adapter.
@@ -158,6 +175,7 @@ sources:
   - id: sen-blackburn-press
     type: html_diff
     chamber: senate
+    enabled: true
     url: https://www.blackburn.senate.gov/press-releases
     selectors: {entry: "div.element", title: "div.element-title", link: "a", date: "span.element-datetime"}
     # Static HTML; selectors verified against real capture 2026-08-11 (fixture sen-blackburn-press.html). m/d/Y dates ("08/5/2026") handled by adapter. TRUMP AMERICA AI Act discussion-draft workflow — the GAAIA analog.
@@ -165,6 +183,7 @@ sources:
   - id: sen-cruz-press
     type: html_diff
     chamber: senate
+    enabled: true
     url: https://www.cruz.senate.gov/newsroom/press-releases
     selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
     # Senate PageList CMS; selectors verified against real capture 2026-08-11 (fixture sen-cruz-press.html). Dotted dates ("08.10.2026") handled by adapter. Commerce chair — markup announcements.
@@ -179,12 +198,14 @@ sources:
   - id: sen-hawley-press
     type: rss
     chamber: senate
+    enabled: true
     url: https://www.hawley.senate.gov/rss/
     # Real WP press feed, capture 2026-08-11; fixture sen-hawley-press.xml. High-volume AI press page.
 
   - id: sen-rounds-press
     type: html_diff
     chamber: senate
+    enabled: true
     url: https://www.rounds.senate.gov/newsroom/press-releases
     selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
     # Same PageList CMS as Cruz; verified against real capture 2026-08-11 (fixture sen-rounds-press.html). Working Group original, Armed Services cyber/AI.
@@ -192,12 +213,14 @@ sources:
   - id: sen-schumer-press
     type: rss
     chamber: senate
+    enabled: true
     url: https://www.democrats.senate.gov/feed/
     # Senate Dem caucus newsroom feed, capture 2026-08-11; fixture sen-schumer-press.xml. Minority Leader; floor wrap-ups + schedule notices.
 
   - id: sen-peters-mi-press
     type: html_diff
     chamber: senate
+    enabled: true
     url: https://www.peters.senate.gov/newsroom/press-releases
     selectors: {entry: "li.PageList__item", title: "h2.ArticleTitle", link: "a", date: "p.Heading"}
     # Same PageList CMS as Cruz; verified against real capture 2026-08-11 (fixture sen-peters-mi-press.html). Gary Peters D-MI, HSGAC ranking.
@@ -217,6 +240,7 @@ sources:
   - id: rep-obernolte-press
     type: html_diff
     chamber: house
+    enabled: true
     url: https://obernolte.house.gov/media/press-releases
     selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
     # evo-Drupal listing, static HTML; selectors verified against real capture 2026-08-11 (fixture rep-obernolte-press.html — pins the FRONTIER introduction release). GAAIA + FRONTIER lead sponsor. (/rss.xml is featured-content, not press.)
@@ -224,6 +248,7 @@ sources:
   - id: rep-trahan-press
     type: rss
     chamber: house
+    enabled: true
     url: https://trahan.house.gov/news/rss.aspx
     # RSS confirmed live 2026-08-11; real fixture rep-trahan-press.xml. GAAIA + FRONTIER Dem lead — the literal GAAIA-catcher.
 
@@ -237,12 +262,14 @@ sources:
   - id: rep-franklin-press
     type: rss
     chamber: house
+    enabled: true
     url: https://franklin.house.gov/news/rss.aspx
     # Fireside press RSS, capture 2026-08-11; fixture rep-franklin-press.xml. FRONTIER/GAAIA cosponsor R-FL-18.
 
   - id: rep-subramanyam-press
     type: html_diff
     chamber: house
+    enabled: true
     url: https://subramanyam.house.gov/media/press-releases
     selectors: {entry: "div.evo-media-object", title: "div.h5 a", link: "div.h5 a", date: "div.row div.col-auto"}
     # evo-Drupal h5 variant; verified against real capture 2026-08-11 (fixture rep-subramanyam-press.html). FRONTIER/GAAIA cosponsor; "four-alarm fire" quote.
@@ -250,6 +277,7 @@ sources:
   - id: rep-houchin-press
     type: html_diff
     chamber: house
+    enabled: true
     url: https://houchin.house.gov/media/press-releases
     selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
     # evo-Drupal, same selectors as Obernolte; verified against real capture 2026-08-11 (fixture rep-houchin-press.html). FRONTIER/GAAIA cosponsor; Schrage staffer.
@@ -271,6 +299,7 @@ sources:
   - id: rep-stevens-press
     type: html_diff
     chamber: house
+    enabled: true
     url: https://stevens.house.gov/media/press-releases
     selectors: {entry: "div.media-body", title: "div.h3 a", link: "div.h3 a", date: "div.row div.col-auto"}
     # evo-Drupal, same selectors as Obernolte; verified against real capture 2026-08-11 (fixture rep-stevens-press.html). Science AI ally; 2026 Senate run — tone-flag.

@@ -14,41 +14,74 @@ inside the adapters (SourceError), not something the state layer detects.
 from __future__ import annotations
 
 import json
-import os
-import tempfile
+import logging
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import TYPE_CHECKING
+
+from watcher.fileio import atomic_write_text
 
 if TYPE_CHECKING:
     from watcher.models import Item
 
+log = logging.getLogger(__name__)
+
 SCHEMA_VERSION = 1
+
+# Per-source cap on remembered uids. The poller returns up to 250 bills per fetch
+# and a press listing shows ~10-20 rows, so a few thousand covers many months of
+# daily runs; least-recently-seen uids are evicted first, and a uid that is still
+# on the page is refreshed every run, so long-lived rows never age out.
+MAX_SEEN_UIDS = 5000
 
 
 @dataclass
 class _SourceState:
     seeded: bool = False
-    seen_uids: set[str] = field(default_factory=set)
+    # Ordered oldest -> most recently seen (dict used as an insertion-ordered set).
+    seen_uids: dict[str, None] = field(default_factory=dict)
     consecutive_failures: int = 0
 
 
 @dataclass
 class State:
     per_source: dict[str, _SourceState] = field(default_factory=dict)
+    max_seen_uids: int = MAX_SEEN_UIDS
 
     @classmethod
-    def load(cls, path: str | Path) -> State:
+    def load(cls, path: str | Path, *, max_seen_uids: int = MAX_SEEN_UIDS) -> State:
+        """Load from disk; a missing file is a fresh baseline.
+
+        A corrupt file (truncated JSON, wrong top-level shape) is moved aside to
+        `<name>.corrupt-<UTC timestamp>` and treated as fresh: an unattended cron
+        keeps running and the evidence is preserved for inspection. Cost of the
+        reset is one baseline run (backlog-window items re-surface once).
+        """
         p = Path(path)
         if not p.exists():
-            return cls()
-        doc = json.loads(p.read_text())
-        st = cls()
+            return cls(max_seen_uids=max_seen_uids)
+        problem: str | None = None
+        try:
+            doc = json.loads(p.read_text())
+        except ValueError as exc:
+            problem = str(exc)
+        else:
+            if not isinstance(doc, dict):
+                problem = f"top-level JSON is {type(doc).__name__}, expected object"
+        if problem is not None:
+            stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
+            quarantine = p.with_name(f"{p.name}.corrupt-{stamp}")
+            p.replace(quarantine)
+            log.warning(
+                "state file %s is corrupt (%s); moved to %s, starting fresh", p, problem, quarantine
+            )
+            return cls(max_seen_uids=max_seen_uids)
+        st = cls(max_seen_uids=max_seen_uids)
         for source_id, blob in (doc.get("sources") or {}).items():
             st.per_source[source_id] = _SourceState(
                 seeded=bool(blob.get("seeded", False)),
-                seen_uids=set(blob.get("seen_uids", [])),
+                seen_uids=dict.fromkeys(blob.get("seen_uids", [])),
                 consecutive_failures=int(blob.get("consecutive_failures", 0)),
             )
         return st
@@ -92,7 +125,12 @@ class State:
         s.seeded = True
         s.consecutive_failures = 0
         for it in items:
-            s.seen_uids.add(it.uid)
+            # Re-insert so a uid still present on the page moves to the "recent" end.
+            s.seen_uids.pop(it.uid, None)
+            s.seen_uids[it.uid] = None
+        overflow = len(s.seen_uids) - self.max_seen_uids
+        for uid in list(s.seen_uids)[:overflow] if overflow > 0 else ():
+            del s.seen_uids[uid]
 
     def record_failure(self, source_id: str) -> int:
         s = self._get(source_id)
@@ -104,23 +142,16 @@ class State:
         return 0 if s is None else s.consecutive_failures
 
     def save(self, path: str | Path) -> None:
-        p = Path(path)
-        p.parent.mkdir(parents=True, exist_ok=True)
         doc = {
             "schema_version": SCHEMA_VERSION,
             "sources": {
                 sid: {
                     "seeded": s.seeded,
-                    "seen_uids": sorted(s.seen_uids),
+                    # oldest -> newest; order is what makes the cap an LRU on reload
+                    "seen_uids": list(s.seen_uids),
                     "consecutive_failures": s.consecutive_failures,
                 }
                 for sid, s in self.per_source.items()
             },
         }
-        # atomic write: temp file in the same directory + os.replace
-        with tempfile.NamedTemporaryFile(
-            mode="w", dir=p.parent, prefix=".state-", suffix=".tmp", delete=False
-        ) as tf:
-            json.dump(doc, tf, indent=2, sort_keys=True)
-            tmp_path = tf.name
-        os.replace(tmp_path, p)
+        atomic_write_text(path, json.dumps(doc, indent=2, sort_keys=True))

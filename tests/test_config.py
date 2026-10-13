@@ -1,6 +1,9 @@
 """Config loading behavior: sources.yaml and keywords.yaml (plan Phase 1)."""
 
+from pathlib import Path
+
 import pytest
+import yaml
 
 from watcher.config import load_keywords, load_sources
 
@@ -73,6 +76,26 @@ def test_load_keywords_parses_tracked_bills_and_tiers(tmp_path):
     assert "artificial intelligence" in kw.tiers["high"]
     assert kw.kind_boost["markup"] == 3
     assert kw.threshold == 3
+
+
+REAL_SOURCES_YAML = Path(__file__).resolve().parents[1] / "config" / "sources.yaml"
+
+
+def test_real_sources_yaml_has_explicit_enabled_on_every_row():
+    """Config discipline (issue #9): no bare `enabled` — a quick `grep 'enabled: true'`
+    must equal the number of live sources."""
+    doc = yaml.safe_load(REAL_SOURCES_YAML.read_text())
+    bare = [row["id"] for row in doc["sources"] if "enabled" not in row]
+    assert bare == [], f"rows missing an explicit enabled flag: {bare}"
+
+
+def test_real_sources_yaml_probed_dead_rows_are_disabled():
+    """`disposition: probed-dead` tags endpoints that were probed and don't exist;
+    such a row must never be enabled."""
+    doc = yaml.safe_load(REAL_SOURCES_YAML.read_text())
+    dead = [row for row in doc["sources"] if row.get("disposition") == "probed-dead"]
+    assert dead, "expected at least one probed-dead row"
+    assert all(row["enabled"] is False for row in dead)
 
 
 def test_load_keywords_threshold_defaults_when_absent(tmp_path):
