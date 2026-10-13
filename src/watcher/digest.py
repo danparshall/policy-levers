@@ -19,10 +19,12 @@ from __future__ import annotations
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+from watcher.fileio import atomic_write_text
+from watcher.models import EVENT_KINDS
+
 if TYPE_CHECKING:
     from watcher.models import Item
 
-EVENT_KINDS = {"markup", "hearing", "floor"}
 STALE_THRESHOLD = 3
 
 
@@ -88,9 +90,11 @@ LATER_RUN_MARKER = "\n\n## Later run\n\n"
 
 
 def write_digest(path: str | Path, text: str) -> None:
+    """Create, or append a "Later run" section to, today's digest — atomically.
+
+    The append is read-modify-replace rather than open-for-append so a crash mid-write
+    can never leave the morning's digest truncated."""
     p = Path(path)
     if p.exists():
-        p.write_text(p.read_text() + LATER_RUN_MARKER + text)
-        return
-    p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(text)
+        text = p.read_text() + LATER_RUN_MARKER + text
+    atomic_write_text(p, text)

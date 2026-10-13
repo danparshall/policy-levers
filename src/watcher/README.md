@@ -24,7 +24,7 @@ env var; every run is a single command. Extend before generalizing.
 ```
 uv venv                    # creates .venv/ if missing (idempotent)
 uv sync                    # installs runtime + dev deps
-uv run pytest              # 75 tests, should be < 1s
+uv run pytest              # ~150 tests, should be < 2s
 ```
 
 **API key** — the congress.gov v3 API is free but rate-limited (5,000 req/hr per
@@ -33,7 +33,10 @@ key). Sign up at <https://api.congress.gov/sign-up/>. Store as
 convention — this worktree's `.env.local` is a symlink into main).
 
 The CLI loads `.env.local` first, then `.env`, then the process environment; any
-of them works.
+of them works. Env files are resolved against the **repo root** (the directory
+two levels above `src/watcher/`), not the working directory, so a scheduler that
+invokes with a different CWD still finds the key. Override with `--env-dir`.
+(`--config-dir`, `--state-path`, and `--digest-dir` are still CWD-relative.)
 
 ## Running
 
@@ -42,13 +45,31 @@ uv run watcher                       # today, only newly-seen items
 uv run watcher --include-backlog 7   # smoke run: surface anything from the last 7d
 uv run watcher --sources docs-house-sy00,congress-api-poller   # subset for debug
 uv run watcher --today 2026-08-04    # deterministic replay (used by backtest)
+uv run watcher --fail-if-stale       # exit 2 if any source hit the STALE threshold
 uv run watcher --dry-run             # (planned; not implemented in v1)
 ```
 
 Digests land in `./digests/YYYYMMDD.md` (git-ignored — regenerable). State lives
 in `./data/watcher-state/state.json` (also git-ignored). Per-source failure
-counts accumulate across runs; three consecutive failures pin a "STALE SOURCE"
-warning to the top of the digest.
+counts accumulate across runs; three consecutive failures mark the source
+"STALE" in the digest's source-health section, print a `STALE sources: ...`
+line to stderr (so the cron log carries it), and — with `--fail-if-stale` —
+exit non-zero after the digest and notification steps have completed.
+
+**Failure isolation.** One bad entry (unparseable date, missed inner selector,
+meeting without a `Meeting Date:`) is skipped with a stderr warning; the other
+entries from that source still surface. Only every-entry-failed is treated as
+selector drift. Likewise one adapter raising anything at all degrades that one
+source's health counter rather than killing the run. HTTP 429 from congress.gov
+is honored for its `Retry-After` (one retry, capped at 60s); beyond that the
+source fails for the run with a "rate-limited" message.
+
+**State durability.** `seen_uids` is capped per source (5000, least-recently-seen
+evicted; a uid still on the page is refreshed every run, so long-lived rows don't
+age out). A corrupt `state.json` is moved aside to `state.json.corrupt-<UTC
+timestamp>` and the run proceeds from a fresh baseline — the cost is one
+backlog-window of re-surfaced items, not a dead cron. Both state and digest
+writes are atomic (temp file + rename).
 
 ## Scheduling (launchd)
 
@@ -128,9 +149,12 @@ everything so far:
     - `params.mode: poller` — recent-bills sweep, keyword filter happens in the
       scorer.
     - `params.mode: tracked` — one detail-endpoint call per bill listed in
-      `keywords.yaml:tracked_bills`.
+      `keywords.yaml:tracked_bills` whose id is a congress.gov slug
+      (`hr|s|hjres|sjres|hres|sres|hconres|sconres` + number). Alias-only ids
+      (an unnumbered discussion draft) are skipped with a warning.
 - **`rss`** — anything with a working RSS feed (committees, member offices).
-  Missing `pubDate` falls back to today with an `[pubdate missing]` excerpt tag.
+  Missing `pubDate` falls back to today, sets `Item.date_was_fallback`, and
+  tags the excerpt `[pubdate missing]`.
 - **`html_diff`** — HTML press listings without RSS. Needs per-source CSS
   selectors `{entry, title, link, date}`. Zero entries from a previously-nonempty
   page raises `SourceError` (selector drift, not "quiet week").
@@ -171,6 +195,18 @@ everything so far:
 
 Retune YAML first, code second. If the first live week is loud, adjust tiers
 and threshold before touching the scorer.
+
+## Backtest caveat
+
+`tests/test_backtest_june2026.py` is the acceptance test (would the tool have
+caught GAAIA, H.R. 9363, and the 6/25 markup?). Its three June fixtures are
+**constructed**, not captured: no Wayback snapshots exist for the docs.house.gov
+feed or the Trahan press page, and the congress.gov API only serves a bill's
+current `latestAction`. The events in them are historically real and each file
+follows its source's live-verified schema (see `tests/fixtures/README.md`), so
+the test proves the pipeline handles those events in those schemas — not that
+the exact June wire bytes would have parsed. Read the acceptance claim with
+that caveat.
 
 ## Fixture discipline
 
@@ -216,7 +252,8 @@ src/watcher/
 │   └── structured.py       # docs.house.gov meetings + floor lookaheads
 ├── config.py               # sources.yaml + keywords.yaml loaders
 ├── digest.py               # section rendering + file write
-├── models.py               # Item, SourceError, UID helpers
+├── fileio.py               # atomic_write_text (shared by state + digest)
+├── models.py               # Item, SourceError, EVENT_KINDS, UID helpers
 ├── run.py                  # CLI + orchestrator (run_watcher + main)
 ├── scoring.py              # word-boundary keyword scorer + triage
 ├── sources.py              # Source classes: pair config row → adapter + HTTP fetch

@@ -17,13 +17,15 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
+from functools import lru_cache
 from typing import TYPE_CHECKING
+
+from watcher.models import EVENT_KINDS
 
 if TYPE_CHECKING:
     from watcher.config import Keywords
     from watcher.models import Item
 
-EVENT_KINDS = {"markup", "floor", "hearing"}
 TIER_WEIGHTS = {"high": 3, "medium": 2, "low": 1}
 
 
@@ -34,8 +36,11 @@ class TriageResult:
     suppressed_count: int = 0
 
 
+@lru_cache(maxsize=1024)
 def _compile(term: str) -> re.Pattern:
-    """Word-boundary regex; case-sensitive iff `term` has no lowercase letter."""
+    """Word-boundary regex; case-sensitive iff `term` has no lowercase letter.
+
+    Cached: the same ~40 keyword patterns are applied to every item in a run."""
     flags = re.IGNORECASE if any(c.islower() for c in term) else 0
     return re.compile(r"\b" + re.escape(term) + r"\b", flags)
 

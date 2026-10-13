@@ -9,14 +9,18 @@ matches raises SourceError, so silence is never indistinguishable from a quiet w
 
 from __future__ import annotations
 
+import logging
 import re
-from collections.abc import Iterable
 from datetime import datetime
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from watcher.models import Item, SourceError, make_hash_uid
+
+log = logging.getLogger(__name__)
+
+REQUIRED_SELECTORS = ("entry", "title", "link", "date")
 
 # %m/%d/%Y covers Blackburn's "08/5/2026" (strptime accepts non-zero-padded fields);
 # %m.%d.%Y covers the Senate PageList CMS's "08.10.2026" (Cruz, Rounds, Peters-MI);
@@ -53,7 +57,11 @@ def _pick_url(entry, link_selector: str, base_url: str) -> str:
     href = (node.get("href") or "").strip()
     if not href:
         raise SourceError("empty href on entry link")
-    return urljoin(base_url + "/" if not base_url.endswith("/") else base_url, href)
+    # urljoin treats the last path segment of a base without a trailing slash as a
+    # file and replaces it ("/media/press-releases" + "item" -> "/media/item").
+    # The listing URL is a directory for our purposes, so force the trailing slash.
+    base_dir = base_url if base_url.endswith("/") else base_url + "/"
+    return urljoin(base_dir, href)
 
 
 def _pick_text(entry, selector: str, field_label: str) -> str:
@@ -72,20 +80,32 @@ def _extract(
     base_url: str,
     kind: str,
 ) -> list[Item]:
+    missing = [key for key in REQUIRED_SELECTORS if not selectors.get(key)]
+    if missing:
+        raise SourceError(f"{source_id}: selectors config missing {missing!r}")
+
     soup = BeautifulSoup(html, "html.parser")
-    entries: Iterable = soup.select(selectors["entry"])
-    entries = list(entries)
+    entries = list(soup.select(selectors["entry"]))
     if not entries:
         raise SourceError(
             f"{source_id}: entry selector {selectors['entry']!r} matched zero rows "
             "(selector drift, not a quiet week)"
         )
 
+    # Per-entry failures are isolated: one odd row (a dateless pinned post, a CMS
+    # hiccup) must not drop the other N-1 entries from an unattended run. Only
+    # every-entry-failed is treated as drift.
     items: list[Item] = []
+    errors: list[str] = []
     for entry in entries:
-        title = _pick_text(entry, selectors["title"], "title")
-        url = _pick_url(entry, selectors["link"], base_url)
-        iso_date = _iso_date(_pick_text(entry, selectors["date"], "date"))
+        try:
+            title = _pick_text(entry, selectors["title"], "title")
+            url = _pick_url(entry, selectors["link"], base_url)
+            iso_date = _iso_date(_pick_text(entry, selectors["date"], "date"))
+        except SourceError as exc:
+            errors.append(str(exc))
+            log.warning("%s: skipping entry (%s)", source_id, exc)
+            continue
         items.append(
             Item(
                 uid=make_hash_uid(url, title),
@@ -96,6 +116,10 @@ def _extract(
                 url=url,
                 date=iso_date,
             )
+        )
+    if not items:
+        raise SourceError(
+            f"{source_id}: all {len(entries)} entries failed to parse (first: {errors[0]})"
         )
     return items
 

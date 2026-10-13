@@ -11,6 +11,7 @@ Floor lookaheads reuse the html_diff extraction path but tag entries as `floor`.
 
 from __future__ import annotations
 
+import logging
 import re
 from datetime import datetime
 
@@ -19,6 +20,8 @@ from bs4 import BeautifulSoup
 
 from watcher.adapters.html_diff import _extract
 from watcher.models import Item, SourceError
+
+log = logging.getLogger(__name__)
 
 _MEETING_DATE_RE = re.compile(r"Meeting Date:\s*[A-Za-z]+,\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})")
 
@@ -61,7 +64,11 @@ def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> lis
     if not entries:
         raise SourceError(f"{source_id}: meeting feed parsed to zero entries")
 
+    # Per-entry failures are isolated (see html_diff._extract): one malformed
+    # meeting must not hide the others. Every-real-entry-failed is still drift.
     items: list[Item] = []
+    errors: list[str] = []
+    real_entries = 0
     for entry in entries:
         title = (entry.get("title") or "").strip()
         url = (entry.get("link") or "").strip()
@@ -69,8 +76,15 @@ def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> lis
         guid = str(entry.get("id") or entry.get("guid") or "").strip()
         if _is_stub(title, guid, description):
             continue
-        if not guid:
-            raise SourceError(f"meeting item missing guid: {title!r}")
+        real_entries += 1
+        try:
+            if not guid:
+                raise SourceError(f"meeting item missing guid: {title!r}")
+            event_date = _event_date(description)
+        except SourceError as exc:
+            errors.append(str(exc))
+            log.warning("%s: skipping meeting entry %r (%s)", source_id, title, exc)
+            continue
         committee = _committee_line(description)
         items.append(
             Item(
@@ -80,9 +94,13 @@ def parse_meeting_feed(raw: bytes | str, *, source_id: str, chamber: str) -> lis
                 kind=_kind(title),
                 title=title,
                 url=url,
-                date=_event_date(description),
+                date=event_date,
                 body_excerpt=committee,
             )
+        )
+    if real_entries and not items:
+        raise SourceError(
+            f"{source_id}: all {real_entries} meeting entries failed to parse (first: {errors[0]})"
         )
     return items
 

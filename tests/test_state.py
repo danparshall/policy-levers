@@ -72,3 +72,53 @@ def test_mutations_not_persisted_without_save(tmp_path):
     reloaded = State.load(path)
     new = reloaded.new_items("src", items("b"), today="2026-08-04")
     assert [i.uid for i in new] == ["b"]
+
+
+def test_corrupted_state_file_is_quarantined_and_run_starts_fresh(tmp_path):
+    """Issue #9 (H2): a truncated/garbage state.json must not take the cron down
+    permanently. Pinned behavior: move the bad file aside (evidence preserved),
+    start from a fresh baseline, and keep going."""
+    path = tmp_path / "state.json"
+    path.write_text('{"schema_version": 1, "sources": {"src": {"seen_uids": ["a"')  # truncated
+
+    state = State.load(path)
+
+    assert state.is_baseline("src")
+    quarantined = list(tmp_path.glob("state.json.corrupt-*"))
+    assert len(quarantined) == 1, "corrupt file should be moved aside, not deleted"
+    assert '"seen_uids": ["a"' in quarantined[0].read_text()
+    assert not path.exists()
+
+
+def test_seen_uids_capped_oldest_evicted_first():
+    """Issue #9: seen_uids must not grow without bound across a year of daily runs.
+    Cap per source; evict least-recently-seen first."""
+    state = State(max_seen_uids=3)
+    state.record_success("src", items("a", "b", "c"))
+    state.record_success("src", items("d"))  # pushes out the oldest ("a")
+
+    new = state.new_items("src", items("a", "b", "c", "d"), today="2026-08-04")
+    assert [i.uid for i in new] == ["a"]
+
+
+def test_seen_uid_still_present_on_page_is_not_evicted():
+    """A press listing shows the same entries for weeks. Re-seeing a uid must
+    refresh it so the cap evicts genuinely-stale uids, not long-lived page rows."""
+    state = State(max_seen_uids=3)
+    state.record_success("src", items("a", "b", "c"))
+    state.record_success("src", items("a", "d"))  # "a" re-seen; "b" is now oldest
+
+    new = state.new_items("src", items("a", "b", "c", "d"), today="2026-08-04")
+    assert [i.uid for i in new] == ["b"]
+
+
+def test_seen_uid_cap_survives_save_load_roundtrip(tmp_path):
+    path = tmp_path / "state.json"
+    state = State(max_seen_uids=2)
+    state.record_success("src", items("a", "b"))
+    state.save(path)
+
+    reloaded = State.load(path, max_seen_uids=2)
+    reloaded.record_success("src", items("c"))
+    new = reloaded.new_items("src", items("a", "b", "c"), today="2026-08-04")
+    assert [i.uid for i in new] == ["a"]
