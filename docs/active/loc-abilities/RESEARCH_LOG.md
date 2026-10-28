@@ -38,6 +38,8 @@ Standing correction for this line: the network-fingerprint detection idea from e
 
 Next steps: verify SparseLoCo figures before any external use of the survey; consider ingesting Krys 2507.07765; decide whether the taxonomy crosswalk needs a detectability axis; DP to check whether Robi Rahman is still DC-local before assuming correspondence-only.
 
+**Addendum (committed 2026-10-28):** the session continued past finish-convo on 7/14; the convo doc now carries an addendum with the uncommitted material — the Charles-et-al. extrapolation critique of Rahman's Table 1 (η_rep calibrated at single-digit M, applied at M = 625/4,706; cite dollar figures as "even if off by 3–5x, the structure holds"), the possible-vs-detectable statement, the China/trailing-edge-chips analysis (export controls shifting from quality game to volume game; durable levers = unit counts, fab capacity, HBM), and the ACX comment draft on Scott Alexander's chip-regulation post. The 7/29 Habryka session used the first item from chat memory before it was in the repo.
+
 ## 2026-07-08 (PM) — Verification pass + epistemic-regime / covariance thread
 
 Context: DP flagged the prior 2026-07-08 crosswalk was produced in a Cowork session that ran *without* the deep-research tool, and the output "looked surprising." Ran an independent primary-source redo, then diffed against the existing files rather than overwriting.
