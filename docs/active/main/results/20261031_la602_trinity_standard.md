@@ -1,82 +1,93 @@
 # LA-602 and a "Trinity standard" for ASI
 
-Convo: `20261031_la602_trinity_standard` · Session: Dan (web, policy-levers, 20261031T1358, opus-5.5) · Status: **DRAFT — primary text of LA-602 not yet read**
+Convo: `20261031_la602_trinity_standard` · Session: Dan (web, policy-levers, 20261031T1358, opus-5.5) · Status: **sections 1–5 checked against the primary text** (rev. 2, 2026-10-31 15:15 UTC)
 
-## Source status (read this first)
+## Source status
 
-The primary PDF (`https://fas.org/sgp/othergov/doe/lanl/docs1/00329010.pdf`, the copy cited by Wikipedia and by Wellerstein) could not be fetched this session: the workspace shell is blocked from fas.org and two WebFetch attempts timed out awaiting approval. **Every LA-602 sentence below is quoted through a secondary source and labelled with it.** Nothing here should go into a hard-constraint callout for external use until checked against the PDF. The paper-collection entry is deliberately held for the same reason.
+**Primary:** LA-602 is in **general-science** — `papers/Konopinski_Teller__1946--ignition_atmosphere_nuclear_bombs.pdf` (LANL scan 00329010, byte-identical to the FAS copy), hand transcription at `papers/text/…txt`, summary entry `la-602-atmospheric-ignition` (commit `bf04d1b`). That is the collection copy; policy-levers does not duplicate it.
 
-The secondary sources already disagree on a word of the conclusion: Wellerstein (nuclearsecrecy, 2018) quotes "the **distant** possibility that some other less simple mode of burning may maintain itself"; the LessWrong *LA-602 vs. RHIC Review* post quotes "the **distinct** possibility". That word carries the residual-risk claim, so it must be read on the page.
+**Verification.** The transcription was checked against the page images of report pp. 10, 11, 13, 15 and 17 (scan pages run one ahead of the typed numbers). It matched on every number and phrase checked. Two transcriber notes hold up: the scan's "4(10)²¹ nuclei" in a 57 m sphere is a typo for 4 × 10³¹ (geometry gives 4.2 × 10³¹, and the next two figures only work with 10³¹), and "8-meter-radius sphere of liquid deuterium" is right (the arithmetic gives 7.9 m). The abstract quotes below are from the transcription, which matches the abstract as quoted by Wiescher (2024).
 
-Other conflicts to settle from the primary or a catalogue record:
-- Declassification year: 1973 (Ball, Nautilus 2023) vs 1979 (Physics Today, *Manhattan Project astrophysics*).
-- Author order/spelling: Konopinski, Marvin & Teller (title page per Wikipedia) vs "Teller, Konopinski, Marvin" (Ball) vs "Konopinsky" (EPJ reference list).
+**Corrections to rev. 1 (which relied on secondary sources):**
+- The conclusion reads "There remains the **distant probability** that some other less simple mode of burning may maintain itself in the atmosphere." Both secondary versions were wrong: LessWrong had "distinct possibility", Wellerstein "distant possibility". The report's own word is *probability* — which matters for §4.
+- Declassification: both dates are real. The cover carries "Classification changed to UNCLASSIFIED by authority of the U.S. Atomic Energy Commission … 2-2-73" and a "Special Re-Review Final Determination UNCLASSIFIED, Date: 7/30/79". Publicly releasable 1985/1996.
+- Author order on the title page: E. J. Konopinski, C. Marvin, E. Teller ("REPORT WRITTEN BY"; "WORK DONE BY" is blank).
 
-**Date matters for the framing.** LA-602 is dated 14 Aug 1946, thirteen months *after* Trinity (16 Jul 1945). It writes up calculations done 1942–45 (Berkeley summer study; Konopinski and Teller at Los Alamos; Bethe's independent check). So "builders produced LA-602 before proceeding" is wrong as history: the pre-test gate was the unwritten-up calculations plus (reportedly) Compton's threshold. LA-602 is the *archival form* of the argument, not the go/no-go document.
+**Date matters for the framing.** LA-602 is dated 14 Aug 1946, thirteen months *after* Trinity (16 Jul 1945), and writes up work done 1942–45. It is the archival form of the argument, not the go/no-go document.
 
 ## 1. How the argument is built
 
-**Question.** Can the hot region left by a fission bomb start a self-propagating nuclear reaction in air (or water)?
+**Criterion (§1).** "Propagation of the reaction demands that the energy production in each newly entered region exceed the losses from that region." Ignition temperature, if it exists, is where production rate = radiative loss rate.
 
-**Criterion.** An energy balance. Propagation requires the rate of energy production by fusion in the heated region to exceed the rate at which that region loses energy. Define the "safety factor" as loss rate ÷ production rate; ignition needs it below 1.
+**Method rule, stated up front (§1):** "Because of the uncertainties in the knowledge of these processes, the policy should be adopted of exaggerating the dangers at any point which appears at all questionable." Applied consistently:
+- **Channel:** ¹⁴N + ¹⁴N, credited with the 17.7 MeV of the alpha branch ("In accord with the policy of adopting the most dangerous assumptions"). Oxygen, carbon and rare gases dismissed as "much more stable". Protons (steam over oceans) and secondary reactions of the products handled separately and shown to add less (cross section ≤ 1 b geometric; ~1/8 the energy; measured N+n and N+α resonances peak at ~1/8 b).
+- **Cross section** "not known from observation": geometric 2 b at all energies ("constant", an upper bound), or 2 b above the 8.6 MeV barrier with Gamow suppression below.
+- **Energy deposition:** all reaction energy goes first to the nuclei, so the electron temperature — which drives the loss — lags (T_e ≈ 0.4 MeV at T_n = 10 MeV). This inflates the danger.
+- **Losses:** electron bremsstrahlung (main loss), then inverse Compton in §5. Hydrodynamic expansion and bomb-to-air coupling losses are *left out* as a matter of policy, since they are hard to calculate and would help.
 
-**Production side** (Physics Today; Wiescher, EPJ Web Conf 2024, describing the report's figure):
-- Dominant channel: ¹⁴N + ¹⁴N, chosen because nitrogen dominates air. Also considered: ¹⁴N + H from dissociated water vapour; for the ocean, reactions involving oxygen and hydrogen.
-- Two production curves, as bounding cases: a **constant (geometric) cross section** taken from nuclear size — an upper bound that ignores Coulomb suppression — and a **Gamow-penetration** cross section that falls steeply at low energy.
+**Structure.** (i) Production vs loss at every nuclear temperature → safety factor S(T) (§§2–3). (ii) The minimum volume that must be heated, and whether any bomb can heat it (§4). (iii) If a reaction somehow starts, it is quenched (§5).
 
-**Loss side:** radiative cooling — bremsstrahlung / X-ray emission and energy transfer from hot electrons to the radiation field by the Compton effect ("as predicted by Arthur Compton" in the figure caption, per EPJ). Air is thin enough that this radiation escapes or soaks up the energy.
+## 2. Numerical safety margins (hard-constraint callouts)
 
-**Structural move.** The report does not estimate how hot the bomb gets and then check that one point. It sweeps temperature and shows loss > production *at every temperature*, then locates the minimum margin and observes that the minimum sits at temperatures no fission bomb can reach. This is a worst case over the uncontrolled variable, not an estimate of it.
+All read on the page except where noted. Scope for all: air at sea-level density, the report's assumptions, "bombs now under consideration" (1946).
 
-## 2. Numerical safety margins
+> **Minimum safety factor.** "The 'safety factor' as defined by S = |dE/dt|_B / (dE/dt)_G is plotted in Fig. 3. It has a flat minimum in the neighborhood of 100 Mev nuclear temperature. … Accordingly, the present calculations indicate that no ignition point exists. On the other hand the margin of safety becomes only ~1.6." (§3, p. 11.) The abstract places the descent "to a value of only about 1.6 just beyond a 10-Mev temperature" — consistent with a minimum that is flat from ~10 to ~100 MeV.
 
-> **Hard number — LA-602 minimum safety factor.** "The disquieting feature is that the "safety factor", i.e. the ratio of losses to gains of energy, decreases rapidly with the initial temperature, and descends to a value of only about 1.6 just beyond a 10-MeV temperature. It is impossible to reach such temperatures unless fission bombs or thermonuclear bombs are used which greatly exceed the bombs now under consideration."
-> **Source:** LA-602 as quoted by M. Wiescher, *The Manhattan Project and the Development of Nuclear Astrophysics*, EPJ Web of Conferences (SNP 2024), §3. **Read on:** the EPJ PDF via a summarizing fetch, not LA-602 itself. **Scope:** air, ¹⁴N+¹⁴N with the report's cross-section assumptions; "bombs now under consideration" = 1945–46 fission weapons.
+> **Minimum heated volume.** Energy-loss cross section "not more than 3.5 barns. This corresponds to a mean free path in air of about 57 meters. Only a sphere of 57 meters radius can retain a substantial part of the energy produced." Heating it to T_n = 10 MeV "requires about 7.5(10)³² Mev of energy." (§4, p. 13.)
 
-> **Hard number — abstract.** "The energy losses to radiation always overcompensate the gains due to reactions" (abstract, as quoted by Physics Today). **Read on:** Physics Today feature, via summarizing fetch. **Scope:** same.
+> **Fission bombs can't get there.** "A fission bomb produces about 5(10)²⁶ Mev per kg of active material, when working with 100% efficiency. If also all the produced energy goes to produce the air temperature, then 1.5(10)⁶ Kg of material would have to be burned up … Actually at most 1% of the bomb energy may be available to produce the temperature." (§4, p. 13.)
+
+> **Super-bomb.** "To heat the 57-meter sphere of air, at least an 8-meter-radius sphere of liquid deuterium must be burned." (§4, p. 13.)
+
+> **Worst sub-case (O + C channel).** Energy deposited within 7 m; heating that to 10 MeV "requires the energy released in the fission of about 3 tons of active material. If a super-bomb is used, a sphere of liquid deuterium only 1 to 1.5 meters in radius may suffice." But lower yield raises the minimum safety factor "to 1.6/0.6 = 2.67". (§4, pp. 13–14; transcription.)
+
+> **With inverse Compton.** "In a heated sphere of 57-meter radius … the losses due to radiation are multiplied by 4.6 through the Compton effect. This makes the safety factor 4.6 x 1.6 = 7.4 against detonating air if the alpha-producing N + N reactions are relied upon. In a heated sphere of only 7 meters radius the radiation losses are increased only about 40% … the safety is increased only to 1.4 x 2.67 = 3.8." (§5, pp. 15–16.)
+
+> **Quenching distance.** Quenching "becomes serious as soon as the reacting region becomes greater than a sphere of ~50 meter radius"; a detonation front (≥ 5 × 10⁹ cm/s ≈ c/6) is quenched once it "has travelled ~100 meters." (§5, pp. 16–17.)
 
 **Inferences (my arithmetic, not the report's):**
-- 10 MeV ≈ 1.2 × 10¹¹ K. Physics Today puts the relevant fireball temperatures at "a few million degrees", i.e. a few hundred eV. The temperature gap between where the bomb is and where the margin is thinnest is therefore **~10⁴–10⁵**.
-- So the protection has two layers: (a) loss/gain ≥ ~1.6 even at the worst temperature; (b) the reachable temperature is four to five orders of magnitude below that worst point, where the factor is (per the report's wording) much larger. **The values of the safety factor at bomb-relevant temperatures are the numbers to extract from the primary** — the secondary sources give only the 1.6 minimum.
-- Direction of the bound: 1.6 is a *floor* on loss/gain over all temperatures, under the report's cross sections. It says nothing about channels not modelled.
-
-**What happened to the margin later.** Wiescher reports that Teller worried about the margin shrinking at "higher temperature and density conditions" — larger thermonuclear devices and deep underwater tests. Physics Today adds that 1950s Oak Ridge measurements found fusion probabilities *below* the geometric cross section assumed, i.e. the report's production estimate was conservative in the direction that mattered. Tsar Bomba (50 Mt, 1961) did not ignite anything.
+- 7.5 × 10³² MeV = 1.2 × 10²⁰ J ≈ **29,000 Mt** delivered *into the air*. At the report's ≤1% fission coupling that is **~2.9 million Mt** of fission yield, ~10⁸ × Trinity (~21 kt). For fission bombs the protection is the *energy gap*, not the 1.6.
+- The thin case is the super-bomb on the O + C channel: 1–1.5 m of liquid deuterium is ~0.7–2.3 t. That is the scenario where the energy gap closes and the margin falls back to S = 2.67 → 3.8 with Compton. It is consistent with Teller's later worry about thermonuclear weapons, and it is where the report's protection was genuinely just the safety factor.
+- 10 MeV ≈ 1.2 × 10¹¹ K.
 
 ## 3. Assumptions it depends on, and what it leaves open
 
-Depends on:
-1. **The modelled channels are the dominant ones** (¹⁴N+¹⁴N; N+H; O for water).
-2. **Cross sections bounded from geometry**, with no measurement behind them ("crude… but most likely provided a reliable upper limit" — Wiescher's characterization).
-3. **The radiation-loss physics** (bremsstrahlung, Compton coupling) applies in the regime considered.
-4. **Bomb temperature** stays well below the ~10 MeV minimum-margin point (scope: "bombs now under consideration").
+Depends on: (1) the enumerated channels being the dominant ones; (2) cross sections bounded by geometry, with no measurement ("It seems desirable to obtain a better experimental knowledge of the reaction cross section"); (3) the bremsstrahlung and Compton physics, with the relativistic correction admitted to be approximate (footnote, p. 9); (4) the Chapman–Jouguet treatment of a propagating front, which it says "is not clear … is applicable"; (5) bomb energies of the 1946 class.
 
-Leaves open (per the conclusion as quoted secondhand):
-- "There remains the [distinct/distant] possibility that some other less simple mode of burning may maintain itself in the atmosphere."
-- "the complexity of the argument and the absence of satisfactory experimental foundations makes further work on the subject highly desirable."
-- Scope beyond 1946 bombs — explicitly flagged as a re-analysis trigger.
+Leaves open, in its own words:
+- "it is not inconceivable that our estimates are greatly in error and thermonuclear reaction may actually start to propagate" (then argues Compton quenching).
+- "There remains the distant probability that some other less simple mode of burning may maintain itself in the atmosphere."
+- "Even if the reaction is stopped within a sphere of a few hundred meters radius, the resultant earth-shock and the radioactive contamination of the atmosphere might become catastrophic on a world-wide scale." — a second catastrophe channel *short of* ignition, which the report raises and does not bound.
+- "One may conclude that the arguments of this paper make it unreasonable to expect that the N + N reaction could propagate. An unlimited propagation is even less likely. However, the complexity of the argument and the absence of satisfactory experimental foundations makes further work on the subject highly desirable."
 
-**The historical failure mode of this argument class.** Castle Bravo (1 Mar 1954): predicted ~6 Mt, actual 15 Mt, because designers "considered only the lithium-6 isotope… to be reactive" and lithium-7 was not inert (Wikipedia, *Castle Bravo*). A margin of 2.5× was blown through by an unmodelled channel — exactly LA-602's "less simple mode" residual. Physics-grade arguments do not fail by being slightly off; they fail by missing a mechanism, and the stated margin says nothing about that.
+One textual oddity: p. 11 is typed "even though temperatures approaching 10 Mev seem hardly impossible." With "even though", the sense must be "hardly possible"; the transcription marks it [sic]. That is an interpretation, but the only one that parses.
 
-## 4. Why it is a physics-grade argument, not a probability
+**The failure mode of this argument class.** Castle Bravo (1 Mar 1954): predicted ~6 Mt, actual 15 Mt, because designers "considered only the lithium-6 isotope… to be reactive" (Wikipedia). An unmodelled channel — exactly LA-602's "less simple mode" — blew through a 2.5× margin.
 
-- **It is an inequality over a swept variable.** Loss > gain for every temperature, under inputs biased toward ignition. The output is "no", conditional on the model — not a number between 0 and 1.
-- **Unknown inputs are bounded from the dangerous side.** The cross section, the one quantity they could not measure, is set to its geometric maximum.
-- **The margin is quantified and located** (≥1.6, thinnest at ~10 MeV), so a reader knows where the argument is weakest.
-- **The residual is named, not priced.** Unmodelled modes are stated as open; no probability is attached.
-- **It was independently checkable and checked.** Bethe worked the problem in 1942 and found the reaction "incredibly unlikely"; he called Konopinski's calculations a detailed demonstration (Horgan interview, Scientific American blog).
-- Bethe's own gloss (letter replying to Dudley, *Bulletin of the Atomic Scientists*, 1976, as quoted by Ball): **"Ignition is not a matter of probabilities; it is simply impossible."**
+## 4. Why it is a physics-grade argument — and where it stops being one
 
-In Narayanan & Kapoor's taxonomy, LA-602 is the clean case of a **deductive (model-based)** argument — the kind they accept (they use the asteroid case the same way). It is not a subjective probability, and it contains no inductive base rate.
+What makes it deductive rather than a guess:
+- **An explicit worst-case policy**, stated before any calculation and applied at every uncertain step.
+- **A sweep over the free variable.** S(T) > 1 at every temperature; it does not need to know how hot the bomb gets.
+- **Quantified, located margins** (1.6 at the flat minimum; 2.67, 3.8, 7.4 by case), so a reader knows where the argument is thinnest.
+- **A second, independent layer**: even if S were wrong, the energy needed to heat the minimum volume is far beyond fission bombs.
+- **A third layer**: a reaction that started would be quenched within ~100 m.
+- **Checkable**: Bethe independently found the reaction "incredibly unlikely" in 1942 (Horgan interview).
 
-## 5. Compton's threshold — kept separate
+**Correction to rev. 1 — it does not claim impossibility.** Its conclusion is graded and probabilistic in wording: "unreasonable to expect", "even less likely", "not inconceivable that our estimates are greatly in error", "the distant probability" of another mode. Bethe's later gloss, "not a matter of probabilities; it is simply impossible" (letter to the *Bulletin*, 1976, via Ball), is stronger than the report. The honest description: a deductive bound with stacked margins **inside the model**, plus a residual about the *model itself* that the authors name and leave unquantified. Pricing that residual is a decision-maker's job — which is exactly what Compton's threshold does (§5).
 
-- **Origin:** Pearl S. Buck, "The Bomb — The End of the World?", *The American Weekly*, 1959, reporting an interview with Arthur Compton. Repeated by H. C. Dudley, "The Ultimate Catastrophe", *Bulletin of the Atomic Scientists*, Nov 1975.
-- **Rebuttal:** Bethe, replying in the *Bulletin* (1976): Buck "had completely misunderstood Compton"; "no chance whatever"; "not a matter of probabilities".
-- **Two different numbers may be in play.** Ball (Nautilus 2023) gives Compton's *decision threshold* as "less-than three-in-1-million". Horgan gives Buck's report of the *computed* odds as "slightly less" than **one in three** million. 3 × 10⁻⁶ vs 3.3 × 10⁻⁷ differ by 9×. The handoff's "~3 in a million (or slightly less than one in three million)" may be conflating a threshold with an estimate. **Needs Buck's text.**
-- **Provenance doubt:** Ball notes many of Buck's Compton quotes "repeat essentially verbatim" Compton's 1956 memoir *Atomic Quest*. Whether *Atomic Quest* itself contains a number is unverified — if it does, "the figure comes only from Buck" is false.
-- **Status:** no number appears in LA-602. The ~10⁻⁶ "Trinity standard" is therefore a **normative proposal borrowing a disputed anecdote**, not a documented historical policy. Pitch it that way, or a hostile staffer will.
+In Narayanan & Kapoor's taxonomy, the inside-the-model part is the **deductive** kind they accept. The model-error residual is not covered by any of their three types; it is irreducibly a judgement.
 
-Scale check (my arithmetic): 10⁻⁶ × 8.2 × 10⁹ people ≈ 8,200 expected deaths, present population only. At a $10M VSL (Jones, citing EPA/DOT) that is ~$8 × 10¹⁰ — a cost-benefit-sized number, which is one reason 10⁻⁶ is a defensible bar.
+## 5. Compton's threshold
+
+- **Origin:** Pearl S. Buck, "The Bomb — The End of the World?", *The American Weekly*, 1959, reporting Arthur Compton describing his *own* decision rule in 1942: proceed only if the odds of ignition were below roughly three in a million. Repeated by H. C. Dudley, *Bulletin of the Atomic Scientists*, Nov 1975.
+- **Bethe's reply** (*Bulletin*, 1976): Buck "had completely misunderstood Compton"; "not a matter of probabilities; it is simply impossible."
+- **These don't conflict.** Bethe's is a claim about the physics; Compton's is a decision rule under uncertainty about whether the physicists were right. LA-602's own "distant probability" for an unmodelled mode is the residual Compton's threshold prices. (Dan's point, 31 Oct.)
+- **Exact figure:** "three in a million" vs "one in three million" is a factor of 9, immaterial for a ~10⁻⁶ bar and an easy slip in a lay interview. Treat as ~10⁻⁶.
+- **Still open:** whether Compton's *Atomic Quest* (1956) — which Ball says Buck's quotes closely track — states the threshold in Compton's own words. If so, the anecdote becomes first-hand.
+- **Status:** no number appears in LA-602. Wording for external use: "Compton reportedly set himself a threshold of about one in a million."
+
+Scale check (my arithmetic): 10⁻⁶ × 8.2 × 10⁹ people ≈ 8,200 expected deaths, present population only; at a $10M VSL (Jones, citing EPA/DOT) ≈ $8 × 10¹⁰.
 
 ## 6. What an "LA-602 for ASI" would have to contain
 
@@ -86,6 +97,7 @@ Mapping each structural feature of LA-602 onto ASI, with whether we can supply i
 |---|---|---|
 | A necessary condition for catastrophe (gain > loss) | A decomposition: catastrophe requires capability **and** propensity **and** failure of external control; show one fails with margin | Decompositions exist (safety-case literature: inability / control / trustworthiness); none has a quantitative criterion |
 | Worst case swept over the free variable (all temperatures) | Show the failing condition holds **at every capability level the system can reach** | **No.** Control and oversight arguments weaken as capability rises — the safety factor falls with temperature here too — and ASI is by definition the high-temperature end |
+| Worst-case policy at every uncertain step ("exaggerating the dangers at any point which appears at all questionable") | The applicant must resolve every uncertainty against itself, and say where | **Yes as a rule** — and it is the in-analysis form of burden-on-builder |
 | Unknown inputs bounded from the dangerous side (geometric cross section) | **Upper** bounds on dangerous capability or propensity | **No, and the direction is inverted.** Evals give *lower* bounds on capability (a demonstrated success); failure to elicit does not upper-bound it, and sandbagging makes it worse |
 | Stationary physics (nitrogen does not adapt) | The analysed system does not search for the unmodelled channel | **No.** An optimizer looks for exactly the "less simple mode of burning"; LA-602's tolerable residual becomes the dominant term |
 | Quantified, located margin | Margin on the failing condition, and where it is thinnest | No accepted metric |
@@ -93,7 +105,7 @@ Mapping each structural feature of LA-602 onto ASI, with whether we can supply i
 | Independent replication (Bethe) | Third parties can rerun the argument on weights, internals and training data | Not under current access |
 | Explicit scope + re-analysis trigger ("bombs now under consideration") | Authorization scoped to a capability/compute level, re-opened on scale-up | **Yes** — maps cleanly onto threshold-based licensing |
 
-**Strongest conclusion — and the one that cuts against the "LA-602 for ASI" framing:** LA-602 is an **inability** argument (air cannot sustain the burn) whose margin comes from the gap between reachable and dangerous temperatures. For ASI, inability is ruled out by definition and the system sits at the dangerous end. So no LA-602-*type* argument can be written for ASI with known science. What *can* be written are LA-602-type arguments for systems **below** a capability threshold — which is an argument for capability-scoped authorization, not for an ASI certificate. Whether a 10⁻⁶ argument for ASI is possible in principle is open; that none exists now is not.
+**Strongest conclusion — and the one that cuts against the "LA-602 for ASI" framing:** LA-602 is an **inability** argument (air cannot sustain the burn) whose strongest layer is the gap between the energy a bomb can deliver and the energy the dangerous state needs (~10⁸ for fission bombs; the 1.6–7.4 safety factors only carry the load in the super-bomb case). For ASI, inability is ruled out by definition and the system sits at the dangerous end. So no LA-602-*type* argument can be written for ASI with known science. What *can* be written are LA-602-type arguments for systems **below** a capability threshold — which is an argument for capability-scoped authorization, not for an ASI certificate. Whether a 10⁻⁶ argument for ASI is possible in principle is open; that none exists now is not.
 
 ## 7. Does the gap support a pre-release authorization regime?
 
@@ -122,15 +134,23 @@ Mapping each structural feature of LA-602 onto ASI, with whether we can supply i
 
 **Net.** The gap — no LA-602 for ASI, no single decision-maker — supports a **capability-scoped, burden-on-builder authorization regime** whose evidentiary requirements tighten with capability, with the gate on training and internal deployment as well as release. It supports it *as policy* only if paired with an honest statement that, at the ASI end, no applicant can currently meet a Trinity-style bar, so the regime functions as a pause there until the science exists. Pitching the 10⁻⁶ figure as historical precedent, or the regime as a light-touch gate, would not survive scrutiny.
 
+## Discussion after rev. 1 (31 Oct, with Dan)
+
+- **Lean into burden-on-builder.** Dan wants "the builder must show risk below X" as the core frame. Three things to settle before pitching: it is a moratorium at the ASI end (say so first); what counts as proof matters more than X (quantitative where possible, severity-scaled process assurance where not); the gate covers training and internal use.
+- **A regulator, not the builder, evaluates.** Builders' own risk numbers are self-interested. And a lab-staff median below 1% would still miss a 10⁻⁶ bar by ~10⁴; opinion surveys aren't evidence either way — arguments are.
+- **Pre-registered warning shots.** The builder commits in advance to observable events that count as prima facie evidence of danger at a stated level (precedent: the NRC's accident-sequence-precursor program — threshold believed to be 10⁻⁶ conditional core-damage probability, *to verify* — and aviation incident reporting). Failure modes: training against the signal (fix: regulator co-writes and holds back tests, bans training on them); absence of warning shots must not count as evidence of safety; triggers and consequences must be locked with the regulator. Candidate follow-on: an inventory of warning shots proposed on LessWrong/AF and elsewhere vs what has occurred and what followed.
+
 ## Open items
 
-1. Read LA-602 primary: verify the 1.6 quote, "distinct/distant", the safety factor at bomb-relevant temperatures, the full list of channels and loss mechanisms, the ocean/water section, and the abstract. Then add to the paper collection.
-2. Get Buck (1959) and Bethe's 1976 *Bulletin* letter; check *Atomic Quest* (1956) for any number. Settle threshold vs estimate (3 × 10⁻⁶ vs 3.3 × 10⁻⁷).
-3. Read AC 25.1309-1B and RG 1.174 on the page to upgrade the two callouts from secondary.
-4. Prior art on the framing: Tegmark's "Compton constant" (arXiv 2504.18530; don't cite the paper for a number); Yudkowsky-era *LA-602 vs. RHIC Review* (LessWrong) on argument form; Stojan, HackerNoon, 16 Oct 2026 (promotional, no numbers).
+1. ~~Read LA-602 primary~~ — done (general-science `bf04d1b`; spot-checked against the scan, rev. 2).
+2. Check *Atomic Quest* (1956) for the threshold in Compton's own words; get Buck (1959) and Bethe's 1976 *Bulletin* letter.
+3. Read AC 25.1309-1B and RG 1.174 on the page to upgrade the two §7 callouts from secondary; verify the NRC precursor threshold.
+4. Warning-shot inventory (above), if wanted.
+5. Prior art on the framing: Tegmark's "Compton constant" (arXiv 2504.18530; don't cite the paper for a number); *LA-602 vs. RHIC Review* (LessWrong); Stojan, HackerNoon, 16 Oct 2026 (promotional).
 
 ## Sources
 
+- LA-602 primary: `general-science/papers/Konopinski_Teller__1946--ignition_atmosphere_nuclear_bombs.pdf` and its transcription (LANL scan 00329010; [FAS copy](https://fas.org/sgp/othergov/doe/lanl/docs1/00329010.pdf))
 - [Wiescher, *The Manhattan Project and the Development of Nuclear Astrophysics*, EPJ Web Conf. (SNP 2024)](https://www.epj-conferences.org/articles/epjconf/pdf/2024/11/epjconf_snp2024_01004.pdf)
 - [Physics Today, *Manhattan Project astrophysics*](https://physicstoday.aip.org/features/manhattan-project-astrophysics)
 - [Wellerstein, *Cleansing thermonuclear fire* (2018)](https://blog.nuclearsecrecy.com/2018/06/29/cleansing-thermonuclear-fire/)
