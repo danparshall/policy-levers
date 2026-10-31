@@ -1,5 +1,7 @@
 # Research Log — main (misc / cross-line sessions)
 
+- 2026-10-31: [Dan (web, policy-levers, 20261031T1353, opus-5.5)] Built and fact-checked interview examples for "alignment is hard: humans don't agree on values" (apostasy reframed via 1526 Christendom, ~40% not >50%; cancer disclosure, Haidt dog, Moral Machine + German Guideline 9, fairness impossibility, ACX heights as control failure) — convos/20261031_alignment_value_disagreement.md
+
 ## Session: 2026-09-23 — essay_pointers_and_housekeeping
 ### Topics Explored
 - Sync for the web agent's compute-verification leave-behind; pushed Dan's HTML edit pass
